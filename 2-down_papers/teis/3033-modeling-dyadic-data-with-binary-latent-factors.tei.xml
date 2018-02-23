@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Modeling Dyadic Data with Binary Latent Factors</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Meeds</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">Cambridge University</orgName>
+								<orgName type="institution" key="instit3">University of Toronto</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zoubin</forename><surname>Ghahramani</surname></persName>
+							<email>zoubin@eng.cam.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">Cambridge University</orgName>
+								<orgName type="institution" key="instit3">University of Toronto</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Radford</forename><surname>Neal</surname></persName>
+							<email>radford@cs.toronto.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">Cambridge University</orgName>
+								<orgName type="institution" key="instit3">University of Toronto</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><surname>Roweis</surname></persName>
+							<email>roweis@cs.toronto.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">Cambridge University</orgName>
+								<orgName type="institution" key="instit3">University of Toronto</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Modeling Dyadic Data with Binary Latent Factors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce binary matrix factorization, a novel model for unsupervised matrix decomposition. The decomposition is learned by fitting a non-parametric Bayesian probabilistic model with binary latent variables to a matrix of dyadic data. Unlike bi-clustering models, which assign each row or column to a single cluster based on a categorical hidden feature, our binary feature model reflects the prior belief that items and attributes can be associated with more than one latent cluster at a time. We provide simple learning and inference rules for this new model and show how to extend it to an infinite model in which the number of features is not a priori fixed but is allowed to grow with the size of the data. 1 Distributed representations for dyadic data One of the major goals of probabilistic unsupervised learning is to discover underlying or hidden structure in a dataset by using latent variables to describe a complex data generation process. In this paper we focus on dyadic data: our domains have two finite sets of objects/entities and observations are made on dyads (pairs with one element from each set). Examples include sparse matrices of movie-viewer ratings, word-document counts or product-customer purchases. A simple way to capture structure in this kind of data is to do &quot;bi-clustering&quot; (possibly using mixture models) by grouping the rows and (independently or simultaneously) the columns[6, 13, 9]. The modelling assumption in such a case is that movies come in Ã types and viewers in Ä types and that knowing the type of movie and type of viewer is sufficient to predict the response. Clustering or mixture models are quite restrictive-their major disadvantage is that they do not admit a componential or distributed representation because items cannot simultaneously belong to several classes. (A movie, for example, might be explained as coming from a cluster of &quot;dramas&quot; or &quot;comedies&quot;; a viewer as a &quot;single male&quot; or as a &quot;young mother&quot;.) We might instead prefer a model (e.g. [10, 5]) in which objects can be assigned to multiple latent clusters: a movie might be a drama and have won an Os-car and have subtitles; a viewer might be single and female and a university graduate. Inference in such models falls under the broad area of factorial learning (e.g. [7, 1, 3, 12]), in which multiple interacting latent causes explain each observed datum. In this paper, we assume that both data items (rows) and attributes (columns) have this kind of componential structure: each item (row) has associated with it an unobserved vector of Ã binary features; similarly each attribute (column) has a hidden vector of Ä binary features. Knowing the features of the item and the features of the attribute are sufficient to generate (before noise) the response at that location in the matrix. In effect, we are factorizing a real-valued data (response) matrix 񮽙 into (a distribution defined by) the product ÍÏÎ 񮽙 , where Í and Î are binary feature matrices, and Ï is a real-valued weight matrix. Below, we develop this binary matrix factorization</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

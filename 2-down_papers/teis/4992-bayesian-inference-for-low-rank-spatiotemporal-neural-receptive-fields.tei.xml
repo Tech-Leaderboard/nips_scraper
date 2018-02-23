@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian inference for low rank spatiotemporal neural receptive fields</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mijung</forename><surname>Park</surname></persName>
+							<email>mjpark@mail.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Electrical and Computer Engineering</orgName>
+								<orgName type="laboratory">Center for Perceptual Systems The University of Texas at Austin</orgName>
+								<orgName type="institution">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">W</forename><surname>Pillow</surname></persName>
+							<email>pillow@mail.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Electrical and Computer Engineering</orgName>
+								<orgName type="laboratory">Center for Perceptual Systems The University of Texas at Austin</orgName>
+								<orgName type="institution">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian inference for low rank spatiotemporal neural receptive fields</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The receptive field (RF) of a sensory neuron describes how the neuron integrates sensory stimuli over time and space. In typical experiments with naturalistic or flickering spatiotemporal stimuli, RFs are very high-dimensional, due to the large number of coefficients needed to specify an integration profile across time and space. Estimating these coefficients from small amounts of data poses a variety of challenging statistical and computational problems. Here we address these challenges by developing Bayesian reduced rank regression methods for RF estimation. This corresponds to modeling the RF as a sum of space-time separable (i.e., rank-1) filters. This approach substantially reduces the number of parameters needed to specify the RF, from 1K-10K down to mere 100s in the examples we consider, and confers substantial benefits in statistical power and computational efficiency. We introduce a novel prior over low-rank RFs using the restriction of a matrix normal prior to the manifold of low-rank matrices, and use &quot;localized&quot; row and column covariances to obtain sparse, smooth, localized estimates of the spatial and temporal RF components. We develop two methods for inference in the resulting hierarchical model: (1) a fully Bayesian method using blocked-Gibbs sampling; and (2) a fast, approximate method that employs alternating ascent of conditional marginal likelihoods. We develop these methods for Gaussian and Poisson noise models, and show that low-rank estimates substantially outperform full rank estimates using neural data from retina and V1.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

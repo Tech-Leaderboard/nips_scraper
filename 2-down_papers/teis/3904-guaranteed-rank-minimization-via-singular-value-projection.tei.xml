@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Guaranteed Rank Minimization via Singular Value Projection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prateek</forename><surname>Jain</surname></persName>
+							<email>prajain@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Austin Dept. of Computer Sciences Austin</orgName>
+								<orgName type="department" key="dep2">Austin Dept. of Computer Sciences Austin</orgName>
+								<orgName type="institution">Microsoft Research Bangalore Bangalore</orgName>
+								<address>
+									<region>TX, TX</region>
+									<country>India, USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raghu</forename><surname>Meka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Austin Dept. of Computer Sciences Austin</orgName>
+								<orgName type="department" key="dep2">Austin Dept. of Computer Sciences Austin</orgName>
+								<orgName type="institution">Microsoft Research Bangalore Bangalore</orgName>
+								<address>
+									<region>TX, TX</region>
+									<country>India, USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Inderjit</forename><surname>Dhillon</surname></persName>
+							<email>inderjit@cs.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Austin Dept. of Computer Sciences Austin</orgName>
+								<orgName type="department" key="dep2">Austin Dept. of Computer Sciences Austin</orgName>
+								<orgName type="institution">Microsoft Research Bangalore Bangalore</orgName>
+								<address>
+									<region>TX, TX</region>
+									<country>India, USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Guaranteed Rank Minimization via Singular Value Projection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Minimizing the rank of a matrix subject to affine constraints is a fundamental problem with many important applications in machine learning and statistics. In this paper we propose a simple and fast algorithm SVP (Singular Value Projection) for rank minimization under affine constraints (ARMP) and show that SVP recovers the minimum rank solution for affine constraints that satisfy a restricted isometry property (RIP). Our method guarantees geometric convergence rate even in the presence of noise and requires strictly weaker assumptions on the RIP constants than the existing methods. We also introduce a Newton-step for our SVP framework to speed-up the convergence with substantial empirical gains. Next, we address a practically important application of ARMP-the problem of low-rank matrix completion, for which the defining affine constraints do not directly obey RIP, hence the guarantees of SVP do not hold. However, we provide partial progress towards a proof of exact recovery for our algorithm by showing a more restricted isometry property and observe empirically that our algorithm recovers low-rank incoherent matrices from an almost optimal number of uniformly sampled entries. We also demonstrate empirically that our algorithms outperform existing methods, such as those of [5, 18, 14], for ARMP and the matrix completion problem by an order of magnitude and are also more robust to noise and sampling schemes. In particular, results show that our SVP-Newton method is significantly robust to noise and performs impressively on a more realistic power-law sampling scheme for the matrix completion problem.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

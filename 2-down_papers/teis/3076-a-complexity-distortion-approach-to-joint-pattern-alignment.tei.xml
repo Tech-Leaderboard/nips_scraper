@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Complexity-Distortion Approach to Joint Pattern Alignment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrea</forename><surname>Vedaldi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of California at Los Angeles Los Angeles</orgName>
+								<address>
+									<postCode>90035</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stefano</forename><surname>Soatto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of California at Los Angeles Los Angeles</orgName>
+								<address>
+									<postCode>90035</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Complexity-Distortion Approach to Joint Pattern Alignment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Image Congealing (IC) is a non-parametric method for the joint alignment of a collection of images affected by systematic and unwanted deformations. The method attempts to undo the deformations by minimizing a measure of complexity of the image ensemble, such as the averaged per-pixel entropy. This enables alignment without an explicit model of the aligned dataset as required by other methods (e.g. transformed component analysis). While IC is simple and general, it may introduce degenerate solutions when the transformations allow minimizing the complexity of the data by collapsing them to a constant. Such solutions need to be explicitly removed by regularization. In this paper we propose an alternative formulation which solves this regulariza-tion issue on a more principled ground. We make the simple observation that alignment should simplify the data while preserving the useful information carried by them. Therefore we trade off fidelity and complexity of the aligned ensemble rather than minimizing the complexity alone. This eliminates the need for an explicit regularization of the transformations, and has a number of other useful properties such as noise suppression. We show the modeling and computational benefits of the approach to the some of the problems on which IC has been demonstrated.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

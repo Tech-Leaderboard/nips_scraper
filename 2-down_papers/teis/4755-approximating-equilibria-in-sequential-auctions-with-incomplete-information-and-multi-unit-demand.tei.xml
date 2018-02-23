@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Approximating Equilibria in Sequential Auctions with Incomplete Information and Multi-Unit Demand</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amy</forename><surname>Greenwald</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Applied Math/Economics Brown University Providence</orgName>
+								<orgName type="institution">Brown University Providence</orgName>
+								<address>
+									<postCode>02912, 02912</postCode>
+									<region>RI, RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Sodomka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Applied Math/Economics Brown University Providence</orgName>
+								<orgName type="institution">Brown University Providence</orgName>
+								<address>
+									<postCode>02912, 02912</postCode>
+									<region>RI, RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiacui</forename><surname>Li</surname></persName>
+							<email>jiacui li@alumni.brown.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Applied Math/Economics Brown University Providence</orgName>
+								<orgName type="institution">Brown University Providence</orgName>
+								<address>
+									<postCode>02912, 02912</postCode>
+									<region>RI, RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Approximating Equilibria in Sequential Auctions with Incomplete Information and Multi-Unit Demand</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In many large economic markets, goods are sold through sequential auctions. Examples include eBay, online ad auctions, wireless spectrum auctions, and the Dutch flower auctions. In this paper, we combine methods from game theory and decision theory to search for approximate equilibria in sequential auction domains, in which bidders do not know their opponents&apos; values for goods, bidders only partially observe the actions of their opponents&apos;, and bidders demand multiple goods. We restrict attention to two-phased strategies: first predict (i.e., learn); second, optimize. We use best-reply dynamics [4] for prediction (i.e., to predict other bid-ders&apos; strategies), and then assuming fixed other-bidder strategies, we estimate and solve the ensuing Markov decision processes (MDP) [18] for optimization. We exploit auction properties to represent the MDP in a more compact state space, and we use Monte Carlo simulation to make estimating the MDP tractable. We show how equilibria found using our search procedure compare to known equilib-ria for simpler auction domains, and we approximate an equilibrium for a more complex auction domain where analytical solutions are unknown.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

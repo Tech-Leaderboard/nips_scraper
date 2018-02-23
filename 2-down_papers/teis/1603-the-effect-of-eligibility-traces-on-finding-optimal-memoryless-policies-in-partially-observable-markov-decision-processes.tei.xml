@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The effect of eligibility traces on finding optimal memoryless policies in partially observable Markov decision processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Loch</surname></persName>
+							<email>loch@cs.colorado.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Colorado Boulder</orgName>
+								<address>
+									<postCode>80309-0430</postCode>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The effect of eligibility traces on finding optimal memoryless policies in partially observable Markov decision processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Agents acting in the real world are confronted with the problem of making good decisions with limited knowledge of the environment. Partially observable Markov decision processes (POMDPs) model decision problems in which an agent tries to maximize its reward in the face of limited sensor feedback. Recent work has shown empirically that a reinforcement learning (RL) algorithm called Sarsa(A) can efficiently find optimal memoryless policies, which map current observations to actions, for POMDP problems (Loch and Singh 1998). The Sarsa(A) algorithm uses a form of short-term memory called an eligibility trace, which distributes temporally delayed rewards to observation-action pairs which lead up to the reward. This paper explores the effect of eligibility traces on the ability of the Sarsa(A) algorithm to find optimal memoryless policies. A variant of Sarsa(A) called k-step truncated Sarsa(A) is applied to four test problems taken from the recent work of Littman, Littman, Cassandra and Kaelbling, Parr and Russell, and Chrisman. The empirical results show that eligibility traces can be significantly truncated without affecting the ability of Sarsa(A) to find optimal memoryless policies for POMDPs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

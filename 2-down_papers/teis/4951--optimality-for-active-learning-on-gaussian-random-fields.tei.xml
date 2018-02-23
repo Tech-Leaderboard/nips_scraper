@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Σ-Optimality for Active Learning on Gaussian Random Fields</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yifei</forename><surname>Ma</surname></persName>
+							<email>yifeim@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="department" key="dep3">Robotics Institute</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">University of Bonn</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roman</forename><surname>Garnett</surname></persName>
+							<email>rgarnett@uni-bonn.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="department" key="dep3">Robotics Institute</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">University of Bonn</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeff</forename><surname>Schneider</surname></persName>
+							<email>schneide@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="department" key="dep3">Robotics Institute</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">University of Bonn</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Σ-Optimality for Active Learning on Gaussian Random Fields</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A common classifier for unlabeled nodes on undirected graphs uses label propagation from the labeled nodes, equivalent to the harmonic predictor on Gaussian random fields (GRFs). For active learning on GRFs, the commonly used V-optimality criterion queries nodes that reduce the L 2 (regression) loss. V-optimality satisfies a submodularity property showing that greedy reduction produces a (1 − 1/e) globally optimal solution. However, L 2 loss may not characterise the true nature of 0/1 loss in classification problems and thus may not be the best choice for active learning. We consider a new criterion we call Σ-optimality, which queries the node that minimizes the sum of the elements in the predictive covariance. Σ-optimality directly optimizes the risk of the surveying problem, which is to determine the proportion of nodes belonging to one class. In this paper we extend submodularity guarantees from V-optimality to Σ-optimality using properties specific to GRFs. We further show that GRFs satisfy the suppressor-free condition in addition to the conditional independence inherited from Markov random fields. We test Σ-optimality on real-world graphs with both synthetic and real data and show that it outperforms V-optimality and other related methods on classification.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

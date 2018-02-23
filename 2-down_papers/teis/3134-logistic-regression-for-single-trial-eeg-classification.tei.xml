@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Logistic Regression for Single Trial EEG Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryota</forename><surname>Tomioka</surname></persName>
+							<email>ryotat@first.fhg.de aihara@sat.t.u-tokyo.ac.jp</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kazuyuki</forename><surname>Aihara</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Klaus-Robert</forename><surname>Müller</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Mathematical Informatics</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">IST</orgName>
+								<orgName type="institution" key="instit2">The University of Tokyo</orgName>
+								<address>
+									<postCode>113-8656</postCode>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Technical University of Berlin</orgName>
+								<address>
+									<addrLine>Franklinstr. 28/29</addrLine>
+									<postCode>10587</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Logistic Regression for Single Trial EEG Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a novel framework for the classification of single trial ElectroEn-cephaloGraphy (EEG), based on regularized logistic regression. Framed in this robust statistical framework no prior feature extraction or outlier removal is required. We present two variations of parameterizing the regression function: (a) with a full rank symmetric matrix coefficient and (b) as a difference of two rank=1 matrices. In the first case, the problem is convex and the logistic regression is optimal under a generative model. The latter case is shown to be related to the Common Spatial Pattern (CSP) algorithm , which is a popular technique in Brain Computer Interfacing. The regression coefficients can also be topographically mapped onto the scalp similarly to CSP projections, which allows neuro-physiological interpretation. Simulations on 162 BCI datasets demonstrate that classification accuracy and robustness compares favorably against conventional CSP based classifiers.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

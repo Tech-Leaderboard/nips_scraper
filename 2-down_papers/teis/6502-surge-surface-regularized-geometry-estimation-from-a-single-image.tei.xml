@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SURGE: Surface Regularized Geometry Estimation from a Single Image</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peng</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaohui</forename><surname>Shen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Adobe Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bryan</forename><surname>Russell</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Adobe Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Cohen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Adobe Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><surname>Price</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Adobe Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><surname>Yuille</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Johns Hopkins University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SURGE: Surface Regularized Geometry Estimation from a Single Image</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper introduces an approach to regularize 2.5D surface normal and depth predictions at each pixel given a single input image. The approach infers and reasons about the underlying 3D planar surfaces depicted in the image to snap predicted normals and depths to inferred planar surfaces, all while maintaining fine detail within objects. Our approach comprises two components: (i) a four-stream convolutional neural network (CNN) where depths, surface normals, and likelihoods of planar region and planar boundary are predicted at each pixel, followed by (ii) a dense conditional random field (DCRF) that integrates the four predictions such that the normals and depths are compatible with each other and regularized by the planar region and planar boundary information. The DCRF is formulated such that gradients can be passed to the surface normal and depth CNNs via backpropagation. In addition, we propose new planar-wise metrics to evaluate geometry consistency within planar surfaces, which are more tightly related to dependent 3D editing applications. We show that our regularization yields a 30% relative improvement in planar consistency on the NYU v2 dataset [24].</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

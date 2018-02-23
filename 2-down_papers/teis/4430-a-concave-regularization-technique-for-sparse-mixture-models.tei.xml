@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A concave regularization technique for sparse mixture models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Larsson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Operations Research and Information Engineering</orgName>
+								<orgName type="department" key="dep2">Center for Applied Mathematics</orgName>
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johan</forename><surname>Ugander</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Operations Research and Information Engineering</orgName>
+								<orgName type="department" key="dep2">Center for Applied Mathematics</orgName>
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A concave regularization technique for sparse mixture models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Latent variable mixture models are a powerful tool for exploring the structure in large datasets. A common challenge for interpreting such models is a desire to impose sparsity, the natural assumption that each data point only contains few latent features. Since mixture distributions are constrained in their L 1 norm, typical sparsity techniques based on L 1 regularization become toothless, and concave reg-ularization becomes necessary. Unfortunately concave regularization typically results in EM algorithms that must perform problematic non-concave M-step maxi-mizations. In this work, we introduce a technique for circumventing this difficulty, using the so-called Mountain Pass Theorem to provide easily verifiable conditions under which the M-step is well-behaved despite the lacking concavity. We also develop a correspondence between logarithmic regularization and what we term the pseudo-Dirichlet distribution, a generalization of the ordinary Dirichlet distribution well-suited for inducing sparsity. We demonstrate our approach on a text corpus, inferring a sparse topic mixture model for 2,406 weblogs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

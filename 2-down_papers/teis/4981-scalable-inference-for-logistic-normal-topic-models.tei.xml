@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scalable Inference for Logistic-Normal Topic Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jianfei</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">State Key Lab of Intelligent Tech. &amp; Systems</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Technology</orgName>
+								<orgName type="institution" key="instit1">Tsinghua National TNList Lab</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jun</forename><surname>Zhu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">State Key Lab of Intelligent Tech. &amp; Systems</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Technology</orgName>
+								<orgName type="institution" key="instit1">Tsinghua National TNList Lab</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zi</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">State Key Lab of Intelligent Tech. &amp; Systems</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Technology</orgName>
+								<orgName type="institution" key="instit1">Tsinghua National TNList Lab</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xun</forename><surname>Zheng</surname></persName>
+							<email>xunzheng@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">State Key Lab of Intelligent Tech. &amp; Systems</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Technology</orgName>
+								<orgName type="institution" key="instit1">Tsinghua National TNList Lab</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bo</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">State Key Lab of Intelligent Tech. &amp; Systems</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Technology</orgName>
+								<orgName type="institution" key="instit1">Tsinghua National TNList Lab</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scalable Inference for Logistic-Normal Topic Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Logistic-normal topic models can effectively discover correlation structures among latent topics. However, their inference remains a challenge because of the non-conjugacy between the logistic-normal prior and multinomial topic mixing proportions. Existing algorithms either make restricting mean-field assumptions or are not scalable to large-scale applications. This paper presents a partially collapsed Gibbs sampling algorithm that approaches the provably correct distribution by exploring the ideas of data augmentation. To improve time efficiency, we further present a parallel implementation that can deal with large-scale applications and learn the correlation structures of thousands of topics from millions of documents. Extensive empirical results demonstrate the promise.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

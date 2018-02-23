@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Approximation Algorithms for 0-Low Rank Approximation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karl</forename><surname>Bringmann</surname></persName>
+							<email>kbringma@mpi-inf.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Informatics</orgName>
+								<orgName type="department" key="dep2">Saarland Informatics Campus</orgName>
+								<address>
+									<settlement>Saarbrücken</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pavel</forename><surname>Kolev</surname></persName>
+							<email>pkolev@mpi-inf.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Informatics</orgName>
+								<orgName type="department" key="dep2">Saarland Informatics Campus</orgName>
+								<address>
+									<settlement>Saarbrücken</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+							<email>dwoodruf@cs.cmu.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Approximation Algorithms for 0-Low Rank Approximation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the 0-Low Rank Approximation Problem, where the goal is, given an m × n matrix A, to output a rank-k matrix A for which A − A 0 is minimized. Here, for a matrix B, B 0 denotes the number of its non-zero entries. This NP-hard variant of low rank approximation is natural for problems with no underlying metric, and its goal is to minimize the number of disagreeing data positions. We provide approximation algorithms which significantly improve the running time and approximation factor of previous work. For k &gt; 1, we show how to find, in poly(mn) time for every k, a rank O(k log(n/k)) matrix A for which A − A 0 ≤ O(k 2 log(n/k)) OPT. To the best of our knowledge, this is the first algorithm with provable guarantees for the 0-Low Rank Approximation Problem for k &gt; 1, even for bicriteria algorithms. For the well-studied case when k = 1, we give a (2+)-approximation in sublinear time, which is impossible for other variants of low rank approximation such as for the Frobenius norm. We strengthen this for the well-studied case of binary matrices to obtain a (1 + O(ψ))-approximation in sublinear time, where ψ = OPT /A 0. For small ψ, our approximation factor is 1 + o(1).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Practical Bayesian Optimization of Machine Learning Algorithms</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jasper</forename><surname>Snoek</surname></persName>
+							<email>jasper@cs.toronto.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">School of Engineering and Applied Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">University of Sherbrooke</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hugo</forename><surname>Larochelle</surname></persName>
+							<email>hugo.larochelle@usherbrooke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">School of Engineering and Applied Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">University of Sherbrooke</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryan</forename><forename type="middle">P</forename><surname>Adams</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">School of Engineering and Applied Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">University of Sherbrooke</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Practical Bayesian Optimization of Machine Learning Algorithms</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The use of machine learning algorithms frequently involves careful tuning of learning parameters and model hyperparameters. Unfortunately, this tuning is often a &quot;black art&quot; requiring expert experience, rules of thumb, or sometimes brute-force search. There is therefore great appeal for automatic approaches that can optimize the performance of any given learning algorithm to the problem at hand. In this work, we consider this problem through the framework of Bayesian optimization , in which a learning algorithm&apos;s generalization performance is modeled as a sample from a Gaussian process (GP). We show that certain choices for the nature of the GP, such as the type of kernel and the treatment of its hyperparame-ters, can play a crucial role in obtaining a good optimizer that can achieve expert-level performance. We describe new algorithms that take into account the variable cost (duration) of learning algorithm experiments and that can leverage the presence of multiple cores for parallel experimentation. We show that these proposed algorithms improve on previous automatic procedures and can reach or surpass human expert-level optimization for many algorithms including latent Dirichlet allocation, structured SVMs and convolutional neural networks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

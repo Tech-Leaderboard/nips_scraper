@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A classification-based cocktail-party processor</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicoleta</forename><surname>Roman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information Department of Computer Science Science and Center for Cognitive Science</orgName>
+								<orgName type="institution" key="instit1">University of Sheffield</orgName>
+								<orgName type="institution" key="instit2">The Ohio State University</orgName>
+								<address>
+									<addrLine>211 Portobello Street Columbus</addrLine>
+									<postCode>43210, S1 4DP</postCode>
+									<settlement>Sheffield</settlement>
+									<region>OH</region>
+									<country>USA, UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Deliang</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information Department of Computer Science Science and Center for Cognitive Science</orgName>
+								<orgName type="institution" key="instit1">University of Sheffield</orgName>
+								<orgName type="institution" key="instit2">The Ohio State University</orgName>
+								<address>
+									<addrLine>211 Portobello Street Columbus</addrLine>
+									<postCode>43210, S1 4DP</postCode>
+									<settlement>Sheffield</settlement>
+									<region>OH</region>
+									<country>USA, UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guy</forename><forename type="middle">J</forename><surname>Brown</surname></persName>
+							<email>g.brown@dcs.shef.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information Department of Computer Science Science and Center for Cognitive Science</orgName>
+								<orgName type="institution" key="instit1">University of Sheffield</orgName>
+								<orgName type="institution" key="instit2">The Ohio State University</orgName>
+								<address>
+									<addrLine>211 Portobello Street Columbus</addrLine>
+									<postCode>43210, S1 4DP</postCode>
+									<settlement>Sheffield</settlement>
+									<region>OH</region>
+									<country>USA, UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A classification-based cocktail-party processor</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>At a cocktail party, a listener can selectively attend to a single voice and filter out other acoustical interferences. How to simulate this perceptual ability remains a great challenge. This paper describes a novel supervised learning approach to speech segregation, in which a target speech signal is separated from interfering sounds using spatial location cues: interaural time differences (ITD) and interaural intensity differences (IID). Motivated by the auditory masking effect, we employ the notion of an ideal time-frequency binary mask, which selects the target if it is stronger than the interference in a local time-frequency unit. Within a narrow frequency band, modifications to the relative strength of the target source with respect to the interference trigger systematic changes for estimated ITD and IID. For a given spatial configuration, this interaction produces characteristic clustering in the binaural feature space. Consequently, we perform pattern classification in order to estimate ideal binary masks. A systematic evaluation in terms of signal-to-noise ratio as well as automatic speech recognition performance shows that the resulting system produces masks very close to ideal binary ones. A quantitative comparison shows that our model yields significant improvement in performance over an existing approach. Furthermore, under certain conditions the model produces large speech intelligibility improvements with normal listeners.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

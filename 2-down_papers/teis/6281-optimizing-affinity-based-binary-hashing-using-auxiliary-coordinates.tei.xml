@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimizing Affinity-Based Binary Hashing Using Auxiliary Coordinates</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>EECS</roleName><forename type="first">Ramin</forename><surname>Raziperchikolaei</surname></persName>
+							<email>rraziperchikolaei@ucmerced.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Migueí</forename><forename type="middle">A</forename><surname>Carreira-Perpiñán</surname></persName>
+							<email>mcarreira-perpinan@ucmerced.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Perpiñán</forename><surname>Perpi˜</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eecs</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimizing Affinity-Based Binary Hashing Using Auxiliary Coordinates</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In supervised binary hashing, one wants to learn a function that maps a high-dimensional feature vector to a vector of binary codes, for application to fast image retrieval. This typically results in a difficult optimization problem, nonconvex and nonsmooth, because of the discrete variables involved. Much work has simply relaxed the problem during training, solving a continuous optimization, and trun-cating the codes a posteriori. This gives reasonable results but is quite suboptimal. Recent work has tried to optimize the objective directly over the binary codes and achieved better results, but the hash function was still learned a posteriori, which remains suboptimal. We propose a general framework for learning hash functions using affinity-based loss functions that uses auxiliary coordinates. This closes the loop and optimizes jointly over the hash functions and the binary codes so that they gradually match each other. The resulting algorithm can be seen as an iterated version of the procedure of optimizing first over the codes and then learning the hash function. Compared to this, our optimization is guaranteed to obtain better hash functions while being not much slower, as demonstrated experimentally in various supervised datasets. In addition, our framework facilitates the design of optimization algorithms for arbitrary types of loss and hash functions. Information retrieval arises in several applications, most obviously web search. For example, in image retrieval, a user is interested in finding similar images to a query image. Computationally, this essentially involves defining a high-dimensional feature space where each relevant image is represented by a vector, and then finding the closest points (nearest neighbors) to the vector for the query image, according to a suitable distance. For example, one can use features such as SIFT or GIST [23] and the Euclidean distance for this purpose. Finding nearest neighbors in a dataset of N images (where N can be millions), each a vector of dimension D (typically in the hundreds) is slow, since exact algorithms run essentially in time O(N D) and space O(N D) (to store the image dataset). In practice, this is approximated, and a successful way to do this is binary hashing [12]. Here, given a high-dimensional vector x ∈ R D , the hash function h maps it to a b-bit vector z = h(x) ∈ {−1, +1} b , and the nearest neighbor search is then done in the binary space. This now costs O(N b) time and space, which is orders of magnitude faster because typically b &lt; D and, crucially, (1) operations with binary vectors (such as computing Hamming distances) are very fast because of hardware support, and (2) the entire dataset can fit in (fast) memory rather than slow memory or disk. The disadvantage is that the results are inexact, since the neighbors in the binary space will not be identical to the neighbors in the original space. However, the approximation error can be controlled by using sufficiently many bits and by learning a good hash function. This has been the topic of much work in recent years. The general approach consists of defining a supervised objective that has a small value for good hash functions and minimizing it. Ideally, such an objective function should be minimal when the neighbors of any given image are the same in both original and binary spaces. Practically, in information retrieval, this is often evaluated using precision and recall. However, this 30th Conference on Neural Information Processing Systems (NIPS 2016), Barcelona, Spain.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

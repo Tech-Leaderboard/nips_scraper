@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On the Dynamics of Boosting *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cynthia</forename><surname>Rudin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Princeton University Progr. Appl. &amp; Comp. Math</orgName>
+								<address>
+									<addrLine>Fine Hall Washington Road Princeton</addrLine>
+									<postCode>08544-1000</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ingrid</forename><surname>Daubechies</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Princeton University Progr. Appl. &amp; Comp. Math</orgName>
+								<address>
+									<addrLine>Fine Hall Washington Road Princeton</addrLine>
+									<postCode>08544-1000</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+							<email>schapire@cs.princeton.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Princeton University</orgName>
+								<address>
+									<addrLine>35 Olden St. Princeton</addrLine>
+									<postCode>08544</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On the Dynamics of Boosting *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In order to understand AdaBoost&apos;s dynamics, especially its ability to maximize margins, we derive an associated simplified nonlinear iterated map and analyze its behavior in low-dimensional cases. We find stable cycles for these cases, which can explicitly be used to solve for Ada-Boost&apos;s output. By considering AdaBoost as a dynamical system, we are able to prove Rätsch and Warmuth&apos;s conjecture that AdaBoost may fail to converge to a maximal-margin combined classifier when given a &apos;non-optimal&apos; weak learning algorithm. AdaBoost is known to be a coordinate descent method, but other known algorithms that explicitly aim to maximize the margin (such as AdaBoost * and arc-gv) are not. We consider a differentiable function for which coordinate ascent will yield a maximum margin solution. We then make a simple approximation to derive a new boosting algorithm whose updates are slightly more aggressive than those of arc-gv.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

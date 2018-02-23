@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Avoiding Discrimination through Causal Reasoning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Niki</forename><surname>Kilbertus</surname></persName>
+							<email>nkilbertus@tue.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Max Planck ETH Center for Learning Systems</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mateo</forename><surname>Rojas-Carulla</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Max Planck ETH Center for Learning Systems</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Giambattista</forename><surname>Parascandolo</surname></persName>
+							<email>gparascandolo@tue.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Max Planck ETH Center for Learning Systems</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moritz</forename><surname>Hardt</surname></persName>
+							<email>hardt@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Max Planck ETH Center for Learning Systems</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dominik</forename><surname>Janzing</surname></persName>
+							<email>janzing@tue.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Max Planck ETH Center for Learning Systems</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernhard</forename><surname>Schölkopf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">Max Planck ETH Center for Learning Systems</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Avoiding Discrimination through Causal Reasoning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recent work on fairness in machine learning has focused on various statistical discrimination criteria and how they trade off. Most of these criteria are observational: They depend only on the joint distribution of predictor, protected attribute, features, and outcome. While convenient to work with, observational criteria have severe inherent limitations that prevent them from resolving matters of fairness conclusively. Going beyond observational criteria, we frame the problem of discrimination based on protected attributes in the language of causal reasoning. This viewpoint shifts attention from &quot;What is the right fairness criterion?&quot; to &quot;What do we want to assume about our model of the causal data generating process?&quot; Through the lens of causality, we make several contributions. First, we crisply articulate why and when observational criteria fail, thus formalizing what was before a matter of opinion. Second, our approach exposes previously ignored subtleties and why they are fundamental to the problem. Finally, we put forward natural causal non-discrimination criteria and develop algorithms that satisfy them.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

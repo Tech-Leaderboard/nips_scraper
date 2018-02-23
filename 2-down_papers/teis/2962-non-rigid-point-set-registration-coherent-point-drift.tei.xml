@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Non-rigid point set registration: Coherent Point Drift</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andriy</forename><surname>Myronenko</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Electrical Engineering</orgName>
+								<orgName type="institution">OGI School of Science and Engineering Oregon Health and Science University Beaverton</orgName>
+								<address>
+									<postCode>97006</postCode>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xubo</forename><surname>Song</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Electrical Engineering</orgName>
+								<orgName type="institution">OGI School of Science and Engineering Oregon Health and Science University Beaverton</orgName>
+								<address>
+									<postCode>97006</postCode>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Migueí</forename><forename type="middle">A</forename><surname>Carreira-Perpiñán</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Electrical Engineering</orgName>
+								<orgName type="institution">OGI School of Science and Engineering Oregon Health and Science University Beaverton</orgName>
+								<address>
+									<postCode>97006</postCode>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Perpi˜</forename><surname>Perpiñán</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Electrical Engineering</orgName>
+								<orgName type="institution">OGI School of Science and Engineering Oregon Health and Science University Beaverton</orgName>
+								<address>
+									<postCode>97006</postCode>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Non-rigid point set registration: Coherent Point Drift</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce Coherent Point Drift (CPD), a novel probabilistic method for non-rigid registration of point sets. The registration is treated as a Maximum Likelihood (ML) estimation problem with motion coherence constraint over the velocity field such that one point set moves coherently to align with the second set. We formulate the motion coherence constraint and derive a solution of regularized ML estimation through the variational approach, which leads to an elegant kernel form. We also derive the EM algorithm for the penalized ML optimization with deterministic annealing. The CPD method simultaneously finds both the non-rigid transformation and the correspondence between two point sets without making any prior assumption of the transformation model except that of motion coherence. This method can estimate complex non-linear non-rigid transformations, and is shown to be accurate on 2D and 3D examples and robust in the presence of outliers and missing points.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

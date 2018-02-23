@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Distributed k-Center Clustering with Outliers on Massive Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gustavo</forename><surname>Malkomes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Washington University in St. Louis St. Louis</orgName>
+								<orgName type="institution" key="instit2">Cornell University Ithaca</orgName>
+								<orgName type="institution" key="instit3">Washington University in St. Louis St. Louis</orgName>
+								<address>
+									<postCode>63130, 14850, 63130</postCode>
+									<region>MO, NY, MO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matt</forename><forename type="middle">J</forename><surname>Kusner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Washington University in St. Louis St. Louis</orgName>
+								<orgName type="institution" key="instit2">Cornell University Ithaca</orgName>
+								<orgName type="institution" key="instit3">Washington University in St. Louis St. Louis</orgName>
+								<address>
+									<postCode>63130, 14850, 63130</postCode>
+									<region>MO, NY, MO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wenlin</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Washington University in St. Louis St. Louis</orgName>
+								<orgName type="institution" key="instit2">Cornell University Ithaca</orgName>
+								<orgName type="institution" key="instit3">Washington University in St. Louis St. Louis</orgName>
+								<address>
+									<postCode>63130, 14850, 63130</postCode>
+									<region>MO, NY, MO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kilian</forename><forename type="middle">Q</forename><surname>Weinberger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Washington University in St. Louis St. Louis</orgName>
+								<orgName type="institution" key="instit2">Cornell University Ithaca</orgName>
+								<orgName type="institution" key="instit3">Washington University in St. Louis St. Louis</orgName>
+								<address>
+									<postCode>63130, 14850, 63130</postCode>
+									<region>MO, NY, MO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><surname>Moseley</surname></persName>
+							<email>bmoseley@wustl.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Washington University in St. Louis St. Louis</orgName>
+								<orgName type="institution" key="instit2">Cornell University Ithaca</orgName>
+								<orgName type="institution" key="instit3">Washington University in St. Louis St. Louis</orgName>
+								<address>
+									<postCode>63130, 14850, 63130</postCode>
+									<region>MO, NY, MO</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Distributed k-Center Clustering with Outliers on Massive Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Clustering large data is a fundamental problem with a vast number of applications. Due to the increasing size of data, practitioners interested in clustering have turned to distributed computation methods. In this work, we consider the widely used k-center clustering problem and its variant used to handle noisy data, k-center with outliers. In the noise-free setting we demonstrate how a previously-proposed distributed method is actually an O(1)-approximation algorithm, which accurately explains its strong empirical performance. Additionally, in the noisy setting, we develop a novel distributed algorithm that is also an O(1)-approximation. These algorithms are highly parallel and lend themselves to virtually any distributed computing framework. We compare each empirically against the best known sequential clustering methods and show that both distributed algorithms are consistently close to their sequential versions. The algorithms are all one can hope for in distributed settings: they are fast, memory efficient and they match their sequential counterparts.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

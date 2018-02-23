@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kernel-ARMA for Hand Tracking and Brain-Machine Interfacing During 3D Motor Control</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lavi</forename><surname>Shpigelman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Interdisciplinary Center for Neural Computation</orgName>
+								<orgName type="institution">The Hebrew University of Jerusalem</orgName>
+								<address>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hagai</forename><surname>Lalazar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Interdisciplinary Center for Neural Computation</orgName>
+								<orgName type="institution">The Hebrew University of Jerusalem</orgName>
+								<address>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eilon</forename><surname>Vaadia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Interdisciplinary Center for Neural Computation</orgName>
+								<orgName type="institution">The Hebrew University of Jerusalem</orgName>
+								<address>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kernel-ARMA for Hand Tracking and Brain-Machine Interfacing During 3D Motor Control</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Using machine learning algorithms to decode intended behavior from neural activity serves a dual purpose. First, these tools allow patients to interact with their environment through a Brain-Machine Interface (BMI). Second, analyzing the characteristics of such methods can reveal the relative significance of various features of neural activity, task stimuli, and behavior. In this study we adapted, implemented and tested a machine learning method called Kernel Auto-Regressive Moving Average (KARMA), for the task of inferring movements from neural activity in primary motor cortex. Our version of this algorithm is used in an online learning setting and is updated after a sequence of inferred movements is completed. We first used it to track real hand movements executed by a monkey in a standard 3D reaching task. We then applied it in a closed-loop BMI setting to infer intended movement, while the monkey&apos;s arms were comfortably restrained, thus performing the task using the BMI alone. KARMA is a recurrent method that learns a nonlinear model of output dynamics. It uses similarity functions (termed kernels) to compare between inputs. These kernels can be structured to incorporate domain knowledge into the method. We compare KARMA to various state-of-the-art methods by evaluating tracking performance and present results from the KARMA based BMI experiments.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

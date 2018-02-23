@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Distance Metric Learning for Large Margin Nearest Neighbor Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kilian</forename><forename type="middle">Q</forename><surname>Weinberger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information Science</orgName>
+								<orgName type="institution">University of Pennsylvania Levine Hall</orgName>
+								<address>
+									<addrLine>3330 Walnut Street</addrLine>
+									<postCode>19104</postCode>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Blitzer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information Science</orgName>
+								<orgName type="institution">University of Pennsylvania Levine Hall</orgName>
+								<address>
+									<addrLine>3330 Walnut Street</addrLine>
+									<postCode>19104</postCode>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">K</forename><surname>Saul</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information Science</orgName>
+								<orgName type="institution">University of Pennsylvania Levine Hall</orgName>
+								<address>
+									<addrLine>3330 Walnut Street</addrLine>
+									<postCode>19104</postCode>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Distance Metric Learning for Large Margin Nearest Neighbor Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We show how to learn a Mahanalobis distance metric for k-nearest neighbor (kNN) classification by semidefinite programming. The metric is trained with the goal that the k-nearest neighbors always belong to the same class while examples from different classes are separated by a large margin. On seven data sets of varying size and difficulty, we find that metrics trained in this way lead to significant improvements in kNN classification-for example, achieving a test error rate of 1.3% on the MNIST handwritten digits. As in support vector machines (SVMs), the learning problem reduces to a convex optimization based on the hinge loss. Unlike learning in SVMs, however, our framework requires no modification or extension for problems in multiway (as opposed to binary) classification.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

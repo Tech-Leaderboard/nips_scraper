@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Adaptive Hedge</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tim</forename><surname>Van Erven</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Grünwald</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gr¨</forename><surname>Grünwald</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wouter</forename><forename type="middle">M</forename><surname>Koolen</surname></persName>
+							<email>wouter@cs.rhul.ac.uk</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>De Rooij</surname></persName>
+							<email>s.de.rooij@cwi.nl</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">Centrum Wiskunde &amp; Informatica (CWI)</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science Royal Holloway</orgName>
+								<orgName type="institution">VU University De</orgName>
+								<address>
+									<addrLine>Boelelaan 1081a 1081 HV Amsterdam, Science Park 123</addrLine>
+									<postBox>P.O. Box 94079</postBox>
+									<postCode>1090 GB</postCode>
+									<settlement>Amsterdam</settlement>
+									<country>the Netherlands, the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Centrum Wiskunde &amp; Informatica (CWI)</orgName>
+								<orgName type="institution">University of London</orgName>
+								<address>
+									<addrLine>Egham Hill, Egham, Science Park 123</addrLine>
+									<postBox>P.O. Box 94079</postBox>
+									<postCode>TW20 0EX, 1090 GB</postCode>
+									<settlement>Amsterdam</settlement>
+									<region>Surrey</region>
+									<country>United Kingdom, the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Adaptive Hedge</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Most methods for decision-theoretic online learning are based on the Hedge algorithm , which takes a parameter called the learning rate. In most previous analyses the learning rate was carefully tuned to obtain optimal worst-case performance, leading to suboptimal performance on easy instances, for example when there exists an action that is significantly better than all others. We propose a new way of setting the learning rate, which adapts to the difficulty of the learning problem: in the worst case our procedure still guarantees optimal performance, but on easy instances it achieves much smaller regret. In particular, our adaptive method achieves constant regret in a probabilistic setting, when there exists an action that on average obtains strictly smaller loss than all other actions. We also provide a simulation study comparing our approach to existing methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

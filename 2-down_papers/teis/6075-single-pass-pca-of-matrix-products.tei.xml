@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Single Pass PCA of Matrix Products</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shanshan</forename><surname>Wu</surname></persName>
+							<email>shanshan@utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">Toyota Technological Institute at Chicago</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit4">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Srinadh</forename><surname>Bhojanapalli</surname></persName>
+							<email>srinadh@ttic.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">Toyota Technological Institute at Chicago</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit4">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sujay</forename><surname>Sanghavi</surname></persName>
+							<email>sanghavi@mail.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">Toyota Technological Institute at Chicago</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit4">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexandros</forename><forename type="middle">G</forename><surname>Dimakis</surname></persName>
+							<email>dimakis@austin.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">Toyota Technological Institute at Chicago</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit4">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Single Pass PCA of Matrix Products</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper we present a new algorithm for computing a low rank approximation of the product A T B by taking only a single pass of the two matrices A and B. The straightforward way to do this is to (a) first sketch A and B individually, and then (b) find the top components using PCA on the sketch. Our algorithm in contrast retains additional summary information about A, B (e.g. row and column norms etc.) and uses this additional information to obtain an improved approximation from the sketches. Our main analytical result establishes a comparable spectral norm guarantee to existing two-pass methods; in addition we also provide results from an Apache Spark implementation 1 that shows better computational and statistical performance on real-world and synthetic evaluation datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Shallow Updates for Deep Reinforcement Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nir</forename><surname>Levine</surname></persName>
+							<email>levin.nir1@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Dept. of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="institution">The Technion -Israel Institute of Technology Israel</orgName>
+								<address>
+									<addrLine>UC Berkeley Berkeley</addrLine>
+									<postCode>3200003, 3200003, 3200003, 94720, 3200003</postCode>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tom</forename><surname>Zahavy</surname></persName>
+							<email>tomzahavy@campus.technion.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Dept. of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="institution">The Technion -Israel Institute of Technology Israel</orgName>
+								<address>
+									<addrLine>UC Berkeley Berkeley</addrLine>
+									<postCode>3200003, 3200003, 3200003, 94720, 3200003</postCode>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">J</forename><surname>Mankowitz</surname></persName>
+							<email>danielm@tx.technion.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Dept. of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="institution">The Technion -Israel Institute of Technology Israel</orgName>
+								<address>
+									<addrLine>UC Berkeley Berkeley</addrLine>
+									<postCode>3200003, 3200003, 3200003, 94720, 3200003</postCode>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aviv</forename><surname>Tamar</surname></persName>
+							<email>avivt@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Dept. of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="institution">The Technion -Israel Institute of Technology Israel</orgName>
+								<address>
+									<addrLine>UC Berkeley Berkeley</addrLine>
+									<postCode>3200003, 3200003, 3200003, 94720, 3200003</postCode>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shie</forename><surname>Mannor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Dept. of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="institution">The Technion -Israel Institute of Technology Israel</orgName>
+								<address>
+									<addrLine>UC Berkeley Berkeley</addrLine>
+									<postCode>3200003, 3200003, 3200003, 94720, 3200003</postCode>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Shallow Updates for Deep Reinforcement Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>* Joint first authors. Ordered alphabetically by first name.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Deep reinforcement learning (DRL) methods such as the Deep Q-Network (DQN) have achieved state-of-the-art results in a variety of challenging, high-dimensional domains. This success is mainly attributed to the power of deep neural networks to learn rich domain representations for approximating the value function or policy. Batch reinforcement learning methods with linear representations, on the other hand, are more stable and require less hyper parameter tuning. Yet, substantial feature engineering is necessary to achieve good results. In this work we propose a hybrid approach-the Least Squares Deep Q-Network (LS-DQN), which combines rich feature representations learned by a DRL algorithm with the stability of a linear least squares method. We do this by periodically retraining the last hidden layer of a DRL network with a batch least squares update. Key to our approach is a Bayesian regularization term for the least squares update, which prevents over-fitting to the more recent data. We tested LS-DQN on five Atari games and demonstrate significant improvement over vanilla DQN and Double-DQN. We also investigated the reasons for the superior performance of our method. Interestingly, we found that the performance improvement can be attributed to the large batch size used by the LS method when optimizing the last layer.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

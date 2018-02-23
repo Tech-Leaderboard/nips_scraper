@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Deep Neural Networks with Inexact Matching for Person Re-Identification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arulkumar</forename><surname>Subramaniam</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Indian Institute of Technology Madras Chennai</orgName>
+								<orgName type="department" key="dep2">Indian Institute of Technology Madras Chennai</orgName>
+								<orgName type="institution">Indian Institute of Technology Madras Chennai</orgName>
+								<address>
+									<postCode>600036, 600036, 600036</postCode>
+									<country>India, India, India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moitreya</forename><surname>Chatterjee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Indian Institute of Technology Madras Chennai</orgName>
+								<orgName type="department" key="dep2">Indian Institute of Technology Madras Chennai</orgName>
+								<orgName type="institution">Indian Institute of Technology Madras Chennai</orgName>
+								<address>
+									<postCode>600036, 600036, 600036</postCode>
+									<country>India, India, India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anurag</forename><surname>Mittal</surname></persName>
+							<email>amittal@cse.iitm.ac.in</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Indian Institute of Technology Madras Chennai</orgName>
+								<orgName type="department" key="dep2">Indian Institute of Technology Madras Chennai</orgName>
+								<orgName type="institution">Indian Institute of Technology Madras Chennai</orgName>
+								<address>
+									<postCode>600036, 600036, 600036</postCode>
+									<country>India, India, India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Deep Neural Networks with Inexact Matching for Person Re-Identification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Person Re-Identification is the task of matching images of a person across multiple camera views. Almost all prior approaches address this challenge by attempting to learn the possible transformations that relate the different views of a person from a training corpora. Then, they utilize these transformation patterns for matching a query image to those in a gallery image bank at test time. This necessitates learning good feature representations of the images and having a robust feature matching technique. Deep learning approaches, such as Convolutional Neural Networks (CNN), simultaneously do both and have shown great promise recently. In this work, we propose two CNN-based architectures for Person Re-Identification. In the first, given a pair of images, we extract feature maps from these images via multiple stages of convolution and pooling. A novel inexact matching technique then matches pixels in the first representation with those of the second. Furthermore , we search across a wider region in the second representation for matching. Our novel matching technique allows us to tackle the challenges posed by large viewpoint variations, illumination changes or partial occlusions. Our approach shows a promising performance and requires only about half the parameters as a current state-of-the-art technique. Nonetheless, it also suffers from false matches at times. In order to mitigate this issue, we propose a fused architecture that combines our inexact matching pipeline with a state-of-the-art exact matching technique. We observe substantial gains with the fused model over the current state-of-the-art on multiple challenging datasets of varying sizes, with gains of up to about 21%.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

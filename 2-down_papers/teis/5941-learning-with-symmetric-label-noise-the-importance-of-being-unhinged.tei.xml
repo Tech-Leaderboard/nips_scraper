@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning with Symmetric Label Noise: The Importance of Being Unhinged</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brendan</forename><surname>Van Rooyen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">The Australian National University † National</orgName>
+								<address>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aditya</forename><forename type="middle">Krishna</forename><surname>Menon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">The Australian National University † National</orgName>
+								<address>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">C</forename><surname>Williamson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">The Australian National University † National</orgName>
+								<address>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning with Symmetric Label Noise: The Importance of Being Unhinged</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Convex potential minimisation is the de facto approach to binary classification. However, Long and Servedio [2010] proved that under symmetric label noise (SLN), minimisation of any convex potential over a linear function class can result in classification performance equivalent to random guessing. This ostensibly shows that convex losses are not SLN-robust. In this paper, we propose a convex, classification-calibrated loss and prove that it is SLN-robust. The loss avoids the Long and Servedio [2010] result by virtue of being negatively unbounded. The loss is a modification of the hinge loss, where one does not clamp at zero; hence, we call it the unhinged loss. We show that the optimal unhinged solution is equivalent to that of a strongly regularised SVM, and is the limiting solution for any convex potential; this implies that strong 2 regularisation makes most standard learners SLN-robust. Experiments confirm the unhinged loss&apos; SLN-robustness is borne out in practice. So, with apologies to Wilde [1895], while the truth is rarely pure, it can be simple. 1 Learning with symmetric label noise Binary classification is the canonical supervised learning problem. Given an instance space X, and samples from some distribution D over X × {±1}, the goal is to learn a scorer s : X → R with low misclassification error on future samples drawn from D. Our interest is in the more realistic scenario where the learner observes samples from some corruption D of D, where labels have some constant probability of being flipped, and the goal is still to perform well with respect to D. This problem is known as learning from symmetric label noise (SLN learning) [Angluin and Laird, 1988]. Long and Servedio [2010] showed that there exist linearly separable D where, when the learner observes some corruption D with symmetric label noise of any nonzero rate, minimisation of any convex potential over a linear function class results in classification performance on D that is equivalent to random guessing. Ostensibly, this establishes that convex losses are not &quot;SLN-robust&quot; and motivates the use of non-convex losses [Stempfel and Ralaivola, 2009, Masnadi-Shirazi et al., 2010, Ding and Vishwanathan, 2010, Denchev et al., 2012, Manwani and Sastry, 2013]. In this paper, we propose a convex loss and prove that it is SLN-robust. The loss avoids the result of Long and Servedio [2010] by virtue of being negatively unbounded. The loss is a modification of the hinge loss where one does not clamp at zero; thus, we call it the unhinged loss. This loss has several appealing properties, such as being the unique convex loss satisfying a notion of &quot;strong&quot; SLN-robustness (Proposition 5), being classification-calibrated (Proposition 6), consistent when minimised on D (Proposition 7), and having an simple optimal solution that is the difference of two kernel means (Equation 8). Finally, we show that this optimal solution is equivalent to that of a strongly regularised SVM (Proposition 8), and any twice-differentiable convex potential (Proposi-tion 9), implying that strong 2 regularisation endows most standard learners with SLN-robustness.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

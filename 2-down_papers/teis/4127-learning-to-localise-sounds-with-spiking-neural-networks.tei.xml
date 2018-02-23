@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning to localise sounds with spiking neural networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><forename type="middle">F M</forename><surname>Goodman</surname></persName>
+							<email>dan.goodman@ens.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Départment d&apos;Etudes Cognitive</orgName>
+								<orgName type="laboratory">Départment d&apos;Etudes Cognitive Ecole Normale Supérieure</orgName>
+								<orgName type="institution">Ecole Normale Supérieure</orgName>
+								<address>
+									<addrLine>29 Rue d&apos;Ulm Paris, 29 Rue d&apos;Ulm Paris</addrLine>
+									<postCode>75005, 75005</postCode>
+									<country>France, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Romain</forename><surname>Brette</surname></persName>
+							<email>romain.brette@ens.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Départment d&apos;Etudes Cognitive</orgName>
+								<orgName type="laboratory">Départment d&apos;Etudes Cognitive Ecole Normale Supérieure</orgName>
+								<orgName type="institution">Ecole Normale Supérieure</orgName>
+								<address>
+									<addrLine>29 Rue d&apos;Ulm Paris, 29 Rue d&apos;Ulm Paris</addrLine>
+									<postCode>75005, 75005</postCode>
+									<country>France, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning to localise sounds with spiking neural networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Auditory Perception &amp; Modeling (Primary); Computational Neural Models</term>
+					<term>Neuro-science</term>
+					<term>Supervised Learning (Secondary)</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>To localise the source of a sound, we use location-specific properties of the signals received at the two ears caused by the asymmetric filtering of the original sound by our head and pinnae, the head-related transfer functions (HRTFs). These HRTFs change throughout an organism&apos;s lifetime, during development for example, and so the required neural circuitry cannot be entirely hardwired. Since HRTFs are not directly accessible from perceptual experience, they can only be inferred from filtered sounds. We present a spiking neural network model of sound localisation based on extracting location-specific synchrony patterns, and a simple supervised algorithm to learn the mapping between synchrony patterns and locations from a set of example sounds, with no previous knowledge of HRTFs. After learning, our model was able to accurately localise new sounds in both azimuth and elevation, including the difficult task of distinguishing sounds coming from the front and back.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

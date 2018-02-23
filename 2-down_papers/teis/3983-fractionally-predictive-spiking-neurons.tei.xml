@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fractionally Predictive Spiking Neurons</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sander</forename><forename type="middle">M</forename><surname>Bohte</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Life Sciences Amsterdam</orgName>
+								<orgName type="department" key="dep2">CWI, Life Sciences Amsterdam</orgName>
+								<orgName type="institution">CWI</orgName>
+								<address>
+									<country>The Netherlands, The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Bohte@cwi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Life Sciences Amsterdam</orgName>
+								<orgName type="department" key="dep2">CWI, Life Sciences Amsterdam</orgName>
+								<orgName type="institution">CWI</orgName>
+								<address>
+									<country>The Netherlands, The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jaldert</forename><forename type="middle">O</forename><surname>Nl</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Life Sciences Amsterdam</orgName>
+								<orgName type="department" key="dep2">CWI, Life Sciences Amsterdam</orgName>
+								<orgName type="institution">CWI</orgName>
+								<address>
+									<country>The Netherlands, The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rombouts</surname></persName>
+							<email>J.O.Rombouts@cwi.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Life Sciences Amsterdam</orgName>
+								<orgName type="department" key="dep2">CWI, Life Sciences Amsterdam</orgName>
+								<orgName type="institution">CWI</orgName>
+								<address>
+									<country>The Netherlands, The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fractionally Predictive Spiking Neurons</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recent experimental work has suggested that the neural firing rate can be interpreted as a fractional derivative, at least when signal variation induces neural adaptation. Here, we show that the actual neural spike-train itself can be considered as the fractional derivative, provided that the neural signal is approximated by a sum of power-law kernels. A simple standard thresholding spiking neuron suffices to carry out such an approximation, given a suitable refractory response. Empirically , we find that the online approximation of signals with a sum of power-law kernels is beneficial for encoding signals with slowly varying components, like long-memory self-similar signals. For such signals, the online power-law kernel approximation typically required less than half the number of spikes for similar SNR as compared to sums of similar but exponentially decaying kernels. As power-law kernels can be accurately approximated using sums or cascades of weighted exponentials, we demonstrate that the corresponding decoding of spike-trains by a receiving neuron allows for natural and transparent temporal signal filtering by tuning the weights of the decoding kernel.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

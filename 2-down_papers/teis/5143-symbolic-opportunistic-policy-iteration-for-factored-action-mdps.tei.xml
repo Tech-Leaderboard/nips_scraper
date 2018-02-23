@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Symbolic Opportunistic Policy Iteration for Factored-Action MDPs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aswin</forename><surname>Raghavan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of EECS</orgName>
+								<orgName type="institution">Oregon State University</orgName>
+								<address>
+									<settlement>Corvallis</settlement>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roni</forename><surname>Khardon</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Tufts University</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><surname>Fern</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of EECS</orgName>
+								<orgName type="institution">Oregon State University</orgName>
+								<address>
+									<settlement>Corvallis</settlement>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prasad</forename><surname>Tadepalli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of EECS</orgName>
+								<orgName type="institution">Oregon State University</orgName>
+								<address>
+									<settlement>Corvallis</settlement>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Symbolic Opportunistic Policy Iteration for Factored-Action MDPs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper addresses the scalability of symbolic planning under uncertainty with factored states and actions. Our first contribution is a symbolic implementation of Modified Policy Iteration (MPI) for factored actions that views policy evaluation as policy-constrained value iteration (VI). Unfortunately, a na¨ıvena¨ıve approach to enforce policy constraints can lead to large memory requirements, sometimes making symbolic MPI worse than VI. We address this through our second and main contribution, symbolic Opportunistic Policy Iteration (OPI), which is a novel convergent algorithm lying between VI and MPI, that applies policy constraints if it does not increase the size of the value function representation, and otherwise performs VI backups. We also give a memory bounded version of this algorithm allowing a space-time tradeoff. Empirical results show significantly improved scalability over state-of-the-art symbolic planners.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

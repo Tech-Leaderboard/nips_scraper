@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">LASSO with Non-linear Measurements is Equivalent to One With Linear Measurements</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christos</forename><surname>Thrampoulidis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering Caltech</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering Caltech</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering Caltech</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ehsan</forename><surname>Abbasi</surname></persName>
+							<email>eabbasi@caltech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering Caltech</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering Caltech</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering Caltech</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Babak</forename><surname>Hassibi</surname></persName>
+							<email>hassibi@caltech.edu *</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering Caltech</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering Caltech</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering Caltech</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">LASSO with Non-linear Measurements is Equivalent to One With Linear Measurements</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Consider estimating an unknown, but structured (e.g. sparse, low-rank, etc.), signal x 0 ∈ R n from a vector y ∈ R m of measurements of the form y i = g i (a i T x 0), where the a i &apos;s are the rows of a known measurement matrix A, and, g(·) is a (potentially unknown) nonlinear and random link-function. Such measurement functions could arise in applications where the measurement device has nonlin-earities and uncertainties. It could also arise by design, e.g., g i (x) = sign(x + z i), corresponds to noisy 1-bit quantized measurements. Motivated by the classical work of Brillinger, and more recent work of Plan and Vershynin, we estimate x 0 via solving the Generalized-LASSO, i.e., ˆ x := arg min x y − Ax 0 2 + λf (x) for some regularization parameter λ &gt; 0 and some (typically non-smooth) convex regularizer f (·) that promotes the structure of x 0 , e.g. 1-norm, nuclear-norm, etc. While this approach seems to naively ignore the nonlinear function g(·), both Brillinger (in the non-constrained case) and Plan and Vershynin have shown that, when the entries of A are iid standard normal, this is a good estimator of x 0 up to a constant of proportionality µ, which only depends on g(·). In this work, we considerably strengthen these results by obtaining explicit expressions forˆxforˆx−µx 0 2 , for the regularized Generalized-LASSO, that are asymptotically precise when m and n grow large. A main result is that the estimation performance of the Generalized LASSO with non-linear measurements is asymptotically the same as one whose measurements are linear y i = µa i T x 0 + σz i , with µ = Eγg(γ) and σ 2 = E(g(γ) − µγ) 2 , and, γ standard normal. To the best of our knowledge, the derived expressions on the estimation performance are the first-known precise results in this context. One interesting consequence of our result is that the optimal quantizer of the measurements that minimizes the estimation error of the Generalized LASSO is the celebrated Lloyd-Max quantizer.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

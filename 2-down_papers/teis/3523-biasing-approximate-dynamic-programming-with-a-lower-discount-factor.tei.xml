@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Biasing Approximate Dynamic Programming with a Lower Discount Factor</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marek</forename><surname>Petrik</surname></persName>
+							<email>petrik@cs.umass.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Massachusetts Amherst Amherst</orgName>
+								<orgName type="institution" key="instit2">LORIA Campus Scientifique</orgName>
+								<address>
+									<postBox>B.P. 239</postBox>
+									<postCode>01003, 54506</postCode>
+									<settlement>Vandoeuvre-les-Nancy</settlement>
+									<region>MA</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruno</forename><surname>Scherrer</surname></persName>
+							<email>bruno.scherrer@loria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Massachusetts Amherst Amherst</orgName>
+								<orgName type="institution" key="instit2">LORIA Campus Scientifique</orgName>
+								<address>
+									<postBox>B.P. 239</postBox>
+									<postCode>01003, 54506</postCode>
+									<settlement>Vandoeuvre-les-Nancy</settlement>
+									<region>MA</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Biasing Approximate Dynamic Programming with a Lower Discount Factor</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Most algorithms for solving Markov decision processes rely on a discount factor, which ensures their convergence. It is generally assumed that using an artificially low discount factor will improve the convergence rate, while sacrificing the solution quality. We however demonstrate that using an artificially low discount factor may significantly improve the solution quality, when used in approximate dynamic programming. We propose two explanations of this phenomenon. The first justification follows directly from the standard approximation error bounds: using a lower discount factor may decrease the approximation error bounds. However, we also show that these bounds are loose, thus their decrease does not entirely justify the improved solution quality. We thus propose another justification: when the rewards are received only sporadically (as in the case of Tetris), we can derive tighter bounds, which support a significant improvement in the solution quality with a decreased discount factor.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

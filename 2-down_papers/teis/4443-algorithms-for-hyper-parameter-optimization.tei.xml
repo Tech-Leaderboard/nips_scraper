@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Algorithms for Hyper-Parameter Optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Bergstra</surname></persName>
+							<email>bergstra@rowland.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dépt. d&apos;Informatique et Recherche Opérationelle</orgName>
+								<orgName type="laboratory" key="lab1">Laboratoire de Recherche en Informatique Université Paris-Sud</orgName>
+								<orgName type="laboratory" key="lab2">Linear Accelerator Laboratory Université Paris-Sud, CNRS</orgName>
+								<orgName type="institution" key="instit1">The Rowland Institute Harvard University</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rémi</forename><surname>Bardenet</surname></persName>
+							<email>bardenet@lri.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dépt. d&apos;Informatique et Recherche Opérationelle</orgName>
+								<orgName type="laboratory" key="lab1">Laboratoire de Recherche en Informatique Université Paris-Sud</orgName>
+								<orgName type="laboratory" key="lab2">Linear Accelerator Laboratory Université Paris-Sud, CNRS</orgName>
+								<orgName type="institution" key="instit1">The Rowland Institute Harvard University</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoshua</forename><surname>Bengio</surname></persName>
+							<email>yoshua.bengio@umontreal.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dépt. d&apos;Informatique et Recherche Opérationelle</orgName>
+								<orgName type="laboratory" key="lab1">Laboratoire de Recherche en Informatique Université Paris-Sud</orgName>
+								<orgName type="laboratory" key="lab2">Linear Accelerator Laboratory Université Paris-Sud, CNRS</orgName>
+								<orgName type="institution" key="instit1">The Rowland Institute Harvard University</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Balázs</forename><surname>Kégl</surname></persName>
+							<email>balazs.kegl@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dépt. d&apos;Informatique et Recherche Opérationelle</orgName>
+								<orgName type="laboratory" key="lab1">Laboratoire de Recherche en Informatique Université Paris-Sud</orgName>
+								<orgName type="laboratory" key="lab2">Linear Accelerator Laboratory Université Paris-Sud, CNRS</orgName>
+								<orgName type="institution" key="instit1">The Rowland Institute Harvard University</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Algorithms for Hyper-Parameter Optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Several recent advances to the state of the art in image classification benchmarks have come from better configurations of existing techniques rather than novel approaches to feature learning. Traditionally, hyper-parameter optimization has been the job of humans because they can be very efficient in regimes where only a few trials are possible. Presently, computer clusters and GPU processors make it possible to run more trials and we show that algorithmic approaches can find better results. We present hyper-parameter optimization results on tasks of training neu-ral networks and deep belief networks (DBNs). We optimize hyper-parameters using random search and two new greedy sequential methods based on the expected improvement criterion. Random search has been shown to be sufficiently efficient for learning neural networks for several datasets, but we show it is unreliable for training DBNs. The sequential algorithms are applied to the most difficult DBN learning problems from [1] and find significantly better results than the best previously reported. This work contributes novel techniques for making response surface models P (y|x) in which many elements of hyper-parameter assignment (x) are known to be irrelevant given particular values of other elements.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

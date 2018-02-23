@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Proximity Effect Corrections in Electron Beam Lithography Using a Neural Network</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">C</forename><surname>Frye</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><forename type="middle">D</forename><surname>Cummings</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><forename type="middle">A</forename><surname>Rietman</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">AT &amp;T Bell Laboratories</orgName>
+								<orgName type="laboratory">AT&amp;T Bell Laboratories</orgName>
+								<address>
+									<addrLine>600 Mountain A venue Murray Hill, 600 Mountain Avenue Murray Hill. NJ</addrLine>
+									<postCode>08854, 08854</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">AT&amp;T Bell Laboratories 600 Mountain A venue Murray Hill. NJ</orgName>
+								<address>
+									<postCode>08854</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Proximity Effect Corrections in Electron Beam Lithography Using a Neural Network</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We have used a neural network to compute corrections for images written by electron beams to eliminate the proximity effects caused by electron scattering. Iterative methods are effective. but require prohibitively computation time. We have instead trained a neural network to perform equivalent corrections. resulting in a significant speed-up. We have examined hardware implementations using both analog and digital electronic networks. Both had an acceptably small error of 0.5% compared to the iterative results. Additionally. we verified that the neural network correctly generalized the solution of the problem to include patterns not contained in its training set. We have experimentally verified this approach on a Cambridge Instruments EBMF 10.5 exposure system.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

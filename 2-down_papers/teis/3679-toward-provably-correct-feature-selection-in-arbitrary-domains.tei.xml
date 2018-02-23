@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Toward Provably Correct Feature Selection in Arbitrary Domains</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dimitris</forename><surname>Margaritis</surname></persName>
+							<email>dmarg@cs.iastate.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Iowa State University Ames</orgName>
+								<address>
+									<postCode>50010</postCode>
+									<region>IA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Toward Provably Correct Feature Selection in Arbitrary Domains</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper we address the problem of provably correct feature selection in arbitrary domains. An optimal solution to the problem is a Markov boundary, which is a minimal set of features that make the probability distribution of a target variable conditionally invariant to the state of all other features in the domain. While numerous algorithms for this problem have been proposed, their theoretical cor-rectness and practical behavior under arbitrary probability distributions is unclear. We address this by introducing the Markov Boundary Theorem that precisely characterizes the properties of an ideal Markov boundary, and use it to develop algorithms that learn a more general boundary that can capture complex interactions that only appear when the values of multiple features are considered together. We introduce two algorithms: an exact, provably correct one as well a more practical randomized anytime version, and show that they perform well on artificial as well as benchmark and real-world data sets. Throughout the paper we make minimal assumptions that consist of only a general set of axioms that hold for every probability distribution, which gives these algorithms universal applicability.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast High-dimensional Kernel Summations Using the Monte Carlo Multipole Method</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dongryeol</forename><surname>Lee</surname></persName>
+							<email>dongryel@cc.gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computational Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Computational Science and Engineering Georgia Institute of Technology Atlanta</orgName>
+								<orgName type="institution">Georgia Institute of Technology Atlanta</orgName>
+								<address>
+									<postCode>30332, 30332</postCode>
+									<region>GA, GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><surname>Gray</surname></persName>
+							<email>agray@cc.gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computational Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Computational Science and Engineering Georgia Institute of Technology Atlanta</orgName>
+								<orgName type="institution">Georgia Institute of Technology Atlanta</orgName>
+								<address>
+									<postCode>30332, 30332</postCode>
+									<region>GA, GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast High-dimensional Kernel Summations Using the Monte Carlo Multipole Method</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a new fast Gaussian summation algorithm for high-dimensional datasets with high accuracy. First, we extend the original fast multipole-type methods to use approximation schemes with both hard and probabilistic error. Second, we utilize a new data structure called subspace tree which maps each data point in the node to its lower dimensional mapping as determined by any linear dimension reduction method such as PCA. This new data structure is suitable for reducing the cost of each pairwise distance computation, the most dominant cost in many kernel methods. Our algorithm guarantees probabilistic relative error on each kernel sum, and can be applied to high-dimensional Gaussian summations which are ubiquitous inside many kernel methods as the key computational bottleneck. We provide empirical speedup results on low to high-dimensional datasets up to 89 dimensions. 1 Fast Gaussian Kernel Summation In this paper, we propose new computational techniques for efficiently approximating the following sum for each query point q i ∈ Q: Φ(q i , R) = 񮽙 rj ∈R e −||qi−rj || 2 /(2h 2) (1) where R is the reference set; each reference point is associated with a Gaussian function with a smoothing parameter h (the &apos;bandwidth&apos;). This form of summation is ubiquitous in many statistical learning methods, including kernel density estimation, kernel regression, Gaussian process regression, radial basis function networks, spectral clustering, support vector machines, and kernel PCA [1, 4]. Cross-validation in all of these methods require evaluating Equation 1 for multiple values of h. Kernel density estimation, for example, requires |R| density estimate based on |R| − 1 points, yielding a brute-force computational cost scaling quadratically (that is O(|R| 2)). Error bounds. Due to its expensive computational cost, many algorithms approximate the Gaus-sian kernel sums at the expense of reduced precision. Therefore, it is natural to discuss error bound criteria which measure the quality of the approximations with respect to their corresponding true values. The following error bound criteria are common in literature: Definition 1.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

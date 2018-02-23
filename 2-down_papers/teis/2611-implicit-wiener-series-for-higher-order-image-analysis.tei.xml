@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Implicit Wiener Series for Higher-Order Image Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthias</forename><forename type="middle">O</forename><surname>Franz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max-Planck-Institut für biologische Kybernetik Spemannstr. 38</orgName>
+								<address>
+									<postCode>D-72076</postCode>
+									<settlement>Tübingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernhard</forename><surname>Schölkopf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max-Planck-Institut für biologische Kybernetik Spemannstr. 38</orgName>
+								<address>
+									<postCode>D-72076</postCode>
+									<settlement>Tübingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Implicit Wiener Series for Higher-Order Image Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The computation of classical higher-order statistics such as higher-order moments or spectra is difficult for images due to the huge number of terms to be estimated and interpreted. We propose an alternative approach in which multiplicative pixel interactions are described by a series of Wiener functionals. Since the functionals are estimated implicitly via polynomial kernels, the combinatorial explosion associated with the classical higher-order statistics is avoided. First results show that image structures such as lines or corners can be predicted correctly, and that pixel interactions up to the order of five play an important role in natural images. Most of the interesting structure in a natural image is characterized by its higher-order statistics. Arbitrarily oriented lines and edges, for instance, cannot be described by the usual pairwise statistics such as the power spectrum or the autocorrelation function: From knowing the intensity of one point on a line alone, we cannot predict its neighbouring intensities. This would require knowledge of a second point on the line, i.e., we have to consider some third-order statistics which describe the interactions between triplets of points. Analogously, the prediction of a corner neighbourhood needs at least fourth-order statistics, and so on. In terms of Fourier analysis, higher-order image structures such as edges or corners are described by phase alignments, i.e. phase correlations between several Fourier components of the image. Classically, harmonic phase interactions are measured by higher-order spectra [4]. Unfortunately, the estimation of these spectra for high-dimensional signals such as images involves the estimation and interpretation of a huge number of terms. For instance, a sixth-order spectrum of a 16×16 sized image contains roughly 10 12 coefficients, about 10 10 of which would have to be estimated independently if all symmetries in the spectrum are considered. First attempts at estimating the higher-order structure of natural images were therefore restricted to global measures such as skewness or kurtosis [8], or to submanifolds of fourth-order spectra [9]. Here, we propose an alternative approach that models the interactions of image points in a series of Wiener functionals. A Wiener functional of order n captures those image components that can be predicted from the multiplicative interaction of n image points. In contrast to higher-order spectra or moments, the estimation of a Wiener model does not require the estimation of an excessive number of terms since it can be computed implicitly</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

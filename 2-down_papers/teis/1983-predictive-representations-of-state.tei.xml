@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Predictive Representations of State</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">L</forename><surname>Littman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Syntek Capital</orgName>
+								<orgName type="institution">AT&amp;T Labs-Research</orgName>
+								<address>
+									<settlement>Florham Park</settlement>
+									<region>New York, New York</region>
+									<country>New Jersey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Sutton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Syntek Capital</orgName>
+								<orgName type="institution">AT&amp;T Labs-Research</orgName>
+								<address>
+									<settlement>Florham Park</settlement>
+									<region>New York, New York</region>
+									<country>New Jersey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satinder</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Syntek Capital</orgName>
+								<orgName type="institution">AT&amp;T Labs-Research</orgName>
+								<address>
+									<settlement>Florham Park</settlement>
+									<region>New York, New York</region>
+									<country>New Jersey</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Predictive Representations of State</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We show that states of a dynamical system can be usefully represented by multi-step, action-conditional predictions of future observations. State representations that are grounded in data in this way may be easier to learn, generalize better, and be less dependent on accurate prior models than, for example, POMDP state representations. Building on prior work by Jaeger and by Rivest and Schapire, in this paper we compare and contrast a linear specialization of the predictive approach with the state representations used in POMDPs and in k-order Markov models. Ours is the first specific formulation of the predictive idea that includes both stochasticity and actions (controls). We show that any system has a linear predictive state representation with number of predictions no greater than the number of states in its minimal POMDP model. In predicting or controlling a sequence of observations, the concepts of state and state estimation inevitably arise. There have been two dominant approaches. The generative-model approach, typified by research on partially observable Markov decision processes (POMDPs), hypothesizes a structure for generating observations and estimates its state and state dynamics. The history-based approach, typified by k-order Markov methods, uses simple functions of past observations as state, that is, as the immediate basis for prediction and control. (The data flow in these two approaches are diagrammed in Figure 1.) Of the two, the generative-model approach is more general. The model&apos;s internal state gives it temporally unlimited memory-the ability to remember an event that happened arbitrarily long ago-whereas a history-based approach can only remember as far back as its history extends. The bane of generative-model approaches is that they are often strongly dependent on a good model of the system&apos;s dynamics. Most uses of POMDPs, for example, assume a perfect dynamics model and attempt only to estimate state. There are algorithms for simultaneously estimating state and dynamics (e.g., Chrisman, 1992), analogous to the Baum-Welch algorithm for the uncontrolled case (Baum et al., 1970), but these are only effective at tuning parameters that are already approximately correct (e.g., Shatkay &amp; Kaelbling, 1997).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

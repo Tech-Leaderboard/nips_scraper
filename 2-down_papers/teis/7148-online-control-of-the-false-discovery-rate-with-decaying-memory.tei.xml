@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online control of the false discovery rate with decaying memory</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aaditya</forename><surname>Ramdas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fanny</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><forename type="middle">J</forename><surname>Wainwright</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online control of the false discovery rate with decaying memory</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In the online multiple testing problem, p-values corresponding to different null hypotheses are observed one by one, and the decision of whether or not to reject the current hypothesis must be made immediately, after which the next p-value is observed. Alpha-investing algorithms to control the false discovery rate (FDR), formulated by Foster and Stine, have been generalized and applied to many settings, including quality-preserving databases in science and multiple A/B or multi-armed bandit tests for internet commerce. This paper improves the class of generalized alpha-investing algorithms (GAI) in four ways: (a) we show how to uniformly improve the power of the entire class of monotone GAI procedures by awarding more alpha-wealth for each rejection, giving a win-win resolution to a recent dilemma raised by Javanmard and Montanari, (b) we demonstrate how to incorporate prior weights to indicate domain knowledge of which hypotheses are likely to be non-null, (c) we allow for differing penalties for false discoveries to indicate that some hypotheses may be more important than others, (d) we define a new quantity called the decaying memory false discovery rate (mem-FDR) that may be more meaningful for truly temporal applications, and which alleviates problems that we describe and refer to as &quot;piggybacking&quot; and &quot;alpha-death.&quot; Our GAI++ algorithms incorporate all four generalizations simultaneously, and reduce to more powerful variants of earlier algorithms when the weights and decay are all set to unity. Finally, we also describe a simple method to derive new online FDR rules based on an estimated false discovery proportion.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

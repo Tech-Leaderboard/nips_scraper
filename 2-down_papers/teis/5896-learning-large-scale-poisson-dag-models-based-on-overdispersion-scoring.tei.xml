@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Large-Scale Poisson DAG Models based on OverDispersion Scoring</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gunwoong</forename><surname>Park</surname></persName>
+							<email>parkg@stat.wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistics</orgName>
+								<orgName type="department" key="dep2">Department of Statistics Department of Computer Science Wisconsin Institute for Discovery</orgName>
+								<orgName type="laboratory">Optimization Group University of Wisconsin-Madison Madison</orgName>
+								<orgName type="institution">University of Wisconsin-Madison Madison</orgName>
+								<address>
+									<postCode>53706, 53706</postCode>
+									<region>WI, WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Garvesh</forename><surname>Raskutti</surname></persName>
+							<email>raskutti@cs.wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistics</orgName>
+								<orgName type="department" key="dep2">Department of Statistics Department of Computer Science Wisconsin Institute for Discovery</orgName>
+								<orgName type="laboratory">Optimization Group University of Wisconsin-Madison Madison</orgName>
+								<orgName type="institution">University of Wisconsin-Madison Madison</orgName>
+								<address>
+									<postCode>53706, 53706</postCode>
+									<region>WI, WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Large-Scale Poisson DAG Models based on OverDispersion Scoring</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we address the question of identifiability and learning algorithms for large-scale Poisson Directed Acyclic Graphical (DAG) models. We define general Poisson DAG models as models where each node is a Poisson random variable with rate parameter depending on the values of the parents in the underlying DAG. First, we prove that Poisson DAG models are identifiable from observational data, and present a polynomial-time algorithm that learns the Poisson DAG model under suitable regularity conditions. The main idea behind our algorithm is based on overdispersion, in that variables that are conditionally Poisson are overdispersed relative to variables that are marginally Poisson. Our algorithms exploits overdispersion along with methods for learning sparse Poisson undirected graphical models for faster computation. We provide both theoretical guarantees and simulation results for both small and large-scale DAGs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

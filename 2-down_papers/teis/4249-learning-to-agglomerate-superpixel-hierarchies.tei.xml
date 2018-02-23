@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning to Agglomerate Superpixel Hierarchies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Viren</forename><surname>Jain</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Brain &amp; Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Optics Max Planck Institute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">Janelia Farm Research Campus Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Howard Hughes Medical Institute Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Srinivas</forename><forename type="middle">C</forename><surname>Turaga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Brain &amp; Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Optics Max Planck Institute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">Janelia Farm Research Campus Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Howard Hughes Medical Institute Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><forename type="middle">L</forename><surname>Briggman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Brain &amp; Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Optics Max Planck Institute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">Janelia Farm Research Campus Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Howard Hughes Medical Institute Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moritz</forename><forename type="middle">N</forename><surname>Helmstaedter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Brain &amp; Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Optics Max Planck Institute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">Janelia Farm Research Campus Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Howard Hughes Medical Institute Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Winfried</forename><surname>Denk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Brain &amp; Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Optics Max Planck Institute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">Janelia Farm Research Campus Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Howard Hughes Medical Institute Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">Sebastian</forename><surname>Seung</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Brain &amp; Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Optics Max Planck Institute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">Janelia Farm Research Campus Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit2">Howard Hughes Medical Institute Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning to Agglomerate Superpixel Hierarchies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>An agglomerative clustering algorithm merges the most similar pair of clusters at every iteration. The function that evaluates similarity is traditionally hand-designed, but there has been recent interest in supervised or semisupervised settings in which ground-truth clustered data is available for training. Here we show how to train a similarity function by regarding it as the action-value function of a reinforcement learning problem. We apply this general method to segment images by clustering superpixels, an application that we call Learning to Agglomerate Superpixel Hierarchies (LASH). When applied to a challenging dataset of brain images from serial electron microscopy, LASH dramatically improved segmen-tation accuracy when clustering supervoxels generated by state of the boundary detection algorithms. The naive strategy of directly training only supervoxel similarities and applying single linkage clustering produced less improvement.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

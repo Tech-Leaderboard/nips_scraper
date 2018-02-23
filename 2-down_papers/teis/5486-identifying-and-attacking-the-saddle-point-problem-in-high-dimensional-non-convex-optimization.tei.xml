@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Identifying and attacking the saddle point problem in high-dimensional non-convex optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yann</forename><forename type="middle">N</forename><surname>Dauphin</surname></persName>
+							<email>dauphiya@iro.umontreal.ca, r.pascanu@gmail.com,</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Université de Montréal</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Université de Montréal</orgName>
+								<address>
+									<country>CIFAR Fellow</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Razvan</forename><surname>Pascanu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Université de Montréal</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Université de Montréal</orgName>
+								<address>
+									<country>CIFAR Fellow</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Caglar</forename><surname>Gulcehre</surname></persName>
+							<email>gulcehrc@iro.umontreal.ca, kyunghyun.cho@umontreal.ca</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Université de Montréal</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Université de Montréal</orgName>
+								<address>
+									<country>CIFAR Fellow</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kyunghyun</forename><surname>Cho</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Université de Montréal</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Université de Montréal</orgName>
+								<address>
+									<country>CIFAR Fellow</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Surya</forename><surname>Ganguli</surname></persName>
+							<email>sganguli@standford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Université de Montréal</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Université de Montréal</orgName>
+								<address>
+									<country>CIFAR Fellow</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoshua</forename><surname>Bengio</surname></persName>
+							<email>yoshua.bengio@umontreal.ca</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Université de Montréal</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Université de Montréal</orgName>
+								<address>
+									<country>CIFAR Fellow</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Identifying and attacking the saddle point problem in high-dimensional non-convex optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A central challenge to many fields of science and engineering involves minimizing non-convex error functions over continuous, high dimensional spaces. Gradient descent or quasi-Newton methods are almost ubiquitously used to perform such minimizations, and it is often thought that a main source of difficulty for these local methods to find the global minimum is the proliferation of local minima with much higher error than the global minimum. Here we argue, based on results from statistical physics, random matrix theory, neural network theory, and empirical evidence, that a deeper and more profound difficulty originates from the proliferation of saddle points, not local minima, especially in high dimensional problems of practical interest. Such saddle points are surrounded by high error plateaus that can dramatically slow down learning, and give the illusory impression of the existence of a local minimum. Motivated by these arguments, we propose a new approach to second-order optimization, the saddle-free Newton method, that can rapidly escape high dimensional saddle points, unlike gradient descent and quasi-Newton methods. We apply this algorithm to deep or recurrent neural network training, and provide numerical evidence for its superior optimization performance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

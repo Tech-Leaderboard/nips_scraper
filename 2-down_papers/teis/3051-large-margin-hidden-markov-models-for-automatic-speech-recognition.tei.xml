@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Large Margin Hidden Markov Models for Automatic Speech Recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fei</forename><surname>Sha</surname></persName>
+							<email>feisha@cs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Division</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit2">University of California (</orgName>
+								<address>
+									<addrLine>San Diego) La Jolla</addrLine>
+									<postCode>94720-1776, 92093-0404</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">K</forename><surname>Saul</surname></persName>
+							<email>saul@cs.ucsd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Division</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit2">University of California (</orgName>
+								<address>
+									<addrLine>San Diego) La Jolla</addrLine>
+									<postCode>94720-1776, 92093-0404</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Large Margin Hidden Markov Models for Automatic Speech Recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the problem of parameter estimation in continuous density hidden Markov models (CD-HMMs) for automatic speech recognition (ASR). As in support vector machines, we propose a learning algorithm based on the goal of margin maximization. Unlike earlier work on max-margin Markov networks, our approach is specifically geared to the modeling of real-valued observations (such as acoustic feature vectors) using Gaussian mixture models. Unlike previous dis-criminative frameworks for ASR, such as maximum mutual information and minimum classification error, our framework leads to a convex optimization, without any spurious local minima. The objective function for large margin training of CD-HMMs is defined over a parameter space of positive semidefinite matrices. Its optimization can be performed efficiently with simple gradient-based methods that scale well to large problems. We obtain competitive results for phonetic recognition on the TIMIT speech corpus.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

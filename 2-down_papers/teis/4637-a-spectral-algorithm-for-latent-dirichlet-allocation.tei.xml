@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Spectral Algorithm for Latent Dirichlet Allocation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anima</forename><surname>Anandkumar</surname></persName>
+							<email>a.anandkumar@uci.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Irvine</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit5">National Institute of Standards and Technology * Gaithersburg</orgName>
+								<address>
+									<region>CA, PA, MA, MA, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dean</forename><forename type="middle">P</forename><surname>Foster</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Irvine</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit5">National Institute of Standards and Technology * Gaithersburg</orgName>
+								<address>
+									<region>CA, PA, MA, MA, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Hsu</surname></persName>
+							<email>dahsu@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Irvine</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit5">National Institute of Standards and Technology * Gaithersburg</orgName>
+								<address>
+									<region>CA, PA, MA, MA, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sham</forename><forename type="middle">M</forename><surname>Kakade</surname></persName>
+							<email>skakade@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Irvine</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit5">National Institute of Standards and Technology * Gaithersburg</orgName>
+								<address>
+									<region>CA, PA, MA, MA, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yi-Kai</forename><surname>Liu</surname></persName>
+							<email>yi-kai.liu@nist.gov</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Irvine</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research Cambridge</orgName>
+								<orgName type="institution" key="instit5">National Institute of Standards and Technology * Gaithersburg</orgName>
+								<address>
+									<region>CA, PA, MA, MA, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Spectral Algorithm for Latent Dirichlet Allocation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Topic modeling is a generalization of clustering that posits that observations (words in a document) are generated by multiple latent factors (topics), as opposed to just one. This increased representational power comes at the cost of a more challenging unsupervised learning problem of estimating the topic-word distributions when only words are observed, and the topics are hidden. This work provides a simple and efficient learning procedure that is guaranteed to recover the parameters for a wide class of topic models, including Latent Dirichlet Allocation (LDA). For LDA, the procedure correctly recovers both the topic-word distributions and the parameters of the Dirichlet prior over the topic mixtures, using only trigram statistics (i.e., third order moments, which may be estimated with documents containing just three words). The method, called Excess Correlation Analysis, is based on a spectral decomposition of low-order moments via two singular value decompositions (SVDs). Moreover, the algorithm is scalable, since the SVDs are carried out only on k × k matrices, where k is the number of latent factors (topics) and is typically much smaller than the dimension of the observation (word) space.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

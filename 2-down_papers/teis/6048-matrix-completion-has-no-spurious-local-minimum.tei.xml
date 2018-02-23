@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Matrix Completion has No Spurious Local Minimum</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rong</forename><surname>Ge</surname></persName>
+							<email>rongge@cs.duke.edu.</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Duke University</orgName>
+								<address>
+									<addrLine>308 Research Drive</addrLine>
+									<postCode>27708</postCode>
+									<region>NC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jason</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+							<email>jasonlee@marshall.usc.edu.</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<addrLine>3670 Trousdale Pkwy</addrLine>
+									<postCode>90089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tengyu</forename><surname>Ma</surname></persName>
+							<email>tengyu@cs.princeton.edu.</email>
+							<affiliation key="aff2">
+								<orgName type="institution">Princeton University</orgName>
+								<address>
+									<addrLine>35 Olden Street</addrLine>
+									<postCode>08540</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Matrix Completion has No Spurious Local Minimum</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Matrix completion is a basic machine learning problem that has wide applications , especially in collaborative filtering and recommender systems. Simple non-convex optimization algorithms are popular and effective in practice. Despite recent progress in proving various non-convex algorithms converge from a good initial point, it remains unclear why random or arbitrary initialization suffices in practice. We prove that the commonly used non-convex objective function for positive semidefinite matrix completion has no spurious local minima-all local minima must also be global. Therefore, many popular optimization algorithms such as (stochastic) gradient descent can provably solve positive semidefinite matrix completion with arbitrary initialization in polynomial time. The result can be generalized to the setting when the observed entries contain noise. We believe that our main proof strategy can be useful for understanding geometric properties of other statistical problems involving partial or noisy observations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

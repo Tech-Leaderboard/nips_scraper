@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Switched Gaussian Process for Estimating Disparity and Segmentation in Binocular Stereo</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oliver</forename><surname>Williams</surname></persName>
+							<email>omcw2@cam.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research Ltd. Cambridge</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Switched Gaussian Process for Estimating Disparity and Segmentation in Binocular Stereo</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper describes a Gaussian process framework for inferring pixel-wise disparity and bi-layer segmentation of a scene given a stereo pair of images. The Gaussian process covariance is parameterized by a foreground-background-occlusion segmentation label to model both smooth regions and discontinuities. As such, we call our model a switched Gaussian process. We propose a greedy in-cremental algorithm for adding observations from the data and assigning segmen-tation labels. Two observation schedules are proposed: the first treats scanlines as independent, the second uses an active learning criterion to select a sparse subset of points to measure. We show that this probabilistic framework has comparable performance to the state-of-the-art.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

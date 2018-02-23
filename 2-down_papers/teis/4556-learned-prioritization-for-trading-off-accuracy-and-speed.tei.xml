@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learned Prioritization for Trading Off Accuracy and Speed *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiarong</forename><surname>Jiang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Maryland College Park</orgName>
+								<orgName type="institution" key="instit2">Johns Hopkins University</orgName>
+								<address>
+									<postCode>20742, 21218</postCode>
+									<settlement>Baltimore</settlement>
+									<region>MD, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><surname>Teichert</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Maryland College Park</orgName>
+								<orgName type="institution" key="instit2">Johns Hopkins University</orgName>
+								<address>
+									<postCode>20742, 21218</postCode>
+									<settlement>Baltimore</settlement>
+									<region>MD, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hal</forename><surname>Daumé</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Maryland College Park</orgName>
+								<orgName type="institution" key="instit2">Johns Hopkins University</orgName>
+								<address>
+									<postCode>20742, 21218</postCode>
+									<settlement>Baltimore</settlement>
+									<region>MD, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iii</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Maryland College Park</orgName>
+								<orgName type="institution" key="instit2">Johns Hopkins University</orgName>
+								<address>
+									<postCode>20742, 21218</postCode>
+									<settlement>Baltimore</settlement>
+									<region>MD, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jason</forename><surname>Eisner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Maryland College Park</orgName>
+								<orgName type="institution" key="instit2">Johns Hopkins University</orgName>
+								<address>
+									<postCode>20742, 21218</postCode>
+									<settlement>Baltimore</settlement>
+									<region>MD, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learned Prioritization for Trading Off Accuracy and Speed *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Users want inference to be both fast and accurate, but quality often comes at the cost of speed. The field has experimented with approximate inference algorithms that make different speed-accuracy tradeoffs (for particular problems and datasets). We aim to explore this space automatically, focusing here on the case of agenda-based syntactic parsing [12]. Unfortunately, off-the-shelf reinforcement learning techniques fail to learn good policies: the state space is simply too large to explore naively. An attempt to counteract this by applying imitation learning algorithms also fails: the &quot;teacher&quot; follows a far better policy than anything in our learner&apos;s policy space, free of the speed-accuracy tradeoff that arises when oracle information is unavailable, and thus largely insensitive to the known reward functfion. We propose a hybrid reinforcement/apprenticeship learning algorithm that learns to speed up an initial policy, trading off accuracy for speed according to various settings of a speed term in the loss function.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

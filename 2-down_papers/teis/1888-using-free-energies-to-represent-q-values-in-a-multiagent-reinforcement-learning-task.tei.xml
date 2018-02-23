@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Using Free Energies to Represent Q-values in a Multiagent Reinforcement Learning Task</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><surname>Sallans</surname></persName>
+							<email>sallam&apos;@cs,toronto,edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit University College London London WCIN</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<postCode>M5S 2Z9</postCode>
+									<settlement>Toronto</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit University College London London WCIN</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<postCode>M5S 2Z9</postCode>
+									<settlement>Toronto</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Using Free Energies to Represent Q-values in a Multiagent Reinforcement Learning Task</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The problem of reinforcement learning in large factored Markov decision processes is explored. The Q-value of a state-action pair is approximated by the free energy of a product of experts network. Network parameters are learned on-line using a modified SARSA algorithm which minimizes the inconsistency of the Q-values of consecutive state-action pairs. Actions are chosen based on the current value estimates by fixing the current state and sampling actions from the network using Gibbs sampling. The algorithm is tested on a cooperative multi-agent task. The product of experts model is found to perform comparably to table-based Q-Iearning for small instances of the task, and continues to perform well when the problem becomes too large for a table-based representation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

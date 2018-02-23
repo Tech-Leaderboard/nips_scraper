@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Training Connectionist Networks with Queries and Selective Sampling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Les</forename><surname>Atlas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of E.E</orgName>
+								<orgName type="department" key="dep2">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep3">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep4">Dept. of E.E</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Cohn</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of E.E</orgName>
+								<orgName type="department" key="dep2">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep3">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep4">Dept. of E.E</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Ladner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of E.E</orgName>
+								<orgName type="department" key="dep2">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep3">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep4">Dept. of E.E</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>El-Sharkawi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of E.E</orgName>
+								<orgName type="department" key="dep2">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep3">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep4">Dept. of E.E</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Marks</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of E.E</orgName>
+								<orgName type="department" key="dep2">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep3">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep4">Dept. of E.E</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">I</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of E.E</orgName>
+								<orgName type="department" key="dep2">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep3">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep4">Dept. of E.E</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Aggoune</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of E.E</orgName>
+								<orgName type="department" key="dep2">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep3">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep4">Dept. of E.E</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Park</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of E.E</orgName>
+								<orgName type="department" key="dep2">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep3">Dept. of C.S. &amp; E</orgName>
+								<orgName type="department" key="dep4">Dept. of E.E</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Training Connectionist Networks with Queries and Selective Sampling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>566 Atlas, Cohn and Ladner</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>&quot;Selective sampling&quot; is a form of directed search that can greatly increase the ability of a connectionist network to generalize accurately. Based on information from previous batches of samples, a network may be trained on data selectively sampled from regions in the domain that are unknown. This is realizable in cases when the distribution is known, or when the cost of drawing points from the target distribution is negligible compared to the cost of labeling them with the proper classification. The approach is justified by its applicability to the problem of training a network for power system security analysis. The benefits of selective sampling are studied analytically, and the results are confirmed experimentally.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

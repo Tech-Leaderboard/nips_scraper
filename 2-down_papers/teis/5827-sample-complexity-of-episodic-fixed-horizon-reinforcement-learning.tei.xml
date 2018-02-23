@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Sample Complexity of Episodic Fixed-Horizon Reinforcement Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christoph</forename><surname>Dann</surname></persName>
+							<email>cdann@cdann.net</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emma</forename><surname>Brunskill</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Sample Complexity of Episodic Fixed-Horizon Reinforcement Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recently, there has been significant progress in understanding reinforcement learning in discounted infinite-horizon Markov decision processes (MDPs) by deriving tight sample complexity bounds. However, in many real-world applications, an interactive learning agent operates for a fixed or bounded period of time, for example tutoring students for exams or handling customer service requests. Such scenarios can often be better treated as episodic fixed-horizon MDPs, for which only looser bounds on the sample complexity exist. A natural notion of sample complexity in this setting is the number of episodes required to guarantee a certain performance with high probability (PAC guarantee). In this paper, we derive an upper PAC bound˜Obound˜ bound˜O(|S| 2 |A|H 2 2 ln 1 δ) and a lower PAC bound˜Ωbound˜ bound˜Ω(|S||A|H 2 2 ln 1 δ+c) that match up to log-terms and an additional linear dependency on the number of states |S|. The lower bound is the first of its kind for this setting. Our upper bound leverages Bernstein&apos;s inequality to improve on previous bounds for episodic finite-horizon MDPs which have a time-horizon dependency of at least H 3 .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

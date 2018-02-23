@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inverse Filtering for Hidden Markov Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Mattila</surname></persName>
+							<email>rmattila@kth.se</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Automatic Control</orgName>
+								<orgName type="department" key="dep2">Department of Automatic Control KTH Royal Institute of Technology</orgName>
+								<orgName type="department" key="dep3">Department of Automatic Control KTH Royal Institute of Technology</orgName>
+								<orgName type="institution" key="instit1">KTH Royal Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Cornell Tech Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cristian</forename><forename type="middle">R</forename><surname>Rojas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Automatic Control</orgName>
+								<orgName type="department" key="dep2">Department of Automatic Control KTH Royal Institute of Technology</orgName>
+								<orgName type="department" key="dep3">Department of Automatic Control KTH Royal Institute of Technology</orgName>
+								<orgName type="institution" key="instit1">KTH Royal Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Cornell Tech Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vikram</forename><surname>Krishnamurthy</surname></persName>
+							<email>vikramk@cornell.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Automatic Control</orgName>
+								<orgName type="department" key="dep2">Department of Automatic Control KTH Royal Institute of Technology</orgName>
+								<orgName type="department" key="dep3">Department of Automatic Control KTH Royal Institute of Technology</orgName>
+								<orgName type="institution" key="instit1">KTH Royal Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Cornell Tech Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bo</forename><surname>Wahlberg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Automatic Control</orgName>
+								<orgName type="department" key="dep2">Department of Automatic Control KTH Royal Institute of Technology</orgName>
+								<orgName type="department" key="dep3">Department of Automatic Control KTH Royal Institute of Technology</orgName>
+								<orgName type="institution" key="instit1">KTH Royal Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Cornell Tech Cornell University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inverse Filtering for Hidden Markov Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper considers a number of related inverse filtering problems for hidden Markov models (HMMs). In particular, given a sequence of state posteriors and the system dynamics; i) estimate the corresponding sequence of observations, ii) estimate the observation likelihoods, and iii) jointly estimate the observation likelihoods and the observation sequence. We show how to avoid a computation-ally expensive mixed integer linear program (MILP) by exploiting the algebraic structure of the HMM filter using simple linear algebra operations, and provide conditions for when the quantities can be uniquely reconstructed. We also propose a solution to the more general case where the posteriors are noisily observed. Finally, the proposed inverse filtering algorithms are evaluated on real-world polysomno-graphic data used for automatic sleep segmentation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

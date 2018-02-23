@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Additive Gaussian Processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Duvenaud</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering Cambridge University</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep3">Department of Engineering</orgName>
+								<orgName type="institution">Cambridge University</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hannes</forename><surname>Nickisch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering Cambridge University</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep3">Department of Engineering</orgName>
+								<orgName type="institution">Cambridge University</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carl</forename><forename type="middle">Edward</forename><surname>Rasmussen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering Cambridge University</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep3">Department of Engineering</orgName>
+								<orgName type="institution">Cambridge University</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Additive Gaussian Processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a Gaussian process model of functions which are additive. An additive function is one which decomposes into a sum of low-dimensional functions, each depending on only a subset of the input variables. Additive GPs generalize both Generalized Additive Models, and the standard GP models which use squared-exponential kernels. Hyperparameter learning in this model can be seen as Bayesian Hierarchical Kernel Learning (HKL). We introduce an expressive but tractable parameterization of the kernel function, which allows efficient evaluation of all input interaction terms, whose number is exponential in the input dimension. The additional structure discoverable by this model results in increased interpretability, as well as state-of-the-art predictive power in regression tasks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

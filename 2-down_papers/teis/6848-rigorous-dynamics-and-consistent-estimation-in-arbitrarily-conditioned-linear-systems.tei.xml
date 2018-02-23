@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Rigorous Dynamics and Consistent Estimation in Arbitrarily Conditioned Linear Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alyson</forename><forename type="middle">K</forename><surname>Fletcher</surname></persName>
+							<email>akfletcher@ucla.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. Statistics UC Los Angeles</orgName>
+								<orgName type="department" key="dep2">Dept. EE</orgName>
+								<orgName type="department" key="dep3">Dept. ECE</orgName>
+								<orgName type="department" key="dep4">Dept. ECE</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>UC, NYU</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mojtaba</forename><surname>Sahraee-Ardakan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. Statistics UC Los Angeles</orgName>
+								<orgName type="department" key="dep2">Dept. EE</orgName>
+								<orgName type="department" key="dep3">Dept. ECE</orgName>
+								<orgName type="department" key="dep4">Dept. ECE</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>UC, NYU</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sundeep</forename><surname>Rangan</surname></persName>
+							<email>srangan@nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. Statistics UC Los Angeles</orgName>
+								<orgName type="department" key="dep2">Dept. EE</orgName>
+								<orgName type="department" key="dep3">Dept. ECE</orgName>
+								<orgName type="department" key="dep4">Dept. ECE</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>UC, NYU</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><surname>Schniter</surname></persName>
+							<email>schniter@ece.osu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. Statistics UC Los Angeles</orgName>
+								<orgName type="department" key="dep2">Dept. EE</orgName>
+								<orgName type="department" key="dep3">Dept. ECE</orgName>
+								<orgName type="department" key="dep4">Dept. ECE</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>UC, NYU</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Rigorous Dynamics and Consistent Estimation in Arbitrarily Conditioned Linear Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of estimating a random vector x from noisy linear measurements y = Ax + w in the setting where parameters θ on the distribution of x and w must be learned in addition to the vector x. This problem arises in a wide range of statistical learning and linear inverse problems. Our main contribution shows that a computationally simple iterative message passing algorithm can provably obtain asymptotically consistent estimates in a certain high-dimensional large system limit (LSL) under very general parametrizations. Importantly, this LSL applies to all right-rotationally random A-a much larger class of matrices than i.i.d. sub-Gaussian matrices to which many past message passing approaches are restricted. In addition, a simple testable condition is provided in which the mean square error (MSE) on the vector x matches the Bayes optimal MSE predicted by the replica method. The proposed algorithm uses a combination of Expectation-Maximization (EM) with a recently-developed Vector Approximate Message Passing (VAMP) technique. We develop an analysis framework that shows that the parameter estimates in each iteration of the algorithm converge to deterministic limits that can be precisely predicted by a simple set of state evolution (SE) equations. The SE equations, which extends those of VAMP without parameter adaptation, depend only on the initial parameter estimates and the statistical properties of the problem and can be used to predict consistency and precisely characterize other performance measures of the method.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

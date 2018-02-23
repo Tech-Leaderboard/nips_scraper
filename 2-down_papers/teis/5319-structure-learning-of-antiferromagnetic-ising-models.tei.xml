@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structure learning of antiferromagnetic Ising models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guy</forename><surname>Bresler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of EECS</orgName>
+								<orgName type="laboratory">Laboratory for Information and Decision Systems</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Sloan School of Management</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Gamarnik</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devavrat</forename><surname>Shah</surname></persName>
+						</author>
+						<title level="a" type="main">Structure learning of antiferromagnetic Ising models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper we investigate the computational complexity of learning the graph structure underlying a discrete undirected graphical model from i.i.d. samples. Our first result is an unconditional computational lower bound of (p d/2) for learning general graphical models on p nodes of maximum degree d, for the class of so-called statistical algorithms recently introduced by Feldman et al. [1]. The construction is related to the notoriously dicult learning parities with noise problem in computational learning theory. Our lower bound suggests that the Â O(p d+2) runtime required by Bresler, Mossel, and Sly&apos;s [2] exhaustive-search algorithm cannot be significantly improved without restricting the class of models. Aside from structural assumptions on the graph such as it being a tree, hypertree, tree-like, etc., many recent papers on structure learning assume that the model has the correlation decay property. Indeed, focusing on fer-romagnetic Ising models, Bento and Montanari [3] showed that all known low-complexity algorithms fail to learn simple graphs when the interaction strength exceeds a number related to the correlation decay threshold. Our second set of results gives a class of repelling (antiferromagnetic) models that have the opposite behavior: very strong interaction allows ecient learning in time Â O(p 2). We provide an algorithm whose performance interpolates between Â O(p 2) and Â O(p d+2) depending on the strength of the repulsion.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

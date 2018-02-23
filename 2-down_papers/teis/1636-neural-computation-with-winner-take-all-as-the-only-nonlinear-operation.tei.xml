@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Neural Computation with Winner-Take-All as the only Nonlinear Operation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wolfgang</forename><surname>Maass</surname></persName>
+							<email>email: maass@igi.tu-graz.ac.at</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Theoretical Computer Science Technische</orgName>
+								<orgName type="institution">UniversWit Graz</orgName>
+								<address>
+									<postCode>A-8010</postCode>
+									<settlement>Graz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Neural Computation with Winner-Take-All as the only Nonlinear Operation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Everybody &quot;knows&quot; that neural networks need more than a single layer of nonlinear units to compute interesting functions. We show that this is false if one employs winner-take-all as nonlinear unit: • Any boolean function can be computed by a single k-winner-take-all unit applied to weighted sums of the input variables. • Any continuous function can be approximated arbitrarily well by a single soft winner-take-all unit applied to weighted sums of the input variables. • Only positive weights are needed in these (linear) weighted sums. This may be of interest from the point of view of neurophysiology, since only 15% of the synapses in the cortex are inhibitory. In addition it is widely believed that there are special microcircuits in the cortex that compute winner-take-all. • Our results support the view that winner-take-all is a very useful basic computational unit in Neural VLS!: o it is wellknown that winner-take-all of n input variables can be computed very efficiently with 2n transistors (and a total wire length and area that is linear in n) in analog VLSI [Lazzaro et at., 1989] o we show that winner-take-all is not just useful for special purpose computations, but may serve as the only nonlinear unit for neural circuits with universal computational power o we show that any multi-layer perceptron needs quadratically in n many gates to compute winner-take-all for n input variables, hence winner-take-all provides a substantially more powerful computational unit than a perceptron (at about the same cost of implementation in analog VLSI). Complete proofs and further details to these results can be found in [Maass, 2000]. 294 W. Maass</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

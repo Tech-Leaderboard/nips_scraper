@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Comparing Beliefs, Surveys and Random Walks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erik</forename><surname>Aurell</surname></persName>
+							<email>eaurell@sics.se</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">SICS</orgName>
+								<orgName type="institution" key="instit2">Swedish Institute of Computer Science</orgName>
+								<address>
+									<postBox>P.O. Box 1263</postBox>
+									<postCode>SE-164 29</postCode>
+									<settlement>Kista</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Uri</forename><surname>Gordon</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Engineering and Computer Science</orgName>
+								<orgName type="institution">KTH -Royal Institute of Technology AlbaNova -SCFAB SE</orgName>
+								<address>
+									<postCode>106 91</postCode>
+									<settlement>Stockholm</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Kirkpatrick</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Hebrew University of Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Comparing Beliefs, Surveys and Random Walks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Survey propagation is a powerful technique from statistical physics that has been applied to solve the 3-SAT problem both in principle and in practice. We give, using only probability arguments, a common derivation of survey propagation, belief propagation and several interesting hybrid methods. We then present numerical experiments which use WSAT (a widely used random-walk based SAT solver) to quantify the complexity of the 3-SAT formulae as a function of their parameters, both as randomly generated and after simpli£cation, guided by survey propagation. Some properties of WSAT which have not previously been reported make it an ideal tool for this purpose-its mean cost is proportional to the number of variables in the formula (at a £xed ratio of clauses to variables) in the easy-SAT regime and slightly beyond, and its behavior in the hard-SAT regime appears to re¤ect the underlying structure of the solution space that has been predicted by replica symmetry-breaking arguments. An analysis of the tradeoffs between the various methods of search for satisfying assignments shows WSAT to be far more powerful than has been appreciated, and suggests some interesting new directions for practical algorithm development.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

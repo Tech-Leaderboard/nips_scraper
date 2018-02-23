@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On Poisson Graphical Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eunho</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Statistics and Electrical &amp; Computer Engineering</orgName>
+								<orgName type="department" key="dep4">Department of Pediatrics-Neurology Baylor College of Medicine</orgName>
+								<orgName type="institution" key="instit1">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit3">Rice University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pradeep</forename><surname>Ravikumar</surname></persName>
+							<email>pradeepr@cs.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Statistics and Electrical &amp; Computer Engineering</orgName>
+								<orgName type="department" key="dep4">Department of Pediatrics-Neurology Baylor College of Medicine</orgName>
+								<orgName type="institution" key="instit1">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit3">Rice University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Genevera</forename><forename type="middle">I</forename><surname>Allen</surname></persName>
+							<email>gallen@rice.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Statistics and Electrical &amp; Computer Engineering</orgName>
+								<orgName type="department" key="dep4">Department of Pediatrics-Neurology Baylor College of Medicine</orgName>
+								<orgName type="institution" key="instit1">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit3">Rice University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhandong</forename><surname>Liu</surname></persName>
+							<email>zhandonl@bcm.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Statistics and Electrical &amp; Computer Engineering</orgName>
+								<orgName type="department" key="dep4">Department of Pediatrics-Neurology Baylor College of Medicine</orgName>
+								<orgName type="institution" key="instit1">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit3">Rice University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On Poisson Graphical Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Undirected graphical models, such as Gaussian graphical models, Ising, and multinomial/categorical graphical models, are widely used in a variety of applications for modeling distributions over a large number of variables. These standard instances, however, are ill-suited to modeling count data, which are increasingly ubiquitous in big-data settings such as genomic sequencing data, user-ratings data, spatial incidence data, climate studies, and site visits. Existing classes of Poisson graphical models, which arise as the joint distributions that correspond to Pois-son distributed node-conditional distributions, have a major drawback: they can only model negative conditional dependencies for reasons of normalizability given its infinite domain. In this paper, our objective is to modify the Poisson graphi-cal model distribution so that it can capture a rich dependence structure between count-valued variables. We begin by discussing two strategies for truncating the Poisson distribution and show that only one of these leads to a valid joint distribution. While this model can accommodate a wider range of conditional dependencies , some limitations still remain. To address this, we investigate two additional novel variants of the Poisson distribution and their corresponding joint graphical model distributions. Our three novel approaches provide classes of Poisson-like graphical models that can capture both positive and negative conditional dependencies between count-valued variables. One can learn the graph structure of our models via penalized neighborhood selection, and we demonstrate the performance of our methods by learning simulated networks as well as a network from microRNA-sequencing data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

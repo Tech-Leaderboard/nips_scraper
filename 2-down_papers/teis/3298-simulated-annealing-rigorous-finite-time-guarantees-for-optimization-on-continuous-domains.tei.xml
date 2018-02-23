@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Simulated Annealing: Rigorous finite-time guarantees for optimization on continuous domains</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrea</forename><surname>Lecchini-Visintini</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Lygeros</surname></persName>
+							<email>lygeros@control.ee.ethz.ch</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jan</forename><surname>Maciejowski</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Engineering</orgName>
+								<orgName type="laboratory">Automatic Control Laboratory ETH Zurich</orgName>
+								<orgName type="institution">University of Leicester</orgName>
+								<address>
+									<country>UK, Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Simulated Annealing: Rigorous finite-time guarantees for optimization on continuous domains</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Simulated annealing is a popular method for approaching the solution of a global optimization problem. Existing results on its performance apply to discrete com-binatorial optimization where the optimization variables can assume only a finite set of possible values. We introduce a new general formulation of simulated an-nealing which allows one to guarantee finite-time performance in the optimization of functions of continuous variables. The results hold universally for any optimization problem on a bounded domain and establish a connection between simulated annealing and up-to-date theory of convergence of Markov chain Monte Carlo methods on continuous domains. This work is inspired by the concept of finite-time learning with known accuracy and confidence developed in statistical learning theory. Optimization is the general problem of finding a value of a vector of variables θ that maximizes (or minimizes) some scalar criterion U (θ). The set of all possible values of the vector θ is called the optimization domain. The elements of θ can be discrete or continuous variables. In the first case the optimization domain is usually finite, such as in the well-known traveling salesman problem; in the second case the optimization domain is a continuous set. An important example of a continuous optimization domain is the set of 3-D configurations of a sequence of amino-acids in the problem of finding the minimum energy folding of the corresponding protein [1]. In principle, any optimization problem on a finite domain can be solved by an exhaustive search. However, this is often beyond computational capacity: the optimization domain of the traveling salesman problem with 100 cities contains more than 10 155 possible tours. An efficient algorithm to solve the traveling salesman and many similar problems has not yet been found and such problems remain reliably solvable only in principle [2]. Statistical mechanics has inspired widely used methods for finding good approximate solutions in hard discrete optimization problems which defy efficient exact solutions [3, 4, 5, 6]. Here a key idea has been that of simulated annealing [3]: a random search based on the Metropolis-Hastings algorithm, such that the distribution of the elements of the domain visited during the search converges to an equilibrium distribution concentrated around the global optimizers. Convergence and finite-time performance of simulated annealing on finite domains has been evaluated in many works, e.g. [7, 8, 9, 10]. On continuous domains, most popular optimization methods perform a local gradient-based search and in general converge to local optimizers; with the notable exception of convex criteria where convergence to the unique global optimizer occurs [11]. Simulated annealing performs a global search and can be easily implemented on continuous domains. Hence it can be considered a powerful complement to local methods. In this paper, we introduce for the first time rigorous guarantees on the finite-time performance of simulated annealing on continuous domains. We will</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

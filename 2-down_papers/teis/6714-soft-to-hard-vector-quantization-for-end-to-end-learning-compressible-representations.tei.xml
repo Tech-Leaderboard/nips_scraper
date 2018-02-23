@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Soft-to-Hard Vector Quantization for End-to-End Learning Compressible Representations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eirikur</forename><surname>Agustsson</surname></persName>
+							<email>aeirikur@vision.ee.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eth</forename><surname>Zurich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fabian</forename><surname>Mentzer</surname></persName>
+							<email>mentzerf@vision.ee.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eth</forename><surname>Zurich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Tschannen</surname></persName>
+							<email>michaelt@nari.ee.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eth</forename><surname>Zurich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lukas</forename><surname>Cavigelli</surname></persName>
+							<email>cavigelli@iis.ee.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eth</forename><surname>Zurich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luca</forename><surname>Benini</surname></persName>
+							<email>benini@iis.ee.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eth</forename><surname>Zurich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Van</forename><surname>Luc</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gool</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Radu Timofte ETH Zurich &amp; Merantix</orgName>
+								<orgName type="institution" key="instit2">KU Leuven &amp; ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Soft-to-Hard Vector Quantization for End-to-End Learning Compressible Representations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new approach to learn compressible representations in deep archi-tectures with an end-to-end training strategy. Our method is based on a soft (continuous) relaxation of quantization and entropy, which we anneal to their discrete counterparts throughout training. We showcase this method for two challenging applications: Image compression and neural network compression. While these tasks have typically been approached with different methods, our soft-to-hard quantization approach gives results competitive with the state-of-the-art for both.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

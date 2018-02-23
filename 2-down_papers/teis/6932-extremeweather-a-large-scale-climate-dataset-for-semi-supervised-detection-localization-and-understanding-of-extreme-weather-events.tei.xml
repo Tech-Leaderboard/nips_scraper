@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ExtremeWeather: A large-scale climate dataset for semi-supervised detection, localization, and understanding of extreme weather events</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Evan</forename><surname>Racah</surname></persName>
+							<email>evan.racah@umontreal.ca.</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Lawrence Berkeley National Lab, Berkeley</orgName>
+								<address>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Beckham</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">École Polytechnique de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tegan</forename><surname>Maharaj</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">École Polytechnique de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samira</forename><forename type="middle">Ebrahimi</forename><surname>Kahou</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Lawrence Berkeley National Lab, Berkeley</orgName>
+								<address>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Pal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">École Polytechnique de Montréal</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ExtremeWeather: A large-scale climate dataset for semi-supervised detection, localization, and understanding of extreme weather events</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Then detection and identification of extreme weather events in large-scale climate simulations is an important problem for risk management, informing governmental policy decisions and advancing our basic understanding of the climate system. Recent work has shown that fully supervised convolutional neural networks (CNNs) can yield acceptable accuracy for classifying well-known types of extreme weather events when large amounts of labeled data are available. However, many different types of spatially localized climate patterns are of interest including hurricanes, extra-tropical cyclones, weather fronts, and blocking events among others. Existing labeled data for these patterns can be incomplete in various ways, such as covering only certain years or geographic areas and having false negatives. This type of climate data therefore poses a number of interesting machine learning challenges. We present a multichannel spatiotemporal CNN architecture for semi-supervised bounding box prediction and exploratory data analysis. We demonstrate that our approach is able to leverage temporal information and unlabeled data to improve the localization of extreme weather events. Further, we explore the representations learned by our model in order to better understand this important data. We present a dataset, ExtremeWeather, to encourage machine learning research in this area and to help facilitate further work in understanding and mitigating the effects of climate change. The dataset is available at extremeweatherdataset.github.io and the code is available at https://github.com/eracah/hur-detect.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

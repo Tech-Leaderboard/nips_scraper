@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Masked Autoregressive Flow for Density Estimation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><surname>Papamakarios</surname></persName>
+							<email>g.papamakarios@ed.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit2">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit3">University of Edinburgh</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Theo</forename><surname>Pavlakou</surname></persName>
+							<email>theo.pavlakou@ed.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit2">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit3">University of Edinburgh</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iain</forename><surname>Murray</surname></persName>
+							<email>i.murray@ed.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit2">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit3">University of Edinburgh</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Masked Autoregressive Flow for Density Estimation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Autoregressive models are among the best performing neural density estimators. We describe an approach for increasing the flexibility of an autoregressive model, based on modelling the random numbers that the model uses internally when generating data. By constructing a stack of autoregressive models, each modelling the random numbers of the next model in the stack, we obtain a type of normalizing flow suitable for density estimation, which we call Masked Autoregressive Flow. This type of flow is closely related to Inverse Autoregressive Flow and is a generalization of Real NVP. Masked Autoregressive Flow achieves state-of-the-art performance in a range of general-purpose density estimation tasks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

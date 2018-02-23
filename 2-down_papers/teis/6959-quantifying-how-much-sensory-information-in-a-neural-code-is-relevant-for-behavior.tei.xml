@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Quantifying how much sensory information in a neural code is relevant for behavior</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Giuseppe</forename><surname>Pica</surname></persName>
+							<email>giuseppe.pica@iit.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Neuroscience and Cognitive Systems@UniTn</orgName>
+								<orgName type="laboratory">Neural Computation Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia</orgName>
+								<address>
+									<settlement>Rovereto</settlement>
+									<region>(TN) 38068</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Neuroscience and Cognitive Systems@UniTn</orgName>
+								<orgName type="laboratory">Neural Coding Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia</orgName>
+								<address>
+									<postCode>38068</postCode>
+									<settlement>Rovereto</settlement>
+									<region>TN</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eugenio</forename><surname>Piasini</surname></persName>
+							<email>eugenio.piasini@iit.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Neuroscience and Cognitive Systems@UniTn</orgName>
+								<orgName type="laboratory">Neural Computation Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia</orgName>
+								<address>
+									<settlement>Rovereto</settlement>
+									<region>(TN) 38068</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Houman</forename><surname>Safaai</surname></persName>
+							<email>houman_safaai@hms.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Neuroscience and Cognitive Systems@UniTn</orgName>
+								<orgName type="laboratory">Neural Computation Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia</orgName>
+								<address>
+									<settlement>Rovereto</settlement>
+									<region>(TN) 38068</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Neurobiology</orgName>
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Caroline</forename><forename type="middle">A</forename><surname>Runyan</surname></persName>
+							<email>runyan@pitt.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Neurobiology</orgName>
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Neuroscience</orgName>
+								<orgName type="department" key="dep2">Center for the Neural Basis of Cognition</orgName>
+								<orgName type="institution">University of Pittsburgh</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mathew</forename><forename type="middle">E</forename><surname>Diamond</surname></persName>
+							<email>diamond@sissa.it</email>
+							<affiliation key="aff4">
+								<orgName type="department">International School for Advanced Studies (SISSA)</orgName>
+								<orgName type="laboratory">Tactile Perception and Learning Laboratory</orgName>
+								<address>
+									<settlement>Trieste</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tommaso</forename><surname>Fellin</surname></persName>
+							<email>tommaso.fellin@iit.it,8 christoph.kayser@uni-bielefeld.de</email>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Neuroscience and Cognitive Systems@UniTn</orgName>
+								<orgName type="laboratory">Neural Coding Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia</orgName>
+								<address>
+									<postCode>38068</postCode>
+									<settlement>Rovereto</settlement>
+									<region>TN</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="laboratory">Optical Approaches to Brain Function Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia</orgName>
+								<address>
+									<postCode>16163</postCode>
+									<settlement>Genova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christoph</forename><surname>Kayser</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Institute of Neuroscience and Psychology</orgName>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<settlement>Glasgow</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">D</forename><surname>Harvey</surname></persName>
+							<email>Christopher_Harvey@hms.harvard.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Neurobiology</orgName>
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stefano</forename><surname>Panzeri</surname></persName>
+							<email>stefano.panzeri@iit.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Neuroscience and Cognitive Systems@UniTn</orgName>
+								<orgName type="laboratory">Neural Computation Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia</orgName>
+								<address>
+									<settlement>Rovereto</settlement>
+									<region>(TN) 38068</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Neuroscience and Cognitive Systems@UniTn</orgName>
+								<orgName type="laboratory">Neural Coding Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia</orgName>
+								<address>
+									<postCode>38068</postCode>
+									<settlement>Rovereto</settlement>
+									<region>TN</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Cognitive Neuroscience</orgName>
+								<orgName type="department" key="dep2">Faculty of Biology</orgName>
+								<orgName type="institution">Bielefeld University</orgName>
+								<address>
+									<addrLine>Universitätsstr. 25</addrLine>
+									<postCode>33615</postCode>
+									<settlement>Bielefeld</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Quantifying how much sensory information in a neural code is relevant for behavior</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Determining how much of the sensory information carried by a neural code contributes to behavioral performance is key to understand sensory function and neural information flow. However, there are as yet no analytical tools to compute this information that lies at the intersection between sensory coding and behavioral readout. Here we develop a novel measure, termed the information-theoretic intersection information I II (S; R; C), that quantifies how much of the sensory information carried by a neural response R is used for behavior during perceptual discrimination tasks. Building on the Partial Information Decomposition framework, we define I II (S; R; C) as the part of the mutual information between the stimulus S and the response R that also informs the consequent behavioral choice C. We compute I II (S; R; C) in the analysis of two experimental cortical datasets, to show how this measure can be used to compare quantitatively the contributions of spike timing and spike rates to task performance, and to identify brain areas or neural populations that specifically transform sensory information into choice.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Interpolated Policy Gradient: Merging On-Policy and Off-Policy Gradient Estimation for Deep Reinforcement Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shixiang</forename><surname>Gu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute</orgName>
+								<orgName type="department" key="dep2">Max Planck Institute</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge Uber AI Labs</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><forename type="middle">Lillicrap</forename><surname>Deepmind</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute</orgName>
+								<orgName type="department" key="dep2">Max Planck Institute</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge Uber AI Labs</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zoubin</forename><surname>Ghahramani</surname></persName>
+							<email>zoubin@eng.cam.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute</orgName>
+								<orgName type="department" key="dep2">Max Planck Institute</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge Uber AI Labs</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">E</forename><surname>Turner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute</orgName>
+								<orgName type="department" key="dep2">Max Planck Institute</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge Uber AI Labs</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernhard</forename><surname>Schölkopf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute</orgName>
+								<orgName type="department" key="dep2">Max Planck Institute</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge Uber AI Labs</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sergey</forename><surname>Levine</surname></persName>
+							<email>svlevine@eecs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute</orgName>
+								<orgName type="department" key="dep2">Max Planck Institute</orgName>
+								<orgName type="institution" key="instit1">University of Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge Uber AI Labs</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Interpolated Policy Gradient: Merging On-Policy and Off-Policy Gradient Estimation for Deep Reinforcement Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Off-policy model-free deep reinforcement learning methods using previously collected data can improve sample efficiency over on-policy policy gradient techniques. On the other hand, on-policy algorithms are often more stable and easier to use. This paper examines, both theoretically and empirically, approaches to merging on-and off-policy updates for deep reinforcement learning. Theoretical results show that off-policy updates with a value function estimator can be interpolated with on-policy policy gradient updates whilst still satisfying performance bounds. Our analysis uses control variate methods to produce a family of policy gradient algorithms, with several recently proposed algorithms being special cases of this family. We then provide an empirical comparison of these techniques with the remaining algorithmic details fixed, and show how different mixing of off-policy gradient estimates with on-policy samples contribute to improvements in empirical performance. The final algorithm provides a generalization and unification of existing deep policy gradient techniques, has theoretical guarantees on the bias introduced by off-policy updates, and improves on the state-of-the-art model-free deep RL methods on a number of OpenAI Gym continuous control benchmarks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scalable kernels for graphs with continuous attributes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aasa</forename><surname>Feragen</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Niklas</forename><surname>Kasenburg</surname></persName>
+							<email>{aasa,niklas.kasenburg}@diku.dk</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jens</forename><surname>Petersen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">DIKU</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marleen</forename><surname>De Bruijne</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">DIKU</orgName>
+								<orgName type="institution" key="instit2">University of Copenhagen</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Erasmus Medical Center Rotterdam</orgName>
+								<orgName type="laboratory">Machine Learning and Computational Biology Group Max Planck Institutes Tübingen Eberhard Karls Universität Tübingen</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karsten</forename><surname>Borgwardt</surname></persName>
+							<email>karsten.borgwardt@tuebingen.mpg.de</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Machine Learning and Computational Biology Group Max Planck Institutes Tübingen and DIKU</orgName>
+								<orgName type="institution">University of Copenhagen</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scalable kernels for graphs with continuous attributes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>While graphs with continuous node attributes arise in many applications, state-of-the-art graph kernels for comparing continuous-attributed graphs suffer from a high runtime complexity. For instance, the popular shortest path kernel scales as O(n 4), where n is the number of nodes. In this paper, we present a class of graph kernels with computational complexity O(n 2 (m + log n + δ 2 + d)), where δ is the graph diameter, m is the number of edges, and d is the dimension of the node attributes. Due to the sparsity and small diameter of real-world graphs, these kernels typically scale comfortably to large graphs. In our experiments, the presented kernels outperform state-of-the-art kernels in terms of speed and accuracy on classification benchmark datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

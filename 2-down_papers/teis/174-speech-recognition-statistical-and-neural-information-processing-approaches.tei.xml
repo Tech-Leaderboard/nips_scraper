@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SPEECH RECOGNITION: STATISTICAL AND NEURAL INFORMATION PROCESSING APPROACHES</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">S</forename><surname>Bridle</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Speech Research Unit and National Electronics Research Initiative in Pattern Recognition Royal Signals and Radar Establishment Malvern</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SPEECH RECOGNITION: STATISTICAL AND NEURAL INFORMATION PROCESSING APPROACHES</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>796</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Automatic Speech Recognition (ASR) is an artificial perception problem: the input is raw, continuous patterns (no symbols!) and the desired output, which may be words, phonemes, meaning or text, is symbolic. The most successful approach to automatic speech recognition is based on stochastic models. A stochastic model is a theoretical system whose internal state and output undergo a series of transformations governed by probabilistic laws [1]. In the application to speech recognition the unknown patterns of sound are treated as if they were outputs of a stochastic system [18,2]. Information about the classes of patterns is encoded as the structure of these &quot;laws&quot; and the probabilities that govern their operation. The most popular type of SM for ASR is also known as a &quot;hidden Markov model.&quot; There are several reasons why the SM approach has been so successful for ASR. It can describe the shape of the spectrum, and has a principled way of describing temporal order, together with variability of both. It is compatible with the hierarchical nature of speech structure [20,18,4], there are powerful algorithms for decoding with respect to the model (recognition), and for adapting the model to fit significant amounts of example data (learning). Firm theoretical (mathematical) foundations enable extensions to be accommodated smoothly (e.g. [3]). There are many deficiencies however. In a typical system the speech signal is first described as a sequence of acoustic vectors (spectrum cross sections or equivalent) at a rate of say 100 per second. The pattern is assumed to consist of a sequence of segments corresponding to discrete states of the model. In each segment the acoustic vectors are drawn from a distribution characteristic of the state, but otherwise independent of one another and of the states before and after. In some systems there is a controlled relationship between states and the phonemes or phones of speech science, but most of the properties and notions which speech scientists assume are importan t are ignored. Most SM approaches are also deficient at a pattern-recognition theory level: The parameters of the models are usually adj usted (using the Baum-Welch re-estimation method [5,2]) so as to maximise the likelihood of the data given the model. This is the right thing to do if the form of the model is actually appropriate for the data, but if not the parameter-optimisation method needs to be concerned with</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

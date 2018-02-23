@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On Tracking The Partition Function</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guillaume</forename><surname>Desjardins</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Département d&apos;informatique et de recherche opérationnelle</orgName>
+								<orgName type="institution">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aaron</forename><surname>Courville</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Département d&apos;informatique et de recherche opérationnelle</orgName>
+								<orgName type="institution">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoshua</forename><surname>Bengio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Département d&apos;informatique et de recherche opérationnelle</orgName>
+								<orgName type="institution">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On Tracking The Partition Function</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Markov Random Fields (MRFs) have proven very powerful both as density esti-mators and feature extractors for classification. However, their use is often limited by an inability to estimate the partition function Z. In this paper, we exploit the gradient descent training procedure of restricted Boltzmann machines (a type of MRF) to track the log partition function during learning. Our method relies on two distinct sources of information: (1) estimating the change ∆Z incurred by each gradient update, (2) estimating the difference in Z over a small set of tempered distributions using bridge sampling. The two sources of information are then combined using an inference procedure similar to Kalman filtering. Learning MRFs through Tempered Stochastic Maximum Likelihood, we can estimate Z using no more temperatures than are required for learning. Comparing to both exact values and estimates using annealed importance sampling (AIS), we show on several datasets that our method is able to accurately track the log partition function. In contrast to AIS, our method provides this estimate at each time-step, at a computational cost similar to that required for training alone.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

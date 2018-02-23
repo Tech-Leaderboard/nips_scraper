@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structural epitome: A way to summarize one&apos;s visual experience</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nebojsa</forename><surname>Jojic</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Italian Institute of Technology</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research University of Verona</orgName>
+								<orgName type="institution" key="instit3">University of Verona</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alessandro</forename><surname>Perina</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Italian Institute of Technology</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research University of Verona</orgName>
+								<orgName type="institution" key="instit3">University of Verona</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vittorio</forename><surname>Murino</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Italian Institute of Technology</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research University of Verona</orgName>
+								<orgName type="institution" key="instit3">University of Verona</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structural epitome: A way to summarize one&apos;s visual experience</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In order to study the properties of total visual input in humans, a single subject wore a camera for two weeks capturing, on average, an image every 20 seconds. The resulting new dataset contains a mix of indoor and outdoor scenes as well as numerous foreground objects. Our first goal is to create a visual summary of the subject&apos;s two weeks of life using unsupervised algorithms that would automatically discover recurrent scenes, familiar faces or common actions. Direct application of existing algorithms, such as panoramic stitching (e.g., Photosynth) or appearance-based clustering models (e.g., the epitome), is impractical due to either the large dataset size or the dramatic variations in the lighting conditions. As a remedy to these problems, we introduce a novel image representation, the &quot;structural element (stel) epitome,&quot; and an associated efficient learning algorithm. In our model, each image or image patch is characterized by a hidden mapping T which, as in previous epitome models, defines a mapping between the image coordinates and the coordinates in the large &quot;all-I-have-seen&quot; epitome matrix. The limited epitome real-estate forces the mappings of different images to overlap which indicates image similarity. However, the image similarity no longer depends on direct pixel-to-pixel intensity/color/feature comparisons as in previous epitome models, but on spatial configuration of scene or object parts, as the model is based on the palette-invariant stel models. As a result, stel epitomes capture structure that is invariant to non-structural changes, such as illumination changes, that tend to uniformly affect pixels belonging to a single scene or object part.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

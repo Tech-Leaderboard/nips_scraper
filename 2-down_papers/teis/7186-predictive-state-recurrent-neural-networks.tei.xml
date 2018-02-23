@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Predictive State Recurrent Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carlton</forename><surname>Downey</surname></persName>
+							<email>cmdowney@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">Georgia Tech Atlanta</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213, 30332, 15213</postCode>
+									<region>PA, GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ahmed</forename><surname>Hefny</surname></persName>
+							<email>ahefny@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">Georgia Tech Atlanta</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213, 30332, 15213</postCode>
+									<region>PA, GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Boyue</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">Georgia Tech Atlanta</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213, 30332, 15213</postCode>
+									<region>PA, GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Byron</forename><surname>Boots</surname></persName>
+							<email>bboots@cc.gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">Georgia Tech Atlanta</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213, 30332, 15213</postCode>
+									<region>PA, GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoff</forename><surname>Gordon</surname></persName>
+							<email>ggordon@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">Georgia Tech Atlanta</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213, 30332, 15213</postCode>
+									<region>PA, GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Predictive State Recurrent Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new model, Predictive State Recurrent Neural Networks (PSRNNs), for filtering and prediction in dynamical systems. PSRNNs draw on insights from both Recurrent Neural Networks (RNNs) and Predictive State Representations (PSRs), and inherit advantages from both types of models. Like many successful RNN architectures, PSRNNs use (potentially deeply composed) bilinear transfer functions to combine information from multiple sources. We show that such bilinear functions arise naturally from state updates in Bayes filters like PSRs, in which observations can be viewed as gating belief states. We also show that PSRNNs can be learned effectively by combining Backpropogation Through Time (BPTT) with an initialization derived from a statistically consistent learning algorithm for PSRs called two-stage regression (2SR). Finally, we show that PSRNNs can be factorized using tensor decomposition, reducing model size and suggesting interesting connections to existing multiplicative architectures such as LSTMs and GRUs. We apply PSRNNs to 4 datasets, and show that we outperform several popular alternative approaches to modeling dynamical systems in all cases.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

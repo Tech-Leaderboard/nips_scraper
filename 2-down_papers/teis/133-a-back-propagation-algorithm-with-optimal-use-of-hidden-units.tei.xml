@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A BACK-PROPAGATION ALGORITHM WITH OPTIMAL USE OF HIDDEN UNITS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yves</forename><surname>Chauvin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Inc (and Psychology Department</orgName>
+								<orgName type="institution" key="instit1">Thomson-CSF</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<address>
+									<addrLine>630, Hansen Way (Suite 250) Palo Alto</addrLine>
+									<postCode>94306</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A BACK-PROPAGATION ALGORITHM WITH OPTIMAL USE OF HIDDEN UNITS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper presents a variation of the back-propagation algorithm that makes optimal use of a network hidden units by de-cr~asing an &quot;energy&quot; term written as a function of the squared activations of these hidden units. The algorithm can automatically find optimal or nearly optimal architectures necessary to solve known Boolean functions, facilitate the interpretation of the activation of the remaining hidden units and automatically estimate the complexity of architectures appropriate for phonetic labeling problems. The general principle of the algorithm can also be adapted to different tasks: for example, it can be used to eliminate the [0, 0] local minimum of the [-1. +1] logistic activation function while preserving a much faster convergence and forcing binary activations over the set of hidden units. PRINCIPLE This paper describes an algorithm which makes optimal use of the hidden units in a network using the standard back-propagation algorithm (Rumelhart. Hinton &amp; Williams, 1986). Optimality is defined as the minimization of a function of the &quot;energy&quot; spent by the hidden units throughtout the network, independently of the chosen architecture, and where the energy is written as a function of the squared activations of the hidden units. The standard back-propagation algorithm is a gradient descent algorithm on the following cost function: P 0 C = I I (dij-Oij)2 [1] j where d is the desired output of an output unit, 0 the actual output, and where the sum is taken over the set of output units 0 for the set of training patterns P. 519</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

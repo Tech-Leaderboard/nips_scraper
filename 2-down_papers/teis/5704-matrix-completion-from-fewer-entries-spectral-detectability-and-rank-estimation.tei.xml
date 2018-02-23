@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Matrix Completion from Fewer Entries: Spectral Detectability and Rank Estimation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alaa</forename><surname>Saade</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire de Physique Statistique</orgName>
+								<orgName type="institution">CNRS &amp; École Normale Supérieure</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Florent</forename><surname>Krzakala</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire de Physique Statistique</orgName>
+								<orgName type="institution">CNRS &amp; École Normale Supérieure</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Institut de Physique Théorique, CEA Saclay and CNRS UMR 3681</orgName>
+								<orgName type="institution" key="instit1">Sorbonne Universités</orgName>
+								<orgName type="institution" key="instit2">Université Pierre et Marie Curie</orgName>
+								<address>
+									<addrLine>Paris 06</addrLine>
+									<postCode>F-75005, 91191</postCode>
+									<settlement>Paris, Gif-sur-Yvette</settlement>
+									<country>France, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lenka</forename><surname>Zdeborová</surname></persName>
+						</author>
+						<title level="a" type="main">Matrix Completion from Fewer Entries: Spectral Detectability and Rank Estimation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The completion of low rank matrices from few entries is a task with many practical applications. We consider here two aspects of this problem: detectability, i.e. the ability to estimate the rank r reliably from the fewest possible random entries, and performance in achieving small reconstruction error. We propose a spectral algorithm for these two tasks called MaCBetH (for Matrix Completion with the Bethe Hessian). The rank is estimated as the number of negative eigenvalues of the Bethe Hessian matrix, and the corresponding eigenvectors are used as initial condition for the minimization of the discrepancy between the estimated matrix and the revealed entries. We analyze the performance in a random matrix setting using results from the statistical mechanics of the Hopfield neural network, and show in particular that MaCBetH efficiently detects the rank r of a large n × m matrix from C(r)r √ nm entries, where C(r) is a constant close to 1. We also evaluate the corresponding root-mean-square error empirically and show that MaCBetH compares favorably to other existing approaches. Matrix completion is the task of inferring the missing entries of a matrix given a subset of known entries. Typically, this is possible because the matrix to be completed has (at least approximately) low rank r. This problem has witnessed a burst of activity, see e.g. [1, 2, 3], motivated by many applications such as collaborative filtering [1], quantum tomography [4] in physics, or the analysis of a covariance matrix [1]. A commonly studied model for matrix completion assumes the matrix to be exactly low rank, with the known entries chosen uniformly at random and observed without noise. The most widely considered question in this setting is how many entries need to be revealed such that the matrix can be completed exactly in a computationally efficient way [1, 3]. While our present paper assumes the same model, the main questions we investigate are different. The first question we address is detectability: how many random entries do we need to reveal in order to be able to estimate the rank r reliably. This is motivated by the more generic problem of detecting structure (in our case, low rank) hidden in partially observed data. It is reasonable to expect the existence of a region where exact completion is hard or even impossible yet the rank estimation is tractable. A second question we address is what is the minimum achievable root-mean-square error (RMSE) in estimating the unknown elements of the matrix. In practice, even if exact reconstruction is not possible, having a procedure that provides a very small RMSE might be quite sufficient. In this paper we propose an algorithm called MaCBetH that gives the best known empirical performance for the two tasks above when the rank r is small. The rank in our algorithm is estimated as the number of negative eigenvalues of an associated Bethe Hessian matrix [5, 6], and the corresponding eigenvectors are used as an initial condition for the local optimization of a cost function commonly considered in matrix completion (see e.g. [3]). In particular, in the random matrix setting, we show 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mixing Time Estimation in Reversible Markov Chains from a Single Sample Path</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Hsu</surname></persName>
+							<email>djhsu@cs.columbia.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Columbia University</orgName>
+								<orgName type="institution" key="instit2">Gurion University</orgName>
+								<orgName type="institution" key="instit3">University of Alberta</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aryeh</forename><surname>Kontorovich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Columbia University</orgName>
+								<orgName type="institution" key="instit2">Gurion University</orgName>
+								<orgName type="institution" key="instit3">University of Alberta</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Csaba</forename><surname>Szepesvári</surname></persName>
+							<email>szepesva@cs.ualberta.ca</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Columbia University</orgName>
+								<orgName type="institution" key="instit2">Gurion University</orgName>
+								<orgName type="institution" key="instit3">University of Alberta</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mixing Time Estimation in Reversible Markov Chains from a Single Sample Path</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This article provides the first procedure for computing a fully data-dependent interval that traps the mixing time t mix of a finite reversible ergodic Markov chain at a prescribed confidence level. The interval is computed from a single finite-length sample path from the Markov chain, and does not require the knowledge of any parameters of the chain. This stands in contrast to previous approaches, which either only provide point estimates, or require a reset mechanism, or additional prior knowledge. The interval is constructed around the relaxation time t relax , which is strongly related to the mixing time, and the width of the interval converges to zero roughly at a √ n rate, where n is the length of the sample path. Upper and lower bounds are given on the number of samples required to achieve constant-factor multiplicative accuracy. The lower bounds indicate that, unless further restrictions are placed on the chain, no procedure can achieve this accuracy level before seeing each state at least Ω(t relax) times on the average. Finally, future directions of research are identified.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

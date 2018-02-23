@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Collapsed variational Bayes for Markov jump processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiangwei</forename><surname>Pan</surname></persName>
+							<email>panjiangwei@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science Duke University</orgName>
+								<orgName type="department" key="dep2">Department of Statistics Purdue University</orgName>
+								<orgName type="department" key="dep3">Department of Statistics Purdue University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Boqian</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science Duke University</orgName>
+								<orgName type="department" key="dep2">Department of Statistics Purdue University</orgName>
+								<orgName type="department" key="dep3">Department of Statistics Purdue University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vinayak</forename><surname>Rao</surname></persName>
+							<email>varao@purdue.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science Duke University</orgName>
+								<orgName type="department" key="dep2">Department of Statistics Purdue University</orgName>
+								<orgName type="department" key="dep3">Department of Statistics Purdue University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Collapsed variational Bayes for Markov jump processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Markov jump processes are continuous-time stochastic processes widely used in statistical applications in the natural sciences, and more recently in machine learning. Inference for these models typically proceeds via Markov chain Monte Carlo, and can suffer from various computational challenges. In this work, we propose a novel collapsed variational inference algorithm to address this issue. Our work leverages ideas from discrete-time Markov chains, and exploits a connection between these two through an idea called uniformization. Our algorithm proceeds by marginalizing out the parameters of the Markov jump process, and then approximating the distribution over the trajectory with a factored distribution over segments of a piecewise-constant function. Unlike MCMC schemes that marginal-ize out transition times of a piecewise-constant process, our scheme optimizes the discretization of time, resulting in significant computational savings. We apply our ideas to synthetic data as well as a dataset of check-in recordings, where we demonstrate superior performance over state-of-the-art MCMC methods. 1 Markov jump processes Markov jump processes (MJPs) (Çinlar, 1975) are stochastic processes that generalize discrete-time discrete-state Markov chains to continuous-time. MJPs find wide application in fields like biology, chemistry and ecology, where they are used to model phenomena like the evolution of population sizes (Opper and Sanguinetti, 2007), gene-regulation Boys et al. (2008), or the state of a computing network Xu and Shelton (2010). A realization of an MJP is a random piecewise-constant function of time, transitioning between a set of states, usually of finite cardinality N (see Figure 1, left). This stochastic process is parametrized by an N × 1 distribution π giving the initial distribution over states, and an N × N rate matrix A governing the dynamics of the process. The off-diagonal element A ij (i = j) gives the rate of transitioning from state i to j, and these elements determine the diagonal element A ii according to the relation A ii = − i =j A ij. Thus, the rows of A sum to 0, and the negative of the diagonal element A ii gives the total rate of leaving state i. Simulating a trajectory from an MJP over an interval [0, T ] follows what is called the Gillespie algorithm (Gillespie, 1977): 1. First, at time t = 0, sample an initial state s 0 from π. 2. From here onwards, upon entering a new state i, sample the time of the next transition from an exponential with rate |A ii |, and then a new state j = i with probability proportional to A ij. These latter two steps are repeated until the end of the interval, giving a piecewise-constant trajectory consisting of a sequence of holds and jumps. Note that under this formulation, it is impossible for the system to make self-transition, these are effectively absorbed into the rate parameters A ii .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Anchor Planes for Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ziming</forename><surname>Zhang † L&amp;apos;ubor Ladický</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing</orgName>
+								<orgName type="institution">Oxford Brookes University</orgName>
+								<address>
+									<postCode>OX33 1HX</postCode>
+									<settlement>Wheatley</settlement>
+									<region>Oxford</region>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Engineering Science</orgName>
+								<orgName type="institution">University of Oxford</orgName>
+								<address>
+									<addrLine>Parks Road</addrLine>
+									<postCode>OX1 3PJ</postCode>
+									<settlement>Oxford</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">H S</forename><surname>Torr</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing</orgName>
+								<orgName type="institution">Oxford Brookes University</orgName>
+								<address>
+									<postCode>OX33 1HX</postCode>
+									<settlement>Wheatley</settlement>
+									<region>Oxford</region>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amir</forename><surname>Saffari</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing</orgName>
+								<orgName type="institution">Oxford Brookes University</orgName>
+								<address>
+									<postCode>OX33 1HX</postCode>
+									<settlement>Wheatley</settlement>
+									<region>Oxford</region>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Sony Computer Entertainment Europe</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Anchor Planes for Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Local Coordinate Coding (LCC) [18] is a method for modeling functions of data lying on non-linear manifolds. It provides a set of anchor points which form a local coordinate system, such that each data point on the manifold can be approximated by a linear combination of its anchor points, and the linear weights become the local coordinate coding. In this paper we propose encoding data using orthogonal anchor planes, rather than anchor points. Our method needs only a few orthogonal anchor planes for coding, and it can linearize any (α, β, p)-Lipschitz smooth non-linear function with a fixed expected value of the upper-bound approximation error on any high dimensional data. In practice, the orthogonal coordinate system can be easily learned by minimizing this upper bound using singular value decomposition (SVD). We apply our method to model the coordinates locally in linear SVMs for classification tasks, and our experiment on MNIST shows that using only 50 anchor planes our method achieves 1.72% error rate, while LCC achieves 1.90% error rate using 4096 anchor points.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

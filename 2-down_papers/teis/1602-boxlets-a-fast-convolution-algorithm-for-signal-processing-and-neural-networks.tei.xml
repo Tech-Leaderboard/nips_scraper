@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Boxlets: a Fast Convolution Algorithm for Signal Processing and Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrice</forename><forename type="middle">Y</forename><surname>Simard·</surname></persName>
+							<email>patrice@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">AT&amp;T Labs-Research</orgName>
+								<address>
+									<addrLine>100 Schultz Drive, Red Bank</addrLine>
+									<postCode>07701-7033</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leon</forename><surname>Botton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">AT&amp;T Labs-Research</orgName>
+								<address>
+									<addrLine>100 Schultz Drive, Red Bank</addrLine>
+									<postCode>07701-7033</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><surname>Haffner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">AT&amp;T Labs-Research</orgName>
+								<address>
+									<addrLine>100 Schultz Drive, Red Bank</addrLine>
+									<postCode>07701-7033</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yann</forename><surname>Lecnn</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">AT&amp;T Labs-Research</orgName>
+								<address>
+									<addrLine>100 Schultz Drive, Red Bank</addrLine>
+									<postCode>07701-7033</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Boxlets: a Fast Convolution Algorithm for Signal Processing and Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Signal processing and pattern recognition algorithms make extensive use of convolution. In many cases, computational accuracy is not as important as computational speed. In feature extraction, for instance, the features of interest in a signal are usually quite distorted. This form of noise justifies some level of quantization in order to achieve faster feature extraction. Our approach consists of approximating regions of the signal with low degree polynomi-als, and then differentiating the resulting signals in order to obtain impulse functions (or derivatives of impulse functions). With this representation, convolution becomes extremely simple and can be implemented quite effectively. The true convolution can be recovered by integrating the result of the convolution. This method yields substantial speed up in feature extraction and is applicable to convolutional neural networks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

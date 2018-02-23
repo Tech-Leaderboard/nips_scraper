@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Is the Bellman residual a bad proxy?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthieu</forename><surname>Geist</surname></persName>
+							<email>matthieu.geist@univ-lorraine.fr bilal.piot@univ-lille1.fr, olivier.pietquin@univ-lille1.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 7360</orgName>
+								<orgName type="institution" key="instit1">Université de Lorraine &amp; CNRS</orgName>
+								<orgName type="institution" key="instit2">LIEC</orgName>
+								<address>
+									<postCode>F-57070</postCode>
+									<settlement>Metz</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bilal</forename><surname>Piot</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR</orgName>
+								<orgName type="institution" key="instit1">Univ. Lille</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">Centrale Lille</orgName>
+								<address>
+									<addrLine>9189 -CRIStAL</addrLine>
+									<postCode>F-59000</postCode>
+									<settlement>Inria, Lille</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Now with Google DeepMind</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olivier</forename><surname>Pietquin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR</orgName>
+								<orgName type="institution" key="instit1">Univ. Lille</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">Centrale Lille</orgName>
+								<address>
+									<addrLine>9189 -CRIStAL</addrLine>
+									<postCode>F-59000</postCode>
+									<settlement>Inria, Lille</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Now with Google DeepMind</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Is the Bellman residual a bad proxy?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper aims at theoretically and empirically comparing two standard optimization criteria for Reinforcement Learning: i) maximization of the mean value and ii) minimization of the Bellman residual. For that purpose, we place ourselves in the framework of policy search algorithms, that are usually designed to maximize the mean value, and derive a method that minimizes the residual T * v π − v π 1,ν over policies. A theoretical analysis shows how good this proxy is to policy optimization , and notably that it is better than its value-based counterpart. We also propose experiments on randomly generated generic Markov decision processes, specifically designed for studying the influence of the involved concentrability coefficient. They show that the Bellman residual is generally a bad proxy to policy optimization and that directly maximizing the mean value is much better, despite the current lack of deep theoretical analysis. This might seem obvious, as directly addressing the problem of interest is usually better, but given the prevalence of (projected) Bellman residual minimization in value-based reinforcement learning, we believe that this question is worth to be considered.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

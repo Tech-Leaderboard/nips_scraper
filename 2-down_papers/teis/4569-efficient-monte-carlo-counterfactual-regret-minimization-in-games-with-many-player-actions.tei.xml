@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Monte Carlo Counterfactual Regret Minimization in Games with Many Player Actions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Gibson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<postCode>T6G 2E8</postCode>
+									<settlement>Alberta</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Neil</forename><surname>Burch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<postCode>T6G 2E8</postCode>
+									<settlement>Alberta</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Lanctot</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<postCode>T6G 2E8</postCode>
+									<settlement>Alberta</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Duane</forename><surname>Szafron</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<postCode>T6G 2E8</postCode>
+									<settlement>Alberta</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Monte Carlo Counterfactual Regret Minimization in Games with Many Player Actions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Counterfactual Regret Minimization (CFR) is a popular, iterative algorithm for computing strategies in extensive-form games. The Monte Carlo CFR (MCCFR) variants reduce the per iteration time cost of CFR by traversing a smaller, sampled portion of the tree. The previous most effective instances of MCCFR can still be very slow in games with many player actions since they sample every action for a given player. In this paper, we present a new MCCFR algorithm, Average Strategy Sampling (AS), that samples a subset of the player&apos;s actions according to the player&apos;s average strategy. Our new algorithm is inspired by a new, tighter bound on the number of iterations required by CFR to converge to a given solution quality. In addition, we prove a similar, tighter bound for AS and other popular MCCFR variants. Finally, we validate our work by demonstrating that AS converges faster than previous MCCFR algorithms in both no-limit poker and Bluff.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

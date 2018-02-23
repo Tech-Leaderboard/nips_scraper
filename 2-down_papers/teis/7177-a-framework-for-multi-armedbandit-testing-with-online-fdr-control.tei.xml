@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A framework for Multi-A(rmed)/B(andit) Testing with Online FDR Control</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fanny</forename><surname>Yang</surname></persName>
+							<email>fanny-yang@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of EECS</orgName>
+								<orgName type="department" key="dep2">Dept. of EECS and Statistics</orgName>
+								<orgName type="laboratory" key="lab1">Dept. of EECS and Statistics, U.C. Berkeley</orgName>
+								<orgName type="laboratory" key="lab2">Allen School of CSE, U. of Washington</orgName>
+								<orgName type="institution">U.C. Berkeley</orgName>
+								<address>
+									<country>U.C. Berkeley</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aaditya</forename><surname>Ramdas</surname></persName>
+							<email>ramdas@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of EECS</orgName>
+								<orgName type="department" key="dep2">Dept. of EECS and Statistics</orgName>
+								<orgName type="laboratory" key="lab1">Dept. of EECS and Statistics, U.C. Berkeley</orgName>
+								<orgName type="laboratory" key="lab2">Allen School of CSE, U. of Washington</orgName>
+								<orgName type="institution">U.C. Berkeley</orgName>
+								<address>
+									<country>U.C. Berkeley</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><surname>Jamieson</surname></persName>
+							<email>jamieson@cs.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of EECS</orgName>
+								<orgName type="department" key="dep2">Dept. of EECS and Statistics</orgName>
+								<orgName type="laboratory" key="lab1">Dept. of EECS and Statistics, U.C. Berkeley</orgName>
+								<orgName type="laboratory" key="lab2">Allen School of CSE, U. of Washington</orgName>
+								<orgName type="institution">U.C. Berkeley</orgName>
+								<address>
+									<country>U.C. Berkeley</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Wainwright</surname></persName>
+							<email>wainwrig@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of EECS</orgName>
+								<orgName type="department" key="dep2">Dept. of EECS and Statistics</orgName>
+								<orgName type="laboratory" key="lab1">Dept. of EECS and Statistics, U.C. Berkeley</orgName>
+								<orgName type="laboratory" key="lab2">Allen School of CSE, U. of Washington</orgName>
+								<orgName type="institution">U.C. Berkeley</orgName>
+								<address>
+									<country>U.C. Berkeley</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A framework for Multi-A(rmed)/B(andit) Testing with Online FDR Control</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose an alternative framework to existing setups for controlling false alarms when multiple A/B tests are run over time. This setup arises in many practical applications, e.g. when pharmaceutical companies test new treatment options against control pills for different diseases, or when internet companies test their default webpages versus various alternatives over time. Our framework proposes to replace a sequence of A/B tests by a sequence of best-arm MAB instances, which can be continuously monitored by the data scientist. When interleaving the MAB tests with an online false discovery rate (FDR) algorithm, we can obtain the best of both worlds: low sample complexity and any time online FDR control. Our main contributions are: (i) to propose reasonable definitions of a null hypothesis for MAB instances; (ii) to demonstrate how one can derive an always-valid sequential p-value that allows continuous monitoring of each MAB test; and (iii) to show that using rejection thresholds of online-FDR algorithms as the confidence levels for the MAB algorithms results in both sample-optimality, high power and low FDR at any point in time. We run extensive simulations to verify our claims, and also report results on real data collected from the New Yorker Cartoon Caption contest.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

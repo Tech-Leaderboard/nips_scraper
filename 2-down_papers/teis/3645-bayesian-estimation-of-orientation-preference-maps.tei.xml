@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian estimation of orientation preference maps</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jakob</forename><forename type="middle">H</forename><surname>Macke</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sebastian</forename><surname>Gerwinn</surname></persName>
+							<email>sgerwinn@tuebingen.mpg.de</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leonard</forename><forename type="middle">E</forename><surname>White</surname></persName>
+							<email>white033@mc.duke.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthias</forename><surname>Kaschube</surname></persName>
+							<email>kaschube@princeton.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthias</forename><surname>Bethge</surname></persName>
+							<email>mbethge@tuebingen.mpg.de</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Biological Cybernetics</orgName>
+								<orgName type="department" key="dep2">Duke Institute for Brain Sciences Duke University Durham</orgName>
+								<orgName type="laboratory">MPI for Biological Cybernetics and University of Tübingen Computational Vision and Neuroscience Spemannstrasse 41 Lewis-Sigler Institute for Integrative Genomics and Department of Physics Princeton University Princeton</orgName>
+								<orgName type="institution">University of Tübingen Computational Vision and Neuroscience</orgName>
+								<address>
+									<addrLine>Spemannstrasse 41</addrLine>
+									<postCode>72076, 72076, 27705, 08544</postCode>
+									<settlement>Tübingen, Tübingen</settlement>
+									<region>NC, NJ</region>
+									<country>USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">MPI for Biological Cybernetics and University of Tübingen Computational Vision and Neuroscience Group Spemannstrasse 41</orgName>
+								<address>
+									<postCode>72076</postCode>
+									<settlement>Tübingen</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian estimation of orientation preference maps</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Imaging techniques such as optical imaging of intrinsic signals, 2-photon calcium imaging and voltage sensitive dye imaging can be used to measure the functional organization of visual cortex across different spatial and temporal scales. Here, we present Bayesian methods based on Gaussian processes for extracting topographic maps from functional imaging data. In particular, we focus on the estimation of orientation preference maps (OPMs) from intrinsic signal imaging data. We model the underlying map as a bivariate Gaussian process, with a prior covariance function that reflects known properties of OPMs, and a noise covariance adjusted to the data. The posterior mean can be interpreted as an optimally smoothed estimate of the map, and can be used for model based interpolations of the map from sparse measurements. By sampling from the posterior distribution, we can get error bars on statistical properties such as preferred orientations, pinwheel locations or pinwheel counts. Finally, the use of an explicit probabilistic model facilitates interpretation of parameters and quantitative model comparisons. We demonstrate our model both on simulated data and on intrinsic signaling data from ferret visual cortex.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

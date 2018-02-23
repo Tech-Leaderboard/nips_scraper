@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Biclustering Using Message Passing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luke</forename><surname>O&amp;apos;connor</surname></persName>
+							<email>loconnor@g.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Bioinformatics and Integrative Genomics</orgName>
+								<orgName type="department" key="dep2">Electrical Engineering and Computer Science Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02138, 02139</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Soheil</forename><surname>Feizi</surname></persName>
+							<email>sfeizi@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Bioinformatics and Integrative Genomics</orgName>
+								<orgName type="department" key="dep2">Electrical Engineering and Computer Science Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02138, 02139</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Biclustering Using Message Passing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Biclustering is the analog of clustering on a bipartite graph. Existent methods infer biclusters through local search strategies that find one cluster at a time; a common technique is to update the row memberships based on the current column memberships , and vice versa. We propose a biclustering algorithm that maximizes a global objective function using message passing. Our objective function closely approximates a general likelihood function, separating a cluster size penalty term into row-and column-count penalties. Because we use a global optimization framework , our approach excels at resolving the overlaps between biclusters, which are important features of biclusters in practice. Moreover, Expectation-Maximization can be used to learn the model parameters if they are unknown. In simulations, we find that our method outperforms two of the best existing biclustering algorithms, ISA and LAS, when the planted clusters overlap. Applied to three gene expression datasets, our method finds coregulated gene clusters that have high quality in terms of cluster size and density.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

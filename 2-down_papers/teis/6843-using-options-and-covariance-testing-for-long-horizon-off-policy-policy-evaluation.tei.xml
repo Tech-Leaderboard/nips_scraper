@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Using Options and Covariance Testing for Long Horizon Off-Policy Policy Evaluation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhaohan</forename><forename type="middle">Daniel</forename><surname>Guo</surname></persName>
+							<email>zguo@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Massachusetts Amherst Amherst</orgName>
+								<orgName type="institution" key="instit3">Stanford University Stanford</orgName>
+								<address>
+									<postCode>15213, 01003, 94305</postCode>
+									<region>PA, MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">S</forename><surname>Thomas</surname></persName>
+							<email>pthomas@cs.umass.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Massachusetts Amherst Amherst</orgName>
+								<orgName type="institution" key="instit3">Stanford University Stanford</orgName>
+								<address>
+									<postCode>15213, 01003, 94305</postCode>
+									<region>PA, MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emma</forename><surname>Brunskill</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Massachusetts Amherst Amherst</orgName>
+								<orgName type="institution" key="instit3">Stanford University Stanford</orgName>
+								<address>
+									<postCode>15213, 01003, 94305</postCode>
+									<region>PA, MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Using Options and Covariance Testing for Long Horizon Off-Policy Policy Evaluation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Evaluating a policy by deploying it in the real world can be risky and costly. Off-policy policy evaluation (OPE) algorithms use historical data collected from running a previous policy to evaluate a new policy, which provides a means for evaluating a policy without requiring it to ever be deployed. Importance sampling is a popular OPE method because it is robust to partial observability and works with continuous states and actions. However, the amount of historical data required by importance sampling can scale exponentially with the horizon of the problem: the number of sequential decisions that are made. We propose using policies over temporally extended actions, called options, and show that combining these policies with importance sampling can significantly improve performance for long-horizon problems. In addition, we can take advantage of special cases that arise due to options-based policies to further improve the performance of importance sampling. We further generalize these special cases to a general covariance testing rule that can be used to decide which weights to drop in an IS estimate, and derive a new IS algorithm called Incremental Importance Sampling that can provide significantly more accurate estimates for a broad class of domains.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

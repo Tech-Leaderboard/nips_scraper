@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Green&apos;s Function Method for Fast On-line Learning Algorithm of Recurrent Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guo-Zheng</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institute for Advanced Computer Studies and Laboratory for Plasma Research</orgName>
+								<orgName type="institution">University of Maryland College Park</orgName>
+								<address>
+									<postCode>20742</postCode>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hsing-Hen</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institute for Advanced Computer Studies and Laboratory for Plasma Research</orgName>
+								<orgName type="institution">University of Maryland College Park</orgName>
+								<address>
+									<postCode>20742</postCode>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yee-Chun</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institute for Advanced Computer Studies and Laboratory for Plasma Research</orgName>
+								<orgName type="institution">University of Maryland College Park</orgName>
+								<address>
+									<postCode>20742</postCode>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Green&apos;s Function Method for Fast On-line Learning Algorithm of Recurrent Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The two well known learning algorithms of recurrent neural networks are the back-propagation (Rumelhart &amp; el al., Werbos) and the forward propagation (Williams and Zipser). The main drawback of back-propagation is its off-line backward path in time for error cumulation. This violates the on-line requirement in many practical applications. Although the forward propagation algorithm can be used in an on-line manner, the annoying drawback is the heavy computation load required to update the high dimensional sensitivity matrix (0(fir) operations for each time step). Therefore, to develop a fast forward algorithm is a challenging task. In this paper w~ proposed a forward learning algorithm which is one order faster (only 0(fV3) operations for each time step) than the sensitivity matrix algorithm. The basic idea is that instead of integrating the high dimensional sensitivity dynamic equation we solve forward in time for its Green&apos;s function to avoid the redundant computations, and then update the weights whenever the error is to be corrected. A Numerical example for classifying state trajectories using a recurrent network is presented. It substantiated the faster speed of the proposed algorithm than the Williams and Zipser&apos;s algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stabilizing Value Function with the</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xin</forename><surname>Wang</surname></persName>
+							<email>wangxi@cs. orst. edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Oregon State University Corvallis</orgName>
+								<orgName type="institution" key="instit2">Oregon State University Corvallis</orgName>
+								<address>
+									<postCode>97331, 97331</postCode>
+									<region>OR</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">G</forename><surname>Dietterich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Oregon State University Corvallis</orgName>
+								<orgName type="institution" key="instit2">Oregon State University Corvallis</orgName>
+								<address>
+									<postCode>97331, 97331</postCode>
+									<region>OR</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stabilizing Value Function with the</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We address the problem of non-convergence of online reinforcement learning algorithms (e.g., Q learning and SARSA(A)) by adopting an incremental-batch approach that separates the exploration process from the function fitting process. Our BFBP (Batch Fit to Best Paths) algorithm alternates between an exploration phase (during which trajectories are generated to try to find fragments of the optimal policy) and a function fitting phase (during which a function approximator is fit to the best known paths from start states to terminal states). An advantage of this approach is that batch value-function fitting is a global process, which allows it to address the tradeoffs in function approximation that cannot be handled by local, online algorithms. This approach was pioneered by Boyan and Moore with their GROWSUPPORT and ROUT algorithms. We show how to improve upon their work by applying a better exploration process and by enriching the function fitting procedure to incorporate Bellman error and advantage error measures into the objective function. The results show improved performance on several benchmark problems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

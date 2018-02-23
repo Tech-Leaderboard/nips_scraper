@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Preconditioned Spectral Descent for Deep Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">E</forename><surname>Carlson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Statistics</orgName>
+								<orgName type="institution">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edo</forename><surname>Collins</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratory for Information and Inference Systems (LIONS)</orgName>
+								<address>
+									<settlement>EPFL</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ya-Ping</forename><surname>Hsieh</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratory for Information and Inference Systems (LIONS)</orgName>
+								<address>
+									<settlement>EPFL</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><surname>Carin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="institution">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Volkan</forename><surname>Cevher</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratory for Information and Inference Systems (LIONS)</orgName>
+								<address>
+									<settlement>EPFL</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Preconditioned Spectral Descent for Deep Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Deep learning presents notorious computational challenges. These challenges include , but are not limited to, the non-convexity of learning objectives and estimating the quantities needed for optimization algorithms, such as gradients. While we do not address the non-convexity, we present an optimization solution that exploits the so far unused &quot;geometry&quot; in the objective function in order to best make use of the estimated gradients. Previous work attempted similar goals with precon-ditioned methods in the Euclidean space, such as L-BFGS, RMSprop, and ADA-grad. In stark contrast, our approach combines a non-Euclidean gradient method with preconditioning. We provide evidence that this combination more accurately captures the geometry of the objective function compared to prior work. We theoretically formalize our arguments and derive novel preconditioned non-Euclidean algorithms. The results are promising in both computational time and quality when applied to Restricted Boltzmann Machines, Feedforward Neural Nets, and Convolutional Neural Nets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

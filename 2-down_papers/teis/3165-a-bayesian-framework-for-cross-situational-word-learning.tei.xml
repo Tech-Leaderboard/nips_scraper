@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Bayesian Framework for Cross-Situational Word-Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">C</forename><surname>Frank</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Science</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noah</forename><forename type="middle">D</forename><surname>Goodman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Science</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Science</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Bayesian Framework for Cross-Situational Word-Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>For infants, early word learning is a chicken-and-egg problem. One way to learn a word is to observe that it co-occurs with a particular referent across different situations. Another way is to use the social context of an utterance to infer the intended referent of a word. Here we present a Bayesian model of cross-situational word learning, and an extension of this model that also learns which social cues are relevant to determining reference. We test our model on a small corpus of mother-infant interaction and find it performs better than competing models. Finally , we show that our model accounts for experimental phenomena including mutual exclusivity, fast-mapping, and generalization from social cues. To understand the difficulty of an infant word-learner, imagine walking down the street with a friend who suddenly says &quot;dax blicket philbin na fivy!&quot; while at the same time wagging her elbow. If you knew any of these words you might infer from the syntax of her sentence that blicket is a novel noun, and hence the name of a novel object. At the same time, if you knew that this friend indicated her attention by wagging her elbow at objects, you might infer that she intends to refer to an object in a nearby show window. On the other hand if you already knew that &quot;blicket&quot; meant the object in the window, you might be able to infer these elements of syntax and social cues. Thus, the problem of early word-learning is a classic chicken-and-egg puzzle: in order to learn word meanings, learners must use their knowledge of the rest of language (including rules of syntax, parts of speech, and other word meanings) as well as their knowledge of social situations. But in order to learn about the facts of their language they must first learn some words, and in order to determine which cues matter for establishing reference (for instance, pointing and looking at an object but normally not waggling your elbow) they must first have a way to know the intended referent in some situations. For theories of language acquisition, there are two common ways out of this dilemma. The first involves positing a wide range of innate structures which determine the syntax and categories of a language and which social cues are informative. (Though even when all of these elements are innately determined using them to learn a language from evidence may not be trivial [1].) The other alternative involves bootstrapping: learning some words, then using those words to learn how to learn more. This paper gives a proposal for the second alternative. We first present a Bayesian model of how learners could use a statistical strategy-cross-situational word-learning-to learn how words map to objects, independent of syntactic and social cues. We then extend this model to a true bootstrapping situation: using social cues to learn words while using words to learn social cues. Finally, we examine several important phenomena in word learning: mutual exclusivity (the tendency to assign novel words to novel referents), fast-mapping (the ability to assign a novel word in a linguistic context to a novel referent after only a single use), and social generalization (the ability to use social context to learn the referent of a novel word). Without adding additional specialized machinery, we show how these can be explained within our model as the result of domain-general probabilistic inference mechanisms operating over the linguistic domain.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

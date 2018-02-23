@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Using Manifold Structure for Partially Labelled Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mikhail</forename><forename type="middle">B</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">Depts of Computer Science and Statistics</orgName>
+								<orgName type="institution" key="instit1">University of Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Chicago</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Partha</forename><surname>Niyogi</surname></persName>
+							<email>niyogi@cs.uchicago .edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">Depts of Computer Science and Statistics</orgName>
+								<orgName type="institution" key="instit1">University of Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Chicago</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Using Manifold Structure for Partially Labelled Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the general problem of utilizing both labeled and un-labeled data to improve classification accuracy. Under t he assumption that the data lie on a submanifold in a high dimensional space, we develop an algorithmic framework to classify a partially labeled data set in a principled manner. The central idea of our approach is that classification functions are naturally defined only on t he sub-manifold in question rather than the total ambient space. Using the Laplace Beltrami operator one produces a basis for a Hilb ert space of square integrable functions on the submanifold. To recover such a basis , only unlab eled examples are required. Once a basis is obtained , training can be performed using the labeled data set. Our algorithm models the manifold using the adjacency graph for the data and approximates the Laplace Beltrami operator by the graph Laplacian. Practical applications to image and text classification are considered.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

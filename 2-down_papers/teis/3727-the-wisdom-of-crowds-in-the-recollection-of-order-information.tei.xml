@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Th e Wi sdo m o f Cro wds in th e Recoll ection o f Ord er In fo rma ti on</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Steyvers</surname></persName>
+							<email>mark.steyvers@uci.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Cognitive Sciences</orgName>
+								<orgName type="institution">University of California Irvine</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Cognitive Sciences</orgName>
+								<orgName type="institution">University of California Irvine</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brent</forename><surname>Miller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Cognitive Sciences</orgName>
+								<orgName type="institution">University of California Irvine</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pernille</forename><surname>Hemmer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Cognitive Sciences</orgName>
+								<orgName type="institution">University of California Irvine</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Th e Wi sdo m o f Cro wds in th e Recoll ection o f Ord er In fo rma ti on</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>When individuals independently recollect events or retrieve facts from memory, how can we aggregate these retrieved memories to reconstruct the actual set of events or facts? In this research, we report the performance of individuals in a series of general knowledge tasks, where the goal is to reconstruct from memory the order of historic events , or the order of items along some physical dimension. We introduce two Bayesian models for aggregating order information based on a Thurstonian approach and Mallows model. Both models assume that each individual&apos;s reconstruction is based on either a random permutation of the unobserved ground truth, or by a pure guessing strategy. We apply MCMC to make inferences about the underlying truth and the strategies employed by individuals. The models demonstrate a &quot;wisdom of crowds &quot; effect, where the aggregated or derings are closer to the true ordering than the orderings of the best individual. 1 I nt ro duc t io n Many demonstrations have shown that aggregating the judgments of a number of individuals results in an estimate that is close to the true answer, a phenomenon that has come to be known as the &quot;wisdom of crowds&quot; [1]. This was demonstrated by Galton, who sho wed that the estimated weight of an ox, when averaged across individuals, closely approximated the true weight [2]. Similarly, on the game show Who Wants to be a Millionaire, contestants are given the opportunity to ask all members of the audience to answer multiple choice questions. Over several seasons of the show, the modal response of the audience corresponded to the correct answer 91% of the time. More sophisticated aggregation approaches have been developed for multiple choice tasks, such as Cult ural Consensus Theory, that additionally take differences across indi viduals and items into account [3]. The wisdom of crowds idea is currently used in several real-world applications, such as prediction markets [4], spam filtering, and the prediction of consumer preferences through collaborative filtering. Recently, it was shown that a form of the wisdom of crowds phenomenon also occurs within a single person [5]. Averaging multiple guesses from one person provides better estimates than the individual guesses. We are interested in applying this wisdom of crowds phenomenon to human memory involving situations where individuals have to retrieve information more complex than single numerical estimates or answers to multiple choice questions. We will focus here on memory for order information. For example, we test individuals on their ability to reconstruct from memory the order of historic events (e.g., the order of US presidents), or the magnitude along some physical dimension (e.g., the order of largest US cities). We then develop computational models that infer distributions over orderings to explain the observed orderings across individuals. The goal is to demonstrate a wisdom of crowds effects where</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

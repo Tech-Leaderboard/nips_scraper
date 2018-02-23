@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Differentiable Sparse Coding</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">M</forename><surname>Bradley</surname></persName>
+							<email>dbradley@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213</postCode>
+									<region>PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Andrew</forename><surname>Bagnell</surname></persName>
+							<email>dbagnell@ri.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213</postCode>
+									<region>PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Differentiable Sparse Coding</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Prior work has shown that features which appear to be biologically plausible as well as empirically useful can be found by sparse coding with a prior such as a laplacian (L 1) that promotes sparsity. We show how smoother priors can preserve the benefits of these sparse priors while adding stability to the Maximum A-Posteriori (MAP) estimate that makes it more useful for prediction problems. Additionally, we show how to calculate the derivative of the MAP estimate efficiently with implicit differentiation. One prior that can be differentiated this way is KL-regularization. We demonstrate its effectiveness on a wide variety of applications , and find that online optimization of the parameters of the KL-regularized model can significantly improve prediction performance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

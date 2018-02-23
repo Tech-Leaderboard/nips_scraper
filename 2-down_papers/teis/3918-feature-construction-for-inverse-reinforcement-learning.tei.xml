@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Feature Construction for Inverse Reinforcement Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sergey</forename><surname>Levine</surname></persName>
+							<email>svlevine@cs.stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zoran</forename><forename type="middle">Popovi´c</forename><surname>Popovi´c</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vladlen</forename><surname>Koltun</surname></persName>
+							<email>vladlen@cs.stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Feature Construction for Inverse Reinforcement Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The goal of inverse reinforcement learning is to find a reward function for a Markov decision process, given example traces from its optimal policy. Current IRL techniques generally rely on user-supplied features that form a concise basis for the reward. We present an algorithm that instead constructs reward features from a large collection of component features, by building logical conjunctions of those component features that are relevant to the example policy. Given example traces, the algorithm returns a reward function as well as the constructed features. The reward function can be used to recover a full, deterministic, stationary policy , and the features can be used to transplant the reward function into any novel environment on which the component features are well defined.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

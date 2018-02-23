@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian Sampling Using Stochastic Gradient Thermostats</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nan</forename><surname>Ding</surname></persName>
+							<email>dingnan@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+								<orgName type="institution" key="instit5">Purdue University</orgName>
+								<orgName type="institution" key="instit6">Google Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Youhan</forename><surname>Fang</surname></persName>
+							<email>yfang@cs.purdue.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+								<orgName type="institution" key="instit5">Purdue University</orgName>
+								<orgName type="institution" key="instit6">Google Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryan</forename><surname>Babbush</surname></persName>
+							<email>babbush@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+								<orgName type="institution" key="instit5">Purdue University</orgName>
+								<orgName type="institution" key="instit6">Google Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Changyou</forename><surname>Chen</surname></persName>
+							<email>cchangyou@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+								<orgName type="institution" key="instit5">Purdue University</orgName>
+								<orgName type="institution" key="instit6">Google Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">D</forename><surname>Skeel</surname></persName>
+							<email>skeel@cs.purdue.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+								<orgName type="institution" key="instit5">Purdue University</orgName>
+								<orgName type="institution" key="instit6">Google Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hartmut</forename><surname>Neven</surname></persName>
+							<email>neven@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+								<orgName type="institution" key="instit5">Purdue University</orgName>
+								<orgName type="institution" key="instit6">Google Inc</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian Sampling Using Stochastic Gradient Thermostats</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Dynamics-based sampling methods, such as Hybrid Monte Carlo (HMC) and Langevin dynamics (LD), are commonly used to sample target distributions. Recently , such approaches have been combined with stochastic gradient techniques to increase sampling efficiency when dealing with large datasets. An outstanding problem with this approach is that the stochastic gradient introduces an unknown amount of noise which can prevent proper sampling after discretization. To remedy this problem, we show that one can leverage a small number of additional variables to stabilize momentum fluctuations induced by the unknown noise. Our method is inspired by the idea of a thermostat in statistical physics and is justified by a general theory.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

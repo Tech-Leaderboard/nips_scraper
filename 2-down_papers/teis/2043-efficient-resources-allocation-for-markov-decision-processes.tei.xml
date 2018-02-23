@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Resources Allocation for Markov Decision Processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Remi</forename><surname>Munos</surname></persName>
+							<email>remi.munos@polytechnique.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">CMAP</orgName>
+								<orgName type="institution" key="instit2">Ecole Polytechnique</orgName>
+								<address>
+									<postCode>91128</postCode>
+									<settlement>Palaiseau</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Resources Allocation for Markov Decision Processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>It is desirable that a complex decision-making problem in an uncertain world be adequately modeled by a Markov Decision Process (MDP) whose structural representation is adaptively designed by a parsimonious resources allocation process. Resources include time and cost of exploration, amount of memory and computational time allowed for the policy or value function representation. Concerned about making the best use of the available resources, we address the problem of efficiently estimating where adding extra resources is highly needed in order to improve the expected performance of the resulting policy. Possible application in reinforcement learning (RL) , when real-world exploration is highly costly, concerns the detection of those areas of the state-space that need primarily to be explored in order to improve the policy. Another application concerns approximation of continuous state-space stochastic control problems using adaptive discretization techniques for which highly efficient grid points allocation is mandatory to survive high dimen-sionality. Maybe surprisingly these two problems can be formulated under a common framework: for a given resource allocation, which defines a belief state over possible MDPs, find where adding new resources (thus decreasing the uncertainty of some parameters transition probabilities or rewards) will most likely increase the expected performance of the new policy. To do so, we use sampling techniques for estimating the contribution of each parameter&apos;s probability distribution function (Pdf) to the expected loss of using an approximate policy (such as the optimal policy of the most probable MDP) instead of the true (but unknown) policy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

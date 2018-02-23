@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian active learning with localized priors for fast receptive field characterization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mijung</forename><surname>Park</surname></persName>
+							<email>mjpark@mail.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Electrical and Computer Engineering</orgName>
+								<orgName type="laboratory">Center For Perceptual Systems The University of Texas at Austin</orgName>
+								<orgName type="institution">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">W</forename><surname>Pillow</surname></persName>
+							<email>pillow@mail.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Electrical and Computer Engineering</orgName>
+								<orgName type="laboratory">Center For Perceptual Systems The University of Texas at Austin</orgName>
+								<orgName type="institution">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian active learning with localized priors for fast receptive field characterization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Active learning methods can dramatically improve the yield of neurophysiology experiments by adaptively selecting stimuli to probe a neuron&apos;s receptive field (RF). Bayesian active learning methods specify a posterior distribution over the RF given the data collected so far in the experiment, and select a stimulus on each time step that maximally reduces posterior uncertainty. However, existing methods tend to employ simple Gaussian priors over the RF and do not exploit uncertainty at the level of hyperparameters. Incorporating this uncertainty can substantially speed up active learning, particularly when RFs are smooth, sparse, or local in space and time. Here we describe a novel framework for active learning under hierarchical, conditionally Gaussian priors. Our algorithm uses sequential Markov Chain Monte Carlo sampling (&quot;particle filtering&quot; with MCMC) to construct a mixture-of-Gaussians representation of the RF posterior, and selects optimal stimuli using an approximate infomax criterion. The core elements of this algorithm are parallelizable, making it computationally efficient for real-time experiments. We apply our algorithm to simulated and real neural data, and show that it can provide highly accurate receptive field estimates from very limited data, even with a small number of hyperparameter samples.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

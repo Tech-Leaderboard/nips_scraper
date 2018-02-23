@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Mixing Markov Chains for Strongly Rayleigh Measures, DPPs, and Constrained Sampling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chengtao</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stefanie</forename><surname>Jegelka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Suvrit</forename><surname>Sra</surname></persName>
+							<email>suvrit@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Mixing Markov Chains for Strongly Rayleigh Measures, DPPs, and Constrained Sampling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study probability measures induced by set functions with constraints. Such measures arise in a variety of real-world settings, where prior knowledge, resource limitations, or other pragmatic considerations impose constraints. We consider the task of rapidly sampling from such constrained measures, and develop fast Markov chain samplers for them. Our first main result is for MCMC sampling from Strongly Rayleigh (SR) measures, for which we present sharp polynomial bounds on the mixing time. As a corollary, this result yields a fast mixing sampler for Determinantal Point Processes (DPPs), yielding (to our knowledge) the first provably fast MCMC sampler for DPPs since their inception over four decades ago. Beyond SR measures, we develop MCMC samplers for probabilistic models with hard constraints and identify sufficient conditions under which their chains mix rapidly. We illustrate our claims by empirically verifying the dependence of mixing times on the key factors governing our theoretical bounds.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

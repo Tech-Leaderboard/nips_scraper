@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Meta-Learning Perspective on Cold-Start Recommendations for Items</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manasi</forename><surname>Vartak</surname></persName>
+							<email>mvartak@csail.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Massachusetts Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Twitter Inc</orgName>
+								<orgName type="institution" key="instit3">Twitter Inc</orgName>
+								<orgName type="institution" key="instit4">Twitter Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arvind</forename><surname>Thiagarajan</surname></persName>
+							<email>arvindt@twitter.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Massachusetts Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Twitter Inc</orgName>
+								<orgName type="institution" key="instit3">Twitter Inc</orgName>
+								<orgName type="institution" key="instit4">Twitter Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Conrado</forename><surname>Miranda</surname></persName>
+							<email>cmiranda@twitter.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Massachusetts Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Twitter Inc</orgName>
+								<orgName type="institution" key="instit3">Twitter Inc</orgName>
+								<orgName type="institution" key="instit4">Twitter Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeshua</forename><surname>Bratman</surname></persName>
+							<email>jbratman@twitter.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Massachusetts Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Twitter Inc</orgName>
+								<orgName type="institution" key="instit3">Twitter Inc</orgName>
+								<orgName type="institution" key="instit4">Twitter Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hugo</forename><surname>Larochelle</surname></persName>
+							<email>hugolarochelle@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Massachusetts Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Twitter Inc</orgName>
+								<orgName type="institution" key="instit3">Twitter Inc</orgName>
+								<orgName type="institution" key="instit4">Twitter Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Google</forename><surname>Brain</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Massachusetts Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Twitter Inc</orgName>
+								<orgName type="institution" key="instit3">Twitter Inc</orgName>
+								<orgName type="institution" key="instit4">Twitter Inc</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Meta-Learning Perspective on Cold-Start Recommendations for Items</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Matrix factorization (MF) is one of the most popular techniques for product recommendation , but is known to suffer from serious cold-start problems. Item cold-start problems are particularly acute in settings such as Tweet recommendation where new items arrive continuously. In this paper, we present a meta-learning strategy to address item cold-start when new items arrive continuously. We propose two deep neural network architectures that implement our meta-learning strategy. The first architecture learns a linear classifier whose weights are determined by the item history while the second architecture learns a neural network whose biases are instead adjusted. We evaluate our techniques on the real-world problem of Tweet recommendation. On production data at Twitter, we demonstrate that our proposed techniques significantly beat the MF baseline and also outperform production models for Tweet recommendation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

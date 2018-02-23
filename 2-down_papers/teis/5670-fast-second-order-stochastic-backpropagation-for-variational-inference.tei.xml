@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Second-Order Stochastic Backpropagation for Variational Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kai</forename><surname>Fan</surname></persName>
+							<email>kai.fan@stat.duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">HKUST †</orgName>
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<orgName type="institution" key="instit3">HKUST</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ziteng</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">HKUST †</orgName>
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<orgName type="institution" key="instit3">HKUST</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><surname>Beck</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">HKUST †</orgName>
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<orgName type="institution" key="instit3">HKUST</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">T</forename><surname>Kwok</surname></persName>
+							<email>jamesk@cse.ust.hk</email>
+							<affiliation key="aff0">
+								<orgName type="department">HKUST †</orgName>
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<orgName type="institution" key="instit3">HKUST</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katherine</forename><surname>Heller</surname></persName>
+							<email>kheller@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">HKUST †</orgName>
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<orgName type="institution" key="instit3">HKUST</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Second-Order Stochastic Backpropagation for Variational Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a second-order (Hessian or Hessian-free) based optimization method for variational inference inspired by Gaussian backpropagation, and argue that quasi-Newton optimization can be developed as well. This is accomplished by generalizing the gradient computation in stochastic backpropagation via a reparametrization trick with lower complexity. As an illustrative example, we apply this approach to the problems of Bayesian logistic regression and variational auto-encoder (VAE). Additionally, we compute bounds on the estimator variance of intractable expectations for the family of Lipschitz continuous function. Our method is practical, scalable and model free. We demonstrate our method on several real-world datasets and provide comparisons with other stochastic gradient methods to show substantial enhancement in convergence rates.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

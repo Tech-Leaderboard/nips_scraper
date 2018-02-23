@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scalable Variational Inference for Dynamical Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nico</forename><forename type="middle">S</forename><surname>Gorbach</surname></persName>
+							<email>ngorbach@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stefan</forename><surname>Bauer</surname></persName>
+							<email>bauers@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joachim</forename><forename type="middle">M</forename><surname>Buhmann</surname></persName>
+							<email>jbuhmann@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scalable Variational Inference for Dynamical Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Gradient matching is a promising tool for learning parameters and state dynamics of ordinary differential equations. It is a grid free inference approach, which, for fully observable systems is at times competitive with numerical integration. However, for many real-world applications, only sparse observations are available or even unobserved variables are included in the model description. In these cases most gradient matching methods are difficult to apply or simply do not provide satisfactory results. That is why, despite the high computational cost, numerical integration is still the gold standard in many applications. Using an existing gradient matching approach, we propose a scalable variational inference framework which can infer states and parameters simultaneously, offers computational speedups, improved accuracy and works well even under model misspecifications in a partially observable system.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

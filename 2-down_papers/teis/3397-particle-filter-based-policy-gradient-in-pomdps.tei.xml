@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Particle Filter-based Policy Gradient in POMDPs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pierre-Arnaud</forename><surname>Coquelin</surname></persName>
+							<email>coquelin@cmapx.polytechnique.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Ecole Polytechnique</orgName>
+								<orgName type="institution" key="instit1">CMAP</orgName>
+								<orgName type="institution" key="instit2">Ecole Polytechnique</orgName>
+								<orgName type="institution" key="instit3">INRIA Lille -Nord Europe</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Romain</forename><surname>Deguest</surname></persName>
+							<email>deguest@cmapx.polytechnique.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Ecole Polytechnique</orgName>
+								<orgName type="institution" key="instit1">CMAP</orgName>
+								<orgName type="institution" key="instit2">Ecole Polytechnique</orgName>
+								<orgName type="institution" key="instit3">INRIA Lille -Nord Europe</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rémi</forename><surname>Munos</surname></persName>
+							<email>remi.munos@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Ecole Polytechnique</orgName>
+								<orgName type="institution" key="instit1">CMAP</orgName>
+								<orgName type="institution" key="instit2">Ecole Polytechnique</orgName>
+								<orgName type="institution" key="instit3">INRIA Lille -Nord Europe</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Particle Filter-based Policy Gradient in POMDPs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Our setting is a Partially Observable Markov Decision Process with continuous state, observation and action spaces. Decisions are based on a Particle Filter for estimating the belief state given past observations. We consider a policy gradient approach for parameterized policy optimization. For that purpose, we investigate sensitivity analysis of the performance measure with respect to the parameters of the policy, focusing on Finite Difference (FD) techniques. We show that the naive FD is subject to variance explosion because of the non-smoothness of the resam-pling procedure. We propose a more sophisticated FD method which overcomes this problem and establish its consistency.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

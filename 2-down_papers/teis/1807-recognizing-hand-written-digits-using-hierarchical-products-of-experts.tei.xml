@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Recognizing Hand-written Digits Using Hierarchical Products of Experts</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guy</forename><surname>Mayraz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Gatsby Computational</orgName>
+								<orgName type="institution">Neuroscience Unit University College London</orgName>
+								<address>
+									<addrLine>17 Queen Square</addrLine>
+									<postCode>WCIN 3AR</postCode>
+									<settlement>London</settlement>
+									<region>u.K</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Gatsby Computational</orgName>
+								<orgName type="institution">Neuroscience Unit University College London</orgName>
+								<address>
+									<addrLine>17 Queen Square</addrLine>
+									<postCode>WCIN 3AR</postCode>
+									<settlement>London</settlement>
+									<region>u.K</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Recognizing Hand-written Digits Using Hierarchical Products of Experts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The product of experts learning procedure [1] can discover a set of stochastic binary features that constitute a non-linear generative model of handwritten images of digits. The quality of generative models learned in this way can be assessed by learning a separate model for each class of digit and then comparing the unnormalized probabilities of test images under the 10 different class-specific models. To improve discriminative performance, it is helpful to learn a hierarchy of separate models for each digit class. Each model in the hierarchy has one layer of hidden units and the nth level model is trained on data that consists of the activities of the hidden units in the already trained (n-l)th level model. After training , each level produces a separate, unnormalized log probabilty score. With a three-level hierarchy for each of the 10 digit classes, a test image produces 30 scores which can be used as inputs to a supervised, logistic classification network that is trained on separate data. On the MNIST database, our system is comparable with current state-of-the-art discrimi-native methods, demonstrating that the product of experts learning procedure can produce effective generative models of high-dimensional data. 1 Learning products of stochastic binary experts Hinton [1] describes a learning algorithm for probabilistic generative models that are composed of a number of experts. Each expert specifies a probability distribution over the visible variables and the experts are combined by multiplying these distributions together and renormalizing. (1) where d is a data vector in a discrete space, Om is all the parameters of individual model m, Pm(dIOm) is the probability of d under model m, and c is an index over all possible vectors in the data space. A Restricted Boltzmann machine [2, 3] is a special case of a product of experts in which each expert is a single, binary stochastic hidden unit that has symmetrical connections to a set of visible units, and connections between the hidden units are forbidden. Inference in an RBM is much easier than in a general Boltzmann machine and it is also much easier</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

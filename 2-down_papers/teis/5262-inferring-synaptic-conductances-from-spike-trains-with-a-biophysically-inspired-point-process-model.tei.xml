@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inferring synaptic conductances from spike trains under a biophysically inspired point process model</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">W</forename><surname>Latimer</surname></persName>
+							<email>latimerk@utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Institute for Neuroscience</orgName>
+								<orgName type="department" key="dep2">Department of Neurosurgery Hansen Experimental Physics Laboratory</orgName>
+								<orgName type="department" key="dep3">Department of Physiology and Biophysics Howard Hughes Medical Institute</orgName>
+								<orgName type="department" key="dep4">Princeton Neuroscience Institute Department of Psychology Princeton University</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Chichilnisky</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Institute for Neuroscience</orgName>
+								<orgName type="department" key="dep2">Department of Neurosurgery Hansen Experimental Physics Laboratory</orgName>
+								<orgName type="department" key="dep3">Department of Physiology and Biophysics Howard Hughes Medical Institute</orgName>
+								<orgName type="department" key="dep4">Princeton Neuroscience Institute Department of Psychology Princeton University</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fred</forename><surname>Rieke</surname></persName>
+							<email>rieke@u.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Institute for Neuroscience</orgName>
+								<orgName type="department" key="dep2">Department of Neurosurgery Hansen Experimental Physics Laboratory</orgName>
+								<orgName type="department" key="dep3">Department of Physiology and Biophysics Howard Hughes Medical Institute</orgName>
+								<orgName type="department" key="dep4">Princeton Neuroscience Institute Department of Psychology Princeton University</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">W</forename><surname>Pillow</surname></persName>
+							<email>pillow@princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Institute for Neuroscience</orgName>
+								<orgName type="department" key="dep2">Department of Neurosurgery Hansen Experimental Physics Laboratory</orgName>
+								<orgName type="department" key="dep3">Department of Physiology and Biophysics Howard Hughes Medical Institute</orgName>
+								<orgName type="department" key="dep4">Princeton Neuroscience Institute Department of Psychology Princeton University</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inferring synaptic conductances from spike trains under a biophysically inspired point process model</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A popular approach to neural characterization describes neural responses in terms of a cascade of linear and nonlinear stages: a linear filter to describe stimulus integration, followed by a nonlinear function to convert the filter output to spike rate. However, real neurons respond to stimuli in a manner that depends on the nonlinear integration of excitatory and inhibitory synaptic inputs. Here we introduce a biophysically inspired point process model that explicitly incorporates stimulus-induced changes in synaptic conductance in a dynamical model of neu-ronal membrane potential. Our work makes two important contributions. First, on a theoretical level, it offers a novel interpretation of the popular generalized linear model (GLM) for neural spike trains. We show that the classic GLM is a special case of our conductance-based model in which the stimulus linearly modulates ex-citatory and inhibitory conductances in an equal and opposite &quot;push-pull&quot; fashion. Our model can therefore be viewed as a direct extension of the GLM in which we relax these constraints; the resulting model can exhibit shunting as well as hyper-polarizing inhibition, and time-varying changes in both gain and membrane time constant. Second, on a practical level, we show that our model provides a tractable model of spike responses in early sensory neurons that is both more accurate and more interpretable than the GLM. Most importantly, we show that we can accurately infer intracellular synaptic conductances from extracellularly recorded spike trains. We validate these estimates using direct intracellular measurements of excitatory and inhibitory conductances in parasol retinal ganglion cells. The stimulus-dependence of both excitatory and inhibitory conductances can be well described by a linear-nonlinear cascade, with the filter driving inhibition exhibiting opposite sign and a slight delay relative to the filter driving excitation. We show that the model fit to extracellular spike trains can predict excitatory and in-hibitory conductances elicited by novel stimuli with nearly the same accuracy as a model trained directly with intracellular conductances.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

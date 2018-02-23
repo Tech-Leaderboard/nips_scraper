@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Adaptive Neural Compilation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rudy</forename><surname>Bunel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research University of Oxford University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alban</forename><surname>Desmaison</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research University of Oxford University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pushmeet</forename><surname>Kohli</surname></persName>
+							<email>pkohli@microsoft.com philip.torr@eng.ox.ac.uk pawan@robots.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research University of Oxford University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">H S</forename><surname>Torr</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research University of Oxford University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pawan Kumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research University of Oxford University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Adaptive Neural Compilation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper proposes an adaptive neural-compilation framework to address the problem of learning efficient programs. Traditional code optimisation strategies used in compilers are based on applying pre-specified set of transformations that make the code faster to execute without changing its semantics. In contrast, our work involves adapting programs to make them more efficient while considering correctness only on a target input distribution. Our approach is inspired by the recent works on differentiable representations of programs. We show that it is possible to compile programs written in a low-level language to a differentiable representation. We also show how programs in this representation can be optimised to make them efficient on a target input distribution. Experimental results demonstrate that our approach enables learning specifically-tuned algorithms for given data distributions with a high success rate.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

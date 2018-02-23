@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Exact inference and learning for cumulative distribution functions on loopy graphs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jim</forename><forename type="middle">C</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research One Microsoft Way</orgName>
+								<address>
+									<postCode>98052</postCode>
+									<settlement>Redmond</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nebojsa</forename><surname>Jojic</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research One Microsoft Way</orgName>
+								<address>
+									<postCode>98052</postCode>
+									<settlement>Redmond</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Meek</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research One Microsoft Way</orgName>
+								<address>
+									<postCode>98052</postCode>
+									<settlement>Redmond</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Exact inference and learning for cumulative distribution functions on loopy graphs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many problem domains including climatology and epidemiology require models that can capture both heavy-tailed statistics and local dependencies. Specifying such distributions using graphical models for probability density functions (PDFs) generally lead to intractable inference and learning. Cumulative distribution networks (CDNs) provide a means to tractably specify multivariate heavy-tailed models as a product of cumulative distribution functions (CDFs). Existing algorithms for inference and learning in CDNs are limited to those with tree-structured (non-loopy) graphs. In this paper, we develop inference and learning algorithms for CDNs with arbitrary topology. Our approach to inference and learning relies on recursively decomposing the computation of mixed derivatives based on a junction trees over the cumulative distribution functions. We demonstrate that our systematic approach to utilizing the sparsity represented by the junction tree yields significant performance improvements over the general symbolic differentiation programs Mathematica and D*. Using two real-world datasets, we demonstrate that non-tree structured (loopy) CDNs are able to provide significantly better fits to the data as compared to tree-structured and unstructured CDNs and other heavy-tailed multivariate distributions such as the multivariate copula and logistic models.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

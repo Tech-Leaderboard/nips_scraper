@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ensemble Clustering using Semidefinite Programming</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vikas</forename><surname>Singh</surname></persName>
+							<email>vsingh @ biostat.wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Biostatistics and Medical Informatics</orgName>
+								<orgName type="department" key="dep2">Computer Science and Engineering State</orgName>
+								<orgName type="department" key="dep3">Computer Science and Engineering State</orgName>
+								<orgName type="laboratory">Industrial and Enterprise System Engineering University of Illinois at Urbana-Champaign</orgName>
+								<orgName type="institution">University of Wisconsin -Madison</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lopamudra</forename><surname>Mukherjee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Biostatistics and Medical Informatics</orgName>
+								<orgName type="department" key="dep2">Computer Science and Engineering State</orgName>
+								<orgName type="department" key="dep3">Computer Science and Engineering State</orgName>
+								<orgName type="laboratory">Industrial and Enterprise System Engineering University of Illinois at Urbana-Champaign</orgName>
+								<orgName type="institution">University of Wisconsin -Madison</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiming</forename><surname>Peng</surname></persName>
+							<email>pengj @ uiuc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Biostatistics and Medical Informatics</orgName>
+								<orgName type="department" key="dep2">Computer Science and Engineering State</orgName>
+								<orgName type="department" key="dep3">Computer Science and Engineering State</orgName>
+								<orgName type="laboratory">Industrial and Enterprise System Engineering University of Illinois at Urbana-Champaign</orgName>
+								<orgName type="institution">University of Wisconsin -Madison</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jinhui</forename><surname>Xu</surname></persName>
+							<email>jinhui @ cse.buffalo.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Biostatistics and Medical Informatics</orgName>
+								<orgName type="department" key="dep2">Computer Science and Engineering State</orgName>
+								<orgName type="department" key="dep3">Computer Science and Engineering State</orgName>
+								<orgName type="laboratory">Industrial and Enterprise System Engineering University of Illinois at Urbana-Champaign</orgName>
+								<orgName type="institution">University of Wisconsin -Madison</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ensemble Clustering using Semidefinite Programming</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the ensemble clustering problem where the task is to &apos;aggregate&apos; multiple clustering solutions into a single consolidated clustering that maximizes the shared information among given clustering solutions. We obtain several new results for this problem. First, we note that the notion of agreement under such circumstances can be better captured using an agreement measure based on a 2D string encoding rather than voting strategy based methods proposed in literature. Using this generalization, we first derive a nonlinear optimization model to maximize the new agreement measure. We then show that our optimization problem can be transformed into a strict 0-1 Semidefinite Program (SDP) via novel con-vexification techniques which can subsequently be relaxed to a polynomial time solvable SDP. Our experiments indicate improvements not only in terms of the proposed agreement measure but also the existing agreement measures based on voting strategies. We discuss evaluations on clustering and image segmentation databases.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

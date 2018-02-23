@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:51+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Predicting the Risk of Complications in Coronary Artery Bypass Operations using Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">P</forename><surname>Lippmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">MIT Lincoln Laboratory</orgName>
+								<address>
+									<addrLine>244 Wood Street Lexington</addrLine>
+									<postCode>02173-0073</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Linda</forename><surname>Kukolich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">MIT Lincoln Laboratory</orgName>
+								<address>
+									<addrLine>244 Wood Street Lexington</addrLine>
+									<postCode>02173-0073</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Shahian</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Lahey Clinic Burlington</orgName>
+								<address>
+									<postCode>01805</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Predicting the Risk of Complications in Coronary Artery Bypass Operations using Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Dr. Experiments demonstrated that sigmoid multilayer perceptron (MLP) networks provide slightly better risk prediction than conventional logistic regression when used to predict the risk of death, stroke, and renal failure on 1257 patients who underwent coronary artery bypass operations at the Lahey Clinic. MLP networks with no hidden layer and networks with one hidden layer were trained using stochastic gradient descent with early stopping. MLP networks and logistic regression used the same input features and were evaluated using bootstrap sampling with 50 replications. ROC areas for predicting mortality using preoperative input features were 70.5% for logistic regression and 76.0% for MLP networks. Regularization provided by early stopping was an important component of improved perfonnance. A simplified approach to generating confidence intervals for MLP risk predictions using an auxiliary &quot;confidence MLP&quot; was developed. The confidence MLP is trained to reproduce confidence intervals that were generated during training using the outputs of 50 MLP networks trained with different bootstrap samples.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

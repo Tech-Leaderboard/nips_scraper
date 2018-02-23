@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On Model Parallelization and Scheduling Strategies for Distributed Machine Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">†seunghak</forename><surname>Lee</surname></persName>
+							<email>seunghak@, jinkyuk@, xunzheng@, garth@, epxing@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">†School of Computer Science</orgName>
+								<orgName type="department" key="dep2">§Institute for Infocomm Research A*STAR</orgName>
+								<orgName type="institution">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 138632</postCode>
+									<region>PA</region>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kyu</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">†School of Computer Science</orgName>
+								<orgName type="department" key="dep2">§Institute for Infocomm Research A*STAR</orgName>
+								<orgName type="institution">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 138632</postCode>
+									<region>PA</region>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zheng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">†School of Computer Science</orgName>
+								<orgName type="department" key="dep2">§Institute for Infocomm Research A*STAR</orgName>
+								<orgName type="institution">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 138632</postCode>
+									<region>PA</region>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ho</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">†School of Computer Science</orgName>
+								<orgName type="department" key="dep2">§Institute for Infocomm Research A*STAR</orgName>
+								<orgName type="institution">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 138632</postCode>
+									<region>PA</region>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gibson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">†School of Computer Science</orgName>
+								<orgName type="department" key="dep2">§Institute for Infocomm Research A*STAR</orgName>
+								<orgName type="institution">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 138632</postCode>
+									<region>PA</region>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Xing</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">†School of Computer Science</orgName>
+								<orgName type="department" key="dep2">§Institute for Infocomm Research A*STAR</orgName>
+								<orgName type="institution">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 138632</postCode>
+									<region>PA</region>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On Model Parallelization and Scheduling Strategies for Distributed Machine Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Distributed machine learning has typically been approached from a data parallel perspective, where big data are partitioned to multiple workers and an algorithm is executed concurrently over different data subsets under various synchronization schemes to ensure speed-up and/or correctness. A sibling problem that has received relatively less attention is how to ensure efficient and correct model parallel execution of ML algorithms, where parameters of an ML program are partitioned to different workers and undergone concurrent iterative updates. We argue that model and data parallelisms impose rather different challenges for system design , algorithmic adjustment, and theoretical analysis. In this paper, we develop a system for model-parallelism, STRADS, that provides a programming abstraction for scheduling parameter updates by discovering and leveraging changing structural properties of ML programs. STRADS enables a flexible tradeoff between scheduling efficiency and fidelity to intrinsic dependencies within the models, and improves memory efficiency of distributed ML. We demonstrate the efficacy of model-parallel algorithms implemented on STRADS versus popular implementations for topic modeling, matrix factorization, and Lasso.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

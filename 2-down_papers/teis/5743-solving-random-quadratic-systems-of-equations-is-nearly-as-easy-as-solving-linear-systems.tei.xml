@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Solving Random Quadratic Systems of Equations Is Nearly as Easy as Solving Linear Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuxin</forename><surname>Chen</surname></persName>
+							<email>yxchen@stanfor.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistics</orgName>
+								<orgName type="department" key="dep2">Department of Mathematics and Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305, 94305</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emmanuel</forename><forename type="middle">J</forename><surname>Candès</surname></persName>
+							<email>candes@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistics</orgName>
+								<orgName type="department" key="dep2">Department of Mathematics and Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305, 94305</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Solving Random Quadratic Systems of Equations Is Nearly as Easy as Solving Linear Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper is concerned with finding a solution x to a quadratic system of equations y i = ||a i , x| 2 , i = 1,. .. , m. We demonstrate that it is possible to solve unstructured random quadratic systems in n variables exactly from O(n) equations in linear time, that is, in time proportional to reading the data {a i } and {y i }. This is accomplished by a novel procedure, which starting from an initial guess given by a spectral initialization procedure, attempts to minimize a nonconvex objective. The proposed algorithm distinguishes from prior approaches by reg-ularizing the initialization and descent procedures in an adaptive fashion, which discard terms bearing too much influence on the initial estimate or search directions. These careful selection rules-which effectively serve as a variance reduction scheme-provide a tighter initial guess, more robust descent directions, and thus enhanced practical performance. Further, this procedure also achieves a near-optimal statistical accuracy in the presence of noise. Empirically, we demonstrate that the computational cost of our algorithm is about four times that of solving a least-squares problem of the same size.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Predictive-State Decoders: Encoding the Future into Recurrent Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arun</forename><surname>Venkatraman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Robotics Institute</orgName>
+								<orgName type="institution">Carnegie-Mellon University</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><surname>Rhinehart</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Robotics Institute</orgName>
+								<orgName type="institution">Carnegie-Mellon University</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wen</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Robotics Institute</orgName>
+								<orgName type="institution">Carnegie-Mellon University</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lerrel</forename><surname>Pinto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Robotics Institute</orgName>
+								<orgName type="institution">Carnegie-Mellon University</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martial</forename><surname>Hebert</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Robotics Institute</orgName>
+								<orgName type="institution">Carnegie-Mellon University</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Byron</forename><surname>Boots</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Interactive Computing</orgName>
+								<orgName type="institution">Georgia Institute of Technology</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kris</forename><forename type="middle">M</forename><surname>Kitani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Robotics Institute</orgName>
+								<orgName type="institution">Carnegie-Mellon University</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Andrew</forename><surname>Bagnell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Robotics Institute</orgName>
+								<orgName type="institution">Carnegie-Mellon University</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Predictive-State Decoders: Encoding the Future into Recurrent Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recurrent neural networks (RNNs) are a vital modeling technique that rely on internal states learned indirectly by optimization of a supervised, unsupervised, or reinforcement training loss. RNNs are used to model dynamic processes that are characterized by underlying latent states whose form is often unknown, precluding its analytic representation inside an RNN. In the Predictive-State Representation (PSR) literature, latent state processes are modeled by an internal state representation that directly models the distribution of future observations, and most recent work in this area has relied on explicitly representing and targeting sufficient statistics of this probability distribution. We seek to combine the advantages of RNNs and PSRs by augmenting existing state-of-the-art recurrent neural networks with PREDICTIVE-STATE DECODERS (PSDs), which add supervision to the network&apos;s internal state representation to target predicting future observations. PSDs are simple to implement and easily incorporated into existing training pipelines via additional loss regularization. We demonstrate the effectiveness of PSDs with experimental results in three different domains: probabilistic filtering, Imitation Learning, and Reinforcement Learning. In each, our method improves statistical performance of state-of-the-art recurrent baselines and does so with fewer iterations and less data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

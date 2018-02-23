@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Parallel Sampling of DP Mixture Models using Sub-Clusters Splits</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jason</forename><surname>Chang</surname></persName>
+							<email>jchang7@csail.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">CSAIL</orgName>
+								<orgName type="institution" key="instit2">CSAIL</orgName>
+								<address>
+									<region>MIT, MIT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">W</forename><surname>Fisher</surname></persName>
+							<email>fisher@csail.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">CSAIL</orgName>
+								<orgName type="institution" key="instit2">CSAIL</orgName>
+								<address>
+									<region>MIT, MIT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iii</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">CSAIL</orgName>
+								<orgName type="institution" key="instit2">CSAIL</orgName>
+								<address>
+									<region>MIT, MIT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Parallel Sampling of DP Mixture Models using Sub-Clusters Splits</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present an MCMC sampler for Dirichlet process mixture models that can be parallelized to achieve significant computational gains. We combine a non-ergodic, restricted Gibbs iteration with split/merge proposals in a manner that produces an ergodic Markov chain. Each cluster is augmented with two sub-clusters to construct likely split moves. Unlike some previous parallel samplers, the proposed sampler enforces the correct stationary distribution of the Markov chain without the need for finite approximations. Empirical results illustrate that the new sampler exhibits better convergence properties than current methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

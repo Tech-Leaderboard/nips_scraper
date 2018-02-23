@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">f-GANs in an Information Geometric Nutshell</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Nock</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Australian National University</orgName>
+								<orgName type="institution" key="instit2">University of Sydney</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zac</forename><surname>Cranko</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Australian National University</orgName>
+								<orgName type="institution" key="instit2">University of Sydney</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aditya</forename><forename type="middle">Krishna</forename><surname>Menon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Australian National University</orgName>
+								<orgName type="institution" key="instit2">University of Sydney</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lizhen</forename><surname>Qu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Australian National University</orgName>
+								<orgName type="institution" key="instit2">University of Sydney</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">C</forename><surname>Williamson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Australian National University</orgName>
+								<orgName type="institution" key="instit2">University of Sydney</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">†</forename><surname>Data61</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Australian National University</orgName>
+								<orgName type="institution" key="instit2">University of Sydney</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">f-GANs in an Information Geometric Nutshell</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Nowozin et al showed last year how to extend the GAN principle to all f-divergences. The approach is elegant but falls short of a full description of the supervised game, and says little about the key player, the generator: for example, what does the generator actually converge to if solving the GAN game means convergence in some space of parameters? How does that provide hints on the gen-erator&apos;s design and compare to the flourishing but almost exclusively experimental literature on the subject? In this paper, we unveil a broad class of distributions for which such convergence happens-namely, deformed exponential families, a wide superset of exponential families-. We show that current deep architectures are able to factorize a very large number of such densities using an especially compact design, hence displaying the power of deep architectures and their concinnity in the f-GAN game. This result holds given a sufficient condition on activation functions-which turns out to be satisfied by popular choices. The key to our results is a variational generalization of an old theorem that relates the KL divergence between regular exponential families and divergences between their natural parameters. We complete this picture with additional results and experimental insights on how these results may be used to ground further improvements of GAN architectures, via (i) a principled design of the activation functions in the generator and (ii) an explicit integration of proper composite losses&apos; link function in the discriminator.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

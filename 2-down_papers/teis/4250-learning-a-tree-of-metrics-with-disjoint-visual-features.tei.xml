@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning a Tree of Metrics with Disjoint Visual Features</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sung</forename><forename type="middle">Ju</forename><surname>Hwang</surname></persName>
+							<email>sjhwang@cs.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit3">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>78701, 78701, 90089</postCode>
+									<region>TX, TX, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kristen</forename><surname>Grauman</surname></persName>
+							<email>grauman@cs.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit3">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>78701, 78701, 90089</postCode>
+									<region>TX, TX, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sha</forename><surname>Fei</surname></persName>
+							<email>feisha@usc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit3">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>78701, 78701, 90089</postCode>
+									<region>TX, TX, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning a Tree of Metrics with Disjoint Visual Features</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce an approach to learn discriminative visual representations while exploiting external semantic knowledge about object category relationships. Given a hierarchical taxonomy that captures semantic similarity between the objects, we learn a corresponding tree of metrics (ToM). In this tree, we have one metric for each non-leaf node of the object hierarchy, and each metric is responsible for discriminating among its immediate subcategory children. Specifically, a Maha-lanobis metric learned for a given node must satisfy the appropriate (dis)similarity constraints generated only among its subtree members&apos; training instances. To further exploit the semantics, we introduce a novel regularizer coupling the metrics that prefers a sparse disjoint set of features to be selected for each metric relative to its ancestor (supercategory) nodes&apos; metrics. Intuitively, this reflects that visual cues most useful to distinguish the generic classes (e.g., feline vs. canine) should be different than those cues most useful to distinguish their component fine-grained classes (e.g., Persian cat vs. Siamese cat). We validate our approach with multiple image datasets using the WordNet taxonomy, show its advantages over alternative metric learning approaches, and analyze the meaning of attribute features selected by our algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

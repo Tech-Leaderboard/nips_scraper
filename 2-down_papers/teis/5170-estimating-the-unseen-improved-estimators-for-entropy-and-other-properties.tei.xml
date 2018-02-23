@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Estimating the Unseen: Improved Estimators for Entropy and other Properties</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><surname>Valiant</surname></persName>
+							<email>valiant@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">Brown University Providence</orgName>
+								<address>
+									<postCode>94305, 02912</postCode>
+									<region>CA, RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Valiant</surname></persName>
+							<email>pvaliant@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">Brown University Providence</orgName>
+								<address>
+									<postCode>94305, 02912</postCode>
+									<region>CA, RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Estimating the Unseen: Improved Estimators for Entropy and other Properties</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recently, Valiant and Valiant [1, 2] showed that a class of distributional properties , which includes such practically relevant properties as entropy, the number of distinct elements, and distance metrics between pairs of distributions, can be estimated given a sublinear sized sample. Specifically, given a sample consisting of independent draws from any distribution over at most n distinct elements, these properties can be estimated accurately using a sample of size O(n/ log n). We propose a novel modification of this approach and show: 1) theoretically, this esti-mator is optimal (to constant factors, over worst-case instances), and 2) in practice, it performs exceptionally well for a variety of estimation tasks, on a variety of natural distributions, for a wide range of parameters. Perhaps unsurprisingly, the key step in our approach is to first use the sample to characterize the &quot;unseen&quot; portion of the distribution. This goes beyond such tools as the Good-Turing frequency estimation scheme, which estimates the total probability mass of the unobserved portion of the distribution: we seek to estimate the shape of the unobserved portion of the distribution. This approach is robust, general, and theoretically principled; we expect that it may be fruitfully used as a component within larger machine learning and data analysis systems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Divide-and-Conquer Procedure for Sparse Inverse Covariance Estimation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cho-Jui</forename><surname>Hsieh</surname></persName>
+							<email>cjhsieh@cs.utexas.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Inderjit</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+							<email>inderjit@cs.utexas.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pradeep</forename><surname>Ravikumar</surname></persName>
+							<email>pradeepr@cs.utexas.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arindam</forename><surname>Banerjee</surname></persName>
+							<email>banerjee@cs.umn.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science</orgName>
+								<orgName type="institution">University of Texas</orgName>
+								<address>
+									<settlement>Austin</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution">University of Texas</orgName>
+								<address>
+									<settlement>Austin</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Dept. of Computer Science &amp; Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Texas</orgName>
+								<orgName type="institution" key="instit2">University of Minnesota</orgName>
+								<address>
+									<settlement>Twin Cities</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Divide-and-Conquer Procedure for Sparse Inverse Covariance Estimation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the composite log-determinant optimization problem, arising from the 1 regularized Gaussian maximum likelihood estimator of a sparse inverse covariance matrix, in a high-dimensional setting with a very large number of variables. Recent work has shown this estimator to have strong statistical guarantees in recovering the true structure of the sparse inverse covariance matrix, or alternatively the underlying graph structure of the corresponding Gaussian Markov Random Field, even in very high-dimensional regimes with a limited number of samples. In this paper, we are concerned with the computational cost in solving the above optimization problem. Our proposed algorithm partitions the problem into smaller sub-problems, and uses the solutions of the sub-problems to build a good approximation for the original problem. Our key idea for the divide step to obtain a sub-problem partition is as follows: we first derive a tractable bound on the quality of the approximate solution obtained from solving the corresponding subdivided problems. Based on this bound, we propose a clustering algorithm that attempts to minimize this bound, in order to find effective partitions of the variables. For the conquer step, we use the approximate solution, i.e., solution resulting from solving the sub-problems, as an initial point to solve the original problem, and thereby achieve a much faster computational procedure.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

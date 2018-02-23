@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Genetic Algorithms and Explicit Search Statistics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Shumeet</surname></persName>
+							<email>baluja@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Justsystem Pittsburgh Research Center</orgName>
+								<orgName type="department" key="dep2">School of Computer Science</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Genetic Algorithms and Explicit Search Statistics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The genetic algorithm (GA) is a heuristic search procedure based on mechanisms abstracted from population genetics. In a previous paper [Baluja &amp; Caruana, 1995], we showed that much simpler algorithms, such as hillcIimbing and Population-Based Incremental Learning (PBIL), perform comparably to GAs on an optimization problem custom designed to benefit from the GA&apos;s operators. This paper extends these results in two directions. First, in a large-scale empirical comparison of problems that have been reported in GA literature, we show that on many problems , simpler algorithms can perform significantly better than GAs. Second, we describe when crossover is useful, and show how it can be incorporated into PBIL. 1 IMPLICIT VS. EXPLICIT SEARCH STATISTICS Although there has recently been controversy in the genetic algorithm (GA) community as to whether GAs should be used for static function optimization, a large amount of research has been, and continues to be, conducted in this direction [De Jong, 1992]. Since much of GA research focuses on optimization (most often in static environments), this study examines the performance of GAs in these domains. In the standard GA, candidate solutions are encoded as fixed length binary vectors. The initial group of potential solutions is chosen randomly. At each generation, the fitness of each solution is calculated; this is a measure of how well the solution optimizes the objective function. The subsequent generation is created through a process of selection, recombina-tion, and mutation. Recombination operators merge the information contained within pairs of selected &quot;parents&quot; by placing random subsets of the information from both parents into their respective positions in a member of the subsequent generation. The fitness proportional selection works as selective pressure; higher fitness solution strings have a higher probability of being selected for recombination. Mutations are used to help preserve diversity in the population by introducing random changes into the solution strings. The GA uses the population to implicitly maintain statistics about the search space. The selection, cross-over, and mutation operators can be viewed as mechanisms of extracting the implicit statistics from the population to choose the next set of points to sample. Details of GAs can be found in [Goldberg, 1989] [Holland, 1975]. Population-based incremental learning (PBIL) is a combination of genetic algorithms and competitive learning [Baluja, 1994]. The PBIL algorithm attempts to explicitly maintain statistics about the search space to decide where to sample next. The object of the algorithm is to create a real valued probability vector which, when sampled, reveals high quality solution vectors with high probability. For example, if a good solution can be encoded as a string of alternating O&apos;s and l&apos;s, a suitable final probability vector would be 0.01, 0.99, 0.01, 0.99, etc. The PBIL algorithm and parameters are shown in Figure 1. Initially, the values of the probability vector are initialized to 0.5. Sampling from this vector yields random solution vectors because the probability of generating a I or 0 is equal. As search progresses, the values in the probability vector gradually shift to represent high</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

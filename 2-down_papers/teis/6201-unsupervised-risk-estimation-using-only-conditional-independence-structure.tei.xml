@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Unsupervised Risk Estimation Using Only Conditional Independence Structure</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><surname>Steinhardt</surname></persName>
+							<email>jsteinhardt@cs.stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Percy</forename><surname>Liang</surname></persName>
+							<email>pliang@cs.stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Unsupervised Risk Estimation Using Only Conditional Independence Structure</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We show how to estimate a model&apos;s test error from unlabeled data, on distributions very different from the training distribution, while assuming only that certain conditional independencies are preserved between train and test. We do not need to assume that the optimal predictor is the same between train and test, or that the true distribution lies in any parametric family. We can also efficiently compute gradients of the estimated error and hence perform unsupervised discriminative learning. Our technical tool is the method of moments, which allows us to exploit conditional independencies in the absence of a fully-specified model. Our framework encompasses a large family of losses including the log and exponential loss, and extends to structured output settings such as conditional random fields.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">From Weighted Classification to Policy Search</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Blatt</surname></persName>
+							<email>dblatt@eecs.umich.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Michigan Ann Arbor</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<address>
+									<postCode>48109-2122, 48109-2122</postCode>
+									<settlement>Ann Arbor</settlement>
+									<region>MI, MI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">O</forename><surname>Hero</surname></persName>
+							<email>hero@eecs.umich.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Michigan Ann Arbor</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<address>
+									<postCode>48109-2122, 48109-2122</postCode>
+									<settlement>Ann Arbor</settlement>
+									<region>MI, MI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">From Weighted Classification to Policy Search</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper proposes an algorithm to convert a T-stage stochastic decision problem with a continuous state space to a sequence of supervised learning problems. The optimization problem associated with the trajectory tree and random trajectory methods of Kearns, Mansour, and Ng, 2000, is solved using the Gauss-Seidel method. The algorithm breaks a multi-stage reinforcement learning problem into a sequence of single-stage reinforcement learning subproblems, each of which is solved via an exact reduction to a weighted-classification problem that can be solved using off-the-self methods. Thus the algorithm converts a reinforcement learning problem into simpler supervised learning subproblems. It is shown that the method converges in a finite number of steps to a solution that cannot be further improved by componentwise optimization. The implication of the proposed algorithm is that a plethora of classification methods can be applied to find policies in the reinforcement learning problem.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

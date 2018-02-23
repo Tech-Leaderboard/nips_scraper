@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Active Support Vector Machine Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">L</forename><surname>Mangasarian</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Sciences Dept</orgName>
+								<orgName type="department" key="dep2">Dept. of Mathematics and Computer Science</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<addrLine>1210 West Dayton Street Madison, Carleton College One North College Street Northfield</addrLine>
+									<postCode>53706, 55057</postCode>
+									<region>WI, MN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">R</forename><surname>Musicant</surname></persName>
+							<email>dmusican@carleton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Sciences Dept</orgName>
+								<orgName type="department" key="dep2">Dept. of Mathematics and Computer Science</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<addrLine>1210 West Dayton Street Madison, Carleton College One North College Street Northfield</addrLine>
+									<postCode>53706, 55057</postCode>
+									<region>WI, MN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Active Support Vector Machine Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>An active set strategy is applied to the dual of a simple reformula-tion of the standard quadratic program of a linear support vector machine. This application generates a fast new dual algorithm that consists of solving a finite number of linear equations, with a typically large dimensionality equal to the number of points to be classified. However, by making novel use of the Sherman-Morrison-Woodbury formula , a much smaller matrix of the order of the original input space is inverted at each step. Thus, a problem with a 32-dimensional input space and 7 million points required inverting positive definite symmetric matrices of size 33 x 33 with a total running time of 96 minutes on a 400 MHz Pentium II. The algorithm requires no specialized quadratic or linear programming code, but merely a linear equation solver which is publicly available.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

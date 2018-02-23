@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Power of Amnesia</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dana</forename><surname>Ron</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Computer Science and Center</orgName>
+								<orgName type="institution">Neural Computation Hebrew University</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoram</forename><surname>Singer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Computer Science and Center</orgName>
+								<orgName type="institution">Neural Computation Hebrew University</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Naftali</forename><surname>Tishby</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Computer Science and Center</orgName>
+								<orgName type="institution">Neural Computation Hebrew University</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Power of Amnesia</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a learning algorithm for a variable memory length Markov process. Human communication, whether given as text, handwriting, or speech, has multi characteristic time scales. On short scales it is characterized mostly by the dynamics that generate the process, whereas on large scales, more syntactic and semantic information is carried. For that reason the conventionally used fixed memory Markov models cannot capture effectively the complexity of such structures. On the other hand using long memory models uniformly is not practical even for as short memory as four. The algorithm we propose is based on minimizing the statistical prediction error by extending the memory, or state length, adaptively, until the total prediction error is sufficiently small. We demonstrate the algorithm by learning the structure of natural En-glish text and applying the learned model to the correction of corrupted text. Using less than 3000 states the model&apos;s performance is far superior to that of fixed memory models with similar number of states. We also show how the algorithm can be applied to intergenic E. coli DNA base prediction with results comparable to HMM based methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

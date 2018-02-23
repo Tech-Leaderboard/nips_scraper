@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Correcting Sample Selection Bias by Unlabeled Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiayuan</forename><surname>Huang</surname></persName>
+							<email>j9huang@cs.uwaterloo.ca</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><forename type="middle">J</forename><surname>Smola</surname></persName>
+							<email>Alex.Smola@anu.edu.au</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><surname>Gretton</surname></persName>
+							<email>arthur@tuebingen.mpg.de</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karsten</forename><forename type="middle">M</forename><surname>Borgwardt</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernhard</forename><surname>Schölkopf</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science</orgName>
+								<orgName type="institution">Univ. of Waterloo</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">MPI for Biological Cybernetics Tübingen</orgName>
+								<orgName type="institution">NICTA, ANU Canberra</orgName>
+								<address>
+									<country>Australia, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="laboratory">MPI for Biological Cybernetics Tübingen</orgName>
+								<orgName type="institution">Ludwig-Maximilians-University Munich</orgName>
+								<address>
+									<country>Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Correcting Sample Selection Bias by Unlabeled Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the scenario where training and test data are drawn from different distributions, commonly referred to as sample selection bias. Most algorithms for this setting try to first recover sampling distributions and then make appropriate corrections based on the distribution estimate. We present a nonparametric method which directly produces resampling weights without distribution estimation. Our method works by matching distributions between training and testing sets in feature space. Experimental results demonstrate that our method works well in practice.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

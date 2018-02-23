@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning with Compressible Priors</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Volkan</forename><surname>Cevher</surname></persName>
+							<email>volkan@rice.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Rice University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning with Compressible Priors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a set of probability distributions, dubbed compressible priors, whose independent and identically distributed (iid) realizations result in p-compressible signals. A signal x ∈ R N is called p-compressible with magnitude R if its sorted coefficients exhibit a power-law decay as |x| (i) R · i −d , where the decay rate d is equal to 1/p. p-compressible signals live close to K-sparse signals (K N) in the r-norm (r &gt; p) since their best K-sparse approximation error decreases with O R · K 1/r−1/p. We show that the membership of generalized Pareto, Stu-dent&apos;s t, log-normal, Fréchet, and log-logistic distributions to the set of compress-ible priors depends only on the distribution parameters and is independent of N. In contrast, we demonstrate that the membership of the generalized Gaussian distribution (GGD) depends both on the signal dimension and the GGD parameters: the expected decay rate of N-sample iid realizations from the GGD with the shape parameter q is given by 1/ [q log (N/q)]. As stylized examples, we show via experiments that the wavelet coefficients of natural images are 1.67-compressible whereas their pixel gradients are 0.95 log (N/0.95)-compressible, on the average. We also leverage the connections between compressible priors and sparse signals to develop new iterative re-weighted sparse signal recovery algorithms that out-perform the standard 1-norm minimization. Finally, we describe how to learn the hyperparameters of compressible priors in underdetermined regression problems by exploiting the geometry of their order statistics during signal recovery.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Unified Inference for Variational Bayesian Linear Gaussian State-Space Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Barber</surname></persName>
+							<email>david.barber@idiap.ch</email>
+							<affiliation key="aff0">
+								<orgName type="institution">IDIAP Research Institute rue du Simplon 4</orgName>
+								<address>
+									<settlement>Martigny</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Silvia</forename><surname>Chiappa</surname></persName>
+							<email>silvia.chiappa@idiap.ch</email>
+							<affiliation key="aff1">
+								<orgName type="institution">IDIAP Research</orgName>
+								<address>
+									<addrLine>Institute rue du Simplon 4</addrLine>
+									<settlement>Martigny</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Unified Inference for Variational Bayesian Linear Gaussian State-Space Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Linear Gaussian State-Space Models are widely used and a Bayesian treatment of parameters is therefore of considerable interest. The approximate Variational Bayesian method applied to these models is an attractive approach, used successfully in applications ranging from acoustics to bioinformatics. The most challenging aspect of implementing the method is in performing inference on the hidden state sequence of the model. We show how to convert the inference problem so that standard Kalman Filtering/Smoothing recursions from the literature may be applied. This is in contrast to previously published approaches based on Belief Propagation. Our framework both simplifies and unifies the inference problem, so that future applications may be more easily developed. We demonstrate the elegance of the approach on Bayesian temporal ICA, with an application to finding independent dynamical processes underlying noisy EEG signals. 1 Linear Gaussian State-Space Models Linear Gaussian State-Space Models (LGSSMs) 1 are fundamental in time-series analysis [1, 2, 3]. In these models the observations v 1:T 2 are generated from an underlying dynamical system on h 1:T according to: v t = Bh t + η v t , η v t ∼ N (0 V , Σ V), h t = Ah t−1 + η h t , η h t ∼ N (0 H , Σ H) , where N (µ, Σ) denotes a Gaussian with mean µ and covariance Σ, and 0 X denotes an X-dimensional zero vector. The observation v t has dimension V and the hidden state h t has dimension H. Probabilistically, the LGSSM is defined by: p(v 1:T , h 1:T |Θ) = p(v 1 |h 1)p(h 1) T 񮽙 t=2 p(v t |h t)p(h t |h t−1), with p(v t |h t) = N (Bh t , Σ V), p(h t |h t−1) = N (Ah t−1 , Σ H), p(h 1) = N (µ, Σ) and where Θ = {A, B, Σ H , Σ V , µ, Σ} denotes the model parameters. Because of the widespread use of these models, a Bayesian treatment of parameters is of considerable interest [4, 5, 6, 7, 8]. An exact implementation of the Bayesian LGSSM is formally intractable [8], and recently a Varia-tional Bayesian (VB) approximation has been studied [4, 5, 6, 7, 9]. The most challenging part of implementing the VB method is performing inference over h 1:T , and previous authors have developed their own specialized routines, based on Belief Propagation, since standard LGSSM inference routines appear, at first sight, not to be applicable. 1 Also called Kalman Filters/Smoothers, Linear Dynamical Systems. 2 v1:T denotes v1,. .. , vT .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spectral Clustering with Perturbed Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ling</forename><surname>Huang</surname></persName>
+							<email>ling.huang@intel.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Intel Research</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">UC Berkeley</orgName>
+								<orgName type="institution" key="instit4">Intel Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donghui</forename><surname>Yan</surname></persName>
+							<email>dhyan@stat.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Intel Research</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">UC Berkeley</orgName>
+								<orgName type="institution" key="instit4">Intel Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+							<email>jordan@cs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Intel Research</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">UC Berkeley</orgName>
+								<orgName type="institution" key="instit4">Intel Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nina</forename><surname>Taft</surname></persName>
+							<email>nina.taft@intel.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Intel Research</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">UC Berkeley</orgName>
+								<orgName type="institution" key="instit4">Intel Research</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spectral Clustering with Perturbed Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Spectral clustering is useful for a wide-ranging set of applications in areas such as biological data analysis, image processing and data mining. However, the computational and/or communication resources required by the method in processing large-scale data are often prohibitively high, and practitioners are often required to perturb the original data in various ways (quantization, downsampling, etc) before invoking a spectral algorithm. In this paper, we use stochastic perturbation theory to study the effects of data perturbation on the performance of spectral clustering. We show that the error under perturbation of spectral clustering is closely related to the perturbation of the eigenvectors of the Laplacian matrix. From this result we derive approximate upper bounds on the clustering error. We show that this bound is tight empirically across a wide range of problems, suggesting that it can be used in practical settings to determine the amount of data reduction allowed in order to meet a specification of permitted loss in clustering performance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

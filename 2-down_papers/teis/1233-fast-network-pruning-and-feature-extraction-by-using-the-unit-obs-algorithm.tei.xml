@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Network Pruning and Feature Extraction Using the Unit-OBS Algorithm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Achim</forename><surname>Stahlberger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut fur Logik</orgName>
+								<orgName type="institution">Komplexitiit und Deduktionssysteme Universitiit Karlsruhe</orgName>
+								<address>
+									<postCode>76128</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Riedmiller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut fur Logik</orgName>
+								<orgName type="institution">Komplexitiit und Deduktionssysteme Universitiit Karlsruhe</orgName>
+								<address>
+									<postCode>76128</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Network Pruning and Feature Extraction Using the Unit-OBS Algorithm</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The algorithm described in this article is based on the OBS algorithm by Hassibi, Stork and Wolff ([1] and [2]). The main disadvantage of OBS is its high complexity. OBS needs to calculate the inverse Hessian to delete only one weight (thus needing much time to prune a big net). A better algorithm should use this matrix to remove more than only one weight , because calculating the inverse Hessian takes the most time in the OBS algorithm. The algorithm, called Unit-OBS, described in this article is a method to overcome this disadvantage. This algorithm only needs to calculate the inverse Hessian once to remove one whole unit thus drastically reducing the time to prune big nets. A further advantage of Unit-OBS is that it can be used to do a feature extraction on the input data. This can be helpful on the understanding of unknown problems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

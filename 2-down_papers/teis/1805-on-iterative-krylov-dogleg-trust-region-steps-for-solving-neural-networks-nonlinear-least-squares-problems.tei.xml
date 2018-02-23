@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On iterative Krylov-dogleg trust-region steps for solving neural networks nonlinear least squares problems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eiji</forename><surname>Mizutani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Mathematics and Computer Science</orgName>
+								<orgName type="institution">National Tsing Hua University Hsinchu</orgName>
+								<address>
+									<postCode>30043</postCode>
+									<country>TAIWAN R.O.C</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">W</forename><surname>Demmel</surname></persName>
+							<email>demmel@cs.berkeley.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California at Berkeley</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On iterative Krylov-dogleg trust-region steps for solving neural networks nonlinear least squares problems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper describes a method of dogleg trust-region steps, or restricted Levenberg-Marquardt steps, based on a projection process onto the Krylov subspaces for neural networks nonlinear least squares problems. In particular, the linear conjugate gradient (CG) method works as the inner iterative algorithm for solving the linearized Gauss-Newton normal equation, whereas the outer nonlin-ear algorithm repeatedly takes so-called &quot;Krylov-dogleg&quot; steps, relying only on matrix-vector multiplication without explicitly forming the Jacobian matrix or the Gauss-Newton model Hessian. That is, our iterative dogleg algorithm can reduce both operational counts and memory space by a factor of O(n) (the number of parameters) in comparison with a direct linear-equation solver. This memory-less property is useful for large-scale problems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

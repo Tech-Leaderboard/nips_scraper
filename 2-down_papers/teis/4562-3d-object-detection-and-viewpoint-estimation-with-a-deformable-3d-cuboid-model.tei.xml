@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">3D Object Detection and Viewpoint Estimation with a Deformable 3D Cuboid Model</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sanja</forename><surname>Fidler</surname></persName>
+							<email>fidler@ttic.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">TTI Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">TTI Chicago</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sven</forename><surname>Dickinson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">TTI Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">TTI Chicago</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raquel</forename><surname>Urtasun</surname></persName>
+							<email>rurtasun@ttic.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">TTI Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">TTI Chicago</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">3D Object Detection and Viewpoint Estimation with a Deformable 3D Cuboid Model</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper addresses the problem of category-level 3D object detection. Given a monocular image, our aim is to localize the objects in 3D by enclosing them with tight oriented 3D bounding boxes. We propose a novel approach that extends the well-acclaimed deformable part-based model [1] to reason in 3D. Our model represents an object class as a deformable 3D cuboid composed of faces and parts, which are both allowed to deform with respect to their anchors on the 3D box. We model the appearance of each face in fronto-parallel coordinates, thus effectively factoring out the appearance variation induced by viewpoint. Our model reasons about face visibility patters called aspects. We train the cuboid model jointly and discriminatively and share weights across all aspects to attain efficiency. Inference then entails sliding and rotating the box in 3D and scoring object hypotheses. While for inference we discretize the search space, the variables are continuous in our model. We demonstrate the effectiveness of our approach in indoor and outdoor scenarios, and show that our approach significantly outperforms the state-of-the-art in both 2D [1] and 3D object detection [2].</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online Learning in the Manifold of Low-Rank Matrices</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Uri</forename><surname>Shalit</surname></persName>
+							<email>uri.shalit@mail.huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Dept. and ICNC</orgName>
+								<orgName type="laboratory">Google Research and The Gonda Brain Research Center Bar Ilan University</orgName>
+								<orgName type="institution">The Hebrew University of Jerusalem</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daphna</forename><surname>Weinshall</surname></persName>
+							<email>daphna@cs.huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Dept. and ICNC</orgName>
+								<orgName type="laboratory">Google Research and The Gonda Brain Research Center Bar Ilan University</orgName>
+								<orgName type="institution">The Hebrew University of Jerusalem</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gal</forename><surname>Chechik</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Dept. and ICNC</orgName>
+								<orgName type="laboratory">Google Research and The Gonda Brain Research Center Bar Ilan University</orgName>
+								<orgName type="institution">The Hebrew University of Jerusalem</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online Learning in the Manifold of Low-Rank Matrices</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>When learning models that are represented in matrix forms, enforcing a low-rank constraint can dramatically improve the memory and run time complexity, while providing a natural regularization of the model. However, naive approaches for minimizing functions over the set of low-rank matrices are either prohibitively time consuming (repeated singular value decomposition of the matrix) or numerically unstable (optimizing a factored representation of the low rank matrix). We build on recent advances in optimization over manifolds, and describe an iterative online learning procedure, consisting of a gradient step, followed by a second-order retraction back to the manifold. While the ideal retraction is hard to compute, and so is the projection operator that approximates it, we describe another second-order retraction that can be computed efficiently, with run time and memory complexity of O ((n + m)k) for a rank-k matrix of dimension m × n, given rank-one gradients. We use this algorithm, LORETA, to learn a matrix-form similarity measure over pairs of documents represented as high dimensional vectors. LORETA improves the mean average precision over a passive-aggressive approach in a factorized model, and also improves over a full model trained over pre-selected features using the same memory requirements. LORETA also showed consistent improvement over standard methods in a large (1600 classes) multi-label image classification task.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

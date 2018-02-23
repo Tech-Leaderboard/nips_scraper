@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Near Optimal Sketching of Low-Rank Tensor Regression</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jarvis</forename><surname>Haupt</surname></persName>
+							<email>jdhaupt@umn.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xingguo</forename><surname>Li</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Georgia Tech</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+							<email>dwoodruf@cs.cmu.edu</email>
+							<affiliation key="aff2">
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Minnesota</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Near Optimal Sketching of Low-Rank Tensor Regression</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the least squares regression problem min ⇥2R p 1 ⇥···⇥p D kA(⇥) 񮽙 bk 2 2 , where ⇥ is a low-rank tensor, defined as ⇥ = P R r=1 ✓ (r) 1 񮽙 · · · 񮽙 ✓ (r) D , for vectors ✓ (r) d 2 R p d for all r 2 [R] and d 2 [D]. Here, 񮽙 denotes the outer product of vectors, and A(⇥) is a linear function on ⇥. This problem is motivated by the fact that the number of parameters in ⇥ is only R · P D d=1 p d , which is significantly smaller than the Q D d=1 p d number of parameters in ordinary least squares regression. We consider the above CP decomposition model of tensors ⇥, as well as the Tucker decomposition. For both models we show how to apply data dimensionality reduction techniques based on sparse random projections 񮽙 2 R m⇥n , with m ⌧ n, to reduce the problem to a much smaller problem min ⇥ k񮽙A(⇥)񮽙񮽙bk 2 2 , for which k񮽙A(⇥) 񮽙 񮽙bk 2 2 = (1± &quot;)kA(⇥) 񮽙 bk 2 2 holds simultaneously for all ⇥. We obtain a significantly smaller dimension and sparsity in the randomized linear mapping 񮽙 than is possible for ordinary least squares regression. Finally, we give a number of numerical simulations supporting our theory.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

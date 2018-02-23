@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Graph-Driven Features Extraction from Microarray Data using Diffusion Kernels and Kernel CCA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean-Philippe</forename><surname>Vert</surname></persName>
+							<email>Jean-Philippe.Vert@mines.org</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Ecole des Mines de Paris</orgName>
+								<orgName type="department" key="dep2">Minoru Kanehisa Bioinformatics Center</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Graph-Driven Features Extraction from Microarray Data using Diffusion Kernels and Kernel CCA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present an algorithm to extract features from high-dimensional gene expression profiles, based on the knowledge of a graph which links together genes known to participate to successive reactions in metabolic pathways. Motivated by the intuition that biologically relevant features are likely to exhibit smoothness with respect to the graph topology, the algorithm involves encoding the graph and the set of expression profiles into kernel functions, and performing a generalized form of canoni-cal correlation analysis in the corresponding reproducible kernel Hilbert spaces. Function prediction experiments for the genes of the yeast S. Cerevisiae validate this approach by showing a consistent increase in performance when a state-of-the-art classifier uses the vector of features instead of the original expression profile to predict the functional class of a gene.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

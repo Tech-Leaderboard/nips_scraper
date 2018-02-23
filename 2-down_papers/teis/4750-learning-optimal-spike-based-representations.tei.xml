@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning optimal spike-based representations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralph</forename><surname>Bourdoukan</surname></persName>
+							<email>ralph.bourdoukan@ens.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">G T</forename><surname>Barrett</surname></persName>
+							<email>david.barrett@ens.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><forename type="middle">K</forename><surname>Machens</surname></persName>
+							<email>christian.machens@neuro.fchampalimaud.org</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sophie</forename><surname>Denève</surname></persName>
+							<email>sophie.deneve@ens.fr</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Group for Neural TheoryÉcole Theory´ Group for Neural TheoryÉcole Theory´TheoryÉcole Normale Supérieure Paris</orgName>
+								<orgName type="institution">TheoryÉcole Normale Supérieure Paris</orgName>
+								<address>
+									<country>France, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Champalimaud Neuroscience Programme Champalimaud Centre for the Unknown Lisbon Group for Neural TheoryÉcole Theory´TheoryÉcole Normale Supérieure Paris</orgName>
+								<address>
+									<country>Portugal, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning optimal spike-based representations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>How can neural networks learn to represent information optimally? We answer this question by deriving spiking dynamics and learning dynamics directly from a measure of network performance. We find that a network of integrate-and-fire neurons undergoing Hebbian plasticity can learn an optimal spike-based representation for a linear decoder. The learning rule acts to minimise the membrane potential magnitude, which can be interpreted as a representation error after learning. In this way, learning reduces the representation error and drives the network into a robust, balanced regime. The network becomes balanced because small representation errors correspond to small membrane potentials, which in turn results from a balance of excitation and inhibition. The representation is robust because neurons become self-correcting, only spiking if the representation error exceeds a threshold. Altogether, these results suggest that several observed features of cor-tical dynamics, such as excitatory-inhibitory balance, integrate-and-fire dynamics and Hebbian plasticity, are signatures of a robust, optimal spike-based code. A central question in neuroscience is to understand how populations of neurons represent information and how they learn to do so. Usually, learning and information representation are treated as two different functions. From the outset, this separation seems like a good idea, as it reduces the problem into two smaller, more manageable chunks. Our approach, however, is to study these together. This allows us to treat learning and information representation as two sides of a single mechanism, operating at two different timescales. Experimental work has given us several clues about the regime in which real networks operate in the brain. Some of the most prominent observations are: (a) high trial-to-trial variability-a neu-ron responds differently to repeated, identical inputs [1, 2]; (b) asynchronous firing at the network level-spike trains of different neurons are at most very weakly correlated [3, 4, 5]; (c) tight balance of excitation and inhibition-every excitatory input is met by an inhibitory input of equal or greater size [6, 7, 8] and (4) spike-timing-dependent plasticity (STDP)-the strength of synapses change as a function of presynaptic and postsynaptic spike times [9]. Previously, it has been shown that observations (a)-(c) can be understood as signatures of an optimal, spike-based code [10, 11]. The essential idea is to derive spiking dynamics from the assumption that neurons only fire if their spike improves information representation. Information in a network may * Authors contributed equally 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

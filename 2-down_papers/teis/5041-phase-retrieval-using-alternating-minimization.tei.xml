@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Phase Retrieval using Alternating Minimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Praneeth</forename><surname>Netrapalli</surname></persName>
+							<email>praneethn@utexas.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prateek</forename><surname>Jain</surname></persName>
+							<email>prajain@microsoft.com</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sujay</forename><surname>Sanghavi</surname></persName>
+							<email>sanghavi@mail.utexas.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of ECE</orgName>
+								<orgName type="department" key="dep2">Department of ECE</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin Austin</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research India Bangalore</orgName>
+								<address>
+									<postCode>78712</postCode>
+									<region>TX</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">The University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>78712</postCode>
+									<region>TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Phase Retrieval using Alternating Minimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Phase retrieval problems involve solving linear equations, but with missing sign (or phase, for complex numbers). Over the last two decades, a popular generic empirical approach to the many variants of this problem has been one of alternating minimization; i.e. alternating between estimating the missing phase information, and the candidate solution. In this paper, we show that a simple alternating minimization algorithm geometrically converges to the solution of one such problem-finding a vector x from y, A, where y = |A T x| and |z| denotes a vector of element-wise magnitudes of z-under the assumption that A is Gaussian. Empirically, our algorithm performs similar to recently proposed convex techniques for this variant (which are based on &quot;lifting&quot; to a convex matrix problem) in sample complexity and robustness to noise. However, our algorithm is much more efficient and can scale to large problems. Analytically, we show geometric convergence to the solution, and sample complexity that is off by log factors from obvious lower bounds. We also establish close to optimal scaling for the case when the unknown vector is sparse. Our work represents the only known theoretical guarantee for alternating minimization for any variant of phase retrieval problems in the non-convex setting.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

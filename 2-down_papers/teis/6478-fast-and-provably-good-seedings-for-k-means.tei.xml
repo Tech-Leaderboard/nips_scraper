@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast and Provably Good Seedings for k-Means</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olivier</forename><surname>Bachem</surname></persName>
+							<email>olivier.bachem@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mario</forename><surname>Lucic</surname></persName>
+							<email>lucic@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">Hamed</forename><surname>Hassani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andreas</forename><surname>Krause</surname></persName>
+							<email>krausea@ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast and Provably Good Seedings for k-Means</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Seeding-the task of finding initial cluster centers-is critical in obtaining high-quality clusterings for k-Means. However, k-means++ seeding, the state of the art algorithm, does not scale well to massive datasets as it is inherently sequential and requires k full passes through the data. It was recently shown that Markov chain Monte Carlo sampling can be used to efficiently approximate the seeding step of k-means++. However, this result requires assumptions on the data generating distribution. We propose a simple yet fast seeding algorithm that produces provably good clusterings even without assumptions on the data. Our analysis shows that the algorithm allows for a favourable trade-off between solution quality and computational cost, speeding up k-means++ seeding by up to several orders of magnitude. We validate our theoretical results in extensive experiments on a variety of real-world data sets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Softstar: Heuristic-Guided Probabilistic Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mathew</forename><surname>Monfort</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Center for Data Science</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="department" key="dep4">Brain and Cognitive Sciences Department Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution" key="instit1">University of Illinois at Chicago Chicago</orgName>
+								<orgName type="institution" key="instit2">New York University New York</orgName>
+								<orgName type="institution" key="instit3">University of Illinois</orgName>
+								<orgName type="institution" key="instit4">Disney Research Pittsburgh Pittsburgh</orgName>
+								<address>
+									<postCode>60607, 10003, 60607, 15232, 02139</postCode>
+									<region>IL, NY, IL, PA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brenden</forename><forename type="middle">M</forename><surname>Lake</surname></persName>
+							<email>brenden@nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Center for Data Science</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="department" key="dep4">Brain and Cognitive Sciences Department Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution" key="instit1">University of Illinois at Chicago Chicago</orgName>
+								<orgName type="institution" key="instit2">New York University New York</orgName>
+								<orgName type="institution" key="instit3">University of Illinois</orgName>
+								<orgName type="institution" key="instit4">Disney Research Pittsburgh Pittsburgh</orgName>
+								<address>
+									<postCode>60607, 10003, 60607, 15232, 02139</postCode>
+									<region>IL, NY, IL, PA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><forename type="middle">D</forename><surname>Ziebart</surname></persName>
+							<email>bziebart@uic.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Center for Data Science</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="department" key="dep4">Brain and Cognitive Sciences Department Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution" key="instit1">University of Illinois at Chicago Chicago</orgName>
+								<orgName type="institution" key="instit2">New York University New York</orgName>
+								<orgName type="institution" key="instit3">University of Illinois</orgName>
+								<orgName type="institution" key="instit4">Disney Research Pittsburgh Pittsburgh</orgName>
+								<address>
+									<postCode>60607, 10003, 60607, 15232, 02139</postCode>
+									<region>IL, NY, IL, PA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><surname>Lucey</surname></persName>
+							<email>patrick.lucey@disneyresearch.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Center for Data Science</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="department" key="dep4">Brain and Cognitive Sciences Department Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution" key="instit1">University of Illinois at Chicago Chicago</orgName>
+								<orgName type="institution" key="instit2">New York University New York</orgName>
+								<orgName type="institution" key="instit3">University of Illinois</orgName>
+								<orgName type="institution" key="instit4">Disney Research Pittsburgh Pittsburgh</orgName>
+								<address>
+									<postCode>60607, 10003, 60607, 15232, 02139</postCode>
+									<region>IL, NY, IL, PA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Center for Data Science</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="department" key="dep4">Brain and Cognitive Sciences Department Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution" key="instit1">University of Illinois at Chicago Chicago</orgName>
+								<orgName type="institution" key="instit2">New York University New York</orgName>
+								<orgName type="institution" key="instit3">University of Illinois</orgName>
+								<orgName type="institution" key="instit4">Disney Research Pittsburgh Pittsburgh</orgName>
+								<address>
+									<postCode>60607, 10003, 60607, 15232, 02139</postCode>
+									<region>IL, NY, IL, PA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Softstar: Heuristic-Guided Probabilistic Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recent machine learning methods for sequential behavior prediction estimate the motives of behavior rather than the behavior itself. This higher-level abstraction improves generalization in different prediction settings, but computing predictions often becomes intractable in large decision spaces. We propose the Soft-star algorithm, a softened heuristic-guided search technique for the maximum entropy inverse optimal control model of sequential behavior. This approach supports probabilistic search with bounded approximation error at a significantly reduced computational cost when compared to sampling based methods. We present the algorithm, analyze approximation guarantees, and compare performance with simulation-based inference on two distinct complex decision tasks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Generalized Natural Actor-Critic Algorithm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tetsuro</forename><surname>Morimura</surname></persName>
+							<email>tetsuro@jp.ibm.com, {uchibe,jun-y,doya}@oist.jp</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eiji</forename><surname>Uchibe</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Okinawa Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Okinawa</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Junichiro</forename><surname>Yoshimoto</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Okinawa Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Okinawa</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenji</forename><surname>Doya</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Okinawa Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Okinawa</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Research -Tokyo</orgName>
+								<address>
+									<settlement>Kanagawa</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Generalized Natural Actor-Critic Algorithm</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Policy gradient Reinforcement Learning (RL) algorithms have received substantial attention, seeking stochastic policies that maximize the average (or discounted cumulative) reward. In addition, extensions based on the concept of the Natural Gradient (NG) show promising learning efficiency because these regard metrics for the task. Though there are two candidate metrics, Kakade&apos;s Fisher Information Matrix (FIM) for the policy (action) distribution and Morimura&apos;s FIM for the state-action joint distribution, but all RL algorithms with NG have followed Kakade&apos;s approach. In this paper, we describe a generalized Natural Gradient (gNG) that linearly interpolates the two FIMs and propose an efficient implementation for the gNG learning based on a theory of the estimating function, the generalized Natural Actor-Critic (gNAC) algorithm. The gNAC algorithm involves a near optimal auxiliary function to reduce the variance of the gNG estimates. Interestingly, the gNAC can be regarded as a natural extension of the current state-of-the-art NAC algorithm [1], as long as the interpolating parameter is appropriately selected. Numerical experiments showed that the proposed gNAC algorithm can estimate gNG efficiently and outperformed the NAC algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

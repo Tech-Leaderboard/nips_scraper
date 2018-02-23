@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimal Manifold Representation of Data: An Information Theoretic Approach</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Denis</forename><surname>Chigirev</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physics</orgName>
+								<orgName type="department" key="dep2">Lewis-Sigler Institute for Integrative Genomics</orgName>
+								<orgName type="institution">Princeton University</orgName>
+								<address>
+									<postCode>08544</postCode>
+									<settlement>Princeton</settlement>
+									<country>New Jersey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Bialek</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physics</orgName>
+								<orgName type="department" key="dep2">Lewis-Sigler Institute for Integrative Genomics</orgName>
+								<orgName type="institution">Princeton University</orgName>
+								<address>
+									<postCode>08544</postCode>
+									<settlement>Princeton</settlement>
+									<country>New Jersey</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimal Manifold Representation of Data: An Information Theoretic Approach</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce an information theoretic method for nonparametric, non-linear dimensionality reduction, based on the infinite cluster limit of rate distortion theory. By constraining the information available to manifold coordinates, a natural probabilistic map emerges that assigns original data to corresponding points on a lower dimensional manifold. With only the information-distortion trade off as a parameter, our method determines the shape of the manifold, its dimensionality, the probabilistic map and the prior that provide optimal description of the data. 1 A simple example Some data sets may not be as complicated as they appear. Consider the set of points on a plane in Figure 1. As a two dimensional set, it requires a two dimensional density ρ(x, y) for its description. Since the data are sparse the density will be almost singular. We may use a smoothing kernel, but then the data set will be described by a complicated combination of troughs and peaks with no obvious pattern and hence no ability to generalize. We intuitively, however, see a strong one dimensional structure (a curve) underlying the data. In this paper we attempt to capture this intuition formally, through the use of the infinite cluster limit of rate distortion theory. Any set of points can be embedded in a hypersurface of any intrinsic dimensionality if we allow that hypersurface to be highly &quot;folded.&quot; For example, in Figure 1, any curve that goes through all the points gives a one dimensional representation. We would like to avoid such solutions, since they do not help us discover structure in the data. Looking for a simpler description one may choose to penalize the curvature term [1]. The problem with this approach is that it is not easily generalized to multiple dimensions, and requires the dimensionality of the solution as an input. An alternative approach is to allow curves of all shapes and sizes, but to send the reduced coordinates through an information bottleneck. With a fixed number of bits, position along a highly convoluted curve becomes uncertain. This will penalize curves that follow the data too closely (see Figure 1). There are several advantages to this approach. First, it removes the artificiality introduced by Hastie [2] of adding to the cost function only orthogonal errors. If we believe that data points fall out of the manifold due to noise, there is no reason to treat the projection onto the manifold as exact. Second, it does not require the dimension</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

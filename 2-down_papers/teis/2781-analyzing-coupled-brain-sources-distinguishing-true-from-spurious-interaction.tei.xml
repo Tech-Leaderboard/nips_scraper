@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Analyzing Coupled Brain Sources: Distinguishing True from Spurious Interaction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guido</forename><surname>Nolte</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Fraunhofer FIRST.IDA</orgName>
+								<address>
+									<addrLine>Kekuléstr. 7</addrLine>
+									<postCode>12489</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andreas</forename><surname>Ziehe</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Inst. for Software Engineering</orgName>
+								<orgName type="institution">TU Berlin</orgName>
+								<address>
+									<addrLine>Franklinstr. 28/29</addrLine>
+									<postCode>10587</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><surname>Meinecke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Fraunhofer FIRST.IDA</orgName>
+								<address>
+									<addrLine>Kekuléstr. 7</addrLine>
+									<postCode>12489</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Klaus</forename><forename type="middle">-</forename><surname>Robert</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">¨</forename><surname>Uller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Fraunhofer FIRST.IDA</orgName>
+								<address>
+									<addrLine>Kekuléstr. 7</addrLine>
+									<postCode>12489</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of CS</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<addrLine>August-Bebel-Strasse 89</addrLine>
+									<postCode>14482</postCode>
+									<settlement>Potsdam</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Analyzing Coupled Brain Sources: Distinguishing True from Spurious Interaction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>When trying to understand the brain, it is of fundamental importance to analyse (e.g. from EEG/MEG measurements) what parts of the cortex interact with each other in order to infer more accurate models of brain activity. Common techniques like Blind Source Separation (BSS) can estimate brain sources and single out artifacts by using the underlying assumption of source signal independence. However, physiologically interesting brain sources typically interact, so BSS will-by construction-fail to characterize them properly. Noting that there are truly interacting sources and signals that only seemingly interact due to effects of volume conduction, this work aims to contribute by distinguishing these effects. For this a new BSS technique is proposed that uses anti-symmetrized cross-correlation matrices and subsequent diagonalization. The resulting decomposition consists of the truly interacting brain sources and suppresses any spurious interaction stemming from volume conduction. Our new concept of interacting source analysis (ISA) is successfully demonstrated on MEG data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

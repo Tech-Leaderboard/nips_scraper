@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dynamic Stochastic Synapses as Computational Units</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wolfgang</forename><surname>Maass</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Theoretical Computer Science</orgName>
+								<orgName type="institution">Technische Universitat Graz</orgName>
+								<address>
+									<postCode>A-B01O</postCode>
+									<settlement>Graz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">M</forename><surname>Abstract</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">The Salk Institute</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<postCode>92037</postCode>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zador</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">The Salk Institute</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<postCode>92037</postCode>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dynamic Stochastic Synapses as Computational Units</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In most neural network models, synapses are treated as static weights that change only on the slow time scales of learning. In fact, however, synapses are highly dynamic, and show use-dependent plasticity over a wide range of time scales. Moreover, synaptic transmission is an inherently stochastic process: a spike arriving at a presynaptic terminal triggers release of a vesicle of neurotransmitter from a release site with a probability that can be much less than one. Changes in release probability represent one of the main mechanisms by which synaptic efficacy is modulated in neural circuits. We propose and investigate a simple model for dynamic stochastic synapses that can easily be integrated into common models for neural computation. We show through computer simulations and rigorous theoretical analysis that this model for a dynamic stochastic synapse increases computational power in a nontrivial way. Our results may have implications for the processing of time-varying signals by both biological and artificial neural networks. A synapse 8 carries out computations on spike trains, more precisely on trains of spikes from the presynaptic neuron. Each spike from the presynaptic neuron mayor may not trigger the release of a neurotransmitter-filled vesicle at the synapse. The probability of a vesicle release ranges from about 0.01 to almost 1. Furthermore this release probability is known to be strongly &quot;history dependent&quot; [Dobrunz and Stevens, 1997]. A spike causes an excitatory or inhibitory potential (EPSP or IPSP, respectively) in the postsynaptic neuron only when a vesicle is released. A spike train is represented as a sequence 1 of firing times, i.e. as increasing sequences of numbers tl &lt; t2 &lt; ... from R+ := {z E R: z ~ O}. For each spike train 1 the output of synapse 8 consists of the sequence 8W of those ti E 10n which vesicles are &quot;released&quot; by 8 , i.e. of those t, E 1 which cause an excitatory or inhibitory postsynaptic potential (EPSP or IPSP, respectively). The map 1-+ 8(1) may be viewed as a stochastic function that is computed by synapse S. Alternatively one can characterize the output SW of a synapse 8 through its release pattern q = qlq2 ... E {R, F}· , where R stands for release and F for failure of release. For each t, E 1 one sets q, = R if ti E 8(1) , and qi = F if ti ¢ 8W .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

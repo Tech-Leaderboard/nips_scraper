@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Near-Optimal Density Estimation in Near-Linear Time Using Variable-Width Histograms</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Siu-On</forename><surname>Chan</surname></persName>
+							<email>sochan@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Ilias Diakonikolas University of Edinburgh</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rocco</forename><forename type="middle">A</forename><surname>Servedio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Ilias Diakonikolas University of Edinburgh</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaorui</forename><surname>Sun</surname></persName>
+							<email>xiaoruisun@cs.columbia.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Ilias Diakonikolas University of Edinburgh</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Near-Optimal Density Estimation in Near-Linear Time Using Variable-Width Histograms</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Let p be an unknown and arbitrary probability distribution over [0, 1). We consider the problem of density estimation, in which a learning algorithm is given i.i.d. draws from p and must (with high probability) output a hypothesis distribution that is close to p. The main contribution of this paper is a highly efficient density estimation algorithm for learning using a variable-width histogram, i.e., a hypothesis distribution with a piecewise constant probability density function. In more detail, for any k and &quot;, we give an algorithm that makes˜Omakes˜ makes˜O(k/&quot; 2) draws from p, runs iñ O(k/&quot; 2) time, and outputs a hypothesis distribution h that is piece-wise constant with O(k log 2 (1/&quot;)) pieces. With high probability the hypothesis h satisfies d TV (p, h)  C · opt k (p) + &quot;, where d TV denotes the total variation distance (statistical distance), C is a universal constant, and opt k (p) is the smallest total variation distance between p and any k-piecewise constant distribution. The sample size and running time of our algorithm are optimal up to logarithmic factors. The &quot;approximation factor&quot; C in our result is inherent in the problem, as we prove that no algorithm with sample size bounded in terms of k and &quot; can achieve C &lt; 2 regardless of what kind of hypothesis distribution it uses.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

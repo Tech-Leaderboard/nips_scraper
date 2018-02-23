@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mixture Regression for Covariate Shift</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amos</forename><forename type="middle">J</forename><surname>Storkey</surname></persName>
+							<email>a.storkey@ed.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Adaptive and Neural Computation School of Informatics</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit2">Tokyo Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Masashi</forename><surname>Sugiyama</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Adaptive and Neural Computation School of Informatics</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit2">Tokyo Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mixture Regression for Covariate Shift</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In supervised learning there is a typical presumption that the training and test points are taken from the same distribution. In practice this assumption is commonly violated. The situations where the training and test data are from different distributions is called covariate shift. Recent work has examined techniques for dealing with covariate shift in terms of minimisation of generalisation error. As yet the literature lacks a Bayesian generative perspective on this problem. This paper tackles this issue for regression models. Recent work on covariate shift can be understood in terms of mixture regression. Using this view, we obtain a general approach to regression under covariate shift, which reproduces previous work as a special case. The main advantages of this new formulation over previous models for covariate shift are that we no longer need to presume the test and training densities are known, the regression and density estimation are combined into a single procedure, and previous methods are reproduced as special cases of this procedure, shedding light on the implicit assumptions the methods are making.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

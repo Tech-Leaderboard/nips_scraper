@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Matrix Exponentiated Gradient Updates for On-line Learning and Bregman Projection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koji</forename><surname>Tsuda</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">AIST CBRC</orgName>
+								<address>
+									<addrLine>2-43 Aomi, Koto-ku</addrLine>
+									<postCode>135-0064</postCode>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gunnar</forename><surname>Rätsch</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Fraunhofer FIRST</orgName>
+								<address>
+									<addrLine>Kekuléstr. 7</addrLine>
+									<postCode>12489</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manfred</forename><forename type="middle">K</forename><surname>Warmuth</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">University of California at Santa Cruz</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Biological Cybernetics Spemannstr. 38</orgName>
+								<address>
+									<postCode>72076</postCode>
+									<settlement>Tübingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Matrix Exponentiated Gradient Updates for On-line Learning and Bregman Projection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We address the problem of learning a symmetric positive definite matrix. The central issue is to design parameter updates that preserve positive definiteness. Our updates are motivated with the von Neumann divergence. Rather than treating the most general case, we focus on two key applications that exemplify our methods: On-line learning with a simple square loss and finding a symmetric positive definite matrix subject to symmetric linear constraints. The updates generalize the Exponentiated Gradient (EG) update and AdaBoost, respectively: the parameter is now a symmetric positive definite matrix of trace one instead of a probability vector (which in this context is a diagonal positive definite matrix with trace one). The generalized updates use matrix logarithms and exponen-tials to preserve positive definiteness. Most importantly, we show how the analysis of each algorithm generalizes to the non-diagonal case. We apply both new algorithms, called the Matrix Exponentiated Gradient (MEG) update and DefiniteBoost, to learn a kernel matrix from distance measurements.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

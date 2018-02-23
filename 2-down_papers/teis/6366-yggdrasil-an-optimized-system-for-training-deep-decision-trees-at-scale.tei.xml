@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Yggdrasil: An Optimized System for Training Deep Decision Trees at Scale</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Firas</forename><surname>Abuzaid</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4 Yahoo, 5 UCLA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Bradley</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4 Yahoo, 5 UCLA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Feynman</forename><surname>Liang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4 Yahoo, 5 UCLA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Feng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4 Yahoo, 5 UCLA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lee</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4 Yahoo, 5 UCLA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matei</forename><surname>Zaharia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4 Yahoo, 5 UCLA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ameet</forename><surname>Talwalkar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4 Yahoo, 5 UCLA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mit</forename><surname>Csail</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4 Yahoo, 5 UCLA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Databricks</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>4 Yahoo, 5 UCLA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Yggdrasil: An Optimized System for Training Deep Decision Trees at Scale</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Deep distributed decision trees and tree ensembles have grown in importance due to the need to model increasingly large datasets. However, PLANET, the standard distributed tree learning algorithm implemented in systems such as XGBOOST and Spark MLLIB, scales poorly as data dimensionality and tree depths grow. We present YGGDRASIL, a new distributed tree learning method that outperforms existing methods by up to 24×. Unlike PLANET, YGGDRASIL is based on vertical partitioning of the data (i.e., partitioning by feature), along with a set of optimized data structures to reduce the CPU and communication costs of training. YGGDRASIL (1) trains directly on compressed data for compressible features and labels; (2) introduces efficient data structures for training on uncompressed data; and (3) minimizes communication between nodes by using sparse bitvectors. Moreover, while PLANET approximates split points through feature binning, YG-GDRASIL does not require binning, and we analytically characterize the impact of this approximation. We evaluate YGGDRASIL against the MNIST 8M dataset and a high-dimensional dataset at Yahoo; for both, YGGDRASIL is faster by up to an order of magnitude.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

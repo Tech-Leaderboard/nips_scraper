@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kullback-Leibler Proximal Variational Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammad</forename><forename type="middle">Emtiyaz</forename><surname>Khan</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pierre</forename><surname>Baqué</surname></persName>
+							<email>pierre.baque@epfl.ch</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">François</forename><surname>Fleuret</surname></persName>
+							<email>francois.fleuret@idiap.ch</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pascal</forename><surname>Fua</surname></persName>
+							<email>pascal.fua@epfl.ch</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ecole Polytechnique Fédérale de Lausanne Lausanne</orgName>
+								<orgName type="institution">Ecole Polytechnique Fédérale de Lausanne Lausanne</orgName>
+								<address>
+									<country>Switzerland, Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Ecole Polytechnique Fédérale de Lausanne Lausanne</orgName>
+								<orgName type="institution">Idiap Research Institute Martigny</orgName>
+								<address>
+									<country>Switzerland, Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kullback-Leibler Proximal Variational Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a new variational inference method based on a proximal framework that uses the Kullback-Leibler (KL) divergence as the proximal term. We make two contributions towards exploiting the geometry and structure of the variational bound. First, we propose a KL proximal-point algorithm and show its equivalence to variational inference with natural gradients (e.g., stochastic variational inference). Second, we use the proximal framework to derive efficient variational algorithms for non-conjugate models. We propose a splitting procedure to separate non-conjugate terms from conjugate ones. We linearize the non-conjugate terms to obtain subproblems that admit a closed-form solution. Overall, our approach converts inference in a non-conjugate model to subproblems that involve inference in well-known conjugate models. We show that our method is applicable to a wide variety of models and can result in computationally efficient algorithms. Applications to real-world datasets show comparable performances to existing methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

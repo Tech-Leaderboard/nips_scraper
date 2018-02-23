@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">PAC-Bayesian AUC classification and scoring</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Ridgway</surname></persName>
+							<email>james.ridgway@ensae.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CREST</orgName>
+								<orgName type="department" key="dep2">CREST (ENSAE)</orgName>
+								<orgName type="institution" key="instit1">CEREMADE University Dauphine</orgName>
+								<orgName type="institution" key="instit2">HEC Paris</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pierre</forename><surname>Alquier</surname></persName>
+							<email>pierre.alquier@ucd.ie</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CREST</orgName>
+								<orgName type="department" key="dep2">CREST (ENSAE)</orgName>
+								<orgName type="institution" key="instit1">CEREMADE University Dauphine</orgName>
+								<orgName type="institution" key="instit2">HEC Paris</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><surname>Chopin</surname></persName>
+							<email>nicolas.chopin@ensae.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CREST</orgName>
+								<orgName type="department" key="dep2">CREST (ENSAE)</orgName>
+								<orgName type="institution" key="instit1">CEREMADE University Dauphine</orgName>
+								<orgName type="institution" key="instit2">HEC Paris</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Feng</forename><surname>Liang</surname></persName>
+							<email>liangf@illinois.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CREST</orgName>
+								<orgName type="department" key="dep2">CREST (ENSAE)</orgName>
+								<orgName type="institution" key="instit1">CEREMADE University Dauphine</orgName>
+								<orgName type="institution" key="instit2">HEC Paris</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">PAC-Bayesian AUC classification and scoring</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We develop a scoring and classification procedure based on the PAC-Bayesian approach and the AUC (Area Under Curve) criterion. We focus initially on the class of linear score functions. We derive PAC-Bayesian non-asymptotic bounds for two types of prior for the score parameters: a Gaussian prior, and a spike-and-slab prior; the latter makes it possible to perform feature selection. One important advantage of our approach is that it is amenable to powerful Bayesian computational tools. We derive in particular a Sequential Monte Carlo algorithm, as an efficient method which may be used as a gold standard, and an Expectation-Propagation algorithm, as a much faster but approximate method. We also extend our method to a class of non-linear score functions, essentially leading to a nonparametric procedure, by considering a Gaussian process prior.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

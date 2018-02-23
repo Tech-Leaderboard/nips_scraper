@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Log-Linear Models for Label Ranking</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ofer</forename><surname>Dekel</surname></persName>
+							<email>oferd@cs.huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Dept</orgName>
+								<orgName type="department" key="dep2">Computer Science &amp; Eng</orgName>
+								<orgName type="institution" key="instit1">Computer Science &amp; Eng. Hebrew University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Hebrew University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">D</forename><surname>Manning</surname></persName>
+							<email>manning@cs.stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Dept</orgName>
+								<orgName type="department" key="dep2">Computer Science &amp; Eng</orgName>
+								<orgName type="institution" key="instit1">Computer Science &amp; Eng. Hebrew University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Hebrew University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoram</forename><surname>Singer</surname></persName>
+							<email>singer@cs.huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Dept</orgName>
+								<orgName type="department" key="dep2">Computer Science &amp; Eng</orgName>
+								<orgName type="institution" key="instit1">Computer Science &amp; Eng. Hebrew University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Hebrew University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Log-Linear Models for Label Ranking</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Label ranking is the task of inferring a total order over a predefined set of labels for each given instance. We present a general framework for batch learning of label ranking functions from supervised data. We assume that each instance in the training data is associated with a list of preferences over the label-set, however we do not assume that this list is either complete or consistent. This enables us to accommodate a variety of ranking problems. In contrast to the general form of the supervision, our goal is to learn a ranking function that induces a total order over the entire set of labels. Special cases of our setting are multilabel categorization and hierarchical classification. We present a general boosting-based learning algorithm for the label ranking problem and prove a lower bound on the progress of each boosting iteration. The applicability of our approach is demonstrated with a set of experiments on a large-scale text corpus.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

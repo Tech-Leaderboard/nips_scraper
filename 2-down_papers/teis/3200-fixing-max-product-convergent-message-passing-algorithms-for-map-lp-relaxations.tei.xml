@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fixing Max-Product: Convergent Message Passing Algorithms for MAP LP-Relaxations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amir</forename><surname>Globerson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology Cambridge</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tommi</forename><surname>Jaakkola</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology Cambridge</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fixing Max-Product: Convergent Message Passing Algorithms for MAP LP-Relaxations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a novel message passing algorithm for approximating the MAP problem in graphical models. The algorithm is similar in structure to max-product but unlike max-product it always converges, and can be proven to find the exact MAP solution in various settings. The algorithm is derived via block coordinate descent in a dual of the LP relaxation of MAP, but does not require any tunable parameters such as step size or tree weights. We also describe a generalization of the method to cluster based potentials. The new method is tested on synthetic and real-world problems, and compares favorably with previous approaches. Graphical models are an effective approach for modeling complex objects via local interactions. In such models, a distribution over a set of variables is assumed to factor according to cliques of a graph with potentials assigned to each clique. Finding the assignment with highest probability in these models is key to using them in practice, and is often referred to as the MAP (maximum aposteriori) assignment problem. In the general case the problem is NP hard, with complexity exponential in the tree-width of the underlying graph. Linear programming (LP) relaxations have proven very useful in approximating the MAP problem, and often yield satisfactory empirical results. These approaches relax the constraint that the solution is integral, and generally yield non-integral solutions. However, when the LP solution is integral, it is guaranteed to be the exact MAP. For some classes of problems the LP relaxation is provably correct. These include the minimum cut problem and maximum weight matching in bi-partite graphs [8]. Although LP relaxations can be solved using standard LP solvers, this may be computationally intensive for large problems [13]. The key problem with generic LP solvers is that they do not use the graph structure explicitly and thus may be sub-optimal in terms of computational efficiency. The max-product method [7] is a message passing algorithm that is often used to approximate the MAP problem. In contrast to generic LP solvers, it makes direct use of the graph structure in constructing and passing messages, and is also very simple to implement. The relation between max-product and the LP relaxation has remained largely elusive, although there are some notable exceptions: For tree-structured graphs, max-product and LP both yield the exact MAP. A recent result [1] showed that for maximum weight matching on bi-partite graphs max-product and LP also yield the exact MAP [1]. Finally, Tree-Reweighted max-product (TRMP) algorithms [5, 10] were shown to converge to the LP solution for binary x i variables, as shown in [6]. In this work, we propose the Max Product Linear Programming algorithm (MPLP)-a very simple variation on max-product that is guaranteed to converge, and has several advantageous properties. MPLP is derived from the dual of the LP relaxation, and is equivalent to block coordinate descent in the dual. Although this results in monotone improvement of the dual objective, global convergence is not always guaranteed since coordinate descent may get stuck in suboptimal points. This can be remedied using various approaches, but in practice we have found MPLP to converge to the LP 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

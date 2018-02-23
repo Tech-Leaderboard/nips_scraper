@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Capturing Semantically Meaningful Word Dependencies with an Admixture of Poisson MRFs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">I</forename><surname>Inouye</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pradeep</forename><surname>Ravikumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Inderjit</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Capturing Semantically Meaningful Word Dependencies with an Admixture of Poisson MRFs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We develop a fast algorithm for the Admixture of Poisson MRFs (APM) topic model [1] and propose a novel metric to directly evaluate this model. The APM topic model recently introduced by Inouye et al. [1] is the first topic model that allows for word dependencies within each topic unlike in previous topic models like LDA that assume independence between words within a topic. Research in both the semantic coherence of a topic models [2, 3, 4, 5] and measures of model fitness [6] provide strong support that explicitly modeling word dependencies-as in APM-could be both semantically meaningful and essential for appropriately modeling real text data. Though APM shows significant promise for providing a better topic model, APM has a high computational complexity because O(p 2) parameters must be estimated where p is the number of words ([1] could only provide results for datasets with p = 200). In light of this, we develop a parallel alternating Newton-like algorithm for training the APM model that can handle p = 10 4 as an important step towards scaling to large datasets. In addition, Inouye et al. [1] only provided tentative and inconclusive results on the utility of APM. Thus, motivated by simple intuitions and previous evaluations of topic models, we propose a novel evaluation metric based on human evocation scores between word pairs (i.e. how much one word &quot;brings to mind&quot; another word [7]). We provide compelling quantitative and qualitative results on the BNC corpus that demonstrate the superiority of APM over previous topic models for identifying semantically meaningful word dependencies. (MATLAB code available at:</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

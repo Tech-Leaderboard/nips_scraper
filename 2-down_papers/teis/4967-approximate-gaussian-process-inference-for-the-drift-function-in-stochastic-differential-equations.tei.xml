@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Approximate Gaussian process inference for the drift of stochastic differential equations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andreas</forename><surname>Ruttor</surname></persName>
+							<email>andreas.ruttor@tu-berlin.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science</orgName>
+								<orgName type="department" key="dep2">Computer Science</orgName>
+								<orgName type="institution">TU Berlin</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<region>TU</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philipp</forename><surname>Batz</surname></persName>
+							<email>philipp.batz@tu-berlin.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science</orgName>
+								<orgName type="department" key="dep2">Computer Science</orgName>
+								<orgName type="institution">TU Berlin</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<region>TU</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Approximate Gaussian process inference for the drift of stochastic differential equations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Manfred Opper Computer Science, TU Berlin manfred.opper@tu-berlin.de</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a nonparametric approach for estimating drift functions in systems of stochastic differential equations from sparse observations of the state vector. Using a Gaussian process prior over the drift as a function of the state vector, we develop an approximate EM algorithm to deal with the unobserved, latent dynamics between observations. The posterior over states is approximated by a piecewise linearized process of the Ornstein-Uhlenbeck type and the MAP estimation of the drift is facilitated by a sparse Gaussian process regression.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

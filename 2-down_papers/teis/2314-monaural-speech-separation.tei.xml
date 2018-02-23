@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Monaural Speech Separation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guoning</forename><surname>Hu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information</orgName>
+								<orgName type="institution" key="instit1">The Ohio State University Science &amp; Center of Cognitive Science Columbus</orgName>
+								<orgName type="institution" key="instit2">The Ohio State University</orgName>
+								<address>
+									<postCode>43210, 43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH, OH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Deliang</forename><surname>Wang</surname></persName>
+							<email>dwang@cis.ohio-state.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information</orgName>
+								<orgName type="institution" key="instit1">The Ohio State University Science &amp; Center of Cognitive Science Columbus</orgName>
+								<orgName type="institution" key="instit2">The Ohio State University</orgName>
+								<address>
+									<postCode>43210, 43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH, OH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Biophysics</forename><surname>Program</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information</orgName>
+								<orgName type="institution" key="instit1">The Ohio State University Science &amp; Center of Cognitive Science Columbus</orgName>
+								<orgName type="institution" key="instit2">The Ohio State University</orgName>
+								<address>
+									<postCode>43210, 43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH, OH</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Monaural Speech Separation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Monaural speech separation has been studied in previous systems that incorporate auditory scene analysis principles. A major problem for these systems is their inability to deal with speech in the high-frequency range. Psychoacoustic evidence suggests that different perceptual mechanisms are involved in handling resolved and unresolved harmonics. Motivated by this, we propose a model for monaural separation that deals with low-frequency and high-frequency signals differently. For resolved harmonics, our model generates segments based on temporal continuity and cross-channel correlation, and groups them according to periodicity. For unresolved harmonics, the model generates segments based on amplitude modulation (AM) in addition to temporal continuity and groups them according to AM repetition rates derived from sinusoidal modeling. Underlying the separation process is a pitch contour obtained according to psychoacoustic constraints. Our model is systematically evaluated, and it yields substantially better performance than previous systems, especially in the high-frequency range.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Adaptive Quantization and Density Estimation in Silicon</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Hsu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<addrLine>114 Sieg Hall</addrLine>
+									<postBox>Box 352350</postBox>
+									<postCode>98195-2350</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Seth</forename><surname>Bridges</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<addrLine>114 Sieg Hall</addrLine>
+									<postBox>Box 352350</postBox>
+									<postCode>98195-2350</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Miguel</forename><surname>Figueroa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<addrLine>114 Sieg Hall</addrLine>
+									<postBox>Box 352350</postBox>
+									<postCode>98195-2350</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><surname>Diorio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<addrLine>114 Sieg Hall</addrLine>
+									<postBox>Box 352350</postBox>
+									<postCode>98195-2350</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Adaptive Quantization and Density Estimation in Silicon</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present the bump mixture model, a statistical model for analog data where the probabilistic semantics, inference, and learning rules derive from low-level transistor behavior. The bump mixture model relies on translinear circuits to perform probabilistic inference , and floating-gate devices to perform adaptation. This system is low power, asynchronous, and fully parallel, and supports various on-chip learning algorithms. In addition, the mixture model can perform several tasks such as probability estimation, vector quanti-zation, classification, and clustering. We tested a fabricated system on clustering, quantization, and classification of handwritten digits and show performance comparable to the E-M algorithm on mixtures of Gaussians. 1 I n trod u cti on Many system-on-a-chip applications, such as data compression and signal processing , use online adaptation to improve or tune performance. These applications can benefit from the low-power compact design that analog VLSI learning systems can offer. Analog VLSI learning systems can benefit immensely from flexible learning algorithms that take advantage of silicon device physics for compact layout, and that are capable of a variety of learning tasks. One learning paradigm that encompasses a wide variety of learning tasks is density estimation, learning the probability distribution over the input data. A silicon density estimator can provide a basic template for VLSI systems for feature extraction, classification, adaptive vector quantization, and more. In this paper, we describe the bump mixture model, a statistical model that describes the probability distribution function of analog variables using low-level transistor equations. We intend the bump mixture model to be the silicon version of mixture of Gaussians [1], one of the most widely used statistical methods for modeling the probability distribution of a collection of data. Mixtures of Gaussians appear in many contexts from radial basis functions [1] to hidden Markov models [2]. In the bump mixture model, probability computations derive from translinear circuits [3] and learning derives from floating-gate device equations [4]. The bump mixture</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

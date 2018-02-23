@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Is Input Sparsity Time Possible for Kernel Low-Rank Approximation?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cameron</forename><surname>Musco</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+							<email>dwoodruf@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Is Input Sparsity Time Possible for Kernel Low-Rank Approximation?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Low-rank approximation is a common tool used to accelerate kernel methods: the n ⇥ n kernel matrix K is approximated via a rank-k matrix˜Kmatrix˜ matrix˜K which can be stored in much less space and processed more quickly. In this work we study the limits of computationally efficient low-rank kernel approximation. We show that for a broad class of kernels, including the popular Gaussian and polynomial kernels, computing a relative error k-rank approximation to K is at least as difficult as multiplying the input data matrix A 2 R n⇥d by an arbitrary matrix C 2 R d⇥k. Barring a breakthrough in fast matrix multiplication, when k is not too large, this requires ⌦(nnz(A)k) time where nnz(A) is the number of non-zeros in A. This lower bound matches, in many parameter regimes, recent work on subquadratic time algorithms for low-rank approximation of general kernels [MM16, MW17], demonstrating that these algorithms are unlikely to be significantly improved, in particular to O(nnz(A)) input sparsity runtimes. At the same time there is hope: we show for the first time that O(nnz(A)) time approximation is possible for general radial basis function kernels (e.g., the Gaussian kernel) for the closely related problem of low-rank approximation of the kernelized dataset.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

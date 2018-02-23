@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A self-organizing multiple-view representation of 3D objects</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edelman</forename><surname>Weinshali</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep2">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep3">Dept. of Cognitive and Linguistic Sciences Brown University Providence</orgName>
+								<address>
+									<addrLine>MIT E25-201 Cambridge</addrLine>
+									<postCode>E25-201, 02139, 02139, 02912</postCode>
+									<settlement>Cambridge, Rl</settlement>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Biiithoft</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep2">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep3">Dept. of Cognitive and Linguistic Sciences Brown University Providence</orgName>
+								<address>
+									<addrLine>MIT E25-201 Cambridge</addrLine>
+									<postCode>E25-201, 02139, 02139, 02912</postCode>
+									<settlement>Cambridge, Rl</settlement>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daphna</forename><surname>Weinshall</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep2">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep3">Dept. of Cognitive and Linguistic Sciences Brown University Providence</orgName>
+								<address>
+									<addrLine>MIT E25-201 Cambridge</addrLine>
+									<postCode>E25-201, 02139, 02139, 02912</postCode>
+									<settlement>Cambridge, Rl</settlement>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shimon</forename><forename type="middle">Edelman</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep2">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep3">Dept. of Cognitive and Linguistic Sciences Brown University Providence</orgName>
+								<address>
+									<addrLine>MIT E25-201 Cambridge</addrLine>
+									<postCode>E25-201, 02139, 02139, 02912</postCode>
+									<settlement>Cambridge, Rl</settlement>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Heinrich</forename><forename type="middle">H</forename><surname>Biilthoff</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep2">Center for Biological Information Processing</orgName>
+								<orgName type="department" key="dep3">Dept. of Cognitive and Linguistic Sciences Brown University Providence</orgName>
+								<address>
+									<addrLine>MIT E25-201 Cambridge</addrLine>
+									<postCode>E25-201, 02139, 02139, 02912</postCode>
+									<settlement>Cambridge, Rl</settlement>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A self-organizing multiple-view representation of 3D objects</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>274 ABSTRACT</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We demonstrate the ability of a two-layer network of thresholded summation units to support representation of 3D objects in which several distinct 2D views are stored for ea.ch object. Using unsu-pervised Hebbian relaxation, the network learned to recognize ten objects from different viewpoints. The training process led to the emergence of compact representations of the specific input views. When tested on novel views of the same objects, the network exhibited a substantial generalization capability. In simulated psy-chophysical experiments, the network&apos;s behavior was qualitatively similar to that of human subjects. 1 Background Model-based object recognition involves, by definition, a compa.rison between the input image and models of different objects that are internal to the recognition system. The form in which these models are best stored depends on the kind of information available in the input, and on the trade-off between the amount of memory allocated for the storage and the degree of sophistication required of the recognition process. In computer vision, a distinction can be made between representation schemes that use 3D object-centered coordinate systems and schemes that store viewpoint-specific information such as 2D views of objects. In principle, storing enough 2D views would</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

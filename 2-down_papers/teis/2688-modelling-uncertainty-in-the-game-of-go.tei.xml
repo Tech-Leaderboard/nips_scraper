@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Modelling Uncertainty in the Game of Go</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">H</forename><surname>Stern</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physics Cambridge University</orgName>
+								<orgName type="department" key="dep2">Department of Physics Cambridge University</orgName>
+								<orgName type="institution">Microsoft Research Cambridge</orgName>
+								<address>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thore</forename><surname>Graepel</surname></persName>
+							<email>thoreg@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physics Cambridge University</orgName>
+								<orgName type="department" key="dep2">Department of Physics Cambridge University</orgName>
+								<orgName type="institution">Microsoft Research Cambridge</orgName>
+								<address>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">J C</forename><surname>Mackay</surname></persName>
+							<email>mackay@mrao.cam.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physics Cambridge University</orgName>
+								<orgName type="department" key="dep2">Department of Physics Cambridge University</orgName>
+								<orgName type="institution">Microsoft Research Cambridge</orgName>
+								<address>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Modelling Uncertainty in the Game of Go</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Go is an ancient oriental game whose complexity has defeated attempts to automate it. We suggest using probability in a Bayesian sense to model the uncertainty arising from the vast complexity of the game tree. We present a simple conditional Markov random field model for predicting the pointwise territory outcome of a game. The topology of the model reflects the spatial structure of the Go board. We describe a version of the Swendsen-Wang process for sampling from the model during learning and apply loopy belief propagation for rapid inference and prediction. The model is trained on several hundred records of professional games. Our experimental results indicate that the model successfully learns to predict territory despite its simplicity.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

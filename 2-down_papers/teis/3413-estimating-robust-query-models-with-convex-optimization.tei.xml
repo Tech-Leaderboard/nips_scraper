@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Estimating Robust Query Models with Convex Optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevyn</forename><surname>Collins-Thompson</surname></persName>
+							<email>kevynct@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<addrLine>1 Microsoft Way Redmond</addrLine>
+									<postCode>98052</postCode>
+									<region>WA U.S.A</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Estimating Robust Query Models with Convex Optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Query expansion is a long-studied approach for improving retrieval effectiveness by enhancing the user&apos;s original query with additional related words. Current algorithms for automatic query expansion can often improve retrieval accuracy on average, but are not robust: that is, they are highly unstable and have poor worst-case performance for individual queries. To address this problem, we introduce a novel formulation of query expansion as a convex optimization problem over a word graph. The model combines initial weights from a baseline feedback algorithm with edge weights based on word similarity, and integrates simple constraints to enforce set-based criteria such as aspect balance, aspect coverage, and term centrality. Results across multiple standard test collections show consistent and significant reductions in the number and magnitude of expansion failures, while retaining the strong positive gains of the baseline algorithm. Our approach does not assume a particular retrieval model, making it applicable to a broad class of existing expansion algorithms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

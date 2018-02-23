@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Trellis-Structured Neural Network*</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Petsche</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering Princeton</orgName>
+								<orgName type="institution">Princeton University</orgName>
+								<address>
+									<postCode>N J 08544</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bradley</forename><forename type="middle">W</forename><surname>Dickinson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering Princeton</orgName>
+								<orgName type="institution">Princeton University</orgName>
+								<address>
+									<postCode>N J 08544</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Trellis-Structured Neural Network*</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>592</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We have developed a neural network which consists of cooperatively interconnected Grossberg on-center off-surround subnets and which can be used to optimize a function related to the log likelihood function for decoding convolu-tional codes or more general FIR signal deconvolution problems. Connections in the network are confined to neighboring subnets, and it is representative of the types of networks which lend themselves to VLSI implementation. Analytical and experimental results for convergence and stability of the network have been found. The structure of the network can be used for distributed representation of data items while allowing for fault tolerance and replacement of faulty units. 1 Introd uction In order to study the behavior of locally interconnected networks, we have focused on a class of &quot;trellis-structured&quot; networks which are similar in structure to multilayer networks [5] but use symmetric connections and allow every neuron to be an output. We are studying such· locally interconnected neural networks because they have the potential to be of great practical interest. Globally interconnected networks, e.g., Hopfield networks [3], are difficult to implement in VLSI because they require many long wires. Locally connected networks, however, can be designed to use fewer and shorter wires. In this paper, we will describe a subclass of trellis-structured networks which optimize a function that, near the global minimum, has the form of the log likelihood function for decoding convolutional codes or more general finite impulse response signals. Convolutional codes, defined in section 2, provide an alternative representation scheme which can avoid the need for global connections. Our network, described in section 3, can perform maximum likelihood sequence estimation of convolutional coded sequences in the presence of noise. The performance of the system is optimal for low error rates. The specific application for this network was inspired by a signal decomposition network described by Hopfield and Tank [6]. However, in our network, there is an emphasis on local interconnections and a more complex neural model, the Grossberg on-center off-surround network [2], is used. A modified form of the Gorssberg model is defined in section 4. Section 5 presents the main theoretical results of this paper. Although the deconvolution network is simply a set of cooperatively interconnected ·Supported by the Office of N ava.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

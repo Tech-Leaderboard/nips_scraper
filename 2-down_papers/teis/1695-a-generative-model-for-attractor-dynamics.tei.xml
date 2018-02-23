@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A generative model for attractor dynamics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Zemel</surname></persName>
+							<email>zemel@u.arizona.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Psychology</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Arizona Tucson</orgName>
+								<orgName type="institution" key="instit2">University of Colorado Boulder</orgName>
+								<address>
+									<postCode>85721, 80309-0430</postCode>
+									<region>AZ, CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">C</forename><surname>Mozer</surname></persName>
+							<email>mozer@colorado.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Psychology</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Arizona Tucson</orgName>
+								<orgName type="institution" key="instit2">University of Colorado Boulder</orgName>
+								<address>
+									<postCode>85721, 80309-0430</postCode>
+									<region>AZ, CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A generative model for attractor dynamics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Attractor networks, which map an input space to a discrete output space, are useful for pattern completion. However, designing a net to have a given set of attractors is notoriously tricky; training procedures are CPU intensive and often produce spurious afuac-tors and ill-conditioned attractor basins. These difficulties occur because each connection in the network participates in the encoding of multiple attractors. We describe an alternative formulation of attractor networks in which the encoding of knowledge is local, not distributed. Although localist attractor networks have similar dynamics to their distributed counterparts, they are much easier to work with and interpret. We propose a statistical formulation of localist attract or net dynamics, which yields a convergence proof and a mathematical interpretation of model parameters. Attractor networks map an input space, usually continuous, to a sparse output space composed of a discrete set of alternatives. Attractor networks have a long history in neural network research. Attractor networks are often used for pattern completion, which involves filling in missing, noisy, or incorrect features in an input pattern. The initial state of the attractor net is typically determined by the input pattern. Over time, the state is drawn to one of a predefined set of states-the attractors. Attractor net dynamics can be described by a state trajectory (Figure 1a). An attractor net is generally implemented by a set of visible units whose activity represents the instantaneous state, and optionally, a set of hidden units that assist in the computation. Attractor dynamics arise from interactions among the units. In most formulations of afuac-tor nets,2,3 the dynamics can be characterized by gradient descent in an energy landscape, allowing one to partition the output space into attractor basins. Instead of homogeneous attractor basins, it is often desirable to sculpt basins that depend on the recent history of the network and the arrangement of attractors in the space. In psychological models of human cognition, for example, priming is fundamental: after the model visits an attractor, it should be faster to fall into the same attractor in the near future, i.e., the attractor basin should be broadened. 1 ,6 Another property of attractor nets is key to explaining behavioral data in psychological and neurobiological models: the gang effect, in which the strength of an attractor is influenced by other attractors in its neighborhood. Figure 1b illustrates the gang effect: the proximity of the two rightmost afuactors creates a deeper at-tractor basin, so that if the input starts at the origin it will get pulled to the right.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

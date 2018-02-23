@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Directional-Unit Boltzmann Machines</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Zemel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Dept</orgName>
+								<orgName type="department" key="dep2">Computer Science Dept</orgName>
+								<orgName type="laboratory">Computer Science Dept. University of Toronto Toronto, ONT M5S lA4 University of Toronto Toronto, ONT M5S lA4 University of Colorado Boulder</orgName>
+								<address>
+									<postCode>80309-0430</postCode>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">K I</forename><surname>Williams</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Dept</orgName>
+								<orgName type="department" key="dep2">Computer Science Dept</orgName>
+								<orgName type="laboratory">Computer Science Dept. University of Toronto Toronto, ONT M5S lA4 University of Toronto Toronto, ONT M5S lA4 University of Colorado Boulder</orgName>
+								<address>
+									<postCode>80309-0430</postCode>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">C</forename><surname>Mozer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Dept</orgName>
+								<orgName type="department" key="dep2">Computer Science Dept</orgName>
+								<orgName type="laboratory">Computer Science Dept. University of Toronto Toronto, ONT M5S lA4 University of Toronto Toronto, ONT M5S lA4 University of Colorado Boulder</orgName>
+								<address>
+									<postCode>80309-0430</postCode>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Directional-Unit Boltzmann Machines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a general formulation for a network of stochastic directional units. This formulation is an extension of the Boltzmann machine in which the units are not binary, but take on values in a cyclic range, between 0 and 271&apos; radians. The state of each unit in a Directional-Unit Boltzmann Machine (DUBM) is described by a complex variable, where the phase component specifies a direction; the weights are also complex variables. We associate a quadratic energy function, and corresponding probability, with each DUBM configuration. The conditional distribution of a unit&apos;s stochastic state is a circular version of the Gaussian probability distribution, known as the von Mises distribution. In a mean-field approximation to a stochastic DUBM, the phase component of a unit&apos;s state represents its mean direction, and the magnitude component specifies the degree of certainty associated with this direction. This combination of a value and a certainty provides additional repre-sentational power in a unit. We describe a learning algorithm and simulations that demonstrate a mean-field DUBM&apos;S ability to learn interesting mappings. Many kinds of information can naturally be represented in terms of angular, or directional, variables. A circular range forms a suitable representation for explicitly directional information, such as wind direction, as well as for information where the underlying range is periodic, such as days of the week or months of the year. In computer vision, tangent fields and optic flow fields are represented as fields of oriented line segments, each of which can be described by a magnitude and direction. Directions can also be used to represent a set of symbolic labels, e.g., object label A at 0, and object label B at 71&apos;/2 radians. We discuss below some advantages of representing symbolic labels with directional units. 172</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

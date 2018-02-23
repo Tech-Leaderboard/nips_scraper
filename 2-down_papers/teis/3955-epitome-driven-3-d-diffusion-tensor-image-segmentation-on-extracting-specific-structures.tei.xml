@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Epitome driven 3-D Diffusion Tensor image segmentation: on extracting specific structures *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kamiya</forename><surname>Motwani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Sciences § Biostatistics &amp; Medical Informatics ‡ Medical Physics</orgName>
+								<orgName type="institution">University of Wisconsin University of Wisconsin University of Wisconsin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nagesh</forename><surname>Adluru</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Sciences § Biostatistics &amp; Medical Informatics ‡ Medical Physics</orgName>
+								<orgName type="institution">University of Wisconsin University of Wisconsin University of Wisconsin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><surname>Hinrichs</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Sciences § Biostatistics &amp; Medical Informatics ‡ Medical Physics</orgName>
+								<orgName type="institution">University of Wisconsin University of Wisconsin University of Wisconsin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Alexander</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Sciences § Biostatistics &amp; Medical Informatics ‡ Medical Physics</orgName>
+								<orgName type="institution">University of Wisconsin University of Wisconsin University of Wisconsin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vikas</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Sciences § Biostatistics &amp; Medical Informatics ‡ Medical Physics</orgName>
+								<orgName type="institution">University of Wisconsin University of Wisconsin University of Wisconsin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Epitome driven 3-D Diffusion Tensor image segmentation: on extracting specific structures *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the problem of segmenting specific white matter structures of interest from Diffusion Tensor (DT-MR) images of the human brain. This is an important requirement in many Neuroimaging studies: for instance, to evaluate whether a brain structure exhibits group level differences as a function of disease in a set of images. Typically, interactive expert guided segmentation has been the method of choice for such applications, but this is tedious for large datasets common today. To address this problem, we endow an image segmentation algorithm with &quot;advice&quot; encoding some global characteristics of the region(s) we want to extract. This is accomplished by constructing (using expert-segmented images) an epitome of a specific region-as a histogram over a bag of &apos;words&apos; (e.g., suitable feature de-scriptors). Now, given such a representation, the problem reduces to segmenting a new brain image with additional constraints that enforce consistency between the segmented foreground and the pre-specified histogram over features. We present combinatorial approximation algorithms to incorporate such domain specific constraints for Markov Random Field (MRF) segmentation. Making use of recent results on image co-segmentation, we derive effective solution strategies for our problem. We provide an analysis of solution quality, and present promising experimental evidence showing that many structures of interest in Neuroscience can be extracted reliably from 3-D brain image volumes using our algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

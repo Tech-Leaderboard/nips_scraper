@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Parallel Feature Selection inspired by Group Testing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yingbo</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep2">CS Department</orgName>
+								<orgName type="department" key="dep3">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep4">EECS Department</orgName>
+								<orgName type="department" key="dep5">CS Department</orgName>
+								<orgName type="department" key="dep6">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="institution" key="instit1">University of Wisconsin-Madison</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Utkarsh</forename><surname>Porwal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep2">CS Department</orgName>
+								<orgName type="department" key="dep3">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep4">EECS Department</orgName>
+								<orgName type="department" key="dep5">CS Department</orgName>
+								<orgName type="department" key="dep6">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="institution" key="instit1">University of Wisconsin-Madison</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ce</forename><surname>Zhang</surname></persName>
+							<email>czhang@cs.wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep2">CS Department</orgName>
+								<orgName type="department" key="dep3">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep4">EECS Department</orgName>
+								<orgName type="department" key="dep5">CS Department</orgName>
+								<orgName type="department" key="dep6">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="institution" key="instit1">University of Wisconsin-Madison</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hung</forename><surname>Ngo</surname></persName>
+							<email>hungngo@buffalo.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep2">CS Department</orgName>
+								<orgName type="department" key="dep3">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep4">EECS Department</orgName>
+								<orgName type="department" key="dep5">CS Department</orgName>
+								<orgName type="department" key="dep6">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="institution" key="instit1">University of Wisconsin-Madison</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xuanlong</forename><surname>Nguyen</surname></persName>
+							<email>xuanlong@umich.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep2">CS Department</orgName>
+								<orgName type="department" key="dep3">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep4">EECS Department</orgName>
+								<orgName type="department" key="dep5">CS Department</orgName>
+								<orgName type="department" key="dep6">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="institution" key="instit1">University of Wisconsin-Madison</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Ré</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep2">CS Department</orgName>
+								<orgName type="department" key="dep3">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep4">EECS Department</orgName>
+								<orgName type="department" key="dep5">CS Department</orgName>
+								<orgName type="department" key="dep6">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="institution" key="instit1">University of Wisconsin-Madison</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Venu</forename><surname>Govindaraju</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep2">CS Department</orgName>
+								<orgName type="department" key="dep3">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="department" key="dep4">EECS Department</orgName>
+								<orgName type="department" key="dep5">CS Department</orgName>
+								<orgName type="department" key="dep6">CSE Department SUNY at Buffalo</orgName>
+								<orgName type="institution" key="instit1">University of Wisconsin-Madison</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Parallel Feature Selection inspired by Group Testing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper presents a parallel feature selection method for classification that scales up to very high dimensions and large data sizes. Our original method is inspired by group testing theory, under which the feature selection procedure consists of a collection of randomized tests to be performed in parallel. Each test corresponds to a subset of features, for which a scoring function may be applied to measure the relevance of the features in a classification task. We develop a general theory providing sufficient conditions under which true features are guaranteed to be correctly identified. Superior performance of our method is demonstrated on a challenging relation extraction task from a very large data set that have both redundant features and sample size in the order of millions. We present comprehensive comparisons with state-of-the-art feature selection methods on a range of data sets, for which our method exhibits competitive performance in terms of running time and accuracy. Moreover, it also yields substantial speedup when used as a pre-processing step for most other existing methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

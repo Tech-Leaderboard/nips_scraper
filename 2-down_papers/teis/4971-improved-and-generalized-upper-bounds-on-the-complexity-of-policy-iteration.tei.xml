@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Improved and Generalized Upper Bounds on the Complexity of Policy Iteration</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruno</forename><surname>Scherrer</surname></persName>
+							<email>bruno.scherrer@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Inria</orgName>
+								<address>
+									<addrLine>Villers-l` es-Nancy</addrLine>
+									<postCode>F-54600</postCode>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Université de Lorraine</orgName>
+								<orgName type="institution" key="instit2">LORIA</orgName>
+								<address>
+									<addrLine>Vandoeuvre-l` es-Nancy</addrLine>
+									<postCode>7503, F-54506</postCode>
+									<region>UMR</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Improved and Generalized Upper Bounds on the Complexity of Policy Iteration</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Given a Markov Decision Process (MDP) with n states and m actions per state, we study the number of iterations needed by Policy Iteration (PI) algorithms to converge to the optimal &quot;-discounted optimal policy. We consider two variations of PI: Howard&apos;s PI that changes the actions in all states with a positive advantage, and Simplex-PI that only changes the action in the state with maximal advantage. We show that Howard&apos;s PI terminates after at most n(m ≠ 1) Ï 1 1≠&quot; log 1 1 1≠&quot; 2Ì = O 1 nm 1≠&quot; log 1 1 1≠&quot; 22 iterations, improving by a factor O(log n) a result by [3], while Simplex-PI terminates after at most n 2 (m ≠ 1) 1 1 + 2 1≠&quot; log 1 1 1≠&quot; 22 = O 1 n 2 m 1≠&quot; log 1 1 1≠&quot; 22 iterations, improving by a factor O(log n) a result by [11]. Under some structural assumptions of the MDP, we then consider bounds that are independent of the discount factor &quot;: given a measure of the maximal transient time · t and the maximal time · r to revisit states in recurrent classes under all policies, we show that Simplex-PI terminates after at most n 2 (m≠ 1) (Á· r log(n· r)Ë + Á· r log(n· t)Ë) # (m ≠ 1)Án· t log(n· t)Ë + Án· t log(n 2 · t)Ë $ = ˜ O ! n 3 m 2 · t · r &quot; iterations. This generalizes a recent result for determin-istic MDPs by [8], in which · t AE n and · r AE n. We explain why similar results seem hard to derive for Howard&apos;s PI. Finally, under the additional (restrictive) assumption that the state space is partitioned in two sets, respectively states that are transient and recurrent for all policies, we show that Howard&apos;s PI terminates after at most n(m ≠ 1) (Á· t log n· t Ë + Á· r log n· r Ë) = ˜ O(nm(· t + · r)) iterations while Simplex-PI terminates after n(m ≠ 1) (Án· t log n· t Ë + Á· r log n· r Ë) = ˜ O(n 2 m(· t + · r)) iterations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

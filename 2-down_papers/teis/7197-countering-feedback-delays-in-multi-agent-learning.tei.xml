@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Countering Feedback Delays in Multi-Agent Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhengyuan</forename><surname>Zhou</surname></persName>
+							<email>zyzhou@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Univ. Grenoble Alpes</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">Stanford University</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">UC Berkeley</orgName>
+								<address>
+									<region>Inria, LIG</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Panayotis</forename><surname>Mertikopoulos</surname></persName>
+							<email>panayotis.mertikopoulos@imag.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Univ. Grenoble Alpes</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">Stanford University</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">UC Berkeley</orgName>
+								<address>
+									<region>Inria, LIG</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><surname>Bambos</surname></persName>
+							<email>bambos@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Univ. Grenoble Alpes</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">Stanford University</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">UC Berkeley</orgName>
+								<address>
+									<region>Inria, LIG</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Glynn</surname></persName>
+							<email>glynn@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Univ. Grenoble Alpes</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">Stanford University</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">UC Berkeley</orgName>
+								<address>
+									<region>Inria, LIG</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claire</forename><surname>Tomlin</surname></persName>
+							<email>tomlin@eecs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Univ. Grenoble Alpes</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">Stanford University</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">UC Berkeley</orgName>
+								<address>
+									<region>Inria, LIG</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Countering Feedback Delays in Multi-Agent Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider a model of game-theoretic learning based on online mirror descent (OMD) with asynchronous and delayed feedback information. Instead of focusing on specific games, we consider a broad class of continuous games defined by the general equilibrium stability notion, which we call λ-variational stability. Our first contribution is that, in this class of games, the actual sequence of play induced by OMD-based learning converges to Nash equilibria provided that the feedback delays faced by the players are synchronous and bounded. Subsequently , to tackle fully decentralized, asynchronous environments with (possibly) unbounded delays between actions and feedback, we propose a variant of OMD which we call delayed mirror descent (DMD), and which relies on the repeated leveraging of past information. With this modification, the algorithm converges to Nash equilibria with no feedback synchronicity assumptions and even when the delays grow superlinearly relative to the horizon of play.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

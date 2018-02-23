@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Parallel Streaming Wasserstein Barycenters</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Staib</surname></persName>
+							<email>mstaib@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MIT CSAIL</orgName>
+								<orgName type="department" key="dep2">MIT CSAIL</orgName>
+								<orgName type="department" key="dep3">MIT CSAIL</orgName>
+								<orgName type="department" key="dep4">MIT CSAIL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sebastian</forename><surname>Claici</surname></persName>
+							<email>sclaici@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MIT CSAIL</orgName>
+								<orgName type="department" key="dep2">MIT CSAIL</orgName>
+								<orgName type="department" key="dep3">MIT CSAIL</orgName>
+								<orgName type="department" key="dep4">MIT CSAIL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Justin</forename><surname>Solomon</surname></persName>
+							<email>jsolomon@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MIT CSAIL</orgName>
+								<orgName type="department" key="dep2">MIT CSAIL</orgName>
+								<orgName type="department" key="dep3">MIT CSAIL</orgName>
+								<orgName type="department" key="dep4">MIT CSAIL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stefanie</forename><surname>Jegelka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MIT CSAIL</orgName>
+								<orgName type="department" key="dep2">MIT CSAIL</orgName>
+								<orgName type="department" key="dep3">MIT CSAIL</orgName>
+								<orgName type="department" key="dep4">MIT CSAIL</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Parallel Streaming Wasserstein Barycenters</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Efficiently aggregating data from different sources is a challenging problem, particularly when samples from each source are distributed differently. These differences can be inherent to the inference task or present for other reasons: sensors in a sensor network may be placed far apart, affecting their individual measurements. Conversely , it is computationally advantageous to split Bayesian inference tasks across subsets of data, but data need not be identically distributed across subsets. One prin-cipled way to fuse probability distributions is via the lens of optimal transport: the Wasserstein barycenter is a single distribution that summarizes a collection of input measures while respecting their geometry. However, computing the barycenter scales poorly and requires discretization of all input distributions and the barycenter itself. Improving on this situation, we present a scalable, communication-efficient, parallel algorithm for computing the Wasserstein barycenter of arbitrary distributions. Our algorithm can operate directly on continuous input distributions and is optimized for streaming data. Our method is even robust to nonstationary input distributions and produces a barycenter estimate that tracks the input measures over time. The algorithm is semi-discrete, needing to discretize only the barycenter estimate. To the best of our knowledge, we also provide the first bounds on the quality of the approximate barycenter as the discretization becomes finer. Finally, we demonstrate the practical effectiveness of our method, both in tracking moving distributions on a sphere, as well as in a large-scale Bayesian inference task.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

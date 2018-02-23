@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Exponential Family Embeddings</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maja</forename><surname>Rudolph</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Columbia University</orgName>
+								<orgName type="institution" key="instit2">Univ. of Cambridge Columbia University</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francisco</forename><forename type="middle">J R</forename><surname>Ruiz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Columbia University</orgName>
+								<orgName type="institution" key="instit2">Univ. of Cambridge Columbia University</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephan</forename><surname>Mandt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Columbia University</orgName>
+								<orgName type="institution" key="instit2">Univ. of Cambridge Columbia University</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">M</forename><surname>Blei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Columbia University</orgName>
+								<orgName type="institution" key="instit2">Univ. of Cambridge Columbia University</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Exponential Family Embeddings</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Word embeddings are a powerful approach for capturing semantic similarity among terms in a vocabulary. In this paper, we develop exponential family embeddings, a class of methods that extends the idea of word embeddings to other types of high-dimensional data. As examples, we studied neural data with real-valued observations, count data from a market basket analysis, and ratings data from a movie recommendation system. The main idea is to model each observation conditioned on a set of other observations. This set is called the context, and the way the context is defined is a modeling choice that depends on the problem. In language the context is the surrounding words; in neuroscience the context is close-by neurons; in market basket data the context is other items in the shopping cart. Each type of embedding model defines the context, the exponential family of conditional distributions, and how the latent embedding vectors are shared across data. We infer the embeddings with a scalable algorithm based on stochastic gradient descent. On all three applications-neural activity of zebrafish, users&apos; shopping behavior, and movie ratings-we found exponential family embedding models to be more effective than other types of dimension reduction. They better reconstruct held-out data and find interesting qualitative structure.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

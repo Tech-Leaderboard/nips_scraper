@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Factorial LDA: Sparse Multi-Dimensional Text Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Paul</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Human Language Technology Center of Excellence (HLTCOE) Center for Language and Speech Processing (CLSP)</orgName>
+								<orgName type="institution">Johns Hopkins University Baltimore</orgName>
+								<address>
+									<postCode>21218</postCode>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Dredze</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Human Language Technology Center of Excellence (HLTCOE) Center for Language and Speech Processing (CLSP)</orgName>
+								<orgName type="institution">Johns Hopkins University Baltimore</orgName>
+								<address>
+									<postCode>21218</postCode>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Factorial LDA: Sparse Multi-Dimensional Text Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Latent variable models can be enriched with a multi-dimensional structure to consider the many latent factors in a text corpus, such as topic, author perspective and sentiment. We introduce factorial LDA, a multi-dimensional model in which a document is influenced by K different factors, and each word token depends on a K-dimensional vector of latent variables. Our model incorporates structured word priors and learns a sparse product of factors. Experiments on research abstracts show that our model can learn latent factors such as research topic, scientific discipline , and focus (methods vs. applications). Our modeling improvements reduce test perplexity and improve human interpretability of the discovered factors.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

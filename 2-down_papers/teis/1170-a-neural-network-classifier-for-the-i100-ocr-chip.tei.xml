@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Neural Network Classifier for the 11000 OCR Chip</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">C</forename><surname>Platt</surname></persName>
+							<email>platt@synaptics.com, tpa@synaptics.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Synaptics</orgName>
+								<address>
+									<addrLine>Inc. 2698 Orchard Parkway San Jose</addrLine>
+									<postCode>95134</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><forename type="middle">P</forename><surname>Allen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Synaptics</orgName>
+								<address>
+									<addrLine>Inc. 2698 Orchard Parkway San Jose</addrLine>
+									<postCode>95134</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Neural Network Classifier for the 11000 OCR Chip</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper describes a neural network classifier for the 11000 chip, which optically reads the E13B font characters at the bottom of checks. The first layer of the neural network is a hardware linear classifier which recognizes the characters in this font. A second software neural layer is implemented on an inexpensive microprocessor to clean up the results of the first layer. The hardware linear classifier is mathematically specified using constraints and an optimization principle. The weights of the classifier are found using the active set method, similar to Vap-nik&apos;s separating hyperplane algorithm. In 7.5 minutes ofSPARC 2 time, the method solves for 1523 Lagrange mUltipliers, which is equivalent to training on a data set of approximately 128,000 examples. The resulting network performs quite well: when tested on a test set of 1500 real checks, it has a 99.995% character accuracy rate.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

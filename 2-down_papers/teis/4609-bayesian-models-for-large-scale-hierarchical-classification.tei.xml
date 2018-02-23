@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian models for Large-scale Hierarchical Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Siddharth</forename><surname>Gopal</surname></persName>
+							<email>sgopal1@andrew.cmu.edu yiming@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NEC Laboratories America</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<settlement>Princeton</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yiming</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NEC Laboratories America</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<settlement>Princeton</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bing</forename><surname>Bai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NEC Laboratories America</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<settlement>Princeton</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexandru</forename><surname>Niculescu-Mizil</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NEC Laboratories America</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<settlement>Princeton</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian models for Large-scale Hierarchical Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A challenging problem in hierarchical classification is to leverage the hierarchical relations among classes for improving classification performance. An even greater challenge is to do so in a manner that is computationally feasible for large scale problems. This paper proposes a set of Bayesian methods to model hierarchical dependencies among class labels using multivariate logistic regression. Specifically, the parent-child relationships are modeled by placing a hierarchical prior over the children nodes centered around the parameters of their parents; thereby encouraging classes nearby in the hierarchy to share similar model parameters. We present variational algorithms for tractable posterior inference in these models, and provide a parallel implementation that can comfortably handle large-scale problems with hundreds of thousands of dimensions and tens of thousands of classes. We run a comparative evaluation on multiple large-scale benchmark datasets that highlights the scalability of our approach and shows improved performance over the other state-of-the-art hierarchical methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

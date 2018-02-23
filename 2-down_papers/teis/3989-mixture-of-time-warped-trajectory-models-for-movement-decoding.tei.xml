@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mixture of time-warped trajectory models for movement decoding</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elaine</forename><forename type="middle">A</forename><surname>Corbett</surname></persName>
+							<email>ecorbett@u.northwestern.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Northwestern University Chicago</orgName>
+								<address>
+									<postCode>60611</postCode>
+									<region>IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Perreault</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Northwestern University Chicago</orgName>
+								<address>
+									<postCode>60611</postCode>
+									<region>IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Konrad</forename><forename type="middle">P</forename><surname>Körding</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Northwestern University Chicago</orgName>
+								<address>
+									<postCode>60611</postCode>
+									<region>IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mixture of time-warped trajectory models for movement decoding</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>1</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Applications of Brain-Machine-Interfaces typically estimate user intent based on biological signals that are under voluntary control. For example, we might want to estimate how a patient with a paralyzed arm wants to move based on residual muscle activity. To solve such problems it is necessary to integrate obtained information over time. To do so, state of the art approaches typically use a probabilistic model of how the state, e.g. position and velocity of the arm, evolves over time-a so-called trajectory model. We wanted to further develop this approach using two intuitive insights: (1) At any given point of time there may be a small set of likely movement targets, potentially identified by the location of objects in the workspace or by gaze information from the user. (2) The user may want to produce movements at varying speeds. We thus use a generative model with a trajectory model incorporating these insights. Approximate inference on that generative model is implemented using a mixture of extended Kalman filters. We find that the resulting algorithm allows us to decode arm movements dramatically better than when we use a trajectory model with linear dynamics. 1 In trod u cti on When patients have lost a limb or the ability to communicate with the outside world, brain machine interfaces (BMIs) are often used to enable robotic prostheses or restore communication. To achieve this, the user&apos;s intended state of the device must be decoded from biological signals. In the context of Bayesian statistics, two aspects are important for the design of an estimator of a temporally evolving state: the observation model, which describes how measured variables relate to the system&apos;s state and the trajectory model which describes how the state changes over time in a probabilistic manner. Following this logic many recent BMI applications have relied on Bayesian estimation for a wide range of problems including the decoding of intended human [1] and animal [2] movements. In the context of BMIs, Bayesian approaches offer a principled way of formalizing the uncertainty about signals and thus often result in improvements over other signal processing techniques [1]-[3]. Most work on state estimation in dynamical systems has assumed linear dynamics and Gaussian noise. Under these circumstances, efficient algorithms result from belief propagation. The most frequent application uses the Kalman filter (KF), which recursively combines noisy state observations with the probabilistic evolution of state defined by the trajectory model to estimate the marginal distribution over states [4]. Such approaches have been used widely for applications including upper [1] and lower [5] extremity prosthetic</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

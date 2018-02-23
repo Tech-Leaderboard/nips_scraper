@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Wavelet based multi-scale shape features on arbitrary surfaces for cortical thickness discrimination</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hwa</forename><surname>Kim</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Wisconsin Alzheimer&apos;s Disease Research Center</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">GRECC</orgName>
+								<orgName type="institution">William S. Middleton VA Hospital</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Deepti</forename><surname>Pachauri</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Hatt</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Dept. of Biomedical Engineering</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moo</forename><forename type="middle">K</forename><surname>Chung</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Biostatistics &amp; Med. Informatics</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sterling</forename><forename type="middle">C</forename><surname>Johnson</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Wisconsin Alzheimer&apos;s Disease Research Center</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">GRECC</orgName>
+								<orgName type="institution">William S. Middleton VA Hospital</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vikas</forename><surname>Singh</surname></persName>
+							<email>vsingh@biostat.wisc.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Biostatistics &amp; Med. Informatics</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Wisconsin Alzheimer&apos;s Disease Research Center</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">GRECC</orgName>
+								<orgName type="institution">William S. Middleton VA Hospital</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Sciences</orgName>
+								<orgName type="institution">University of Wisconsin</orgName>
+								<address>
+									<settlement>Madison</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Wavelet based multi-scale shape features on arbitrary surfaces for cortical thickness discrimination</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Hypothesis testing on signals defined on surfaces (such as the cortical surface) is a fundamental component of a variety of studies in Neuroscience. The goal here is to identify regions that exhibit changes as a function of the clinical condition under study. As the clinical questions of interest move towards identifying very early signs of diseases, the corresponding statistical differences at the group level invariably become weaker and increasingly hard to identify. Indeed, after a multiple comparisons correction is adopted (to account for correlated statistical tests over all surface points), very few regions may survive. In contrast to hypothesis tests on point-wise measurements, in this paper, we make the case for performing statistical analysis on multi-scale shape descriptors that characterize the local topological context of the signal around each surface vertex. Our descriptors are based on recent results from harmonic analysis, that show how wavelet theory extends to non-Euclidean settings (i.e., irregular weighted graphs). We provide strong evidence that these descriptors successfully pick up group-wise differences, where traditional methods either fail or yield unsatisfactory results. Other than this primary application, we show how the framework allows performing cortical surface smoothing in the native space without mappint to a unit sphere.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

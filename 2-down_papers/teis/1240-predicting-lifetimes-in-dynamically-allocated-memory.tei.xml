@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Predicting Lifetimes in Dynamically Allocated Memory</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A</forename><surname>Cohn</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Adaptive Systems Group Harlequin</orgName>
+								<orgName type="institution">University of Colorado Boulder</orgName>
+								<address>
+									<addrLine>Inc. Menlo Park</addrLine>
+									<postCode>94025, 80309</postCode>
+									<region>CA, CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satinder</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Adaptive Systems Group Harlequin</orgName>
+								<orgName type="institution">University of Colorado Boulder</orgName>
+								<address>
+									<addrLine>Inc. Menlo Park</addrLine>
+									<postCode>94025, 80309</postCode>
+									<region>CA, CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Predicting Lifetimes in Dynamically Allocated Memory</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Predictions oflifetimes of dynamically allocated objects can be used to improve time and space efficiency of dynamic memory management in computer programs. Barrett and Zorn [1993] used a simple lifetime predictor and demonstrated this improvement on a variety of computer programs. In this paper, we use decision trees to do lifetime prediction on the same programs and show significantly better prediction. Our method also has the advantage that during training we can use a large number of features and let the decision tree automatically choose the relevant subset. 1 INTELLIGENT MEMORY ALLOCATION Dynamic memory allocation is used in many computer applications. The application requests blocks of memory from the operating system or from a memory manager when needed and explicitly frees them up after use. Typically, all of these requests are handled in the same way, without any regard for how or for how long the requested block will be used. Sometimes programmers use runtime profiles to analyze the typical behavior of their program and write special purpose memory management routines specifically tuned to dominant classes of allocation events. Machine learning methods offer the opportunity to automate the process of tuning memory management systems. In a recent study, Barrett and Zorn [1993] used two allocators: a special allocator for objects that are short-lived, and a default allocator for everything else. They tried a simple prediction method on a number of public-domain , allocation-intensive programs and got mixed results on the lifetime prediction problem. Nevertheless, they showed that for all the cases where they were able to predict well, their strategy of assigning objects predicted to be short-lived to the special allocator led to savings</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Supervised Word Mover&apos;s Distance</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gao</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute</orgName>
+								<orgName type="institution" key="instit3">University of Warwick</orgName>
+								<orgName type="institution" key="instit4">Cornell University</orgName>
+								<orgName type="institution" key="instit5">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chuan</forename><surname>Guo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute</orgName>
+								<orgName type="institution" key="instit3">University of Warwick</orgName>
+								<orgName type="institution" key="instit4">Cornell University</orgName>
+								<orgName type="institution" key="instit5">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matt</forename><forename type="middle">J</forename><surname>Kusner</surname></persName>
+							<email>mkusner@turing.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute</orgName>
+								<orgName type="institution" key="instit3">University of Warwick</orgName>
+								<orgName type="institution" key="instit4">Cornell University</orgName>
+								<orgName type="institution" key="instit5">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yu</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute</orgName>
+								<orgName type="institution" key="instit3">University of Warwick</orgName>
+								<orgName type="institution" key="instit4">Cornell University</orgName>
+								<orgName type="institution" key="instit5">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kilian</forename><forename type="middle">Q</forename><surname>Weinberger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute</orgName>
+								<orgName type="institution" key="instit3">University of Warwick</orgName>
+								<orgName type="institution" key="instit4">Cornell University</orgName>
+								<orgName type="institution" key="instit5">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sha</forename><surname>Fei</surname></persName>
+							<email>feisha@cs.ucla.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute</orgName>
+								<orgName type="institution" key="instit3">University of Warwick</orgName>
+								<orgName type="institution" key="instit4">Cornell University</orgName>
+								<orgName type="institution" key="instit5">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Supervised Word Mover&apos;s Distance</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recently, a new document metric called the word mover&apos;s distance (WMD) has been proposed with unprecedented results on kNN-based document classification. The WMD elevates high-quality word embeddings to a document metric by formulating the distance between two documents as an optimal transport problem between the embedded words. However, the document distances are entirely un-supervised and lack a mechanism to incorporate supervision when available. In this paper we propose an efficient technique to learn a supervised metric, which we call the Supervised-WMD (S-WMD) metric. The supervised training minimizes the stochastic leave-one-out nearest neighbor classification error on a per-document level by updating an affine transformation of the underlying word embedding space and a word-imporance weight vector. As the gradient of the original WMD distance would result in an inefficient nested optimization problem, we provide an arbitrarily close approximation that results in a practical and efficient update rule. We evaluate S-WMD on eight real-world text classification tasks on which it consistently outperforms almost all of our 26 competitive baselines.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

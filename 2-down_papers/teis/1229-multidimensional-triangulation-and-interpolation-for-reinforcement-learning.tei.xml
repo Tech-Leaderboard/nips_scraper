@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multidimensional Triangulation and Interpolation for Reinforcement Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Davies</surname></persName>
+							<email>scottd@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<addrLine>5000 Forbes Ave</addrLine>
+									<postCode>15213</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multidimensional Triangulation and Interpolation for Reinforcement Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Dynamic Programming, Q-Iearning and other discrete Markov Decision Process solvers can be-applied to continuous d-dimensional state-spaces by quantizing the state space into an array of boxes. This is often problematic above two dimensions: a coarse quantization can lead to poor policies, and fine quantization is too expensive. Possible solutions are variable-resolution discretization, or function approximation by neural nets. A third option, which has been little studied in the reinforcement learning literature, is interpolation on a coarse grid. In this paper we study interpolation techniques that can result in vast improvements in the online behavior of the resulting control systems: multilinear interpolation, and an interpolation algorithm based on an interesting regular triangulation of d-dimensional space. We adapt these interpolators under three reinforcement learning paradigms: (i) offline value iteration with a known model, (ii) Q-Iearning, and (iii) online value iteration with a previously unknown model learned from data. We describe empirical results, and the resulting implications for practical learning of continuous non-linear dynamic control.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

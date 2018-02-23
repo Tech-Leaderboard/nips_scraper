@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stochastic Relational Models for Discriminative Link Prediction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kai</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Corporate Research &amp; Technology</orgName>
+								<orgName type="institution" key="instit1">NEC Laboratories America Cupertino</orgName>
+								<orgName type="institution" key="instit2">CCLS</orgName>
+								<orgName type="institution" key="instit3">Columbia University New York</orgName>
+								<orgName type="institution" key="instit4">Siemens AG</orgName>
+								<address>
+									<postCode>95014, 10115, 81739</postCode>
+									<settlement>Munich</settlement>
+									<region>CA, NY</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Chu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Corporate Research &amp; Technology</orgName>
+								<orgName type="institution" key="instit1">NEC Laboratories America Cupertino</orgName>
+								<orgName type="institution" key="instit2">CCLS</orgName>
+								<orgName type="institution" key="instit3">Columbia University New York</orgName>
+								<orgName type="institution" key="instit4">Siemens AG</orgName>
+								<address>
+									<postCode>95014, 10115, 81739</postCode>
+									<settlement>Munich</settlement>
+									<region>CA, NY</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shipeng</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Corporate Research &amp; Technology</orgName>
+								<orgName type="institution" key="instit1">NEC Laboratories America Cupertino</orgName>
+								<orgName type="institution" key="instit2">CCLS</orgName>
+								<orgName type="institution" key="instit3">Columbia University New York</orgName>
+								<orgName type="institution" key="instit4">Siemens AG</orgName>
+								<address>
+									<postCode>95014, 10115, 81739</postCode>
+									<settlement>Munich</settlement>
+									<region>CA, NY</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Volker</forename><surname>Tresp</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Corporate Research &amp; Technology</orgName>
+								<orgName type="institution" key="instit1">NEC Laboratories America Cupertino</orgName>
+								<orgName type="institution" key="instit2">CCLS</orgName>
+								<orgName type="institution" key="instit3">Columbia University New York</orgName>
+								<orgName type="institution" key="instit4">Siemens AG</orgName>
+								<address>
+									<postCode>95014, 10115, 81739</postCode>
+									<settlement>Munich</settlement>
+									<region>CA, NY</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhao</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Corporate Research &amp; Technology</orgName>
+								<orgName type="institution" key="instit1">NEC Laboratories America Cupertino</orgName>
+								<orgName type="institution" key="instit2">CCLS</orgName>
+								<orgName type="institution" key="instit3">Columbia University New York</orgName>
+								<orgName type="institution" key="instit4">Siemens AG</orgName>
+								<address>
+									<postCode>95014, 10115, 81739</postCode>
+									<settlement>Munich</settlement>
+									<region>CA, NY</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stochastic Relational Models for Discriminative Link Prediction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a Gaussian process (GP) framework, stochastic relational models (SRM), for learning social, physical, and other relational phenomena where interactions between entities are observed. The key idea is to model the stochastic structure of entity relationships (i.e., links) via a tensor interaction of multiple GPs, each defined on one type of entities. These models in fact define a set of nonparametric priors on infinite dimensional tensor matrices, where each element represents a relationship between a tuple of entities. By maximizing the marginal-ized likelihood, information is exchanged between the participating GPs through the entire relational network, so that the dependency structure of links is messaged to the dependency of entities, reflected by the adapted GP kernels. The framework offers a discriminative approach to link prediction, namely, predicting the exis-tences, strengths, or types of relationships based on the partially observed linkage network as well as the attributes of entities (if given). We discuss properties and variants of SRM and derive an efficient learning algorithm. Very encouraging experimental results are achieved on a toy problem and a user-movie preference link prediction task. In the end we discuss extensions of SRM to general relational learning tasks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

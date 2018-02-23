@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimal sub-graphical models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mukund</forename><surname>Narasimhan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Electrical Engineering</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeff</forename><surname>Bilmes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Electrical Engineering</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimal sub-graphical models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We investigate the problem of reducing the complexity of a graphical model (G, P G) by finding a subgraph H of G, chosen from a class of subgraphs H, such that H is optimal with respect to KL-divergence. We do this by first defining a decomposition tree representation for G, which is closely related to the junction-tree representation for G. We then give an algorithm which uses this representation to compute the optimal H ∈ H. Gavril [2] and Tarjan [3] have used graph separation properties to solve several combinatorial optimization problems when the size of the minimal separators in the graph is bounded. We present an extension of this technique which applies to some important choices of H even when the size of the minimal separators of G are arbitrarily large. In particular, this applies to problems such as finding an optimal subgraphical model over a (k − 1)-tree of a graphical model over a k-tree (for arbitrary k) and selecting an optimal subgraphical model with (a constant) d fewer edges with respect to KL-divergence can be solved in time polynomial in |V (G)| using this formulation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

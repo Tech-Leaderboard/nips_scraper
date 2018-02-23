@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Lattice Regression</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">K</forename><surname>Garcia</surname></persName>
+							<email>garciaer@ee.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Washington Seattle</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<address>
+									<postCode>98195, 98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maya</forename><forename type="middle">R</forename><surname>Gupta</surname></persName>
+							<email>gupta@ee.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Washington Seattle</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<address>
+									<postCode>98195, 98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Lattice Regression</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new empirical risk minimization framework for approximating functions from training samples for low-dimensional regression applications where a lattice (look-up table) is stored and interpolated at run-time for an efficient implementation. Rather than evaluating a fitted function at the lattice nodes without regard to the fact that samples will be interpolated, the proposed lattice regression approach estimates the lattice to minimize the interpolation error on the given training samples. Experiments show that lattice regression can reduce mean test error by as much as 25% compared to Gaussian process regression (GPR) for digital color management of printers, an application for which linearly interpolating a look-up table is standard. Simulations confirm that lattice regression performs consistently better than the naive approach to learning the lattice. Surprisingly, in some cases the proposed method-although motivated by computational efficiency performs better than directly applying GPR with no lattice at all.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

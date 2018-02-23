@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mutual Boosting for Contextual Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Fink</surname></persName>
+							<email>fink@huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Neural Computation Electrical Engineering Department</orgName>
+								<orgName type="institution">Hebrew University of Jerusalem California Institute of Technology Jerusalem</orgName>
+								<address>
+									<postCode>91904, 91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pietro</forename><surname>Perona</surname></persName>
+							<email>perona@vision.caltech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Neural Computation Electrical Engineering Department</orgName>
+								<orgName type="institution">Hebrew University of Jerusalem California Institute of Technology Jerusalem</orgName>
+								<address>
+									<postCode>91904, 91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mutual Boosting for Contextual Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Mutual Boosting is a method aimed at incorporating contextual information to augment object detection. When multiple detectors of objects and parts are trained in parallel using AdaBoost [1], object detectors might use the remaining intermediate detectors to enrich the weak learner set. This method generalizes the efficient features suggested by Viola and Jones [2] thus enabling information inference between parts and objects in a compositional hierarchy. In our experiments eye-, nose-, mouth-and face detectors are trained using the Mutual Boosting framework. Results show that the method outperforms applications overlooking contextual information. We suggest that achieving contextual integration is a step toward human-like detection capabilities.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

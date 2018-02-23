@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Ensemble Diversity Approach to Supervised Binary Hashing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Migueí</forename><forename type="middle">A</forename><surname>Carreira-Perpiñán</surname></persName>
+							<email>mcarreira-perpinan@ucmerced.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>EECS</roleName><forename type="first">Perpi˜</forename><surname>Perpiñán</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ramin</forename><surname>Raziperchikolaei</surname></persName>
+							<email>rraziperchikolaei@ucmerced.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An Ensemble Diversity Approach to Supervised Binary Hashing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Binary hashing is a well-known approach for fast approximate nearest-neighbor search in information retrieval. Much work has focused on affinity-based objective functions involving the hash functions or binary codes. These objective functions encode neighborhood information between data points and are often inspired by manifold learning algorithms. They ensure that the hash functions differ from each other through constraints or penalty terms that encourage codes to be orthogonal or dissimilar across bits, but this couples the binary variables and complicates the already difficult optimization. We propose a much simpler approach: we train each hash function (or bit) independently from each other, but introduce diversity among them using techniques from classifier ensembles. Surprisingly, we find that not only is this faster and trivially parallelizable, but it also improves over the more complex, coupled objective function, and achieves state-of-the-art precision and recall in experiments with image retrieval. Information retrieval tasks such as searching for a query image or document in a database are essentially a nearest-neighbor search [33]. When the dimensionality of the query and the size of the database is large, approximate search is necessary. We focus on binary hashing [17], where the query and database are mapped onto low-dimensional binary vectors, where the search is performed. This has two speedups: computing Hamming distances (with hardware support) is much faster than computing distances between high-dimensional floating-point vectors; and the entire database becomes much smaller, so it may reside in fast memory rather than disk (for example, a database of 1 billion real vectors of dimension 500 takes 2 TB in floating point but 8 GB as 64-bit codes). Constructing hash functions that do well in retrieval measures such as precision and recall is usually done by optimizing an affinity-based objective function that relates Hamming distances to supervised neighborhood information in a training set. Many such objective functions have the form of a sum of pairwise terms that indicate whether the training points x n and x m are neighbors: min h L(h) = N n,m=1 L(z n , z m ; y nm) where z m = h(x m), z n = h(x n). Here, X = (x 1 ,. .. , x N) is the dataset of high-dimensional feature vectors (e.g., SIFT features of an image), h: R D → {−1, +1} b are b binary hash functions and z = h(x) is the b-bit code vector for input x ∈ R D , min h means minimizing over the parameters of the hash function h (e.g. over the weights of a linear SVM), and L(·) is a loss function that compares the codes for two images (often through their Hamming distance z n − z m) with the ground-truth value y nm that measures the affinity in the original space between the two images x n and x m (distance, similarity or other measure of neighborhood). The sum is often restricted to a subset of image pairs (n, m) (for example, within the k nearest neighbors of each other in the original space), to keep the runtime low. The output of the algorithm is the hash function h and the binary codes Z = (z 1 ,. .. , z N) for the training points, where z n = h(x n) for n = 1,. .. , N. Examples of these objective functions are Supervised Hashing with Kernels (KSH) [28], Binary Reconstructive Embeddings (BRE) [21] and the binary Laplacian loss (an extension of the Laplacian Eigenmaps objective; [2]) where L(z n , z m ; y nm) is: 30th Conference on Neural Information Processing Systems (NIPS 2016), Barcelona, Spain.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

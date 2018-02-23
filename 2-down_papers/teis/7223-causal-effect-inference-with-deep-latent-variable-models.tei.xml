@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Causal Effect Inference with Deep Latent-Variable Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christos</forename><surname>Louizos</surname></persName>
+							<email>c.louizos@uva.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Massachusetts Institute of Technology CSAIL &amp; IMES</orgName>
+								<orgName type="institution" key="instit1">University of Amsterdam TNO Intelligent Imaging</orgName>
+								<orgName type="institution" key="instit2">New York University CIMS</orgName>
+								<orgName type="institution" key="instit3">University of Amsterdam</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+								<orgName type="institution" key="instit5">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Uri</forename><surname>Shalit</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Massachusetts Institute of Technology CSAIL &amp; IMES</orgName>
+								<orgName type="institution" key="instit1">University of Amsterdam TNO Intelligent Imaging</orgName>
+								<orgName type="institution" key="instit2">New York University CIMS</orgName>
+								<orgName type="institution" key="instit3">University of Amsterdam</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+								<orgName type="institution" key="instit5">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joris</forename><surname>Mooij</surname></persName>
+							<email>j.m.mooij@uva.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Massachusetts Institute of Technology CSAIL &amp; IMES</orgName>
+								<orgName type="institution" key="instit1">University of Amsterdam TNO Intelligent Imaging</orgName>
+								<orgName type="institution" key="instit2">New York University CIMS</orgName>
+								<orgName type="institution" key="instit3">University of Amsterdam</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+								<orgName type="institution" key="instit5">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Sontag</surname></persName>
+							<email>dsontag@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Massachusetts Institute of Technology CSAIL &amp; IMES</orgName>
+								<orgName type="institution" key="instit1">University of Amsterdam TNO Intelligent Imaging</orgName>
+								<orgName type="institution" key="instit2">New York University CIMS</orgName>
+								<orgName type="institution" key="instit3">University of Amsterdam</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+								<orgName type="institution" key="instit5">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Zemel</surname></persName>
+							<email>zemel@cs.toronto.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Massachusetts Institute of Technology CSAIL &amp; IMES</orgName>
+								<orgName type="institution" key="instit1">University of Amsterdam TNO Intelligent Imaging</orgName>
+								<orgName type="institution" key="instit2">New York University CIMS</orgName>
+								<orgName type="institution" key="instit3">University of Amsterdam</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+								<orgName type="institution" key="instit5">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cifar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Massachusetts Institute of Technology CSAIL &amp; IMES</orgName>
+								<orgName type="institution" key="instit1">University of Amsterdam TNO Intelligent Imaging</orgName>
+								<orgName type="institution" key="instit2">New York University CIMS</orgName>
+								<orgName type="institution" key="instit3">University of Amsterdam</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+								<orgName type="institution" key="instit5">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Max</forename><surname>Welling</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Massachusetts Institute of Technology CSAIL &amp; IMES</orgName>
+								<orgName type="institution" key="instit1">University of Amsterdam TNO Intelligent Imaging</orgName>
+								<orgName type="institution" key="instit2">New York University CIMS</orgName>
+								<orgName type="institution" key="instit3">University of Amsterdam</orgName>
+								<orgName type="institution" key="instit4">University of Toronto</orgName>
+								<orgName type="institution" key="instit5">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Causal Effect Inference with Deep Latent-Variable Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning individual-level causal effects from observational data, such as inferring the most effective medication for a specific patient, is a problem of growing importance for policy makers. The most important aspect of inferring causal effects from observational data is the handling of confounders, factors that affect both an intervention and its outcome. A carefully designed observational study attempts to measure all important confounders. However, even if one does not have direct access to all confounders, there may exist noisy and uncertain measurement of proxies for confounders. We build on recent advances in latent variable modeling to simultaneously estimate the unknown latent space summarizing the confounders and the causal effect. Our method is based on Variational Autoencoders (VAE) which follow the causal structure of inference with proxies. We show our method is significantly more robust than existing methods, and matches the state-of-the-art on previous benchmarks focused on individual treatment effects.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

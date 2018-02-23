@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Launch and Iterate: Reducing Prediction Churn</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Cormier</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">ENS Lyon</orgName>
+								<address>
+									<addrLine>15 parvis</addrLine>
+									<settlement>René Descartes Lyon</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Milani</forename><surname>Fard</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Google Inc</orgName>
+								<address>
+									<addrLine>1600 Amphitheatre Parkway Mountain View</addrLine>
+									<postCode>94043</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Canini</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Google Inc</orgName>
+								<address>
+									<addrLine>1600 Amphitheatre Parkway Mountain View</addrLine>
+									<postCode>94043</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Gupta</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Google Inc</orgName>
+								<address>
+									<addrLine>1600 Amphitheatre Parkway Mountain View</addrLine>
+									<postCode>94043</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Launch and Iterate: Reducing Prediction Churn</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Practical applications of machine learning often involve successive training iterations with changes to features and training examples. Ideally, changes in the output of any new model should only be improvements (wins) over the previous iteration, but in practice the predictions may change neutrally for many examples, resulting in extra net-zero wins and losses, referred to as unnecessary churn. These changes in the predictions are problematic for usability for some applications, and make it harder and more expensive to measure if a change is statistically significant positive. In this paper, we formulate the problem and present a stabilization operator to regu-larize a classifier towards a previous classifier. We use a Markov chain Monte Carlo stabilization operator to produce a model with more consistent predictions without adversely affecting accuracy. We investigate the properties of the proposal with theoretical analysis. Experiments on benchmark datasets for different classification algorithms demonstrate the method and the resulting reduction in churn. 1 The Curse of Version 2.0 In most practical settings, training and launching an initial machine-learned model is only the first step: as new and improved features are created, additional training data is gathered, and the model and learning algorithm are improved, it is natural to launch a series of ever-improving models. Each new candidate may bring wins, but also unnecessary changes. In practice, it is desirable to minimize any unnecessary changes for two key reasons. First, unnecessary changes can hinder usability and debugability as they can be disorienting to users and follow-on system components. Second, unnecessary changes make it more difficult to measure with statistical confidence whether the change is truly an improvement. For both these reasons, there is great interest in making only those changes that are wins, and minimizing any unnecessary changes, while making sure such process does not hinder the overall accuracy objective. There is already a large body of work in machine learning that treats the stability of learning algorithms. These range from the early works of Devroye and Wagner [1] and Vapnik [2, 3] to more recent studies of learning stability in more general hypothesis spaces [4, 5, 6]. Most of the literature on this topic focus on stability of the learning algorithm in terms of the risk or loss function and how such properties translate into uniform generalization with specific convergence rates. We build on these notions, but the problem treated here is substantively different. We address the problem of training consecutive classifiers to reduce unnecessary changes in the presence of realistic evolution of the problem domain and the training sets over time. The main contributions of this paper include: (I) discussion and formulation of the &quot;churn&quot; metric between trained models, (II) design of stabilization operators for regularization towards a previous model, (III) proposing a Markov chain Monte Carlo (MCMC) stabilization technique, (VI) theoretical analysis of the proposed stabilization in terms of churn, and (V) empirical analysis of the proposed methods on benchmark datasets with different classification algorithms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

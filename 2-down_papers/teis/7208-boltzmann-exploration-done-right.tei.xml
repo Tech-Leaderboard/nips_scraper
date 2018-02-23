@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Boltzmann Exploration Done Right</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolò</forename><surname>Cesa-Bianchi</surname></persName>
+							<email>nicolo.cesa-bianchi@unimi.it</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Università degli Studi di Milano Milan</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claudio</forename><surname>Gentile</surname></persName>
+							<email>cla.gentile@gmail.com</email>
+							<affiliation key="aff1">
+								<orgName type="institution">INRIA</orgName>
+								<address>
+									<addrLine>Lille -Nord Europe Villeneuve d&apos;Ascq</addrLine>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gábor</forename><surname>Lugosi</surname></persName>
+							<email>gabor.lugosi@gmail.com</email>
+							<affiliation key="aff2">
+								<orgName type="institution">ICREA &amp; Universitat Pompeu Fabra Barcelona</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gergely</forename><surname>Neu</surname></persName>
+							<email>gergely.neu@gmail.com</email>
+							<affiliation key="aff3">
+								<orgName type="institution">Universitat Pompeu Fabra Barcelona</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Boltzmann Exploration Done Right</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Boltzmann exploration is a classic strategy for sequential decision-making under uncertainty, and is one of the most standard tools in Reinforcement Learning (RL). Despite its widespread use, there is virtually no theoretical understanding about the limitations or the actual benefits of this exploration scheme. Does it drive exploration in a meaningful way? Is it prone to misidentifying the optimal actions or spending too much time exploring the suboptimal ones? What is the right tuning for the learning rate? In this paper, we address several of these questions for the classic setup of stochastic multi-armed bandits. One of our main results is showing that the Boltzmann exploration strategy with any monotone learning-rate sequence will induce suboptimal behavior. As a remedy, we offer a simple non-monotone schedule that guarantees near-optimal performance, albeit only when given prior access to key problem parameters that are typically not available in practical situations (like the time horizon T and the suboptimality gap ∆). More importantly, we propose a novel variant that uses different learning rates for different arms, and achieves a distribution-dependent regret bound of order K log 2 T ∆ and a distribution-independent bound of order √ KT log K without requiring such prior knowledge. To demonstrate the flexibility of our technique, we also propose a variant that guarantees the same performance bounds even if the rewards are heavy-tailed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

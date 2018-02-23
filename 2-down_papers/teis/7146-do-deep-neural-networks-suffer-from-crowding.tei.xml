@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Do Deep Neural Networks Suffer from Crowding?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anna</forename><surname>Volokitin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Brains, Minds and Machines</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gemma</forename><surname>Roig</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Brains, Minds and Machines</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Computer Vision Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia at Massachusetts Institute of Technology</orgName>
+								<address>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">ETH Zurich</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Singapore University of Technology and Design</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tomaso</forename><surname>Poggio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Brains, Minds and Machines</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Computer Vision Laboratory</orgName>
+								<orgName type="institution">Istituto Italiano di Tecnologia at Massachusetts Institute of Technology</orgName>
+								<address>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">ETH Zurich</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Do Deep Neural Networks Suffer from Crowding?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Crowding is a visual effect suffered by humans, in which an object that can be recognized in isolation can no longer be recognized when other objects, called flankers, are placed close to it. In this work, we study the effect of crowding in artificial Deep Neural Networks (DNNs) for object recognition. We analyze both deep convolutional neural networks (DCNNs) as well as an extension of DCNNs that are multi-scale and that change the receptive field size of the convolution filters with their position in the image. The latter networks, that we call eccentricity-dependent, have been proposed for modeling the feedforward path of the primate visual cortex. Our results reveal that the eccentricity-dependent model, trained on target objects in isolation, can recognize such targets in the presence of flankers, if the targets are near the center of the image, whereas DCNNs cannot. Also, for all tested networks, when trained on targets in isolation, we find that recognition accuracy of the networks decreases the closer the flankers are to the target and the more flankers there are. We find that visual similarity between the target and flankers also plays a role and that pooling in early layers of the network leads to more crowding. Additionally, we show that incorporating flankers into the images of the training set for learning the DNNs does not lead to robustness against configurations not seen at training.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

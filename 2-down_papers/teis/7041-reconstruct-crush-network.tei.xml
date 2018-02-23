@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reconstruct &amp; Crush Network</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erinç</forename><surname>Merdivan</surname></persName>
+							<email>erinc.merdivan@ait.ac.at, loghmani@acin.tuwien.ac.at matthieu.geist@univ-lorraine.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution">AIT Austrian Institute of Technology GmbH</orgName>
+								<address>
+									<settlement>Vienna</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">CentraleSupélec</orgName>
+								<orgName type="institution" key="instit1">LORIA (Univ. Lorraine &amp; CNRS)</orgName>
+								<orgName type="institution" key="instit2">Univ. Paris-Saclay</orgName>
+								<address>
+									<postCode>57070</postCode>
+									<settlement>Metz</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammad</forename><forename type="middle">Reza</forename><surname>Loghmani</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Vision4Robotics lab</orgName>
+								<orgName type="institution">ACIN, TU Wien</orgName>
+								<address>
+									<settlement>Vienna</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthieu</forename><surname>Geist</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory">UMR 7360</orgName>
+								<orgName type="institution" key="instit1">Université de Lorraine &amp; CNRS</orgName>
+								<orgName type="institution" key="instit2">LIEC</orgName>
+								<address>
+									<postCode>F-57070</postCode>
+									<settlement>Metz</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reconstruct &amp; Crush Network</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This article introduces an energy-based model that is adversarial regarding data: it minimizes the energy for a given data distribution (the positive samples) while maximizing the energy for another given data distribution (the negative or unlabeled samples). The model is especially instantiated with autoencoders where the energy, represented by the reconstruction error, provides a general distance measure for unknown data. The resulting neural network thus learns to reconstruct data from the first distribution while crushing data from the second distribution. This solution can handle different problems such as Positive and Unlabeled (PU) learning or covariate shift, especially with imbalanced data. Using autoencoders allows handling a large variety of data, such as images, text or even dialogues. Our experiments show the flexibility of the proposed approach in dealing with different types of data in different settings: images with CIFAR-10 and CIFAR-100 (not-in-training setting), text with Amazon reviews (PU learning) and dialogues with Facebook bAbI (next response classification and dialogue completion).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

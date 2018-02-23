@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Mixtures of Ranking Models *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pranjal</forename><surname>Awasthi</surname></persName>
+							<email>pawashti@cs.princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Avrim</forename><surname>Blum</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Or</forename><surname>Sheffet</surname></persName>
+							<email>osheffet@seas.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aravindan</forename><surname>Vijayaraghavan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Mixtures of Ranking Models *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This work concerns learning probabilistic models for ranking data in a heterogeneous population. The specific problem we study is learning the parameters of a Mallows Mixture Model. Despite being widely studied, current heuristics for this problem do not have theoretical guarantees and can get stuck in bad local optima. We present the first polynomial time algorithm which provably learns the parameters of a mixture of two Mallows models. A key component of our algorithm is a novel use of tensor decomposition techniques to learn the top-k prefix in both the rankings. Before this work, even the question of identifiability in the case of a mixture of two Mallows models was unresolved.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

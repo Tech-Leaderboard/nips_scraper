@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Sparse Random Features Algorithm as Coordinate Descent in Hilbert Space</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ian</forename><forename type="middle">E H</forename><surname>Yen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ting-Wei</forename><surname>Lin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">National Taiwan University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shou-De</forename><surname>Lin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">National Taiwan University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pradeep</forename><surname>Ravikumar</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Inderjit</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Sparse Random Features Algorithm as Coordinate Descent in Hilbert Space</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we propose a Sparse Random Features algorithm, which learns a sparse non-linear predictor by minimizing an ℓ 1-regularized objective function over the Hilbert Space induced from a kernel function. By interpreting the algorithm as Randomized Coordinate Descent in an infinite-dimensional space, we show the proposed approach converges to a solution within ϵ-precision of that using an exact kernel method, by drawing O(1/ϵ) random features, in contrast to the O(1/ϵ 2) convergence achieved by current Monte-Carlo analyses of Random Features. In our experiments, the Sparse Random Feature algorithm obtains a sparse solution that requires less memory and prediction time, while maintaining comparable performance on regression and classification tasks. Moreover, as an approximate solver for the infinite-dimensional ℓ 1-regularized problem, the randomized approach also enjoys better convergence guarantees than a Boosting approach in the setting where the greedy Boosting step cannot be performed exactly.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

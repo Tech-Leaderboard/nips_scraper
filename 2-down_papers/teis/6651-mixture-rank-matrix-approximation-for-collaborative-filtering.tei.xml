@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mixture-Rank Matrix Approximation for Collaborative Filtering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dongsheng</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Research</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chao</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Research</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Liu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Tencent AI Lab</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tun</forename><surname>Lu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Computer Science</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Shanghai Key Laboratory of Data Science</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ning</forename><surname>Gu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Computer Science</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Shanghai Key Laboratory of Data Science</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">M</forename><surname>Chu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Research</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mixture-Rank Matrix Approximation for Collaborative Filtering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Low-rank matrix approximation (LRMA) methods have achieved excellent accuracy among today&apos;s collaborative filtering (CF) methods. In existing LRMA methods, the rank of user/item feature matrices is typically fixed, i.e., the same rank is adopted to describe all users/items. However, our studies show that submatrices with different ranks could coexist in the same user-item rating matrix, so that approximations with fixed ranks cannot perfectly describe the internal structures of the rating matrix, therefore leading to inferior recommendation accuracy. In this paper, a mixture-rank matrix approximation (MRMA) method is proposed, in which user-item ratings can be characterized by a mixture of LRMA models with different ranks. Meanwhile, a learning algorithm capitalizing on iterated condition modes is proposed to tackle the non-convex optimization problem pertaining to MRMA. Experimental studies on MovieLens and Netflix datasets demonstrate that MRMA can outperform six state-of-the-art LRMA-based CF methods in terms of recommendation accuracy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

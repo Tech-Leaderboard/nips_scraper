@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Alistarh</surname></persName>
+							<email>dan.alistarh@ist.ac.at</email>
+							<affiliation key="aff0">
+								<orgName type="department">London School of Economics</orgName>
+								<orgName type="institution" key="instit1">IST Austria &amp; ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Demjan</forename><surname>Grubic</surname></persName>
+							<email>demjangrubic@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">London School of Economics</orgName>
+								<orgName type="institution" key="instit1">IST Austria &amp; ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eth</forename><surname>Zurich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">London School of Economics</orgName>
+								<orgName type="institution" key="instit1">IST Austria &amp; ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Google</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">London School of Economics</orgName>
+								<orgName type="institution" key="instit1">IST Austria &amp; ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jerry</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+							<email>jerryzli@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">London School of Economics</orgName>
+								<orgName type="institution" key="instit1">IST Austria &amp; ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryota</forename><surname>Tomioka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">London School of Economics</orgName>
+								<orgName type="institution" key="instit1">IST Austria &amp; ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Milan</forename><surname>Vojnovic</surname></persName>
+							<email>M.Vojnovic@lse.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">London School of Economics</orgName>
+								<orgName type="institution" key="instit1">IST Austria &amp; ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Parallel implementations of stochastic gradient descent (SGD) have received significant research attention, thanks to its excellent scalability properties. A fundamental barrier when parallelizing SGD is the high bandwidth cost of communicating gradient updates between nodes; consequently, several lossy compresion heuristics have been proposed, by which nodes only communicate quantized gradients. Although effective in practice, these heuristics do not always converge. In this paper, we propose Quantized SGD (QSGD), a family of compression schemes with convergence guarantees and good practical performance. QSGD allows the user to smoothly trade off communication bandwidth and convergence time: nodes can adjust the number of bits sent per iteration, at the cost of possibly higher variance. We show that this trade-off is inherent, in the sense that improving it past some threshold would violate information-theoretic lower bounds. QSGD guarantees convergence for convex and non-convex objectives, under asynchrony, and can be extended to stochastic variance-reduced techniques. When applied to training deep neural networks for image classification and automated speech recognition, QSGD leads to significant reductions in end-to-end training time. For instance, on 16GPUs, we can train the ResNet-152 network to full accuracy on ImageNet 1.8× faster than the full-precision variant.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

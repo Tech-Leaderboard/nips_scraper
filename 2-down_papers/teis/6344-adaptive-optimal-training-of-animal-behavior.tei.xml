@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Adaptive optimal training of animal behavior</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ji</forename><forename type="middle">Hyun</forename><surname>Bak</surname></persName>
+							<email>jhbak@kias.re.kr, {jungchoi,aakrami,iwitten,pillow}@princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics</orgName>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">School of Computational Sciences</orgName>
+								<orgName type="department" key="dep2">Institute for Advanced Study</orgName>
+								<address>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jung</forename><forename type="middle">Yoon</forename><surname>Choi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Princeton Neuroscience Institute</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Athena</forename><surname>Akrami</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Princeton Neuroscience Institute</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Howard Hughes Medical Institute</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ilana</forename><surname>Witten</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Princeton Neuroscience Institute</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">W</forename><surname>Pillow</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Princeton Neuroscience Institute</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Adaptive optimal training of animal behavior</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Neuroscience experiments often require training animals to perform tasks designed to elicit various sensory, cognitive, and motor behaviors. Training typically involves a series of gradual adjustments of stimulus conditions and rewards in order to bring about learning. However, training protocols are usually hand-designed, relying on a combination of intuition, guesswork, and trial-and-error, and often require weeks or months to achieve a desired level of task performance. Here we combine ideas from reinforcement learning and adaptive optimal experimental design to formulate methods for adaptive optimal training of animal behavior. Our work addresses two intriguing problems at once: first, it seeks to infer the learning rules underlying an animal&apos;s behavioral changes during training; second, it seeks to exploit these rules to select stimuli that will maximize the rate of learning toward a desired objective. We develop and test these methods using data collected from rats during training on a two-interval sensory discrimination task. We show that we can accurately infer the parameters of a policy-gradient-based learning algorithm that describes how the animal&apos;s internal model of the task evolves over the course of training. We then formulate a theory for optimal training, which involves selecting sequences of stimuli that will drive the animal&apos;s internal policy toward a desired location in the parameter space. Simulations show that our method can in theory provide a substantial speedup over standard training methods. We feel these results will hold considerable theoretical and practical implications both for researchers in reinforcement learning and for experimentalists seeking to train animals.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

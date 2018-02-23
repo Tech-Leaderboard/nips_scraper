@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Natural sound statistics and divisive normalization in the auditory system</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Odelia</forename><surname>Schwartz</surname></persName>
+							<email>odelia@cns.nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Neural Science</orgName>
+								<orgName type="department" key="dep2">Medical Institute Center for Neural Science, and Courant Institute of Mathematical Sciences</orgName>
+								<orgName type="institution" key="instit1">New York University</orgName>
+								<orgName type="institution" key="instit2">Howard Hughes</orgName>
+								<orgName type="institution" key="instit3">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eero</forename><forename type="middle">P</forename><surname>Simoncelli</surname></persName>
+							<email>eero.simoncelli@nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Neural Science</orgName>
+								<orgName type="department" key="dep2">Medical Institute Center for Neural Science, and Courant Institute of Mathematical Sciences</orgName>
+								<orgName type="institution" key="instit1">New York University</orgName>
+								<orgName type="institution" key="instit2">Howard Hughes</orgName>
+								<orgName type="institution" key="instit3">New York University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Natural sound statistics and divisive normalization in the auditory system</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We explore the statistical properties of natural sound stimuli pre-processed with a bank of linear filters. The responses of such filters exhibit a striking form of statistical dependency, in which the response variance of each filter grows with the response amplitude of filters tuned for nearby frequencies. These dependencies may be substantially reduced using an operation known as divisive normalization, in which the response of each filter is divided by a weighted sum of the rectified responses of other filters. The weights may be chosen to maximize the independence of the normalized responses for an ensemble of natural sounds. We demonstrate that the resulting model accounts for non-linearities in the response characteristics of the auditory nerve, by comparing model simulations to electrophysiological recordings. In previous work (NIPS, 1998) we demonstrated that an analogous model derived from the statistics of natural images accounts for non-linear properties of neurons in primary visual cortex. Thus, divisive normalization appears to be a generic mechanism for eliminating a type of statistical dependency that is prevalent in natural signals of different modalities. Signals in the real world are highly structured. For example, natural sounds typically contain both harmonic and rythmic structure. It is reasonable to assume that biological auditory systems are designed to represent these structures in an efficient manner [e.g., 1,2]. Specifically , Barlow hypothesized that a role of early sensory processing is to remove redundancy in the sensory input, resulting in a set of neural responses that are statistically independent. Experimentally, one can test this hypothesis by examining the statistical properties of neural responses under natural stimulation conditions [e.g., 3,4], or the statistical dependency of pairs (or groups) of neural responses. Due to their technical difficulty, such multi-cellular experiments are only recently becoming possible, and the earliest reports in vision appear consistent with the hypothesis [e.g., 5]. An alternative approach, which we follow here, is to develop a neural model from the statistics of natural signals and show that response properties of this model are similar to those of biological sensory neurons. A number of researchers have derived linear filter models using statistical criterion. For visual images, this results in linear filters localized in frequency, orientation and phase [6, 7].</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

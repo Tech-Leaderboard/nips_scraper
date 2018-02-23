@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Matrix Completion with Noisy Side Information</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kai-Yang</forename><surname>Chiang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">University of California at Davis</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cho-Jui</forename><surname>Hsieh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">University of California at Davis</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Inderjit</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">University of California at Davis</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Matrix Completion with Noisy Side Information</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the matrix completion problem with side information. Side information has been considered in several matrix completion applications, and has been empirically shown to be useful in many cases. Recently, researchers studied the effect of side information for matrix completion from a theoretical viewpoint, showing that sample complexity can be significantly reduced given completely clean features. However, since in reality most given features are noisy or only weakly informative , the development of a model to handle a general feature set, and investigation of how much noisy features can help matrix recovery, remains an important issue. In this paper, we propose a novel model that balances between features and observations simultaneously in order to leverage feature information yet be robust to feature noise. Moreover, we study the effect of general features in theory and show that by using our model, the sample complexity can be lower than matrix completion as long as features are sufficiently informative. This result provides a theoretical insight into the usefulness of general side information. Finally, we consider synthetic data and two applications-relationship prediction and semi-supervised clustering-and show that our model outperforms other methods for matrix completion that use features both in theory and practice.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

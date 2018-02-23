@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Metric Learning by Collapsing Classes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amir</forename><surname>Globerson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Interdisciplinary Center for Neural Computation</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science</orgName>
+								<orgName type="laboratory">Machine Learning Group</orgName>
+								<orgName type="institution">The Hebrew University Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><surname>Roweis</surname></persName>
+							<email>roweis@cs.toronto.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Metric Learning by Collapsing Classes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present an algorithm for learning a quadratic Gaussian metric (Maha-lanobis distance) for use in classification tasks. Our method relies on the simple geometric intuition that a good metric is one under which points in the same class are simultaneously near each other and far from points in the other classes. We construct a convex optimization problem whose solution generates such a metric by trying to collapse all examples in the same class to a single point and push examples in other classes infinitely far away. We show that when the metric we learn is used in simple clas-sifiers, it yields substantial improvements over standard alternatives on a variety of problems. We also discuss how the learned metric may be used to obtain a compact low dimensional feature representation of the original input space, allowing more efficient classification with very little reduction in performance. 1 Supervised Learning of Metrics The problem of learning a distance measure (metric) over an input space is of fundamental importance in machine learning [10, 9], both supervised and unsupervised. When such measures are learned directly from the available data, they can be used to improve learning algorithms which rely on distance computations such as nearest neighbour classification [5], supervised kernel machines (such as GPs or SVMs) and even unsupervised clustering algorithms [10]. Good similarity measures may also provide insight into the underlying structure of data (e.g. inter-protein distances), and may aid in building better data visualizations via embedding. In fact, there is a close link between distance learning and feature extraction since whenever we construct a feature 񮽙´Üµ for an input space 񮽙, we can measure distances between Ü ½ Ü ¾ ¾ 񮽙 using a simple distance function (e.g. Euclidean) 񮽙񮽙񮽙´Ü ½ µ񮽙 񮽙´Ü ¾ µ℄ in feature space. Thus by fixing 񮽙, any feature extraction algorithm may be considered a metric learning method. Perhaps the simplest illustration of this approach is when the 񮽙´Üµ is a linear projection of Ü ¾ 񮽙 Ö so that 񮽙´Üµ 񮽙 Ï Ü. The Euclidean distance between 񮽙´Ü ½ µ and 񮽙´Ü ¾ µ is then the Mahalanobis distance 񮽙񮽙´Ü ½ µ 񮽙´Ü ¾ µ񮽙 ¾ 񮽙´Ü񮽙´Ü ½ Ü ¾ µ Ì 񮽙´Ü ½ Ü ¾ µ, where 񮽙 񮽙 Ï Ì Ï is a positive semidefinite matrix. Much of the recent work on metric learning has indeed focused on learning Mahalanobis distances, i.e. learning the matrix 񮽙. This is also the goal of the current work. A common approach to learning metrics is to assume some knowledge in the form of equiv</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

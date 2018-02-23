@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Joint distribution optimal transportation for domain adaptation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><surname>Courty</surname></persName>
+							<email>courty@univ-ubs.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rémi</forename><surname>Flamary</surname></persName>
+							<email>remi.flamary@unice.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amaury</forename><surname>Habrard</surname></persName>
+							<email>amaury.habrard@univ-st-etienne.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alain</forename><surname>Rakotomamonjy</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 6074</orgName>
+								<orgName type="institution" key="instit1">Université de Bretagne Sud</orgName>
+								<orgName type="institution" key="instit2">IRISA</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">Université Côte d&apos;Azur</orgName>
+								<address>
+									<postCode>7293</postCode>
+									<settlement>Lagrange</settlement>
+									<region>UMR</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Univ Lyon</orgName>
+								<address>
+									<addrLine>UJM-Saint-Etienne</addrLine>
+									<region>OCA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Lab. Hubert Curien UMR 5516</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Normandie Universite Université de Rouen</orgName>
+								<address>
+									<postCode>F-42023, 4108</postCode>
+									<settlement>LITIS</settlement>
+									<region>EA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Joint distribution optimal transportation for domain adaptation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper deals with the unsupervised domain adaptation problem, where one wants to estimate a prediction function f in a given target domain without any labeled sample by exploiting the knowledge available from a source domain where labels are known. Our work makes the following assumption: there exists a non-linear transformation between the joint feature/label space distributions of the two domain P s and P t that can be estimated with optimal transport. We propose a solution of this problem that allows to recover an estimated target P f t = (X, f (X)) by optimizing simultaneously the optimal coupling and f. We show that our method corresponds to the minimization of a bound on the target error, and provide an efficient algorithmic solution, for which convergence is proved. The versatility of our approach, both in terms of class of hypothesis or loss functions is demonstrated with real world classification and regression problems, for which we reach or surpass state-of-the-art results.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

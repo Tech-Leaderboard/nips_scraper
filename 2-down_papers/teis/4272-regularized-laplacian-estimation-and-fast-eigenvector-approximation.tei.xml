@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Regularized Laplacian Estimation and Fast Eigenvector Approximation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><forename type="middle">O</forename><surname>Perry</surname></persName>
+							<email>pperry@stern.nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Information, Operations, and Management Sciences NYU Stern School of Business New York</orgName>
+								<orgName type="department" key="dep2">Department of Mathematics</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<postCode>10012, 94305</postCode>
+									<region>NY, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">W</forename><surname>Mahoney</surname></persName>
+							<email>mmahoney@cs.stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Information, Operations, and Management Sciences NYU Stern School of Business New York</orgName>
+								<orgName type="department" key="dep2">Department of Mathematics</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<postCode>10012, 94305</postCode>
+									<region>NY, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Regularized Laplacian Estimation and Fast Eigenvector Approximation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recently, Mahoney and Orecchia demonstrated that popular diffusion-based procedures to compute a quick approximation to the first nontrivial eigenvector of a data graph Laplacian exactly solve certain regularized Semi-Definite Programs (SDPs). In this paper, we extend that result by providing a statistical interpretation of their approximation procedure. Our interpretation will be analogous to the manner in which 2-regularized or 1-regularized 2-regression (often called Ridge regression and Lasso regression, respectively) can be interpreted in terms of a Gaussian prior or a Laplace prior, respectively, on the coefficient vector of the regression problem. Our framework will imply that the solutions to the Mahoney-Orecchia regularized SDP can be interpreted as regularized estimates of the pseu-doinverse of the graph Laplacian. Conversely, it will imply that the solution to this regularized estimation problem can be computed very quickly by running, e.g., the fast diffusion-based PageRank procedure for computing an approximation to the first nontrivial eigenvector of the graph Laplacian. Empirical results are also provided to illustrate the manner in which approximate eigenvector computation implicitly performs statistical regularization, relative to running the corresponding exact algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

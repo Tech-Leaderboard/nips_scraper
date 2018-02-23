@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Non-convex Statistical Optimization for Sparse Tensor Graphical Model</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit3">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit4">Purdue University West Lafayette</orgName>
+								<address>
+									<region>CA, NJ, NJ, IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhaoran</forename><surname>Wang</surname></persName>
+							<email>zhaoran@princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit3">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit4">Purdue University West Lafayette</orgName>
+								<address>
+									<region>CA, NJ, NJ, IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Han</forename><surname>Liu</surname></persName>
+							<email>hanliu@princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit3">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit4">Purdue University West Lafayette</orgName>
+								<address>
+									<region>CA, NJ, NJ, IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guang</forename><surname>Cheng</surname></persName>
+							<email>chengg@stat.purdue.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit3">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit4">Purdue University West Lafayette</orgName>
+								<address>
+									<region>CA, NJ, NJ, IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Non-convex Statistical Optimization for Sparse Tensor Graphical Model</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the estimation of sparse graphical models that characterize the dependency structure of high-dimensional tensor-valued data. To facilitate the estimation of the precision matrix corresponding to each way of the tensor, we assume the data follow a tensor normal distribution whose covariance has a Kronecker product structure. The penalized maximum likelihood estimation of this model involves minimizing a non-convex objective function. In spite of the non-convexity of this estimation problem, we prove that an alternating minimization algorithm, which iteratively estimates each sparse precision matrix while fixing the others, attains an estimator with the optimal statistical rate of convergence as well as consistent graph recovery. Notably, such an estimator achieves estimation consistency with only one tensor sample, which is unobserved in previous work. Our theoretical results are backed by thorough numerical studies.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

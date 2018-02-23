@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Emergence of Language with Multi-agent Games: Learning to Communicate with Sequences of Symbols</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Serhii</forename><surname>Havrylov</surname></persName>
+							<email>s.havrylov@inf.ed.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ILCC</orgName>
+								<orgName type="department" key="dep2">School of Informatics</orgName>
+								<orgName type="department" key="dep3">School of Informatics University of Edinburgh ILLC</orgName>
+								<orgName type="institution" key="instit1">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit2">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ivan</forename><surname>Titov</surname></persName>
+							<email>ititov@inf.ed.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ILCC</orgName>
+								<orgName type="department" key="dep2">School of Informatics</orgName>
+								<orgName type="department" key="dep3">School of Informatics University of Edinburgh ILLC</orgName>
+								<orgName type="institution" key="instit1">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit2">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Emergence of Language with Multi-agent Games: Learning to Communicate with Sequences of Symbols</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning to communicate through interaction, rather than relying on explicit supervision , is often considered a prerequisite for developing a general AI. We study a setting where two agents engage in playing a referential game and, from scratch, develop a communication protocol necessary to succeed in this game. Unlike previous work, we require that messages they exchange, both at train and test time, are in the form of a language (i.e. sequences of discrete symbols). We compare a reinforcement learning approach and one using a differentiable relaxation (straight-through Gumbel-softmax estimator (Jang et al., 2017)) and observe that the latter is much faster to converge and it results in more effective protocols. Interestingly, we also observe that the protocol we induce by optimizing the communication success exhibits a degree of compositionality and variability (i.e. the same information can be phrased in different ways), both properties characteristic of natural languages. As the ultimate goal is to ensure that communication is accomplished in natural language, we also perform experiments where we inject prior information about natural language into our model and study properties of the resulting protocol.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

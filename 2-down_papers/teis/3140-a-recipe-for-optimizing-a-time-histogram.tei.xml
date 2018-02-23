@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A recipe for optimizing a time-histogram</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hideaki</forename><surname>Shimazaki</surname></persName>
+							<email>shimazaki@ton.scphys.kyoto-u.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physics</orgName>
+								<orgName type="department" key="dep2">Graduate School of Science</orgName>
+								<orgName type="department" key="dep3">Department of Physics, Graduate School of Science</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8502</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shigeru</forename><surname>Shinomoto</surname></persName>
+							<email>shinomoto@scphys.kyoto-u.ac.jp</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8502</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A recipe for optimizing a time-histogram</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The time-histogram method is a handy tool for capturing the instantaneous rate of spike occurrence. In most of the neurophysiological literature, the bin size that critically determines the goodness of the fit of the time-histogram to the underlying rate has been selected by individual researchers in an unsystematic manner. We propose an objective method for selecting the bin size of a time-histogram from the spike data, so that the time-histogram best approximates the unknown underlying rate. The resolution of the histogram increases, or the optimal bin size decreases, with the number of spike sequences sampled. It is notable that the optimal bin size diverges if only a small number of experimental trials are available from a moderately fluctuating rate process. In this case, any attempt to characterize the underlying spike rate will lead to spurious results. Given a paucity of data, our method can also suggest how many more trials are needed until the set of data can be analyzed with the required resolution.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

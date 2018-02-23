@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Approximate Solutions to Optimal Stopping Problems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">N</forename><surname>Tsitsiklis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Technology Cambridge</orgName>
+								<orgName type="laboratory">Laboratory for Information and Decision Systems Massachusetts</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><forename type="middle">Van</forename><surname>Roy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Technology Cambridge</orgName>
+								<orgName type="laboratory">Laboratory for Information and Decision Systems Massachusetts</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Approximate Solutions to Optimal Stopping Problems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose and analyze an algorithm that approximates solutions to the problem of optimal stopping in a discounted irreducible ape-riodic Markov chain. The scheme involves the use of linear combinations of fixed basis functions to approximate a Q-function. The weights of the linear combination are incrementally updated through an iterative process similar to Q-Iearning, involving simulation of the underlying Markov chain. Due to space limitations, we only provide an overview of a proof of convergence (with probability 1) and bounds on the approximation error. This is the first theoretical result that establishes the soundness of a Q-Iearning-like algorithm when combined with arbitrary linear function ap-proximators to solve a sequential decision problem. Though this paper focuses on the case of finite state spaces, the results extend naturally to continuous and unbounded state spaces, which are addressed in a forthcoming full-length paper.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

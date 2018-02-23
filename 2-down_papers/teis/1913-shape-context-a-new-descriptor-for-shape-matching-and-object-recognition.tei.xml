@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Shape Context: A new descriptor for shape matching and object recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Serge</forename><surname>Belongie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="institution">University of California at Berkeley Berkeley</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jitendra</forename><surname>Malik</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="institution">University of California at Berkeley Berkeley</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jan</forename><surname>Puzicha</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="institution">University of California at Berkeley Berkeley</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Shape Context: A new descriptor for shape matching and object recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We develop an approach to object recognition based on matching shapes and using a resulting measure of similarity in a nearest neighbor classifier. The key algorithmic problem here is that of finding pointwise correspondences between an image shape and a stored prototype shape. We introduce a new shape descriptor, the shape context, which makes this possible, using a simple and robust algorithm. The shape context at a point captures the distribution over relative positions of other shape points and thus summarizes global shape in a rich, local descriptor. We demonstrate that shape contexts greatly simplify recovery of correspondences between points of two given shapes. Once shapes are aligned, shape contexts are used to define a robust score for measuring shape similarity. We have used this score in a nearest-neighbor classifier for recognition of hand written digits as well as 3D objects, using exactly the same distance function. On the benchmark MNIST dataset of handwritten digits, this yields an error rate of 0.63%, outperforming other published techniques.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online Classification with Specificity Constraints</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrey</forename><surname>Bernstein</surname></persName>
+							<email>andreyb@tx.technion.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering Technion -Israel Institute of Technology Haifa</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering Technion -Israel Institute of Technology Haifa</orgName>
+								<orgName type="institution">Technion -Israel Institute of Technology Haifa</orgName>
+								<address>
+									<postCode>32000, 32000, 32000</postCode>
+									<country>Israel, Israel, Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shie</forename><surname>Mannor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering Technion -Israel Institute of Technology Haifa</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering Technion -Israel Institute of Technology Haifa</orgName>
+								<orgName type="institution">Technion -Israel Institute of Technology Haifa</orgName>
+								<address>
+									<postCode>32000, 32000, 32000</postCode>
+									<country>Israel, Israel, Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nahum</forename><surname>Shimkin</surname></persName>
+							<email>shimkin@ee.technion.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering Technion -Israel Institute of Technology Haifa</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering Technion -Israel Institute of Technology Haifa</orgName>
+								<orgName type="institution">Technion -Israel Institute of Technology Haifa</orgName>
+								<address>
+									<postCode>32000, 32000, 32000</postCode>
+									<country>Israel, Israel, Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online Classification with Specificity Constraints</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the online binary classification problem, where we are given m clas-sifiers. At each stage, the classifiers map the input to the probability that the input belongs to the positive class. An online classification meta-algorithm is an algorithm that combines the outputs of the classifiers in order to attain a certain goal, without having prior knowledge on the form and statistics of the input, and without prior knowledge on the performance of the given classifiers. In this paper, we use sensitivity and specificity as the performance metrics of the meta-algorithm. In particular, our goal is to design an algorithm that satisfies the following two properties (asymptotically): (i) its average false positive rate (fp-rate) is under some given threshold; and (ii) its average true positive rate (tp-rate) is not worse than the tp-rate of the best convex combination of the m given classifiers that satisfies fp-rate constraint, in hindsight. We show that this problem is in fact a special case of the regret minimization problem with constraints, and therefore the above goal is not attainable. Hence, we pose a relaxed goal and propose a corresponding practical online learning meta-algorithm that attains it. In the case of two classifiers, we show that this algorithm takes a very simple form. To our best knowledge, this is the first algorithm that addresses the problem of the average tp-rate maximization under average fp-rate constraints in the online setting.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

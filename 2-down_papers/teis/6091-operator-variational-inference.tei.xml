@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Operator Variational Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajesh</forename><surname>Ranganath</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jaan</forename><surname>Altosaar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dustin</forename><surname>Tran</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">M</forename><surname>Blei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Columbia University</orgName>
+								<orgName type="institution" key="instit4">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Operator Variational Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Variational inference is an umbrella term for algorithms which cast Bayesian inference as optimization. Classically, variational inference uses the Kullback-Leibler divergence to define the optimization. Though this divergence has been widely used, the resultant posterior approximation can suffer from undesirable statistical properties. To address this, we reexamine variational inference from its roots as an optimization problem. We use operators, or functions of functions, to design variational objectives. As one example, we design a variational objective with a Langevin-Stein operator. We develop a black box algorithm, operator variational inference (), for optimizing any operator objective. Importantly, operators enable us to make explicit the statistical and computational tradeoffs for variational inference. We can characterize different properties of variational objectives, such as objectives that admit data subsampling-allowing inference to scale to massive data-as well as objectives that admit variational programs-a rich class of posterior approximations that does not require a tractable density. We illustrate the benefits of on a mixture model and a generative model of images.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

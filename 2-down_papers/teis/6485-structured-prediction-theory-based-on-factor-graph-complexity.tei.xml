@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structured Prediction Theory Based on Factor Graph Complexity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Corinna</forename><surname>Cortes</surname></persName>
+							<email>corinna@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Research New York</orgName>
+								<orgName type="institution" key="instit2">Courant Institute New York</orgName>
+								<address>
+									<postCode>10011, 10012</postCode>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Yang</surname></persName>
+							<email>yangs@cims.nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Research New York</orgName>
+								<orgName type="institution" key="instit2">Courant Institute New York</orgName>
+								<address>
+									<postCode>10011, 10012</postCode>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structured Prediction Theory Based on Factor Graph Complexity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Vitaly Kuznetsov Google Research New York, NY 10011 Mehryar Mohrii Courant Institute and Google New York, NY 10012</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a general theoretical analysis of structured prediction with a series of new results. We give new data-dependent margin guarantees for structured prediction for a very wide family of loss functions and a general family of hypotheses , with an arbitrary factor graph decomposition. These are the tightest margin bounds known for both standard multi-class and general structured prediction problems. Our guarantees are expressed in terms of a data-dependent complexity measure, factor graph complexity, which we show can be estimated from data and bounded in terms of familiar quantities for several commonly used hypothesis sets along with a sparsity measure for features and graphs. Our proof techniques include generalizations of Talagrand&apos;s contraction lemma that can be of independent interest. We further extend our theory by leveraging the principle of Voted Risk Minimization (VRM) and show that learning is possible even with complex factor graphs. We present new learning bounds for this advanced setting, which we use to design two new algorithms, Voted Conditional Random Field (VCRF) and Voted Structured Boosting (StructBoost). These algorithms can make use of complex features and factor graphs and yet benefit from favorable learning guarantees. We also report the results of experiments with VCRF on several datasets to validate our theory.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

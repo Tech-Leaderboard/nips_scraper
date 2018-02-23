@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Robust Conditional Probabilities</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoav</forename><surname>Wald</surname></persName>
+							<email>yoav.wald@mail.huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">The Balvatnik School of Computer Science Tel-Aviv University</orgName>
+								<orgName type="institution">Hebrew University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amir</forename><surname>Globerson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">The Balvatnik School of Computer Science Tel-Aviv University</orgName>
+								<orgName type="institution">Hebrew University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Robust Conditional Probabilities</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Conditional probabilities are a core concept in machine learning. For example, optimal prediction of a label Y given an input X corresponds to maximizing the conditional probability of Y given X. A common approach to inference tasks is learning a model of conditional probabilities. However, these models are often based on strong assumptions (e.g., log-linear models), and hence their estimate of conditional probabilities is not robust and is highly dependent on the validity of their assumptions. Here we propose a framework for reasoning about conditional probabilities without assuming anything about the underlying distributions, except knowledge of their second order marginals, which can be estimated from data. We show how this setting leads to guaranteed bounds on conditional probabilities, which can be calculated efficiently in a variety of settings, including structured-prediction. Finally, we apply them to semi-supervised deep learning, obtaining results competitive with variational autoencoders.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

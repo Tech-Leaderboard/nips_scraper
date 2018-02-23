@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Second order derivatives for network pruning: Optimal Brain Surgeon</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Babak</forename><surname>Hassibi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<addrLine>2882 Sand Hill Road, Suite 115 Menlo Park</addrLine>
+									<postCode>94025-7022, 94305</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">G</forename><surname>Stork</surname></persName>
+							<email>stork@crc.ricoh.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<addrLine>2882 Sand Hill Road, Suite 115 Menlo Park</addrLine>
+									<postCode>94025-7022, 94305</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Second order derivatives for network pruning: Optimal Brain Surgeon</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We investigate the use of information from all second order derivatives of the error function to perfonn network pruning (i.e., removing unimportant weights from a trained network) in order to improve generalization, simplify networks, reduce hardware or storage requirements, increase the speed of further training, and in some cases enable rule extraction. Our method, Optimal Brain Surgeon (OBS), is Significantly better than magnitude-based methods and Optimal Brain Damage [Le Cun, Denker and Sol1a, 1990], which often remove the wrong weights. OBS permits the pruning of more weights than other methods (for the same error on the training set), and thus yields better generalization on test data. Crucial to OBS is a recursion relation for calculating the inverse Hessian matrix H-I from training data and structural information of the net. OBS permits a 90%, a 76%, and a 62% reduction in weights over backpropagation with weighL decay on three benchmark MONK&apos;s problems [Thrun et aI., 1991]. Of OBS, Optimal Brain Damage, and magnitude-based methods, only OBS deletes the correct weights from a trained XOR network in every case. Finally, whereas Sejnowski and Rosenberg [1987J used 18,000 weights in their NETtalk network, we used OBS to prune a network to just 1560 weights, yielding better generalization.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

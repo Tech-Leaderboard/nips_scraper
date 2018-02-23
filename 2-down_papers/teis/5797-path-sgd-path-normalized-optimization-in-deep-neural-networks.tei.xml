@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Path-SGD: Path-Normalized Optimization in Deep Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Behnam</forename><surname>Neyshabur</surname></persName>
+							<email>bneyshabur@ttic.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departments of Statistics and Computer Science</orgName>
+								<orgName type="institution" key="instit1">Toyota Technological Institute at Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Toyota Technological Institute at Chicago</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruslan</forename><surname>Salakhutdinov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departments of Statistics and Computer Science</orgName>
+								<orgName type="institution" key="instit1">Toyota Technological Institute at Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Toyota Technological Institute at Chicago</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nathan</forename><surname>Srebro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departments of Statistics and Computer Science</orgName>
+								<orgName type="institution" key="instit1">Toyota Technological Institute at Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Toyota Technological Institute at Chicago</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Path-SGD: Path-Normalized Optimization in Deep Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We revisit the choice of SGD for training deep neural networks by reconsidering the appropriate geometry in which to optimize the weights. We argue for a geometry invariant to rescaling of weights that does not affect the output of the network, and suggest Path-SGD, which is an approximate steepest descent method with respect to a path-wise regularizer related to max-norm regularization. Path-SGD is easy and efficient to implement and leads to empirical gains over SGD and Ada-Grad.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

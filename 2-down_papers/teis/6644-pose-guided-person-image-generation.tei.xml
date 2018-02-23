@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Pose Guided Person Image Generation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liqian</forename><surname>Ma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Informatics</orgName>
+								<orgName type="department" key="dep2">Saarland Informatics</orgName>
+								<address>
+									<addrLine>Campus 4 ETH Zurich</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xu</forename><surname>Jia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Informatics</orgName>
+								<orgName type="department" key="dep2">Saarland Informatics</orgName>
+								<address>
+									<addrLine>Campus 4 ETH Zurich</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qianru</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Informatics</orgName>
+								<orgName type="department" key="dep2">Saarland Informatics</orgName>
+								<address>
+									<addrLine>Campus 4 ETH Zurich</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernt</forename><surname>Schiele</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Informatics</orgName>
+								<orgName type="department" key="dep2">Saarland Informatics</orgName>
+								<address>
+									<addrLine>Campus 4 ETH Zurich</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tinne</forename><surname>Tuytelaars</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Informatics</orgName>
+								<orgName type="department" key="dep2">Saarland Informatics</orgName>
+								<address>
+									<addrLine>Campus 4 ETH Zurich</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luc</forename><surname>Van Gool</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max Planck Institute for Informatics</orgName>
+								<orgName type="department" key="dep2">Saarland Informatics</orgName>
+								<address>
+									<addrLine>Campus 4 ETH Zurich</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Pose Guided Person Image Generation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>1 KU-Leuven/PSI, TRACE (Toyota Res in Europe) 2 KU-Leuven/PSI, IMEC</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper proposes the novel Pose Guided Person Generation Network (PG 2) that allows to synthesize person images in arbitrary poses, based on an image of that person and a novel pose. Our generation framework PG 2 utilizes the pose information explicitly and consists of two key stages: pose integration and image refinement. In the first stage the condition image and the target pose are fed into a U-Net-like network to generate an initial but coarse image of the person with the target pose. The second stage then refines the initial and blurry result by training a U-Net-like generator in an adversarial way. Extensive experimental results on both 128×64 re-identification images and 256×256 fashion photos show that our model generates high-quality person images with convincing details.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

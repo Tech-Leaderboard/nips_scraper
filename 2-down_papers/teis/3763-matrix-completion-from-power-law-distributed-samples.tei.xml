@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Matrix Completion from Power-Law Distributed Samples</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raghu</forename><surname>Meka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Sciences</orgName>
+								<orgName type="institution">University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>78712</postCode>
+									<region>TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prateek</forename><surname>Jain</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Sciences</orgName>
+								<orgName type="institution">University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>78712</postCode>
+									<region>TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Inderjit</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Sciences</orgName>
+								<orgName type="institution">University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>78712</postCode>
+									<region>TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Matrix Completion from Power-Law Distributed Samples</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The low-rank matrix completion problem is a fundamental problem with many important applications. Recently, [4],[13] and [5] obtained the first non-trivial theoretical results for the problem assuming that the observed entries are sampled uniformly at random. Unfortunately, most real-world datasets do not satisfy this assumption, but instead exhibit power-law distributed samples. In this paper, we propose a graph theoretic approach to matrix completion that solves the problem for more realistic sampling models. Our method is simpler to analyze than previous methods with the analysis reducing to computing the threshold for complete cascades in random graphs, a problem of independent interest. By analyzing the graph theoretic problem, we show that our method achieves exact recovery when the observed entries are sampled from the Chung-Lu-Vu model, which can generate power-law distributed graphs. We also hypothesize that our algorithm solves the matrix completion problem from an optimal number of entries for the popular preferential attachment model and provide strong empirical evidence for the claim. Furthermore, our method is easy to implement and is substantially faster than existing methods. We demonstrate the effectiveness of our method on random instances where the low-rank matrix is sampled according to the prevalent random graph models for complex networks and present promising preliminary results on the Netflix challenge dataset.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

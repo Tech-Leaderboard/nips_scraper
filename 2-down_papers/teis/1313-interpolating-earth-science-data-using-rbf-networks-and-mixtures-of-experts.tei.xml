@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Interpolating Earth-science Data using RBF Networks and Mixtures of Experts</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Vvan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Division of Infonnation Technology Canberra Laboratory</orgName>
+								<orgName type="institution">CSIRO GPO</orgName>
+								<address>
+									<postBox>Box 664</postBox>
+									<postCode>2601</postCode>
+									<settlement>Canberra</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bone</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Division of Infonnation Technology Canberra Laboratory</orgName>
+								<orgName type="institution">CSIRO GPO</orgName>
+								<address>
+									<postBox>Box 664</postBox>
+									<postCode>2601</postCode>
+									<settlement>Canberra</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Interpolating Earth-science Data using RBF Networks and Mixtures of Experts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a mixture of experts (ME) approach to interpolate sparse, spatially correlated earth-science data. Kriging is an interpolation method which uses a global covariation model estimated from the data to take account of the spatial dependence in the data. Based on the close relationship between kriging and the radial basis function (RBF) network (Wan &amp; Bone, 1996), we use a mixture of generalized RBF networks to partition the input space into statistically correlated regions and learn the local covariation model of the data in each region. Applying the ME approach to simulated and real-world data, we show that it is able to achieve good partitioning of the input space, learn the local covariation models and improve generalization.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

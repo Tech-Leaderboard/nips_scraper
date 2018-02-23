@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Off-policy Learning with Options and Recognizers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Doina</forename><surname>Precup</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">McGill University Montreal</orgName>
+								<address>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Sutton</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<region>AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cosmin</forename><surname>Paduraru</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<region>AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anna</forename><surname>Koop</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<region>AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satinder</forename><surname>Singh</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Michigan Ann Arbor</orgName>
+								<address>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Off-policy Learning with Options and Recognizers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a new algorithm for off-policy temporal-difference learning with function approximation that has lower variance and requires less knowledge of the behavior policy than prior methods. We develop the notion of a recognizer, a filter on actions that distorts the behavior policy to produce a related target policy with low-variance importance-sampling corrections. We also consider target policies that are deviations from the state distribution of the behavior policy, such as potential temporally abstract options, which further reduces variance. This paper introduces recognizers and their potential advantages, then develops a full algorithm for linear function approximation and proves that its updates are in the same direction as on-policy TD updates, which implies asymptotic convergence. Even though our algorithm is based on importance sampling, we prove that it requires absolutely no knowledge of the behavior policy for the case of state-aggregation function approximators. Off-policy learning is learning about one way of behaving while actually behaving in another way. For example, Q-learning is an off-policy learning method because it learns about the optimal policy while taking actions in a more exploratory fashion, e.g., according to an ε-greedy policy. Off-policy learning is of interest because only one way of selecting actions can be used at any time, but we would like to learn about many different ways of behaving from the single resultant stream of experience. For example, the options framework for temporal abstraction involves considering a variety of different ways of selecting actions. For each such option one would like to learn a model of its possible outcomes suitable for planning and other uses. Such option models have been proposed as fundamental building blocks of grounded world knowledge (Sutton, Precup &amp; Singh, 1999; Sutton, Rafols &amp; Koop, 2005). Using off-policy learning, one would be able to learn predictive models for many options at the same time from a single stream of experience. Unfortunately, off-policy learning using temporal-difference methods has proven problematic when used in conjunction with function approximation. Function approximation is essential in order to handle the large state spaces that are inherent in many problem do</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

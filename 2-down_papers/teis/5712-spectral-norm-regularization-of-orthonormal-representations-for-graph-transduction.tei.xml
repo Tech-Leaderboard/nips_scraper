@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spectral Norm Regularization of Orthonormal Representations for Graph Transduction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rakesh</forename><surname>Shivanna</surname></persName>
+							<email>rakeshshivanna@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep3">INRIA -Sierra Project-teamÉcole team´teamÉcole Normale Supérieure</orgName>
+								<orgName type="institution">Google Inc. Mountain View</orgName>
+								<address>
+									<settlement>Bangalore, Bangalore, Paris</settlement>
+									<region>CA</region>
+									<country>USA, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bibaswan</forename><surname>Chatterjee</surname></persName>
+							<email>bibaswan.chatterjee@csa.iisc.ernet.in</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep3">INRIA -Sierra Project-teamÉcole team´teamÉcole Normale Supérieure</orgName>
+								<orgName type="institution">Google Inc. Mountain View</orgName>
+								<address>
+									<settlement>Bangalore, Bangalore, Paris</settlement>
+									<region>CA</region>
+									<country>USA, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raman</forename><surname>Sankaran</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep3">INRIA -Sierra Project-teamÉcole team´teamÉcole Normale Supérieure</orgName>
+								<orgName type="institution">Google Inc. Mountain View</orgName>
+								<address>
+									<settlement>Bangalore, Bangalore, Paris</settlement>
+									<region>CA</region>
+									<country>USA, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chiranjib</forename><surname>Bhattacharyya</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep3">INRIA -Sierra Project-teamÉcole team´teamÉcole Normale Supérieure</orgName>
+								<orgName type="institution">Google Inc. Mountain View</orgName>
+								<address>
+									<settlement>Bangalore, Bangalore, Paris</settlement>
+									<region>CA</region>
+									<country>USA, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francis</forename><surname>Bach</surname></persName>
+							<email>francis.bach@ens.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science &amp; Automation Indian Institute of Science</orgName>
+								<orgName type="department" key="dep3">INRIA -Sierra Project-teamÉcole team´teamÉcole Normale Supérieure</orgName>
+								<orgName type="institution">Google Inc. Mountain View</orgName>
+								<address>
+									<settlement>Bangalore, Bangalore, Paris</settlement>
+									<region>CA</region>
+									<country>USA, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spectral Norm Regularization of Orthonormal Representations for Graph Transduction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recent literature [1] suggests that embedding a graph on an unit sphere leads to better generalization for graph transduction. However, the choice of optimal embedding and an efficient algorithm to compute the same remains open. In this paper, we show that orthonormal representations, a class of unit-sphere graph em-beddings are PAC learnable. Existing PAC-based analysis do not apply as the VC dimension of the function class is infinite. We propose an alternative PAC-based bound, which do not depend on the VC dimension of the underlying function class, but is related to the famous Lovász ϑ function. The main contribution of the paper is SPORE, a SPectral regularized ORthonormal Embedding for graph trans-duction, derived from the PAC bound. SPORE is posed as a non-smooth convex function over an elliptope. These problems are usually solved as semi-definite programs (SDPs) with time complexity O(n 6). We present, Infeasible Inexact prox-imal (IIP): an Inexact proximal method which performs subgradient procedure on an approximate projection, not necessarily feasible. IIP is more scalable than SDP, has an O(1 √ T) convergence, and is generally applicable whenever a suitable approximate projection is available. We use IIP to compute SPORE where the approximate projection step is computed by FISTA, an accelerated gradient descent procedure. We show that the method has a convergence rate of O(1 √ T). The proposed algorithm easily scales to 1000&apos;s of vertices, while the standard SDP computation does not scale beyond few hundred vertices. Furthermore, the analysis presented here easily extends to the multiple graph setting.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Orthogonal Matching Pursuit with Replacement</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prateek</forename><surname>Jain</surname></persName>
+							<email>prajain@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AmbujTewari The University of Texas at Austin Austin</orgName>
+								<orgName type="institution">Microsoft Research India Bangalore</orgName>
+								<address>
+									<region>TX</region>
+									<country key="IN">INDIA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Inderjit</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+							<email>inderjit@cs.utexas.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">The University of Texas at Austin Austin</orgName>
+								<address>
+									<region>TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Orthogonal Matching Pursuit with Replacement</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we consider the problem of compressed sensing where the goal is to recover all sparse vectors using a small number offixed linear measurements. For this problem, we propose a novel partial hard-thresholding operator that leads to a general family of iterative algorithms. While one extreme of the family yields well known hard thresholding algorithms like ITI and HTP[17, 10], the other end of the spectrum leads to a novel algorithm that we call Orthogonal Matching Pursnit with Replacement (OMPR). OMPR, like the classic greedy algorithm OMP, adds exactly one coordinate to the support at each iteration, based on the correlation with the current residnal. However, unlike OMP, OMPR also removes one coordinate from the support. This simple change allows us to prove that OMPR has the best known guarantees for sparse recovery in terms of the Restricted Isometry Property (a condition on the measurement matrix). In contrast, OMP is known to have very weak performance guarantees under RIP. Given its simple structore, we are able to extend OMPR using locality sensitive hashing to get OMPR-Hasb, the first provably sub-linear (in dimensionality) algorithm for sparse recovery. Our proof techniques are novel and flexible enough to also permit the tightest known analysis of popular iterative algorithms such as CoSaMP and Subspace Pursnit. We provide experimental results on large problems providing recovery for vectors of size up to million dimensions. We demonstrste that for large-scale problems our proposed methods are more robust and faster than existing methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

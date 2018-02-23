@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast, large-scale transformation-invariant clustering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brendan</forename><forename type="middle">J</forename><surname>Frey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Machine Learning Group</orgName>
+								<orgName type="laboratory" key="lab2">Vision Technology Group Microsoft Research</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nebojsa</forename><surname>Jojic</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Machine Learning Group</orgName>
+								<orgName type="laboratory" key="lab2">Vision Technology Group Microsoft Research</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast, large-scale transformation-invariant clustering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In previous work on &quot;transformed mixtures of Gaussians&quot; and &quot;transformed hidden Markov models&quot;, we showed how the EM algorithm in a discrete latent variable model can be used to jointly normalize data (e.g., center images, pitch-normalize spectrograms) and learn a mixture model of the normalized data. The only input to the algorithm is the data, a list of possible transformations, and the number of clusters to find. The main criticism of this work was that the exhaustive computation of the posterior probabilities over transformations would make scaling up to large feature vectors and large sets of transformations intractable. Here, we describe how a tremendous speed-up is acheived through the use of a variational technique for decoupling transformations, and a fast Fourier transform method for computing posterior probabilities. For N ×N images, learning C clusters under N rotations, N scales, N x-translations and N y-translations takes only (C + 2 log N)N 2 scalar operations per iteration. In contrast, the original algorithm takes CN 6 operations to account for these transformations. We give results on learning a 4-component mixture model from a video sequence with frames of size 320 ×240. The model accounts for 360 rotations and 76,800 translations. Each iteration of EM takes only 10 seconds per frame in MATLAB, which is over 5 million times faster than the original algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Convergent Form of Approximate Policy Iteration</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Theodore</forename><forename type="middle">J</forename><surname>Perkins</surname></persName>
+							<email>perkins@cs.umass.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Massachusetts Amherst Amherst</orgName>
+								<orgName type="institution" key="instit2">McGill University Montreal</orgName>
+								<address>
+									<postCode>01003, H3A 2A7</postCode>
+									<region>MA, Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Doina</forename><surname>Precup</surname></persName>
+							<email>dprecup@cs.mcgill.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Massachusetts Amherst Amherst</orgName>
+								<orgName type="institution" key="instit2">McGill University Montreal</orgName>
+								<address>
+									<postCode>01003, H3A 2A7</postCode>
+									<region>MA, Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Convergent Form of Approximate Policy Iteration</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study a new, model-free form of approximate policy iteration which uses Sarsa updates with linear state-action value function approximation for policy evaluation, and a &quot;policy improvement operator&quot; to generate a new policy based on the learned state-action values. We prove that if the policy improvement operator produces-soft policies and is Lipschitz continuous in the action values, with a constant that is not too large, then the approximate policy iteration algorithm converges to a unique solution from any initial policy. To our knowledge, this is the first convergence result for any form of approximate policy iteration under similar computational-resource assumptions.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

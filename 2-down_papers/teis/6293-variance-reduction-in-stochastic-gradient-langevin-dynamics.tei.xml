@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Variance Reduction in Stochastic Gradient Langevin Dynamics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Avinava</forename><surname>Dubey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Machine Learning Carnegie</orgName>
+								<orgName type="department" key="dep2">IROM/Statistics and Data Science</orgName>
+								<orgName type="institution" key="instit1">Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>15213, 78712</postCode>
+									<region>PA, TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sashank</forename><forename type="middle">J</forename><surname>Reddi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Machine Learning Carnegie</orgName>
+								<orgName type="department" key="dep2">IROM/Statistics and Data Science</orgName>
+								<orgName type="institution" key="instit1">Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>15213, 78712</postCode>
+									<region>PA, TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barnabás</forename><surname>Póczos</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Machine Learning Carnegie</orgName>
+								<orgName type="department" key="dep2">IROM/Statistics and Data Science</orgName>
+								<orgName type="institution" key="instit1">Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>15213, 78712</postCode>
+									<region>PA, TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><forename type="middle">J</forename><surname>Smola</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Machine Learning Carnegie</orgName>
+								<orgName type="department" key="dep2">IROM/Statistics and Data Science</orgName>
+								<orgName type="institution" key="instit1">Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>15213, 78712</postCode>
+									<region>PA, TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">P</forename><surname>Xing</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Machine Learning Carnegie</orgName>
+								<orgName type="department" key="dep2">IROM/Statistics and Data Science</orgName>
+								<orgName type="institution" key="instit1">Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>15213, 78712</postCode>
+									<region>PA, TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sinead</forename><forename type="middle">A</forename><surname>Williamson</surname></persName>
+							<email>sinead.williamson@mccombs.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Machine Learning Carnegie</orgName>
+								<orgName type="department" key="dep2">IROM/Statistics and Data Science</orgName>
+								<orgName type="institution" key="instit1">Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Austin Austin</orgName>
+								<address>
+									<postCode>15213, 78712</postCode>
+									<region>PA, TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Variance Reduction in Stochastic Gradient Langevin Dynamics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Stochastic gradient-based Monte Carlo methods such as stochastic gradient Langevin dynamics are useful tools for posterior inference on large scale datasets in many machine learning applications. These methods scale to large datasets by using noisy gradients calculated using a mini-batch or subset of the dataset. However , the high variance inherent in these noisy gradients degrades performance and leads to slower mixing. In this paper, we present techniques for reducing variance in stochastic gradient Langevin dynamics, yielding novel stochastic Monte Carlo methods that improve performance by reducing the variance in the stochastic gradient. We show that our proposed method has better theoretical guarantees on convergence rate than stochastic Langevin dynamics. This is complemented by impressive empirical results obtained on a variety of real world datasets, and on four different machine learning tasks (regression, classification, independent component analysis and mixture modeling). These theoretical and empirical contributions combine to make a compelling case for using variance reduction in stochastic Monte Carlo methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

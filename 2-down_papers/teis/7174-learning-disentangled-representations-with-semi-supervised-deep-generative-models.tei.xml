@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Disentangled Representations with Semi-Supervised Deep Generative Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Siddharth</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Northeastern University</orgName>
+								<orgName type="institution" key="instit4">University of Oxford</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">University of Oxford</orgName>
+								<orgName type="institution" key="instit7">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brooks</forename><surname>Paige</surname></persName>
+							<email>bpaige@turing.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Northeastern University</orgName>
+								<orgName type="institution" key="instit4">University of Oxford</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">University of Oxford</orgName>
+								<orgName type="institution" key="instit7">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jan-Willem</forename><surname>Van De Meent</surname></persName>
+							<email>j.vandemeent@northeastern.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Northeastern University</orgName>
+								<orgName type="institution" key="instit4">University of Oxford</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">University of Oxford</orgName>
+								<orgName type="institution" key="instit7">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alban</forename><surname>Desmaison</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Northeastern University</orgName>
+								<orgName type="institution" key="instit4">University of Oxford</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">University of Oxford</orgName>
+								<orgName type="institution" key="instit7">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noah</forename><forename type="middle">D</forename><surname>Goodman</surname></persName>
+							<email>ngoodman@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Northeastern University</orgName>
+								<orgName type="institution" key="instit4">University of Oxford</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">University of Oxford</orgName>
+								<orgName type="institution" key="instit7">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pushmeet</forename><surname>Kohli</surname></persName>
+							<email>pushmeet@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Northeastern University</orgName>
+								<orgName type="institution" key="instit4">University of Oxford</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">University of Oxford</orgName>
+								<orgName type="institution" key="instit7">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><surname>Wood</surname></persName>
+							<email>fwood@robots.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Northeastern University</orgName>
+								<orgName type="institution" key="instit4">University of Oxford</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">University of Oxford</orgName>
+								<orgName type="institution" key="instit7">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">H S</forename><surname>Torr</surname></persName>
+							<email>philip.torr@eng.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">Alan Turing Institute University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Northeastern University</orgName>
+								<orgName type="institution" key="instit4">University of Oxford</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">University of Oxford</orgName>
+								<orgName type="institution" key="instit7">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Disentangled Representations with Semi-Supervised Deep Generative Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Variational autoencoders (VAEs) learn representations of data by jointly training a probabilistic encoder and decoder network. Typically these models encode all features of the data into a single variable. Here we are interested in learning disentangled representations that encode distinct aspects of the data into separate variables. We propose to learn such representations using model architectures that generalise from standard VAEs, employing a general graphical model structure in the encoder and decoder. This allows us to train partially-specified models that make relatively strong assumptions about a subset of interpretable variables and rely on the flexibility of neural networks to learn representations for the remaining variables. We further define a general objective for semi-supervised learning in this model class, which can be approximated using an importance sampling procedure. We evaluate our framework&apos;s ability to learn disentangled representations, both by qualitative exploration of its generative capacity, and quantitative evaluation of its discriminative ability on a variety of models and datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

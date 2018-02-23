@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Maximum Covariance Unfolding: Manifold Learning for Bimodal Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vijay</forename><surname>Mahadevan</surname></persName>
+							<email>vmahadev@ucsd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of ECE</orgName>
+								<orgName type="department" key="dep2">Department of Radiology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chi</forename><forename type="middle">Wah</forename><surname>Wong</surname></persName>
+							<email>cwwong@ieee.org</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of ECE</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jose</forename><forename type="middle">Costa</forename><surname>Pereira</surname></persName>
+							<email>josecp@ucsd.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Radiology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+							<email>ttliu@ucsd.edu</email>
+							<affiliation key="aff3">
+								<orgName type="department">Department of ECE</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nuno</forename><surname>Vasconcelos</surname></persName>
+							<email>nvasconcelos@ucsd.edu</email>
+							<affiliation key="aff4">
+								<orgName type="department">Department of CSE</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">K</forename><surname>Saul</surname></persName>
+							<email>saul@cs.ucsd.edu</email>
+							<affiliation key="aff5">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Maximum Covariance Unfolding: Manifold Learning for Bimodal Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose maximum covariance unfolding (MCU), a manifold learning algorithm for simultaneous dimensionality reduction of data from different input modalities. Given high dimensional inputs from two different but naturally aligned sources, MCU computes a common low dimensional embedding that maximizes the cross-modal (inter-source) correlations while preserving the local (intra-source) distances. In this paper, we explore two applications of MCU. First we use MCU to analyze EEG-fMRI data, where an important goal is to visualize the fMRI voxels that are most strongly correlated with changes in EEG traces. To perform this visualization, we augment MCU with an additional step for metric learning in the high dimensional voxel space. Second, we use MCU to perform cross-modal retrieval of matched image and text samples from Wikipedia. To manage large applications of MCU, we develop a fast implementation based on ideas from spectral graph theory. These ideas transform the original problem for MCU, one of semidefinite programming, into a simpler problem in semidefinite quadratic linear programming.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

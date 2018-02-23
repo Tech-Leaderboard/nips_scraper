@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ADMM without a Fixed Penalty Parameter: Faster Convergence with New Adaptive Penalization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yi</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">The University of Iowa</orgName>
+								<address>
+									<postCode>52242</postCode>
+									<settlement>Iowa City</settlement>
+									<region>IA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mingrui</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">The University of Iowa</orgName>
+								<address>
+									<postCode>52242</postCode>
+									<settlement>Iowa City</settlement>
+									<region>IA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qihang</forename><surname>Lin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Management Sciences</orgName>
+								<orgName type="institution">The University of Iowa</orgName>
+								<address>
+									<postCode>52242</postCode>
+									<settlement>Iowa City</settlement>
+									<region>IA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tianbao</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">The University of Iowa</orgName>
+								<address>
+									<postCode>52242</postCode>
+									<settlement>Iowa City</settlement>
+									<region>IA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ADMM without a Fixed Penalty Parameter: Faster Convergence with New Adaptive Penalization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Alternating direction method of multipliers (ADMM) has received tremendous interest for solving numerous problems in machine learning, statistics and signal processing. However, it is known that the performance of ADMM and many of its variants is very sensitive to the penalty parameter of a quadratic penalty applied to the equality constraints. Although several approaches have been proposed for dynamically changing this parameter during the course of optimization, they do not yield theoretical improvement in the convergence rate and are not directly applicable to stochastic ADMM. In this paper, we develop a new ADMM and its linearized variant with a new adaptive scheme to update the penalty parameter. Our methods can be applied under both deterministic and stochastic optimization settings for structured non-smooth objective function. The novelty of the proposed scheme lies at that it is adaptive to a local sharpness property of the objective function, which marks the key difference from previous adaptive scheme that adjusts the penalty parameter per-iteration based on certain conditions on iterates. On theoretical side, given the local sharpness characterized by an exponent θ ∈ (0, 1], we show that the proposed ADMM enjoys an improved iteration complexity of O(1// 1−θ) 1 in the deterministic setting and an iteration complexity of O(1// 2(1−θ)) in the stochastic setting without smoothness and strong convexity assumptions. The complexity in either setting improves that of the standard ADMM which only uses a fixed penalty parameter. On the practical side, we demonstrate that the proposed algorithms converge comparably to, if not much faster than, ADMM with a fine-tuned fixed penalty parameter.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

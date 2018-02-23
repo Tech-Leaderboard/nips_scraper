@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Model-Based Relative Entropy Stochastic Search</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abbas</forename><surname>Abdolmaleki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IEETA</orgName>
+								<orgName type="institution" key="instit2">University of Aveiro</orgName>
+								<address>
+									<settlement>Aveiro</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">DSI</orgName>
+								<orgName type="institution" key="instit2">University of Minho</orgName>
+								<address>
+									<settlement>Braga</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">LIACC</orgName>
+								<orgName type="institution" key="instit2">University of Porto</orgName>
+								<address>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rudolf</forename><surname>Lioutikov</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">IAS</orgName>
+								<address>
+									<addrLine>5: CLAS</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">TU Darmstadt</orgName>
+								<address>
+									<settlement>Darmstadt</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nuno</forename><surname>Lau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IEETA</orgName>
+								<orgName type="institution" key="instit2">University of Aveiro</orgName>
+								<address>
+									<settlement>Aveiro</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paulo</forename><surname>Luis</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Reis</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">DSI</orgName>
+								<orgName type="institution" key="instit2">University of Minho</orgName>
+								<address>
+									<settlement>Braga</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">LIACC</orgName>
+								<orgName type="institution" key="instit2">University of Porto</orgName>
+								<address>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jan</forename><surname>Peters</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">IAS</orgName>
+								<address>
+									<addrLine>5: CLAS</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">TU Darmstadt</orgName>
+								<address>
+									<settlement>Darmstadt</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Max Planck Institute for Intelligent Systems</orgName>
+								<address>
+									<settlement>Stuttgart</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerhard</forename><surname>Neumann</surname></persName>
+						</author>
+						<title level="a" type="main">Model-Based Relative Entropy Stochastic Search</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Stochastic search algorithms are general black-box optimizers. Due to their ease of use and their generality, they have recently also gained a lot of attention in operations research, machine learning and policy search. Yet, these algorithms require a lot of evaluations of the objective, scale poorly with the problem dimension, are affected by highly noisy objective functions and may converge prematurely. To alleviate these problems, we introduce a new surrogate-based stochastic search approach. We learn simple, quadratic surrogate models of the objective function. As the quality of such a quadratic approximation is limited, we do not greedily exploit the learned models. The algorithm can be misled by an inaccurate optimum introduced by the surrogate. Instead, we use information theoretic constraints to bound the &apos;distance&apos; between the new and old data distribution while maximizing the objective function. Additionally the new method is able to sustain the exploration of the search distribution to avoid premature convergence. We compare our method with state of art black-box optimization methods on standard uni-modal and multi-modal optimization functions, on simulated planar robot tasks and a complex robot ball throwing task. The proposed method considerably outper-forms the existing approaches.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

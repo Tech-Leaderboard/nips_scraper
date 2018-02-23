@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Unsupervised Sequence Classification using Sequential Output Statistics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yu</forename><surname>Liu</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jianshu</forename><surname>Chen</surname></persName>
+							<email>jianshuc@microsoft.com †</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Li</forename><surname>Deng</surname></persName>
+							<email>Li.Deng@citadel.com</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<postCode>98052</postCode>
+									<settlement>Redmond</settlement>
+									<region>WA</region>
+									<country>USA ⇤</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Citadel LLC</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+									<country>USA †</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Unsupervised Sequence Classification using Sequential Output Statistics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider learning a sequence classifier without labeled data by using sequential output statistics. The problem is highly valuable since obtaining labels in training data is often costly, while the sequential output statistics (e.g., language models) could be obtained independently of input data and thus with low or no cost. To address the problem, we propose an unsupervised learning cost function and study its properties. We show that, compared to earlier works, it is less inclined to be stuck in trivial solutions and avoids the need for a strong generative model. Although it is harder to optimize in its functional form, a stochastic primal-dual gradient method is developed to effectively solve the problem. Experiment results on real-world datasets demonstrate that the new unsupervised learning method gives drastically lower errors than other baseline methods. Specifically, it reaches test errors about twice of those obtained by fully supervised learning.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

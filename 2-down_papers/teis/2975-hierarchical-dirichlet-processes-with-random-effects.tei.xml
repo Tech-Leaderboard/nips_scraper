@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Hierarchical Dirichlet Processes with Random Effects</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Seyoung</forename><surname>Kim</surname></persName>
+							<email>sykim@ics.uci.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697-3435</postCode>
+									<settlement>Irvine Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Padhraic</forename><surname>Smyth</surname></persName>
+							<email>smyth@ics.uci.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Irvine Irvine</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697-3435</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Hierarchical Dirichlet Processes with Random Effects</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Data sets involving multiple groups with shared characteristics frequently arise in practice. In this paper we extend hierarchical Dirichlet processes to model such data. Each group is assumed to be generated from a template mixture model with group level variability in both the mixing proportions and the component parameters. Variabilities in mixing proportions across groups are handled using hierarchical Dirichlet processes, also allowing for automatic determination of the number of components. In addition, each group is allowed to have its own component parameters coming from a prior described by a template mixture model. This group-level variability in the component parameters is handled using a random effects model. We present a Markov Chain Monte Carlo (MCMC) sampling algorithm to estimate model parameters and demonstrate the method by applying it to the problem of modeling spatial brain activation patterns across multiple images collected via functional magnetic resonance imaging (fMRI).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

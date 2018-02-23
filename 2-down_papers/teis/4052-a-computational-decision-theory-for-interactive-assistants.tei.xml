@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Computational Decision Theory for Interactive Assistants</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><surname>Fern</surname></persName>
+							<email>afern@eecs.oregonstate.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of EECS</orgName>
+								<orgName type="department" key="dep2">School of EECS</orgName>
+								<orgName type="institution" key="instit1">Oregon State University Corvallis</orgName>
+								<orgName type="institution" key="instit2">Oregon State University Corvallis</orgName>
+								<address>
+									<postCode>97331, 97331</postCode>
+									<region>OR, OR</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prasad</forename><surname>Tadepalli</surname></persName>
+							<email>tadepall@eecs.oregonstate.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of EECS</orgName>
+								<orgName type="department" key="dep2">School of EECS</orgName>
+								<orgName type="institution" key="instit1">Oregon State University Corvallis</orgName>
+								<orgName type="institution" key="instit2">Oregon State University Corvallis</orgName>
+								<address>
+									<postCode>97331, 97331</postCode>
+									<region>OR, OR</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Computational Decision Theory for Interactive Assistants</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study several classes of interactive assistants from the points of view of decision theory and computational complexity. We first introduce a class of POMDPs called hidden-goal MDPs (HGMDPs), which formalize the problem of interactively assisting an agent whose goal is hidden and whose actions are observable. In spite of its restricted nature, we show that optimal action selection in finite horizon HGMDPs is PSPACE-complete even in domains with deterministic dynamics. We then introduce a more restricted model called helper action MDPs (HAMDPs), where the assistant&apos;s action is accepted by the agent when it is helpful, and can be easily ignored by the agent otherwise. We show classes of HAMDPs that are complete for PSPACE and NP along with a polynomial time class. Furthermore, we show that for general HAMDPs a simple myopic policy achieves a regret, compared to an omniscient assistant, that is bounded by the entropy of the initial goal distribution. A variation of this policy is shown to achieve worst-case regret that is logarithmic in the number of goals for any goal distribution.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

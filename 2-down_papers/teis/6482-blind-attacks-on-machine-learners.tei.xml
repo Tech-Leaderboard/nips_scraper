@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Blind Attacks on Machine Learners</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><surname>Beatson</surname></persName>
+							<email>abeatson@princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhaoran</forename><surname>Wang</surname></persName>
+							<email>zhaoran@princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Han</forename><surname>Liu</surname></persName>
+							<email>hanliu@princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Operations Research and Financial Engineering</orgName>
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Blind Attacks on Machine Learners</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The importance of studying the robustness of learners to malicious data is well established. While much work has been done establishing both robust estimators and effective data injection attacks when the attacker is omniscient, the ability of an attacker to provably harm learning while having access to little information is largely unstudied. We study the potential of a &quot;blind attacker&quot; to provably limit a learner&apos;s performance by data injection attack without observing the learner&apos;s training set or any parameter of the distribution from which it is drawn. We provide examples of simple yet effective attacks in two settings: firstly, where an &quot;informed learner&quot; knows the strategy chosen by the attacker, and secondly, where a &quot;blind learner&quot; knows only the proportion of malicious data and some family to which the malicious distribution chosen by the attacker belongs. For each attack, we analyze minimax rates of convergence and establish lower bounds on the learner&apos;s minimax risk, exhibiting limits on a learner&apos;s ability to learn under data injection attack even when the attacker is &quot;blind&quot;.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

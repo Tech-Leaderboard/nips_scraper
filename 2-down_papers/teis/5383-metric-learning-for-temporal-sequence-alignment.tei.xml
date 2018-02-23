@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Metric Learning for Temporal Sequence Alignment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Damien</forename><surname>Garreau</surname></persName>
+							<email>damien.garreau@ens.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">INRIA</orgName>
+								<orgName type="institution" key="instit2">INRIA</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">†</forename><surname>Ens</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">INRIA</orgName>
+								<orgName type="institution" key="instit2">INRIA</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rémi</forename><surname>Lajugie</surname></persName>
+							<email>remi.lajugie@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">INRIA</orgName>
+								<orgName type="institution" key="instit2">INRIA</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sylvain</forename><surname>Arlot</surname></persName>
+							<email>sylvain.arlot@ens.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">INRIA</orgName>
+								<orgName type="institution" key="instit2">INRIA</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cnrs</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">INRIA</orgName>
+								<orgName type="institution" key="instit2">INRIA</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francis</forename><surname>Bach</surname></persName>
+							<email>francis.bach@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">INRIA</orgName>
+								<orgName type="institution" key="instit2">INRIA</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Metric Learning for Temporal Sequence Alignment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we propose to learn a Mahalanobis distance to perform alignment of multivariate time series. The learning examples for this task are time series for which the true alignment is known. We cast the alignment problem as a structured prediction task, and propose realistic losses between alignments for which the optimization is tractable. We provide experiments on real data in the audio-to-audio context, where we show that the learning of a similarity measure leads to improvements in the performance of the alignment task. We also propose to use this metric learning framework to perform feature selection and, from basic audio features, build a combination of these with better alignment performance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Using Genetic Algorithms to Improve Pattern Classification Performance</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">I</forename><surname>Chang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Lincoln Laboratory</orgName>
+								<orgName type="institution">MIT Lexington</orgName>
+								<address>
+									<postCode>02173-9108</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">P</forename><surname>Lippmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Lincoln Laboratory</orgName>
+								<orgName type="institution">MIT Lexington</orgName>
+								<address>
+									<postCode>02173-9108</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Using Genetic Algorithms to Improve Pattern Classification Performance</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Genetic algorithms were used to select and create features and to select reference exemplar patterns for machine vision and speech pattern classification tasks. For a complex speech recognition task, genetic algorithms required no more computation time than traditional approaches to feature selection but reduced the number of input features required by a factor of five (from 153 to 33 features). On a difficult artificial machine-vision task, genetic algorithms were able to create new features (polynomial functions of the original features) which reduced classification error rates from 19% to almost 0%. Neural net and k nearest neighbor (KNN) classifiers were unable to provide such low error rates using only the original features. Genetic algorithms were also used to reduce the number of reference exemplar patterns for a KNN classifier. On a 338 training pattern vowel-recognition problem with 10 classes, genetic algorithms reduced the number of stored exemplars from 338 to 43 without significantly increasing classification error rate. In all applications, genetic algorithms were easy to apply and found good solutions in many fewer trials than would be required by exhaustive search. Run times were long, but not unreasonable. These results suggest that genetic algorithms are becoming practical for pattern classification problems as faster serial and parallel computers are developed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

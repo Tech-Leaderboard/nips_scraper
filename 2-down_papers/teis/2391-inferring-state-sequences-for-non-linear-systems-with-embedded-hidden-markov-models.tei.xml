@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inferring State Sequences for Non-linear Systems with Embedded Hidden Markov Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Radford</forename><forename type="middle">M</forename><surname>Neal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>M5S 3G3</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">J</forename><surname>Beal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>M5S 3G3</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><forename type="middle">T</forename><surname>Roweis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>M5S 3G3</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inferring State Sequences for Non-linear Systems with Embedded Hidden Markov Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a Markov chain method for sampling from the distribution of the hidden state sequence in a non-linear dynamical system, given a sequence of observations. This method updates all states in the sequence simultaneously using an embedded Hidden Markov Model (HMM). An update begins with the creation of &quot;pools&quot; of candidate states at each time. We then define an embedded HMM whose states are indexes within these pools. Using a forward-backward dynamic programming algorithm , we can efficiently choose a state sequence with the appropriate probabilities from the exponentially large number of state sequences that pass through states in these pools. We illustrate the method in a simple one-dimensional example, and in an example showing how an embedded HMM can be used to in effect discretize the state space without any discretization error. We also compare the embedded HMM to a particle smoother on a more substantial problem of inferring human motion from 2D traces of markers.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

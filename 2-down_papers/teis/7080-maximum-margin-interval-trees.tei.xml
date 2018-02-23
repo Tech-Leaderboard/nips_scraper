@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Maximum Margin Interval Trees</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexandre</forename><surname>Drouin</surname></persName>
+							<email>alexandre.drouin.8@ulaval.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">McGill Genome Center</orgName>
+								<orgName type="laboratory">Département d&apos;informatique et de génie logiciel</orgName>
+								<orgName type="institution">Université Laval</orgName>
+								<address>
+									<region>Québec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Toby</forename><forename type="middle">Dylan</forename><surname>Hocking</surname></persName>
+							<email>toby.hocking@r-project.org</email>
+							<affiliation key="aff1">
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<settlement>Montréal</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">François</forename><surname>Laviolette</surname></persName>
+							<email>francois.laviolette@ift.ulaval.ca</email>
+							<affiliation key="aff2">
+								<orgName type="institution">Université Laval</orgName>
+								<address>
+									<region>Québec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Maximum Margin Interval Trees</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning a regression function using censored or interval-valued output data is an important problem in fields such as genomics and medicine. The goal is to learn a real-valued prediction function, and the training output labels indicate an interval of possible values. Whereas most existing algorithms for this task are linear models, in this paper we investigate learning nonlinear tree models. We propose to learn a tree by minimizing a margin-based discriminative objective function, and we provide a dynamic programming algorithm for computing the optimal solution in log-linear time. We show empirically that this algorithm achieves state-of-the-art speed and prediction accuracy in a benchmark of several data sets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

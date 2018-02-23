@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spectral Hashing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yair</forename><surname>Weiss</surname></persName>
+							<email>yweiss@cs.huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science</orgName>
+								<orgName type="institution">Hebrew University</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">CSAIL</orgName>
+								<address>
+									<addrLine>32 Vassar St</addrLine>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antonio</forename><surname>Torralba</surname></persName>
+							<email>torralba@csail.mit.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">CSAIL</orgName>
+								<address>
+									<addrLine>32 Vassar St</addrLine>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rob</forename><surname>Fergus</surname></persName>
+							<email>fergus@cs.nyu.edu</email>
+							<affiliation key="aff2">
+								<orgName type="institution">Courant Institute</orgName>
+								<address>
+									<postCode>715, 10003</postCode>
+									<settlement>Broadway, New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spectral Hashing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Semantic hashing[1] seeks compact binary codes of data-points so that the Hamming distance between codewords correlates with semantic similarity. In this paper, we show that the problem of finding a best code for a given dataset is closely related to the problem of graph partitioning and can be shown to be NP hard. By relaxing the original problem, we obtain a spectral method whose solutions are simply a subset of thresholded eigen-vectors of the graph Laplacian. By utilizing recent results on convergence of graph Laplacian eigenvectors to the Laplace-Beltrami eigenfunctions of manifolds, we show how to efficiently calculate the code of a novel data-point. Taken together, both learning the code and applying it to a novel point are extremely simple. Our experiments show that our codes outper-form the state-of-the art.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

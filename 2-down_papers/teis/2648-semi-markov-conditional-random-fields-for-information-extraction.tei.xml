@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Semi-Markov Conditional Random Fields for Information Extraction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sunita</forename><surname>Sarawagi</surname></persName>
+							<email>sunita@iitb.ac.in</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Automated Learning &amp; Discovery</orgName>
+								<orgName type="institution">Indian Institute of Technology Bombay</orgName>
+								<address>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+							<email>wcohen@cs.cmu.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Semi-Markov Conditional Random Fields for Information Extraction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe semi-Markov conditional random fields (semi-CRFs), a conditionally trained version of semi-Markov chains. Intuitively, a semi-CRF on an input sequence x outputs a &quot;segmentation&quot; of x, in which labels are assigned to segments (i.e., subsequences) of x rather than to individual elements x i of x. Importantly, features for semi-CRFs can measure properties of segments, and transitions within a segment can be non-Markovian. In spite of this additional power, exact learning and inference algorithms for semi-CRFs are polynomial-time-often only a small constant factor slower than conventional CRFs. In experiments on five named entity recognition problems, semi-CRFs generally outper-form conventional CRFs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

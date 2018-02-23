@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Real-time adaptive information-theoretic optimization of neurophysiology experiments *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeremy</forename><surname>Lewi</surname></persName>
+							<email>jlewi@gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Bioengineering Georgia Institute of Technology</orgName>
+								<orgName type="department" key="dep2">School of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Butera</surname></persName>
+							<email>rbutera@ece.gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Bioengineering Georgia Institute of Technology</orgName>
+								<orgName type="department" key="dep2">School of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liam</forename><surname>Paninski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Bioengineering Georgia Institute of Technology</orgName>
+								<orgName type="department" key="dep2">School of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Real-time adaptive information-theoretic optimization of neurophysiology experiments *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Adaptively optimizing experiments can significantly reduce the number of trials needed to characterize neural responses using parametric statistical models. However , the potential for these methods has been limited to date by severe computational challenges: choosing the stimulus which will provide the most information about the (typically high-dimensional) model parameters requires evaluating a high-dimensional integration and optimization in near-real time. Here we present a fast algorithm for choosing the optimal (most informative) stimulus based on a Fisher approximation of the Shannon information and specialized numerical linear algebra techniques. This algorithm requires only low-rank matrix manipulations and a one-dimensional linesearch to choose the stimulus and is therefore efficient even for high-dimensional stimulus and parameter spaces; for example, we require just 15 milliseconds on a desktop computer to optimize a 100-dimensional stimulus. Our algorithm therefore makes real-time adaptive experimental design feasible. Simulation results show that model parameters can be estimated much more efficiently using these adaptive techniques than by using random (nonadap-tive) stimuli. Finally, we generalize the algorithm to efficiently handle both fast adaptation due to spike-history effects and slow, non-systematic drifts in the model parameters. Maximizing the efficiency of data collection is important in any experimental setting. In neuro-physiology experiments, minimizing the number of trials needed to characterize a neural system is essential for maintaining the viability of a preparation and ensuring robust results. As a result, various approaches have been developed to optimize neurophysiology experiments online in order to choose the &quot;best&quot; stimuli given prior knowledge of the system and the observed history of the cell&apos;s responses. The &quot;best&quot; stimulus can be defined a number of different ways depending on the experimental objectives. One reasonable choice, if we are interested in finding a neuron&apos;s &quot;preferred stimulus,&quot; is the stimulus which maximizes the firing rate of the neuron [1, 2, 3, 4]. Alternatively, when investigating the coding properties of sensory cells it makes sense to define the optimal stimulus in terms of the mutual information between the stimulus and response [5]. Here we take a system identification approach: we define the optimal stimulus as the one which tells us the most about how a neural system responds to its inputs [6, 7]. We consider neural systems in †</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

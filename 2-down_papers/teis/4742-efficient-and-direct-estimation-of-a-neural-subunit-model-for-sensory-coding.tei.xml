@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient and direct estimation of a neural subunit model for sensory coding</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date>December 3-6, 2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brett</forename><surname>Vintch</surname></persName>
+							<email>vintch@cns.nyu.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">D</forename><surname>Zaharia</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Anthony</forename><surname>Movshon</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eero</forename><forename type="middle">P</forename><surname>Simoncelli</surname></persName>
+						</author>
+						<title level="a" type="main">Efficient and direct estimation of a neural subunit model for sensory coding</title>
+					</analytic>
+					<monogr>
+						<title level="m">Neural Information Processing Systems (NIPS)</title>
+						<meeting> <address><addrLine>Lake Tahoe, Nevada</addrLine></address>
+						</meeting>
+						<imprint>
+							<date type="published">December 3-6, 2012</date>
+						</imprint>
+					</monogr>
+					<note>Center for Neural Science, and † Howard Hughes Medical Institute New York University New York, NY 10003</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many visual and auditory neurons have response properties that are well explained by pooling the rectified responses of a set of spatially shifted linear filters. These filters cannot be estimated using spike-triggered averaging (STA). Subspace methods such as spike-triggered covariance (STC) can recover multiple filters, but require substantial amounts of data, and recover an orthogonal basis for the subspace in which the filters reside rather than the filters themselves. Here, we assume a linear-nonlinear-linear-nonlinear (LN-LN) cascade model in which the first linear stage is a set of shifted (&apos;convolutional&apos;) copies of a common filter, and the first nonlinear stage consists of rectifying scalar nonlinearities that are identical for all filter outputs. We refer to these initial LN elements as the &apos;subunits&apos; of the receptive field. The second linear stage then computes a weighted sum of the responses of the rectified subunits. We present a method for directly fitting this model to spike data, and apply it to both simulated and real neuronal data from primate V1. The subunit model significantly outperforms STA and STC in terms of cross-validated accuracy and efficiency.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

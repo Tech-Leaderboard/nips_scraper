@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Generative Model for Parts-based Object Segmentation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M Ali</forename><surname>Eslami</surname></persName>
+							<email>s.m.eslami@sms.ed.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Informatics</orgName>
+								<orgName type="department" key="dep2">School of Informatics</orgName>
+								<orgName type="institution" key="instit1">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit2">University of Edinburgh</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">K I</forename><surname>Williams</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Informatics</orgName>
+								<orgName type="department" key="dep2">School of Informatics</orgName>
+								<orgName type="institution" key="instit1">University of Edinburgh</orgName>
+								<orgName type="institution" key="instit2">University of Edinburgh</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Generative Model for Parts-based Object Segmentation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The Shape Boltzmann Machine (SBM) [1] has recently been introduced as a state-of-the-art model of foreground/background object shape. We extend the SBM to account for the foreground object&apos;s parts. Our new model, the Multinomial SBM (MSBM), can capture both local and global statistics of part shapes accurately. We combine the MSBM with an appearance model to form a fully generative model of images of objects. Parts-based object segmentations are obtained simply by performing probabilistic inference in the model. We apply the model to two challenging datasets which exhibit significant shape and appearance variability, and find that it obtains results that are comparable to the state-of-the-art. There has been significant focus in computer vision on object recognition and detection e.g. [2], but a strong desire remains to obtain richer descriptions of objects than just their bounding boxes. One such description is a parts-based object segmentation, in which an image is partitioned into multiple sets of pixels, each belonging to either a part of the object of interest, or its background. The significance of parts in computer vision has been recognized since the earliest days of the field (e.g. [3, 4, 5]), and there exists a rich history of work on probabilistic models for parts-based segmentation e.g. [6, 7]. Many such models only consider local neighborhood statistics, however several models have recently been proposed that aim to increase the accuracy of segmentations by also incorporating prior knowledge about the foreground object&apos;s shape [8, 9, 10, 11]. In such cases, probabilistic techniques often mainly differ in how accurately they represent and learn about the variability exhibited by the shapes of the object&apos;s parts. Accurate models of the shapes and appearances of parts can be necessary to perform inference in datasets that exhibit large amounts of variability. In general, the stronger the models of these two components, the more performance is improved. A generative model has the added benefit of being able to generate samples, which allows us to visually inspect the quality of its understanding of the data and the problem. Recently, a generative probabilistic model known as the Shape Boltzmann Machine (SBM) has been used to model binary object shapes [1]. The SBM has been shown to constitute the state-of-the-art and it possesses several highly desirable characteristics: samples from the model look realistic, and it generalizes to generate samples that differ from the limited number of examples it is trained on. The main contributions of this paper are as follows: 1) In order to account for object parts we extend the SBM to use multinomial visible units instead of binary ones, resulting in the Multinomial Shape Boltzmann Machine (MSBM), and we demonstrate that the MSBM constitutes a strong model of parts-based object shape. 2) We combine the MSBM with an appearance model to form a fully generative model of images of objects (see Fig. 1). We show how parts-based object segmentations can be obtained simply by performing probabilistic inference in the model. We apply our model to two challenging datasets and find that in addition to being principled and fully generative, the model&apos;s performance is comparable to the state-of-the-art.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Combined discriminative and generative articulated pose and non-rigid shape estimation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leonid</forename><surname>Sigal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Brown University Providence</orgName>
+								<address>
+									<postCode>02912</postCode>
+									<region>RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexandru</forename><surname>Balan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Brown University Providence</orgName>
+								<address>
+									<postCode>02912</postCode>
+									<region>RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Black</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Brown University Providence</orgName>
+								<address>
+									<postCode>02912</postCode>
+									<region>RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Combined discriminative and generative articulated pose and non-rigid shape estimation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Estimation of three-dimensional articulated human pose and motion from images is a central problem in computer vision. Much of the previous work has been limited by the use of crude generative models of humans represented as articulated collections of simple parts such as cylinders. Automatic initialization of such models has proved difficult and most approaches assume that the size and shape of the body parts are known a priori. In this paper we propose a method for automatically recovering a detailed parametric model of non-rigid body shape and pose from monocular imagery. Specifically, we represent the body using a param-eterized triangulated mesh model that is learned from a database of human range scans. We demonstrate a discriminative method to directly recover the model parameters from monocular images using a conditional mixture of kernel regressors. This predicted pose and shape are used to initialize a generative model for more detailed pose and shape estimation. The resulting approach allows fully automatic pose and shape recovery from monocular and multi-camera imagery. Experimental results show that our method is capable of robustly recovering articulated pose, shape and biometric measurements (e.g. height, weight, etc.) in both calibrated and uncalibrated camera environments.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

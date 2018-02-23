@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Applying Metric-Trees to Belief-Point POMDPs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joelle</forename><surname>Pineau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Stanford University Stanford</orgName>
+								<address>
+									<postCode>15213, 94305</postCode>
+									<region>PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><surname>Gordon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Stanford University Stanford</orgName>
+								<address>
+									<postCode>15213, 94305</postCode>
+									<region>PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sebastian</forename><surname>Thrun</surname></persName>
+							<email>thrun@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Stanford University Stanford</orgName>
+								<address>
+									<postCode>15213, 94305</postCode>
+									<region>PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Applying Metric-Trees to Belief-Point POMDPs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recent developments in grid-based and point-based approximation algorithms for POMDPs have greatly improved the tractability of POMDP planning. These approaches operate on sets of belief points by individually learning a value function for each point. In reality, belief points exist in a highly-structured metric simplex, but current POMDP algorithms do not exploit this property. This paper presents a new metric-tree algorithm which can be used in the context of POMDP planning to sort belief points spatially, and then perform fast value function updates over groups of points. We present results showing that this approach can reduce computation in point-based POMDP algorithms for a wide range of problems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

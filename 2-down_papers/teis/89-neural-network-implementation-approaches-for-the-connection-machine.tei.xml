@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Neural Network Implementation Approaches for the Connection Machine</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nathan</forename><forename type="middle">H</forename><surname>Brown</surname><genName>Jr</genName></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">MRJlPerkin Elmer</orgName>
+								<address>
+									<addrLine>10467 White Granite Dr. (Suite 304)</addrLine>
+									<postCode>22124</postCode>
+									<settlement>Oakton</settlement>
+									<region>Va</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Neural Network Implementation Approaches for the Connection Machine</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>ABSlRACf 127 The SIMD parallelism of the Connection Machine (eM) allows the construction of neural network simulations by the use of simple data and control structures. Two approaches are described which allow parallel computation of a model&apos;s nonlinear functions, parallel modification of a model&apos;s weights, and parallel propagation of a model&apos;s activation and error. Each approach also allows a model&apos;s interconnect structure to be physically dynamic. A Hopfield model is implemented with each approach at six sizes over the same number of CM processors to provide a performance comparison. INTRODUCflON Simulations of neural network models on digital computers perform various computations by applying linear or nonlinear functions, defined in a program, to weighted sums of integer or real numbers retrieved and stored by array reference. The numerical values are model dependent parameters like time averaged spiking frequency (activation), synaptic efficacy (weight), the error in error back propagation models, and computational temperature in thermodynamic models. The interconnect structure of a particular model is implied by indexing relationships between arrays defined in a program. On the Connection Machine (CM), these relationships are expressed in hardware processors interconnected by a 16-dimensional hypercube communication network. Mappings are constructed to defme higher dimensional interconnectivity between processors on top of the fundamental geometry of the communication network. Parallel transfers are defined over these mappings. These mappings may be dynamic. CM parallel operations transform array indexing from a temporal succession of references to memory to a single temporal reference to spatially distributed processors. Two alternative approaches to implementing neural network simulations on the CM are described. Both approaches use &quot;data parallelism&quot; 1 provided by the *Lisp virtual machine. Data and control structures associated with each approach and performance data for a Hopfield model implemented with each approach are presented. DATA STRUCTURES The functional components of a neural network model implemented in *Lisp are stored in a uniform parallel variable (pvar) data structure on the CM. The data structure may be viewed as columns of pvars. Columns are given to all CM virtual processors. Each CM physical processor may support 16 virtual processors. In the fust approach described, CM processors are used to represent the edge set of a models graph structure. In the second approach described, each processor can represent a unit, an outgoing link, or an incoming link in a model&apos;s structure. Movement of activation (or error) through a model&apos;s interconnect structure is simulated by moving numeric values</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

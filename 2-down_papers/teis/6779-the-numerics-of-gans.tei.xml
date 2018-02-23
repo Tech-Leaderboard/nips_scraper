@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Numerics of GANs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lars</forename><surname>Mescheder</surname></persName>
+							<email>lars.mescheder@tuebingen.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Autonomous Vision Group MPI Tübingen Machine Intelligence and Perception Group Microsoft Research</orgName>
+								<orgName type="laboratory" key="lab2">Autonomous Vision Group MPI Tübingen</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sebastian</forename><surname>Nowozin</surname></persName>
+							<email>sebastian.nowozin@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Autonomous Vision Group MPI Tübingen Machine Intelligence and Perception Group Microsoft Research</orgName>
+								<orgName type="laboratory" key="lab2">Autonomous Vision Group MPI Tübingen</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andreas</forename><surname>Geiger</surname></persName>
+							<email>andreas.geiger@tuebingen.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Autonomous Vision Group MPI Tübingen Machine Intelligence and Perception Group Microsoft Research</orgName>
+								<orgName type="laboratory" key="lab2">Autonomous Vision Group MPI Tübingen</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Numerics of GANs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we analyze the numerics of common algorithms for training Gener-ative Adversarial Networks (GANs). Using the formalism of smooth two-player games we analyze the associated gradient vector field of GAN training objectives. Our findings suggest that the convergence of current algorithms suffers due to two factors: i) presence of eigenvalues of the Jacobian of the gradient vector field with zero real-part, and ii) eigenvalues with big imaginary part. Using these findings, we design a new algorithm that overcomes some of these limitations and has better convergence properties. Experimentally, we demonstrate its superiority on training common GAN architectures and show convergence on GAN architectures that are known to be notoriously hard to train.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

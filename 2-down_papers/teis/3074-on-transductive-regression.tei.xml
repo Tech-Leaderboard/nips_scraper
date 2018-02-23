@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On Transductive Regression</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Corinna</forename><surname>Cortes</surname></persName>
+							<email>corinna@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Courant Institute of Mathematical Sciences and Google Research</orgName>
+								<orgName type="institution">Google Research</orgName>
+								<address>
+									<addrLine>76 Ninth Avenue New York, 251 Mercer Street New York</addrLine>
+									<postCode>10011, 10012</postCode>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mehryar</forename><surname>Mohri</surname></persName>
+							<email>mohri@cs.nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Courant Institute of Mathematical Sciences and Google Research</orgName>
+								<orgName type="institution">Google Research</orgName>
+								<address>
+									<addrLine>76 Ninth Avenue New York, 251 Mercer Street New York</addrLine>
+									<postCode>10011, 10012</postCode>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On Transductive Regression</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In many modern large-scale learning applications, the amount of unlabeled data far exceeds that of labeled data. A common instance of this problem is the trans-ductive setting where the unlabeled test points are known to the learning algorithm. This paper presents a study of regression problems in that setting. It presents explicit VC-dimension error bounds for transductive regression that hold for all bounded loss functions and coincide with the tight classification bounds of Vapnik when applied to classification. It also presents a new transductive regression algorithm inspired by our bound that admits a primal and kernelized closed-form solution and deals efficiently with large amounts of unlabeled data. The algorithm exploits the position of unlabeled points to locally estimate their labels and then uses a global optimization to ensure robust predictions. Our study also includes the results of experiments with several publicly available regression data sets with up to 20,000 unlabeled examples. The comparison with other transduc-tive regression algorithms shows that it performs well and that it can scale to large data sets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

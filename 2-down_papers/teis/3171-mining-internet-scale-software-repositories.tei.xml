@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mining Internet-Scale Software Repositories</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erik</forename><surname>Linstead</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Information and Computer Science</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697-3435</postCode>
+									<settlement>Irvine Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Rigor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Information and Computer Science</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697-3435</postCode>
+									<settlement>Irvine Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sushil</forename><surname>Bajracharya</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Information and Computer Science</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697-3435</postCode>
+									<settlement>Irvine Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cristina</forename><surname>Lopes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Information and Computer Science</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697-3435</postCode>
+									<settlement>Irvine Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pierre</forename><surname>Baldi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Information and Computer Science</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697-3435</postCode>
+									<settlement>Irvine Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><surname>Bren</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Information and Computer Science</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697-3435</postCode>
+									<settlement>Irvine Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mining Internet-Scale Software Repositories</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Large repositories of source code create new challenges and opportunities for statistical machine learning. Here we first develop Sourcerer, an infrastructure for the automated crawling, parsing, and database storage of open source software. Sourcerer allows us to gather Internet-scale source code. For instance, in one experiment , we gather 4,632 java projects from SourceForge and Apache totaling over 38 million lines of code from 9,250 developers. Simple statistical analyses of the data first reveal robust power-law behavior for package, SLOC, and lexical containment distributions. We then develop and apply unsupervised author-topic, probabilistic models to automatically discover the topics embedded in the code and extract topic-word and author-topic distributions. In addition to serving as a convenient summary for program function and developer activities, these and other related distributions provide a statistical and information-theoretic basis for quantifying and analyzing developer similarity and competence, topic scattering, and document tangling, with direct applications to software engineering. Finally, by combining software textual content with structural information captured by our CodeRank approach, we are able to significantly improve software retrieval performance , increasing the AUC metric to 0.84-roughly 10-30% better than previous approaches based on text alone. Supplementary material may be found at:</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

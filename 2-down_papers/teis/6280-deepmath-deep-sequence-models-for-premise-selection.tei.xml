@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DeepMath-Deep Sequence Models for Premise Selection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><forename type="middle">A</forename><surname>Alemi</surname></persName>
+							<email>alemi@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Google Inc</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Google Inc</orgName>
+								<orgName type="institution" key="instit5">Google Inc</orgName>
+								<orgName type="institution" key="instit6">Czech Technical University</orgName>
+								<address>
+									<settlement>Prague</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">François</forename><surname>Chollet</surname></persName>
+							<email>fchollet@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Google Inc</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Google Inc</orgName>
+								<orgName type="institution" key="instit5">Google Inc</orgName>
+								<orgName type="institution" key="instit6">Czech Technical University</orgName>
+								<address>
+									<settlement>Prague</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Niklas</forename><surname>Een</surname></persName>
+							<email>een@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Google Inc</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Google Inc</orgName>
+								<orgName type="institution" key="instit5">Google Inc</orgName>
+								<orgName type="institution" key="instit6">Czech Technical University</orgName>
+								<address>
+									<settlement>Prague</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><surname>Irving</surname></persName>
+							<email>geoffreyi@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Google Inc</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Google Inc</orgName>
+								<orgName type="institution" key="instit5">Google Inc</orgName>
+								<orgName type="institution" key="instit6">Czech Technical University</orgName>
+								<address>
+									<settlement>Prague</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><surname>Szegedy</surname></persName>
+							<email>szegedy@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Google Inc</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Google Inc</orgName>
+								<orgName type="institution" key="instit5">Google Inc</orgName>
+								<orgName type="institution" key="instit6">Czech Technical University</orgName>
+								<address>
+									<settlement>Prague</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Josef</forename><surname>Urban</surname></persName>
+							<email>josef.urban@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Inc</orgName>
+								<orgName type="institution" key="instit2">Google Inc</orgName>
+								<orgName type="institution" key="instit3">Google Inc</orgName>
+								<orgName type="institution" key="instit4">Google Inc</orgName>
+								<orgName type="institution" key="instit5">Google Inc</orgName>
+								<orgName type="institution" key="instit6">Czech Technical University</orgName>
+								<address>
+									<settlement>Prague</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DeepMath-Deep Sequence Models for Premise Selection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the effectiveness of neural sequence models for premise selection in automated theorem proving, one of the main bottlenecks in the formalization of mathematics. We propose a two stage approach for this task that yields good results for the premise selection task on the Mizar corpus while avoiding the hand-engineered features of existing state-of-the-art models. To our knowledge, this is the first time deep learning has been applied to theorem proving on a large scale.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">CNNpack: Packing Convolutional Neural Networks in the Frequency Domain</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yunhe</forename><surname>Wang</surname></persName>
+							<email>wangyunhe@pku.edu.cn, Chang.Xu@uts.edu.au, youshan@pku.edu.cn, Dacheng.Tao@uts.edu.au, xuchao@cis.pku.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of EECS</orgName>
+								<orgName type="laboratory">Key Laboratory of Machine Perception (MOE)</orgName>
+								<orgName type="institution">Peking University</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Cooperative Medianet Innovation Center</orgName>
+								<orgName type="institution">Peking University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chang</forename><surname>Xu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Software</orgName>
+								<orgName type="laboratory">Centre for Quantum Computation and Intelligent Systems</orgName>
+								<orgName type="institution">University of Technology Sydney</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shan</forename><surname>You</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of EECS</orgName>
+								<orgName type="laboratory">Key Laboratory of Machine Perception (MOE)</orgName>
+								<orgName type="institution">Peking University</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Cooperative Medianet Innovation Center</orgName>
+								<orgName type="institution">Peking University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dacheng</forename><surname>Tao</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Software</orgName>
+								<orgName type="laboratory">Centre for Quantum Computation and Intelligent Systems</orgName>
+								<orgName type="institution">University of Technology Sydney</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chao</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of EECS</orgName>
+								<orgName type="laboratory">Key Laboratory of Machine Perception (MOE)</orgName>
+								<orgName type="institution">Peking University</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Cooperative Medianet Innovation Center</orgName>
+								<orgName type="institution">Peking University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">CNNpack: Packing Convolutional Neural Networks in the Frequency Domain</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Deep convolutional neural networks (CNNs) are successfully used in a number of applications. However, their storage and computational requirements have largely prevented their widespread use on mobile devices. Here we present an effective CNN compression approach in the frequency domain, which focuses not only on smaller weights but on all the weights and their underlying connections. By treating convolutional filters as images, we decompose their representations in the frequency domain as common parts (i.e., cluster centers) shared by other similar filters and their individual private parts (i.e., individual residuals). A large number of low-energy frequency coefficients in both parts can be discarded to produce high compression without significantly compromising accuracy. We relax the computational burden of convolution operations in CNNs by linearly combining the convolution responses of discrete cosine transform (DCT) bases. The compression and speed-up ratios of the proposed algorithm are thoroughly analyzed and evaluated on benchmark image datasets to demonstrate its superiority over state-of-the-art methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

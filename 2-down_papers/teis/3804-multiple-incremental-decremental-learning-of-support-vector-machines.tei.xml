@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multiple Incremental Decremental Learning of Support Vector Machines</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Masayuki</forename><surname>Karasuyama</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Engineering</orgName>
+								<orgName type="institution">Nagoya Institute of Technology Gokiso-cho</orgName>
+								<address>
+									<addrLine>Syouwa-ku</addrLine>
+									<postCode>466-8555</postCode>
+									<settlement>Nagoya</settlement>
+									<region>Aichi</region>
+									<country key="JP">JAPAN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ichiro</forename><surname>Takeuchi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Engineering</orgName>
+								<orgName type="institution">Nagoya Institute of Technology Gokiso-cho</orgName>
+								<address>
+									<addrLine>Syouwa-ku</addrLine>
+									<postCode>466-8555</postCode>
+									<settlement>Nagoya</settlement>
+									<region>Aichi</region>
+									<country key="JP">JAPAN</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multiple Incremental Decremental Learning of Support Vector Machines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a multiple incremental decremental algorithm of Support Vector Machine (SVM). Conventional single incremental decremental SVM can update the trained model efficiently when single data point is added to or removed from the training set. When we add and/or remove multiple data points, this algorithm is time-consuming because we need to repeatedly apply it to each data point. The proposed algorithm is computationally more efficient when multiple data points are added and/or removed simultaneously. The single incremental decremental algorithm is built on an optimization technique called parametric programming. We extend the idea and introduce multi-parametric programming for developing the proposed algorithm. Experimental results on synthetic and real data sets indicate that the proposed algorithm can significantly reduce the computational cost of multiple incremental decremental operation. Our approach is especially useful for online SVM learning in which we need to remove old data points and add new data points in a short amount of time.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

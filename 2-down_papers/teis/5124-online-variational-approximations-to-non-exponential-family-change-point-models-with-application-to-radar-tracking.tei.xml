@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online Variational Approximations to non-Exponential Family Change Point Models: With Application to Radar Tracking</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryan</forename><surname>Turner</surname></persName>
+							<email>ryan.turner@ngc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Northrop Grumman Corp</orgName>
+								<orgName type="laboratory" key="lab2">Northrop Grumman Corp</orgName>
+								<orgName type="institution">Northrop Grumman Corp</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Bottone</surname></persName>
+							<email>steven.bottone@ngc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Northrop Grumman Corp</orgName>
+								<orgName type="laboratory" key="lab2">Northrop Grumman Corp</orgName>
+								<orgName type="institution">Northrop Grumman Corp</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Clay</forename><surname>Stanek</surname></persName>
+							<email>clay.stanek@ngc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Northrop Grumman Corp</orgName>
+								<orgName type="laboratory" key="lab2">Northrop Grumman Corp</orgName>
+								<orgName type="institution">Northrop Grumman Corp</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online Variational Approximations to non-Exponential Family Change Point Models: With Application to Radar Tracking</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The Bayesian online change point detection (BOCPD) algorithm provides an efficient way to do exact inference when the parameters of an underlying model may suddenly change over time. BOCPD requires computation of the underlying model&apos;s posterior predictives, which can only be computed online in O(1) time and memory for exponential family models. We develop variational approximations to the posterior on change point times (formulated as run lengths) for efficient inference when the underlying model is not in the exponential family, and does not have tractable posterior predictive distributions. In doing so, we develop improvements to online variational inference. We apply our methodology to a tracking problem using radar data with a signal-to-noise feature that is Rice distributed. We also develop a variational method for inferring the parameters of the (non-exponential family) Rice distribution. Change point detection has been applied to many applications [5; 7]. In recent years there have been great improvements to the Bayesian approaches via the Bayesian online change point detection algorithm (BOCPD) [1; 23; 27]. Likewise, the radar tracking community has been improving in its use of feature-aided tracking [10]: methods that use auxiliary information from radar returns such as signal-to-noise ratio (SNR), which depend on radar cross sections (RCS) [21]. Older systems would often filter only noisy position (and perhaps Doppler) measurements while newer systems use more information to improve performance. We use BOCPD for modeling the RCS feature. Whereas BOCPD inference could be done exactly when finding change points in conjugate exponential family models the physics of RCS measurements often causes them to be distributed in non-exponential family ways, often following a Rice distribution. To do inference efficiently we call upon variational Bayes (VB) to find approximate posterior (predictive) distributions. Furthermore, the nature of both BOCPD and tracking require the use of online updating. We improve upon the existing and limited approaches to online VB [24; 13]. This paper produces contributions to, and builds upon background from, three independent areas: change point detection, variational Bayes, and radar tracking. Although the emphasis in machine learning is on filtering, a substantial part of tracking with radar data involves data association, illustrated in Figure 1. Observations of radar returns contain measurements from multiple objects (targets) in the sky. If we knew which radar return corresponded to which target we would be presented with N T ∈ N 0 independent filtering problems; Kalman filters [14] (or their nonlinear extensions) are applied to &quot;average out&quot; the kinematic errors in the measurements (typically positions) using the measurements associated with each target. The data association problem is to determine which measurement goes to which track. In the classical setup, once a particular measurement is associated with a certain target, that measurement is plugged into the filter for that target as if we knew with certainty it was the correct assignment. The association algorithms, in effect, find the maximum a posteriori (MAP) estimate on the measurement-to-track association. However, approaches such as the joint probabilistic data association (JPDA) filter [2] and the probability hypothesis density (PHD) filter [16] have deviated from this.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

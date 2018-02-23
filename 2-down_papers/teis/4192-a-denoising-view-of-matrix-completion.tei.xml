@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Denoising View of Matrix Completion</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Weiran</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Migueí</forename><forename type="middle">A</forename><surname>Carreira-Perpiñán</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Perpi˜</forename><surname>Perpiñán</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Merced</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhengdong</forename><surname>Lu</surname></persName>
+							<email>zhengdol@microsoft.com</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Microsoft Research Asia</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Denoising View of Matrix Completion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In matrix completion, we are given a matrix where the values of only some of the entries are present, and we want to reconstruct the missing ones. Much work has focused on the assumption that the data matrix has low rank. We propose a more general assumption based on denoising, so that we expect that the value of a missing entry can be predicted from the values of neighboring points. We propose a nonparametric version of denoising based on local, iterated averaging with mean-shift, possibly constrained to preserve local low-rank manifold structure. The few user parameters required (the denoising scale, number of neighbors and local di-mensionality) and the number of iterations can be estimated by cross-validating the reconstruction error. Using our algorithms as a postprocessing step on an initial reconstruction (provided by e.g. a low-rank method), we show consistent improvements with synthetic, image and motion-capture data. Completing a matrix from a few given entries is a fundamental problem with many applications in machine learning, computer vision, network engineering, and data mining. Much interest in matrix completion has been caused by recent theoretical breakthroughs in compressed sensing [1, 2] as well as by the now celebrated Netflix challenge on practical prediction problems [3, 4]. Since completion of arbitrary matrices is not a well-posed problem, it is often assumed that the underlying matrix comes from a restricted class. Matrix completion models almost always assume a low-rank structure of the matrix, which is partially justified through factor models [4] and fast convex relaxation [2], and often works quite well when the observations are sparse and/or noisy. The low-rank structure of the matrix essentially asserts that all the column vectors (or the row vectors) live on a low-dimensional subspace. This assumption is arguably too restrictive for problems with richer structure, e.g. when each column of the matrix represents a snapshot of a seriously corrupted motion capture sequence (see section 3), for which a more flexible model, namely a curved manifold, is more appropriate. In this paper, we present a novel view of matrix completion based on manifold denoising, which conceptually generalizes the low-rank assumption to curved manifolds. Traditional manifold de-noising is performed on fully observed data [5, 6], aiming to send the data corrupted by noise back to the correct surface (defined in some way). However, with a large proportion of missing entries, we may not have a good estimate of the manifold. Instead, we start with a poor estimate and improve it iteratively. Therefore the &quot;noise&quot; may be due not just to intrinsic noise, but mostly to inaccurately estimated missing entries. We show that our algorithm can be motivated from an objective purely based on denoising, and prove its convergence under some conditions. We then consider a more general case with a nonlinear low-dimensional manifold and use a stopping criterion that works successfully in practice. Our model reduces to a low-rank model when we require the manifold to be flat, showing a relation with a recent thread of matrix completion models based on alternating projection [7]. In our experiments, we show that our denoising-based matrix completion model can make better use of the latent manifold structure on both artificial and real-world data sets, and yields superior recovery of the missing entries. The paper is organized as follows: section 1 reviews nonparametric denoising methods based on mean-shift updates, section 2 extends this to matrix completion by using denoising with constraints, section 3 gives experimental results, and section 4 discusses related work.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Safe Adaptive Importance Sampling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>EPFL</roleName><forename type="first">Sebastian</forename><forename type="middle">U</forename><surname>Stich</surname></persName>
+							<email>sebastian.stich@epfl.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Intelligent Systems</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anant</forename><surname>Raj</surname></persName>
+							<email>anant.raj@tuebingen.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Intelligent Systems</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>EPFL</roleName><forename type="first">Martin</forename><surname>Jaggi</surname></persName>
+							<email>martin.jaggi@epfl.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Intelligent Systems</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Safe Adaptive Importance Sampling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Importance sampling has become an indispensable strategy to speed up optimization algorithms for large-scale applications. Improved adaptive variants-using importance values defined by the complete gradient information which changes during optimization-enjoy favorable theoretical properties, but are typically com-putationally infeasible. In this paper we propose an efficient approximation of gradient-based sampling, which is based on safe bounds on the gradient. The proposed sampling distribution is (i) provably the best sampling with respect to the given bounds, (ii) always better than uniform sampling and fixed importance sampling and (iii) can efficiently be computed-in many applications at negligible extra cost. The proposed sampling scheme is generic and can easily be integrated into existing algorithms. In particular, we show that coordinate-descent (CD) and stochastic gradient descent (SGD) can enjoy significant a speed-up under the novel scheme. The proven efficiency of the proposed sampling is verified by extensive numerical testing.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

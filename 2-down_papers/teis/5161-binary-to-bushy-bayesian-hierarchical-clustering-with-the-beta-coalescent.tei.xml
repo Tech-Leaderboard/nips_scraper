@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Binary to Bushy: Bayesian Hierarchical Clustering with the Beta Coalescent</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuening</forename><surname>Hu</surname></persName>
+							<email>ynhu@cs.umd.edu,</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jordan</forename><surname>Boyd-Graber</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hal</forename><forename type="middle">Daumè</forename><surname>Iii</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">Irene</forename><surname>Ying</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Agriculture</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Binary to Bushy: Bayesian Hierarchical Clustering with the Beta Coalescent</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>1, 3: Computer Science, 2: iSchool and UMIACS, 4: Agricultural Research Service 1, 2, 3:</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Discovering hierarchical regularities in data is a key problem in interacting with large datasets, modeling cognition, and encoding knowledge. A previous Bayesian solution-Kingman&apos;s coalescent-provides a probabilistic model for data represented as a binary tree. Unfortunately, this is inappropriate for data better described by bushier trees. We generalize an existing belief propagation framework of Kingman&apos;s coalescent to the beta coalescent, which models a wider range of tree structures. Because of the complex combinatorial search over possible structures, we develop new sampling schemes using sequential Monte Carlo and Dirichlet process mixture models, which render inference efficient and tractable. We present results on synthetic and real data that show the beta coalescent outperforms King-man&apos;s coalescent and is qualitatively better at capturing data in bushy hierarchies. 1 The Need For Bushy Hierarchical Clustering Hierarchical clustering is a fundamental data analysis problem: given observations, what hierarchical grouping of those observations effectively encodes the similarities between observations? This is a critical task for understanding and describing observations in many domains [1, 2], including natural language processing [3], computer vision [4], and network analysis [5]. In all of these cases, natural and intuitive hierarchies are not binary but are instead bushy, with more than two children per parent node. Our goal is to provide efficient algorithms to discover bushy hierarchies. We review existing nonparametric probabilistic clustering algorithms in Section 2, with particular focus on Kingman&apos;s coalescent [6] and its generalization, the beta coalescent [7, 8]. While Kingman&apos;s coalescent has attractive properties-it is probabilistic and has edge &quot;lengths&quot; that encode how similar clusters are-it only produces binary trees. The beta coalescent (Section 3) does not have this restriction. However, na¨ıvena¨ıve inference is impractical, because bushy trees are more complex: we need to consider all possible subsets of nodes to construct each internal nodes in the hierarchy. Our first contribution is a generalization of the belief propagation framework [9] for beta coalescent to compute the joint probability of observations and trees (Section 3). After describing sequential Monte Carlo posterior inference for the beta coalescent, we develop efficient inference strategies in Section 4, where we use proposal distributions that draw on the connection between Dirichlet processes-a ubiquitous Bayesian nonparametric tool for non-hierarchical clustering-and hierarchical coalescents to make inference tractable. We present results on both synthetic and real data that show the beta coalescent captures bushy hierarchies and outperforms Kingman&apos;s coalescent (Section 5).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Accelerated Mini-batch Randomized Block Coordinate Descent Method</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tuo</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Johns Hopkins University ‡ Harbin Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">§⇤</forename><surname>Mo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Johns Hopkins University ‡ Harbin Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yu</forename><surname>‡⇤</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Johns Hopkins University ‡ Harbin Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yiming</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Johns Hopkins University ‡ Harbin Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raman</forename><surname>Arora</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Johns Hopkins University ‡ Harbin Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Han</forename><surname>Liu</surname></persName>
+							<email>hanliu@princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Johns Hopkins University ‡ Harbin Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Accelerated Mini-batch Randomized Block Coordinate Descent Method</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider regularized empirical risk minimization problems. In particular, we minimize the sum of a smooth empirical risk function and a nonsmooth regulariza-tion function. When the regularization function is block separable, we can solve the minimization problems in a randomized block coordinate descent (RBCD) manner. Existing RBCD methods usually decrease the objective value by exploiting the partial gradient of a randomly selected block of coordinates in each iteration. Thus they need all data to be accessible so that the partial gradient of the block gradient can be exactly obtained. However, such a &quot;batch&quot; setting may be computationally expensive in practice. In this paper, we propose a mini-batch ran-domized block coordinate descent (MRBCD) method, which estimates the partial gradient of the selected block based on a mini-batch of randomly sampled data in each iteration. We further accelerate the MRBCD method by exploiting the semi-stochastic optimization scheme, which effectively reduces the variance of the partial gradient estimators. Theoretically, we show that for strongly convex functions, the MRBCD method attains lower overall iteration complexity than existing RBCD methods. As an application, we further trim the MRBCD method to solve the regularized sparse learning problems. Our numerical experiments shows that the MRBCD method naturally exploits the sparsity structure and achieves better computational performance than existing methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

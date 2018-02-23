@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stochastic Convex Optimization with Multiple Objectives</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mehrdad</forename><surname>Mahdavi</surname></persName>
+							<email>mahdavim@cse.msu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Michigan State University</orgName>
+								<orgName type="institution" key="instit2">NEC Labs America, Inc</orgName>
+								<orgName type="institution" key="instit3">Michigan State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tianbao</forename><surname>Yang</surname></persName>
+							<email>tyang@nec-labs.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Michigan State University</orgName>
+								<orgName type="institution" key="instit2">NEC Labs America, Inc</orgName>
+								<orgName type="institution" key="instit3">Michigan State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rong</forename><surname>Jin</surname></persName>
+							<email>rongjin@cse.msu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Michigan State University</orgName>
+								<orgName type="institution" key="instit2">NEC Labs America, Inc</orgName>
+								<orgName type="institution" key="instit3">Michigan State University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stochastic Convex Optimization with Multiple Objectives</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we are interested in the development of efficient algorithms for convex optimization problems in the simultaneous presence of multiple objectives and stochasticity in the first-order information. We cast the stochastic multiple objective optimization problem into a constrained optimization problem by choosing one function as the objective and try to bound other objectives by appropriate thresholds. We first examine a two stages exploration-exploitation based algorithm which first approximates the stochastic objectives by sampling and then solves a constrained stochastic optimization problem by projected gradient method. This method attains a suboptimal convergence rate even under strong assumption on the objectives. Our second approach is an efficient primal-dual stochastic algorithm. It leverages on the theory of Lagrangian method in constrained optimization and attains the optimal convergence rate of O(1/ √ T) in high probability for general Lipschitz continuous objectives.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

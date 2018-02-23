@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Finite-Time Analysis of Projected Langevin Monte Carlo</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sébastien</forename><surname>Bubeck</surname></persName>
+							<email>sebubeck@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Weizmann Institute</orgName>
+								<orgName type="institution" key="instit3">Université Paris-Dauphine</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronen</forename><surname>Eldan</surname></persName>
+							<email>roneneldan@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Weizmann Institute</orgName>
+								<orgName type="institution" key="instit3">Université Paris-Dauphine</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Lehec</surname></persName>
+							<email>lehec@ceremade.dauphine.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Weizmann Institute</orgName>
+								<orgName type="institution" key="instit3">Université Paris-Dauphine</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Finite-Time Analysis of Projected Langevin Monte Carlo</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We analyze the projected Langevin Monte Carlo (LMC) algorithm, a close cousin of projected Stochastic Gradient Descent (SGD). We show that LMC allows to sample in polynomial time from a posterior distribution restricted to a convex body and with concave log-likelihood. This gives the first Markov chain to sample from a log-concave distribution with a first-order oracle, as the existing chains with provable guarantees (lattice walk, ball walk and hit-and-run) require a zeroth-order oracle. Our proof uses elementary concepts from stochastic calculus which could be useful more generally to understand SGD and its variants.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

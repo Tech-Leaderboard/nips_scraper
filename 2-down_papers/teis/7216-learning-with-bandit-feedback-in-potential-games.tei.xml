@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning with Bandit Feedback in Potential Games</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johanne</forename><surname>Cohen</surname></persName>
+							<email>johanne.cohen@lri.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amélie</forename><surname>Héliou</surname></persName>
+							<email>amelie.heliou@polytechnique.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Panayotis</forename><surname>Mertikopoulos</surname></persName>
+							<email>panayotis.mertikopoulos@imag.fr</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">LIX, Ecole Polytechnique</orgName>
+								<orgName type="institution" key="instit1">LRI-CNRS</orgName>
+								<orgName type="institution" key="instit2">Université Paris-Sud</orgName>
+								<orgName type="institution" key="instit3">Université Paris-Saclay</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Université Paris-Saclay</orgName>
+								<orgName type="institution" key="instit3">Univ. Grenoble Alpes</orgName>
+								<orgName type="institution" key="instit4">CNRS</orgName>
+								<address>
+									<postCode>F-38000</postCode>
+									<settlement>Grenoble</settlement>
+									<region>AMIBio, Inria, Inria, LIG</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning with Bandit Feedback in Potential Games</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper examines the equilibrium convergence properties of no-regret learning with exponential weights in potential games. To establish convergence with minimal information requirements on the players&apos; side, we focus on two frameworks: the semi-bandit case (where players have access to a noisy estimate of their payoff vectors, including strategies they did not play), and the bandit case (where players are only able to observe their in-game, realized payoffs). In the semi-bandit case, we show that the induced sequence of play converges almost surely to a Nash equilibrium at a quasi-exponential rate. In the bandit case, the same result holds for ε-approximations of Nash equilibria if we introduce an exploration factor ε &gt; 0 that guarantees that action choice probabilities never fall below ε. In particular, if the algorithm is run with a suitably decreasing exploration factor, the sequence of play converges to a bona fide Nash equilibrium with probability 1.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

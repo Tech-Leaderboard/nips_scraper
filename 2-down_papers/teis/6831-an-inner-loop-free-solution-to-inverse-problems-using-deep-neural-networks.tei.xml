@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Inner-loop Free Solution to Inverse Problems using Deep Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kai</forename><surname>Fai</surname></persName>
+							<email>kai.fan@stat.duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<orgName type="institution" key="instit3">Duke University</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qi</forename><surname>Wei</surname></persName>
+							<email>qi.wei@duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<orgName type="institution" key="instit3">Duke University</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><surname>Carin</surname></persName>
+							<email>lcarin@duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<orgName type="institution" key="instit3">Duke University</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katherine</forename><surname>Heller</surname></persName>
+							<email>kheller@stat.duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+								<orgName type="institution" key="instit3">Duke University</orgName>
+								<orgName type="institution" key="instit4">Duke University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An Inner-loop Free Solution to Inverse Problems using Deep Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a new method that uses deep learning techniques to accelerate the popular alternating direction method of multipliers (ADMM) solution for inverse problems. The ADMM updates consist of a proximity operator, a least squares regression that includes a big matrix inversion, and an explicit solution for updating the dual variables. Typically, inner loops are required to solve the first two sub-minimization problems due to the intractability of the prior and the matrix inversion. To avoid such drawbacks or limitations, we propose an inner-loop free update rule with two pre-trained deep convolutional architectures. More specifically, we learn a conditional denoising auto-encoder which imposes an implicit data-dependent prior/regularization on ground-truth in the first sub-minimization problem. This design follows an empirical Bayesian strategy, leading to so-called amortized inference. For matrix inversion in the second sub-problem, we learn a convolutional neural network to approximate the matrix inversion, i.e., the inverse mapping is learned by feeding the input through the learned forward network. Note that training this neural network does not require ground-truth or measurements, i.e., data-independent. Extensive experiments on both synthetic data and real datasets demonstrate the efficiency and accuracy of the proposed method compared with the conventional ADMM solution using inner loops for solving inverse problems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

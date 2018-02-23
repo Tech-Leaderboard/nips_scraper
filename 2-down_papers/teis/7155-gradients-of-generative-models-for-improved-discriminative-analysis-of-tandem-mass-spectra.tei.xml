@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Gradients of Generative Models for Improved Discriminative Analysis of Tandem Mass Spectra</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">T</forename><surname>Halloran</surname></persName>
+							<email>jthalloran@ucdavis.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Public Health Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Public Health Sciences</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Davis</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">M</forename><surname>Rocke</surname></persName>
+							<email>dmrocke@ucdavis.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Davis</orgName>
+								<orgName type="institution">University of California</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Gradients of Generative Models for Improved Discriminative Analysis of Tandem Mass Spectra</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Tandem mass spectrometry (MS/MS) is a high-throughput technology used to identify the proteins in a complex biological sample, such as a drop of blood. A collection of spectra is generated at the output of the process, each spectrum of which is representative of a peptide (protein subsequence) present in the original complex sample. In this work, we leverage the log-likelihood gradients of genera-tive models to improve the identification of such spectra. In particular, we show that the gradient of a recently proposed dynamic Bayesian network (DBN) [7] may be naturally employed by a kernel-based discriminative classifier. The resulting Fisher kernel substantially improves upon recent attempts to combine generative and discriminative models for post-processing analysis, outperforming all other methods on the evaluated datasets. We extend the improved accuracy offered by the Fisher kernel framework to other search algorithms by introducing Theseus, a DBN representing a large number of widely used MS/MS scoring functions. Furthermore, with gradient ascent and max-product inference at hand, we use Theseus to learn model parameters without any supervision.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

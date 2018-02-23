@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Randomized Algorithms for Comparison-based Search</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dominique</forename><surname>Tschopp</surname></persName>
+							<email>dominique.tschopp@gmail.com</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Suhas</forename><surname>Diggavi</surname></persName>
+							<email>suhasdiggavi@ucla.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Payam</forename><surname>Delgosha</surname></persName>
+							<email>pdelgosha@ee.sharif.ir</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Soheil</forename><surname>Mohajer</surname></persName>
+							<email>smohajer@princeton.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AWK Group Bern</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">University of California Los Angeles (UCLA) Los Angeles</orgName>
+								<orgName type="institution">Sharif University of Technology Tehran</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<region>CA</region>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Princeton University Princeton</orgName>
+								<address>
+									<postCode>08544</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Randomized Algorithms for Comparison-based Search</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper addresses the problem of finding the nearest neighbor (or one of the R-nearest neighbors) of a query object q in a database of n objects, when we can only use a comparison oracle. The comparison oracle, given two reference objects and a query object, returns the reference object most similar to the query object. The main problem we study is how to search the database for the nearest neighbor (NN) of a query, while minimizing the questions. The difficulty of this problem depends on properties of the underlying database. We show the importance of a characterization: combinatorial disorder D which defines approximate triangle inequalities on ranks. We present a lower bound of Ω(D log n D + D 2) average number of questions in the search phase for any randomized algorithm, which demonstrates the fundamental role of D for worst case behavior. We develop a randomized scheme for NN retrieval in O(D 3 log 2 n + D log 2 n log log n D 3) questions. The learning requires asking O(nD 3 log 2 n + D log 2 n log log n D 3) questions and O(n log 2 n/ log(2D)) bits to store.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

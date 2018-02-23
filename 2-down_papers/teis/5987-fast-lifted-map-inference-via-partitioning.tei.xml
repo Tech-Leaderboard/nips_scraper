@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Lifted MAP Inference via Partitioning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Somdeb</forename><surname>Sarkhel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">The University of Texas at Dallas</orgName>
+								<orgName type="institution">The University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Parag</forename><surname>Singla</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">The University of Texas at Dallas</orgName>
+								<orgName type="institution">The University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">I T</forename><surname>Delhi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">The University of Texas at Dallas</orgName>
+								<orgName type="institution">The University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vibhav</forename><surname>Gogate</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">The University of Texas at Dallas</orgName>
+								<orgName type="institution">The University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Lifted MAP Inference via Partitioning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recently, there has been growing interest in lifting MAP inference algorithms for Markov logic networks (MLNs). A key advantage of these lifted algorithms is that they have much smaller computational complexity than propositional algorithms when symmetries are present in the MLN and these symmetries can be detected using lifted inference rules. Unfortunately, lifted inference rules are sound but not complete and can often miss many symmetries. This is problematic because when symmetries cannot be exploited, lifted inference algorithms ground the MLN, and search for solutions in the much larger propositional space. In this paper, we present a novel approach, which cleverly introduces new symmetries at the time of grounding. Our main idea is to partition the ground atoms and force the inference algorithm to treat all atoms in each part as indistinguishable. We show that by systematically and carefully refining (and growing) the partitions, we can build advanced anytime and any-space MAP inference algorithms. Our experiments on several real-world datasets clearly show that our new algorithm is superior to previous approaches and often finds useful symmetries in the search space that existing lifted inference rules are unable to detect. Markov logic networks (MLNs) [5] allow application designers to compactly represent and reason about relational and probabilistic knowledge in a large number of application domains including computer vision and natural language understanding using a few weighted first-order logic formulas. These formulas act as templates for generating large Markov networks-the undirected probabilistic graphical model. A key reasoning task over MLNs is maximum a posteriori (MAP) inference, which is defined as the task of finding an assignment of values to all random variables in the Markov network that has the maximum probability. This task can be solved using propositional (graphical model) inference techniques. Unfortunately, these techniques are often impractical because the Markov networks can be quite large, having millions of variables and features. Recently, there has been growing interest in developing lifted inference algorithms [4, 6, 17, 22] for solving the MAP inference task [1, 2, 3, 7, 13, 14, 16, 18, 19]. These algorithms work, as much as possible, on the much smaller first-order specification, grounding or propositionalizing only as necessary and can yield significant complexity reductions in practice. At a high level, lifted algorithms can be understood as algorithms that identify symmetries in the first-order specification using lifted inference rules [9, 13, 19], and then use these symmetries to simultaneously infer over multiple symmetric objects. Unfortunately, in a vast majority of cases, the inference rules are unable to identify several useful symmetries (the rules are sound but not complete), either because the symmetries are approximate or because the symmetries are domain-specific and do not belong to a known type. In such cases, lifted inference algorithms partially ground some atoms in the MLN and search for a solution in this much larger partially propositionalized space. In this paper, we propose the following straightforward yet principled approach for solving this partial grounding problem [21, 23]: partition the ground atoms into groups and force the inference algorithm to treat all atoms in each group as indistinguishable (symmetric). For example, consider a first-order atom R(x) and assume that x can be instantiated to the following set of constants: {1, 2, 3, 4, 5}. If the atom possesses the so-called non-shared or single-occurrence symmetry [13, 19], then the lifted inference algorithm will search over only two assignments: all five groundings of R(x) are either all true or all false, in order to find the MAP solution. When no identifiable symmetries exist, the lifted algorithm will inefficiently search over all possible 32 truth assignments to the 5 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

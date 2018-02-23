@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Robust Value Function Approximation Using Bilinear Programming</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marek</forename><surname>Petrik</surname></persName>
+							<email>petrik@cs.umass.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Massachusetts Amherst</orgName>
+								<orgName type="institution" key="instit2">University of Massachusetts Amherst</orgName>
+								<address>
+									<postCode>01003, 01003</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shlomo</forename><surname>Zilberstein</surname></persName>
+							<email>shlomo@cs.umass.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Massachusetts Amherst</orgName>
+								<orgName type="institution" key="instit2">University of Massachusetts Amherst</orgName>
+								<address>
+									<postCode>01003, 01003</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Robust Value Function Approximation Using Bilinear Programming</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Existing value function approximation methods have been successfully used in many applications, but they often lack useful a priori error bounds. We propose approximate bilinear programming, a new formulation of value function approximation that provides strong a priori guarantees. In particular, this approach prov-ably finds an approximate value function that minimizes the Bellman residual. Solving a bilinear program optimally is NP-hard, but this is unavoidable because the Bellman-residual minimization itself is NP-hard. We therefore employ and analyze a common approximate algorithm for bilinear programs. The analysis shows that this algorithm offers a convergent generalization of approximate policy iteration. Finally, we demonstrate that the proposed approach can consistently minimize the Bellman residual on a simple benchmark problem. 1 Motivation Solving large Markov Decision Problems (MDPs) is a very useful, but computationally challenging problem addressed widely in the AI literature, particularly in the area of reinforcement learning. It is widely accepted that large MDPs can only be solved approximately. The commonly used approximation methods can be divided into three broad categories: 1) policy search, which explores a restricted space of all policies, 2) approximate dynamic programming, which searches a restricted space of value functions, and 3) approximate linear programming, which approximates the solution using a linear program. While all of these methods have achieved impressive results in many domains, they have significant limitations. Policy search methods rely on local search in a restricted policy space. The policy may be represented , for example, as a finite-state controller [22] or as a greedy policy with respect to an approximate value function [24]. Policy search methods have achieved impressive results in such domains as Tetris [24] and helicopter control [1]. However, they are notoriously hard to analyze. We are not aware of any theoretical guarantees regarding the quality of the solution. Approximate dynamic programming (ADP) methods iteratively approximate the value function [4, 20, 23]. They have been extensively analyzed and are the most commonly used methods. However, ADP methods typically do not converge and they only provide weak guarantees of approximation quality. The approximation error bounds are usually expressed in terms of the worst-case approximation of the value function over all policies [4]. In addition, most available bounds are with respect to the L ∞ norm, while the algorithms often minimize the L 2 norm. While there exist some L 2-based bounds [14], they require values that are difficult to obtain. Approximate linear programming (ALP) uses a linear program to compute the approximate value function in a particular vector space [7]. ALP has been previously used in a wide variety of settings [2, 9, 10]. Although ALP often does not perform as well as ADP, there have been some recent 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

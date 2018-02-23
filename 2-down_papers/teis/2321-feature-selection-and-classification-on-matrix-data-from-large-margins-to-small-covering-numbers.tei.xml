@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Feature Selection and Classification on Matrix Data: From Large Margins To Small Covering Numbers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sepp</forename><surname>Hochreiter</surname></persName>
+							<email>{hochreit,oby}@cs.tu-berlin.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="institution">Technische Universität Berlin</orgName>
+								<address>
+									<postCode>10587</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Klaus</forename><surname>Obermayer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="institution">Technische Universität Berlin</orgName>
+								<address>
+									<postCode>10587</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Feature Selection and Classification on Matrix Data: From Large Margins To Small Covering Numbers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We investigate the problem of learning a classification task for datasets which are described by matrices. Rows and columns of these matrices correspond to objects, where row and column objects may belong to different sets, and the entries in the matrix express the relationships between them. We interpret the matrix elements as being produced by an unknown kernel which operates on object pairs and we show that-under mild assumptions-these kernels correspond to dot products in some (unknown) feature space. Minimizing a bound for the generalization error of a linear classi-fier which has been obtained using covering numbers we derive an objective function for model selection according to the principle of structural risk minimization. The new objective function has the advantage that it allows the analysis of matrices which are not positive definite, and not even symmetric or square. We then consider the case that row objects are interpreted as features. We suggest an additional constraint, which imposes sparseness on the row objects and show, that the method can then be used for feature selection. Finally, we apply this method to data obtained from DNA microar-rays, where &quot;column&quot; objects correspond to samples, &quot;row&quot; objects correspond to genes and matrix elements correspond to expression levels. Benchmarks are conducted using standard one-gene classification and support vector machines and K-nearest neighbors after standard feature selection. Our new method extracts a sparse set of genes and provides superior classification results.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Algorithm for Privately Releasing Smooth Queries</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ziteng</forename><surname>Wang</surname></persName>
+							<email>wangzt@cis.pku.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Key Laboratory of Machine Perception</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="laboratory" key="lab3">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="laboratory" key="lab4">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="institution">MOE School of EECS Peking University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kai</forename><surname>Fan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Key Laboratory of Machine Perception</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="laboratory" key="lab3">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="laboratory" key="lab4">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="institution">MOE School of EECS Peking University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiaqi</forename><surname>Zhang</surname></persName>
+							<email>Zhangjq@cis.pku.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Key Laboratory of Machine Perception</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="laboratory" key="lab3">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="laboratory" key="lab4">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="institution">MOE School of EECS Peking University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liwei</forename><surname>Wang</surname></persName>
+							<email>wanglw@cis.pku.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Key Laboratory of Machine Perception</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="laboratory" key="lab3">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="laboratory" key="lab4">Key Laboratory of Machine Perception, MOE School of EECS Peking University</orgName>
+								<orgName type="institution">MOE School of EECS Peking University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Algorithm for Privately Releasing Smooth Queries</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study differentially private mechanisms for answering smooth queries on databases consisting of data points in R d. A K-smooth query is specified by a function whose partial derivatives up to order K are all bounded. We develop an-differentially private mechanism which for the class of K-smooth queries has accuracy O(n − K 2d+K //). The mechanism first outputs a summary of the database. To obtain an answer of a query, the user runs a public evaluation algorithm which contains no information of the database. Outputting the summary runs in time O(n 1+ d 2d+K), and the evaluation algorithm for answering a query runs in time˜O time˜ time˜O(n d+2+ 2d K 2d+K). Our mechanism is based on L ∞-approximation of (transformed) smooth functions by low degree even trigonometric polynomials with small and efficiently computable coefficients.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

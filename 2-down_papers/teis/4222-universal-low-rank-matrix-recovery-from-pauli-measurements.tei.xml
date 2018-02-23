@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Universal low-rank matrix recovery from Pauli measurements</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yi-Kai</forename><surname>Liu</surname></persName>
+							<email>yi-kai.liu@nist.gov</email>
+							<affiliation key="aff0">
+								<orgName type="department">Applied and Computational Mathematics Division</orgName>
+								<orgName type="institution">National Institute of Standards and Technology Gaithersburg</orgName>
+								<address>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Universal low-rank matrix recovery from Pauli measurements</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the problem of reconstructing an unknown matrix M of rank r and dimension d using O(rd poly log d) Pauli measurements. This has applications in quantum state tomography, and is a non-commutative analogue of a well-known problem in compressed sensing: recovering a sparse vector from a few of its Fourier coefficients. We show that almost all sets of O(rd log 6 d) Pauli measurements satisfy the rank-r restricted isometry property (RIP). This implies that M can be recovered from a fixed (&quot;universal&quot;) set of Pauli measurements, using nuclear-norm minimization (e.g., the matrix Lasso), with nearly-optimal bounds on the error. A similar result holds for any class of measurements that use an orthonormal operator basis whose elements have small operator norm. Our proof uses Dudley&apos;s inequality for Gaus-sian processes, together with bounds on covering numbers obtained via entropy duality.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

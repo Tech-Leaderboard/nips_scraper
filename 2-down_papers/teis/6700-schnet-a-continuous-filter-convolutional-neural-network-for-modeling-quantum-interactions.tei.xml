@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SchNet: A continuous-filter convolutional neural network for modeling quantum interactions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">T</forename><surname>Schütt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Machine Learning Group</orgName>
+								<orgName type="institution">Technische Universität Berlin</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P.-J</forename><surname>Kindermans</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Machine Learning Group</orgName>
+								<orgName type="institution">Technische Universität Berlin</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Sauceda</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Theory Department</orgName>
+								<orgName type="department" key="dep2">Fritz-Haber-Institut</orgName>
+								<orgName type="institution">Max-Planck-Gesellschaft</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chmiela</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Machine Learning Group</orgName>
+								<orgName type="institution">Technische Universität Berlin</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tkatchenko</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Physics and Materials Science Research Unit</orgName>
+								<orgName type="institution">University of Luxembourg</orgName>
+								<address>
+									<country key="LU">Luxembourg</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K.-R</forename><surname>Müller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Machine Learning Group</orgName>
+								<orgName type="institution">Technische Universität Berlin</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Max-Planck-Institut für Informatik</orgName>
+								<address>
+									<settlement>Saarbrücken</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Dept. of Brain and Cognitive Engineering</orgName>
+								<orgName type="institution">Korea University</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SchNet: A continuous-filter convolutional neural network for modeling quantum interactions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Deep learning has the potential to revolutionize quantum chemistry as it is ideally suited to learn representations for structured data and speed up the exploration of chemical space. While convolutional neural networks have proven to be the first choice for images, audio and video data, the atoms in molecules are not restricted to a grid. Instead, their precise locations contain essential physical information, that would get lost if discretized. Thus, we propose to use continuous-filter convolutional layers to be able to model local correlations without requiring the data to lie on a grid. We apply those layers in SchNet: a novel deep learning architecture modeling quantum interactions in molecules. We obtain a joint model for the total energy and interatomic forces that follows fundamental quantum-chemical principles. Our architecture achieves state-of-the-art performance for benchmarks of equilibrium molecules and molecular dynamics trajectories. Finally, we introduce a more challenging benchmark with chemical and structural variations that suggests the path for further work.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

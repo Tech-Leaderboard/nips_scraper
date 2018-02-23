@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inferring sparse representations of continuous signals with continuous orthogonal matching pursuit</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karin</forename><forename type="middle">C</forename><surname>Knudson</surname></persName>
+							<email>kknudson@math.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">Department of Neuroscience</orgName>
+								<orgName type="department" key="dep3">Princeton Neuroscience Institute and Department of Psychology Princeton University</orgName>
+								<orgName type="laboratory">Center for Perceptual Systems Departments of Psychology &amp; Neuroscience The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><forename type="middle">L</forename><surname>Yates</surname></persName>
+							<email>jlyates@utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">Department of Neuroscience</orgName>
+								<orgName type="department" key="dep3">Princeton Neuroscience Institute and Department of Psychology Princeton University</orgName>
+								<orgName type="laboratory">Center for Perceptual Systems Departments of Psychology &amp; Neuroscience The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><forename type="middle">C</forename><surname>Huk</surname></persName>
+							<email>huk@utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">Department of Neuroscience</orgName>
+								<orgName type="department" key="dep3">Princeton Neuroscience Institute and Department of Psychology Princeton University</orgName>
+								<orgName type="laboratory">Center for Perceptual Systems Departments of Psychology &amp; Neuroscience The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">W</forename><surname>Pillow</surname></persName>
+							<email>pillow@princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">Department of Neuroscience</orgName>
+								<orgName type="department" key="dep3">Princeton Neuroscience Institute and Department of Psychology Princeton University</orgName>
+								<orgName type="laboratory">Center for Perceptual Systems Departments of Psychology &amp; Neuroscience The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inferring sparse representations of continuous signals with continuous orthogonal matching pursuit</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many signals, such as spike trains recorded in multi-channel electrophysiological recordings, may be represented as the sparse sum of translated and scaled copies of waveforms whose timing and amplitudes are of interest. From the aggregate signal, one may seek to estimate the identities, amplitudes, and translations of the waveforms that compose the signal. Here we present a fast method for recovering these identities, amplitudes, and translations. The method involves greedily selecting component waveforms and then refining estimates of their amplitudes and translations, moving iteratively between these steps in a process analogous to the well-known Orthogonal Matching Pursuit (OMP) algorithm [11]. Our approach for modeling translations borrows from Continuous Basis Pursuit (CBP) [4], which we extend in several ways: by selecting a subspace that optimally captures translated copies of the waveforms, replacing the convex optimization problem with a greedy approach, and moving to the Fourier domain to more precisely estimate time shifts. We test the resulting method, which we call Continuous Orthogonal Matching Pursuit (COMP), on simulated and neural data, where it shows gains over CBP in both speed and accuracy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

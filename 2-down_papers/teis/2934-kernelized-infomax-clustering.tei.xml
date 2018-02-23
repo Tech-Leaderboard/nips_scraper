@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kernelized Infomax Clustering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Felix</forename><forename type="middle">V</forename><surname>Agakov</surname></persName>
+							<email>felixa@inf.ed.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Edinburgh University Edinburgh</orgName>
+								<address>
+									<postCode>EH1 2QL</postCode>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Barber</surname></persName>
+							<email>david.barber@idiap.ch</email>
+							<affiliation key="aff1">
+								<orgName type="institution">IDIAP Research Institute</orgName>
+								<address>
+									<postCode>CH-1920</postCode>
+									<settlement>Martigny</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kernelized Infomax Clustering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a simple information-theoretic approach to soft clustering based on maximizing the mutual information I(x, y) between the unknown cluster labels y and the training patterns x with respect to parameters of specifically constrained encoding distributions. The constraints are chosen such that patterns are likely to be clustered similarly if they lie close to specific unknown vectors in the feature space. The method may be conveniently applied to learning the optimal affinity matrix, which corresponds to learning parameters of the kernelized encoder. The procedure does not require computations of eigenvalues of the Gram matrices, which makes it potentially attractive for clustering large data sets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

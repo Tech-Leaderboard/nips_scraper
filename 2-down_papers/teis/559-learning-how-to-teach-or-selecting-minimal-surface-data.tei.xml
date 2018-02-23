@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning How To Teach or Selecting Minimal Surface Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Davi</forename><surname>Geiger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Inc 755 College Rd. East Princeton</orgName>
+								<orgName type="department" key="dep2">Dipartimento di Informatica</orgName>
+								<orgName type="institution">Siemens Corporate Research</orgName>
+								<address>
+									<postCode>08540</postCode>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><forename type="middle">A Marques</forename><surname>Pereira</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Universita di Trento</orgName>
+								<address>
+									<addrLine>Via Inama 7</addrLine>
+									<postCode>38100</postCode>
+									<region>TN</region>
+									<country key="IT">ITALY</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning How To Teach or Selecting Minimal Surface Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning a map from an input set to an output set is similar to the problem of reconstructing hypersurfaces from sparse data (Poggio and Girosi, 1990). In this framework, we discuss the problem of automatically selecting &quot;minimal&quot; surface data. The objective is to be able to approximately reconstruct the surface from the selected sparse data. We show that this problem is equivalent to the one of compressing information by data removal and the one oflearning how to teach. Our key step is to introduce a process that statistically selects the data according to the model. During the process of data selection (learning how to teach) our system (teacher) is capable of predicting the new surface, the approximated one provided by the selected data. We concentrate on piecewise smooth surfaces, e.g. images, and use mean field techniques to obtain a deterministic network that is shown to compress image data. 1 Learning and surface reconstruction Given a dense input data that represents a hypersurface, how could we automatically select very few data points such as to be able to use these fewer data points (sparse data) to approximately reconstruct the hypersurface ? We will be using the term surface to refer to hypersurface (surface in multidimen-364</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Beyond Pairwise: Provably Fast Algorithms for Approximate k-Way Similarity Search</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anshumali</forename><surname>Shrivastava</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science Computing and Information Science</orgName>
+								<orgName type="department" key="dep2">Department of Statistics &amp; Biostatistics Department of Computer Science</orgName>
+								<orgName type="institution">Cornell University Ithaca</orgName>
+								<address>
+									<postCode>14853</postCode>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ping</forename><surname>Li</surname></persName>
+							<email>pingli@stat.rutgers.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Rutgers University Piscataway</orgName>
+								<address>
+									<postCode>08854</postCode>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Beyond Pairwise: Provably Fast Algorithms for Approximate k-Way Similarity Search</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We go beyond the notion of pairwise similarity and look into search problems with k-way similarity functions. In this paper, we focus on problems related to 3-way Jaccard similarity: R 3way = |S1∩S2∩S3| |S1∪S2∪S3| , S 1 , S 2 , S 3 ∈ C, where C is a size n collection of sets (or binary vectors). We show that approximate R 3way similarity search problems admit fast algorithms with provable guarantees, analogous to the pairwise case. Our analysis and speedup guarantees naturally extend to k-way resemblance. In the process, we extend traditional framework of locality sensitive hashing (LSH) to handle higher-order similarities, which could be of independent theoretical interest. The applicability of R 3way search is shown on the &quot;Google Sets&quot; application. In addition, we demonstrate the advantage of R 3way resemblance over the pairwise case in improving retrieval quality.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

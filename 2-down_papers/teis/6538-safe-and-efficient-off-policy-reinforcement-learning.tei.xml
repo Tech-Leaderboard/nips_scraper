@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Safe and efficient off-policy reinforcement learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rémi</forename><surname>Munos</surname></persName>
+							<email>munos@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Google</forename><surname>Deepmind</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Stepleton</surname></persName>
+							<email>stepleton@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Google</forename><surname>Deepmind</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anna</forename><surname>Harutyunyan</surname></persName>
+							<email>anna.harutyunyan@vub.ac.be</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><forename type="middle">G</forename><surname>Bellemare</surname></persName>
+							<email>bellemare@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Google</forename><surname>Deepmind</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Safe and efficient off-policy reinforcement learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this work, we take a fresh look at some old and new algorithms for off-policy, return-based reinforcement learning. Expressing these in a common form, we derive a novel algorithm, Retrace(λ), with three desired properties: (1) it has low variance; (2) it safely uses samples collected from any behaviour policy, whatever its degree of &quot;off-policyness&quot;; and (3) it is efficient as it makes the best use of samples collected from near on-policy behaviour policies. We analyze the contractive nature of the related operator under both off-policy policy evaluation and control settings and derive online sample-based algorithms. We believe this is the first return-based off-policy control algorithm converging a.s. to Q * without the GLIE assumption (Greedy in the Limit with Infinite Exploration). As a corollary, we prove the convergence of Watkins&apos; Q(λ), which was an open problem since 1989. We illustrate the benefits of Retrace(λ) on a standard suite of Atari 2600 games. One fundamental trade-off in reinforcement learning lies in the definition of the update target: should one estimate Monte Carlo returns or bootstrap from an existing Q-function? Return-based methods (where return refers to the sum of discounted rewards � t γ t r t) offer some advantages over value bootstrap methods: they are better behaved when combined with function approximation, and quickly propagate the fruits of exploration (Sutton, 1996). On the other hand, value bootstrap methods are more readily applied to off-policy data, a common use case. In this paper we show that learning from returns need not be at cross-purposes with off-policy learning. We start from the recent work of Harutyunyan et al. (2016), who show that naive off-policy policy evaluation, without correcting for the &quot;off-policyness&quot; of a trajectory, still converges to the desired Q π value function provided the behavior µ and target π policies are not too far apart (the maximum allowed distance depends on the λ parameter). Their Q π (λ) algorithm learns from trajectories generated by µ simply by summing discounted off-policy corrected rewards at each time step. Unfortunately , the assumption that µ and π are close is restrictive, as well as difficult to uphold in the control case, where the target policy is greedy with respect to the current Q-function. In that sense this algorithm is not safe: it does not handle the case of arbitrary &quot;off-policyness&quot;. Alternatively, the Tree-backup (TB(λ)) algorithm (Precup et al., 2000) tolerates arbitrary tar-get/behavior discrepancies by scaling information (here called traces) from future temporal differences by the product of target policy probabilities. TB(λ) is not efficient in the &quot;near on-policy&quot; case (similar µ and π), though, as traces may be cut prematurely, blocking learning from full returns. In this work, we express several off-policy, return-based algorithms in a common form. From this we derive an improved algorithm, Retrace(λ), which is both safe and efficient, enjoying convergence guarantees for off-policy policy evaluation and-more importantly-for the control setting.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

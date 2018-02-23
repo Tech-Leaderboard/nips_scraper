@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Surface Reconstruction using Learned Shape Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jan</forename><forename type="middle">Erik</forename><surname>Solem</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Technology and Society</orgName>
+								<orgName type="institution">Malmö University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fredrik</forename><surname>Kahl</surname></persName>
+							<email>fredrik@maths.lth.se</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Australian National University</orgName>
+								<address>
+									<addrLine>ACT 0200</addrLine>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rsise</forename></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Australian National University</orgName>
+								<address>
+									<addrLine>ACT 0200</addrLine>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Surface Reconstruction using Learned Shape Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of geometrical surface reconstruction from one or several images using learned shape models. While humans can effortlessly retrieve 3D shape information, this inverse problem has turned out to be difficult to perform automatically. We introduce a framework based on level set surface reconstruction and shape models for achieving this goal. Through this merging, we obtain an efficient and robust method for reconstructing surfaces of an object category of interest. The shape model includes surface cues such as point, curve and silhouette features. Based on ideas from Active Shape Models, we show how both the geometry and the appearance of these features can be modelled consistently in a multi-view context. The complete surface is obtained by evolving a level set driven by a PDE, which tries to fit the surface to the inferred 3D features. In addition, an a priori 3D surface model is used to regularize the solution, in particular, where surface features are sparse. Experiments are demonstrated on a database of real face images.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

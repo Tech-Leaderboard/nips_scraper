@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Comparative Gene Prediction using Conditional Random Fields</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jade</forename><forename type="middle">P</forename><surname>Vinson</surname></persName>
+							<email>jpvinson@broad.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">The Broad Institute of MIT and Harvard Cambridge</orgName>
+								<address>
+									<postCode>02142</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Decaprio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">The Broad Institute of MIT and Harvard Cambridge</orgName>
+								<address>
+									<postCode>02142</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">D</forename><surname>Pearson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">The Broad Institute of MIT and Harvard Cambridge</orgName>
+								<address>
+									<postCode>02142</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stacey</forename><surname>Luoma</surname></persName>
+							<email>sluoma@broad.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">The Broad Institute of MIT and Harvard Cambridge</orgName>
+								<address>
+									<postCode>02142</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">E</forename><surname>Galagan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">The Broad Institute of MIT and Harvard Cambridge</orgName>
+								<address>
+									<postCode>02142</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Comparative Gene Prediction using Conditional Random Fields</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Computational gene prediction using generative models has reached a plateau, with several groups converging to a generalized hidden Markov model (GHMM) incorporating phylogenetic models of nucleotide sequence evolution. Further improvements in gene calling accuracy are likely to come through new methods that incorporate additional data, both comparative and species specific. Conditional Random Fields (CRFs), which directly model the conditional probability P (y|x) of a vector of hidden states conditioned on a set of observations, provide a unified framework for combining probabilistic and non-probabilistic information and have been shown to outperform HMMs on sequence labeling tasks in natural language processing. We describe the use of CRFs for comparative gene prediction. We implement a model that encapsulates both a phylogenetic-GHMM (our baseline comparative model) and additional non-probabilistic features. We tested our model on the genome sequence of the fungal human pathogen Cryptococcus neoformans. Our baseline comparative model displays accuracy comparable to the the best available gene prediction tool for this organism. Moreover, we show that discriminative training and the incorporation of non-probabilistic evidence significantly improve performance. Our software implementation, Conrad, is freely available with an open source license at http://www.broad.mit.edu/annotation/conrad/.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

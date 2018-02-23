@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spectral Methods for Learning Multivariate Latent Tree Structure</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Animashree</forename><surname>Anandkumar</surname></persName>
+							<email>a.anandkumar@uci.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Irvine</orgName>
+								<orgName type="institution" key="instit2">UC San Diego</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research &amp; University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit6">Rutgers University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kamalika</forename><surname>Chaudhuri</surname></persName>
+							<email>kamalika@cs.ucsd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Irvine</orgName>
+								<orgName type="institution" key="instit2">UC San Diego</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research &amp; University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit6">Rutgers University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Hsu</surname></persName>
+							<email>dahsu@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Irvine</orgName>
+								<orgName type="institution" key="instit2">UC San Diego</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research &amp; University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit6">Rutgers University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sham</forename><forename type="middle">M</forename><surname>Kakade</surname></persName>
+							<email>skakade@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Irvine</orgName>
+								<orgName type="institution" key="instit2">UC San Diego</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research &amp; University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit6">Rutgers University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Le</forename><surname>Song</surname></persName>
+							<email>lesong@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Irvine</orgName>
+								<orgName type="institution" key="instit2">UC San Diego</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research &amp; University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit6">Rutgers University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tong</forename><surname>Zhang</surname></persName>
+							<email>tzhang@stat.rutgers.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Irvine</orgName>
+								<orgName type="institution" key="instit2">UC San Diego</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research &amp; University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit6">Rutgers University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spectral Methods for Learning Multivariate Latent Tree Structure</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This work considers the problem of learning the structure of multivariate linear tree models, which include a variety of directed tree graphical models with continuous , discrete, and mixed latent variables such as linear-Gaussian models, hidden Markov models, Gaussian mixture models, and Markov evolutionary trees. The setting is one where we only have samples from certain observed variables in the tree, and our goal is to estimate the tree structure (i.e., the graph of how the underlying hidden variables are connected to each other and to the observed variables). We propose the Spectral Recursive Grouping algorithm, an efficient and simple bottom-up procedure for recovering the tree structure from independent samples of the observed variables. Our finite sample size bounds for exact recovery of the tree structure reveal certain natural dependencies on underlying statistical and structural properties of the underlying joint distribution. Furthermore, our sample complexity guarantees have no explicit dependence on the dimensionality of the observed variables, making the algorithm applicable to many high-dimensional settings. At the heart of our algorithm is a spectral quartet test for determining the relative topology of a quartet of variables from second-order statistics.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

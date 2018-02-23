@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning in Silicon: Timing is Everything</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">V</forename><surname>Arthur</surname></persName>
+							<email>{jarthur, boahen}@seas.upenn.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Bioengineering</orgName>
+								<orgName type="institution">University of Pennsylvania Philadelphia</orgName>
+								<address>
+									<postCode>19104</postCode>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kwabena</forename><surname>Boahen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Bioengineering</orgName>
+								<orgName type="institution">University of Pennsylvania Philadelphia</orgName>
+								<address>
+									<postCode>19104</postCode>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning in Silicon: Timing is Everything</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a neuromorphic chip that uses binary synapses with spike timing-dependent plasticity (STDP) to learn stimulated patterns of activity and to compensate for variability in excitability. Specifically, STDP preferentially potentiates (turns on) synapses that project from excitable neurons, which spike early, to lethargic neurons, which spike late. The additional excitatory synaptic current makes lethargic neurons spike earlier , thereby causing neurons that belong to the same pattern to spike in synchrony. Once learned, an entire pattern can be recalled by stimulating a subset. 1 Variability in Neural Systems Evidence suggests precise spike timing is important in neural coding, specifically, in the hippocampus. The hippocampus uses timing in the spike activity of place cells (in addition to rate) to encode location in space [1]. Place cells employ a phase code: the timing at which a neuron spikes relative to the phase of the inhibitory theta rhythm (5-12Hz) conveys information. As an animal approaches a place cell&apos;s preferred location, the place cell not only increases its spike rate, but also spikes at earlier phases in the theta cycle. To implement a phase code, the theta rhythm is thought to prevent spiking until the input synaptic current exceeds the sum of the neuron threshold and the decreasing inhibition on the downward phase of the cycle [2]. However, even with identical inputs and common theta inhibition, neurons do not spike in synchrony. Variability in excitability spreads the activity in phase. Lethargic neurons (such as those with high thresholds) spike late in the theta cycle, since their input exceeds the sum of the neuron threshold and theta inhibition only after the theta inhibition has had time to decrease. Conversely, excitable neurons (such as those with low thresholds) spike early in the theta cycle. Consequently, variability in excitability translates into variability in timing. We hypothesize that the hippocampus achieves its precise spike timing (about 10ms) through plasticity enhanced phase-coding (PEP). The source of hippocampal timing precision in the presence of variability (and noise) remains unexplained. Synaptic plasticity can compensate for variability in excitability if it increases excitatory synaptic input to neurons in inverse proportion to their excitabilities. Recasting this in a phase-coding framework, we desire a learning rule that increases excitatory synaptic input to neurons directly related to their phases. Neurons that lag require additional synaptic input, whereas neurons that lead</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

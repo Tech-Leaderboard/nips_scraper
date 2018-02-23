@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A New Approximate Maximal Margin Classification Algorithm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claudio</forename><surname>Gentile</surname></persName>
+							<email>gentile@dsi.unimi.it</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">DSI</orgName>
+								<orgName type="institution" key="instit2">Universita&apos; di Milano</orgName>
+								<address>
+									<addrLine>Via Comelico 39</addrLine>
+									<postCode>20135</postCode>
+									<settlement>Milano</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A New Approximate Maximal Margin Classification Algorithm</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A new incremental learning algorithm is described which approximates the maximal margin hyperplane w.r.t. norm p ~ 2 for a set of linearly separable data. Our algorithm, called ALMAp (Approximate Large Margin algorithm w.r.t. norm p), takes 0 ((P~21;;2) corrections to separate the data with p-norm margin larger than (1-0:) ,,(, where,,(is the p-norm margin of the data and X is a bound on the p-norm of the instances. ALMAp avoids quadratic (or higher-order) programming methods. It is very easy to implement and is as fast as on-line algorithms, such as Rosenblatt&apos;s perceptron. We report on some experiments comparing ALMAp to two incremental algorithms: Perceptron and Li and Long&apos;s ROMMA. Our algorithm seems to perform quite better than both. The accuracy levels achieved by ALMAp are slightly inferior to those obtained by Support vector Machines (SVMs). On the other hand, ALMAp is quite faster and easier to implement than standard SVMs training algorithms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

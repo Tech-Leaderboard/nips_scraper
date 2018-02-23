@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inference in Graphical Models via Semidefinite Programming Hierarchies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Murat</forename><forename type="middle">A</forename><surname>Erdogdu</surname></persName>
+							<email>erdogdu@cs.toronto.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">MIT and Microsoft Research</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yash</forename><surname>Deshpande</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">MIT and Microsoft Research</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrea</forename><surname>Montanari</surname></persName>
+							<email>montanari@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">MIT and Microsoft Research</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inference in Graphical Models via Semidefinite Programming Hierarchies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Maximum A posteriori Probability (MAP) inference in graphical models amounts to solving a graph-structured combinatorial optimization problem. Popular inference algorithms such as belief propagation (BP) and generalized belief propagation (GBP) are intimately related to linear programming (LP) relaxation within the Sherali-Adams hierarchy. Despite the popularity of these algorithms, it is well understood that the Sum-of-Squares (SOS) hierarchy based on semidefinite programming (SDP) can provide superior guarantees. Unfortunately, SOS relaxations for a graph with n vertices require solving an SDP with n ⇥(d) variables where d is the degree in the hierarchy. In practice, for d 񮽙 4, this approach does not scale beyond a few tens of variables. In this paper, we propose binary SDP relax-ations for MAP inference using the SOS hierarchy with two innovations focused on computational efficiency. Firstly, in analogy to BP and its variants, we only introduce decision variables corresponding to contiguous regions in the graphical model. Secondly, we solve the resulting SDP using a non-convex Burer-Monteiro style method, and develop a sequential rounding procedure. We demonstrate that the resulting algorithm can solve problems with tens of thousands of variables within minutes, and outperforms BP and GBP on practical problems such as image denoising and Ising spin glasses. Finally, for specific graph types, we establish a sufficient condition for the tightness of the proposed partial SOS relaxation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

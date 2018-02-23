@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Constrained Differential Optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">C</forename><surname>Platt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><forename type="middle">H</forename><surname>Barr</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Constrained Differential Optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>612</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many optimization models of neural networks need constraints to restrict the space of outputs to a subspace which satisfies external criteria. Optimizations using energy methods yield &quot;forces&quot; which act upon the state of the neural network. The penalty method, in which quadratic energy constraints are added to an existing optimization energy, has become popular recently, but is not guaranteed to satisfy the constraint conditions when there are other forces on the neural model or when there are multiple constraints. In this paper, we present the basic differential multiplier method (BDMM), which satisfies constraints exactly; we create forces which gradually apply the constraints over time, using &quot;neurons&quot; that estimate Lagrange multipliers. The basic differential multiplier method is a differential version of the method of multipliers from Numerical Analysis. We prove that the differential equations locally converge to a constrained minimum. Examples of applications of the differential method of multipliers include enforcing permutation codewords in the analog decoding problem and enforcing valid tours in the traveling salesman problem.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

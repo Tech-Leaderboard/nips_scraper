@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Practical Data-Dependent Metric Compression with Provable Guarantees</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Piotr</forename><surname>Indyk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">MIT</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ilya</forename><surname>Razenshteyn</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">MIT</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><surname>Wagner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">MIT</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Practical Data-Dependent Metric Compression with Provable Guarantees</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a new distance-preserving compact representation of multi-dimensional point-sets. Given n points in a d-dimensional space where each coordinate is represented using B bits (i.e., dB bits per point), it produces a representation of size O(d log(dB//) + log n) bits per point from which one can approximate the distances up to a factor of 1 ±. Our algorithm almost matches the recent bound of [6] while being much simpler. We compare our algorithm to Product Quantization (PQ) [7], a state of the art heuristic metric compression method. We evaluate both algorithms on several data sets: SIFT (used in [7]), MNIST [11], New York City taxi time series [4] and a synthetic one-dimensional data set embedded in a high-dimensional space. With appropriately tuned parameters , our algorithm produces representations that are comparable to or better than those produced by PQ, while having provable guarantees on its performance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">REMAP: Recursive Estimation and Maximization of A Posteriori Probabilities-Application to Transition-Based Connectionist Speech Recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yochai</forename><surname>Konig</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">International Computer Science Institute</orgName>
+								<address>
+									<addrLine>1947 Center Street Berkeley</addrLine>
+									<postCode>94704</postCode>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Herve</forename><surname>Bourlard~</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">International Computer Science Institute</orgName>
+								<address>
+									<addrLine>1947 Center Street Berkeley</addrLine>
+									<postCode>94704</postCode>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nelson</forename><surname>Morgan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">International Computer Science Institute</orgName>
+								<address>
+									<addrLine>1947 Center Street Berkeley</addrLine>
+									<postCode>94704</postCode>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">REMAP: Recursive Estimation and Maximization of A Posteriori Probabilities-Application to Transition-Based Connectionist Speech Recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we introduce REMAP, an approach for the training and estimation of posterior probabilities using a recursive algorithm that is reminiscent of the EM-based Forward-Backward (Liporace 1982) algorithm for the estimation of sequence likelihoods. Although very general, the method is developed in the context of a statistical model for transition-based speech recognition using Artificial Neural Networks (ANN) to generate probabilities for Hidden Markov Models (HMMs). In the new approach, we use local conditional posterior probabilities of transitions to estimate global posterior probabilities of word sequences. Although we still use ANNs to estimate posterior probabilities, the network is trained with targets that are themselves estimates of local posterior probabilities. An initial experimental result shows a significant decrease in error-rate in comparison to a baseline system.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

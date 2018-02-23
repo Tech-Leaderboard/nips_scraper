@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Adaptive stimulus selection for optimizing neural population responses</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><forename type="middle">R</forename><surname>Cowley</surname></persName>
+							<email>bcowley@cs.cmu.edu,</email>
+							<affiliation key="aff0">
+								<orgName type="department">Machine Learning Dept</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Neural Basis of Cognition</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryan</forename><forename type="middle">C</forename><surname>Williamson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Machine Learning Dept</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Neural Basis of Cognition</orgName>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">School of Medicine</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katerina</forename><surname>Acar</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Neural Basis of Cognition</orgName>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Dept. of Neuroscience</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Neural Basis of Cognition</orgName>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Dept. of Ophthalmology</orgName>
+								<orgName type="institution">University of Pittsburgh</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Byron</forename><forename type="middle">M</forename><surname>Yu</surname></persName>
+							<email>byronyu@cmu.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Neural Basis of Cognition</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Dept. of Electrical and Computer Engineering</orgName>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Dept. of Biomedical Engineering</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Adaptive stimulus selection for optimizing neural population responses</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>* denotes equal contribution.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Adaptive stimulus selection methods in neuroscience have primarily focused on maximizing the firing rate of a single recorded neuron. When recording from a population of neurons, it is usually not possible to find a single stimulus that maximizes the firing rates of all neurons. This motivates optimizing an objective function that takes into account the responses of all recorded neurons together. We propose &quot;Adept,&quot; an adaptive stimulus selection method that can optimize population objective functions. In simulations, we first confirmed that population objective functions elicited more diverse stimulus responses than single-neuron objective functions. Then, we tested Adept in a closed-loop electrophysiological experiment in which population activity was recorded from macaque V4, a cortical area known for mid-level visual processing. To predict neural responses, we used the outputs of a deep convolutional neural network model as feature embeddings. Natural images chosen by Adept elicited mean neural responses that were 20% larger than those for randomly-chosen natural images, and also evoked a larger diversity of neural responses. Such adaptive stimulus selection methods can facilitate experiments that involve neurons far from the sensory periphery, for which it is often unclear which stimuli to present.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

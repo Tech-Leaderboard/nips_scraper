@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">AUC optimization and the two-sample problem</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stéphan</forename><surname>Clémençon</surname></persName>
+							<email>stephan.clemencon@telecom-paristech.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">LTCI UMR Institut Telecom/CNRS 5141</orgName>
+								<orgName type="laboratory" key="lab2">ENS Cachan &amp; UniverSud -CMLA UMR CNRS 8536</orgName>
+								<orgName type="institution" key="instit1">Telecom Paristech (TSI)</orgName>
+								<orgName type="institution" key="instit2">LTCI UMR Institut Telecom</orgName>
+								<address>
+									<postCode>5141</postCode>
+									<country>CNRS</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marine</forename><surname>Depecker</surname></persName>
+							<email>marine.depecker@telecom-paristech.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">LTCI UMR Institut Telecom/CNRS 5141</orgName>
+								<orgName type="laboratory" key="lab2">ENS Cachan &amp; UniverSud -CMLA UMR CNRS 8536</orgName>
+								<orgName type="institution" key="instit1">Telecom Paristech (TSI)</orgName>
+								<orgName type="institution" key="instit2">LTCI UMR Institut Telecom</orgName>
+								<address>
+									<postCode>5141</postCode>
+									<country>CNRS</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><surname>Vayatis</surname></persName>
+							<email>nicolas.vayatis@cmla.ens-cachan.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">LTCI UMR Institut Telecom/CNRS 5141</orgName>
+								<orgName type="laboratory" key="lab2">ENS Cachan &amp; UniverSud -CMLA UMR CNRS 8536</orgName>
+								<orgName type="institution" key="instit1">Telecom Paristech (TSI)</orgName>
+								<orgName type="institution" key="instit2">LTCI UMR Institut Telecom</orgName>
+								<address>
+									<postCode>5141</postCode>
+									<country>CNRS</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">AUC optimization and the two-sample problem</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The purpose of the paper is to explore the connection between multivariate ho-mogeneity tests and AUC optimization. The latter problem has recently received much attention in the statistical learning literature. From the elementary observation that, in the two-sample problem setup, the null assumption corresponds to the situation where the area under the optimal ROC curve is equal to 1/2, we propose a two-stage testing method based on data splitting. A nearly optimal scoring function in the AUC sense is first learnt from one of the two half-samples. Data from the remaining half-sample are then projected onto the real line and eventually ranked according to the scoring function computed at the first stage. The last step amounts to performing a standard Mann-Whitney Wilcoxon test in the one-dimensional framework. We show that the learning step of the procedure does not affect the consistency of the test as well as its properties in terms of power, provided the ranking produced is accurate enough in the AUC sense. The results of a numerical experiment are eventually displayed in order to show the efficiency of the method.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

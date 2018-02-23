@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Joint Tracking of Pose, Expression, and Texture using Conditionally Gaussian Filters</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tim</forename><forename type="middle">K</forename><surname>Marks</surname></persName>
+							<email>tkmarks@cogsci.ucsd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Cognitive Science</orgName>
+								<orgName type="department" key="dep2">Institute for Neural Computation</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093-0515</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Hershey</surname></persName>
+							<email>hershey@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Cognitive Science</orgName>
+								<orgName type="department" key="dep2">Institute for Neural Computation</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093-0515</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Cooper</forename><surname>Roddey</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093-0523</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Javier</forename><forename type="middle">R</forename><surname>Movellan</surname></persName>
+							<email>movellan@mplab.ucsd.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego La Jolla</addrLine>
+									<postCode>92093-0523</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Joint Tracking of Pose, Expression, and Texture using Conditionally Gaussian Filters</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a generative model and stochastic filtering algorithm for simultaneous tracking of 3D position and orientation, non-rigid motion, object texture, and background texture using a single camera. We show that the solution to this problem is formally equivalent to stochastic filtering of conditionally Gaussian processes, a problem for which well known approaches exist [3, 8]. We propose an approach based on Monte Carlo sampling of the nonlinear component of the process (object motion) and exact filtering of the object and background textures given the sampled motion. The smoothness of image sequences in time and space is exploited by using Laplace&apos;s method to generate proposal distributions for importance sampling [7]. The resulting inference algorithm encompasses both optic flow and template-based tracking as special cases, and elucidates the conditions under which these methods are optimal. We demonstrate an application of the system to 3D non-rigid face tracking. 1 Background Recent algorithms track morphable objects by solving optic flow equations, subject to the constraint that the tracked points belong to an object whose non-rigid deformations are linear combinations of a set of basic shapes [10, 2, 11]. These algorithms require precise initialization of the object pose and tend to drift out of alignment on long video sequences. We present G-flow, a generative model and stochastic filtering formulation of tracking that address the problems of initialization and error recovery in a principled manner. We define a non-rigid object by the 3D locations of n vertices. The object is a linear combination of k fixed morph bases, with coefficients c = [c 1 , c 2 , · · · , c k ] T. The fixed 3 × k matrix h i contains the position of the ith vertex in all k morph bases. The transformation from object-centered to image coordinates consists of a rotation, weak perspective projection , and translation. Thus x i , the 2D location of the ith vertex on the image plane, is x i = grh i c + l, (1) where r is the 3 × 3 rotation matrix, l is the 2 × 1 translation vector, and g = 񮽙 1 0 0 0 1 0 񮽙 is the projection matrix. The object pose, u t , comprises both the rigid motion parameters and the morph parameters at time t: u t = {r(t), l(t), c(t)}. (2)</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

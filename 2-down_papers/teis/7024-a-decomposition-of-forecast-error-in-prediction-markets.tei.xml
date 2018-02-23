@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Decomposition of Forecast Error in Prediction Markets</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Miroslav</forename><surname>Dudík</surname></persName>
+							<email>mdudik@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryan</forename><surname>Rogers</surname></persName>
+							<email>rrogers386@gmail.com</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Sébastien Lahaie Google</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><surname>Wortman</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vaughan</forename></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Decomposition of Forecast Error in Prediction Markets</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We analyze sources of error in prediction market forecasts in order to bound the difference between a security&apos;s price and the ground truth it estimates. We consider cost-function-based prediction markets in which an automated market maker adjusts security prices according to the history of trade. We decompose the forecasting error into three components: sampling error, arising because traders only possess noisy estimates of ground truth; market-maker bias, resulting from the use of a particular market maker (i.e., cost function) to facilitate trade; and convergence error, arising because, at any point in time, market prices may still be in flux. Our goal is to make explicit the tradeoffs between these error components, influenced by design decisions such as the functional form of the cost function and the amount of liquidity in the market. We consider a specific model in which traders have exponential utility and exponential-family beliefs representing noisy estimates of ground truth. In this setting, sampling error vanishes as the number of traders grows, but there is a tradeoff between the other two components. We provide both upper and lower bounds on market-maker bias and convergence error, and demonstrate via numerical simulations that these bounds are tight. Our results yield new insights into the question of how to set the market&apos;s liquidity parameter and into the forecasting benefits of enforcing coherent prices across securities.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

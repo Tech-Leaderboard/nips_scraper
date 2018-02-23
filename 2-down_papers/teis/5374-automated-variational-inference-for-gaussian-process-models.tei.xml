@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Automated Variational Inference for Gaussian Process Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Trung</forename><forename type="middle">V</forename><surname>Nguyen</surname></persName>
+							<email>VanTrung.Nguyen@nicta.com.au</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">ANU &amp; NICTA</orgName>
+								<orgName type="institution" key="instit2">The University of New</orgName>
+								<address>
+									<country>South Wales</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edwin</forename><forename type="middle">V</forename><surname>Bonilla</surname></persName>
+							<email>e.bonilla@unsw.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">ANU &amp; NICTA</orgName>
+								<orgName type="institution" key="instit2">The University of New</orgName>
+								<address>
+									<country>South Wales</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Automated Variational Inference for Gaussian Process Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We develop an automated variational method for approximate inference in Gaus-sian process (GP) models whose posteriors are often intractable. Using a mixture of Gaussians as the variational distribution, we show that (i) the variational objective and its gradients can be approximated efficiently via sampling from univari-ate Gaussian distributions and (ii) the gradients wrt the GP hyperparameters can be obtained analytically regardless of the model likelihood. We further propose two instances of the variational distribution whose covariance matrices can be parametrized linearly in the number of observations. These results allow gradient-based optimization to be done efficiently in a black-box manner. Our approach is thoroughly verified on five models using six benchmark datasets, performing as well as the exact or hard-coded implementations while running orders of magnitude faster than the alternative MCMC sampling approaches. Our method can be a valuable tool for practitioners and researchers to investigate new models with minimal effort in deriving model-specific inference algorithms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

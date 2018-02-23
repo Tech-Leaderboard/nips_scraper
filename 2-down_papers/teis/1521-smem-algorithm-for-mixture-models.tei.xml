@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SMEM Algorithm for Mixture Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Aonori</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit</orgName>
+								<orgName type="institution">NTT Communication Science Laboratories Hikaridai</orgName>
+								<address>
+									<addrLine>Seika-cho, Soraku-gun</addrLine>
+									<postCode>619-0237</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Eda</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit</orgName>
+								<orgName type="institution">NTT Communication Science Laboratories Hikaridai</orgName>
+								<address>
+									<addrLine>Seika-cho, Soraku-gun</addrLine>
+									<postCode>619-0237</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryohei</forename><surname>Nakano</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit</orgName>
+								<orgName type="institution">NTT Communication Science Laboratories Hikaridai</orgName>
+								<address>
+									<addrLine>Seika-cho, Soraku-gun</addrLine>
+									<postCode>619-0237</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zoubin</forename><surname>Ghahramani</surname></persName>
+							<email>zoubin@gatsby.uc1.ac.uk g.hinton@ucl.ac.uk</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<addrLine>17 Queen Square</addrLine>
+									<postCode>WC1N 3AR</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<addrLine>17 Queen Square</addrLine>
+									<postCode>WC1N 3AR</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SMEM Algorithm for Mixture Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a split and merge EM (SMEM) algorithm to overcome the local maximum problem in parameter estimation of finite mixture models. In the case of mixture models, non-global maxima often involve having too many components of a mixture model in one part of the space and too few in another , widely separated part of the space. To escape from such configurations we repeatedly perform simultaneous split and merge operations using a new criterion for efficiently selecting the split and merge candidates. We apply the proposed algorithm to the training of Gaussian mixtures and mixtures of factor analyzers using synthetic and real data and show the effectiveness of using the split and merge operations to improve the likelihood of both the training data and of held-out test data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

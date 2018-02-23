@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Halting in Random Walk Kernels</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mahito</forename><surname>Sugiyama</surname></persName>
+							<email>mahito@ar.sanken.osaka-u.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department">JST, PRESTO</orgName>
+								<orgName type="institution" key="instit1">ISIR</orgName>
+								<orgName type="institution" key="instit2">Osaka University</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>ETH</roleName><forename type="first">Karsten</forename><forename type="middle">M</forename><surname>Borgwardt D-Bsse</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">JST, PRESTO</orgName>
+								<orgName type="institution" key="instit1">ISIR</orgName>
+								<orgName type="institution" key="instit2">Osaka University</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zürich</forename><surname>Basel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">JST, PRESTO</orgName>
+								<orgName type="institution" key="instit1">ISIR</orgName>
+								<orgName type="institution" key="instit2">Osaka University</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Switzerland</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">JST, PRESTO</orgName>
+								<orgName type="institution" key="instit1">ISIR</orgName>
+								<orgName type="institution" key="instit2">Osaka University</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Halting in Random Walk Kernels</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Random walk kernels measure graph similarity by counting matching walks in two graphs. In their most popular form of geometric random walk kernels, longer walks of length k are downweighted by a factor of λ k (λ &lt; 1) to ensure convergence of the corresponding geometric series. We know from the field of link prediction that this downweighting often leads to a phenomenon referred to as halting: Longer walks are downweighted so much that the similarity score is completely dominated by the comparison of walks of length 1. This is a na¨ıvena¨ıve kernel between edges and vertices. We theoretically show that halting may occur in geometric random walk kernels. We also empirically quantify its impact in simulated datasets and popular graph classification benchmark datasets. Our findings promise to be instrumental in future graph kernel development and applications of random walk kernels.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

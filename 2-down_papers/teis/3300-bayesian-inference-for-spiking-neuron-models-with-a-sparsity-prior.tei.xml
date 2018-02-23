@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian Inference for Spiking Neuron Models with a Sparsity Prior</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sebastian</forename><surname>Gerwinn</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Biological Cybernetics</orgName>
+								<address>
+									<addrLine>Spemannstrasse 41</addrLine>
+									<postCode>72076</postCode>
+									<settlement>Tuebingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jakob</forename><forename type="middle">H</forename><surname>Macke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Biological Cybernetics</orgName>
+								<address>
+									<addrLine>Spemannstrasse 41</addrLine>
+									<postCode>72076</postCode>
+									<settlement>Tuebingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthias</forename><surname>Seeger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Biological Cybernetics</orgName>
+								<address>
+									<addrLine>Spemannstrasse 41</addrLine>
+									<postCode>72076</postCode>
+									<settlement>Tuebingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthias</forename><surname>Bethge</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Biological Cybernetics</orgName>
+								<address>
+									<addrLine>Spemannstrasse 41</addrLine>
+									<postCode>72076</postCode>
+									<settlement>Tuebingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian Inference for Spiking Neuron Models with a Sparsity Prior</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Generalized linear models are the most commonly used tools to describe the stimulus selectivity of sensory neurons. Here we present a Bayesian treatment of such models. Using the expectation propagation algorithm, we are able to approximate the full posterior distribution over all weights. In addition, we use a Laplacian prior to favor sparse solutions. Therefore, stimulus features that do not critically influence neural activity will be assigned zero weights and thus be effectively excluded by the model. This feature selection mechanism facilitates both the interpretation of the neuron model as well as its predictive abilities. The posterior distribution can be used to obtain confidence intervals which makes it possible to assess the statistical significance of the solution. In neural data analysis, the available amount of experimental measurements is often limited whereas the parameter space is large. In such a situation, both regularization by a sparsity prior and uncertainty estimates for the model parameters are essential. We apply our method to multi-electrode recordings of retinal ganglion cells and use our uncertainty estimate to test the statistical significance of functional couplings between neurons. Furthermore we used the sparsity of the Laplace prior to select those filters from a spike-triggered covariance analysis that are most informative about the neural response.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

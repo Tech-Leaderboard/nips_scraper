@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">OnACID: Online Analysis of Calcium Imaging Data in Real Time</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrea</forename><surname>Giovannucci</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Flatiron Institute</orgName>
+								<address>
+									<postCode>10010</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johannes</forename><surname>Friedrich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Flatiron Institute</orgName>
+								<address>
+									<postCode>10010</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<postCode>10027</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Kaufman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Cold Spring Harbor Laboratory</orgName>
+								<orgName type="institution">Cold Spring Harbor</orgName>
+								<address>
+									<postCode>11724</postCode>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anne</forename><forename type="middle">K</forename><surname>Churchland</surname></persName>
+							<email>{mkaufman, churchland}@cshl.edu</email>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Cold Spring Harbor Laboratory</orgName>
+								<orgName type="institution">Cold Spring Harbor</orgName>
+								<address>
+									<postCode>11724</postCode>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dmitri</forename><surname>Chklovskii</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Flatiron Institute</orgName>
+								<address>
+									<postCode>10010</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liam</forename><surname>Paninski</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<postCode>10027</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eftychios</forename><forename type="middle">A</forename><surname>Pnevmatikakis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Flatiron Institute</orgName>
+								<address>
+									<postCode>10010</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">OnACID: Online Analysis of Calcium Imaging Data in Real Time</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Optical imaging methods using calcium indicators are critical for monitoring the activity of large neuronal populations in vivo. Imaging experiments typically generate a large amount of data that needs to be processed to extract the activity of the imaged neuronal sources. While deriving such processing algorithms is an active area of research, most existing methods require the processing of large amounts of data at a time, rendering them vulnerable to the volume of the recorded data, and preventing real-time experimental interrogation. Here we introduce OnACID, an Online framework for the Analysis of streaming Calcium Imaging Data, including i) motion artifact correction, ii) neuronal source extraction, and iii) activity denoising and deconvolution. Our approach combines and extends previous work on online dictionary learning and calcium imaging data analysis, to deliver an automated pipeline that can discover and track the activity of hundreds of cells in real time, thereby enabling new types of closed-loop experiments. We apply our algorithm on two large scale experimental datasets, benchmark its performance on manually annotated data, and show that it outperforms a popular offline approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

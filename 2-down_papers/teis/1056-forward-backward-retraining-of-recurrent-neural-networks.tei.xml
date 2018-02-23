@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Forward-backward retraining of recurrent neural networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Senior</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Cambridge University</orgName>
+								<address>
+									<addrLine>Engineering Department Trumpington Street</addrLine>
+									<settlement>Cambridge</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tony</forename><surname>Robinson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Cambridge University</orgName>
+								<address>
+									<addrLine>Engineering Department Trumpington Street</addrLine>
+									<settlement>Cambridge</settlement>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Forward-backward retraining of recurrent neural networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper describes the training of a recurrent neural network as the letter posterior probability estimator for a hidden Markov model, off-line handwriting recognition system. The network estimates posterior distributions for each of a series of frames representing sections of a handwritten word. The supervised training algorithm, backpropagation through time, requires target outputs to be provided for each frame. Three methods for deriving these targets are presented. A novel method based upon the forward-backward algorithm is found to result in the recognizer with the lowest error rate.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

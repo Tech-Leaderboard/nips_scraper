@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Contextual semibandits via supervised learning oracles</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Akshay</forename><surname>Krishnamurthy</surname></persName>
+							<email>akshay@cs.umass.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Information and Computer Sciences</orgName>
+								<orgName type="institution">Microsoft Research University of Massachusetts</orgName>
+								<address>
+									<settlement>Amherst</settlement>
+									<region>MA New York, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alekh</forename><surname>Agarwal</surname></persName>
+							<email>alekha@microsoft.com mdudik@microsoft.com †</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Information and Computer Sciences</orgName>
+								<orgName type="institution">Microsoft Research University of Massachusetts</orgName>
+								<address>
+									<settlement>Amherst</settlement>
+									<region>MA New York, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Miroslav</forename><surname>Dudík</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Information and Computer Sciences</orgName>
+								<orgName type="institution">Microsoft Research University of Massachusetts</orgName>
+								<address>
+									<settlement>Amherst</settlement>
+									<region>MA New York, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Contextual semibandits via supervised learning oracles</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study an online decision making problem where on each round a learner chooses a list of items based on some side information, receives a scalar feedback value for each individual item, and a reward that is linearly related to this feedback. These problems, known as contextual semibandits, arise in crowdsourcing, recommendation , and many other domains. This paper reduces contextual semibandits to supervised learning, allowing us to leverage powerful supervised learning methods in this partial-feedback setting. Our first reduction applies when the mapping from feedback to reward is known and leads to a computationally efficient algorithm with near-optimal regret. We show that this algorithm outperforms state-of-the-art approaches on real-world learning-to-rank datasets, demonstrating the advantage of oracle-based algorithms. Our second reduction applies to the previously unstudied setting when the linear mapping from feedback to reward is unknown. Our regret guarantees are superior to prior techniques that ignore the feedback.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

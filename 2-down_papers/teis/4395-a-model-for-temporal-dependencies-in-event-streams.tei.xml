@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Model for Temporal Dependencies in Event Streams</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asela</forename><surname>Gunawardana</surname></persName>
+							<email>aselag@microsoft.com</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Meek</surname></persName>
+							<email>meek@microsoft.com</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Puyang</forename><surname>Xu</surname></persName>
+							<email>puyangxu@jhu.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">ECE Dept. &amp; CLSP</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research One Microsoft Way Redmond</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research</orgName>
+								<address>
+									<addrLine>One Microsoft Way Redmond</addrLine>
+									<postCode>98052, 98052</postCode>
+									<region>WA, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Johns Hopkins University Baltimore</orgName>
+								<address>
+									<postCode>21218</postCode>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Model for Temporal Dependencies in Event Streams</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce the Piecewise-Constant Conditional Intensity Model, a model for learning temporal dependencies in event streams. We describe a closed-form Bayesian approach to learning these models, and describe an importance sampling algorithm for forecasting future events using these models, using a proposal distribution based on Poisson superposition. We then use synthetic data, supercomputer event logs, and web search query logs to illustrate that our learning algorithm can efficiently learn nonlinear temporal dependencies, and that our importance sampling algorithm can effectively forecast future events.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

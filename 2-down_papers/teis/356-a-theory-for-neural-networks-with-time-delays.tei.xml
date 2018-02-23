@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Theory for Neural Networks with Time Delays</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bert</forename><surname>De Vries</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution">University of Horida</orgName>
+								<address>
+									<addrLine>CSE 447 Gainesville</addrLine>
+									<postCode>32611</postCode>
+									<region>FL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jose</forename><forename type="middle">C</forename><surname>Principe</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Horida</orgName>
+								<address>
+									<addrLine>CSE 444 Gainesville</addrLine>
+									<postCode>32611</postCode>
+									<region>FL</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Theory for Neural Networks with Time Delays</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new neural network model for processing of temporal patterns. This model, the gamma neural model, is as general as a convolution delay model with arbitrary weight kernels w(t). We show that the gamma model can be formulated as a (partially prewired) additive model. A temporal hebbian learning rule is derived and we establish links to related existing models for temporal processing. 1 INTRODUCTION In this paper, we are concerned with developing neural nets with short term memory for processing of temporal patterns. In the literature, basically two ways have been reported to incorporate short-term memory in the neural system equations. The first approach utilizes reverberating (self-recurrent) units of type : =-aa (x) + e, that hold a trace of the past neural net states x(t) or the input e(t). Elman (1988) and Jordan (1986) have successfully used this approach. The disadvantage of this method is the lack of weighting flexibility in the temporal domain, since the system equations are described by first order dynamics, implementing a recency gradient (exponential for linear units). The second approach involves explicit inclusion of delays in the neural system equations. A general formulation for this type requires a time-dependent weight matrix W(t). In such a system, multiplicative interactions are substituted by temporal convolution operations, leading to the following system equations for an additive convolution model-162 t : = JW(t-s)a(x(s»ds+e. o (1)</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

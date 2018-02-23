@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Global Coordination of Local Linear Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><surname>Roweis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer and Information Science</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">K</forename><surname>Saul</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer and Information Science</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer and Information Science</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Global Coordination of Local Linear Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>High dimensional data that lies on or near a low dimensional manifold can be described by a collection of local linear models. Such a description, however, does not provide a global parameterization of the manifold-arguably an important goal of unsupervised learning. In this paper, we show how to learn a collection of local linear models that solves this more difficult problem. Our local linear models are represented by a mixture of factor analyzers, and the &quot;global coordi-nation&quot; of these models is achieved by adding a regularizing term to the standard maximum likelihood objective function. The regularizer breaks a degeneracy in the mixture model&apos;s parameter space, favoring models whose internal coordinate systems are aligned in a consistent way. As a result, the internal coordinates change smoothly and continuously as one traverses a connected path on the manifold-even when the path crosses the domains of many different local models. The regularizer takes the form of a Kullback-Leibler divergence and illustrates an unexpected application of variational methods: not to perform approximate inference in intractable probabilistic models, but to learn more useful internal representations in tractable ones. 1 Manifold Learning Consider an ensemble of images, each of which contains a face against a neutral background. Each image can be represented by a point in the high dimensional vector space of pixel intensities. This representation, however, does not exploit the strong correlations between pixels of the same image, nor does it support many useful operations for reasoning about faces. If, for example, we select two images with faces in widely different locations and then average their pixel intensities, we do not obtain an image of a face at their average location. Images of faces lie on or near a low-dimensional, curved manifold, and we can represent them more usefully by the coordinates on this manifold than by pixel intensities. Using these &quot;intrinsic coordinates&quot;, the average of two faces is another face with the average of their locations, poses and expressions. To analyze and manipulate faces, it is helpful to imagine a &quot;magic black box&quot; with levers or dials corresponding to the intrinsic coordinates on this manifold. Given a setting of the levers and dials, the box generates an image of a face. Given an image of a face, the box deduces the appropriate setting of the levers and dials. In this paper, we describe a fairly general way to construct such a box automatically from an ensemble of high-dimensional vectors. We assume only that there exists an underlying manifold of low dimensionality and that the relationship between the raw data and the manifold coordinates is locally linear and smoothly varying. Thus our method applies not only to images of faces, but also to many other forms of highly distributed perceptual and scientific data (e.g., spectrograms of speech, robotic sensors, gene expression arrays, document collections).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Improved Distributed Principal Component Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maria-Florina</forename><surname>Balcan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science</orgName>
+								<orgName type="laboratory">Almaden Research Center IBM Research</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit3">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vandana</forename><surname>Kanchanapally</surname></persName>
+							<email>vvandana@gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science</orgName>
+								<orgName type="laboratory">Almaden Research Center IBM Research</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit3">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yingyu</forename><surname>Liang</surname></persName>
+							<email>yingyul@cs.princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science</orgName>
+								<orgName type="laboratory">Almaden Research Center IBM Research</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit3">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Woodruff</surname></persName>
+							<email>dpwoodru@us.ibm.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science</orgName>
+								<orgName type="department" key="dep3">Department of Computer Science</orgName>
+								<orgName type="laboratory">Almaden Research Center IBM Research</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit3">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Improved Distributed Principal Component Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the distributed computing setting in which there are multiple servers, each holding a set of points, who wish to compute functions on the union of their point sets. A key task in this setting is Principal Component Analysis (PCA), in which the servers would like to compute a low dimensional subspace capturing as much of the variance of the union of their point sets as possible. Given a procedure for approximate PCA, one can use it to approximately solve problems such as k-means clustering and low rank approximation. The essential properties of an approximate distributed PCA algorithm are its communication cost and computational efficiency for a given desired accuracy in downstream applications. We give new algorithms and analyses for distributed PCA which lead to improved communication and computational costs for k-means clustering and related problems. Our empirical study on real world data shows a speedup of orders of magnitude, preserving communication with only a negligible degradation in solution quality. Some of these techniques we develop, such as a general transformation from a constant success probability subspace embedding to a high success probability subspace embedding with a dimension and sparsity independent of the success probability, may be of independent interest.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

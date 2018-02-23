@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Replicated Softmax: an Undirected Topic Model</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruslan</forename><surname>Salakhutdinov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Brain and Cognitive Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">CSAIL Massachusetts Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><surname>Hinton</surname></persName>
+							<email>hinton@cs.toronto.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Brain and Cognitive Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">CSAIL Massachusetts Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Replicated Softmax: an Undirected Topic Model</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a two-layer undirected graphical model, called a &quot;Replicated Soft-max&quot;, that can be used to model and automatically extract low-dimensional latent semantic representations from a large unstructured collection of documents. We present efficient learning and inference algorithms for this model, and show how a Monte-Carlo based method, Annealed Importance Sampling, can be used to produce an accurate estimate of the log-probability the model assigns to test data. This allows us to demonstrate that the proposed model is able to generalize much better compared to Latent Dirichlet Allocation in terms of both the log-probability of held-out documents and the retrieval accuracy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

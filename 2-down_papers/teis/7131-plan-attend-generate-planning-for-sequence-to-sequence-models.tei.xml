@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Plan, Attend, Generate: Planning for Sequence-to-Sequence Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francis</forename><surname>Dutil</surname></persName>
+							<email>frdutil@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Montreal (MILA)</orgName>
+								<orgName type="institution" key="instit2">University of Montreal (MILA)</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Maluuba</orgName>
+								<orgName type="institution" key="instit4">University of Montreal (MILA)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Caglar</forename><surname>Gulcehre</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Montreal (MILA)</orgName>
+								<orgName type="institution" key="instit2">University of Montreal (MILA)</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Maluuba</orgName>
+								<orgName type="institution" key="instit4">University of Montreal (MILA)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><surname>Trischler</surname></persName>
+							<email>adam.trischler@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Montreal (MILA)</orgName>
+								<orgName type="institution" key="instit2">University of Montreal (MILA)</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Maluuba</orgName>
+								<orgName type="institution" key="instit4">University of Montreal (MILA)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoshua</forename><surname>Bengio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Montreal (MILA)</orgName>
+								<orgName type="institution" key="instit2">University of Montreal (MILA)</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Maluuba</orgName>
+								<orgName type="institution" key="instit4">University of Montreal (MILA)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Plan, Attend, Generate: Planning for Sequence-to-Sequence Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We investigate the integration of a planning mechanism into sequence-to-sequence models using attention. We develop a model which can plan ahead in the future when it computes its alignments between input and output sequences, constructing a matrix of proposed future alignments and a commitment vector that governs whether to follow or recompute the plan. This mechanism is inspired by the recently proposed strategic attentive reader and writer (STRAW) model for Reinforcement Learning. Our proposed model is end-to-end trainable using primarily differentiable operations. We show that it outperforms a strong baseline on character-level translation tasks from WMT&apos;15, the algorithmic task of finding Eulerian circuits of graphs, and question generation from the text. Our analysis demonstrates that the model computes qualitatively intuitive alignments, converges faster than the baselines, and achieves superior performance with fewer parameters.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

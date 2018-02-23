@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Look Ma, No Hands: Analyzing the Monotonic Feature Abstraction for Text Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Doug</forename><surname>Downey</surname></persName>
+							<email>ddowney@eecs.northwestern.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical Engineering and Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Northwestern University Evanston</orgName>
+								<orgName type="institution" key="instit2">University of Washington Seattle</orgName>
+								<address>
+									<postCode>60208, 98195</postCode>
+									<region>IL, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oren</forename><surname>Etzioni</surname></persName>
+							<email>etzioni@cs.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical Engineering and Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Northwestern University Evanston</orgName>
+								<orgName type="institution" key="instit2">University of Washington Seattle</orgName>
+								<address>
+									<postCode>60208, 98195</postCode>
+									<region>IL, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Look Ma, No Hands: Analyzing the Monotonic Feature Abstraction for Text Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Is accurate classification possible in the absence of hand-labeled data? This paper introduces the Monotonic Feature (MF) abstraction-where the probability of class membership increases monotonically with the MF&apos;s value. The paper proves that when an MF is given, PAC learning is possible with no hand-labeled data under certain assumptions. We argue that MFs arise naturally in a broad range of textual classification applications. On the classic &quot;20 Newsgroups&quot; data set, a learner given an MF and unlabeled data achieves classification accuracy equal to that of a state-of-the-art semi-supervised learner relying on 160 hand-labeled examples. Even when MFs are not given as input, their presence or absence can be determined from a small amount of hand-labeled data, which yields a new semi-supervised learning method that reduces error by 15% on the 20 Newsgroups data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

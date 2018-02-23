@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Discovering Weakly-Interacting Factors in a Complex Stochastic Process</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charlie</forename><surname>Frogner</surname></persName>
+							<email>frogner@seas.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Engineering and Applied Sciences</orgName>
+								<orgName type="department" key="dep2">School of Engineering and Applied Sciences</orgName>
+								<orgName type="institution" key="instit1">Harvard University Cambridge</orgName>
+								<orgName type="institution" key="instit2">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02138, 02138</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Avi</forename><surname>Pfeffer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Engineering and Applied Sciences</orgName>
+								<orgName type="department" key="dep2">School of Engineering and Applied Sciences</orgName>
+								<orgName type="institution" key="instit1">Harvard University Cambridge</orgName>
+								<orgName type="institution" key="instit2">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02138, 02138</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Discovering Weakly-Interacting Factors in a Complex Stochastic Process</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Dynamic Bayesian networks are structured representations of stochastic processes. Despite their structure, exact inference in DBNs is generally intractable. One approach to approximate inference involves grouping the variables in the process into smaller factors and keeping independent beliefs over these factors. In this paper we present several techniques for decomposing a dynamic Bayesian network automatically to enable factored inference. We examine a number of features of a DBN that capture different types of dependencies that will cause error in factored inference. An empirical comparison shows that the most useful of these is a heuristic that estimates the mutual information introduced between factors by one step of belief propagation. In addition to features computed over entire factors, for efficiency we explored scores computed over pairs of variables. We present search methods that use these features, pairwise and not, to find a factor-ization, and we compare their results on several datasets. Automatic factorization extends the applicability of factored inference to large, complex models that are undesirable to factor by hand. Moreover, tests on real DBNs show that automatic factorization can achieve significantly lower error in some cases.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

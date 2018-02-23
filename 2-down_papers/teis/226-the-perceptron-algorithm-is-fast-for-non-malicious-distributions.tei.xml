@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Perceptron Algorithm Is Fast tor Non-Malicious Distributions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erice</forename><forename type="middle">B</forename><surname>Baum</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Research Institute</orgName>
+								<address>
+									<addrLine>4 Independence Way Princeton</addrLine>
+									<postCode>08540</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Perceptron Algorithm Is Fast tor Non-Malicious Distributions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>676 Baum</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Within the context of Valiant&apos;s protocol for learning, the Perceptron algorithm is shown to learn an arbitrary half-space in time O(r;;) if D, the probability distribution of examples, is taken uniform over the unit sphere sn. Here f is the accuracy parameter. This is surprisingly fast, as &quot;standard&quot; approaches involve solution of a linear programming problem involving O(7&apos;) constraints in n dimensions. A modification of Valiant&apos;s distribution independent protocol for learning is proposed in which the distribution and the function to be learned may be chosen by adversaries, however these adversaries may not communicate. It is argued that this definition is more reasonable and applicable to real world learning than Valiant&apos;s. Under this definition, the Perceptron algorithm is shown to be a distribution independent learning algorithm. In an appendix we show that, for uniform distributions, some classes of infinite V-C dimension including convex sets and a class of nested differences of convex sets are learnable. §1: Introduction The Percept ron algorithm was proved in the early 1960s[Rosenblatt,1962] to converge and yield a half space separating any set of linearly separable classified examples. Interest in this algorithm waned in the 1970&apos;s after it was empha-sized[Minsky and Papert, 1969] (1) that the class of problems solvable by a single half space was limited, and (2) that the Perceptron algorithm, although converging in finite time, did not converge in polynomial time. In the 1980&apos;s, however, it has become evident that there is no hope of providing a learning algorithm which can learn arbitrary functions in polynomial time and much research has thus been restricted to algorithms which learn a function drawn from a particular class of functions. Moreover, learning theory has focused on protocols like that of [Valiant, 1984] where we seek to classify, not a fixed set of examples, but examples drawn from a probability distribution. This allows a natural notion of &quot;generalization&quot;. There are very few classes which have yet been proven learnable in polynomial time, and one of these is the class of half spaces. Thus there is considerable theoretical interest now in studying the problem of learning a single half space, and so it is natural to reexamine the Percept ron algorithm within the formalism of Valiant.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

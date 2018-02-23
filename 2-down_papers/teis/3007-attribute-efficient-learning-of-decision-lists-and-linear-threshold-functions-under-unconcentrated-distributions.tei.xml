@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Attribute-efficient learning of decision lists and linear threshold functions under unconcentrated distributions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">M</forename><surname>Long</surname></persName>
+							<email>plong@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Google Mountain View</orgName>
+								<orgName type="institution" key="instit2">Columbia University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>CA, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rocco</forename><forename type="middle">A</forename><surname>Servedio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Google Mountain View</orgName>
+								<orgName type="institution" key="instit2">Columbia University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>CA, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Attribute-efficient learning of decision lists and linear threshold functions under unconcentrated distributions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the well-studied problem of learning decision lists using few examples when many irrelevant features are present. We show that smooth boosting algorithms such as MadaBoost can efficiently learn decision lists of length k over n boolean variables using poly(k, log n) many examples provided that the marginal distribution over the relevant variables is &quot;not too concentrated&quot; in an L 2-norm sense. Using a recent result of Håstad, we extend the analysis to obtain a similar (though quantitatively weaker) result for learning arbitrary linear threshold functions with k nonzero coefficients. Experimental results indicate that the use of a smooth boosting algorithm, which plays a crucial role in our analysis, has an impact on the actual performance of the algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

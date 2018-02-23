@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Second-Order Online Kernel Learning with Adaptive Embedding</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniele</forename><surname>Calandriello</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">SequeL team</orgName>
+								<orgName type="institution">INRIA Lille -Nord Europe</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alessandro</forename><surname>Lazaric</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">SequeL team</orgName>
+								<orgName type="institution">INRIA Lille -Nord Europe</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michal</forename><surname>Valko</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">SequeL team</orgName>
+								<orgName type="institution">INRIA Lille -Nord Europe</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Second-Order Online Kernel Learning with Adaptive Embedding</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Online kernel learning (OKL) is a flexible framework for prediction problems, since the large approximation space provided by reproducing kernel Hilbert spaces often contains an accurate function for the problem. Nonetheless, optimizing over this space is computationally expensive. Not only first order methods accumulate O(√ T) more loss than the optimal function, but the curse of kernelization results in a O(t) per-step complexity. Second-order methods get closer to the optimum much faster, suffering only O(log T) regret, but second-order updates are even more expensive with their O(t 2) per-step cost. Existing approximate OKL methods reduce this complexity either by limiting the support vectors (SV) used by the predictor, or by avoiding the kernelization process altogether using embedding. Nonetheless, as long as the size of the approximation space or the number of SV does not grow over time, an adversarial environment can always exploit the approximation process. In this paper, we propose PROS-N-KONS, a method that combines Nyström sketching to project the input point to a small and accurate embedded space; and to perform efficient second-order updates in this space. The embedded space is continuously updated to guarantee that the embedding remains accurate. We show that the per-step cost only grows with the effective dimension of the problem and not with T. Moreover, the second-order updated allows us to achieve the logarithmic regret. We empirically compare our algorithm on recent large-scales benchmarks and show it performs favorably.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

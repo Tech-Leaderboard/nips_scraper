@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Training sparse natural image models with a fast Gibbs sampler of an extended state space</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lucas</forename><surname>Theis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Werner Reichardt Centre for Integrative Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Redwood Center for Theoretical Neuroscience</orgName>
+								<orgName type="laboratory" key="lab2">Werner Reichardt Centre for Integrative Neuroscience</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jascha</forename><surname>Sohl-Dickstein</surname></persName>
+							<email>jascha@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Werner Reichardt Centre for Integrative Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Redwood Center for Theoretical Neuroscience</orgName>
+								<orgName type="laboratory" key="lab2">Werner Reichardt Centre for Integrative Neuroscience</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthias</forename><surname>Bethge</surname></persName>
+							<email>matthias@bethgelab.org</email>
+							<affiliation key="aff0">
+								<orgName type="department">Werner Reichardt Centre for Integrative Neuroscience</orgName>
+								<orgName type="laboratory" key="lab1">Redwood Center for Theoretical Neuroscience</orgName>
+								<orgName type="laboratory" key="lab2">Werner Reichardt Centre for Integrative Neuroscience</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Training sparse natural image models with a fast Gibbs sampler of an extended state space</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new learning strategy based on an efficient blocked Gibbs sampler for sparse overcomplete linear models. Particular emphasis is placed on statistical image modeling, where overcomplete models have played an important role in discovering sparse representations. Our Gibbs sampler is faster than general purpose sampling schemes while also requiring no tuning as it is free of parameters. Using the Gibbs sampler and a persistent variant of expectation maximization, we are able to extract highly sparse distributions over latent sources from data. When applied to natural images, our algorithm learns source distributions which resemble spike-and-slab distributions. We evaluate the likelihood and quantitatively compare the performance of the overcomplete linear model to its complete counterpart as well as a product of experts model, which represents another overcomplete generalization of the complete linear model. In contrast to previous claims, we find that overcomplete representations lead to significant improvements, but that the overcomplete linear model still underperforms other models.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

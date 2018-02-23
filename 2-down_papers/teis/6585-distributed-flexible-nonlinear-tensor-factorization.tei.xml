@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Distributed Flexible Nonlinear Tensor Factorization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shandian</forename><surname>Zhe</surname></persName>
+							<email>§ szhe@purdue.edu, † kzhang@nec-labs.com, ‡ pengyuan@uga.edu,</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. Computer Science</orgName>
+								<orgName type="laboratory">† NEC Laboratories America</orgName>
+								<orgName type="institution">Purdue University</orgName>
+								<address>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kai</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pengyuan</forename><surname>Wang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Dept. Marketing</orgName>
+								<orgName type="department" key="dep2">Big Data Res. Center</orgName>
+								<orgName type="department" key="dep3">School Comp. Sci. Eng</orgName>
+								<orgName type="department" key="dep4">Ant Financial Service Group</orgName>
+								<orgName type="institution" key="instit1">University of Georgia at Athens, Yahoo! Research</orgName>
+								<orgName type="institution" key="instit2">Univ. of Electr. Sci. &amp; Tech. of China</orgName>
+								<address>
+									<settlement>Alibaba</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kuang-Chih</forename><surname>Lee</surname></persName>
+							<email>kclee@yahoo-inc.com, zlxu@uestc.edu.cn, alanqi0@outlook.com, zoubin@cam.ac.uk</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zenglin</forename><surname>Xu</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuan</forename><surname>Qi</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zoubin</forename><surname>Gharamani</surname></persName>
+						</author>
+						<title level="a" type="main">Distributed Flexible Nonlinear Tensor Factorization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Tensor factorization is a powerful tool to analyse multi-way data. Recently proposed nonlinear factorization methods, although capable of capturing complex relationships, are computationally quite expensive and may suffer a severe learning bias in case of extreme data sparsity. Therefore, we propose a distributed, flexible nonlinear tensor factorization model, which avoids the expensive computations and structural restrictions of the Kronecker-product in the existing TGP formulations, allowing an arbitrary subset of tensorial entries to be selected for training. Meanwhile , we derive a tractable and tight variational evidence lower bound (ELBO) that enables highly decoupled, parallel computations and high-quality inference. Based on the new bound, we develop a distributed, key-value-free inference algorithm in the MAPREDUCE framework, which can fully exploit the memory cache mechanism in fast MAPREDUCE systems such as SPARK. Experiments demonstrate the advantages of our method over several state-of-the-art approaches, in terms of both predictive performance and computational efficiency.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

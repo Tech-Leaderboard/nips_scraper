@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Best Response Regression</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Omer</forename><surname>Ben-Porat</surname></persName>
+							<email>omerbp@campus.technion.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Technion -Israel Institute of Technology</orgName>
+								<address>
+									<postCode>32000, 32000</postCode>
+									<settlement>Haifa</settlement>
+									<country>Israel, Israel, Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moshe</forename><surname>Tennenholtz</surname></persName>
+							<email>moshet@ie.technion.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Technion -Israel Institute of Technology</orgName>
+								<address>
+									<postCode>32000, 32000</postCode>
+									<settlement>Haifa</settlement>
+									<country>Israel, Israel, Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Best Response Regression</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In a regression task, a predictor is given a set of instances, along with a real value for each point. Subsequently, she has to identify the value of a new instance as accurately as possible. In this work, we initiate the study of strategic predictions in machine learning. We consider a regression task tackled by two players, where the payoff of each player is the proportion of the points she predicts more accurately than the other player. We first revise the probably approximately correct learning framework to deal with the case of a duel between two predictors. We then devise an algorithm which finds a linear regression predictor that is a best response to any (not necessarily linear) regression algorithm. We show that it has linearithmic sample complexity, and polynomial time complexity when the dimension of the instances domain is fixed. We also test our approach in a high-dimensional setting, and show it significantly defeats classical regression algorithms in the prediction duel. Together, our work introduces a novel machine learning task that lends itself well to current competitive online settings, provides its theoretical foundations, and illustrates its applicability.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

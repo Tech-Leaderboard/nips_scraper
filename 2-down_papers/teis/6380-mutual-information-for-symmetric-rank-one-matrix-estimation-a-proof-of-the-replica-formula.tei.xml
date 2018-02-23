@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mutual information for symmetric rank-one matrix estimation: A proof of the replica formula</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean</forename><surname>Barbier</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire de Théorie des Communications</orgName>
+								<orgName type="institution" key="instit1">Faculté Informatique et Communications</orgName>
+								<orgName type="institution" key="instit2">Ecole Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>1015</postCode>
+									<country key="CH">Suisse</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohamad</forename><surname>Dia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire de Théorie des Communications</orgName>
+								<orgName type="institution" key="instit1">Faculté Informatique et Communications</orgName>
+								<orgName type="institution" key="instit2">Ecole Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>1015</postCode>
+									<country key="CH">Suisse</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><surname>Macris</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire de Théorie des Communications</orgName>
+								<orgName type="institution" key="instit1">Faculté Informatique et Communications</orgName>
+								<orgName type="institution" key="instit2">Ecole Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>1015</postCode>
+									<country key="CH">Suisse</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Florent</forename><surname>Krzakala</surname></persName>
+							<email>florent.krzakala@ens.fr</email>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratoire de Physique Statistique, CNRS, PSL Universités et Ecole Normale Supérieure, Sorbonne Universités et Université Pierre &amp; Marie Curie</orgName>
+								<address>
+									<postCode>75005</postCode>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thibault</forename><surname>Lesieur</surname></persName>
+							<email>lesieur.thibault@gmail.com,lenka.zdeborova@gmail.com</email>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Institut de Physique Théorique</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Université</orgName>
+								<address>
+									<addrLine>Paris-Saclay, F-91191</addrLine>
+									<settlement>Gif-sur-Yvette</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lenka</forename><surname>Zdeborová</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Institut de Physique Théorique</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Université</orgName>
+								<address>
+									<addrLine>Paris-Saclay, F-91191</addrLine>
+									<settlement>Gif-sur-Yvette</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mutual information for symmetric rank-one matrix estimation: A proof of the replica formula</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Factorizing low-rank matrices has many applications in machine learning and statistics. For probabilistic models in the Bayes optimal setting, a general expression for the mutual information has been proposed using heuristic statistical physics computations, and proven in few specific cases. Here, we show how to rigorously prove the conjectured formula for the symmetric rank-one case. This allows to express the minimal mean-square-error and to characterize the detectability phase transitions in a large set of estimation problems ranging from community detection to sparse PCA. We also show that for a large set of parameters, an iterative algorithm called approximate message-passing is Bayes optimal. There exists, however, a gap between what currently known polynomial algorithms can do and what is expected information theoretically. Additionally, the proof technique has an interest of its own and exploits three essential ingredients: the interpolation method introduced in statistical physics by Guerra, the analysis of the approximate message-passing algorithm and the theory of spatial coupling and threshold saturation in coding. Our approach is generic and applicable to other open problems in statistical estimation where heuristic statistical physics predictions are available. Consider the following probabilistic rank-one matrix estimation problem: one has access to noisy observations w = (w ij) n i,j=1 of the pair-wise product of the components of a vector s = (s 1 ,. .. , s n) ∈ R n with i.i.d components distributed as S i ∼ P 0 , i = 1,. .. , n. The entries of w are observed through a noisy element-wise (possibly non-linear) output probabilistic channel P out (w ij |s i s j / √ n). The goal is to estimate the vector s from w assuming that both P 0 and P out are known and independent of n (noise is symmetric so that w ij = w ji). Many important problems in statistics and machine learning can be expressed in this way, such as sparse PCA [1], the Wigner spiked model [2, 3], community detection [4] or matrix completion [5]. Proving a result initially derived by a heuristic method from statistical physics, we give an explicit expression for the mutual information (MI) and the information theoretic minimal mean-square-error (MMSE) in the asymptotic n → ∞ limit. Our results imply that for a large region of parameters, the posterior marginal expectations of the underlying signal components (often assumed intractable 30th Conference on Neural Information Processing Systems (NIPS 2016), Barcelona, Spain.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

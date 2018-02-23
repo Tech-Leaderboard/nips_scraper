@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning spatiotemporal trajectories from manifold-valued longitudinal data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean-Baptiste</forename><surname>Schiratti</surname></persName>
+							<email>jean-baptiste.schiratti@cmap.polytechnique.fr, stephanie.allassonniere@polytechnique.edu,</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">ARAMIS Lab</orgName>
+								<orgName type="institution">INRIA Paris</orgName>
+								<address>
+									<addrLine>Inserm U1127</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 7225</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>Sorbonne Universités</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">UPMC Univ Paris</orgName>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="laboratory">CMAP</orgName>
+								<orgName type="institution">Ecole Polytechnique</orgName>
+								<address>
+									<settlement>Palaiseau</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stéphanie</forename><surname>Allassonnì Ere</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="laboratory">CMAP</orgName>
+								<orgName type="institution">Ecole Polytechnique</orgName>
+								<address>
+									<settlement>Palaiseau</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olivier</forename><surname>Colliot</surname></persName>
+							<email>olivier.colliot@upmc.fr,stanley.durrleman@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">ARAMIS Lab</orgName>
+								<orgName type="institution">INRIA Paris</orgName>
+								<address>
+									<addrLine>Inserm U1127</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 7225</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>Sorbonne Universités</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">UPMC Univ Paris</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stanley</forename><surname>Durrleman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">ARAMIS Lab</orgName>
+								<orgName type="institution">INRIA Paris</orgName>
+								<address>
+									<addrLine>Inserm U1127</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 7225</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>Sorbonne Universités</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">UPMC Univ Paris</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Institut du Cerveau et de la Moellé epinì ere</orgName>
+								<orgName type="laboratory">UMR S 1127</orgName>
+								<orgName type="institution">ICM</orgName>
+								<address>
+									<postCode>F-75013</postCode>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning spatiotemporal trajectories from manifold-valued longitudinal data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a Bayesian mixed-effects model to learn typical scenarios of changes from longitudinal manifold-valued data, namely repeated measurements of the same objects or individuals at several points in time. The model allows to estimate a group-average trajectory in the space of measurements. Random variations of this trajectory result from spatiotemporal transformations, which allow changes in the direction of the trajectory and in the pace at which trajectories are followed. The use of the tools of Riemannian geometry allows to derive a generic algorithm for any kind of data with smooth constraints, which lie therefore on a Riemannian manifold. Stochastic approximations of the Expectation-Maximization algorithm is used to estimate the model parameters in this highly non-linear setting. The method is used to estimate a data-driven model of the progressive impairments of cognitive functions during the onset of Alzheimer&apos;s disease. Experimental results show that the model correctly put into correspondence the age at which each individual was diagnosed with the disease, thus validating the fact that it effectively estimated a normative scenario of disease progression. Random effects provide unique insights into the variations in the ordering and timing of the succession of cognitive impairments across different individuals.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

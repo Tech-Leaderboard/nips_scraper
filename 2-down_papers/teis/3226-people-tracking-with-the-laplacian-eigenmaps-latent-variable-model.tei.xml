@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">People Tracking with the Laplacian Eigenmaps Latent Variable Model</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhengdong</forename><surname>Lu</surname></persName>
+							<email>zhengdon@csee.ogi.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Migueí</forename><forename type="middle">A</forename><surname>Carreira-Perpiñán</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cristian</forename><surname>Sminchisescu</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Perpi˜Perpiñán EECS, UC</orgName>
+								<orgName type="institution" key="instit1">CSEE</orgName>
+								<orgName type="institution" key="instit2">OGI</orgName>
+								<address>
+									<settlement>Merced</settlement>
+									<region>OHSU</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Bonn</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">People Tracking with the Laplacian Eigenmaps Latent Variable Model</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Reliably recovering 3D human pose from monocular video requires models that bias the estimates towards typical human poses and motions. We construct priors for people tracking using the Laplacian Eigenmaps Latent Variable Model (LELVM). LELVM is a recently introduced probabilistic dimensionality reduction model that combines the advantages of latent variable models-a multimodal probability density for latent and observed variables, and globally differentiable nonlinear mappings for reconstruction and dimensionality reduction-with those of spectral manifold learning methods-no local optima, ability to unfold highly nonlinear manifolds, and good practical scaling to latent spaces of high dimension. LELVM is computationally efficient, simple to learn from sparse training data, and compatible with standard probabilistic trackers such as particle filters. We analyze the performance of a LELVM-based probabilistic sigma point mixture tracker in several real and synthetic human motion sequences and demonstrate that LELVM not only provides sufficient constraints for robust operation in the presence of missing, noisy and ambiguous image measurements, but also compares favorably with alternative trackers based on PCA or GPLVM priors. Recent research in reconstructing articulated human motion has focused on methods that can exploit available prior knowledge on typical human poses or motions in an attempt to build more reliable algorithms. The high-dimensionality of human ambient pose space-between 30-60 joint angles or joint positions depending on the desired accuracy level, makes exhaustive search prohibitively expensive. This has negative impact on existing trackers, which are often not sufficiently reliable at reconstructing human-like poses, self-initializing or recovering from failure. Such difficulties have stimulated research in algorithms and models that reduce the effective working space, either using generic search focusing methods (annealing, state space decomposition, covariance scaling) or by exploiting specific problem structure (e.g. kinematic jumps). Experience with these procedures has nevertheless shown that any search strategy, no matter how effective, can be made significantly more reliable if restricted to low-dimensional state spaces. This permits a more thorough exploration of the typical solution space, for a given, comparatively similar computational effort as a high-dimensional method. The argument correlates well with the belief that the human pose space, although high-dimensional in its natural ambient parameterization, has a significantly lower perceptual (latent or intrinsic) dimensionality, at least in a practical sense-many poses that are possible are so improbable in many real-world situations that it pays off to encode them with low accuracy. A perceptual representation has to be powerful enough to capture the diversity of human poses in a sufficiently broad domain of applicability (the task domain), yet compact and analytically tractable for search and optimization. This justifies the use of models that are nonlinear and low-dimensional (able to unfold highly nonlinear manifolds with low distortion), yet probabilistically motivated and globally continuous for efficient optimization. Reducing dimensionality is not the only goal: perceptual representations have to preserve critical properties of the ambient space. Reliable tracking needs locality: nearby regions in ambient space have to be mapped to nearby regions in latent space. If this does not hold, the tracker is forced to make unrealistically large, and difficult to predict jumps in latent space in order to follow smooth trajectories in the joint angle ambient space.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

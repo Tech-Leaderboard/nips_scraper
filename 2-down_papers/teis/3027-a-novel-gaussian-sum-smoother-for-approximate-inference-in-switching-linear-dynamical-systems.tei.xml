@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Novel Gaussian Sum Smoother for Approximate Inference in Switching Linear Dynamical Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Barber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IDIAP Research Institute Martigny 1920</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bertrand</forename><surname>Mesot</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IDIAP Research Institute Martigny 1920</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Novel Gaussian Sum Smoother for Approximate Inference in Switching Linear Dynamical Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a method for approximate smoothed inference in a class of switching linear dynamical systems, based on a novel form of Gaussian Sum smoother. This class includes the switching Kalman Filter and the more general case of switch transitions dependent on the continuous latent state. The method improves on the standard Kim smoothing approach by dispensing with one of the key approximations , thus making fuller use of the available future information. Whilst the only central assumption required is projection to a mixture of Gaussians, we show that an additional conditional independence assumption results in a simpler but stable and accurate alternative. Unlike the alternative unstable Expectation Propagation procedure, our method consists only of a single forward and backward pass and is reminiscent of the standard smoothing &apos;correction&apos; recursions in the simpler linear dynamical system. The algorithm performs well on both toy experiments and in a large scale application to noise robust speech recognition. 1 Switching Linear Dynamical System The Linear Dynamical System (LDS) [1] is a key temporal model in which a latent linear process generates the observed series. For complex time-series which are not well described globally by a single LDS, we may break the time-series into segments, each modeled by a potentially different LDS. This is the basis for the Switching LDS (SLDS) [2, 3, 4, 5] where, for each time t, a switch variable s t ∈ 1,. .. , S describes which of the LDSs is to be used. The observation (or &apos;visible&apos;) v t ∈ R V is linearly related to the hidden state h t ∈ R H with additive noise η by v t = B(s t)h t + η v (s t) ≡ p(v t |h t , s t) = N (B(s t)h t , Σ v (s t)) (1) where N (µ, Σ) denotes a Gaussian distribution with mean µ and covariance Σ. The transition dynamics of the continuous hidden state h t is linear, h t = A(s t)h t−1 + η h (s t), ≡ p(h t |h t−1 , s t) = N 񮽙 A(s t)h t−1 , Σ h (s t) 񮽙 (2) The switch s t may depend on both the previous s t−1 and h t−1. This is an augmented SLDS (aSLDS), and defines the model p(v 1:T , h 1:T , s 1:T) = T 񮽙 t=1 p(v t |h t , s t)p(h t |h t−1 , s t)p(s t |h t−1 , s t−1) The standard SLDS[4] considers only switch transitions p(s t |s t−1). At time t = 1, p(s 1 |h 0 , s 0) simply denotes the prior p(s 1), and p(h 1 |h 0 , s 1) denotes p(h 1 |s 1). The aim of this article is to address how to perform inference in the aSLDS. In particular we desire the filtered estimate p(h t , s t |v 1:t) and the smoothed estimate p(h t , s t |v 1:T), for any 1 ≤ t ≤ T. Both filtered and smoothed inference in the SLDS is intractable, scaling exponentially with time [4].</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

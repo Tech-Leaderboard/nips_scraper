@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Speedy Q-Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammad</forename><forename type="middle">Gheshlaghi</forename><surname>Azar</surname></persName>
+							<email>m.azar@science.ru.nl</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Remi</forename><surname>Munos</surname></persName>
+							<email>r.munos@inria.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammad</forename><surname>Ghavamzadeh</surname></persName>
+							<email>m.ghavamzadeh@inria.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hilbert</forename><forename type="middle">J</forename><surname>Kappen</surname></persName>
+							<email>b.kappen@science.ru.nl</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Radboud University Nijmegen Geert Grooteplein 21N</orgName>
+								<address>
+									<postCode>6525 EZ</postCode>
+									<settlement>Nijmegen</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">INRIA Lille</orgName>
+								<address>
+									<addrLine>SequeL Project 40 avenue Halley</addrLine>
+									<postCode>59650</postCode>
+									<settlement>Villeneuve d&apos;Ascq</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Radboud University Nijmegen Geert Grooteplein 21N</orgName>
+								<orgName type="institution">INRIA Lille</orgName>
+								<address>
+									<addrLine>SequeL Project 40 avenue Halley, 59650 Villeneuve d&apos;Ascq</addrLine>
+									<postCode>6525 EZ</postCode>
+									<settlement>Nijmegen</settlement>
+									<country>France, Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Speedy Q-Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a new convergent variant of Q-learning, called speedy Q-learning (SQL), to address the problem of slow convergence in the standard form of the Q-learning algorithm. We prove a PAC bound on the performance of SQL, which shows that for an MDP with n state-action pairs and the discount factor γ only T = O log(n)/(ǫ 2 (1 − γ) 4) steps are required for the SQL algorithm to converge to an ǫ-optimal action-value function with high probability. This bound has a better dependency on 1/ǫ and 1/(1 − γ), and thus, is tighter than the best available result for Q-learning. Our bound is also superior to the existing results for both model-free and model-based instances of batch Q-value iteration that are considered to be more efficient than the incremental methods like Q-learning.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

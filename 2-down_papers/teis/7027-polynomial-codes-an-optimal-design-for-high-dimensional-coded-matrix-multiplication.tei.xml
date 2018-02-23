@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Polynomial Codes: an Optimal Design for High-Dimensional Coded Matrix Multiplication</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qian</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammad</forename><forename type="middle">Ali</forename><surname>Maddah-Ali</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Nokia Bell Labs</orgName>
+								<address>
+									<settlement>Holmdel</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Salman</forename><surname>Avestimehr</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Polynomial Codes: an Optimal Design for High-Dimensional Coded Matrix Multiplication</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider a large-scale matrix multiplication problem where the computation is carried out using a distributed system with a master node and multiple worker nodes, where each worker can store parts of the input matrices. We propose a computation strategy that leverages ideas from coding theory to design intermediate computations at the worker nodes, in order to optimally deal with straggling workers. The proposed strategy, named as polynomial codes, achieves the optimum recovery threshold, defined as the minimum number of workers that the master needs to wait for in order to compute the output. This is the first code that achieves the optimal utilization of redundancy for tolerating stragglers or failures in distributed matrix multiplication. Furthermore, by leveraging the algebraic structure of polynomial codes, we can map the reconstruction problem of the final output to a polynomial interpolation problem, which can be solved efficiently. Polynomial codes provide order-wise improvement over the state of the art in terms of recovery threshold, and are also optimal in terms of several other metrics including computation latency and communication load. Moreover, we extend this code to distributed convolution and show its order-wise optimality.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

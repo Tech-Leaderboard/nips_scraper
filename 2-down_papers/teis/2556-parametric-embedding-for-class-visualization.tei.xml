@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Parametric Embedding for Class Visualization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tomoharu</forename><surname>Iwata</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">NTT Communication Science Laboratories NTT Corporation</orgName>
+								<address>
+									<addrLine>2-4 Hikaridai Seika-Cho Soraku-gun Kyoto</addrLine>
+									<postCode>619-0237</postCode>
+									<country key="JP">JAPAN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kazumi</forename><surname>Saito</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">NTT Communication Science Laboratories NTT Corporation</orgName>
+								<address>
+									<addrLine>2-4 Hikaridai Seika-Cho Soraku-gun Kyoto</addrLine>
+									<postCode>619-0237</postCode>
+									<country key="JP">JAPAN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Naonori</forename><surname>Ueda</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">NTT Communication Science Laboratories NTT Corporation</orgName>
+								<address>
+									<addrLine>2-4 Hikaridai Seika-Cho Soraku-gun Kyoto</addrLine>
+									<postCode>619-0237</postCode>
+									<country key="JP">JAPAN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sean</forename><surname>Stromsten</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">NTT Communication Science Laboratories NTT Corporation</orgName>
+								<address>
+									<addrLine>2-4 Hikaridai Seika-Cho Soraku-gun Kyoto</addrLine>
+									<postCode>619-0237</postCode>
+									<country key="JP">JAPAN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">NTT Communication Science Laboratories NTT Corporation</orgName>
+								<address>
+									<addrLine>2-4 Hikaridai Seika-Cho Soraku-gun Kyoto</addrLine>
+									<postCode>619-0237</postCode>
+									<country key="JP">JAPAN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">NTT Communication Science Laboratories NTT Corporation</orgName>
+								<address>
+									<addrLine>2-4 Hikaridai Seika-Cho Soraku-gun Kyoto</addrLine>
+									<postCode>619-0237</postCode>
+									<country key="JP">JAPAN</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Parametric Embedding for Class Visualization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we propose a new method, Parametric Embedding (PE), for visualizing the posteriors estimated over a mixture model. PE simultaneously embeds both objects and their classes in a low-dimensional space. PE takes as input a set of class posterior vectors for given data points, and tries to preserve the posterior structure in an embedding space by minimizing a sum of Kullback-Leibler divergences, under the assumption that samples are generated by a Gaussian mixture with equal covari-ances in the embedding space. PE has many potential uses depending on the source of the input data, providing insight into the classifier&apos;s behavior in supervised, semi-supervised and unsupervised settings. The PE algorithm has a computational advantage over conventional embedding methods based on pairwise object relations since its complexity scales with the product of the number of objects and the number of classes. We demonstrate PE by visualizing supervised categorization of web pages, semi-supervised categorization of digits, and the relations of words and latent topics found by an unsupervised algorithm, Latent Dirichlet Allocation .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

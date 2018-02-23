@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">622 LEARNING A COLOR ALGORITHM FROM EXAMPLES</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anya</forename><forename type="middle">C</forename><surname>Hurlbert</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>Massachusetts</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tomaso</forename><forename type="middle">A</forename><surname>Poggio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>Massachusetts</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">622 LEARNING A COLOR ALGORITHM FROM EXAMPLES</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A lightness algorithm that separates surface reflectance from illumination in a Mondrian world is synthesized automatically from a set of examples, pairs of input (image irradiance) and desired output (surface reflectance). The algorithm, which resembles a new lightness algorithm recently proposed by Land, is approximately equivalent to filtering the image through a center-surround receptive field in individual chromatic channels. The synthesizing technique, optimal linear estimation, requires only one assumption, that the operator that transforms input into output is linear. This assumption is true for a certain class of early vision algorithms that may therefore be synthesized in a similar way from examples. Other methods of synthesizing algorithms from examples, or &quot;learning&quot;, such as backpropagation, do not yield a significantly different or better lightness algorithm in the Mondrian world. The linear estimation and backpropagation techniques both produce simultaneous brightness contrast effects. The problems that a visual system must solve in decoding two-dimensional images into three-dimensional scenes (inverse optics problems) are difficult: the information supplied by an image is not sufficient by itself to specify a unique scene. To reduce the number of possible interpretations of images, visual systems, whether artificial or biological, must make use of natural constraints, assumptions about the physical properties of surfaces and lights. Computational vision scientists have derived effective solutions for some inverse optics problems (such as computing depth from binocular disparity) by determining the appropriate natural constraints and embedding them in algorithms. How might a visual system discover and exploit natural constraints on its own? We address a simpler question: Given only a set of examples of input images and desired output solutions, can a visual system synthesize. or &quot;learn&quot;, the algorithm that converts input to output? We find that an algorithm for computing color in a restricted world can be constructed from examples using standard techniques of optimal linear estimation. The computation of color is a prime example of the difficult problems of inverse optics. We do not merely discriminate betwN&apos;n different wavelengths of light; we assign</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

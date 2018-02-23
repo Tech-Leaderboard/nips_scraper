@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">What do row and column marginals reveal about your dataset?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Behzad</forename><surname>Golshan</surname></persName>
+							<email>behzad@cs.bu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Boston University</orgName>
+								<orgName type="institution" key="instit2">Boston University</orgName>
+								<orgName type="institution" key="instit3">Boston University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">W</forename><surname>Byers</surname></persName>
+							<email>byers@cs.bu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Boston University</orgName>
+								<orgName type="institution" key="instit2">Boston University</orgName>
+								<orgName type="institution" key="instit3">Boston University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Evimaria</forename><surname>Terzi</surname></persName>
+							<email>evimaria@cs.bu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Boston University</orgName>
+								<orgName type="institution" key="instit2">Boston University</orgName>
+								<orgName type="institution" key="instit3">Boston University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">What do row and column marginals reveal about your dataset?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Numerous datasets ranging from group memberships within social networks to purchase histories on e-commerce sites are represented by binary matrices. While this data is often either proprietary or sensitive, aggregated data, notably row and column marginals, is often viewed as much less sensitive, and may be furnished for analysis. Here, we investigate how these data can be exploited to make inferences about the underlying matrix H. Instead of assuming a generative model for H, we view the input marginals as constraints on the dataspace of possible real-izations of H and compute the probability density function of particular entries H(i, j) of interest. We do this for all the cells of H simultaneously, without generating realizations, but rather via implicitly sampling the datasets that satisfy the input marginals. The end result is an efficient algorithm with asymptotic running time the same as that required by standard sampling techniques to generate a single dataset from the same dataspace. Our experimental evaluation demonstrates the efficiency and the efficacy of our framework in multiple settings.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

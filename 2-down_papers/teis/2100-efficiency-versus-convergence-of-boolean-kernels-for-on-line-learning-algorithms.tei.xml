@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficiency versus Convergence of Boolean Kernels for On-Line Learning Algorithms</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roni</forename><surname>Khardon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Tufts University Medford</orgName>
+								<orgName type="institution" key="instit2">University of Illinois Urbana</orgName>
+								<orgName type="institution" key="instit3">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02155, 61801, 02138</postCode>
+									<region>MA, IL, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Roth</surname></persName>
+							<email>danr@cs.uiuc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Tufts University Medford</orgName>
+								<orgName type="institution" key="instit2">University of Illinois Urbana</orgName>
+								<orgName type="institution" key="instit3">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02155, 61801, 02138</postCode>
+									<region>MA, IL, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rocco</forename><surname>Servedio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Tufts University Medford</orgName>
+								<orgName type="institution" key="instit2">University of Illinois Urbana</orgName>
+								<orgName type="institution" key="instit3">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02155, 61801, 02138</postCode>
+									<region>MA, IL, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficiency versus Convergence of Boolean Kernels for On-Line Learning Algorithms</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study online learning in Boolean domains using kernels which capture feature expansions equivalent to using conjunctions over basic features. We demonstrate a tradeoff between the computational efficiency with which these kernels can be computed and the generalization ability of the resulting classifier. We first describe several kernel functions which capture either limited forms of conjunctions or all conjunctions. We show that these kernels can be used to efficiently run the Percep-tron algorithm over an exponential number of conjunctions; however we also prove that using such kernels the Perceptron algorithm can make an exponential number of mistakes even when learning simple functions. We also consider an analogous use of kernel functions to run the multiplicative-update Winnow algorithm over an expanded feature space of exponentially many conjunctions. While known upper bounds imply that Winnow can learn DNF formulae with a polynomial mistake bound in this setting, we prove that it is computationally hard to simulate Win-now&apos;s behavior for learning DNF over such a feature set, and thus that such kernel functions for Winnow are not efficiently computable.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

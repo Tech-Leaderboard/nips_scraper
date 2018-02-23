@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Runtime Neural Pruning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ji</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Automation</orgName>
+								<orgName type="department" key="dep2">Department of Automation</orgName>
+								<orgName type="department" key="dep3">Department of Automation</orgName>
+								<orgName type="department" key="dep4">Department of Automation</orgName>
+								<orgName type="institution" key="instit1">Tsinghua University</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<orgName type="institution" key="instit4">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yongming</forename><surname>Rao</surname></persName>
+							<email>raoyongming95@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Automation</orgName>
+								<orgName type="department" key="dep2">Department of Automation</orgName>
+								<orgName type="department" key="dep3">Department of Automation</orgName>
+								<orgName type="department" key="dep4">Department of Automation</orgName>
+								<orgName type="institution" key="instit1">Tsinghua University</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<orgName type="institution" key="instit4">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiwen</forename><surname>Lu</surname></persName>
+							<email>lujiwen@tsinghua.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Automation</orgName>
+								<orgName type="department" key="dep2">Department of Automation</orgName>
+								<orgName type="department" key="dep3">Department of Automation</orgName>
+								<orgName type="department" key="dep4">Department of Automation</orgName>
+								<orgName type="institution" key="instit1">Tsinghua University</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<orgName type="institution" key="instit4">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jie</forename><surname>Zhou</surname></persName>
+							<email>jzhou@tsinghua.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Automation</orgName>
+								<orgName type="department" key="dep2">Department of Automation</orgName>
+								<orgName type="department" key="dep3">Department of Automation</orgName>
+								<orgName type="department" key="dep4">Department of Automation</orgName>
+								<orgName type="institution" key="instit1">Tsinghua University</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<orgName type="institution" key="instit4">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Runtime Neural Pruning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we propose a Runtime Neural Pruning (RNP) framework which prunes the deep neural network dynamically at the runtime. Unlike existing neural pruning methods which produce a fixed pruned model for deployment, our method preserves the full ability of the original network and conducts pruning according to the input image and current feature maps adaptively. The pruning is performed in a bottom-up, layer-by-layer manner, which we model as a Markov decision process and use reinforcement learning for training. The agent judges the importance of each convolutional kernel and conducts channel-wise pruning conditioned on different samples, where the network is pruned more when the image is easier for the task. Since the ability of network is fully preserved, the balance point is easily adjustable according to the available resources. Our method can be applied to off-the-shelf network structures and reach a better tradeoff between speed and accuracy, especially with a large pruning rate.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

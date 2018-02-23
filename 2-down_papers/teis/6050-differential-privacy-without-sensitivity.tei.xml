@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Differential Privacy without Sensitivity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kentaro</forename><surname>Minami</surname></persName>
+							<email>kentaro minami@mist.i.u-tokyo.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit2">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit3">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit4">The University of Tokyo</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hiromi</forename><surname>Arai</surname></persName>
+							<email>arai@dl.itc.u-tokyo.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit2">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit3">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit4">The University of Tokyo</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Issei</forename><surname>Sato</surname></persName>
+							<email>sato@k.u-tokyo.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit2">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit3">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit4">The University of Tokyo</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hiroshi</forename><surname>Nakagawa</surname></persName>
+							<email>nakagawa@dl.itc.u-tokyo.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit2">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit3">The University of Tokyo</orgName>
+								<orgName type="institution" key="instit4">The University of Tokyo</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Differential Privacy without Sensitivity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The exponential mechanism is a general method to construct a randomized estima-tor that satisfies (ε, 0)-differential privacy. Recently, Wang et al. showed that the Gibbs posterior, which is a data-dependent probability distribution that contains the Bayesian posterior, is essentially equivalent to the exponential mechanism under certain boundedness conditions on the loss function. While the exponential mechanism provides a way to build an (ε, 0)-differential private algorithm, it requires boundedness of the loss function, which is quite stringent for some learning problems. In this paper, we focus on (ε, δ)-differential privacy of Gibbs posteriors with convex and Lipschitz loss functions. Our result extends the classical exponential mechanism, allowing the loss functions to have an unbounded sensitivity.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

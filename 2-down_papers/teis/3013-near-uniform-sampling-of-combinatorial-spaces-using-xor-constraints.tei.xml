@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Near-Uniform Sampling of Combinatorial Spaces Using XOR Constraints</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carla</forename><forename type="middle">P</forename><surname>Gomes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<postCode>14853-7501</postCode>
+									<settlement>Ithaca</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ashish</forename><surname>Sabharwal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<postCode>14853-7501</postCode>
+									<settlement>Ithaca</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bart</forename><surname>Selman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<postCode>14853-7501</postCode>
+									<settlement>Ithaca</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Near-Uniform Sampling of Combinatorial Spaces Using XOR Constraints</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a new technique for sampling the solutions of combinatorial problems in a near-uniform manner. We focus on problems specified as a Boolean formula , i.e., on SAT instances. Sampling for SAT problems has been shown to have interesting connections with probabilistic reasoning, making practical sampling algorithms for SAT highly desirable. The best current approaches are based on Markov Chain Monte Carlo methods, which have some practical limitations. Our approach exploits combinatorial properties of random parity (XOR) constraints to prune away solutions near-uniformly. The final sample is identified amongst the remaining ones using a state-of-the-art SAT solver. The resulting sampling distribution is provably arbitrarily close to uniform. Our experiments show that our technique achieves a significantly better sampling quality than the best alternative.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Linear Convergence of a Frank-Wolfe Type Algorithm over Trace-Norm Balls *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zeyuan</forename><surname>Allen-Zhu</surname></persName>
+							<email>zeyuan@csail.mit.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elad</forename><surname>Hazan</surname></persName>
+							<email>ehazan@cs.princeton.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Hu</surname></persName>
+							<email>huwei@cs.princeton.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuanzhi</forename><surname>Li</surname></persName>
+							<email>yuanzhil@cs.princeton.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<settlement>Redmond</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Linear Convergence of a Frank-Wolfe Type Algorithm over Trace-Norm Balls *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a rank-k variant of the classical Frank-Wolfe algorithm to solve convex optimization over a trace-norm ball. Our algorithm replaces the top singular-vector computation (1-SVD) in Frank-Wolfe with a top-k singular-vector computation (k-SVD), which can be done by repeatedly applying 1-SVD k times. Alternatively, our algorithm can be viewed as a rank-k restricted version of projected gradient descent. We show that our algorithm has a linear convergence rate when the objective function is smooth and strongly convex, and the optimal solution has rank at most k. This improves the convergence rate and the total time complexity of the Frank-Wolfe method and its variants.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

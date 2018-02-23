@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Representing Part-Whole Relationships in Recurrent Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Viren</forename><surname>Jain</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Brain &amp; Cog. Sci. Dept</orgName>
+								<address>
+									<region>MIT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Valentin</forename><surname>Zhigulin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Howard Hughes Medical Institute</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Brain &amp; Cog. Sci. Dept</orgName>
+								<address>
+									<region>MIT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">Sebastian</forename><surname>Seung</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Howard Hughes Medical Institute</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Brain &amp; Cog. Sci. Dept</orgName>
+								<address>
+									<region>MIT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Representing Part-Whole Relationships in Recurrent Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>There is little consensus about the computational function of top-down synaptic connections in the visual system. Here we explore the hypothesis that top-down connections, like bottom-up connections, reflect part-whole relationships. We analyze a recurrent network with bidirectional synaptic interactions between a layer of neurons representing parts and a layer of neurons representing wholes. Within each layer, there is lateral inhibition. When the network detects a whole, it can rigorously enforce part-whole relationships by ignoring parts that do not belong. The network can complete the whole by filling in missing parts. The network can refuse to recognize a whole, if the activated parts do not conform to a stored part-whole relationship. Parameter regimes in which these behaviors happen are identified using the theory of permitted and forbidden sets [3, 4]. The network behaviors are illustrated by recreating Rumelhart and McClelland&apos;s &quot;interactive activation&quot; model [7]. In neural network models of visual object recognition [2, 6, 8], patterns of synaptic con-nectivity often reflect part-whole relationships between the features that are represented by neurons. For example, the connections of Figure 1 reflect the fact that feature B both contains simpler features A1, A2, and A3, and is contained in more complex features C1, C2, and C3. Such connectivity allows neurons to follow the rule that existence of the part is evidence for existence of the whole. By combining synaptic input from multiple sources of evidence for a feature, a neuron can &quot;decide&quot; whether that feature is present. 1 The synapses shown in Figure 1 are purely bottom-up, directed from simple to complex features. However, there are also top-down connections in the visual system, and there is little consensus about their function. One possibility is that top-down connections also reflect part-whole relationships. They allow feature detectors to make decisions using the rule that existence of the whole is evidence for existence of its parts. In this paper, we analyze the dynamics of a recurrent network in which part-whole relationships are stored as bidirectional synaptic interactions, rather than the unidirectional interactions of Figure 1. The network has a number of interesting computational capabilities. When the network detects a whole, it can rigorously enforce part-whole relationships 1 Synaptic connectivity may reflect other relationships besides part-whole. For example, invari-ances can be implemented by connecting detectors of several instances of the same feature to the same target, which is consequently an invariant detector of the feature.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Correctness of belief propagation in Gaussian graphical models of arbitrary topology</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yair</forename><surname>Weiss</surname></persName>
+							<email>yweiss@cs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Division UC Berkeley</orgName>
+								<orgName type="laboratory">Mitsubishi Electric Research Lab</orgName>
+								<address>
+									<addrLine>485 Soda Hall Berkeley, 201 Broadway Cambridge</addrLine>
+									<postCode>94720-1776, 02139</postCode>
+									<region>CA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">T</forename><surname>Freeman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Division UC Berkeley</orgName>
+								<orgName type="laboratory">Mitsubishi Electric Research Lab</orgName>
+								<address>
+									<addrLine>485 Soda Hall Berkeley, 201 Broadway Cambridge</addrLine>
+									<postCode>94720-1776, 02139</postCode>
+									<region>CA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Correctness of belief propagation in Gaussian graphical models of arbitrary topology</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Local &quot;belief propagation&quot; rules of the sort proposed by Pearl [15] are guaranteed to converge to the correct posterior probabilities in singly connected graphical models. Recently, a number of researchers have empirically demonstrated good performance of &quot;loopy belief propagation&quot;-using these same rules on graphs with loops. Perhaps the most dramatic instance is the near Shannon-limit performance of &quot;Turbo codes&quot;, whose decoding algorithm is equivalent to loopy belief propagation. Except for the case of graphs with a single loop, there has been little theoretical understanding of the performance of loopy propagation. Here we analyze belief propagation in networks with arbitrary topologies when the nodes in the graph describe jointly Gaussian random variables. We give an analytical formula relating the true posterior probabilities with those calculated using loopy propagation. We give sufficient conditions for convergence and show that when belief propagation converges it gives the correct posterior means for all graph topologies, not just networks with a single loop. The related &quot;max-product&quot; belief propagation algorithm finds the maximum posterior probability estimate for singly connected networks. We show that, even for non-Gaussian probability distributions, the convergence points of the max-product algorithm in loopy networks are maxima over a particular large local neighborhood of the posterior probability. These results help clarify the empirical performance results and motivate using the powerful belief propagation algorithm in a broader class of networks. Problems involving probabilistic belief propagation arise in a wide variety of applications, including error correcting codes, speech recognition and medical diagnosis. If the graph is singly connected, there exist local message-passing schemes to calculate the posterior probability of an unobserved variable given the observed variables. Pearl [15] derived such a scheme for singly connected Bayesian networks and showed that this &quot;belief propagation&quot; algorithm is guaranteed to converge to the correct posterior probabilities (or &quot;beliefs&quot;). Several groups have recently reported excellent experimental results by running algorithms</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

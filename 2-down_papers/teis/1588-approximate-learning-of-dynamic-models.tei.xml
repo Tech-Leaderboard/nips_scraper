@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Approximate Learning of Dynamic Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xavier</forename><surname>Boyen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Dept</orgName>
+								<orgName type="department" key="dep2">Computer Science Dept</orgName>
+								<address>
+									<addrLine>1 A Stanford, 1 A Stanford</addrLine>
+									<postCode>94305-9010, 94305-9010</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Approximate Learning of Dynamic Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Daphne Koller Inference is a key component in learning probabilistic models from partially observable data. When learning temporal models, each of the many inference phases requires a traversal over an entire long data sequence ; furthermore, the data structures manipulated are exponentially large, making this process computationally expensive. In [2], we describe an approximate inference algorithm for monitoring stochastic processes, and prove bounds on its approximation error. In this paper, we apply this algorithm as an approximate forward propagation step in an EM algorithm for learning temporal Bayesian networks. We provide a related approximation for the backward step, and prove error bounds for the combined algorithm. We show empirically that, for a real-life domain, EM using our inference algorithm is much faster than EM using exact inference, with almost no degradation in quality of the learned model. We extend our analysis to the online learning task, showing a bound on the error resulting from restricting attention to a small window of observations. We present an online EM learning algorithm for dynamic systems, and show that it learns much faster than standard offline EM.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

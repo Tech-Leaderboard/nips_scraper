@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An in-silico Neural Model of Dynamic Routing through Neuronal Coherence</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devarajan</forename><surname>Sridharan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and 񮽙 Department of Bioengineering</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><surname>Percival</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and 񮽙 Department of Bioengineering</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">Arthur</forename><surname>񮽙</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and 񮽙 Department of Bioengineering</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kwabena</forename><surname>Boahen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and 񮽙 Department of Bioengineering</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">񮽙</forename><forename type="middle">†</forename><surname>Program</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and 񮽙 Department of Bioengineering</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">In</forename><surname>Neurosciences</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and 񮽙 Department of Bioengineering</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An in-silico Neural Model of Dynamic Routing through Neuronal Coherence</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>* These authors contributed equally</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a neurobiologically plausible model to implement dynamic routing using the concept of neuronal communication through neuronal coherence. The model has a three-tier architecture: a raw input tier, a routing control tier, and an invariant output tier. The correct mapping between input and output tiers is realized by an appropriate alignment of the phases of their respective background oscillations by the routing control units. We present an example architecture, implemented on a neuromorphic chip, that is able to achieve circular-shift invariance. A simple extension to our model can accomplish circular-shift dynamic routing with only O(N) connections, compared to O(N 2) connections required by traditional models. 1 Dynamic Routing Circuit Models for Circular-Shift Invariance Dynamic routing circuit models are among the most prominent neural models for invariant recognition [1] (also see [2] for review). These models implement shift invariance by dynamically changing spatial connectivity to transform an object to a standard position or orientation. The connectivity between the raw input and invariant output layers is controlled by routing units, which turn certain subsets of connections on or off (Figure 1A). An important feature of this model is the explicit representation of what and where information in the main network and the routing units, respectively; the routing units use the where information to create invariant representations. Traditional solutions for shift invariance are neurobiologically implausible for at least two reasons. First, there are too many synaptic connections: for N input neurons, N output neurons and N possible input-output mappings, the network requires O(N 2) connections in the routing layer-between each of the N routing units and each set of N connections that that routing unit gates (Figure 1A). Second, these connections must be extremely precise: each routing unit must activate an input-output mapping (N individual connections) corresponding to the desired shift (as highlighted in Figure 1A). Other approaches that have been proposed, including invariant feature networks [3,4], also suffer from significant drawbacks, such as the inability to explicitly represent where information [2]. It remains an open question how biology could achieve shift invariance without profligate and precise connections. In this article, we propose a simple solution for shift invariance for quantities that are circular or periodic in nature-circular-shift invariance (CSI)-orientation invariance in vision and key invari-ance in music. The visual system may create orientation-invariant representations to aid recognition under conditions of object rotation or head-tilt [5,6]; a similar mechanism could be employed by the auditory system to create key-invariant representations under conditions where the same melody 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

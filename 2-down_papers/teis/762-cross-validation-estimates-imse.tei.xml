@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cross-Validation Estimates IMSE</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Plutowski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Economics * Institute for Neural Computation</orgName>
+								<orgName type="department" key="dep2">San Diego</orgName>
+								<orgName type="institution">University of California</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shinichi</forename><surname>Sakata</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Economics * Institute for Neural Computation</orgName>
+								<orgName type="department" key="dep2">San Diego</orgName>
+								<orgName type="institution">University of California</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Halbert</forename><surname>White</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Economics * Institute for Neural Computation</orgName>
+								<orgName type="department" key="dep2">San Diego</orgName>
+								<orgName type="institution">University of California</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cross-Validation Estimates IMSE</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Integrated Mean Squared Error (IMSE) is a version of the usual mean squared error criterion, averaged over all possible training sets of a given size. If it could be observed, it could be used to determine optimal network complexity or optimal data subsets for efficient training. We show that two common methods of cross-validating average squared error deliver unbiased estimates of IMSE, converging to IMSE with probability one. These estimates thus make possible approximate IMSE-based choice of network complexity. We also show that two variants of cross validation measure provide unbiased IMSE-based estimates potentially useful for selecting optimal data subsets. 1 Summary To begin, assume we are given a fixed network architecture. (We dispense with this assumption later.) Let zN denote a given set of N training examples. Let QN(zN) denote the expected squared error (the expectation taken over all possible examples) of the network after being trained on zN. This measures the quality of fit afforded by training on a given set of N examples. Let IMSEN denote the Integrated Mean Squared Error for training sets of size N. Given reasonable assumptions, it is straightforward to show that IMSEN = E[Q N(ZN)]-0&quot;2, where the expectation is now over all training sets of size N, ZN is a random training set of size N, and 0&quot;2 is the noise variance. Let CN = CN(zN) denote the &quot;delete-one cross-validation&quot; squared error measure for a network trained on zN. CN is obtained by training networks on each of the N training sets of size N-1 obtained by deleting a single example; the measure follows 391</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

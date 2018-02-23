@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Matrix Norm Estimation from a Few Entries</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ashish</forename><surname>Khetan</surname></persName>
+							<email>khetan2@illinois.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department</orgName>
+								<orgName type="department" key="dep2">Department of ISE</orgName>
+								<orgName type="institution" key="instit1">ISE University of Illinois Urbana-Champaign</orgName>
+								<orgName type="institution" key="instit2">University of Illinois</orgName>
+								<address>
+									<settlement>Urbana-Champaign</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sewoong</forename><surname>Oh</surname></persName>
+							<email>swoh@illinois.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department</orgName>
+								<orgName type="department" key="dep2">Department of ISE</orgName>
+								<orgName type="institution" key="instit1">ISE University of Illinois Urbana-Champaign</orgName>
+								<orgName type="institution" key="instit2">University of Illinois</orgName>
+								<address>
+									<settlement>Urbana-Champaign</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Matrix Norm Estimation from a Few Entries</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Singular values of a data in a matrix form provide insights on the structure of the data, the effective dimensionality, and the choice of hyper-parameters on higher-level data analysis tools. However, in many practical applications such as collaborative filtering and network analysis, we only get a partial observation. Under such scenarios, we consider the fundamental problem of recovering various spectral properties of the underlying matrix from a sampling of its entries. We propose a framework of first estimating the Schatten k-norms of a matrix for several values of k, and using these as surrogates for estimating spectral properties of interest, such as the spectrum itself or the rank. This paper focuses on the technical challenges in accurately estimating the Schatten norms from a sampling of a matrix. We introduce a novel unbiased estimator based on counting small structures in a graph and provide guarantees that match its empirical performances. Our theoretical analysis shows that Schatten norms can be recovered accurately from strictly smaller number of samples compared to what is needed to recover the underlying low-rank matrix. Numerical experiments suggest that we significantly improve upon a competing approach of using matrix completion methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

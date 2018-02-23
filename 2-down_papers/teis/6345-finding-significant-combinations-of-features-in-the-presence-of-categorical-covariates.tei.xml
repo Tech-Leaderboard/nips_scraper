@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Finding significant combinations of features in the presence of categorical covariates</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laetitia</forename><surname>Papaxanthos</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Machine Learning and Computational Biology Lab D-BSSE</orgName>
+								<orgName type="institution">ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Felipe</forename><surname>Llinares-López</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Machine Learning and Computational Biology Lab D-BSSE</orgName>
+								<orgName type="institution">ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dean</forename><surname>Bodenham</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Machine Learning and Computational Biology Lab D-BSSE</orgName>
+								<orgName type="institution">ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karsten</forename><surname>Borgwardt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Machine Learning and Computational Biology Lab D-BSSE</orgName>
+								<orgName type="institution">ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Finding significant combinations of features in the presence of categorical covariates</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>*Equally contributing authors.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In high-dimensional settings, where the number of features p is much larger than the number of samples n, methods that systematically examine arbitrary combinations of features have only recently begun to be explored. However, none of the current methods is able to assess the association between feature combinations and a target variable while conditioning on a categorical covariate. As a result, many false discoveries might occur due to unaccounted confounding effects. We propose the Fast Automatic Conditional Search (FACS) algorithm, a significant discriminative itemset mining method which conditions on categorical covariates and only scales as O(k log k), where k is the number of states of the categorical covariate. Based on the Cochran-Mantel-Haenszel Test, FACS demonstrates superior speed and statistical power on simulated and real-world datasets compared to the state of the art, opening the door to numerous applications in biomedicine.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Eigen-Distortions of Hierarchical Representations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><surname>Berardino</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Neural Science</orgName>
+								<orgName type="department" key="dep2">Center for Neural Science</orgName>
+								<orgName type="department" key="dep3">Center for Neural Science and Courant Institute of Mathematical Sciences</orgName>
+								<orgName type="laboratory">Image Processing Laboratory Universitat de València</orgName>
+								<orgName type="institution" key="instit1">New York University</orgName>
+								<orgName type="institution" key="instit2">New York University</orgName>
+								<orgName type="institution" key="instit3">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johannes</forename><surname>Ballé</surname></persName>
+							<email>* johannes.balle@nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Neural Science</orgName>
+								<orgName type="department" key="dep2">Center for Neural Science</orgName>
+								<orgName type="department" key="dep3">Center for Neural Science and Courant Institute of Mathematical Sciences</orgName>
+								<orgName type="laboratory">Image Processing Laboratory Universitat de València</orgName>
+								<orgName type="institution" key="instit1">New York University</orgName>
+								<orgName type="institution" key="instit2">New York University</orgName>
+								<orgName type="institution" key="instit3">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Valero</forename><surname>Laparra</surname></persName>
+							<email>valero.laparra@uv.es</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Neural Science</orgName>
+								<orgName type="department" key="dep2">Center for Neural Science</orgName>
+								<orgName type="department" key="dep3">Center for Neural Science and Courant Institute of Mathematical Sciences</orgName>
+								<orgName type="laboratory">Image Processing Laboratory Universitat de València</orgName>
+								<orgName type="institution" key="instit1">New York University</orgName>
+								<orgName type="institution" key="instit2">New York University</orgName>
+								<orgName type="institution" key="instit3">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eero</forename><surname>Simoncelli</surname></persName>
+							<email>eero.simoncelli@nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Neural Science</orgName>
+								<orgName type="department" key="dep2">Center for Neural Science</orgName>
+								<orgName type="department" key="dep3">Center for Neural Science and Courant Institute of Mathematical Sciences</orgName>
+								<orgName type="laboratory">Image Processing Laboratory Universitat de València</orgName>
+								<orgName type="institution" key="instit1">New York University</orgName>
+								<orgName type="institution" key="instit2">New York University</orgName>
+								<orgName type="institution" key="instit3">Howard Hughes Medical Institute</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Eigen-Distortions of Hierarchical Representations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We develop a method for comparing hierarchical image representations in terms of their ability to explain perceptual sensitivity in humans. Specifically, we utilize Fisher information to establish a model-derived prediction of sensitivity to local perturbations of an image. For a given image, we compute the eigenvectors of the Fisher information matrix with largest and smallest eigenvalues, corresponding to the model-predicted most-and least-noticeable image distortions, respectively. For human subjects, we then measure the amount of each distortion that can be reliably detected when added to the image. We use this method to test the ability of a variety of representations to mimic human perceptual sensitivity. We find that the early layers of VGG16, a deep neural network optimized for object recognition, provide a better match to human perception than later layers, and a better match than a 4-stage convolutional neural network (CNN) trained on a database of human ratings of distorted image quality. On the other hand, we find that simple models of early visual processing, incorporating one or more stages of local gain control, trained on the same database of distortion ratings, provide substantially better predictions of human sensitivity than either the CNN, or any combination of layers of VGG16.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

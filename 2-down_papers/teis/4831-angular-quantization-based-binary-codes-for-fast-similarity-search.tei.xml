@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Angular Quantization-based Binary Codes for Fast Similarity Search</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yunchao</forename><surname>Gong</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Computer Science Department</orgName>
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<postCode>27599</postCode>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sanjiv</forename><surname>Kumar</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vishal</forename><surname>Verma</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Computer Science Department</orgName>
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<postCode>27599</postCode>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Svetlana</forename><surname>Lazebnik</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Computer Science Department</orgName>
+								<orgName type="institution">University of Illinois at Urbana-Champaign</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Google Research</orgName>
+								<address>
+									<postCode>10011</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Angular Quantization-based Binary Codes for Fast Similarity Search</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper focuses on the problem of learning binary codes for efficient retrieval of high-dimensional non-negative data that arises in vision and text applications where counts or frequencies are used as features. The similarity of such feature vectors is commonly measured using the cosine of the angle between them. In this work, we introduce a novel angular quantization-based binary coding (AQBC) technique for such data and analyze its properties. In its most basic form, AQBC works by mapping each non-negative feature vector onto the vertex of the binary hypercube with which it has the smallest angle. Even though the number of vertices (quantization landmarks) in this scheme grows exponentially with data dimensionality d, we propose a method for mapping feature vectors to their smallest-angle binary vertices that scales as O(d log d). Further, we propose a method for learning a linear transformation of the data to minimize the quanti-zation error, and show that it results in improved binary codes. Experiments on image and text datasets show that the proposed AQBC method outperforms the state of the art.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

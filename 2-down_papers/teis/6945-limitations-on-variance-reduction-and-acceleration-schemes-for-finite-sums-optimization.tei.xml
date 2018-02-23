@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Limitations on Variance-Reduction and Acceleration Schemes for Finite Sum Optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yossi</forename><surname>Arjevani</surname></persName>
+							<email>yossi.arjevani@weizmann.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Applied Mathematics</orgName>
+								<orgName type="institution">Weizmann Institute of Science Rehovot</orgName>
+								<address>
+									<postCode>7610001</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Limitations on Variance-Reduction and Acceleration Schemes for Finite Sum Optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the conditions under which one is able to efficiently apply variance-reduction and acceleration schemes on finite sum optimization problems. First, we show that, perhaps surprisingly, the finite sum structure by itself, is not sufficient for obtaining a complexity bound of˜Oof˜ of˜O((n + L/µ) ln(1//)) for L-smooth and µ-strongly convex individual functions-one must also know which individual function is being referred to by the oracle at each iteration. Next, we show that for a broad class of first-order and coordinate-descent finite sum algorithms (including, e.g., SDCA, SVRG, SAG), it is not possible to get an &apos;accelerated&apos; complexity bound of˜Oof˜ of˜O((n+ nL/µ) ln(1//)), unless the strong convexity parameter is given explicitly. Lastly, we show that when this class of algorithms is used for minimizing L-smooth and convex finite sums, the iteration complexity is bounded from below by Ω(n + L//), assuming that (on average) the same update rule is used in any iteration, and Ω(n + nL//) otherwise.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

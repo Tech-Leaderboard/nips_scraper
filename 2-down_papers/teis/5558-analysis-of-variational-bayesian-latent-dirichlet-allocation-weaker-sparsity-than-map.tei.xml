@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Analysis of Variational Bayesian Latent Dirichlet Allocation: Weaker Sparsity than MAP</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shinichi</forename><forename type="middle">Nakajima</forename><surname>Berlin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Big Data Center</orgName>
+								<orgName type="institution">TU</orgName>
+								<address>
+									<postCode>10587</postCode>
+									<settlement>Berlin Berlin, Germany</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Issei</forename><surname>Sato</surname></persName>
+							<email>sato@r.dl.itc.u-tokyo.ac.jp</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Tokyo Tokyo</orgName>
+								<address>
+									<postCode>113-0033</postCode>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Masashi</forename><surname>Sugiyama</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Tokyo</orgName>
+								<address>
+									<postCode>113-0033</postCode>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kazuho</forename><surname>Watanabe</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Toyohashi University of Technology</orgName>
+								<address>
+									<postCode>441-8580</postCode>
+									<settlement>Aichi</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hiroko</forename><surname>Kobayashi</surname></persName>
+							<email>hiroko.kobayashi@nikon.com</email>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">Nikon Corporation</orgName>
+								<orgName type="institution" key="instit2">Kanagawa</orgName>
+								<address>
+									<postCode>244-8533</postCode>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Analysis of Variational Bayesian Latent Dirichlet Allocation: Weaker Sparsity than MAP</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Latent Dirichlet allocation (LDA) is a popular generative model of various objects such as texts and images, where an object is expressed as a mixture of latent topics. In this paper, we theoretically investigate variational Bayesian (VB) learning in LDA. More specifically, we analytically derive the leading term of the VB free energy under an asymptotic setup, and show that there exist transition thresholds in Dirichlet hyperparameters around which the sparsity-inducing behavior drastically changes. Then we further theoretically reveal the notable phenomenon that VB tends to induce weaker sparsity than MAP in the LDA model, which is opposed to other models. We experimentally demonstrate the practical validity of our asymptotic theory on real-world Last.FM music data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

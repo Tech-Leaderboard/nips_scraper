@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Distribution-Calibrated Hierarchical Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ofer</forename><surname>Dekel</surname></persName>
+							<email>oferd@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research One Microsoft Way</orgName>
+								<address>
+									<postCode>98052</postCode>
+									<settlement>Redmond</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Distribution-Calibrated Hierarchical Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>While many advances have already been made in hierarchical classification learning , we take a step back and examine how a hierarchical classification problem should be formally defined. We pay particular attention to the fact that many arbitrary decisions go into the design of the label taxonomy that is given with the training data. Moreover, many hand-designed taxonomies are unbalanced and misrepresent the class structure in the underlying data distribution. We attempt to correct these problems by using the data distribution itself to calibrate the hierarchical classification loss function. This distribution-based correction must be done with care, to avoid introducing unmanageable statistical dependencies into the learning problem. This leads us off the beaten path of binomial-type estimation and into the unfamiliar waters of geometric-type estimation. In this paper, we present a new calibrated definition of statistical risk for hierarchical classification , an unbiased estimator for this risk, and a new algorithmic reduction from hierarchical classification to cost-sensitive classification.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

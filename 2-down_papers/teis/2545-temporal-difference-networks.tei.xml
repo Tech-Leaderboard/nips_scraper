@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kaelbling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Sutton, Precup &amp; Singh</publisher>
+				<availability status="unknown"><p>Copyright Sutton, Precup &amp; Singh</p>
+				</availability>
+				<date type="published" when="1993">1993. 1993. 1995. 1999</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Sutton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<postCode>T6G 2E8</postCode>
+									<settlement>Alberta</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><surname>Tanner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<postCode>T6G 2E8</postCode>
+									<settlement>Alberta</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kaelbling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>Sutton, Precup &amp; Singh</publisher>
+							<date type="published" when="1993">1993. 1993. 1995. 1999</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a generalization of temporal-difference (TD) learning to networks of interrelated predictions. Rather than relating a single prediction to itself at a later time, as in conventional TD methods, a TD network relates each prediction in a set of predictions to other predictions in the set at a later time. TD networks can represent and apply TD learning to a much wider class of predictions than has previously been possible. Using a random-walk example, we show that these networks can be used to learn to predict by a fixed interval, which is not possible with conventional TD methods. Secondly, we show that if the inter-predictive relationships are made conditional on action, then the usual learning-efficiency advantage of TD methods over Monte Carlo (super-vised learning) methods becomes particularly pronounced. Thirdly, we demonstrate that TD networks can learn predictive state representations that enable exact solution of a non-Markov problem. A very broad range of inter-predictive temporal relationships can be expressed in these networks. Overall we argue that TD networks represent a substantial extension of the abilities of TD methods and bring us closer to the goal of representing world knowledge in entirely predictive, grounded terms. Temporal-difference (TD) learning is widely used in reinforcement learning methods to learn moment-to-moment predictions of total future reward (value functions). In this setting , TD learning is often simpler and more data-efficient than other methods. But the idea of TD learning can be used more generally than it is in reinforcement learning. TD learning is a general method for learning predictions whenever multiple predictions are made of the same event over time, value functions being just one example. The most pertinent of the more general uses of TD learning have been in learning models of an environment or task domain (Dayan In these works, TD learning is used to predict future values of many observations or state variables of a dynamical system. The essential idea of TD learning can be described as &quot;learning a guess from a guess&quot;. In all previous work, the two guesses involved were predictions of the same quantity at two points in time, for example, of the discounted future reward at successive time steps. In this paper we explore a few of the possibilities that open up when the second guess is allowed to be different from the first.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

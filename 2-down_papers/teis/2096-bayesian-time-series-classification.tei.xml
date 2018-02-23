@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian time series classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Sykacek</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering Science</orgName>
+								<orgName type="department" key="dep2">Department of Engineering Science</orgName>
+								<orgName type="institution">University of Oxford Oxford</orgName>
+								<address>
+									<postCode>OX1 3PJ</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Roberts</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Oxford Oxford</orgName>
+								<address>
+									<postCode>OX1 3PJ</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian time series classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper proposes an approach to classification of adjacent segments of a time series as being either of classes. We use a hierarchical model that consists of a feature extraction stage and a generative classifier which is built on top of these features. Such two stage approaches are often used in signal and image processing. The novel part of our work is that we link these stages probabilistically by using a latent feature space. To use one joint model is a Bayesian requirement, which has the advantage to fuse information according to its certainty. The classifier is implemented as hidden Markov model with Gaussian and Multinomial observation distributions defined on a suitably chosen representation of autoregressive models. The Markov dependency is motivated by the assumption that successive classifications will be correlated. Inference is done with Markov chain Monte Carlo (MCMC) techniques. We apply the proposed approach to synthetic data and to classification of EEG that was recorded while the subjects performed different cognitive tasks. All experiments show that using a latent feature space results in a significant improvement in generalization accuracy. Hence we expect that this idea generalizes well to other hierarchical models.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

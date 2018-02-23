@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Quantizing Density Estimators</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Meinicke</surname></persName>
+							<email>pmeinick@techfak.uni-bielefeld.de</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Neuroinformatics Group University of Bielefeld Bielefeld</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Helge</forename><surname>Ritter</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Neuroinformatics Group University of Bielefeld Bielefeld</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Quantizing Density Estimators</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We suggest a nonparametric framework for unsupervised learning of projection models in terms of density estimation on quantized sample spaces. The objective is not to optimally reconstruct the data but instead the quantizer is chosen to optimally reconstruct the density of the data. For the resulting quantizing density estimator (QDE) we present a general method for parameter estimation and model selection. We show how projection sets which correspond to traditional unsupervised methods like vector quantization or PCA appear in the new framework. For a principal component quantizer we present results on synthetic and real-world data, which show that the QDE can improve the generalization of the kernel density estimator although its estimate is based on significantly lower-dimensional projection indices of the data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

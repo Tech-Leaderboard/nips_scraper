@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning from Limited Demonstrations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beomjoon</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science</orgName>
+								<orgName type="institution">McGill University Montreal</orgName>
+								<address>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amir-Massoud</forename><surname>Farahmand</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Computer Science</orgName>
+								<orgName type="institution">McGill University Montreal</orgName>
+								<address>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joelle</forename><surname>Pineau</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Computer Science</orgName>
+								<orgName type="institution">McGill University Montreal</orgName>
+								<address>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Doina</forename><surname>Precup</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">McGill University Montreal</orgName>
+								<address>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning from Limited Demonstrations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a Learning from Demonstration (LfD) algorithm which leverages expert data, even if they are very few or inaccurate. We achieve this by using both expert data, as well as reinforcement signals gathered through trial-and-error interactions with the environment. The key idea of our approach, Approximate Policy Iteration with Demonstration (APID), is that expert&apos;s suggestions are used to define linear constraints which guide the optimization performed by Approximate Policy Iteration. We prove an upper bound on the Bellman error of the estimate computed by APID at each iteration. Moreover, we show empirically that APID outperforms pure Approximate Policy Iteration, a state-of-the-art LfD algorithm, and supervised learning in a variety of scenarios, including when very few and/or suboptimal demonstrations are available. Our experiments include simulations as well as a real robot path-finding task.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

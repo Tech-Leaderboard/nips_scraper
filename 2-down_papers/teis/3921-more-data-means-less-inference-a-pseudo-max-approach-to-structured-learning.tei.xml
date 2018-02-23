@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">More data means less inference: A pseudo-max approach to structured learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Sontag</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Hebrew University</orgName>
+								<orgName type="institution" key="instit3">Hebrew University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ofer</forename><surname>Meshi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Hebrew University</orgName>
+								<orgName type="institution" key="instit3">Hebrew University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>MIT</roleName><forename type="first">Tommi</forename><forename type="middle">Jaakkola</forename><surname>Csail</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Hebrew University</orgName>
+								<orgName type="institution" key="instit3">Hebrew University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amir</forename><surname>Globerson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">Hebrew University</orgName>
+								<orgName type="institution" key="instit3">Hebrew University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">More data means less inference: A pseudo-max approach to structured learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The problem of learning to predict structured labels is of key importance in many applications. However, for general graph structure both learning and inference are intractable. Here we show that it is possible to circumvent this difficulty when the distribution of training examples is rich enough, via a method similar in spirit to pseudo-likelihood. We show that our new method achieves consistency, and illustrate empirically that it indeed approaches the performance of exact methods when sufficiently large training sets are used. Many prediction problems in machine learning applications are structured prediction tasks. For example, in protein folding we are given a protein sequence and the goal is to predict the protein&apos;s native structure [14]. In parsing for natural language processing, we are given a sentence and the goal is to predict the most likely parse tree [2]. In these and many other applications, we can formalize the structured prediction problem as taking an input x (e.g., primary sequence, sentence) and predicting y (e.g., structure, parse) according to y = arg maxˆy∈Ymaxˆ maxˆy∈Y θ · φ(x, ˆ y), where φ(x, y) is a function that maps any input and a candidate assignment to a feature vector, Y denotes the space of all possible assignments to the vector y, and θ is a weight vector to be learned. This paper addresses the problem of learning structured prediction models from data. In particular, given a set of labeled examples {(x m , y m)} M m=1 , our goal is to find a vector θ such that for each example m, y m = arg max y∈Y θ · φ(x m , y), i.e. one which separates the training data. For many structured prediction models, maximization over Y is computationally intractable. This makes it difficult to apply previous algorithms for learning structured prediction models, such as structured perceptron [2], stochastic subgradient [10], and cutting-plane algorithms [5], which require making a prediction at every iteration (equivalent to repeatedly solving an integer linear program). Given training data, we can consider the space of parameters Θ that separate the data. This space can be defined by the intersection of a large number of linear inequalities. A recent approach to getting around the hardness of prediction is to use linear programming (LP) relaxations to approximate the maximization over Y [4, 6, 9]. However, separation with respect to a relaxation places stronger constraints on the parameters. The target solution, an integral vertex in the LP, must now distinguish itself also from possible fractional vertexes that arise due to the relaxation. The relaxations can therefore be understood as optimizing over an inner bound of Θ. This set may be empty even if the training data is separable with exact inference [6]. Another obstacle to using LP relaxations for learning is that solving the LPs can be very slow. In this paper we ask whether it is possible to learn while avoiding inference altogether. We propose a new learning algorithm, inspired by pseudo-likelihood [1], that optimizes over an outer bound of Θ. Learning involves optimizing over only a small number of constraints per data point, and thus can be performed quickly, even for complex structured prediction models. We show that, if the data available for learning is &quot;nice&quot;, this algorithm is consistent, i.e. it will find some θ ∈ Θ. This is an example of how having the right data can circumvent the hardness of learning for structured prediction.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

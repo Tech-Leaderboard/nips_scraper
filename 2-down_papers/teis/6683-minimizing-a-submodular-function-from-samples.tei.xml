@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Minimizing a Submodular Function from Samples</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Balkanski</surname></persName>
+							<email>ericbalkanski@g.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Harvard University</orgName>
+								<orgName type="institution" key="instit2">Harvard University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yaron</forename><surname>Singer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Harvard University</orgName>
+								<orgName type="institution" key="instit2">Harvard University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Minimizing a Submodular Function from Samples</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper we consider the problem of minimizing a submodular function from training data. Submodular functions can be efficiently minimized and are consequently heavily applied in machine learning. There are many cases, however, in which we do not know the function we aim to optimize, but rather have access to training data that is used to learn it. In this paper we consider the question of whether submodular functions can be minimized when given access to its training data. We show that even learnable submodular functions cannot be minimized within any non-trivial approximation when given access to polynomially-many samples. Specifically, we show that there is a class of submodular functions with range in [0, 1] such that, despite being PAC-learnable and minimizable in polynomial-time, no algorithm can obtain an approximation strictly better than 1/2 񮽙 o(1) using polynomially-many samples drawn from any distribution. Furthermore, we show that this bound is tight via a trivial algorithm that obtains an approximation of 1/2.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

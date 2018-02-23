@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Relevance Vector Machine</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">E</forename><surname>Tipping</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research St George House</orgName>
+								<address>
+									<addrLine>1 Guildhall Street</addrLine>
+									<postCode>CB2 3NH</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Relevance Vector Machine</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The support vector machine (SVM) is a state-of-the-art technique for regression and classification, combining excellent generalisation properties with a sparse kernel representation. However, it does suffer from a number of disadvantages, notably the absence of prob-abilistic outputs, the requirement to estimate a trade-off parameter and the need to utilise &apos;Mercer&apos; kernel functions. In this paper we introduce the Relevance Vector Machine (RVM), a Bayesian treatment of a generalised linear model of identical functional form to the SVM. The RVM suffers from none of the above disadvantages, and examples demonstrate that for comparable generalisation performance , the RVM requires dramatically fewer kernel functions. 1 Introd uction In supervised learning we are given a set of examples of input vectors {Xn}~=l along with corresponding targets {tn}~=l&apos; the latter of which might be real values (in regression) or class labels (classification). From this &apos;training&apos; set we wish to learn a model of the dependency of the targets on the inputs with the objective of making accurate predictions of t for previously unseen values of x. In real-world data, the presence of noise (in regression) and class overlap (in classification) implies that the principal modelling challenge is to avoid &apos;over-fitting&apos; of the training set. A very successful approach to supervised learning is the support vector machine (SVM) [8]. It makes predictions based on a function of the form N y(x) = 2:: wnK(x, x n) + Wo, (1) n=l where {wn } are the model &apos;weights&apos; and K(·,·) is a kernel function. The key feature of the SVM is that, in the classification case, its target function attempts to minimise the number of errors made on the training set while simultaneously maximising the &apos;margin&apos; between the two classes (in the feature space implicitly defined by the kernel). This is an effective &apos;prior&apos; for avoiding over-fitting, which leads to good generalisation, and which furthermore results in a sparse model dependent only on a subset of kernel functions: those associated with training examples Xn that lie either on the margin or on the &apos;wrong&apos; side of it. State-of-the-art results have been reported on many tasks where SVMs have been applied.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

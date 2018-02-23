@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fitted Q-iteration by Advantage Weighted Regression</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerhard</forename><surname>Neumann</surname></persName>
+							<email>gerhard@igi.tu-graz.ac.at</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute for Theoretical Computer Science</orgName>
+								<orgName type="department" key="dep2">Max Planck Institute for Biological Cybernetics</orgName>
+								<orgName type="institution">Graz University of Technology</orgName>
+								<address>
+									<postCode>A-8010, D-72076</postCode>
+									<settlement>Graz, Tübingen</settlement>
+									<country>Austria, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jan</forename><surname>Peters</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute for Theoretical Computer Science</orgName>
+								<orgName type="department" key="dep2">Max Planck Institute for Biological Cybernetics</orgName>
+								<orgName type="institution">Graz University of Technology</orgName>
+								<address>
+									<postCode>A-8010, D-72076</postCode>
+									<settlement>Graz, Tübingen</settlement>
+									<country>Austria, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fitted Q-iteration by Advantage Weighted Regression</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recently, fitted Q-iteration (FQI) based methods have become more popular due to their increased sample efficiency, a more stable learning process and the higher quality of the resulting policy. However, these methods remain hard to use for continuous action spaces which frequently occur in real-world tasks, e.g., in robotics and other technical applications. The greedy action selection commonly used for the policy improvement step is particularly problematic as it is expensive for continuous actions, can cause an unstable learning process, introduces an optimization bias and results in highly non-smooth policies unsuitable for real-world systems. In this paper, we show that by using a soft-greedy action selection the policy improvement step used in FQI can be simplified to an inexpensive advantage-weighted regression. With this result, we are able to derive a new, computationally efficient FQI algorithm which can even deal with high dimensional action spaces.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

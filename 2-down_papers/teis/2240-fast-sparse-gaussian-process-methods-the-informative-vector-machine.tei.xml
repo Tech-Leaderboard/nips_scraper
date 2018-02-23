@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Sparse Gaussian Process Methods: The Informative Vector Machine</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Neil</forename><surname>Lawrence</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Sheffield</orgName>
+								<address>
+									<addrLine>211 Portobello Street Sheffield</addrLine>
+									<postCode>S1 4DP</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthias</forename><surname>Seeger</surname></persName>
+							<email>seeger@dai.ed.ac.uk</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<addrLine>5 Forrest Hill Edinburgh</addrLine>
+									<postCode>EH1 2QL</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralf</forename><surname>Herbrich</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Microsoft Research Ltd</orgName>
+								<address>
+									<addrLine>7 J J Thomson Avenue Cambridge</addrLine>
+									<postCode>CB3 0FB</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Sparse Gaussian Process Methods: The Informative Vector Machine</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a framework for sparse Gaussian process (GP) methods which uses forward selection with criteria based on information-theoretic principles, previously suggested for active learning. Our goal is not only to learn d-sparse predictors (which can be evaluated in O(d) rather than O(n), d 񮽙 n, n the number of training points), but also to perform training under strong restrictions on time and memory requirements. The scaling of our method is at most O(n · d 2), and in large real-world classification experiments we show that it can match prediction performance of the popular support vector machine (SVM), yet can be significantly faster in training. In contrast to the SVM, our approximation produces estimates of predictive probabilities (&apos;error bars&apos;), allows for Bayesian model selection and is less complex in implementation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

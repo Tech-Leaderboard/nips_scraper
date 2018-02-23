@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On the Global Linear Convergence of Frank-Wolfe Optimization Variants</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Simon</forename><surname>Lacoste-Julien</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution">INRIA -SIERRA project-teamÉcole team´teamÉcole Normale Supérieure</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Jaggi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">ETH Zürich</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On the Global Linear Convergence of Frank-Wolfe Optimization Variants</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The Frank-Wolfe (FW) optimization algorithm has lately regained popularity thanks in particular to its ability to nicely handle the structured constraints appearing in machine learning applications. However, its convergence rate is known to be slow (sublinear) when the solution lies at the boundary. A simple less-known fix is to add the possibility to take &apos;away steps&apos; during optimization, an operation that importantly does not require a feasibility oracle. In this paper, we highlight and clarify several variants of the Frank-Wolfe optimization algorithm that have been successfully applied in practice: away-steps FW, pairwise FW, fully-corrective FW and Wolfe&apos;s minimum norm point algorithm, and prove for the first time that they all enjoy global linear convergence, under a weaker condition than strong convexity of the objective. The constant in the convergence rate has an elegant interpretation as the product of the (classical) condition number of the function with a novel geometric quantity that plays the role of a &apos;condition number&apos; of the constraint set. We provide pointers to where these algorithms have made a difference in practice, in particular with the flow polytope, the marginal polytope and the base polytope for submodular optimization. The Frank-Wolfe algorithm [9] (also known as conditional gradient) is one of the earliest existing methods for constrained convex optimization, and has seen an impressive revival recently due to its nice properties compared to projected or proximal gradient methods, in particular for sparse optimization and machine learning applications. On the other hand, the classical projected gradient and proximal methods have been known to exhibit a very nice adaptive acceleration property, namely that the the convergence rate becomes linear for strongly convex objective, i.e. that the optimization error of the same algorithm after t iterations will decrease geometrically with O((1 − ρ) t) instead of the usual O(1/t) for general convex objective functions. It has become an active research topic recently whether such an acceleration is also possible for Frank-Wolfe type methods. Contributions. We clarify several variants of the Frank-Wolfe algorithm and show that they all converge linearly for any strongly convex function optimized over a polytope domain, with a constant bounded away from zero that only depends on the geometry of the polytope. Our analysis does not depend on the location of the true optimum with respect to the domain, which was a disadvantage of earlier existing results such as [34, 12, 5], and the newer work of [28], as well as the line of work of [1, 19, 26] which rely on Robinson&apos;s condition [30]. Our analysis yields a weaker sufficient condition than Robinson&apos;s condition; in particular we can have linear convergence even in some cases when the function has more than one global minima, and is not globally strongly convex. The constant also naturally separates as the product of the condition number of the function with a novel notion of condition number of a polytope, which might have applications in complexity theory. Related Work. For the classical Frank-Wolfe algorithm, [5] showed a linear rate for the special case of quadratic objectives when the optimum is in the strict interior of the domain, a result already subsumed by the more general [12]. The early work of [23] showed linear convergence for strongly 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

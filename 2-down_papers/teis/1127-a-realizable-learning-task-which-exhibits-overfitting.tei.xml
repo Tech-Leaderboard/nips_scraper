@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Realizable Learning Task which Exhibits Overfitting</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Siegfried</forename><surname>Bos</surname></persName>
+							<email>email: boes@zoo.riken.go.jp</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory for Information Representation</orgName>
+								<orgName type="institution">RIKEN</orgName>
+								<address>
+									<addrLine>Hirosawa 2-1, Wako-shi</addrLine>
+									<postCode>351-01</postCode>
+									<settlement>Saitama</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Realizable Learning Task which Exhibits Overfitting</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper we examine a perceptron learning task. The task is realizable since it is provided by another perceptron with identical architecture. Both perceptrons have nonlinear sigmoid output functions. The gain of the output function determines the level of nonlinearity of the learning task. It is observed that a high level of nonlinearity leads to overfitting. We give an explanation for this rather surprising observation and develop a method to avoid the overfitting. This method has two possible interpretations, one is learning with noise, the other cross-validated early stopping. 1 Learning Rules from Examples The property which makes feedforward neural nets interesting for many practical applications is their ability to approximate functions, which are given only by examples. Feed-forward networks with at least one hidden layer of nonlinear units are able to approximate each continuous function on a N-dimensional hypercube arbitrarily well. While the existence of neural function approximators is already established, there is still a lack of knowledge about their practical realizations. Also major problems, which complicate a good realization, like overfitting, need a better understanding. In this work we study overfitting in a one-layer percept ron model. The model allows a good theoretical description while it exhibits already a qualitatively similar behavior as the multilayer perceptron. A one-layer perceptron has N input units and one output unit. Between input and output it has one layer of adjustable weights Wi, (i = 1, ... ,N). The output z is a possibly nonlinear function of the weighted sum of inputs Xi, i.e. z = g(h) , with 1 N h = I1tT L Wi Xi. vN i=l (1)</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

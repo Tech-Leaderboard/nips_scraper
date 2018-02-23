@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Active Learning of Model Evidence Using Bayesian Quadrature</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Osborne</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+								<orgName type="institution" key="instit5">University of Oxford</orgName>
+								<orgName type="institution" key="instit6">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Duvenaud</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+								<orgName type="institution" key="instit5">University of Oxford</orgName>
+								<orgName type="institution" key="instit6">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roman</forename><surname>Garnett</surname></persName>
+							<email>rgarnett@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+								<orgName type="institution" key="instit5">University of Oxford</orgName>
+								<orgName type="institution" key="instit6">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carl</forename><forename type="middle">E</forename><surname>Rasmussen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+								<orgName type="institution" key="instit5">University of Oxford</orgName>
+								<orgName type="institution" key="instit6">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">J</forename><surname>Roberts</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+								<orgName type="institution" key="instit5">University of Oxford</orgName>
+								<orgName type="institution" key="instit6">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zoubin</forename><surname>Ghahramani</surname></persName>
+							<email>zoubin@eng.cam.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+								<orgName type="institution" key="instit5">University of Oxford</orgName>
+								<orgName type="institution" key="instit6">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Active Learning of Model Evidence Using Bayesian Quadrature</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Numerical integration is a key component of many problems in scientific computing , statistical modelling, and machine learning. Bayesian Quadrature is a model-based method for numerical integration which, relative to standard Monte Carlo methods, offers increased sample efficiency and a more robust estimate of the uncertainty in the estimated integral. We propose a novel Bayesian Quadrature approach for numerical integration when the integrand is non-negative, such as the case of computing the marginal likelihood, predictive distribution, or normal-ising constant of a probabilistic model. Our approach approximately marginalises the quadrature model&apos;s hyperparameters in closed form, and introduces an active learning scheme to optimally select function evaluations, as opposed to using Monte Carlo samples. We demonstrate our method on both a number of synthetic benchmarks and a real scientific problem from astronomy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

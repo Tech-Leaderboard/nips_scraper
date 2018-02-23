@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Visual gesture-based robot guidance with a modular neural system</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Littmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">AG Neuroinformatik, Techn. Fakultat Univ. Bielefeld</orgName>
+								<orgName type="laboratory">Abt. Neuroinformatik</orgName>
+								<orgName type="institution">Fak. f. Informatik Universitat Ulm</orgName>
+								<address>
+									<postCode>D-89069, D-33615</postCode>
+									<settlement>Ulm, Bielefeld</settlement>
+									<region>FRG, FRG</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Drees</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">AG Neuroinformatik, Techn. Fakultat Univ. Bielefeld</orgName>
+								<orgName type="laboratory">Abt. Neuroinformatik</orgName>
+								<orgName type="institution">Fak. f. Informatik Universitat Ulm</orgName>
+								<address>
+									<postCode>D-89069, D-33615</postCode>
+									<settlement>Ulm, Bielefeld</settlement>
+									<region>FRG, FRG</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ritter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">AG Neuroinformatik, Techn. Fakultat Univ. Bielefeld</orgName>
+								<orgName type="laboratory">Abt. Neuroinformatik</orgName>
+								<orgName type="institution">Fak. f. Informatik Universitat Ulm</orgName>
+								<address>
+									<postCode>D-89069, D-33615</postCode>
+									<settlement>Ulm, Bielefeld</settlement>
+									<region>FRG, FRG</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Visual gesture-based robot guidance with a modular neural system</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We report on the development of the modular neural system &quot;SEE-EAGLE&quot; for the visual guidance of robot pick-and-place actions. Several neural networks are integrated to a single system that visually recognizes human hand pointing gestures from stereo pairs of color video images. The output of the hand recognition stage is processed by a set of color-sensitive neural networks to determine the cartesian location of the target object that is referenced by the pointing gesture. Finally, this information is used to guide a robot to grab the target object and put it at another location that can be specified by a second pointing gesture. The accuracy of the current system allows to identify the location of the referenced target object to an accuracy of 1 cm in a workspace area of 50x50 cm. In our current environment, this is sufficient to pick and place arbitrarily positioned target objects within the workspace. The system consists of neural networks that perform the tasks of image seg-mentation, estimation of hand location, estimation of 3D-pointing direction, object recognition, and necessary coordinate transforms. Drawing heavily on the use of learning algorithms, the functions of all network modules were created from data examples only.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

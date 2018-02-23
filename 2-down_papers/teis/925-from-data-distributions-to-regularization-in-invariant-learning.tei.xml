@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:51+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">From Data Distributions to Regularization in Invariant Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Todd</forename><forename type="middle">K</forename><surname>Leen</surname></persName>
+							<email>tieen@cse.ogi.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">Oregon Graduate Institute of Science and Technology</orgName>
+								<address>
+									<addrLine>20000 N.W. Walker Rd Beaverton</addrLine>
+									<postCode>97006</postCode>
+									<country>Oregon</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">From Data Distributions to Regularization in Invariant Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Ideally pattern recognition machines provide constant output when the inputs are transformed under a group 9 of desired invariances. These invariances can be achieved by enhancing the training data to include examples of inputs transformed by elements of g, while leaving the corresponding targets unchanged. Alternatively the cost function for training can include a regularization term that penalizes changes in the output when the input is transformed under the group. This paper relates the two approaches, showing precisely the sense in which the regularized cost function approximates the result of adding transformed (or distorted) examples to the training data. The cost function for the enhanced training set is equivalent to the sum of the original cost function plus a regularizer. For unbiased models, the regularizer reduces to the intuitively obvious choice-a term that penalizes changes in the output when the inputs are transformed under the group. For infinitesimal transformations, the coefficient of the regularization term reduces to the variance of the distortions introduced into the training data. This correspondence provides a simple bridge between the two approaches.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

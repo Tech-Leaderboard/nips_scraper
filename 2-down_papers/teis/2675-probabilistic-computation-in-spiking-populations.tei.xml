@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Probabilistic computation in spiking populations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Zemel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="laboratory">Gatsby CNU UCL</orgName>
+								<orgName type="institution">UCL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Quentin</forename><forename type="middle">J M</forename><surname>Huys</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="laboratory">Gatsby CNU UCL</orgName>
+								<orgName type="institution">UCL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gatsby</forename><surname>Cnu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="laboratory">Gatsby CNU UCL</orgName>
+								<orgName type="institution">UCL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rama</forename><surname>Natarajan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="laboratory">Gatsby CNU UCL</orgName>
+								<orgName type="institution">UCL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Dayan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. Univ. of Toronto</orgName>
+								<orgName type="laboratory">Gatsby CNU UCL</orgName>
+								<orgName type="institution">UCL</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Probabilistic computation in spiking populations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>As animals interact with their environments, they must constantly update estimates about their states. Bayesian models combine prior probabilities , a dynamical model and sensory evidence to update estimates optimally. These models are consistent with the results of many diverse psychophysical studies. However, little is known about the neural representation and manipulation of such Bayesian information, particularly in populations of spiking neurons. We consider this issue, suggesting a model based on standard neural architecture and activations. We illustrate the approach on a simple random walk example, and apply it to a sensorimotor integration task that provides a particularly compelling example of dynamic probabilistic computation. Bayesian models have been used to explain a gamut of experimental results in tasks which require estimates to be derived from multiple sensory cues. These include a wide range of psychophysical studies of perception; 13 motor action; 7 and decision-making. 3, 5 Central to Bayesian inference is that computations are sensitive to uncertainties about afferent and efferent quantities, arising from ignorance, noise, or inherent ambiguity (e.g., the aperture problem), and that these uncertainties change over time as information accumulates and dissipates. Understanding how neurons represent and manipulate uncertain quantities is therefore key to understanding the neural instantiation of these Bayesian inferences. Most previous work on representing probabilistic inference in neural populations has fo-cused on the representation of static information. 1, 12, 15 These encompass various strategies for encoding and decoding uncertain quantities, but do not readily generalize to real-world dynamic information processing tasks, particularly the most interesting cases with stimuli changing over the same timescale as spiking itself. 11 Notable exceptions are the recent , seminal, but, as we argue, representationally restricted, models proposed by Gold and Shadlen, 5 Rao, 10 and Deneve. 4 In this paper, we first show how probabilistic information varying over time can be represented in a spiking population code. Second, we present a method for producing spiking codes that facilitate further processing of the probabilistic information. Finally, we show the utility of this method by applying it to a temporal sensorimotor integration task. 1 TRAJECTORY ENCODING AND DECODING We assume that population spikes R(t) arise stochastically in relation to the trajectory X(t) of an underlying (but hidden) variable. We use R T and X T for the whole trajectory and</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

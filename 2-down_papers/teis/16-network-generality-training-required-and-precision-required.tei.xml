@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Network Generality, Training Required, and PrecisIon Required</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">S</forename><surname>Denker</surname></persName>
+							<affiliation key="aff0">
+								<address>
+									<addrLine>500 Westchester Ave</addrLine>
+									<postCode>10604</postCode>
+									<settlement>White Plains</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ben</forename><forename type="middle">S</forename><surname>Wittner</surname></persName>
+							<affiliation key="aff0">
+								<address>
+									<addrLine>500 Westchester Ave</addrLine>
+									<postCode>10604</postCode>
+									<settlement>White Plains</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Network Generality, Training Required, and PrecisIon Required</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>AT&amp;T Bell Laboratories Holmdel, New Jersey 07733 219 Keep your hand on your wallet. -Leon Cooper, 1987</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We show how to estimate (1) the number of functions that can be implemented by a particular network architecture, (2) how much analog precision is needed in the connections in the network, and (3) the number of training examples the network must see before it can be expected to form reliable generalizations. Generality versus Training Data Required Consider the following objectives: First, the network should be very powerful and versatile , i.e., it should implement any function (truth table) you like, and secondly, it should learn easily, forming meaningful generalizations from a small number of training examples. Well, it is information-theoretically impossible to create such a network. We will present here a simplified argument; a more complete and sophisticated version can be found in Denker et al. (1987). It is customary to regard learning as a dynamical process: adjusting the weights (etc.) in a single network. In order to derive the results of this paper, however, we take a different viewpoint, which we call the ensemble viewpoint. Imagine making a very large number of replicas of the network. Each replica has the same architecture as the original, but the weights are set differently in each case. No further adjustment takes place; the &quot;learning process&quot; consists of winnowing the ensemble of replicas, searching for the one(s) that satisfy our requirements. Training proceeds as follows: We present each item in the training set to every network in the ensemble. That is, we use the abscissa of the training pattern as input to the network, and compare the ordinate of the training pattern to see if it agrees with the actual output of the network. For each network, we keep a score reflecting how many times (and how badly) it disagreed with a training item. Networks with the lowest score are the ones that agree best with the training data. If we had complete confidence in lCurrently at NYNEX Science and Technology,</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

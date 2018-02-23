@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian Detection of Infrequent Differences in Sets of Time Series with Shared Structure 1 Aligning Time Series From Different Classes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><surname>Listgarten</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Radford</forename><forename type="middle">M</forename><surname>Neal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><forename type="middle">T</forename><surname>Roweis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rachel</forename><surname>Puckrin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Botany</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<postCode>M5S 3G4</postCode>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sean</forename><surname>Cutler</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Botany</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<postCode>M5S 3G4</postCode>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian Detection of Infrequent Differences in Sets of Time Series with Shared Structure 1 Aligning Time Series From Different Classes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a hierarchical Bayesian model for sets of related, but different, classes of time series data. Our model performs alignment simultaneously across all classes, while detecting and characterizing class-specific differences. During inference the model produces, for each class, a distribution over a canonical representation of the class. These class-specific canonical representations are automatically aligned to one another-preserving common sub-structures, and highlighting differences. We apply our model to compare and contrast solenoid valve current data, and also, liquid-chromatography-ultraviolet-diode array data from a study of the plant Arabidopsis thaliana. Many practical problems over a wide range of domains require synthesizing information from several noisy examples of one or more categories in order to build a model which captures common structure and also learns the patterns of variability between categories. In time series analysis , these modeling goals manifest themselves in the tasks of alignment and difference detection. These tasks have diverse applicability, spanning speech &amp; music processing, equipment &amp; industrial plant diagnosis/monitoring, and analysis of biological time series such as microarray &amp; liquid/gas chromatography-based laboratory data (including mass spectrometry and ultraviolet diode arrays). Although alignment and difference detection have been extensively studied as separate problems in the signal processing and statistical pattern recognition communities, to our knowledge, no existing model performs both tasks in a unified way. Single class alignment algorithms attempt to align a set of time series all together, assuming that variability across different time series is attributable purely to noise. In many real-world situations, however, we have time series from multiple classes (categories) and our prior belief is that there is both substantial shared structure between the class distributions and, simultaneously, systematic (although often rare) differences between them. While in some circumstances (if differences are small and infrequent), single class alignment can be applied to multi-class data, it is much more desirable to have a model which performs true multi-class alignment in a principled way, allowing for more refined and accurate modeling of the data. In this paper, we introduce a novel hierarchical Bayesian model which simultaneously solves the multi-class alignment and difference detection tasks in a unified manner, as illustrated in Figure 1. The single-class alignment shown in this figure coerces the feature in region A for class 1 to be inappropriately collapsed in time, and the overall width of the main broad peak in class 2 to be inappropriately narrowed. In contrast, our multi-class model handles these features correctly. Furthermore, because our algorithm does inference for a fully probabilistic model, we are able to obtain quantitative measures of the posterior uncertainty in our results, which, unlike the point estimates produced by most current approaches, allow us to assess our relative confidence in differences learned by the model. Our basic setup for multi-class alignment assumes the class labels are known</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

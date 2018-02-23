@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Decoding Cursive Scripts</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoram</forename><surname>Singer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Computer Science and Center</orgName>
+								<orgName type="institution">Neural Computation Hebrew University</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Naftali</forename><surname>Tishby</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Computer Science and Center</orgName>
+								<orgName type="institution">Neural Computation Hebrew University</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Decoding Cursive Scripts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Online cursive handwriting recognition is currently one of the most intriguing challenges in pattern recognition. This study presents a novel approach to this problem which is composed of two complementary phases. The first is dynamic encoding of the writing tra-jectory into a compact sequence of discrete motor control symbols. In this compact representation we largely remove the redundancy of the script, while preserving most of its intelligible components. In the second phase these control sequences are used to train adaptive probabilistic acyclic automata (PAA) for the important ingredients of the writing trajectories, e.g. letters. We present a new and efficient learning algorithm for such stochastic automata, and demonstrate its utility for spotting and segmentation of cursive scripts. Our experiments show that over 90% of the letters are correctly spotted and identified, prior to any higher level language model. Moreover, both the training and recognition algorithms are very efficient compared to other modeling methods, and the models are &apos;on-line&apos; adaptable to other writers and styles.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

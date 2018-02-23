@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Hierarchical Linear/Constant Time SLAM Using Particle Filters for Dense Maps</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Austin</forename><forename type="middle">I</forename><surname>Eliazar</surname></persName>
+							<email>{eliazar,parr}@cs.duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Duke University Durham</orgName>
+								<address>
+									<postCode>27708</postCode>
+									<region>NC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><surname>Parr</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Duke University Durham</orgName>
+								<address>
+									<postCode>27708</postCode>
+									<region>NC</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Hierarchical Linear/Constant Time SLAM Using Particle Filters for Dense Maps</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present an improvement to the DP-SLAM algorithm for simultaneous localization and mapping (SLAM) that maintains multiple hypotheses about densely populated maps (one full map per particle in a particle filter) in time that is linear in all significant algorithm parameters and takes constant (amortized) time per iteration. This means that the asymptotic complexity of the algorithm is no greater than that of a pure localization algorithm using a single map and the same number of particles. We also present a hierarchical extension of DP-SLAM that uses a two level particle filter which models drift in the particle filtering process itself. The hierarchical approach enables recovery from the inevitable drift that results from using a finite number of particles in a particle filter and permits the use of DP-SLAM in more challenging domains, while maintaining linear time asymptotic complexity.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

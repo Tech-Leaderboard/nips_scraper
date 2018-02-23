@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Sample complexity of testing the manifold hypothesis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hariharan</forename><surname>Narayanan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratory for Information and Decision Systems EECS</orgName>
+								<orgName type="laboratory" key="lab2">Sanjoy Mitter Laboratory for Information and Decision Systems EECS, MIT Cambridge</orgName>
+								<orgName type="institution">MIT Cambridge</orgName>
+								<address>
+									<postCode>02139, 02139</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Sample complexity of testing the manifold hypothesis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The hypothesis that high dimensional data tends to lie in the vicinity of a low dimensional manifold is the basis of a collection of methodologies termed Manifold Learning. In this paper, we study statistical aspects of the question of fitting a manifold with a nearly optimal least squared error. Given upper bounds on the dimension, volume, and curvature, we show that Empirical Risk Minimization can produce a nearly optimal manifold using a number of random samples that is independent of the ambient dimension of the space in which data lie. We obtain an upper bound on the required number of samples that depends polynomially on the curvature, exponentially on the intrinsic dimension, and linearly on the intrinsic volume. For constant error, we prove a matching minimax lower bound on the sample complexity that shows that this dependence on intrinsic dimension, volume and curvature is unavoidable. Whether the known lower bound of O(k 2 + log 1 δ 2) for the sample complexity of Empirical Risk minimization on k−means applied to data in a unit ball of arbitrary dimension is tight, has been an open question since 1997 [3]. Here is the desired bound on the error and δ is a bound on the probability of failure. We improve the best currently known upper bound [14] of O(k 2 2 + log 1 δ 2) to O k 2 min k, log 4 k 2 + log 1 δ 2. Based on these results, we devise a simple algorithm for k−means and another that uses a family of convex programs to fit a piecewise linear curve of a specified length to high dimensional data, where the sample complexity is independent of the ambient dimension.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

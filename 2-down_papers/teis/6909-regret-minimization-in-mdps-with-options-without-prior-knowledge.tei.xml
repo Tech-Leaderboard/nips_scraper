@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Regret Minimization in MDPs with Options without Prior Knowledge</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronan</forename><surname>Fruit</surname></persName>
+							<email>ronan.fruit@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Sequel Team -Inria Lille</orgName>
+								<orgName type="laboratory" key="lab2">Sequel Team -Inria Lille</orgName>
+								<orgName type="laboratory" key="lab3">Sequel Team -Inria Lille</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matteo</forename><surname>Pirotta</surname></persName>
+							<email>matteo.pirotta@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Sequel Team -Inria Lille</orgName>
+								<orgName type="laboratory" key="lab2">Sequel Team -Inria Lille</orgName>
+								<orgName type="laboratory" key="lab3">Sequel Team -Inria Lille</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alessandro</forename><surname>Lazaric</surname></persName>
+							<email>alessandro.lazaric@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Sequel Team -Inria Lille</orgName>
+								<orgName type="laboratory" key="lab2">Sequel Team -Inria Lille</orgName>
+								<orgName type="laboratory" key="lab3">Sequel Team -Inria Lille</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emma</forename><surname>Brunskill</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Sequel Team -Inria Lille</orgName>
+								<orgName type="laboratory" key="lab2">Sequel Team -Inria Lille</orgName>
+								<orgName type="laboratory" key="lab3">Sequel Team -Inria Lille</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Regret Minimization in MDPs with Options without Prior Knowledge</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The option framework integrates temporal abstraction into the reinforcement learning model through the introduction of macro-actions (i.e., options). Recent works leveraged the mapping of Markov decision processes (MDPs) with options to semi-MDPs (SMDPs) and introduced SMDP-versions of exploration-exploitation algorithms (e.g., RMAX-SMDP and UCRL-SMDP) to analyze the impact of options on the learning performance. Nonetheless, the PAC-SMDP sample complexity of RMAX-SMDP can hardly be translated into equivalent PAC-MDP theoretical guarantees, while the regret analysis of UCRL-SMDP requires prior knowledge of the distributions of the cumulative reward and duration of each option, which are hardly available in practice. In this paper, we remove this limitation by combining the SMDP view together with the inner Markov structure of options into a novel algorithm whose regret performance matches UCRL-SMDP&apos;s up to an additive regret term. We show scenarios where this term is negligible and the advantage of temporal abstraction is preserved. We also report preliminary empirical results supporting the theoretical findings.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

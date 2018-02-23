@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scalable Influence Estimation in Continuous-Time Diffusion Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nan</forename><surname>Du</surname></persName>
+							<email>dunan@gatech.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">MPI for Intelligent Systems †</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Le</forename><surname>Song</surname></persName>
+							<email>lsong@cc.gatech.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">MPI for Intelligent Systems †</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename><surname>Gomez-Rodriguez</surname></persName>
+							<email>manuelgr@tue.mpg.de zha@cc.gatech.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hongyuan</forename><surname>Zha</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">MPI for Intelligent Systems †</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Georgia Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scalable Influence Estimation in Continuous-Time Diffusion Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>If a piece of information is released from a media site, can we predict whether it may spread to one million web pages, in a month ? This influence estimation problem is very challenging since both the time-sensitive nature of the task and the requirement of scalability need to be addressed simultaneously. In this paper, we propose a randomized algorithm for influence estimation in continuous-time diffusion networks. Our algorithm can estimate the influence of every node in a network with |V| nodes and |E| edges to an accuracy of using n = O(1// 2) randomizations and up to logarithmic factors O(n|E|+n|V|) computations. When used as a subroutine in a greedy influence maximization approach, our proposed algorithm is guaranteed to find a set of C nodes with the influence of at least (1 − 1/e) OPT −2C, where OPT is the optimal value. Experiments on both synthetic and real-world data show that the proposed algorithm can easily scale up to networks of millions of nodes while significantly improves over previous state-of-the-arts in terms of the accuracy of the estimated influence and the quality of the selected nodes in maximizing the influence.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Structure Learning of Markov Networks using L 1-Regularization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Su-In</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305-9010</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Varun</forename><surname>Ganapathi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305-9010</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daphne</forename><surname>Koller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305-9010</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Structure Learning of Markov Networks using L 1-Regularization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Markov networks are commonly used in a wide variety of applications, ranging from computer vision, to natural language, to computational biology. In most current applications, even those that rely heavily on learned models, the structure of the Markov network is constructed by hand, due to the lack of effective algorithms for learning Markov network structure from data. In this paper, we provide a computationally efficient method for learning Markov network structure from data. Our method is based on the use of L 1 regularization on the weights of the log-linear model, which has the effect of biasing the model towards solutions where many of the parameters are zero. This formulation converts the Markov network learning problem into a convex optimization problem in a continuous space, which can be solved using efficient gradient methods. A key issue in this setting is the (unavoidable) use of approximate inference, which can lead to errors in the gradient computation when the network structure is dense. Thus, we explore the use of different feature introduction schemes and compare their performance. We provide results for our method on synthetic data, and on two real world data sets: pixel values in the MNIST data, and genetic sequence variations in the human HapMap data. We show that our L 1-based method achieves considerably higher generalization performance than the more standard L 2-based method (a Gaussian parameter prior) or pure maximum-likelihood learning. We also show that we can learn MRF network structure at a computational cost that is not much greater than learning parameters alone, demonstrating the existence of a feasible method for this important problem.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

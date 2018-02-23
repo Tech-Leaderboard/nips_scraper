@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Minimizing Quadratic Functions in Constant Time</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kohei</forename><surname>Hayashi</surname></persName>
+							<email>hayashi.kohei@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">National Institute of Informatics and Preferred Infrastructure</orgName>
+								<orgName type="institution">National Institute of Advanced Industrial Science and Technology</orgName>
+								<address>
+									<region>Inc</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuichi</forename><surname>Yoshida</surname></persName>
+							<email>yyoshida@nii.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department">National Institute of Informatics and Preferred Infrastructure</orgName>
+								<orgName type="institution">National Institute of Advanced Industrial Science and Technology</orgName>
+								<address>
+									<region>Inc</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Minimizing Quadratic Functions in Constant Time</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A sampling-based optimization method for quadratic functions is proposed. Our method approximately solves the following n-dimensional quadratic minimization problem in constant time, which is independent of n: z * = min v∈R n v, Av + nv, diag(d)v + nb, v, where A ∈ R n×n is a matrix and d, b ∈ R n are vectors. Our theoretical analysis specifies the number of samples k(δ,) such that the approximated solution z satisfies |z − z * | = O(n 2) with probability 1 − δ. The empirical performance (accuracy and runtime) is positively confirmed by numerical experiments.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

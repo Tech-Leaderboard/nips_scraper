@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Lipreading by neural networks: Visual preprocessing, learning and sensory integration</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><forename type="middle">J</forename><surname>Wolff</surname></persName>
+							<email>wolff@crc.ricoh.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep2">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep3">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep4">Department of Electrical Engineering Mail Code</orgName>
+								<address>
+									<addrLine>2882 Sand Hill Road Suite 115 Menlo Park, 2882 Sand Hill Road Suite 115 Menlo Park, 2882 Sand Hill Road Suite 115 Menlo Park, 1027 1028 Wolff, Prasad, Stork, and Hennecke</addrLine>
+									<postCode>94025-7022, 94025-7022, 94025-7022, 4055</postCode>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">Venkatesh</forename><surname>Prasad</surname></persName>
+							<email>prasad@crc.ricoh.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep2">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep3">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep4">Department of Electrical Engineering Mail Code</orgName>
+								<address>
+									<addrLine>2882 Sand Hill Road Suite 115 Menlo Park, 2882 Sand Hill Road Suite 115 Menlo Park, 2882 Sand Hill Road Suite 115 Menlo Park, 1027 1028 Wolff, Prasad, Stork, and Hennecke</addrLine>
+									<postCode>94025-7022, 94025-7022, 94025-7022, 4055</postCode>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">G</forename><surname>Stork</surname></persName>
+							<email>stor k@crc.ricoh.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep2">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep3">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep4">Department of Electrical Engineering Mail Code</orgName>
+								<address>
+									<addrLine>2882 Sand Hill Road Suite 115 Menlo Park, 2882 Sand Hill Road Suite 115 Menlo Park, 2882 Sand Hill Road Suite 115 Menlo Park, 1027 1028 Wolff, Prasad, Stork, and Hennecke</addrLine>
+									<postCode>94025-7022, 94025-7022, 94025-7022, 4055</postCode>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marcus</forename><surname>Hennecke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep2">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep3">Ricoh California Research Center</orgName>
+								<orgName type="department" key="dep4">Department of Electrical Engineering Mail Code</orgName>
+								<address>
+									<addrLine>2882 Sand Hill Road Suite 115 Menlo Park, 2882 Sand Hill Road Suite 115 Menlo Park, 2882 Sand Hill Road Suite 115 Menlo Park, 1027 1028 Wolff, Prasad, Stork, and Hennecke</addrLine>
+									<postCode>94025-7022, 94025-7022, 94025-7022, 4055</postCode>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Lipreading by neural networks: Visual preprocessing, learning and sensory integration</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Stanford University Stanford, CA 94305 We have developed visual preprocessing algorithms for extracting phonologically relevant features from the grayscale video image of a speaker, to provide speaker-independent inputs for an automatic lipreading (&quot;speechreading&quot;) system. Visual features such as mouth open/closed, tongue visible/not-visible, teeth visible/not-visible, and several shape descriptors of the mouth and its motion are all rapidly computable in a manner quite insensitive to lighting conditions. We formed a hybrid speechreading system consisting of two time delay neural networks (video and acoustic) and integrated their responses by means of independent opinion pooling-the Bayesian optimal method given conditional independence, which seems to hold for our data. This hybrid system had an error rate 25% lower than that of the acoustic subsystem alone on a five-utterance speaker-independent task, indicating that video can be used to improve speech recognition.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online Models for Content Optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Deepak</forename><surname>Agarwal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yahoo! Inc</orgName>
+								<address>
+									<addrLine>701 First Avenue Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bee-Chung</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yahoo! Inc</orgName>
+								<address>
+									<addrLine>701 First Avenue Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pradheep</forename><surname>Elango</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yahoo! Inc</orgName>
+								<address>
+									<addrLine>701 First Avenue Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nitin</forename><surname>Motgi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yahoo! Inc</orgName>
+								<address>
+									<addrLine>701 First Avenue Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Seung-Taek</forename><surname>Park</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yahoo! Inc</orgName>
+								<address>
+									<addrLine>701 First Avenue Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raghu</forename><surname>Ramakrishnan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yahoo! Inc</orgName>
+								<address>
+									<addrLine>701 First Avenue Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Roy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yahoo! Inc</orgName>
+								<address>
+									<addrLine>701 First Avenue Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joe</forename><surname>Zachariah</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yahoo! Inc</orgName>
+								<address>
+									<addrLine>701 First Avenue Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online Models for Content Optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a new content publishing system that selects articles to serve to a user, choosing from an editorially programmed pool that is frequently refreshed. It is now deployed on a major Yahoo! portal, and selects articles to serve to hundreds of millions of user visits per day, significantly increasing the number of user clicks over the original manual approach, in which editors periodically selected articles to display. Some of the challenges we face include a dynamic content pool, short article lifetimes, non-stationary click-through rates, and extremely high traffic volumes. The fundamental problem we must solve is to quickly identify which items are popular (perhaps within different user segments), and to exploit them while they remain current. We must also explore the underlying pool constantly to identify promising alternatives, quickly discarding poor performers. Our approach is based on tracking per article performance in near real time through online models. We describe the characteristics and constraints of our application setting, discuss our design choices, and show the importance and effectiveness of coupling online models with a randomization procedure. We discuss the challenges encountered in a production online content-publishing environment and highlight issues that deserve careful attention. Our analysis of this application also suggests a number of future research avenues.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

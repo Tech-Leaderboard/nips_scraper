@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Maximin affinity learning of image segmentation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Srinivas</forename><forename type="middle">C</forename><surname>Turaga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep2">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep3">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">HHMI</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><forename type="middle">L</forename><surname>Briggman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep2">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep3">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">HHMI</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moritz</forename><surname>Helmstaedter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep2">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep3">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">HHMI</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Winfried</forename><surname>Denk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep2">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep3">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">HHMI</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">Sebastian</forename><surname>Seung</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep2">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="department" key="dep3">Max-Planck Insitute for Medical Research</orgName>
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">HHMI</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Maximin affinity learning of image segmentation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Images can be segmented by first using a classifier to predict an affinity graph that reflects the degree to which image pixels must be grouped together and then partitioning the graph to yield a segmentation. Machine learning has been applied to the affinity classifier to produce affinity graphs that are good in the sense of minimizing edge misclassification rates. However, this error measure is only indirectly related to the quality of segmentations produced by ultimately partitioning the affinity graph. We present the first machine learning algorithm for training a classifier to produce affinity graphs that are good in the sense of producing seg-mentations that directly minimize the Rand index, a well known segmentation performance measure. The Rand index measures segmentation performance by quantifying the classification of the connectivity of image pixel pairs after segmentation. By using the simple graph partitioning algorithm of finding the connected components of the thresholded affinity graph, we are able to train an affinity classifier to directly minimize the Rand index of segmentations resulting from the graph partitioning. Our learning algorithm corresponds to the learning of maximin affinities between image pixel pairs, which are predictive of the pixel-pair connectivity.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

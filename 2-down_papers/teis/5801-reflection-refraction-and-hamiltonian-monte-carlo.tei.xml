@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reflection, Refraction, and Hamiltonian Monte Carlo</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hadi</forename><forename type="middle">Mohasel</forename><surname>Afshar</surname></persName>
+							<email>hadi.afshar@anu.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">National ICT Australia (NICTA) &amp; Australian National University Canberra, ACT 0200</orgName>
+								<orgName type="institution">Research School of Computer Science Australian National University Canberra</orgName>
+								<address>
+									<postCode>ACT 0200</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Justin</forename><surname>Domke</surname></persName>
+							<email>Justin.Domke@nicta.com.au</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">National ICT Australia (NICTA) &amp; Australian National University Canberra, ACT 0200</orgName>
+								<orgName type="institution">Research School of Computer Science Australian National University Canberra</orgName>
+								<address>
+									<postCode>ACT 0200</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reflection, Refraction, and Hamiltonian Monte Carlo</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Hamiltonian Monte Carlo (HMC) is a successful approach for sampling from continuous densities. However, it has difficulty simulating Hamiltonian dynamics with non-smooth functions, leading to poor performance. This paper is motivated by the behavior of Hamiltonian dynamics in physical systems like optics. We introduce a modification of the Leapfrog discretization of Hamiltonian dynamics on piecewise continuous energies, where intersections of the trajectory with disconti-nuities are detected, and the momentum is reflected or refracted to compensate for the change in energy. We prove that this method preserves the correct stationary distribution when boundaries are affine. Experiments show that by reducing the number of rejected samples, this method improves on traditional HMC.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

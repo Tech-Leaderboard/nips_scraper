@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ultrafast Monte Carlo for Kernel Estimators and Generalized Statistical Summations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">P</forename><surname>Holmes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College Of Computing</orgName>
+								<orgName type="institution">Georgia Institute of Technology Atlanta</orgName>
+								<address>
+									<postCode>30327</postCode>
+									<region>GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><forename type="middle">G</forename><surname>Gray</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College Of Computing</orgName>
+								<orgName type="institution">Georgia Institute of Technology Atlanta</orgName>
+								<address>
+									<postCode>30327</postCode>
+									<region>GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">Lee</forename><surname>Isbell</surname><genName>Jr</genName></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College Of Computing</orgName>
+								<orgName type="institution">Georgia Institute of Technology Atlanta</orgName>
+								<address>
+									<postCode>30327</postCode>
+									<region>GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ultrafast Monte Carlo for Kernel Estimators and Generalized Statistical Summations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Machine learning contains many computational bottlenecks in the form of nested summations over datasets. Kernel estimators and other methods are burdened by these expensive computations. Exact evaluation is typically O(n 2) or higher, which severely limits application to large datasets. We present a multi-stage stratified Monte Carlo method for approximating such summations with probabilistic relative error control. The essential idea is fast approximation by sampling in trees. This method differs from many previous scalability techniques (such as standard multi-tree methods) in that its error is stochastic, but we derive conditions for error control and demonstrate that they work. Further, we give a theoretical sample complexity for the method that is independent of dataset size, and show that this appears to hold in experiments, where speedups reach as high as 10 14 , many orders of magnitude beyond the previous state of the art.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

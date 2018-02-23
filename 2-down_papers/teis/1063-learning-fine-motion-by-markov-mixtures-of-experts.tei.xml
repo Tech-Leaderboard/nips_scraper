@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Fine Motion by Markov Mixtures of Experts</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marina</forename><surname>Meilii</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Elec. Eng. and Computer Sci. Massachussetts Inst . of Technology Cambridge</orgName>
+								<orgName type="department" key="dep2">Dept.of Brain and Cognitive Sciences Massachussetts Inst. of Technology Cambridge</orgName>
+								<address>
+									<postCode>02139, 02139</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">I J</forename><surname>Ol&amp;apos;dan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Elec. Eng. and Computer Sci. Massachussetts Inst . of Technology Cambridge</orgName>
+								<orgName type="department" key="dep2">Dept.of Brain and Cognitive Sciences Massachussetts Inst. of Technology Cambridge</orgName>
+								<address>
+									<postCode>02139, 02139</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Fine Motion by Markov Mixtures of Experts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Compliant control is a standard method for performing fine manipulation tasks, like grasping and assembly, but it requires estimation of the state of contact (s.o.c.) between the robot arm and the objects involved. Here we present a method to learn a model of the movement from measured data. The method requires little or no prior knowledge and the resulting model explicitly estimates the s.o.c. The current s.o.c. is viewed as the hidden state variable of a discrete HMM. The control dependent transition probabilities between states are modeled as parametrized functions of the measurement. We show that their parameters can be estimated from measurements at the same time as the parameters of the movement in each s.o.c. The learning algorithm is a variant of the EM procedure. The E step is computed exactly ; solving the M step exactly is not possible in general. Here, gradient ascent is used to produce an increase in likelihood .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

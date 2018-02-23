@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Multiple Models via Regularized Weighting</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Vainsencher</surname></persName>
+							<email>danielv@tx.technion.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering Technion</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering Technion</orgName>
+								<orgName type="department" key="dep3">Mechanical Engineering Department</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<settlement>Haifa, Haifa</settlement>
+									<country>Israel, Israel, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shie</forename><surname>Mannor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering Technion</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering Technion</orgName>
+								<orgName type="department" key="dep3">Mechanical Engineering Department</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<settlement>Haifa, Haifa</settlement>
+									<country>Israel, Israel, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huan</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering Technion</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering Technion</orgName>
+								<orgName type="department" key="dep3">Mechanical Engineering Department</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<settlement>Haifa, Haifa</settlement>
+									<country>Israel, Israel, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Multiple Models via Regularized Weighting</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the general problem of Multiple Model Learning (MML) from data, from the statistical and algorithmic perspectives; this problem includes clustering, multiple regression and subspace clustering as special cases. A common approach to solving new MML problems is to generalize Lloyd&apos;s algorithm for clustering (or Expectation-Maximization for soft clustering). However this approach is unfortunately sensitive to outliers and large noise: a single exceptional point may take over one of the models. We propose a different general formulation that seeks for each model a distribution over data points; the weights are regularized to be sufficiently spread out. This enhances robustness by making assumptions on class balance. We further provide generalization bounds and explain how the new iterations may be computed efficiently. We demonstrate the robustness benefits of our approach with some experimental results and prove for the important case of clustering that our approach has a non-trivial breakdown point, i.e., is guaranteed to be robust to a fixed percentage of adversarial unbounded outliers.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

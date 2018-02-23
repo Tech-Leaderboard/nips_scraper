@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fixing two weaknesses of the Spectral Method</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><forename type="middle">J</forename><surname>Lang</surname></persName>
+							<email>langk@yahoo-inc.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Yahoo Research</orgName>
+								<address>
+									<addrLine>3333 Empire Ave</addrLine>
+									<postCode>91504</postCode>
+									<settlement>Burbank</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fixing two weaknesses of the Spectral Method</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We discuss two intrinsic weaknesses of the spectral graph partitioning method, both of which have practical consequences. The first is that spectral embeddings tend to hide the best cuts from the commonly used hyperplane rounding method. Rather than cleaning up the resulting sub-optimal cuts with local search, we recommend the adoption of flow-based rounding. The second weakness is that for many &quot;power law&quot; graphs, the spectral method produces cuts that are highly unbalanced, thus decreasing the usefulness of the method for visualization (see figure 4(b)) or as a basis for divide-and-conquer algorithms. These balance problems, which occur even though the spectral method&apos;s quotient-style objective function does encourage balance, can be fixed with a stricter balance constraint that turns the spectral mathematical program into an SDP that can be solved for million-node graphs by a method of Burer and Monteiro.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

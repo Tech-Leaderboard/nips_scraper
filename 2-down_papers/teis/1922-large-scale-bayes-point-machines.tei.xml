@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Large Scale Bayes Point Machines</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralf</forename><surname>Herbrich</surname></persName>
+							<email>ralfh@cs.tu-berlin.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Statistics Research Group Computer Science Department</orgName>
+								<orgName type="laboratory">Statistics Research Group Computer Science Department Technical University of Berlin</orgName>
+								<orgName type="institution">Technical University of Berlin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thore</forename><surname>Graepel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Statistics Research Group Computer Science Department</orgName>
+								<orgName type="laboratory">Statistics Research Group Computer Science Department Technical University of Berlin</orgName>
+								<orgName type="institution">Technical University of Berlin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Large Scale Bayes Point Machines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The concept of averaging over classifiers is fundamental to the Bayesian analysis of learning. Based on this viewpoint, it has recently been demonstrated for linear classifiers that the centre of mass of version space (the set of all classifiers consistent with the training set)-also known as the Bayes point-exhibits excellent generalisation abilities. However, the billiard algorithm as presented in [4] is restricted to small sample size because it requires o (m 2) of memory and 0 (N. m 2) computational steps where m is the number of training patterns and N is the number of random draws from the posterior distribution. In this paper we present a method based on the simple perceptron learning algorithm which allows to overcome this algorithmic drawback. The method is al-gorithmically simple and is easily extended to the multi-class case. We present experimental results on the MNIST data set of handwritten digits which show that Bayes point machines (BPMs) are competitive with the current world champion, the support vector machine. In addition, the computational complexity of BPMs can be tuned by varying the number of samples from the posterior. Finally, rejecting test points on the basis of their (approximative) posterior probability leads to a rapid decrease in generalisation error , e.g. 0.1% generalisation error for a given rejection rate of 10%.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

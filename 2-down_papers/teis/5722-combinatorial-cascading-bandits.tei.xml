@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Combinatorial Cascading Bandits</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Branislav</forename><surname>Kveton</surname></persName>
+							<email>kveton@adobe.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="laboratory">Technicolor Research Los Altos</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">University of Alberta</orgName>
+								<address>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adobe</forename><surname>Research</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="laboratory">Technicolor Research Los Altos</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">University of Alberta</orgName>
+								<address>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>CA</roleName><forename type="first">San</forename><surname>Jose</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="laboratory">Technicolor Research Los Altos</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">University of Alberta</orgName>
+								<address>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zheng</forename><surname>Wen</surname></persName>
+							<email>zhengwen@yahoo-inc.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="laboratory">Technicolor Research Los Altos</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">University of Alberta</orgName>
+								<address>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Azin</forename><surname>Ashkan</surname></persName>
+							<email>azin.ashkan@technicolor.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="laboratory">Technicolor Research Los Altos</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">University of Alberta</orgName>
+								<address>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Csaba</forename><surname>Szepesvári</surname></persName>
+							<email>szepesva@cs.ualberta.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computing Science</orgName>
+								<orgName type="laboratory">Technicolor Research Los Altos</orgName>
+								<orgName type="institution" key="instit1">Yahoo Labs Sunnyvale</orgName>
+								<orgName type="institution" key="instit2">University of Alberta</orgName>
+								<address>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Combinatorial Cascading Bandits</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose combinatorial cascading bandits, a class of partial monitoring problems where at each step a learning agent chooses a tuple of ground items subject to constraints and receives a reward if and only if the weights of all chosen items are one. The weights of the items are binary, stochastic, and drawn independently of each other. The agent observes the index of the first chosen item whose weight is zero. This observation model arises in network routing, for instance, where the learning agent may only observe the first link in the routing path which is down, and blocks the path. We propose a UCB-like algorithm for solving our problems, CombCascade; and prove gap-dependent and gap-free upper bounds on its n-step regret. Our proofs build on recent work in stochastic combinatorial semi-bandits but also address two novel challenges of our setting, a non-linear reward function and partial observability. We evaluate CombCascade on two real-world problems and show that it performs well even when our modeling assumptions are violated. We also demonstrate that our setting requires a new learning algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

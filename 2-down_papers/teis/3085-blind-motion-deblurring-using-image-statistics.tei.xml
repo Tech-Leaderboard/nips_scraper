@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Blind Motion Deblurring Using Image Statistics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anat</forename><surname>Levin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science and Engineering</orgName>
+								<orgName type="institution">The Hebrew University of Jerusalem</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Blind Motion Deblurring Using Image Statistics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We address the problem of blind motion deblurring from a single image, caused by a few moving objects. In such situations only part of the image may be blurred, and the scene consists of layers blurred in different degrees. Most of of existing blind deconvolution research concentrates at recovering a single blurring kernel for the entire image. However, in the case of different motions, the blur cannot be modeled with a single kernel, and trying to deconvolve the entire image with the same kernel will cause serious artifacts. Thus, the task of deblurring needs to involve segmentation of the image into regions with different blurs. Our approach relies on the observation that the statistics of derivative filters in images are significantly changed by blur. Assuming the blur results from a constant velocity motion, we can limit the search to one dimensional box filter blurs. This enables us to model the expected derivatives distributions as a function of the width of the blur kernel. Those distributions are surprisingly powerful in discriminating regions with different blurs. The approach produces convincing deconvolution results on real world images with rich texture.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

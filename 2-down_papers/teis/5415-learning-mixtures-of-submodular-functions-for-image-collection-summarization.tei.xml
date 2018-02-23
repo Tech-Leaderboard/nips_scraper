@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Mixtures of Submodular Functions for Image Collection Summarization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sebastian</forename><surname>Tschiatschek</surname></persName>
+							<email>tschiatschek@tugraz.at</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep4">Department of Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">Graz University of Technology</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<orgName type="institution" key="instit3">University of Washington</orgName>
+								<orgName type="institution" key="instit4">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rishabh</forename><surname>Iyer</surname></persName>
+							<email>rkiyer@u.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep4">Department of Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">Graz University of Technology</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<orgName type="institution" key="instit3">University of Washington</orgName>
+								<orgName type="institution" key="instit4">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Haochen</forename><surname>Wei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep4">Department of Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">Graz University of Technology</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<orgName type="institution" key="instit3">University of Washington</orgName>
+								<orgName type="institution" key="instit4">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeff</forename><surname>Bilmes</surname></persName>
+							<email>bilmes@u.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Electrical Engineering</orgName>
+								<orgName type="department" key="dep4">Department of Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">Graz University of Technology</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<orgName type="institution" key="instit3">University of Washington</orgName>
+								<orgName type="institution" key="instit4">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Mixtures of Submodular Functions for Image Collection Summarization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We address the problem of image collection summarization by learning mixtures of submodular functions. Submodularity is useful for this problem since it naturally represents characteristics such as fidelity and diversity, desirable for any summary. Several previously proposed image summarization scoring methodologies, in fact, instinctively arrived at submodularity. We provide classes of submodular component functions (including some which are instantiated via a deep neural network) over which mixtures may be learnt. We formulate the learning of such mixtures as a supervised problem via large-margin structured prediction. As a loss function, and for automatic summary scoring, we introduce a novel summary evaluation method called V-ROUGE, and test both submodular and non-submodular optimization (using the submodular-supermodular procedure) to learn a mixture of submodular functions. Interestingly, using non-submodular optimization to learn submodular functions provides the best results. We also provide a new data set consisting of 14 real-world image collections along with many human-generated ground truth summaries collected using Amazon Mechanical Turk. We compare our method with previous work on this problem and show that our learning approach outper-forms all competitors on this new data set. This paper provides, to our knowledge, the first systematic approach for quantifying the problem of image collection sum-marization, along with a new data set of image collections and human summaries.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

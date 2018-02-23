@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Neurothermostat: Predictive Optimal Control of Residential Heating Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">C</forename><surname>Mozer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">tDepartment of Computer Science tDepartment of Civil</orgName>
+								<orgName type="institution">Architectural Engineering University of Colorado</orgName>
+								<address>
+									<postCode>80309-0430</postCode>
+									<settlement>Environmental, Boulder</settlement>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lucky</forename><surname>Vidmar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">tDepartment of Computer Science tDepartment of Civil</orgName>
+								<orgName type="institution">Architectural Engineering University of Colorado</orgName>
+								<address>
+									<postCode>80309-0430</postCode>
+									<settlement>Environmental, Boulder</settlement>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">H</forename><surname>Dodier</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">tDepartment of Computer Science tDepartment of Civil</orgName>
+								<orgName type="institution">Architectural Engineering University of Colorado</orgName>
+								<address>
+									<postCode>80309-0430</postCode>
+									<settlement>Environmental, Boulder</settlement>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Neurothermostat: Predictive Optimal Control of Residential Heating Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The Neurothermostat is an adaptive controller that regulates indoor air temperature in a residence by switching a furnace on or off. The task is framed as an optimal control problem in which both comfort and energy costs are considered as part of the control objective. Because the consequences of control decisions are delayed in time, the N eurothermostat must anticipate heating demands with predictive models of occupancy patterns and the thermal response of the house and furnace. Occupancy pattern prediction is achieved by a hybrid neural net / look-up table. The Neu-rothermostat searches, at each discrete time step, for a decision sequence that minimizes the expected cost over a fixed planning horizon. The first decision in this sequence is taken, and this process repeats. Simulations of the Neurothermostat were conducted using artificial occupancy data in which regularity was systematically varied, as well as occupancy data from an actual residence. The Neurothermostat is compared against three conventional policies , and achieves reliably lower costs. This result is robust to the relative weighting of comfort and energy costs and the degree of variability in the occupancy patterns.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

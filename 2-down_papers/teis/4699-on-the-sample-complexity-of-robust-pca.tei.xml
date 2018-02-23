@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On the Sample Complexity of Robust PCA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Coudron</surname></persName>
+							<email>mcoudron@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Mathematics</orgName>
+								<orgName type="institution" key="instit1">Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Minnesota Minneapolis</orgName>
+								<address>
+									<postCode>02139, 55455</postCode>
+									<region>MA, MN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gilad</forename><surname>Lerman</surname></persName>
+							<email>lerman@umn.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Mathematics</orgName>
+								<orgName type="institution" key="instit1">Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Minnesota Minneapolis</orgName>
+								<address>
+									<postCode>02139, 55455</postCode>
+									<region>MA, MN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On the Sample Complexity of Robust PCA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We estimate the rate of convergence and sample complexity of a recent robust es-timator for a generalized version of the inverse covariance matrix. This estimator is used in a convex algorithm for robust subspace recovery (i.e., robust PCA). Our model assumes a sub-Gaussian underlying distribution and an i.i.d. sample from it. Our main result shows with high probability that the norm of the difference between the generalized inverse covariance of the underlying distribution and its estimator from an i.i.d. sample of size N is of order O(N −0.5+) for arbitrarily small &gt; 0 (affecting the probabilistic estimate); this rate of convergence is close to the one of direct covariance estimation, i.e., O(N −0.5). Our precise prob-abilistic estimate implies for some natural settings that the sample complexity of the generalized inverse covariance estimation when using the Frobenius norm is O(D 2+δ) for arbitrarily small δ &gt; 0 (whereas the sample complexity of direct covariance estimation with Frobenius norm is O(D 2)). These results provide similar rates of convergence and sample complexity for the corresponding robust subspace recovery algorithm. To the best of our knowledge, this is the only work analyzing the sample complexity of any robust PCA algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

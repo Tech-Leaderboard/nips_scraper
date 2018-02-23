@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multi-Task Learning via Conic Programming</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>񮽙,•</roleName><forename type="first">Tsuyoshi</forename><surname>Kato</surname></persName>
+							<email>kato-tsuyoshi@cb.k.u-tokyo.ac.jp, kashi pong@yahoo.co.jp, sugi@cs.titech.ac.jp, asai@cbrc.jp</email>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Bioinformatics Research and Development (BIRD)</orgName>
+								<orgName type="laboratory">Science and Technology Agency (JST) † Tokyo Research Laboratory</orgName>
+								<orgName type="institution">IBM Research</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hisashi</forename><surname>Kashima</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Masashi</forename><surname>Sugiyama</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Tokyo Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">񮽙 AIST Computational Biology Research Center</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asai</forename><surname>Kiyoshi</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>񮽙</roleName><surname>񮽙</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">񮽙 Graduate School of Frontier Sciences</orgName>
+								<orgName type="institution">The University of Tokyo</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multi-Task Learning via Conic Programming</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>When we have several related tasks, solving them simultaneously is shown to be more effective than solving them individually. This approach is called multi-task learning (MTL) and has been studied extensively. Existing approaches to MTL often treat all the tasks as uniformly related to each other and the relatedness of the tasks is controlled globally. For this reason, the existing methods can lead to undesired solutions when some tasks are not highly related to each other, and some pairs of related tasks can have significantly different solutions. In this paper , we propose a novel MTL algorithm that can overcome these problems. Our method makes use of a task network, which describes the relation structure among tasks. This allows us to deal with intricate relation structures in a systematic way. Furthermore, we control the relatedness of the tasks locally, so all pairs of related tasks are guaranteed to have similar solutions. We apply the above idea to support vector machines (SVMs) and show that the optimization problem can be cast as a second order cone program, which is convex and can be solved efficiently. The usefulness of our approach is demonstrated through simulations with protein super-family classification and ordinal regression problems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

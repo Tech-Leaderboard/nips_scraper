@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">String Kernels, Fisher Kernels and Finite State Automata</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Craig</forename><surname>Saunders</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science Royal Holloway</orgName>
+								<orgName type="institution">University of London</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Shawe-Taylor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science Royal Holloway</orgName>
+								<orgName type="institution">University of London</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexei</forename><surname>Vinokourov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science Royal Holloway</orgName>
+								<orgName type="institution">University of London</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">String Kernels, Fisher Kernels and Finite State Automata</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper we show how the generation of documents can be thought of as a k-stage Markov process, which leads to a Fisher kernel from which the n-gram and string kernels can be reconstructed. The Fisher kernel view gives a more flexible insight into the string kernel and suggests how it can be parametrised in a way that reflects the statistics of the training corpus. Furthermore, the prob-abilistic modelling approach suggests extending the Markov process to consider sub-sequences of varying length, rather than the standard fixed-length approach used in the string kernel. We give a procedure for determining which sub-sequences are informative features and hence generate a Finite State Machine model, which can again be used to obtain a Fisher kernel. By adjusting the parametrisation we can also influence the weighting received by the features. In this way we are able to obtain a logarithmic weighting in a Fisher kernel. Finally, experiments are reported comparing the different kernels using the standard Bag of Words kernel as a baseline.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

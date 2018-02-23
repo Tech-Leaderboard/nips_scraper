@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian Sets</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zoubin</forename><surname>Ghahramani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit University College London London</orgName>
+								<address>
+									<postCode>WC1N 3AR</postCode>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katherine</forename><forename type="middle">A</forename><surname>Heller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit University College London London</orgName>
+								<address>
+									<postCode>WC1N 3AR</postCode>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian Sets</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Inspired by &quot;Google ™ Sets&quot;, we consider the problem of retrieving items from a concept or cluster, given a query consisting of a few items from that cluster. We formulate this as a Bayesian inference problem and describe a very simple algorithm for solving it. Our algorithm uses a model-based concept of a cluster and ranks items using a score which evaluates the marginal probability that each item belongs to a cluster containing the query items. For exponential family models with conjugate priors this marginal probability is a simple function of sufficient statistics. We focus on sparse binary data and show that our score can be evaluated exactly using a single sparse matrix multiplication, making it possible to apply our algorithm to very large datasets. We evaluate our algorithm on three datasets: retrieving movies from EachMovie, finding completions of author sets from the NIPS dataset, and finding completions of sets of words appearing in the Grolier encyclopedia. We compare to Google ™ Sets and show that Bayesian Sets gives very reasonable set completions.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

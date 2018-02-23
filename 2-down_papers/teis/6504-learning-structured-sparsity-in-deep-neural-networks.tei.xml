@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Structured Sparsity in Deep Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Wen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit5">University of Pittsburgh</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chunpeng</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit5">University of Pittsburgh</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yandan</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit5">University of Pittsburgh</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yiran</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit5">University of Pittsburgh</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hai</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit4">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit5">University of Pittsburgh</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Structured Sparsity in Deep Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>High demand for computation resources severely hinders deployment of large-scale Deep Neural Networks (DNN) in resource constrained devices. In this work, we propose a Structured Sparsity Learning (SSL) method to regularize the structures (i.e., filters, channels, filter shapes, and layer depth) of DNNs. SSL can: (1) learn a compact structure from a bigger DNN to reduce computation cost; (2) obtain a hardware-friendly structured sparsity of DNN to efficiently accelerate the DNN&apos;s evaluation. Experimental results show that SSL achieves on average 5.1× and 3.1× speedups of convolutional layer computation of AlexNet against CPU and GPU, respectively, with off-the-shelf libraries. These speedups are about twice speedups of non-structured sparsity; (3) regularize the DNN structure to improve classification accuracy. The results show that for CIFAR-10, regularization on layer depth reduces a 20-layer Deep Residual Network (ResNet) to 18 layers while improves the accuracy from 91.25% to 92.60%, which is still higher than that of original ResNet with 32 layers. For AlexNet, SSL reduces the error by ∼ 1%.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

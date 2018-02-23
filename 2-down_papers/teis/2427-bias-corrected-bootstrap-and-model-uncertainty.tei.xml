@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bias-Corrected Bootstrap and Model Uncertainty</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harald</forename><surname>Steck</surname></persName>
+							<email>harald@ai.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MIT CSAIL 200 Technology Square Cambridge</orgName>
+								<orgName type="department" key="dep2">MIT CSAIL 200 Technology Square Cambridge</orgName>
+								<address>
+									<postCode>02139, 02139</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tommi</forename><forename type="middle">S</forename><surname>Jaakkola</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MIT CSAIL 200 Technology Square Cambridge</orgName>
+								<orgName type="department" key="dep2">MIT CSAIL 200 Technology Square Cambridge</orgName>
+								<address>
+									<postCode>02139, 02139</postCode>
+									<region>MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bias-Corrected Bootstrap and Model Uncertainty</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The bootstrap has become a popular method for exploring model (structure) uncertainty. Our experiments with artificial and real-world data demonstrate that the graphs learned from bootstrap samples can be severely biased towards too complex graphical models. Accounting for this bias is hence essential, e.g., when exploring model uncertainty. We find that this bias is intimately tied to (well-known) spurious dependences induced by the bootstrap. The leading-order bias-correction equals one half of Akaike&apos;s penalty for model complexity. We demonstrate the effect of this simple bias-correction in our experiments. We also relate this bias to the bias of the plug-in estimator for entropy, as well as to the difference between the expected test and training errors of a graphical model, which asymptotically equals Akaike&apos;s penalty (rather than one half).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

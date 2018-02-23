@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Unified Approach to Interpreting Model Predictions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><forename type="middle">M</forename><surname>Lundberg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science Department of Genome Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Washington Seattle</orgName>
+								<orgName type="institution" key="instit2">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98105, 98105</postCode>
+									<region>WA, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><forename type="middle">G</forename><surname>Allen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science Department of Genome Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Washington Seattle</orgName>
+								<orgName type="institution" key="instit2">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98105, 98105</postCode>
+									<region>WA, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Su-In</forename><surname>Lee</surname></persName>
+							<email>suinlee@cs.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science Department of Genome Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Washington Seattle</orgName>
+								<orgName type="institution" key="instit2">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98105, 98105</postCode>
+									<region>WA, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><forename type="middle">G</forename><surname>Allen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computer Science Department of Genome Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Washington Seattle</orgName>
+								<orgName type="institution" key="instit2">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98105, 98105</postCode>
+									<region>WA, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Unified Approach to Interpreting Model Predictions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Understanding why a model makes a certain prediction can be as crucial as the prediction&apos;s accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identification of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class unifies six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this unification, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Distributed Exploration in Multi-Armed Bandits</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eshcar</forename><surname>Hillel</surname></persName>
+							<email>eshcar@yahoo-inc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Yahoo Labs</orgName>
+								<address>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<country>Israel Inst. of Technology</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zohar</forename><surname>Karnin</surname></persName>
+							<email>zkarnin@yahoo-inc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Yahoo Labs</orgName>
+								<address>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<country>Israel Inst. of Technology</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tomer</forename><surname>Koren</surname></persName>
+							<email>tomerk@technion.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Yahoo Labs</orgName>
+								<address>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<country>Israel Inst. of Technology</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronny</forename><surname>Lempel</surname></persName>
+							<email>rlempel@yahoo-inc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Yahoo Labs</orgName>
+								<address>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<country>Israel Inst. of Technology</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oren</forename><surname>Somekh</surname></persName>
+							<email>orens@yahoo-inc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Yahoo Labs</orgName>
+								<address>
+									<settlement>Haifa, Haifa, Haifa, Haifa</settlement>
+									<country>Israel Inst. of Technology</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Distributed Exploration in Multi-Armed Bandits</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study exploration in Multi-Armed Bandits in a setting where k players collaborate in order to identify an ε-optimal arm. Our motivation comes from recent employment of bandit algorithms in computationally intensive, large-scale applications. Our results demonstrate a non-trivial tradeoff between the number of arm pulls required by each of the players, and the amount of communication between them. In particular, our main result shows that by allowing the k players to communicate only once, they are able to learn √ k times faster than a single player. That is, distributing learning to k players gives rise to a factor √ k parallel speed-up. We complement this result with a lower bound showing this is in general the best possible. On the other extreme, we present an algorithm that achieves the ideal factor k speed-up in learning performance, with communication only logarithmic in 1/ε.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

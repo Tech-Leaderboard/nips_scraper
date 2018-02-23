@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dynamic Foreground/Background Extraction from Images and Videos using Random Patches</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Le</forename><surname>Lu</surname></persName>
+							<email>le-lu@siemens.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Integrated Data Systems Department Siemens Corporate Research Princeton</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution">Johns Hopkins University Baltimore</orgName>
+								<address>
+									<postCode>08540, 21218</postCode>
+									<region>NJ, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><surname>Hager</surname></persName>
+							<email>hager@cs.jhu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Integrated Data Systems Department Siemens Corporate Research Princeton</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution">Johns Hopkins University Baltimore</orgName>
+								<address>
+									<postCode>08540, 21218</postCode>
+									<region>NJ, MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dynamic Foreground/Background Extraction from Images and Videos using Random Patches</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we propose a novel exemplar-based approach to extract dynamic foreground regions from a changing background within a collection of images or a video sequence. By using image segmentation as a pre-processing step, we convert this traditional pixel-wise labeling problem into a lower-dimensional supervised , binary labeling procedure on image segments. Our approach consists of three steps. First, a set of random image patches are spatially and adaptively sampled within each segment. Second, these sets of extracted samples are formed into two &quot;bags of patches&quot; to model the foreground/background appearance, respectively. We perform a novel bidirectional consistency check between new patches from incoming frames and current &quot;bags of patches&quot; to reject outliers, control model rigidity and make the model adaptive to new observations. Within each bag, image patches are further partitioned and resampled to create an evolving appearance model. Finally, the foreground/background decision over segments in an image is formulated using an aggregation function defined on the similarity measurements of sampled patches relative to the foreground and background models. The essence of the algorithm is conceptually simple and can be easily implemented within a few hundred lines of Matlab code. We evaluate and validate the proposed approach by extensive real examples of the object-level image mapping and tracking within a variety of challenging environments. We also show that it is straightforward to apply our problem formulation on non-rigid object tracking with difficult surveillance videos.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

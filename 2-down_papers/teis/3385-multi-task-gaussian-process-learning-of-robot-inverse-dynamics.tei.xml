@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multi-task Gaussian Process Learning of Robot Inverse Dynamics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ming</forename><forename type="middle">A</forename><surname>Kian</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Informatics</orgName>
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<addrLine>10 Crichton Street</addrLine>
+									<postCode>EH8 9AB</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">K I</forename><surname>Chai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Informatics</orgName>
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<addrLine>10 Crichton Street</addrLine>
+									<postCode>EH8 9AB</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stefan</forename><surname>Williams</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Informatics</orgName>
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<addrLine>10 Crichton Street</addrLine>
+									<postCode>EH8 9AB</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sethu</forename><surname>Klanke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Informatics</orgName>
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<addrLine>10 Crichton Street</addrLine>
+									<postCode>EH8 9AB</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vijayakumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Informatics</orgName>
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<addrLine>10 Crichton Street</addrLine>
+									<postCode>EH8 9AB</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multi-task Gaussian Process Learning of Robot Inverse Dynamics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The inverse dynamics problem for a robotic manipulator is to compute the torques needed at the joints to drive it along a given trajectory; it is beneficial to be able to learn this function for adaptive control. A robotic manipulator will often need to be controlled while holding different loads in its end effector, giving rise to a multi-task learning problem. By placing independent Gaussian process priors over the latent functions of the inverse dynamics, we obtain a multi-task Gaussian process prior for handling multiple loads, where the inter-task similarity depends on the underlying inertial parameters. Experiments demonstrate that this multi-task formulation is effective in sharing information among the various loads, and generally improves performance over either learning only on single tasks or pooling the data over all tasks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

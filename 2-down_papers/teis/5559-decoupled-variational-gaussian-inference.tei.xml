@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Decoupled Variational Gaussian Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammad</forename><forename type="middle">Emtiyaz</forename><surname>Khan</surname></persName>
+							<email>emtiyaz@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ecole Polytechnique Fédérale de Lausanne (EPFL)</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Decoupled Variational Gaussian Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Variational Gaussian (VG) inference methods that optimize a lower bound to the marginal likelihood are a popular approach for Bayesian inference. A difficulty remains in computation of the lower bound when the latent dimensionality L is large. Even though the lower bound is concave for many models, its computation requires optimization over O(L 2) variational parameters. Efficient reparameter-ization schemes can reduce the number of parameters, but give inaccurate solutions or destroy concavity leading to slow convergence. We propose decoupled variational inference that brings the best of both worlds together. First, it maximizes a Lagrangian of the lower bound reducing the number of parameters to O(N), where N is the number of data examples. The reparameterization obtained is unique and recovers maxima of the lower-bound even when it is not concave. Second, our method maximizes the lower bound using a sequence of convex problems , each of which is parallellizable over data examples. Each gradient computation reduces to prediction in a pseudo linear regression model, thereby avoiding all direct computations of the covariance and only requiring its linear projections. Theoretically, our method converges at the same rate as existing methods in the case of concave lower bounds, while remaining convergent at a reasonable rate for the non-concave case.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

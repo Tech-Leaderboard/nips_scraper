@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Matching on Balanced Nonlinear Representations for Treatment Effects Estimation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sheng</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Northeastern University Boston</orgName>
+								<address>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adobe</forename><surname>Research</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Northeastern University Boston</orgName>
+								<address>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>CA</roleName><forename type="first">San</forename><surname>Jose</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Northeastern University Boston</orgName>
+								<address>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yun</forename><surname>Fu</surname></persName>
+							<email>yunfu@ece.neu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Northeastern University Boston</orgName>
+								<address>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Matching on Balanced Nonlinear Representations for Treatment Effects Estimation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Estimating treatment effects from observational data is challenging due to the missing counterfactuals. Matching is an effective strategy to tackle this problem. The widely used matching estimators such as nearest neighbor matching (NNM) pair the treated units with the most similar control units in terms of covariates, and then estimate treatment effects accordingly. However, the existing matching estimators have poor performance when the distributions of control and treatment groups are unbalanced. Moreover, theoretical analysis suggests that the bias of causal effect estimation would increase with the dimension of covariates. In this paper, we aim to address these problems by learning low-dimensional balanced and nonlinear representations (BNR) for observational data. In particular, we convert counterfactual prediction as a classification problem, develop a kernel learning model with domain adaptation constraint, and design a novel matching estimator. The dimension of covariates will be significantly reduced after projecting data to a low-dimensional subspace. Experiments on several synthetic and real-world datasets demonstrate the effectiveness of our approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

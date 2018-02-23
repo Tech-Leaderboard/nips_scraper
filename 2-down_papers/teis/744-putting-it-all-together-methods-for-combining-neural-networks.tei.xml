@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Pulling It All Together: Methods for Combining Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">P</forename><surname>Perrone</surname></persName>
+							<email>mpp@cns. brown. edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Brain</orgName>
+								<orgName type="institution">Neural Systems Brown University Providence</orgName>
+								<address>
+									<region>RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Pulling It All Together: Methods for Combining Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The past several years have seen a tremendous growth in the complexity of the recognition, estimation and control tasks expected of neural networks. In solving these tasks, one is faced with a large variety of learning algorithms and a vast selection of possible network architectures. After all the training, how does one know which is the best network? This decision is further complicated by the fact that standard techniques can be severely limited by problems such as over-fitting, data sparsity and local optima. The usual solution to these problems is a winner-take-all cross-validatory model selection. However, recent experimental and theoretical work indicates that we can improve performance by considering methods for combining neural networks. This workshop examined current neural network optimization methods based on combining estimates and task decomposition, including Boosting, Competing Experts , Ensemble Averaging, Metropolis algorithms, Stacked Generalization and Stacked Regression. The issues covered included Bayesian considerations, the role of complexity, the role of cross-validation, incorporation of a priori knowledge , error orthogonality, task decomposition, network selection techniques, over-fitting, data sparsity and local optima. Highlights of each talk are given below. To obtain the workshop proceedings, please contact the author or Norma Caccia (norma_caccia@brown.edu) and ask for IBNS ONR technical report #69. M. Perrone (Brown University, &quot;Averaging Methods: Theoretical Issues and Real World Examples&quot;) presented weighted averaging schemes [7], discussed their theoretical foundation [6], and showed that averaging can improve performance whenever the cost function is (positive or negative) convex which includes Mean Square Error, a general class of Lp-norm cost functions, Maximum Likelihood Estimation, Maximum Entropy, Maximum Mutual Information, the Kullback-Leibler Information (Cross Entropy), Penalized Maximum Likelihood Estimation and Smoothing Splines [6]. Averaging was shown to improve performance on the NIST OCR data, a human face recognition task and a time series prediction task [5]. J. Friedman (Stanford, &quot;A New Approach to Multiple Outputs Using Stacking&quot;) presented a detailed analysis of a method for averaging estimators and noted simulations showed that averaging with a positivity constraint was better than cross-1188</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

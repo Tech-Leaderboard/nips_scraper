@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning to Rank by Optimizing NDCG Measure</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hamed</forename><surname>Valizadegan</surname></persName>
+							<email>{valizade,rongjin}@cse.msu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science and Engineering</orgName>
+								<orgName type="laboratory">Advertising Sciences, Yahoo! Labs 4401 Great America Parkway</orgName>
+								<orgName type="institution">Michigan State University East Lansing</orgName>
+								<address>
+									<postCode>48824, 95054</postCode>
+									<settlement>Santa Clara</settlement>
+									<region>MI, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rong</forename><surname>Jin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science and Engineering</orgName>
+								<orgName type="laboratory">Advertising Sciences, Yahoo! Labs 4401 Great America Parkway</orgName>
+								<orgName type="institution">Michigan State University East Lansing</orgName>
+								<address>
+									<postCode>48824, 95054</postCode>
+									<settlement>Santa Clara</settlement>
+									<region>MI, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruofei</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science and Engineering</orgName>
+								<orgName type="laboratory">Advertising Sciences, Yahoo! Labs 4401 Great America Parkway</orgName>
+								<orgName type="institution">Michigan State University East Lansing</orgName>
+								<address>
+									<postCode>48824, 95054</postCode>
+									<settlement>Santa Clara</settlement>
+									<region>MI, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jianchang</forename><surname>Mao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science and Engineering</orgName>
+								<orgName type="laboratory">Advertising Sciences, Yahoo! Labs 4401 Great America Parkway</orgName>
+								<orgName type="institution">Michigan State University East Lansing</orgName>
+								<address>
+									<postCode>48824, 95054</postCode>
+									<settlement>Santa Clara</settlement>
+									<region>MI, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning to Rank by Optimizing NDCG Measure</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning to rank is a relatively new field of study, aiming to learn a ranking function from a set of training data with relevancy labels. The ranking algorithms are often evaluated using information retrieval measures, such as Normalized Discounted Cumulative Gain (NDCG) [1] and Mean Average Precision (MAP) [2]. Until recently, most learning to rank algorithms were not using a loss function related to the above mentioned evaluation measures. The main difficulty in direct optimization of these measures is that they depend on the ranks of documents, not the numerical values output by the ranking function. We propose a probabilistic framework that addresses this challenge by optimizing the expectation of NDCG over all the possible permutations of documents. A relaxation strategy is used to approximate the average of NDCG over the space of permutation, and a bound optimization approach is proposed to make the computation efficient. Extensive experiments show that the proposed algorithm outperforms state-of-the-art ranking algorithms on several benchmark data sets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

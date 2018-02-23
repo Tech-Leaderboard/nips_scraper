@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Bayesian model for identifying hierarchically organised states in neural population activity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><surname>Putzky</surname></persName>
+							<email>patrick.putzky@gmail.com, florian.franzen@tuebingen.mpg.de giacomo.bassetto@tuebingen.mpg.de, jakob@tuebingen.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Biological Cybernetics</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate Training Centre of Neuroscience</orgName>
+								<orgName type="institution">University of Tübingen</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Bernstein Center for Computational Neuroscience</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Florian</forename><surname>Franzen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Biological Cybernetics</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate Training Centre of Neuroscience</orgName>
+								<orgName type="institution">University of Tübingen</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Bernstein Center for Computational Neuroscience</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Giacomo</forename><surname>Bassetto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Biological Cybernetics</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Bernstein Center for Computational Neuroscience</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jakob</forename><forename type="middle">H</forename><surname>Macke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Biological Cybernetics</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Bernstein Center for Computational Neuroscience</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Bayesian model for identifying hierarchically organised states in neural population activity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Neural population activity in cortical circuits is not solely driven by external inputs, but is also modulated by endogenous states which vary on multiple timescales. To understand information processing in cortical circuits , we need to understand the statistical structure of internal states and their interaction with sensory inputs. Here, we present a statistical model for extracting hierarchically organised neural population states from multi-channel recordings of neural spiking activity. Population states are modelled using a hidden Markov decision tree with state-dependent tuning parameters and a generalised linear observation model. We present a varia-tional Bayesian inference algorithm for estimating the posterior distribution over parameters from neural population recordings. On simulated data, we show that we can identify the underlying sequence of population states and reconstruct the ground truth parameters. Using population recordings from visual cortex, we find that a model with two levels of population states out-performs both a one-state and a two-state generalised linear model. Finally, we find that modelling of state-dependence also improves the accuracy with which sensory stimuli can be decoded from the population response.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

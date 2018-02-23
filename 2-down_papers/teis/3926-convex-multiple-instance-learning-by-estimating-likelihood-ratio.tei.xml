@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Convex Multiple-Instance Learning by Estimating Likelihood Ratio</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fuxin</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Numerical Simulation</orgName>
+								<orgName type="institution">University of Bonn</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cristian</forename><surname>Sminchisescu</surname></persName>
+							<email>{fuxin.li,cristian.sminchisescu}@ins.uni-bonn.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Numerical Simulation</orgName>
+								<orgName type="institution">University of Bonn</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Convex Multiple-Instance Learning by Estimating Likelihood Ratio</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose an approach to multiple-instance learning that reformulates the problem as a convex optimization on the likelihood ratio between the positive and the negative class for each training instance. This is casted as joint estimation of both a likelihood ratio predictor and the target (likelihood ratio variable) for instances. Theoretically, we prove a quantitative relationship between the risk estimated under the 0-1 classification loss, and under a loss function for likelihood ratio. It is shown that likelihood ratio estimation is generally a good surrogate for the 0-1 loss, and separates positive and negative instances well. The likelihood ratio estimates provide a ranking of instances within a bag and are used as input features to learn a linear classifier on bags of instances. Instance-level classification is achieved from the bag-level predictions and the individual likelihood ratios. Experiments on synthetic and real datasets demonstrate the competitiveness of the approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

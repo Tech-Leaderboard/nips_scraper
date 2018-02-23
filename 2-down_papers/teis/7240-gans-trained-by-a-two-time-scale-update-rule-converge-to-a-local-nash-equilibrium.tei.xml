@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Heusel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">LIT AI Lab &amp; Institute of Bioinformatics</orgName>
+								<orgName type="institution">Johannes Kepler University Linz</orgName>
+								<address>
+									<postCode>A-4040</postCode>
+									<settlement>Linz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hubert</forename><surname>Ramsauer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">LIT AI Lab &amp; Institute of Bioinformatics</orgName>
+								<orgName type="institution">Johannes Kepler University Linz</orgName>
+								<address>
+									<postCode>A-4040</postCode>
+									<settlement>Linz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Unterthiner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">LIT AI Lab &amp; Institute of Bioinformatics</orgName>
+								<orgName type="institution">Johannes Kepler University Linz</orgName>
+								<address>
+									<postCode>A-4040</postCode>
+									<settlement>Linz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernhard</forename><surname>Nessler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">LIT AI Lab &amp; Institute of Bioinformatics</orgName>
+								<orgName type="institution">Johannes Kepler University Linz</orgName>
+								<address>
+									<postCode>A-4040</postCode>
+									<settlement>Linz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sepp</forename><surname>Hochreiter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">LIT AI Lab &amp; Institute of Bioinformatics</orgName>
+								<orgName type="institution">Johannes Kepler University Linz</orgName>
+								<address>
+									<postCode>A-4040</postCode>
+									<settlement>Linz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Generative Adversarial Networks (GANs) excel at creating realistic images with complex models for which maximum likelihood is infeasible. However, the convergence of GAN training has still not been proved. We propose a two timescale update rule (TTUR) for training GANs with stochastic gradient descent on arbitrary GAN loss functions. TTUR has an individual learning rate for both the discriminator and the generator. Using the theory of stochastic approximation, we prove that the TTUR converges under mild assumptions to a stationary local Nash equilibrium. The convergence carries over to the popular Adam optimization, for which we prove that it follows the dynamics of a heavy ball with friction and thus prefers flat minima in the objective landscape. For the evaluation of the performance of GANs at image generation, we introduce the &apos;Fréchet Inception Distance&quot; (FID) which captures the similarity of generated images to real ones better than the Inception Score. In experiments, TTUR improves learning for DCGANs and Improved Wasserstein GANs (WGAN-GP) outperforming conventional GAN training on CelebA, CIFAR-10, SVHN, LSUN Bedrooms, and the One Billion Word Benchmark.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

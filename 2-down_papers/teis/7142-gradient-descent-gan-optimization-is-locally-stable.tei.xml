@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Gradient descent GAN optimization is locally stable</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vaishnavh</forename><surname>Nagarajan</surname></persName>
+							<email>vaishnavh@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department Carnegie</orgName>
+								<orgName type="department" key="dep2">Computer Science Department Carnegie</orgName>
+								<orgName type="institution" key="instit1">Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213</postCode>
+									<region>PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Zico</forename><surname>Kolter</surname></persName>
+							<email>zkolter@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department Carnegie</orgName>
+								<orgName type="department" key="dep2">Computer Science Department Carnegie</orgName>
+								<orgName type="institution" key="instit1">Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213</postCode>
+									<region>PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Gradient descent GAN optimization is locally stable</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Despite the growing prominence of generative adversarial networks (GANs), optimization in GANs is still a poorly understood topic. In this paper, we analyze the &quot;gradient descent&quot; form of GAN optimization, i.e., the natural setting where we simultaneously take small gradient steps in both generator and discriminator parameters. We show that even though GAN optimization does not correspond to a convex-concave game (even for simple parameterizations), under proper conditions, equilibrium points of this optimization procedure are still locally asymptotically stable for the traditional GAN formulation. On the other hand, we show that the recently proposed Wasserstein GAN can have non-convergent limit cycles near equilibrium. Motivated by this stability analysis, we propose an additional regular-ization term for gradient descent GAN updates, which is able to guarantee local stability for both the WGAN and the traditional GAN, and also shows practical promise in speeding up convergence and addressing mode collapse.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

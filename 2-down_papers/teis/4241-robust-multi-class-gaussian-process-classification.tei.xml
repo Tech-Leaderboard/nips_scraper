@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Robust Multi-Class Gaussian Process Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Hernández-Lobato</surname></persName>
+							<email>danielhernandezlobato@gmail.com</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><surname>Miguel Hernández-Lobato</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pierre</forename><surname>Dupont</surname></persName>
+							<email>pierre.dupont@uclouvain.be</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ICTEAM -Machine Learning Group</orgName>
+								<orgName type="department" key="dep2">Department of Engineering</orgName>
+								<orgName type="institution">Université catholique de Louvain Place Sainte Barbe</orgName>
+								<address>
+									<addrLine>2 Louvain-La-Neuve</addrLine>
+									<postCode>1348</postCode>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">ICTEAM -Machine Learning Group Université catholique de Louvain Place Sainte Barbe</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>Trumpington Street, 2 Louvain-La-Neuve</addrLine>
+									<postCode>CB2 1PZ, 1348</postCode>
+									<settlement>Cambridge</settlement>
+									<country>United Kingdom, Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Robust Multi-Class Gaussian Process Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Multi-class Gaussian Process Classifiers (MGPCs) are often affected by over-fitting problems when labeling errors occur far from the decision boundaries. To prevent this, we investigate a robust MGPC (RMGPC) which considers labeling errors independently of their distance to the decision boundaries. Expectation propagation is used for approximate inference. Experiments with several datasets in which noise is injected in the labels illustrate the benefits of RMGPC. This method performs better than other Gaussian process alternatives based on considering latent Gaussian noise or heavy-tailed processes. When no noise is injected in the labels, RMGPC still performs equal or better than the other methods. Finally, we show how RMGPC can be used for successfully identifying data instances which are difficult to classify correctly in practice.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

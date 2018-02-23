@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dual Estimation and the Unscented Transformation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erica</forename><surname>Wan</surname></persName>
+							<email>ericwan@ece.ogi.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Oregon Graduate Institute of Science &amp; Technology Department of Electrical and Computer Engineering</orgName>
+								<address>
+									<addrLine>20000 N.W. Walker Rd</addrLine>
+									<postCode>97006</postCode>
+									<settlement>Beaverton</settlement>
+									<country>Oregon</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rudolph</forename><surname>Van Der Merwe</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Oregon Graduate Institute of Science &amp; Technology Department of Electrical and Computer Engineering</orgName>
+								<address>
+									<addrLine>20000 N.W. Walker Rd</addrLine>
+									<postCode>97006</postCode>
+									<settlement>Beaverton</settlement>
+									<country>Oregon</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><forename type="middle">T</forename><surname>Nelson</surname></persName>
+							<email>atneison@ece.ogi.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Oregon Graduate Institute of Science &amp; Technology Department of Electrical and Computer Engineering</orgName>
+								<address>
+									<addrLine>20000 N.W. Walker Rd</addrLine>
+									<postCode>97006</postCode>
+									<settlement>Beaverton</settlement>
+									<country>Oregon</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dual Estimation and the Unscented Transformation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Dual estimation refers to the problem of simultaneously estimating the state of a dynamic system and the model which gives rise to the dynamics. Algorithms include expectation-maximization (EM), dual Kalman filtering, and joint Kalman methods. These methods have recently been explored in the context of nonlinear modeling, where a neural network is used as the functional form of the unknown model. Typically, an extended Kalman filter (EKF) or smoother is used for the part of the algorithm that estimates the clean state given the current estimated model. An EKF may also be used to estimate the weights of the network. This paper points out the flaws in using the EKF, and proposes an improvement based on a new approach called the unscented transformation (UT) [3]. A substantial performance gain is achieved with the same order of computational complexity as that of the standard EKF. The approach is illustrated on several dual estimation methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

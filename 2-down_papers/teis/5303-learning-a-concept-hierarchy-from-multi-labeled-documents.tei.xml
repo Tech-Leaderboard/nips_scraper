@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning a Concept Hierarchy from Multi-labeled Documents</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Viet-An</forename><surname>Nguyen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jordan</forename><surname>Boyd-Graber</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Computer Science</orgName>
+								<orgName type="institution">Univ. of Colorado</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><surname>Resnik</surname></persName>
+							<email>resnik@umd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Linguistics</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">UMIACS Univ. of Maryland</orgName>
+								<address>
+									<settlement>College Park</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Chang</surname></persName>
+							<email>jonchang@fb.com</email>
+							<affiliation key="aff4">
+								<orgName type="department">Facebook Menlo Park</orgName>
+								<address>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jordan</forename><forename type="middle">Boyd</forename><surname>Graber</surname></persName>
+						</author>
+						<title level="a" type="main">Learning a Concept Hierarchy from Multi-labeled Documents</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>* Part of this work was done while the first author interned at Facebook.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>While topic models can discover patterns of word usage in large corpora, it is difficult to meld this unsupervised structure with noisy, human-provided labels, especially when the label space is large. In this paper, we present a model-Label to Hierarchy (L2H)-that can induce a hierarchy of user-generated labels and the topics associated with those labels from a set of multi-labeled documents. The model is robust enough to account for missing labels from untrained, disparate annotators and provide an interpretable summary of an otherwise unwieldy label set. We show empirically the effectiveness of L2H in predicting held-out words and labels for unseen documents. 1 Understanding Large Text Corpora through Label Annotations Probabilistic topic models [4] discover the thematic structure of documents from news, blogs, and web pages. Typical unsupervised topic models such as latent Dirichlet allocation [7, LDA] uncover topics from unannotated documents. In many settings, however, documents are also associated with additional data, which provide a foundation for joint models of text with continuous response variables [6, 48, 27], categorical labels [37, 18, 46, 26] or link structure [9]. This paper focuses on additional information in the form of multi-labeled data, where each document is tagged with a set of labels. These data are ubiquitous. Web pages are tagged with multiple directories, 1 books are labeled with different categories or political speeches are annotated with multiple issues. 2 Previous topic models on multi-labeled data focus on a small set of relatively independent labels [25, 36, 46]. Unfortunately, in many real-world examples, the number of labels-from hundreds to thousands-is incompatible with the independence assumptions of these models. In this paper, we capture the dependence among the labels using a learned tree-structured hierarchy. Our proposed model, L2H-Label to Hierarchy-learns from label co-occurrence and word usage to discover a hierarchy of topics associated with user-generated labels. We show empirically that L2H can improve over relevant baselines in predicting words or missing labels in two prediction tasks. L2H is designed to explicitly capture the relationships among labels to discover a highly interpretable hierarchy from multi-labeled data. This interpretable hierarchy helps improve prediction performance and also provides an effective way to search, browse and understand multi-labeled data [17, 10, 8, 12].</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

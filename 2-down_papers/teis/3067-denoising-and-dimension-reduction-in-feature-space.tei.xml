@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Denoising and Dimension Reduction in Feature Space</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mikio</forename><forename type="middle">L</forename><surname>Braun</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joachim</forename><surname>Buhmann</surname></persName>
+							<email>jbuhmann@inf.ethz.ch</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">FIRST.IDA Kekuléstr. 7</orgName>
+								<orgName type="department" key="dep2">Inst. of Computational Science</orgName>
+								<orgName type="institution">ETH Zurich</orgName>
+								<address>
+									<postCode>12489, CH-8092</postCode>
+									<settlement>Berlin, Zürich</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Technical University of Berlin</orgName>
+								<address>
+									<addrLine>2 Computer Science Franklinstr. 28/29</addrLine>
+									<postCode>10587</postCode>
+									<settlement>Berlin</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Klaus-Robert</forename></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Fraunhofer Institute</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Denoising and Dimension Reduction in Feature Space</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We show that the relevant information about a classification problem in feature space is contained up to negligible error in a finite number of leading kernel PCA components if the kernel matches the underlying learning problem. Thus, kernels not only transform data sets such that good generalization can be achieved even by linear discriminant functions, but this transformation is also performed in a manner which makes economic use of feature space dimensions. In the best case, kernels provide efficient implicit representations of the data to perform classification. Practically, we propose an algorithm which enables us to recover the subspace and dimensionality relevant for good classification. Our algorithm can therefore be applied (1) to analyze the interplay of data set and kernel in a geometric fashion, (2) to help in model selection, and to (3) de-noise in feature space in order to yield better classification results.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

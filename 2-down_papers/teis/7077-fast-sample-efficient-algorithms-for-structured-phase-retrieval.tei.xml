@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast, Sample-Efficient Algorithms for Structured Phase Retrieval</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gauri</forename><surname>Jagatap</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Electrical and Computer Engineering</orgName>
+								<orgName type="institution" key="instit1">Iowa State University</orgName>
+								<orgName type="institution" key="instit2">Iowa State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chinmay</forename><surname>Hegde</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Electrical and Computer Engineering</orgName>
+								<orgName type="institution" key="instit1">Iowa State University</orgName>
+								<orgName type="institution" key="instit2">Iowa State University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast, Sample-Efficient Algorithms for Structured Phase Retrieval</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of recovering a signal x * ∈ R n , from magnitude-only measurements, y i = ||a i , x * 񮽙| for i = {1, 2,. .. , m}. Also known as the phase retrieval problem, it is a fundamental challenge in nano-, bio-and astronomical imaging systems, and speech processing. The problem is ill-posed, and therefore additional assumptions on the signal and/or the measurements are necessary. In this paper, we first study the case where the underlying signal x * is s-sparse. We develop a novel recovery algorithm that we call Compressive Phase Retrieval with Alternating Minimization, or CoPRAM. Our algorithm is simple and can be obtained via a natural combination of the classical alternating minimization approach for phase retrieval, with the CoSaMP algorithm for sparse recovery. Despite its simplicity, we prove that our algorithm achieves a sample complexity of O 񮽙 s 2 log n 񮽙 with Gaussian samples, which matches the best known existing results. It also demonstrates linear convergence in theory and practice and requires no extra tuning parameters other than the signal sparsity level s. We then consider the case where the underlying signal x * arises from structured sparsity models. We specifically examine the case of block-sparse signals with uniform block size of b and block sparsity k = s/b. For this problem, we design a recovery algorithm that we call Block CoPRAM that further reduces the sample complexity to O (ks log n). For sufficiently large block lengths of b = Θ(s), this bound equates to O (s log n). To our knowledge, this constitutes the first end-to-end linearly convergent family of algorithms for phase retrieval where the Gaussian sample complexity has a sub-quadratic dependence on the sparsity level of the signal.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

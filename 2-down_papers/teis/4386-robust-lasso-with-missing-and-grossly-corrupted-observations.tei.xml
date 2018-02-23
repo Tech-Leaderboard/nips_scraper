@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Robust Lasso with missing and grossly corrupted observations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nam</forename><forename type="middle">H</forename><surname>Nguyen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">U.S. Army Research Lab</orgName>
+								<orgName type="institution" key="instit1">Johns Hopkins University</orgName>
+								<orgName type="institution" key="instit2">Johns Hopkins University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nasser</forename><forename type="middle">M</forename><surname>Nasrabadi</surname></persName>
+							<email>nasser.m.nasrabadi.civ@mail.mil</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">U.S. Army Research Lab</orgName>
+								<orgName type="institution" key="instit1">Johns Hopkins University</orgName>
+								<orgName type="institution" key="instit2">Johns Hopkins University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Trac</forename><forename type="middle">D</forename><surname>Tran</surname></persName>
+							<email>trac@jhu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">U.S. Army Research Lab</orgName>
+								<orgName type="institution" key="instit1">Johns Hopkins University</orgName>
+								<orgName type="institution" key="instit2">Johns Hopkins University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Robust Lasso with missing and grossly corrupted observations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper studies the problem of accurately recovering a sparse vector β from highly corrupted linear measurements y = Xβ + e + w where e is a sparse error vector whose nonzero entries may be unbounded and w is a bounded noise. We propose a so-called extended Lasso optimization which takes into consideration sparse prior information of both β and e. Our first result shows that the extended Lasso can faithfully recover both the regression and the corruption vectors. Our analysis is relied on a notion of extended restricted eigenvalue for the design matrix X. Our second set of results applies to a general class of Gaus-sian design matrix X with i.i.d rows N (0, Σ), for which we provide a surprising phenomenon: the extended Lasso can recover exact signed supports of both β and e from only Ω(k log p log n) observations, even the fraction of corruption is arbitrarily close to one. Our analysis also shows that this amount of observations required to achieve exact signed support is optimal.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

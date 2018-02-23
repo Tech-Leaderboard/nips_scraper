@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Sparse Gaussian Processes using Pseudo-inputs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Snelson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Gatsby Computational</orgName>
+								<orgName type="institution">Neuroscience Unit University College London</orgName>
+								<address>
+									<addrLine>17 Queen Square</addrLine>
+									<postCode>WC1N 3AR</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zoubin</forename><surname>Ghahramani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Gatsby Computational</orgName>
+								<orgName type="institution">Neuroscience Unit University College London</orgName>
+								<address>
+									<addrLine>17 Queen Square</addrLine>
+									<postCode>WC1N 3AR</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Sparse Gaussian Processes using Pseudo-inputs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new Gaussian process (GP) regression model whose co-variance is parameterized by the the locations of M pseudo-input points, which we learn by a gradient based optimization. We take M 񮽙 N , where N is the number of real data points, and hence obtain a sparse regression method which has O(M 2 N) training cost and O(M 2) prediction cost per test case. We also find hyperparameters of the covari-ance function in the same joint optimization. The method can be viewed as a Bayesian regression model with particular input dependent noise. The method turns out to be closely related to several other sparse GP approaches , and we discuss the relation in detail. We finally demonstrate its performance on some large data sets, and make a direct comparison to other sparse GP methods. We show that our method can match full GP performance with small M , i.e. very sparse solutions, and it significantly outperforms other approaches in this regime.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

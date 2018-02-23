@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Demixed Principal Component Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wieland</forename><surname>Brendel</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ranulfo</forename><surname>Romo</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><forename type="middle">K</forename><surname>Machens</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Ecole Normale Supérieure</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Instituto de Fisiología Celular</orgName>
+								<orgName type="institution">Champalimaud Neuroscience Programme Lisbon</orgName>
+								<address>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Universidad Nacional</orgName>
+								<address>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Champalimaud Neuroscience Programme</orgName>
+								<orgName type="institution">Ecole Normale Supérieure</orgName>
+								<address>
+									<settlement>Paris, Lisbon</settlement>
+									<country>France, Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Demixed Principal Component Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In many experiments, the data points collected live in high-dimensional observation spaces, yet can be assigned a set of labels or parameters. In electrophysio-logical recordings, for instance, the responses of populations of neurons generally depend on mixtures of experimentally controlled parameters. The heterogene-ity and diversity of these parameter dependencies can make visualization and interpretation of such data extremely difficult. Standard dimensionality reduction techniques such as principal component analysis (PCA) can provide a succinct and complete description of the data, but the description is constructed independent of the relevant task variables and is often hard to interpret. Here, we start with the assumption that a particularly informative description is one that reveals the dependency of the high-dimensional data on the individual parameters. We show how to modify the loss function of PCA so that the principal components seek to capture both the maximum amount of variance about the data, while also depending on a minimum number of parameters. We call this method demixed principal component analysis (dPCA) as the principal components here segregate the parameter dependencies. We phrase the problem as a probabilistic graphical model, and present a fast Expectation-Maximization (EM) algorithm. We demonstrate the use of this algorithm for electrophysiological data and show that it serves to demix the parameter-dependence of a neural population response.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

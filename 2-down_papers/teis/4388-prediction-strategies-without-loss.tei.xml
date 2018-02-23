@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Prediction strategies without loss</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Kapralov</surname></persName>
+							<email>kapralov@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Microsoft Research Silicon Valley Mountain View</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rina</forename><surname>Panigrahy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Microsoft Research Silicon Valley Mountain View</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Prediction strategies without loss</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Consider a sequence of bits where we are trying to predict the next bit from the previous bits. Assume we are allowed to say &apos;predict 0&apos; or &apos;predict 1&apos;, and our payoff is +1 if the prediction is correct and −1 otherwise. We will say that at each point in time the loss of an algorithm is the number of wrong predictions minus the number of right predictions so far. In this paper we are interested in algorithms that have essentially zero (expected) loss over any string at any point in time and yet have small regret with respect to always predicting 0 or always predicting 1. For a sequence of length T our algorithm has regret 14T and loss 2 √ T e − 2 T in expectation for all strings. We show that the tradeoff between loss and regret is optimal up to constant factors. Our techniques extend to the general setting of N experts, where the related problem of trading off regret to the best expert for regret to the &apos;special&apos; expert has been studied by Even-Dar et al. (COLT&apos;07). We obtain essentially zero loss with respect to the special expert and optimal loss/regret tradeoff, improving upon the results of Even-Dar et al and settling the main question left open in their paper. The strong loss bounds of the algorithm have some surprising consequences. First, we obtain a parameter free algorithm for the experts problem that has optimal regret bounds with respect to k-shifting optima, i.e. bounds with respect to the optimum that is allowed to change arms multiple times. Moreover, for any window of size n the regret of our algorithm to any expert never exceeds O(n(log N + log T)), where N is the number of experts and T is the time horizon, while maintaining the essentially zero loss property.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ℓ 0-norm Minimization for Basis Selection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Wipf</surname></persName>
+							<email>dwipf@ucsd.edu,</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92092</postCode>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bhaskar</forename><surname>Rao</surname></persName>
+							<email>brao@ece.ucsd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92092</postCode>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ℓ 0-norm Minimization for Basis Selection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Finding the sparsest, or minimum ℓ 0-norm, representation of a signal given an overcomplete dictionary of basis vectors is an important problem in many application domains. Unfortunately, the required optimization problem is often intractable because there is a combinatorial increase in the number of local minima as the number of candidate basis vectors increases. This deficiency has prompted most researchers to instead minimize surrogate measures, such as the ℓ 1-norm, that lead to more tractable computational methods. The downside of this procedure is that we have now introduced a mismatch between our ultimate goal and our objective function. In this paper, we demonstrate a sparse Bayesian learning-based method of minimizing the ℓ 0-norm while reducing the number of troublesome local minima. Moreover, we derive necessary conditions for local minima to occur via this approach and empirically demonstrate that there are typically many fewer for general problems of interest.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

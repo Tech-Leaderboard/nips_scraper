@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><forename type="middle">C</forename><surname>Cires¸ancires¸an</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">IDSIA USI-SUPSI Lugano 6900</orgName>
+								<orgName type="laboratory" key="lab2">IDSIA USI-SUPSI</orgName>
+								<orgName type="laboratory" key="lab3">IDSIA USI-SUPSI Lugano 6900</orgName>
+								<orgName type="laboratory" key="lab4">IDSIA USI-SUPSI Lugano 6900</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alessandro</forename><surname>Giusti</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">IDSIA USI-SUPSI Lugano 6900</orgName>
+								<orgName type="laboratory" key="lab2">IDSIA USI-SUPSI</orgName>
+								<orgName type="laboratory" key="lab3">IDSIA USI-SUPSI Lugano 6900</orgName>
+								<orgName type="laboratory" key="lab4">IDSIA USI-SUPSI Lugano 6900</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luca</forename><forename type="middle">M</forename><surname>Gambardella</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">IDSIA USI-SUPSI Lugano 6900</orgName>
+								<orgName type="laboratory" key="lab2">IDSIA USI-SUPSI</orgName>
+								<orgName type="laboratory" key="lab3">IDSIA USI-SUPSI Lugano 6900</orgName>
+								<orgName type="laboratory" key="lab4">IDSIA USI-SUPSI Lugano 6900</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">¨</forename><surname>Urgen Schmidhuber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">IDSIA USI-SUPSI Lugano 6900</orgName>
+								<orgName type="laboratory" key="lab2">IDSIA USI-SUPSI</orgName>
+								<orgName type="laboratory" key="lab3">IDSIA USI-SUPSI Lugano 6900</orgName>
+								<orgName type="laboratory" key="lab4">IDSIA USI-SUPSI Lugano 6900</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We address a central problem of neuroanatomy, namely, the automatic segmen-tation of neuronal structures depicted in stacks of electron microscopy (EM) images. This is necessary to efficiently map 3D brain structure and connectivity. To segment biological neuron membranes, we use a special type of deep artificial neural network as a pixel classifier. The label of each pixel (membrane or non-membrane) is predicted from raw pixel values in a square window centered on it. The input layer maps each window pixel to a neuron. It is followed by a succession of convolutional and max-pooling layers which preserve 2D information and extract features with increasing levels of abstraction. The output layer produces a calibrated probability for each class. The classifier is trained by plain gradient descent on a 512 × 512 × 30 stack with known ground truth, and tested on a stack of the same size (ground truth unknown to the authors) by the organizers of the ISBI 2012 EM Segmentation Challenge. Even without problem-specific post-processing, our approach outperforms competing techniques by a large margin in all three considered metrics, i.e. rand error, warping error and pixel error. For pixel error, our approach is the only one outperforming a second human observer.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">U sing Curvature Information for Fast Stochastic Search</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Genevieve</forename><forename type="middle">B</forename><surname>Orr</surname></persName>
+							<email>gorr@willamette.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept of Computer Science</orgName>
+								<orgName type="department" key="dep2">Dept of Computer Science and Engineering Oregon Graduate Institute of Science and Technology</orgName>
+								<orgName type="institution">Willamette University</orgName>
+								<address>
+									<addrLine>900 State Street Salem</addrLine>
+									<postBox>P.O.Box 91000</postBox>
+									<postCode>97301, 97291-1000</postCode>
+									<settlement>Portland</settlement>
+									<region>OR, Oregon</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Todd</forename><forename type="middle">K</forename><surname>Leen</surname></persName>
+							<email>tleen@cse.ogi.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept of Computer Science</orgName>
+								<orgName type="department" key="dep2">Dept of Computer Science and Engineering Oregon Graduate Institute of Science and Technology</orgName>
+								<orgName type="institution">Willamette University</orgName>
+								<address>
+									<addrLine>900 State Street Salem</addrLine>
+									<postBox>P.O.Box 91000</postBox>
+									<postCode>97301, 97291-1000</postCode>
+									<settlement>Portland</settlement>
+									<region>OR, Oregon</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">U sing Curvature Information for Fast Stochastic Search</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present an algorithm for fast stochastic gradient descent that uses a nonlinear adaptive momentum scheme to optimize the late time convergence rate. The algorithm makes effective use of curvature information, requires only O(n) storage and computation, and delivers convergence rates close to the theoretical optimum. We demonstrate the technique on linear and large nonlinear back-prop networks. Improving Stochastic Search Learning algorithms that perform gradient descent on a cost function can be formulated in either stochastic (on-line) or batch form. The stochastic version takes the form Wt+l = Wt + J1.t G(Wt, Xt) (1) where Wt is the current weight estimate, J1.t is the learning rate, G is minus the instantaneous gradient estimate, and Xt is the input at time t i. One obtains the corresponding batch mode learning rule by taking J1. constant and averaging Gover all x. Stochastic learning provides several advantages over batch learning. For large datasets the batch average is expensive to compute. Stochastic learning eliminates the averaging. The stochastic update can be regarded as a noisy estimate of the batch update, and this intrinsic noise can reduce the likelihood of becoming trapped in poor local optima [1, 2J. 1 We assume that the inputs are i.i.d. This is achieved by random sampling with replacement from the training data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Variational Walkback: Learning a Transition Operator as a Stochastic Recurrent Net</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anirudh</forename><surname>Goyal</surname></persName>
+							<email>anirudhgoyal9119@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">École Polytechnique de Montréal</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">MILA</orgName>
+								<orgName type="institution" key="instit7">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nan</forename><forename type="middle">Rosemary</forename><surname>Ke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">École Polytechnique de Montréal</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">MILA</orgName>
+								<orgName type="institution" key="instit7">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Surya</forename><surname>Ganguli</surname></persName>
+							<email>sganguli@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">École Polytechnique de Montréal</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">MILA</orgName>
+								<orgName type="institution" key="instit7">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoshua</forename><surname>Bengio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">École Polytechnique de Montréal</orgName>
+								<orgName type="institution" key="instit5">Stanford University</orgName>
+								<orgName type="institution" key="instit6">MILA</orgName>
+								<orgName type="institution" key="instit7">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Variational Walkback: Learning a Transition Operator as a Stochastic Recurrent Net</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Code: http://github.com/anirudh9119/walkback_nips17</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a novel method to directly learn a stochastic transition operator whose repeated application provides generated samples. Traditional undirected graphical models approach this problem indirectly by learning a Markov chain model whose stationary distribution obeys detailed balance with respect to a parameterized energy function. The energy function is then modified so the model and data distributions match, with no guarantee on the number of steps required for the Markov chain to converge. Moreover, the detailed balance condition is highly restrictive: energy based models corresponding to neural networks must have symmetric weights, unlike biological neural circuits. In contrast, we develop a method for directly learning arbitrarily parameterized transition operators capable of expressing non-equilibrium stationary distributions that violate detailed balance, thereby enabling us to learn more biologically plausible asymmetric neural networks and more general non-energy based dynamical systems. The proposed training objective, which we derive via principled variational methods, encourages the transition operator to &quot;walk back&quot; (prefer to revert its steps) in multi-step trajectories that start at data-points, as quickly as possible back to the original data points. We present a series of experimental results illustrating the soundness of the proposed approach, Varia-tional Walkback (VW), on the MNIST, CIFAR-10, SVHN and CelebA datasets, demonstrating superior samples compared to earlier attempts to learn a transition operator. We also show that although each rapid training trajectory is limited to a finite but variable number of steps, our transition operator continues to generate good samples well past the length of such trajectories, thereby demonstrating the match of its non-equilibrium stationary distribution to the data distribution. Source</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

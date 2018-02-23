@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Homotopy Smoothing for Non-Smooth Problems with Lower Complexity than O(1//)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yi</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Iowa</orgName>
+								<address>
+									<postCode>52242</postCode>
+									<settlement>Iowa City</settlement>
+									<region>IA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yan</forename><surname>Yan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Management Sciences</orgName>
+								<orgName type="institution" key="instit1">QCIS</orgName>
+								<orgName type="institution" key="instit2">University of Technology Sydney</orgName>
+								<address>
+									<postCode>2007</postCode>
+									<region>NSW</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Iowa</orgName>
+								<address>
+									<postCode>52242</postCode>
+									<settlement>Iowa City</settlement>
+									<region>IA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qihang</forename><surname>Lin</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tianbao</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Iowa</orgName>
+								<address>
+									<postCode>52242</postCode>
+									<settlement>Iowa City</settlement>
+									<region>IA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Homotopy Smoothing for Non-Smooth Problems with Lower Complexity than O(1//)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we develop a novel homotopy smoothing (HOPS) algorithm for solving a family of non-smooth problems that is composed of a non-smooth term with an explicit max-structure and a smooth term or a simple non-smooth term whose proximal mapping is easy to compute. The best known iteration complexity for solving such non-smooth optimization problems is O(1//) without any assumption on the strong convexity. In this work, we will show that the proposed HOPS achieved a lower iteration complexity of˜Oof˜ of˜O(1// 1−θ) 1 with θ ∈ (0, 1] capturing the local sharpness of the objective function around the optimal solutions. To the best of our knowledge, this is the lowest iteration complexity achieved so far for the considered non-smooth optimization problems without strong convexity assumption. The HOPS algorithm employs Nesterov&apos;s smoothing technique and Nesterov&apos;s accelerated gradient method and runs in stages, which gradually decreases the smoothing parameter in a stage-wise manner until it yields a sufficiently good approximation of the original function. We show that HOPS enjoys a linear convergence for many well-known non-smooth problems (e.g., empirical risk minimization with a piece-wise linear loss function and 1 norm regularizer, finding a point in a polyhedron, cone programming, etc). Experimental results verify the effectiveness of HOPS in comparison with Nesterov&apos;s smoothing algorithm and the primal-dual style of first-order methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

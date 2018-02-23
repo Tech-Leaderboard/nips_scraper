@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Finite-Sample Convergence Rates for Q-Learning and Indirect Algorithms</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Kearns</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs</orgName>
+								<address>
+									<addrLine>180 Park Avenue Florham Park</addrLine>
+									<postCode>07932</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satinder</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs</orgName>
+								<address>
+									<addrLine>180 Park Avenue Florham Park</addrLine>
+									<postCode>07932</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Finite-Sample Convergence Rates for Q-Learning and Indirect Algorithms</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we address two issues of long-standing interest in the reinforcement learning literature. First, what kinds of performance guarantees can be made for Q-learning after only a finite number of actions? Second, what quantitative comparisons can be made between Q-learning and model-based (indirect) approaches, which use experience to estimate next-state distributions for off-line value iteration? We first show that both Q-learning and the indirect approach enjoy rather rapid convergence to the optimal policy as a function of the number of state transitions observed. In particular, on the order of only (Nlog(1/c)/c 2)(log(N) + loglog(l/c)) transitions are sufficient for both algorithms to come within c of the optimal policy, in an idealized model that assumes the observed transitions are &quot;well-mixed&quot; throughout an N-state MDP. Thus, the two approaches have roughly the same sample complexity. Perhaps surprisingly, this sample complexity is far less than what is required for the model-based approach to actually construct a good approximation to the next-state distribution. The result also shows that the amount of memory required by the model-based approach is closer to N than to N 2 • For either approach, to remove the assumption that the observed transitions are well-mixed, we consider a model in which the transitions are determined by a fixed, arbitrary exploration policy. Bounds on the number of transitions required in order to achieve a desired level of performance are then related to the stationary distribution and mixing time of this policy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

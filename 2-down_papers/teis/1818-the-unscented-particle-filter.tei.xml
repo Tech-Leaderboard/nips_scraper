@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Unscented Particle Filter</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rudolph</forename><surname>Van Der Merwe</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Oregon Graduate Institute Electrical and Computer Engineering</orgName>
+								<address>
+									<postBox>P.O. Box 91000</postBox>
+									<postCode>97006</postCode>
+									<settlement>Portland</settlement>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Ando De Freitas</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Cambridge University</orgName>
+								<address>
+									<addrLine>Engineering Department Cambridge</addrLine>
+									<postCode>CB2 1PZ</postCode>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arnaud</forename><surname>Doucet</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Cambridge University</orgName>
+								<address>
+									<addrLine>Engineering Department Cambridge</addrLine>
+									<postCode>CB2 1PZ</postCode>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Wan</surname></persName>
+							<email>ericwan@ece.ogi.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department">Oregon Graduate Institute Electrical and Computer Engineering</orgName>
+								<orgName type="institution">UC Berkeley</orgName>
+								<address>
+									<addrLine>Computer Science 387 Soda Hall</addrLine>
+									<postBox>P.O. Box 91000</postBox>
+									<postCode>94720-1776, 97006</postCode>
+									<settlement>Berkeley, Portland</settlement>
+									<region>CA, OR</region>
+									<country>USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Unscented Particle Filter</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we propose a new particle filter based on sequential importance sampling. The algorithm uses a bank of unscented filters to obtain the importance proposal distribution. This proposal has two very &quot;nice&quot; properties. Firstly, it makes efficient use of the latest available information and, secondly, it can have heavy tails. As a result, we find that the algorithm outperforms standard particle filtering and other nonlinear filtering methods very substantially. This experimental finding is in agreement with the theoretical convergence proof for the algorithm. The algorithm also includes resampling and (possibly) Markov chain Monte Carlo (MCMC) steps.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

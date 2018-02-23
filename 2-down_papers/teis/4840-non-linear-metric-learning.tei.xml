@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Non-linear Metric Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dor</forename><surname>Kedem</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. &amp; Engi</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. U. of Southern California</orgName>
+								<orgName type="department" key="dep3">Dept. of Elec. &amp; Comp</orgName>
+								<orgName type="institution">Washington U. St. Louis</orgName>
+								<address>
+									<addrLine>Engineering U. of California La Jolla</addrLine>
+									<postCode>63130, 90089, 92093</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>MO, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Tyree</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. &amp; Engi</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. U. of Southern California</orgName>
+								<orgName type="department" key="dep3">Dept. of Elec. &amp; Comp</orgName>
+								<orgName type="institution">Washington U. St. Louis</orgName>
+								<address>
+									<addrLine>Engineering U. of California La Jolla</addrLine>
+									<postCode>63130, 90089, 92093</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>MO, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kilian</forename><forename type="middle">Q</forename><surname>Weinberger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. &amp; Engi</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. U. of Southern California</orgName>
+								<orgName type="department" key="dep3">Dept. of Elec. &amp; Comp</orgName>
+								<orgName type="institution">Washington U. St. Louis</orgName>
+								<address>
+									<addrLine>Engineering U. of California La Jolla</addrLine>
+									<postCode>63130, 90089, 92093</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>MO, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fei</forename><surname>Sha</surname></persName>
+							<email>feisha@usc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. &amp; Engi</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. U. of Southern California</orgName>
+								<orgName type="department" key="dep3">Dept. of Elec. &amp; Comp</orgName>
+								<orgName type="institution">Washington U. St. Louis</orgName>
+								<address>
+									<addrLine>Engineering U. of California La Jolla</addrLine>
+									<postCode>63130, 90089, 92093</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>MO, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gert</forename><surname>Lanckriet</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Comp. Sci. &amp; Engi</orgName>
+								<orgName type="department" key="dep2">Dept. of Comp. Sci. U. of Southern California</orgName>
+								<orgName type="department" key="dep3">Dept. of Elec. &amp; Comp</orgName>
+								<orgName type="institution">Washington U. St. Louis</orgName>
+								<address>
+									<addrLine>Engineering U. of California La Jolla</addrLine>
+									<postCode>63130, 90089, 92093</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>MO, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Non-linear Metric Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we introduce two novel metric learning algorithms, χ 2-LMNN and GB-LMNN, which are explicitly designed to be non-linear and easy-to-use. The two approaches achieve this goal in fundamentally different ways: χ 2-LMNN inherits the computational benefits of a linear mapping from linear metric learning , but uses a non-linear χ 2-distance to explicitly capture similarities within his-togram data sets; GB-LMNN applies gradient-boosting to learn non-linear map-pings directly in function space and takes advantage of this approach&apos;s robust-ness, speed, parallelizability and insensitivity towards the single additional hyper-parameter. On various benchmark data sets, we demonstrate these methods not only match the current state-of-the-art in terms of kNN classification error, but in the case of χ 2-LMNN, obtain best results in 19 out of 20 learning settings.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

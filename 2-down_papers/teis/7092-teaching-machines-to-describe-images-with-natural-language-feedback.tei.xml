@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Teaching Machines to Describe Images via Natural Language Feedback</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huan</forename><surname>Ling</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Toronto 1</orgName>
+								<orgName type="institution" key="instit2">Vector Institute</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sanja</forename><surname>Fidler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Toronto 1</orgName>
+								<orgName type="institution" key="instit2">Vector Institute</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Teaching Machines to Describe Images via Natural Language Feedback</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Robots will eventually be part of every household. It is thus critical to enable algorithms to learn from and be guided by non-expert users. In this paper, we bring a human in the loop, and enable a human teacher to give feedback to a learning agent in the form of natural language. We argue that a descriptive sentence can provide a much stronger learning signal than a numeric reward in that it can easily point to where the mistakes are and how to correct them. We focus on the problem of image captioning in which the quality of the output can easily be judged by non-experts. In particular, we first train a captioning model on a subset of images paired with human written captions. We then let the model describe new images and collect human feedback on the generated descriptions. We propose a hierarchical phrase-based captioning model, and design a feedback network that provides reward to the learner by conditioning on the human-provided feedback. We show that by exploiting descriptive feedback on new images our model learns to perform better than when given human written captions on these images.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

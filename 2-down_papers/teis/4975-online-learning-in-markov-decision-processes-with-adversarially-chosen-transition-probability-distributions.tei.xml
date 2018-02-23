@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online Learning in Markov Decision Processes with Adversarially Chosen Transition Probability Distributions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yasin</forename><surname>Abbasi-Yadkori</surname></persName>
+							<email>yasin.abbasiyadkori@qut.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UC Berkeley and QUT</orgName>
+								<orgName type="institution" key="instit1">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit4">University of Alberta</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">L</forename><surname>Bartlett</surname></persName>
+							<email>bartlett@eecs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UC Berkeley and QUT</orgName>
+								<orgName type="institution" key="instit1">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit4">University of Alberta</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Varun</forename><surname>Kanade</surname></persName>
+							<email>vkanade@eecs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UC Berkeley and QUT</orgName>
+								<orgName type="institution" key="instit1">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit4">University of Alberta</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yevgeny</forename><surname>Seldin</surname></persName>
+							<email>yevgeny.seldin@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UC Berkeley and QUT</orgName>
+								<orgName type="institution" key="instit1">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit4">University of Alberta</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Csaba</forename><surname>Szepesvári</surname></persName>
+							<email>szepesva@cs.ualberta.ca</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UC Berkeley and QUT</orgName>
+								<orgName type="institution" key="instit1">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Queensland University of Technology</orgName>
+								<orgName type="institution" key="instit4">University of Alberta</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online Learning in Markov Decision Processes with Adversarially Chosen Transition Probability Distributions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the problem of online learning Markov Decision Processes (MDPs) when both the transition distributions and loss functions are chosen by an adversary. We present an algorithm that, under a mixing assumption, achieves O(T log |Π| + log |Π|) regret with respect to a comparison set of policies Π. The regret is independent of the size of the state and action spaces. When expectations over sample paths can be computed efficiently and the comparison set Π has polynomial size, this algorithm is efficient. We also consider the episodic adversarial online shortest path problem. Here, in each episode an adversary may choose a weighted directed acyclic graph with an identified start and finish node. The goal of the learning algorithm is to choose a path that minimizes the loss while traversing from the start to finish node. At the end of each episode the loss function (given by weights on the edges) is revealed to the learning algorithm. The goal is to minimize regret with respect to a fixed policy for selecting paths. This problem is a special case of the online MDP problem. It was shown that for randomly chosen graphs and adversarial losses, the problem can be efficiently solved. We show that it also can be efficiently solved for adversarial graphs and randomly chosen losses. When both graphs and losses are adversarially chosen, we show that designing efficient algorithms for the adversarial online shortest path problem (and hence for the adversarial MDP problem) is as hard as learning parity with noise, a notoriously difficult problem that has been used to design efficient cryptographic schemes. Finally, we present an efficient algorithm whose regret scales linearly with the number of distinct graphs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

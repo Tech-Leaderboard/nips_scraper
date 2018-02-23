@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Graphical Time Warping for Joint Alignment of Multiple Curves</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yizhi</forename><surname>Wang</surname></persName>
+							<email>yzwang@vt.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Virginia</forename><surname>Tech</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+							<email>djmiller@engr.psu.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kira</forename><surname>Poskanzer</surname></persName>
+							<email>Kira.Poskanzer@ucsf.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yue</forename><surname>Wang</surname></persName>
+							<email>yuewang@vt.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Virginia</forename><surname>Tech</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lin</forename><surname>Tian</surname></persName>
+							<email>lintian@ucdavis.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guoqiang</forename><surname>Yu</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Virginia</forename><surname>Tech</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Pennsylvania State University</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<addrLine>San Francisco</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Davis</orgName>
+								<orgName type="institution">University of California</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Graphical Time Warping for Joint Alignment of Multiple Curves</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Dynamic time warping (DTW) is a fundamental technique in time series analysis for comparing one curve to another using a flexible time-warping function. However , it was designed to compare a single pair of curves. In many applications, such as in metabolomics and image series analysis, alignment is simultaneously needed for multiple pairs. Because the underlying warping functions are often related, independent application of DTW to each pair is a sub-optimal solution. Yet, it is largely unknown how to efficiently conduct a joint alignment with all warping functions simultaneously considered, since any given warping function is constrained by the others and dynamic programming cannot be applied. In this paper, we show that the joint alignment problem can be transformed into a network flow problem and thus can be exactly and efficiently solved by the max flow algorithm, with a guarantee of global optimality. We name the proposed approach graphical time warping (GTW), emphasizing the graphical nature of the solution and that the dependency structure of the warping functions can be represented by a graph. Modifications of DTW, such as windowing and weighting, are readily derivable within GTW. We also discuss optimal tuning of parameters and hyperparameters in GTW. We illustrate the power of GTW using both synthetic data and a real case study of an astrocyte calcium movie.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

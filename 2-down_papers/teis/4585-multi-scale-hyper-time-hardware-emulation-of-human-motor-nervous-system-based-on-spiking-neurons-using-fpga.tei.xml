@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multi-scale Hyper-time Hardware Emulation of Human Motor Nervous System Based on Spiking Neurons using FPGA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Minos Niu</surname></persName>
+							<email>minos.niu@sangerlab.net</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biomedical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Engineering University of Southern California</orgName>
+								<orgName type="department" key="dep3">Department of Biomedical Engineering University of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep4">Department of Biomedical Engineering Department of Neurology Department of Biokinesiology University of Southern California Los Angeles</orgName>
+								<orgName type="institution">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>90089, 90089, 90089, 90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sirish</forename><forename type="middle">K</forename><surname>Nandyala</surname></persName>
+							<email>nandyala@usc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biomedical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Engineering University of Southern California</orgName>
+								<orgName type="department" key="dep3">Department of Biomedical Engineering University of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep4">Department of Biomedical Engineering Department of Neurology Department of Biokinesiology University of Southern California Los Angeles</orgName>
+								<orgName type="institution">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>90089, 90089, 90089, 90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joon</forename><surname>Sohn</surname></persName>
+							<email>wonjsohn@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biomedical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Engineering University of Southern California</orgName>
+								<orgName type="department" key="dep3">Department of Biomedical Engineering University of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep4">Department of Biomedical Engineering Department of Neurology Department of Biokinesiology University of Southern California Los Angeles</orgName>
+								<orgName type="institution">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>90089, 90089, 90089, 90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terence</forename><forename type="middle">D</forename><surname>Sanger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biomedical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Engineering University of Southern California</orgName>
+								<orgName type="department" key="dep3">Department of Biomedical Engineering University of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep4">Department of Biomedical Engineering Department of Neurology Department of Biokinesiology University of Southern California Los Angeles</orgName>
+								<orgName type="institution">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>90089, 90089, 90089, 90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multi-scale Hyper-time Hardware Emulation of Human Motor Nervous System Based on Spiking Neurons using FPGA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Our central goal is to quantify the long-term progression of pediatric neurologi-cal diseases, such as a typical 10-15 years progression of child dystonia. To this purpose, quantitative models are convincing only if they can provide multi-scale details ranging from neuron spikes to limb biomechanics. The models also need to be evaluated in hyper-time, i.e. significantly faster than real-time, for producing useful predictions. We designed a platform with digital VLSI hardware for multi-scale hyper-time emulations of human motor nervous systems. The platform is constructed on a scalable, distributed array of Field Programmable Gate Array (FPGA) devices. All devices operate asynchronously with 1 millisecond time granularity, and the overall system is accelerated to 365x real-time. Each physiological component is implemented using models from well documented studies and can be flexibly modified. Thus the validity of emulation can be easily advised by neurophysiologists and clinicians. For maximizing the speed of emulation, all calculations are implemented in combinational logic instead of clocked iterative circuits. This paper presents the methodology of building FPGA modules emulating a monosynaptic spinal loop. Emulated activities are qualitatively similar to real human data. Also discussed is the rationale of approximating neural circuitry by organizing neurons with sparse interconnections. In conclusion, our platform allows emulating pathological abnormalities such that motor symptoms will emerge and can be analyzed. It compels us to test the origins of childhood motor disorders and predict their long-term progressions.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

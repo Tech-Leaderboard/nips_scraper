@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Neural Network On-Line Learning Control of Spacecraft Smart Structures</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Dr</roleName><forename type="first">Christopher</forename><surname>Bowman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ball Aerospace Systems Group</orgName>
+								<address>
+									<postBox>P.O. Box 1062 Boulder. CO</postBox>
+									<postCode>80306</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Neural Network On-Line Learning Control of Spacecraft Smart Structures</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The overall goal is to reduce spacecraft weight. volume, and cost by on-line adaptive non-linear control of flexible structural components. The objective of this effort is to develop an adaptive Neural Network (NN) controller for the Ball C-Side 1m x 3m antenna with embedded actuators and the RAMS sensor system. A traditional optimal controller for the major modes is provided perturbations by the NN to compensate for unknown residual modes. On-line training of recurrent and feed-forward NN architectures have achieved adaptive vibration control with unknown modal variations and noisy measurements. On-line training feedback to each actuator NN output is computed via Newton&apos;s method to reduce the difference between desired and achieved antenna positions. 1 ADAPTIVE CONTROL BACKGROUND The two traditional approaches to adaptive control are 1) direct control (such as perfonned in direct model reference adaptive controllers) and 2) indirect control (such as performed by explicit self-tuning regulators). Direct control techniques (e.g. model-reference adaptive cootrul) provide good stability however are susceptible to noise. Whereas indirect control techn;&apos;q~es (e.g. explicit self-tuning regulators) have low noise susceptibility and good convergence rate. However they require more control effort and have worse stability and are less roblistto mismodeling. NNs synergistically augment traditional adaptive control techniques by providing improved mismodeling robustness both adaptively on-line for time-varying dynamics as well as in a learned control mode at a slower rate. The NN control approaches which correspond to direct and indirect adaptive control are commonly known as inverse and forward modeling. respectively. More specifically, aNN which maps the plant state and its desired perfonnance to the control command is called an inverse model, a NN mapping both the current plant state and control to the next state and its performance is called the forward model. When given a desired performwce and the current state. the inverse model generates the control. see Figure 1. The actual perfonnance is observed and is used to train/update the inverse model. A significant problem occurs when the desired and achieved perfonnance differ greatly since the model near the desired slate is not changed. This condition is corrected by adding random noise to the control outputs so as to extend the state space 303</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

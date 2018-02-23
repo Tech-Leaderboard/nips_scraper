@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">PAC-Bayesian Analysis of Contextual Bandits</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yevgeny</forename><surname>Seldin</surname></persName>
+							<email>seldin@tuebingen.mpg.de, {auer,ronald.ortner}@unileoben.ac.at, francois.laviolette@ift.ulaval.ca,</email>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Auer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Chair for Information Technology</orgName>
+								<address>
+									<settlement>Montanuniversität Leoben</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">François</forename><surname>Laviolette</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Département d&apos;informatique</orgName>
+								<orgName type="institution">Université Laval</orgName>
+								<address>
+									<region>Québec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Shawe-Taylor</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><surname>Ortner</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Chair for Information Technology</orgName>
+								<address>
+									<settlement>Montanuniversität Leoben</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Intelligent Systems</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">PAC-Bayesian Analysis of Contextual Bandits</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We derive an instantaneous (per-round) data-dependent regret bound for stochas-tic multiarmed bandits with side information (also known as contextual bandits). The scaling of our regret bound with the number of states (contexts) N goes as p NI ⇢t (S; A), where I ⇢t (S; A) is the mutual information between states and actions (the side information) used by the algorithm at round t. If the algorithm uses all the side information, the regret bound scales as p N ln K, where K is the number of actions (arms). However, if the side information I ⇢t (S; A) is not fully used, the regret bound is significantly tighter. In the extreme case, when I ⇢t (S; A) = 0, the dependence on the number of states reduces from linear to logarithmic. Our analysis allows to provide the algorithm large amount of side information, let the algorithm to decide which side information is relevant for the task, and penalize the algorithm only for the side information that it is using de facto. We also present an algorithm for multiarmed bandits with side information with O(K) computational complexity per game round.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

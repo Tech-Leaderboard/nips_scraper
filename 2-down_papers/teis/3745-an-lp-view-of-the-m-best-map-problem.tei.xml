@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An LP View of the M-best MAP problem</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Menachem</forename><surname>Fromer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science and Engineering</orgName>
+								<orgName type="institution">The Hebrew University of Jerusalem</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amir</forename><surname>Globerson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science and Engineering</orgName>
+								<orgName type="institution">The Hebrew University of Jerusalem</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An LP View of the M-best MAP problem</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of finding the M assignments with maximum probability in a probabilistic graphical model. We show how this problem can be formulated as a linear program (LP) on a particular polytope. We prove that, for tree graphs (and junction trees in general), this polytope has a particularly simple form and differs from the marginal polytope in a single inequality constraint. We use this characterization to provide an approximation scheme for non-tree graphs, by using the set of spanning trees over such graphs. The method we present puts the M-best inference problem in the context of LP relaxations, which have recently received considerable attention and have proven useful in solving difficult inference problems. We show empirically that our method often finds the provably exact M best configurations for problems of high tree-width. A common task in probabilistic modeling is finding the assignment with maximum probability given a model. This is often referred to as the MAP (maximum a-posteriori) problem. Of particular interest is the case of MAP in graphical models, i.e., models where the probability factors into a product over small subsets of variables. For general models, this is an NP-hard problem [11], and thus approximation algorithms are required. Of those, the class of LP based relaxations has recently received considerable attention [3, 5, 18]. In fact, it has been shown that some problems (e.g., fixed backbone protein design) can be solved exactly via sequences of increasingly tighter LP relaxations [13]. In many applications, one is interested not only in the MAP assignment but also in the M maximum probability assignments [19]. For example, in a protein design problem, we might be interested in the M amino acid sequences that are most stable on a given backbone structure [2]. In cases where the MAP problem is tractable, one can devise tractable algorithms for the M best problem [8, 19]. Specifically, for low tree-width graphs, this can be done via a variant of max-product [19]. However, when finding MAPs is not tractable, it is much less clear how to approximate the M best case. One possible approach is to use loopy max-product to obtain approximate max-marginals and use those to approximate the M best solutions [19]. However, this is largely a heuristic and does not provide any guarantees in terms of optimality certificates or bounds on the optimal values. LP approximations to MAP do enjoy such guarantees. Specifically, they provide upper bounds on the MAP value and optimality certificates. Furthermore, they often work for graphs with large tree-width [13]. The goal of the current work is to leverage the power of LP relaxations to the M best case. We begin by focusing on the problem of finding the second best solution. We show how it can be formulated as an LP over a polytope we call the &quot;assignment-excluding marginal polytope&quot;. In the general case, this polytope may require an exponential number of inequalities, but we prove that when the graph is a tree it has a very compact representation. We proceed to use this result to obtain approximations to the second best problem, and show how these can be tightened in various ways. Next, we show how M best assignments can be found by relying on algorithms for 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

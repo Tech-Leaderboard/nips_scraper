@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local Rules for Global MAP: When Do They Work ?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kyomin</forename><surname>Jung</surname></persName>
+							<email>kyomin@kaist.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">KAIST</orgName>
+								<address>
+									<settlement>Daejeon</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pushmeet</forename><surname>Kohli</surname></persName>
+							<email>pkohli@microsoft.com</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Microsoft Research Cambridge</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devavrat</forename><surname>Shah</surname></persName>
+							<email>devavrat@mit.edu</email>
+							<affiliation key="aff2">
+								<orgName type="institution">MIT Cambridge</orgName>
+								<address>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Local Rules for Global MAP: When Do They Work ?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the question of computing Maximum A Posteriori (MAP) assignment in an arbitrary pair-wise Markov Random Field (MRF). We present a randomized iterative algorithm based on simple local updates. The algorithm, starting with an arbitrary initial assignment, updates it in each iteration by first, picking a random node, then selecting an (appropriately chosen) random local neighborhood and optimizing over this local neighborhood. Somewhat surprisingly, we show that this algorithm finds a near optimal assignment within n log 2 n iterations with high probability for any n node pair-wise MRF with geometry (i.e. MRF graph with polynomial growth) with the approximation error depending on (in a reasonable manner) the geometric growth rate of the graph and the average radius of the local neighborhood-this allows for a graceful tradeoff between the complexity of the algorithm and the approximation error. Through extensive simulations, we show that our algorithm finds extremely good approximate solutions for various kinds of MRFs with geometry.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

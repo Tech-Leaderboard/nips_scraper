@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Batch Bayesian Optimization via Simulation Matching</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Javad</forename><surname>Azimi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of EECS</orgName>
+								<orgName type="institution">Oregon State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><surname>Fern</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of EECS</orgName>
+								<orgName type="institution">Oregon State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaoli</forename><forename type="middle">Z</forename><surname>Fern</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of EECS</orgName>
+								<orgName type="institution">Oregon State University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Batch Bayesian Optimization via Simulation Matching</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Bayesian optimization methods are often used to optimize unknown functions that are costly to evaluate. Typically, these methods sequentially select inputs to be evaluated one at a time based on a posterior over the unknown function that is updated after each evaluation. In many applications, however, it is desirable to perform multiple evaluations in parallel, which requires selecting batches of multiple inputs to evaluate at once. In this paper, we propose a novel approach to batch Bayesian optimization, providing a policy for selecting batches of inputs with the goal of optimizing the function as efficiently as possible. The key idea is to exploit the availability of high-quality and efficient sequential policies, by using Monte-Carlo simulation to select input batches that closely match their expected behavior. Our experimental results on six benchmarks show that the proposed approach significantly outperforms two baselines and can lead to large advantages over a top sequential approach in terms of performance per unit time.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

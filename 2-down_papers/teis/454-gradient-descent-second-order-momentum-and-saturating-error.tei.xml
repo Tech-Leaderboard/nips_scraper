@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Gradient Descent: Second-Order Momentum and Saturating Error</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barak</forename><surname>Pearlmutter</surname></persName>
+							<email>pearlmutter-barak@yale.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Yale Station New Haven</orgName>
+								<address>
+									<postBox>P.O. Box llA</postBox>
+									<postCode>06520-7447</postCode>
+									<region>CT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Gradient Descent: Second-Order Momentum and Saturating Error</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Batch gradient descent, ~w(t) =-7JdE/dw(t) , conver~es to a minimum of quadratic form with a time constant no better than &apos;4Amax/ Amin where Amin and Amax are the minimum and maximum eigenvalues of the Hessian matrix of E with respect to w. It was recently shown that adding a momentum term ~w(t) =-7JdE/dw(t) + Q&apos;~w(t-1) improves this to ~ VAmax/ Amin, although only in the batch case. Here we show that second-order momentum, ~w(t) =-7JdE/dw(t) + Q&apos;~w(t-1) + (3~w(t-2), can lower this no further. We then regard gradient descent with momentum as a dynamic system and explore a non quadratic error surface, showing that saturation of the error accounts for a variety of effects observed in simulations and justifies some popular heuristics.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

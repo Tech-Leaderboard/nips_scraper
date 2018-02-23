@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Generalization in Adaptive Data Analysis and Holdout Reuse *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cynthia</forename><surname>Dwork</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IBM Almaden Research Center †</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Samsung Research America</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vitaly</forename><surname>Feldman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IBM Almaden Research Center †</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Samsung Research America</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moritz</forename><surname>Hardt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IBM Almaden Research Center †</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Samsung Research America</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Google</forename><surname>Research</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IBM Almaden Research Center †</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Samsung Research America</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Toniann</forename><surname>Pitassi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IBM Almaden Research Center †</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Samsung Research America</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Omer</forename><surname>Reingold</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IBM Almaden Research Center †</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Samsung Research America</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aaron</forename><surname>Roth</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IBM Almaden Research Center †</orgName>
+								<orgName type="institution" key="instit1">Microsoft Research</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<orgName type="institution" key="instit3">Samsung Research America</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Generalization in Adaptive Data Analysis and Holdout Reuse *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Overfitting is the bane of data analysts, even when data are plentiful. Formal approaches to understanding this problem focus on statistical inference and generalization of individual analysis procedures. Yet the practice of data analysis is an inherently interactive and adaptive process: new analyses and hypotheses are proposed after seeing the results of previous ones, parameters are tuned on the basis of obtained results, and datasets are shared and reused. An investigation of this gap has recently been initiated by the authors in [7], where we focused on the problem of estimating expectations of adaptively chosen functions. In this paper, we give a simple and practical method for reusing a holdout (or testing) set to validate the accuracy of hypotheses produced by a learning algorithm operating on a training set. Reusing a holdout set adaptively multiple times can easily lead to overfitting to the holdout set itself. We give an algorithm that enables the validation of a large number of adaptively chosen hypotheses, while provably avoiding overfitting. We illustrate the advantages of our algorithm over the standard use of the holdout set via a simple synthetic experiment. We also formalize and address the general problem of data reuse in adaptive data analysis. We show how the differential-privacy based approach given in [7] is applicable much more broadly to adaptive data analysis. We then show that a simple approach based on description length can also be used to give guarantees of statistical validity in adaptive settings. Finally, we demonstrate that these incompa-rable approaches can be unified via the notion of approximate max-information that we introduce. This, in particular, allows the preservation of statistical validity guarantees even when an analyst adaptively composes algorithms which have guarantees based on either of the two approaches.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

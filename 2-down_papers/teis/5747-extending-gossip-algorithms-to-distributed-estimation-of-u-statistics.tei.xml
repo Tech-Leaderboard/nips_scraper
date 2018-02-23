@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Extending Gossip Algorithms to Distributed Estimation of U-Statistics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Igor</forename><surname>Colin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Magnet Team INRIA Lille -Nord Europe</orgName>
+								<orgName type="institution" key="instit1">LTCI</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">Télécom ParisTech Université Paris-Saclay</orgName>
+								<address>
+									<addrLine>59650 Villeneuve d&apos;Ascq</addrLine>
+									<postCode>75013</postCode>
+									<settlement>Paris</settlement>
+									<country>France, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Salmon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Magnet Team INRIA Lille -Nord Europe</orgName>
+								<orgName type="institution" key="instit1">LTCI</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">Télécom ParisTech Université Paris-Saclay</orgName>
+								<address>
+									<addrLine>59650 Villeneuve d&apos;Ascq</addrLine>
+									<postCode>75013</postCode>
+									<settlement>Paris</settlement>
+									<country>France, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stéphan</forename><surname>Clémençon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Magnet Team INRIA Lille -Nord Europe</orgName>
+								<orgName type="institution" key="instit1">LTCI</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">Télécom ParisTech Université Paris-Saclay</orgName>
+								<address>
+									<addrLine>59650 Villeneuve d&apos;Ascq</addrLine>
+									<postCode>75013</postCode>
+									<settlement>Paris</settlement>
+									<country>France, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aurélien</forename><surname>Bellet</surname></persName>
+							<email>aurelien.bellet@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Magnet Team INRIA Lille -Nord Europe</orgName>
+								<orgName type="institution" key="instit1">LTCI</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">Télécom ParisTech Université Paris-Saclay</orgName>
+								<address>
+									<addrLine>59650 Villeneuve d&apos;Ascq</addrLine>
+									<postCode>75013</postCode>
+									<settlement>Paris</settlement>
+									<country>France, France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Extending Gossip Algorithms to Distributed Estimation of U-Statistics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Efficient and robust algorithms for decentralized estimation in networks are essential to many distributed systems. Whereas distributed estimation of sample mean statistics has been the subject of a good deal of attention, computation of U-statistics, relying on more expensive averaging over pairs of observations, is a less investigated area. Yet, such data functionals are essential to describe global properties of a statistical population, with important examples including Area Under the Curve, empirical variance, Gini mean difference and within-cluster point scatter. This paper proposes new synchronous and asynchronous randomized gossip algorithms which simultaneously propagate data across the network and maintain local estimates of the U-statistic of interest. We establish convergence rate bounds of O(1/t) and O(log t/t) for the synchronous and asynchronous cases respectively, where t is the number of iterations, with explicit data and network dependent terms. Beyond favorable comparisons in terms of rate analysis, numerical experiments provide empirical evidence the proposed algorithms surpasses the previously introduced approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

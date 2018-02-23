@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Statistical Modeling of Images with Fields of Gaussian Scale Mixtures</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Siwei</forename><surname>Lyu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Medical Institute Center for Neural Science</orgName>
+								<orgName type="institution" key="instit1">Howard Hughes</orgName>
+								<orgName type="institution" key="instit2">Courant Institute of Mathematical Sciences New York University</orgName>
+								<address>
+									<postCode>10003</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eero</forename><forename type="middle">P</forename><surname>Simoncelli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Medical Institute Center for Neural Science</orgName>
+								<orgName type="institution" key="instit1">Howard Hughes</orgName>
+								<orgName type="institution" key="instit2">Courant Institute of Mathematical Sciences New York University</orgName>
+								<address>
+									<postCode>10003</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Statistical Modeling of Images with Fields of Gaussian Scale Mixtures</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The local statistical properties of photographic images, when represented in a multi-scale basis, have been described using Gaussian scale mixtures (GSMs). Here, we use this local description to construct a global field of Gaussian scale mixtures (FoGSM). Specifically, we model subbands of wavelet coefficients as a product of an exponentiated homogeneous Gaussian Markov random field (hGMRF) and a second independent hGMRF. We show that parameter estimation for FoGSM is feasible, and that samples drawn from an estimated FoGSM model have marginal and joint statistics similar to wavelet coefficients of photographic images. We develop an algorithm for image denoising based on the FoGSM model, and demonstrate substantial improvements over current state-of-the-art denoising method based on the local GSM model. Many successful methods in image processing and computer vision rely on statistical models for images, and it is thus of continuing interest to develop improved models, both in terms of their ability to precisely capture image structures, and in terms of their tractability when used in applications. Constructing such a model is difficult, primarily because of the intrinsic high dimensionality of the space of images. Two simplifying assumptions are usually made to reduce model complexity. The first is Markovianity: the density of a pixel conditioned on a small neighborhood, is assumed to be independent from the rest of the image. The second assumption is homogeneity: the local density is assumed to be independent of its absolute position within the image. The set of models satisfying both of these assumptions constitute the class of homogeneous Markov random fields (hMRFs). Over the past two decades, studies of photographic images represented with multi-scale multi-orientation image decompositions (loosely referred to as &quot;wavelets&quot;) have revealed striking non-Gaussian regularities and inter and intra-subband dependencies. For instance, wavelet coefficients generally have highly kurtotic marginal distributions [1, 2], and their amplitudes exhibit strong correlations with the amplitudes of nearby coefficients [3, 4]. One model that can capture the non-Gaussian marginal behaviors is a product of non-Gaussian scalar variables [5]. A number of authors have developed non-Gaussian MRF models based on this sort of local description [6, 7, 8], among which the recently developed fields of experts model [7] has demonstrated impressive performance in denoising (albeit at an extremely high computational cost in learning model parameters). An alternative model that can capture non-Gaussian local structure is a scale mixture model [9, 10, 11]. An important special case is Gaussian scale mixtures (GSM), which consists of a Gaussian random vector whose amplitude is modulated by a hidden scaling variable. The GSM model provides a particularly good description of local image statistics, and the Gaussian substructure of the model leads to efficient algorithms for parameter estimation and inference. Local GSM-based methods represent the current state-of-the-art in image denoising [12]. The power of GSM models should be substantially improved when extended to describe more than a small neighborhood of wavelet coefficients. To this end, several authors have embedded local Gaussian mixtures into tree-structured</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

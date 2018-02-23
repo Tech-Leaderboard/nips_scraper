@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A SELF-LEARNING NEURAL NETWORK</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hartstein</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM -Thomas J. Watson Research Center Yorktown Heights</orgName>
+								<address>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Koch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM -Thomas J. Watson Research Center Yorktown Heights</orgName>
+								<address>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A SELF-LEARNING NEURAL NETWORK</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>ABSTRACf We propose a new neural network structure that is compatible with silicon technology and has built-in learning capability. The thrust of this network work is a new synapse function. The synapses have the feature that the learning parameter is embodied in the thresholds of MOSFET devices and is local in character. The network is shown to be capable of learning by example as well as exhibiting the desirable features of the Hopfield type networks. The thrust of what we want to discuss is a new synapse function for an artificial neuron to be used in a neural network. We choose the synapse function to be readily implementable in VLSI technology, rather than choosing a function which is either our best guess for the function used by real synapses or mathematically the most tractable. In order to demonstrate that this type of synapse function provides interesting behavior in a neural network, we imbed this type of function in a Hopfield {Hopfield, 1982} type network and provide the synapses with a Hebbian {Hebb, 1949} learning capability. We then show that this type of network functions in much the same way as a Hopfield network and also learns by example. Some of this work has been discussed previously {Hartstein, 1988}. Most neural networks, which have been described, use a multiplicative function for the synapses. The inputs to the neuron are multiplied by weighting factors and then the results are summed in the neuron. The result of the sum is then put into a hard threshold device or a device with a sigmoid output. This is not the easiest function for a MOSFET to perform although it can be done. Over a large range of parameters, a MOSFET is a linear device with the output current being a linear function of the input voltage relative to a threshold voltage. If one could directly utilize these characteristics, one would be able to design a neural network more compactly. 769</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

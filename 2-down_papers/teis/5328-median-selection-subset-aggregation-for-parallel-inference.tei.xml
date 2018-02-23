@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Median Selection Subset Aggregation for Parallel Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiangyu</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Statistical Science Duke University</orgName>
+								<orgName type="department" key="dep2">Statistics Department</orgName>
+								<orgName type="department" key="dep3">Dept. of Statistical Science Duke University</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peichao</forename><surname>Peng</surname></persName>
+							<email>ppeichao@yahoo.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Statistical Science Duke University</orgName>
+								<orgName type="department" key="dep2">Statistics Department</orgName>
+								<orgName type="department" key="dep3">Dept. of Statistical Science Duke University</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">B</forename><surname>Dunson</surname></persName>
+							<email>dunson@stat.duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Statistical Science Duke University</orgName>
+								<orgName type="department" key="dep2">Statistics Department</orgName>
+								<orgName type="department" key="dep3">Dept. of Statistical Science Duke University</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Median Selection Subset Aggregation for Parallel Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>For massive data sets, efficient computation commonly relies on distributed algorithms that store and process subsets of the data on different machines, minimizing communication costs. Our focus is on regression and classification problems involving many features. A variety of distributed algorithms have been proposed in this context, but challenges arise in defining an algorithm with low communication , theoretical guarantees and excellent practical performance in general settings. We propose a MEdian Selection Subset AGgregation Estimator (message) algorithm, which attempts to solve these problems. The algorithm applies feature selection in parallel for each subset using Lasso or another method, calculates the &apos;median&apos; feature inclusion index, estimates coefficients for the selected features in parallel for each subset, and then averages these estimates. The algorithm is simple , involves very minimal communication, scales efficiently in both sample and feature size, and has theoretical guarantees. In particular, we show model selection consistency and coefficient estimation efficiency. Extensive experiments show excellent performance in variable selection, estimation, prediction, and computation time relative to usual competitors.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

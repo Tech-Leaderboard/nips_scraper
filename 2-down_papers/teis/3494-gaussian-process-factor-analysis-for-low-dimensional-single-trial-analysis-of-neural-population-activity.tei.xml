@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Gaussian-process factor analysis for low-dimensional single-trial analysis of neural population activity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Byron</forename><forename type="middle">M</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Neurosciences Program</orgName>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit, UCL London</orgName>
+								<address>
+									<postCode>WC1N 3AR</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">P</forename><surname>Cunningham</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gopal</forename><surname>Santhanam</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">I</forename><surname>Ryu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Neurosurgery</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<postCode>94305</postCode>
+									<settlement>Stanford</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Krishna</forename><forename type="middle">V</forename><surname>Shenoy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Neurosciences Program</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maneesh</forename><surname>Sahani</surname></persName>
+							<email>maneesh@gatsby.ucl.ac.uk</email>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit, UCL London</orgName>
+								<address>
+									<postCode>WC1N 3AR</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Gaussian-process factor analysis for low-dimensional single-trial analysis of neural population activity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of extracting smooth, low-dimensional neural trajecto-ries that summarize the activity recorded simultaneously from tens to hundreds of neurons on individual experimental trials. Current methods for extracting neural trajectories involve a two-stage process: the data are first &quot;denoised&quot; by smoothing over time, then a static dimensionality reduction technique is applied. We first describe extensions of the two-stage methods that allow the degree of smoothing to be chosen in a principled way, and account for spiking variability that may vary both across neurons and across time. We then present a novel method for extracting neural trajectories, Gaussian-process factor analysis (GPFA), which unifies the smoothing and dimensionality reduction operations in a common probabilis-tic framework. We applied these methods to the activity of 61 neurons recorded simultaneously in macaque premotor and motor cortices during reach planning and execution. By adopting a goodness-of-fit metric that measures how well the activity of each neuron can be predicted by all other recorded neurons, we found that GPFA provided a better characterization of the population activity than the two-stage methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

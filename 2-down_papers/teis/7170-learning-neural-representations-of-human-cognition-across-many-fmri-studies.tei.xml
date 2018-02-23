@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Neural Representations of Human Cognition across Many fMRI Studies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><surname>Mensch</surname></persName>
+							<email>arthur.mensch@m4x.org</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julien</forename><surname>Mairal</surname></persName>
+							<email>julien.mairal@inria.fr</email>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Univ. Grenoble Alpes, Inria, CNRS, Grenoble INP, LJK</orgName>
+								<address>
+									<postCode>38000</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Danilo</forename><surname>Bzdok</surname></persName>
+							<email>danilo.bzdok@rwth-aachen.de</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bertrand</forename><surname>Thirion</surname></persName>
+							<email>bertrand.thirion@inria.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gaël</forename><surname>Varoquaux</surname></persName>
+							<email>gael.varoquaux@inria.fr</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Psychiatry, RWTH</orgName>
+								<orgName type="institution" key="instit1">Inria</orgName>
+								<orgName type="institution" key="instit2">Inria</orgName>
+								<orgName type="institution" key="instit3">Inria</orgName>
+								<orgName type="institution" key="instit4">Inria</orgName>
+								<orgName type="institution" key="instit5">Université Paris-Saclay</orgName>
+								<address>
+									<postCode>91191</postCode>
+									<settlement>Gif sur Yvette</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Neural Representations of Human Cognition across Many fMRI Studies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Cognitive neuroscience is enjoying rapid increase in extensive public brain-imaging datasets. It opens the door to large-scale statistical models. Finding a unified perspective for all available data calls for scalable and automated solutions to an old challenge: how to aggregate heterogeneous information on brain function into a universal cognitive system that relates mental operations/cognitive processes/psychological tasks to brain networks? We cast this challenge in a machine-learning approach to predict conditions from statistical brain maps across different studies. For this, we leverage multi-task learning and multi-scale dimension reduction to learn low-dimensional representations of brain images that carry cognitive information and can be robustly associated with psychological stimuli. Our multi-dataset classification model achieves the best prediction performance on several large reference datasets, compared to models without cognitive-aware low-dimension representations; it brings a substantial performance boost to the analysis of small datasets, and can be introspected to identify universal template cognitive concepts. Due to the advent of functional brain-imaging technologies, cognitive neuroscience is accumulating quantitative maps of neural activity responses to specific tasks or stimuli. A rapidly increasing number of neuroimaging studies are publicly shared (e.g., the human connectome project, HCP [1]), opening the door to applying large-scale statistical approaches [2]. Yet, it remains a major challenge to formally extract structured knowledge from heterogeneous neuroscience repositories. As stressed in [3], aggregating knowledge across cognitive neuroscience experiments is intrinsically difficult due to the diverse nature of the hypotheses and conclusions of the investigators. Cognitive neuroscience experiments aim at isolating brain effects underlying specific psychological processes: they yield statistical maps of brain activity that measure the neural responses to carefully designed stimulus. Unfortunately, neither regional brain responses nor experimental stimuli can be considered to be atomic: a given experimental stimulus recruits a spatially distributed set of brain regions [4], while each brain region is observed to react to diverse stimuli. Taking advantage of the resulting data richness to build formal models describing psychological processes requires to describe each cognitive</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

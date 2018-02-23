@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Supervised Sparse Analysis and Synthesis Operators</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pablo</forename><surname>Sprechmann</surname></persName>
+							<email>pablo.sprechmann@duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit3">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit4">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit5">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roee</forename><surname>Litman</surname></persName>
+							<email>roeelitman@post.tau.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit3">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit4">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit5">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><forename type="middle">Ben</forename><surname>Yakar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit3">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit4">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit5">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><surname>Bronstein</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit3">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit4">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit5">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guillermo</forename><surname>Sapiro</surname></persName>
+							<email>guillermo.sapiro@duke.edu *</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Duke University</orgName>
+								<orgName type="institution" key="instit2">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit3">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit4">Tel Aviv University</orgName>
+								<orgName type="institution" key="instit5">Duke University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Supervised Sparse Analysis and Synthesis Operators</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we propose a new computationally efficient framework for learning sparse models. We formulate a unified approach that contains as particular cases models promoting sparse synthesis and analysis type of priors, and mixtures thereof. The supervised training of the proposed model is formulated as a bilevel optimization problem, in which the operators are optimized to achieve the best possible performance on a specific task, e.g., reconstruction or classification. By restricting the operators to be shift invariant, our approach can be thought as a way of learning sparsity-promoting convolutional operators. Leveraging recent ideas on fast trainable regressors designed to approximate exact sparse codes, we propose a way of constructing feed-forward networks capable of approximating the learned models at a fraction of the computational cost of exact solvers. In the shift-invariant case, this leads to a principled way of constructing a form of task-specific convolutional networks. We illustrate the proposed models on several experiments in music analysis and image processing applications.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

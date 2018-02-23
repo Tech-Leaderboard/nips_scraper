@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local probability propagation for factor analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brendan</forename><forename type="middle">J</forename><surname>Frey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+								<orgName type="institution">University of Waterloo</orgName>
+								<address>
+									<settlement>Waterloo</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Local probability propagation for factor analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Ever since Pearl&apos;s probability propagation algorithm in graphs with cycles was shown to produce excellent results for error-correcting decoding a few years ago, we have been curious about whether local probability propagation could be used successfully for machine learning. One of the simplest adaptive models is the factor analyzer, which is a two-layer network that models bottom layer sensory inputs as a linear combination of top layer factors plus independent Gaussian sensor noise. We show that local probability propagation in the factor analyzer network usually takes just a few iterations to perform accurate inference, even in networks with 320 sensors and 80 factors. We derive an expression for the algorithm&apos;s fixed point and show that this fixed point matches the exact solution in a variety of networks, even when the fixed point is unstable. We also show that this method can be used successfully to perform inference for approximate EM and we give results on an online face recognition task. 1 Factor analysis A simple way to encode input patterns is to suppose that each input can be well-approximated by a linear combination of component vectors, where the amplitudes of the vectors are modulated to match the input. For a given training set, the most appropriate set of component vectors will depend on how we expect the modulation levels to behave and how we measure the distance between the input and its approximation. These effects can be captured by a generative probabilit~ model that specifies a distribution p(z) over modulation levels z = (Zl, ... ,ZK) and a distribution p(xlz) over sensors x = (Xl, ... ,XN)T given the modulation levels. Principal component analysis, independent component analysis and factor analysis can be viewed as maximum likelihood learning in a model of this type, where we assume that over the training set, the appropriate modulation levels are independent and the overall distortion is given by the sum of the individual sensor distortions. In factor analysis, the modulation levels are called factors and the distributions have the following form: p(Zk) = N(Zk; 0,1),</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

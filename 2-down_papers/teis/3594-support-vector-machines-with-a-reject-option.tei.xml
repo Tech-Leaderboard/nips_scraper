@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Support Vector Machines with a Reject Option</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yves</forename><surname>Grandvalet</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR CNRS 6599</orgName>
+								<address>
+									<settlement>Heudiasyc</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Idiap Research Institute Université de Technologie deCompì egne Centre du Parc</orgName>
+								<address>
+									<addrLine>BP 20529</addrLine>
+									<postCode>60205, 592, CH-1920</postCode>
+									<settlement>Compì egne Cedex, Martigny</settlement>
+									<region>CP</region>
+									<country>France, Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alain</forename><surname>Rakotomamonjy</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory">LITIS</orgName>
+								<orgName type="institution">Université de Rouen &amp; INSA de Rouen</orgName>
+								<address>
+									<postCode>4108, 76801</postCode>
+									<settlement>Saint Etienne du Rouvray</settlement>
+									<region>EA</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Keshet</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Idiap Research Institute Université de Technologie deCompì egne Centre du Parc</orgName>
+								<address>
+									<addrLine>BP 20529</addrLine>
+									<postCode>60205, 592, CH-1920</postCode>
+									<settlement>Compì egne Cedex, Martigny</settlement>
+									<region>CP</region>
+									<country>France, Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stéphane</forename><surname>Canu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory">LITIS</orgName>
+								<orgName type="institution">Université de Rouen &amp; INSA de Rouen</orgName>
+								<address>
+									<postCode>4108, 76801</postCode>
+									<settlement>Saint Etienne du Rouvray</settlement>
+									<region>EA</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Support Vector Machines with a Reject Option</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of binary classification where the classifier may abstain instead of classifying each observation. The Bayes decision rule for this setup, known as Chow&apos;s rule, is defined by two thresholds on posterior probabilities. From simple desiderata, namely the consistency and the sparsity of the classifier, we derive the double hinge loss function that focuses on estimating conditional probabilities only in the vicinity of the threshold points of the optimal decision rule. We show that, for suitable kernel machines, our approach is universally consistent. We cast the problem of minimizing the double hinge loss as a quadratic program akin to the standard SVM optimization problem and propose an active set method to solve it efficiently. We finally provide preliminary experimental results illustrating the interest of our constructive approach to devising loss functions.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

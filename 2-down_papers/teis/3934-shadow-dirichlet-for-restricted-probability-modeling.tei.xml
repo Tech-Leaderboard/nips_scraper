@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Shadow Dirichlet for Restricted Probability Modeling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bela</forename><forename type="middle">A</forename><surname>Frigyik</surname></persName>
+							<email>frigyik@gmail.com, gupta@ee.washington.edu,</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maya</forename><forename type="middle">R</forename><surname>Gupta</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yihua</forename><surname>Chen</surname></persName>
+							<email>yihuachn@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Shadow Dirichlet for Restricted Probability Modeling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Although the Dirichlet distribution is widely used, the independence structure of its components limits its accuracy as a model. The proposed shadow Dirichlet distribution manipulates the support in order to model probability mass functions (pmfs) with dependencies or constraints that often arise in real world problems, such as regularized pmfs, monotonic pmfs, and pmfs with bounded variation. We describe some properties of this new class of distributions, provide maximum en-tropy constructions, give an expectation-maximization method for estimating the mean parameter, and illustrate with real data. 1 Modeling Probabilities for Machine Learning Modeling probability mass functions (pmfs) as random is useful in solving many real-world problems. A common random model for pmfs is the Dirichlet distribution [1]. The Dirichlet is conjugate to the multinomial and hence mathematically convenient for Bayesian inference, and the number of parameters is conveniently linear in the size of the sample space. However, the Dirichlet is a distribution over the entire probability simplex, and for many problems this is simply the wrong domain if there is application-specific prior knowledge that the pmfs come from a restricted subset of the simplex. For example, in natural language modeling, it is common to regularize a pmf over n-grams by some generic language model distribution q 0 , that is, the pmf to be modeled is assumed to have the form θ = λq + (1 − λ)q 0 for some q in the simplex, λ ∈ (0, 1) and a fixed generic model q 0 [2]. But once q 0 and λ are fixed, the pmf θ can only come from a subset of the simplex. Another natural language processing example is modeling the probability of keywords in a dictionary where some words are related, such as espresso and latte, and evidence for the one is to some extent evidence for the other. This relationship can be captured with a bounded variation model that would constrain the modeled probability of espresso to be within some of the modeled probability of latte. We show that such bounds on the variation between pmf components also restrict the domain of the pmf to a subset of the simplex. As a third example of restricting the domain, the similarity discriminant analysis classifier estimates class-conditional pmfs that are constrained to be monotonically increasing over an ordered sample space of discrete similarity values [3]. In this paper we propose a simple variant of the Dirichlet whose support is a subset of the simplex, explore its properties, and show how to learn the model from data. We first discuss the alternative solution of renormalizing the Dirichlet over the desired subset of the simplex, and other related work. Then we propose the shadow Dirichlet distribution; explain how to construct a shadow Dirichlet for three types of restricted domains: the regularized pmf case, bounded variation between pmf components, and monotonic pmfs; and discuss the most general case. We show how to use the expectation-maximization (EM) algorithm to estimate the shadow Dirichlet parameter α, and present simulation results for the estimation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

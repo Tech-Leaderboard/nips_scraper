@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Approximate Inference by Compilation to Arithmetic Circuits</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Lowd</surname></persName>
+							<email>lowd@cs.uoregon.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer and Information Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Oregon Eugene</orgName>
+								<orgName type="institution" key="instit2">University of Washington Seattle</orgName>
+								<address>
+									<postCode>97403-1202, 98195-2350</postCode>
+									<region>OR, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Domingos</surname></persName>
+							<email>pedrod@cs.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer and Information Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Oregon Eugene</orgName>
+								<orgName type="institution" key="instit2">University of Washington Seattle</orgName>
+								<address>
+									<postCode>97403-1202, 98195-2350</postCode>
+									<region>OR, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Approximate Inference by Compilation to Arithmetic Circuits</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Arithmetic circuits (ACs) exploit context-specific independence and determinism to allow exact inference even in networks with high treewidth. In this paper, we introduce the first ever approximate inference methods using ACs, for domains where exact inference remains intractable. We propose and evaluate a variety of techniques based on exact compilation, forward sampling, AC structure learning, Markov network parameter learning, variational inference, and Gibbs sampling. In experiments on eight challenging real-world domains, we find that the methods based on sampling and learning work best: one such method (AC 2-F) is faster and usually more accurate than loopy belief propagation, mean field, and Gibbs sampling; another (AC 2-G) has a running time similar to Gibbs sampling but is consistently more accurate than all baselines.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

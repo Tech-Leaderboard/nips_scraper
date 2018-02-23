@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reconstruction of Sparse Circuits Using Multi-neuronal Excitation (RESCUME)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tao</forename><surname>Hu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Janelia Farm Research Campus</orgName>
+								<orgName type="institution">HHMI</orgName>
+								<address>
+									<addrLine>19700 Helix Drive</addrLine>
+									<postCode>20147</postCode>
+									<settlement>Ashburn</settlement>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dmitri</forename><forename type="middle">B</forename><surname>Chklovskii</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Janelia Farm Research Campus</orgName>
+								<orgName type="institution">HHMI</orgName>
+								<address>
+									<addrLine>19700 Helix Drive</addrLine>
+									<postCode>20147</postCode>
+									<settlement>Ashburn</settlement>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reconstruction of Sparse Circuits Using Multi-neuronal Excitation (RESCUME)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>1</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>One of the central problems in neuroscience is reconstructing synaptic connectivity in neural circuits. Synapses onto a neuron can be probed by sequentially stimulating potentially pre-synaptic neurons while monitoring the membrane voltage of the post-synaptic neuron. Reconstructing a large neural circuit using such a &quot;brute force&quot; approach is rather time-consuming and inefficient because the connectivity in neural circuits is sparse. Instead, we propose to measure a post-synaptic neuron&apos;s voltage while stimulating sequentially random subsets of multiple potentially pre-synaptic neurons. To reconstruct these synaptic connections from the recorded voltage we apply a decoding algorithm recently developed for compressive sensing. Compared to the brute force approach, our method promises significant time savings that grow with the size of the circuit. We use computer simulations to find optimal stimulation parameters and explore the feasibility of our reconstruction method under realistic experimental conditions including noise and non-linear synaptic integration. Multi-neuronal stimulation allows reconstructing synaptic connectivity just from the spiking activity of post-synaptic neurons, even when sub-threshold voltage is unavailable. By using calcium indicators, voltage-sensitive dyes, or multi-electrode arrays one could monitor activity of multiple post-synaptic neurons simultaneously, thus mapping their synaptic inputs in parallel, potentially reconstructing a complete neural circuit. 1 In tro d uc tio n Understanding information processing in neural circuits requires systematic characterization of synaptic connectivity [1, 2]. The most direct way to measure synapses between a pair of neurons is to stimulate potentially pre-synaptic neuron while recording intra-cellularly from the potentially post-synaptic neuron [3-8]. This method can be scaled to reconstruct multiple synaptic connections onto one neuron by combining intracellular recordings from the post-synaptic neuron with photo-activation of pre-synaptic neurons using glutamate uncaging [9-13] or channelrhodopsin [14, 15], or with multi-electrode arrays [16, 17]. Neurons are sequentially stimulated to fire action potentials by scanning a laser beam (or electrode voltage) over a brain slice, while synaptic weights are measured by recording post-synaptic voltage. Although sequential excitation of single potentially pre-synaptic neurons could reveal connectivity, such a &quot;brute force&quot; approach is inefficient because the connectivity among neurons is sparse. Even among nearby neurons in the cerebral cortex, the probability of connection is only about ten percent [3-8]. Connection probability decays rapidly with the</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Safe Model-based Reinforcement Learning with Stability Guarantees</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Felix</forename><surname>Berkenkamp</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Institute for Aerospace Studies</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="institution" key="instit1">ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matteo</forename><surname>Turchetta</surname></persName>
+							<email>matteotu@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Institute for Aerospace Studies</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="institution" key="instit1">ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Angela</forename><forename type="middle">P</forename><surname>Schoellig</surname></persName>
+							<email>schoellig@utias.utoronto.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Institute for Aerospace Studies</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="institution" key="instit1">ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andreas</forename><surname>Krause</surname></persName>
+							<email>krausea@ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="department" key="dep3">Institute for Aerospace Studies</orgName>
+								<orgName type="department" key="dep4">Department of Computer Science ETH Zurich</orgName>
+								<orgName type="institution" key="instit1">ETH Zurich</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Safe Model-based Reinforcement Learning with Stability Guarantees</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Reinforcement learning is a powerful paradigm for learning optimal policies from experimental data. However, to find optimal policies, most reinforcement learning algorithms explore all possible actions, which may be harmful for real-world systems. As a consequence, learning algorithms are rarely applied on safety-critical systems in the real world. In this paper, we present a learning algorithm that explicitly considers safety, defined in terms of stability guarantees. Specifically, we extend control-theoretic results on Lyapunov stability verification and show how to use statistical models of the dynamics to obtain high-performance control policies with provable stability certificates. Moreover, under additional regularity assumptions in terms of a Gaussian process prior, we prove that one can effectively and safely collect data in order to learn about the dynamics and thus both improve control performance and expand the safe region of the state space. In our experiments , we show how the resulting algorithm can safely optimize a neural network policy on a simulated inverted pendulum, without the pendulum ever falling down.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

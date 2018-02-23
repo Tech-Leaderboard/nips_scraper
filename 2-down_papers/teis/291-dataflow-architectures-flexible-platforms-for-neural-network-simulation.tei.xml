@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dataflow Architectures: Flexible Platforms for Neural Network Simulation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ira</forename><forename type="middle">G</forename><surname>Smotroff</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">MITRE-Bedford Neural Network Group</orgName>
+								<orgName type="institution">The MITRE Corporation Bedford</orgName>
+								<address>
+									<postCode>01730</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dataflow Architectures: Flexible Platforms for Neural Network Simulation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>818 Smotroff</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Dataflow architectures are general computation engines optimized for the execution of fme-grain parallel algorithms. Neural networks can be simulated on these systems with certain advantages. In this paper, we review dataflow architectures, examine neural network simulation performance on a new generation dataflow machine, compare that performance to other simulation alternatives, and discuss the benefits and drawbacks of the dataflow approach. 1 DATAFLOW ARCHITECTURES Dataflow research has been conducted at MIT (Arvind &amp; Culler, 1986) and elsewhere (Hiraki, et. aI., 1987) for a number of years. Dataflow architectures are general computation engines that treat each instruction of a program as a separate task which is scheduled in an asynchronous, data-driven fashion. Dataflow programs are compiled into graphs which explicitly describe the data dependencies of the computation. These graphs are directly executed by the machine. Computations which are not linked by a path in the graphs can be executed in parallel. Each machine has a large number of processing elements with hardware that is optimized to reduce task switching overhead to a minimum. As each computation executes and produces a result, it causes all of the following computations that require the result to be scheduled. In this manner, fine grain parallel computation is achieved, with the limit on the amount of possible parallelism determined by the problem and the number of processing elements in the machine.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

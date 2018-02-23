@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multi-Stage Dantzig Selector</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ji</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Arizona State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Wonka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Arizona State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jieping</forename><surname>Ye</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Arizona State University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multi-Stage Dantzig Selector</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the following sparse signal recovery (or feature selection) problem: given a design matrix X ∈ R n×m (m n) and a noisy observation vector y ∈ R n satisfying y = Xβ * + where is the noise vector following a Gaussian distribution N (0, σ 2 I), how to recover the signal (or parameter vector) β * when the signal is sparse? The Dantzig selector has been proposed for sparse signal recovery with strong theoretical guarantees. In this paper, we propose a multi-stage Dantzig selector method, which iteratively refines the target signal β *. We show that if X obeys a certain condition, then with a large probability the difference between the solutionˆβ solutionˆ solutionˆβ estimated by the proposed method and the true solution β * measured in terms of the l p norm (p ≥ 1) is bounded asˆβ asˆ asˆβ − β * p ≤ C(s − N) 1/p log m + ∆ σ, where C is a constant, s is the number of nonzero entries in β * , ∆ is independent of m and is much smaller than the first term, and N is the number of entries of β * larger than a certain value in the order of O(σ √ log m). The proposed method improves the estimation bound of the standard Dantzig selector approximately from Cs 1/p √ log mσ to C(s − N) 1/p √ log mσ where the value N depends on the number of large entries in β *. When N = s, the proposed algorithm achieves the oracle solution with a high probability. In addition, with a large probability, the proposed method can select the same number of correct features under a milder condition than the Dantzig selector.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

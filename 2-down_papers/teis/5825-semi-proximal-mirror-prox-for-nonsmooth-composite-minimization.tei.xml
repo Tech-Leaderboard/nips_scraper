@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Semi-Proximal Mirror-Prox for Nonsmooth Composite Minimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Niao</forename><surname>He</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">NYU</orgName>
+								<address>
+									<country>Inria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zaid</forename><surname>Harchaoui</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">NYU</orgName>
+								<address>
+									<country>Inria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Semi-Proximal Mirror-Prox for Nonsmooth Composite Minimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a new first-order optimization algorithm to solve high-dimensional non-smooth composite minimization problems. Typical examples of such problems have an objective that decomposes into a non-smooth empirical risk part and a non-smooth regularization penalty. The proposed algorithm, called Semi-Proximal Mirror-Prox, leverages the saddle point representation of one part of the objective while handling the other part of the objective via linear minimization over the domain. The algorithm stands in contrast with more classical proximal gradient algorithms with smoothing, which require the computation of proximal operators at each iteration and can therefore be impractical for high-dimensional problems. We establish the theoretical convergence rate of Semi-Proximal Mirror-Prox, which exhibits the optimal complexity bounds, i.e. O(1/ǫ 2), for the number of calls to linear minimization oracle. We present promising experimental results showing the interest of the approach in comparison to competing methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spatio-temporal Representations of Uncertainty in Spiking Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cristina</forename><surname>Savin</surname></persName>
+							<email>csavin@ist.ac.at</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Group for Neural Theory</orgName>
+								<orgName type="institution">IST Austria Klosterneuburg</orgName>
+								<address>
+									<postCode>A-3400</postCode>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sophie</forename><surname>Deneve</surname></persName>
+							<email>sophie.deneve@ens.fr</email>
+							<affiliation key="aff1">
+								<orgName type="institution">ENS</orgName>
+								<address>
+									<addrLine>Paris Rue d&apos;Ulm, 29</addrLine>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spatio-temporal Representations of Uncertainty in Spiking Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>It has been long argued that, because of inherent ambiguity and noise, the brain needs to represent uncertainty in the form of probability distributions. The neu-ral encoding of such distributions remains however highly controversial. Here we present a novel circuit model for representing multidimensional real-valued distributions using a spike based spatio-temporal code. Our model combines the computational advantages of the currently competing models for probabilistic codes and exhibits realistic neural responses along a variety of classic measures. Furthermore , the model highlights the challenges associated with interpreting neural activity in relation to behavioral uncertainty and points to alternative population-level approaches for the experimental validation of distributed representations. Core brain computations, such as sensory perception, have been successfully characterized as prob-abilistic inference, whereby sensory stimuli are interpreted in terms of the objects or features that gave rise to them [1, 2]. The tenet of this Bayesian framework is the idea that the brain represents uncertainty about the world in the form of probability distributions. While this notion seems supported by behavioural evidence, the neural underpinnings of probabilistic computation remain highly debated [1, 2]. Different proposals offer different trade-offs between flexibility, i.e. the class of distributions they can represent, and speed, i.e. how fast can the uncertainty be read out from the neural activity. Given these two dimensions, we can divide existing models in two main classes. The first set, which we will refer to as spatial codes, distributes information about the distribution across neurons; the activity of different neurons reflects different values of an underlying random variable (alternatively, it can be viewed as encoding parameters of the underlying distribution [1, 2]). Linear probabilistic population codes (PPCs) are a popular instance of this class, whereby the log-probability of a random variable can be linearly decoded from the responses of neurons tuned to different values of that variable [3]. This encoding scheme has the advantage of speed, as uncertainty can be decoded in a neurally plausible way from the quasi-instantaneous neural activity, and reproduces aspects of the experimental data. However, these benefits come at the price of flexibility: the class of distributions that the network can represent needs to be highly restricted, otherwise the network size scales exponentially with the number of variables [1]. This limitation has lead to a second class of models, which we will refer to as temporal codes.These use stochastic network dynamics to sample from the target distribution [4, 1]. Existing models from this class assume that the activity of each neuron encodes a different random variable; the network explores the state space such that the time spent in any particular state is proportional to its probability under the distribution [4]. This representation is exact in the limit of infinite samples. It has several important computational advantages (e.g. easy marginalization, parameter learning, linear scaling of network size with the number of dimensions) and further accounts for trial-to-trial variability in neural responses [1]. These benefits come at the cost of sampling time: a fair representation of the underlying distribution requires pooling over several samples, i.e. integrating neural activity over time. Some have argued that this feature makes sampling unfeasibly slow [2].</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Maximising Sensitivity in a Spiking Network</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Bell</surname></persName>
+							<email>tbell@rni.org</email>
+							<affiliation key="aff0">
+								<orgName type="department">Biomedical Engineering Department City College of New York New York</orgName>
+								<orgName type="institution">Redwood Neuroscience Institute</orgName>
+								<address>
+									<addrLine>1010 El Camino Real, Suite 380 Menlo Park</addrLine>
+									<postCode>94025, 10033</postCode>
+									<region>CA, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lucas</forename><forename type="middle">C</forename><surname>Parra</surname></persName>
+							<email>parra@ccny.cuny.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Biomedical Engineering Department City College of New York New York</orgName>
+								<orgName type="institution">Redwood Neuroscience Institute</orgName>
+								<address>
+									<addrLine>1010 El Camino Real, Suite 380 Menlo Park</addrLine>
+									<postCode>94025, 10033</postCode>
+									<region>CA, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Maximising Sensitivity in a Spiking Network</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We use unsupervised probabilistic machine learning ideas to try to explain the kinds of learning observed in real neurons, the goal being to connect abstract principles of self-organisation to known biophysi-cal processes. For example, we would like to explain Spike Timing-Dependent Plasticity (see [5,6] and Figure 3A), in terms of information theory. Starting out, we explore the optimisation of a network sensitivity measure related to maximising the mutual information between input spike timings and output spike timings. Our derivations are analogous to those in ICA, except that the sensitivity of output timings to input timings is maximised, rather than the sensitivity of output &apos;firing rates&apos; to inputs. ICA and related approaches have been successful in explaining the learning of many properties of early visual receptive fields in rate coding models, and we are hoping for similar gains in understanding of spike coding in networks, and how this is supported, in principled probabilistic ways, by cellular biophysical processes. For now, in our initial simulations , we show that our derived rule can learn synaptic weights which can unmix, or demultiplex, mixed spike trains. That is, it can recover independent point processes embedded in distributed correlated input spike trains, using an adaptive single-layer feedforward spiking network. 1 Maximising Sensitivity. In this section, we will follow the structure of the ICA derivation [4] in developing the spiking theory. We cannot claim, as before, that this gives us an information maximisation algorithm, for reasons that we will delay addressing until Section 3. But for now, to first develop our approach, we will explore an interim objective function called sensitivity which we define as the log Jacobian of how input spike timings affect output spike timings. 1.1 How to maximise the effect of one spike timing on another. Consider a spike in neuron j at time t l that has an effect on the timing of another spike in neuron i at time t k. The neurons are connected by a weight w ij. We use i and j to index neurons, and k and l to index spikes, but sometimes for convenience we will use spike indices in place of neuron indices. For example, w kl , the weight between an input spike l and an output spike k, is naturally understood to be just the corresponding w ij .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

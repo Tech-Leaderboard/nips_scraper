@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Co-Validation: Using Model Disagreement on Unlabeled Data to Validate Classification Algorithms</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Omid</forename><surname>Madani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Yahoo! Research Labs 3rd floor</orgName>
+								<address>
+									<addrLine>Pasadena Ave. Pasadena</addrLine>
+									<postCode>91103</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">M</forename><surname>Pennock</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Yahoo! Research Labs 3rd floor</orgName>
+								<address>
+									<addrLine>Pasadena Ave. Pasadena</addrLine>
+									<postCode>91103</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">W</forename><surname>Flake</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Yahoo! Research Labs 3rd floor</orgName>
+								<address>
+									<addrLine>Pasadena Ave. Pasadena</addrLine>
+									<postCode>91103</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Co-Validation: Using Model Disagreement on Unlabeled Data to Validate Classification Algorithms</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In the context of binary classification, we define disagreement as a measure of how often two independently-trained models differ in their classification of unlabeled data. We explore the use of disagreement for error estimation and model selection. We call the procedure co-validation, since the two models effectively (in)validate one another by comparing results on unlabeled data, which we assume is relatively cheap and plentiful compared to labeled data. We show that per-instance disagreement is an unbiased estimate of the variance of error for that instance. We also show that disagreement provides a lower bound on the prediction (gen-eralization) error, and a tight upper bound on the &quot;variance of prediction error&quot;, or the variance of the average error across instances, where variance is measured across training sets. We present experimental results on several data sets exploring co-validation for error estimation and model selection. The procedure is especially effective in active learning settings , where training sets are not drawn at random and cross validation overestimates error.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

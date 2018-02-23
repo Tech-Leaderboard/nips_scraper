@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Maximum-Likelihood Continuity Mapping (MALCOM): An Alternative to HMMs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A</forename><surname>Nix</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Computer Research &amp; Applications CIC-3, MS B265 Los Alamos National Laboratory Los Alamos</orgName>
+								<orgName type="institution" key="instit1">Computer Research &amp; Applications CIC-3</orgName>
+								<orgName type="institution" key="instit2">Los Alamos National Laboratory Los Alamos</orgName>
+								<address>
+									<postCode>B265, 87545, 87545</postCode>
+									<region>MS, NM, NM</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dnix@lanl</forename><surname>Gov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Computer Research &amp; Applications CIC-3, MS B265 Los Alamos National Laboratory Los Alamos</orgName>
+								<orgName type="institution" key="instit1">Computer Research &amp; Applications CIC-3</orgName>
+								<orgName type="institution" key="instit2">Los Alamos National Laboratory Los Alamos</orgName>
+								<address>
+									<postCode>B265, 87545, 87545</postCode>
+									<region>MS, NM, NM</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">E</forename><surname>Hogden</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Computer Research &amp; Applications CIC-3, MS B265 Los Alamos National Laboratory Los Alamos</orgName>
+								<orgName type="institution" key="instit1">Computer Research &amp; Applications CIC-3</orgName>
+								<orgName type="institution" key="instit2">Los Alamos National Laboratory Los Alamos</orgName>
+								<address>
+									<postCode>B265, 87545, 87545</postCode>
+									<region>MS, NM, NM</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Computer Research &amp; Applications CIC-3, MS B265 Los Alamos National Laboratory Los Alamos</orgName>
+								<orgName type="institution" key="instit1">Computer Research &amp; Applications CIC-3</orgName>
+								<orgName type="institution" key="instit2">Los Alamos National Laboratory Los Alamos</orgName>
+								<address>
+									<postCode>B265, 87545, 87545</postCode>
+									<region>MS, NM, NM</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Maximum-Likelihood Continuity Mapping (MALCOM): An Alternative to HMMs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe Maximum-Likelihood Continuity Mapping (MALCOM), an alternative to hidden Markov models (HMMs) for processing sequence data such as speech. While HMMs have a discrete &quot;hidden&quot; space constrained by a fixed finite-automaton architecture, MALCOM has a continuous hidden space-a continuity map-that is constrained only by a smoothness requirement on paths through the space. MALCOM fits into the same probabilistic framework for speech recognition as HMMs, but it represents a more realistic model of the speech production process. To evaluate the extent to which MALCOM captures speech production information, we generated continuous speech continuity maps for three speakers and used the paths through them to predict measured speech articulator data. The median correlation between the MALCOM paths obtained from only the speech acoustics and articulator measurements was 0.77 on an independent test set not used to train MALCOM or the predictor. This unsupervised model achieved correlations over speakers and articulators only 0.02 to 0.15 lower than those obtained using an analogous supervised method which used articulatory measurements as well as acoustics ..</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

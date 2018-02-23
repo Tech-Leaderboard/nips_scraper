@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Extreme Components Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Max</forename><surname>Welling</surname></persName>
+							<email>welling@cs.toronto.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Institute for Adaptive and Neural Computation School of Informatics</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<addrLine>10 King&apos;s College Road Toronto</addrLine>
+									<postCode>M5S 3G5</postCode>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Felix</forename><surname>Agakov</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<addrLine>5 Forrest Hill</addrLine>
+									<postCode>EH1 2QL</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">K I</forename><surname>Williams</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<addrLine>5 Forrest Hill</addrLine>
+									<postCode>EH1 2QL</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Extreme Components Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Principal components analysis (PCA) is one of the most widely used techniques in machine learning and data mining. Minor components analysis (MCA) is less well known, but can also play an important role in the presence of constraints on the data distribution. In this paper we present a probabilistic model for &quot;extreme components analysis&quot; (XCA) which at the maximum likelihood solution extracts an optimal combination of principal and minor components. For a given number of components , the log-likelihood of the XCA model is guaranteed to be larger or equal than that of the probabilistic models for PCA and MCA. We describe an efficient algorithm to solve for the globally optimal solution. For log-convex spectra we prove that the solution consists of principal components only, while for log-concave spectra the solution consists of minor components. In general, the solution admits a combination of both. In experiments we explore the properties of XCA on some synthetic and real-world datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

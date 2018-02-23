@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Deep Subspace Clustering Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pan</forename><surname>Ji</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Adelaide</orgName>
+								<orgName type="institution" key="instit2">Australian National University</orgName>
+								<orgName type="institution" key="instit3">Australian National University</orgName>
+								<orgName type="institution" key="instit4">University of Adelaide</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tong</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Adelaide</orgName>
+								<orgName type="institution" key="instit2">Australian National University</orgName>
+								<orgName type="institution" key="instit3">Australian National University</orgName>
+								<orgName type="institution" key="instit4">University of Adelaide</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hongdong</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Adelaide</orgName>
+								<orgName type="institution" key="instit2">Australian National University</orgName>
+								<orgName type="institution" key="instit3">Australian National University</orgName>
+								<orgName type="institution" key="instit4">University of Adelaide</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mathieu</forename><surname>Salzmann Epfl -Cvlab</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Adelaide</orgName>
+								<orgName type="institution" key="instit2">Australian National University</orgName>
+								<orgName type="institution" key="instit3">Australian National University</orgName>
+								<orgName type="institution" key="instit4">University of Adelaide</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ian</forename><surname>Reid</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Adelaide</orgName>
+								<orgName type="institution" key="instit2">Australian National University</orgName>
+								<orgName type="institution" key="instit3">Australian National University</orgName>
+								<orgName type="institution" key="instit4">University of Adelaide</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Deep Subspace Clustering Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a novel deep neural network architecture for unsupervised subspace clustering. This architecture is built upon deep auto-encoders, which non-linearly map the input data into a latent space. Our key idea is to introduce a novel self-expressive layer between the encoder and the decoder to mimic the &quot;self-expressiveness&quot; property that has proven effective in traditional subspace clustering. Being differentiable, our new self-expressive layer provides a simple but effective way to learn pairwise affinities between all data points through a standard back-propagation procedure. Being nonlinear, our neural-network based method is able to cluster data points having complex (often nonlinear) structures. We further propose pre-training and fine-tuning strategies that let us effectively learn the parameters of our subspace clustering networks. Our experiments show that our method significantly outperforms the state-of-the-art unsupervised subspace clustering techniques.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

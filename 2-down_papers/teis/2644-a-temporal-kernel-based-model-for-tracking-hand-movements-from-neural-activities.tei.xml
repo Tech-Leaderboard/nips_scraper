@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Temporal Kernel-Based Model for Tracking Hand-Movements from Neural Activities</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lavi</forename><surname>Shpigelman</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koby</forename><surname>Crammer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of computer Science and Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rony</forename><surname>Paz</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eilon</forename><surname>Vaadia</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoram</forename><surname>Singer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of computer Science and Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Interdisciplinary Center for Neural Computation</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Dept. of Physiology</orgName>
+								<orgName type="department" key="dep2">Hadassah Medical School</orgName>
+								<orgName type="institution">The Hebrew University Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Temporal Kernel-Based Model for Tracking Hand-Movements from Neural Activities</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We devise and experiment with a dynamical kernel-based system for tracking hand movements from neural activity. The state of the system corresponds to the hand location, velocity, and acceleration, while the system&apos;s input are the instantaneous spike rates. The system&apos;s state dynamics is defined as a combination of a linear mapping from the previous estimated state and a kernel-based mapping tailored for modeling neural activities. In contrast to generative models, the activity-to-state mapping is learned using discriminative methods by minimizing a noise-robust loss function. We use this approach to predict hand trajectories on the basis of neural activity in motor cortex of behaving monkeys and find that the proposed approach is more accurate than both a static approach based on support vector regression and the Kalman filter.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

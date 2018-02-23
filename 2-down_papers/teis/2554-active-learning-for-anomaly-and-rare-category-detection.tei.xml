@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Active Learning for Anomaly and Rare-Category Detection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Pelleg</surname></persName>
+							<email>dpelleg@cs.cmu.edu,</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science Carnegie</orgName>
+								<orgName type="institution">Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213</postCode>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Moore</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science Carnegie</orgName>
+								<orgName type="institution">Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213</postCode>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Active Learning for Anomaly and Rare-Category Detection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a novel active-learning scenario in which a user wants to work with a learning algorithm to identify useful anomalies. These are distinguished from the traditional statistical definition of anomalies as outliers or merely ill-modeled points. Our distinction is that the usefulness of anomalies is categorized subjectively by the user. We make two additional assumptions. First, there exist extremely few useful anomalies to be hunted down within a massive dataset. Second, both useful and useless anomalies may sometimes exist within tiny classes of similar anomalies. The challenge is thus to identify &quot;rare category&quot; records in an unlabeled noisy set with help (in the form of class labels) from a human expert who has a small budget of datapoints that they are prepared to categorize. We propose a technique to meet this challenge, which assumes a mixture model fit to the data, but otherwise makes no assumptions on the particular form of the mixture components. This property promises wide applicability in real-life scenarios and for various statistical models. We give an overview of several alternative methods, highlighting their strengths and weaknesses, and conclude with a detailed empirical analysis. We show that our method can quickly zoom in on an anomaly set containing a few tens of points in a dataset of hundreds of thousands.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

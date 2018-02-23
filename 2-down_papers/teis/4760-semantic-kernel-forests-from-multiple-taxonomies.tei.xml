@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Semantic Kernel Forests from Multiple Taxonomies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sung</forename><forename type="middle">Ju</forename><surname>Hwang</surname></persName>
+							<email>sjhwang@cs.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit3">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>78701, 78701, 90089</postCode>
+									<region>TX, TX, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kristen</forename><surname>Grauman</surname></persName>
+							<email>grauman@cs.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit3">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>78701, 78701, 90089</postCode>
+									<region>TX, TX, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sha</forename><surname>Fei</surname></persName>
+							<email>feisha@usc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit2">University of Texas Austin</orgName>
+								<orgName type="institution" key="instit3">University of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>78701, 78701, 90089</postCode>
+									<region>TX, TX, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Semantic Kernel Forests from Multiple Taxonomies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>When learning features for complex visual recognition problems, labeled image exemplars alone can be insufficient. While an object taxonomy specifying the cat-egories&apos; semantic relationships could bolster the learning process, not all relationships are relevant to a given visual classification task, nor does a single taxonomy capture all ties that are relevant. In light of these issues, we propose a discrim-inative feature learning approach that leverages multiple hierarchical taxonomies representing different semantic views of the object categories (e.g., for animal classes, one taxonomy could reflect their phylogenic ties, while another could reflect their habitats). For each taxonomy, we first learn a tree of semantic kernels, where each node has a Mahalanobis kernel optimized to distinguish between the classes in its children nodes. Then, using the resulting semantic kernel forest, we learn class-specific kernel combinations to select only those relationships relevant to recognize each object class. To learn the weights, we introduce a novel hierarchical regularization term that further exploits the taxonomies&apos; structure. We demonstrate our method on challenging object recognition datasets, and show that interleaving multiple taxonomic views yields significant accuracy improvements.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

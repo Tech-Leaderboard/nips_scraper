@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An equivalence between high dimensional Bayes optimal inference and M-estimation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Madhu</forename><surname>Advani</surname></persName>
+							<email>msadvani@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Applied Physics</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Surya</forename><surname>Ganguli</surname></persName>
+							<email>sganguli@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Applied Physics</orgName>
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An equivalence between high dimensional Bayes optimal inference and M-estimation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>When recovering an unknown signal from noisy measurements, the computational difficulty of performing optimal Bayesian MMSE (minimum mean squared error) inference often necessitates the use of maximum a posteriori (MAP) inference, a special case of regularized M-estimation, as a surrogate. However, MAP is suboptimal in high dimensions, when the number of unknown signal components is similar to the number of measurements. In this work we demonstrate, when the signal distribution and the likelihood function associated with the noise are both log-concave, that optimal MMSE performance is asymptotically achievable via another M-estimation procedure. This procedure involves minimizing convex loss and regularizer functions that are nonlinearly smoothed versions of the widely applied MAP optimization problem. Our findings provide a new heuristic derivation and interpretation for recent optimal M-estimators found in the setting of linear measurements and additive noise, and further extend these results to nonlinear measurements with non-additive noise. We numerically demonstrate superior performance of our optimal M-estimators relative to MAP. Overall, at the heart of our work is the revelation of a remarkable equivalence between two seemingly very different computational problems: namely that of high dimensional Bayesian integration underlying MMSE inference, and high dimensional convex optimization underlying M-estimation. In essence we show that the former difficult integral may be computed by solving the latter, simpler optimization problem.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

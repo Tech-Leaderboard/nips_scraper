@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Approximate inference using planar graph decomposition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amir</forename><surname>Globerson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology Cambridge</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tommi</forename><surname>Jaakkola</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology Cambridge</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Approximate inference using planar graph decomposition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A number of exact and approximate methods are available for inference calculations in graphical models. Many recent approximate methods for graphs with cycles are based on tractable algorithms for tree structured graphs. Here we base the approximation on a different tractable model, planar graphs with binary variables and pure interaction potentials (no external field). The partition function for such models can be calculated exactly using an algorithm introduced by Fisher and Kasteleyn in the 1960s. We show how such tractable planar models can be used in a decomposition to derive upper bounds on the partition function of non-planar models. The resulting algorithm also allows for the estimation of marginals. We compare our planar decomposition to the tree decomposition method of Wain-wright et. al., showing that it results in a much tighter bound on the partition function, improved pairwise marginals, and comparable singleton marginals. Graphical models are a powerful tool for modeling multivariate distributions, and have been successfully applied in various fields such as coding theory and image processing. Applications of graphical models typically involve calculating two types of quantities, namely marginal distributions , and MAP assignments. The evaluation of the model partition function is closely related to calculating marginals [12]. These three problems can rarely be solved exactly in polynomial time, and are provably computationally hard in the general case [1]. When the model conforms to a tree structure, however, all these problems can be solved in polynomial time. This has prompted extensive research into tree based methods. For example, the junction tree method [6] converts a graphical model into a tree by clustering nodes into cliques, such that the graph over cliques is a tree. The resulting maximal clique size (cf. tree width) may nevertheless be prohibitively large. Wainwright et. al. [9, 11] proposed an approximate method based on trees known as tree re-weighting (TRW). The TRW approach decomposes the potential vector of a graphical model into a mixture over spanning trees of the model, and then uses convexity arguments to bound various quantities, such as the partition function. One key advantage of this approach is that it provides bounds on partition function value, a property which is not shared by approximations based on Bethe free energies [13]. In this paper we focus on a different class of tractable models: planar graphs. A graph is called planar if it can be drawn in the plane without crossing edges. Works in the 1960s by physicists Fisher [5] and Kasteleyn [7], among others, have shown that the partition function for planar graphs may be calculated in polynomial time. This, however, is true under two key restrictions. One is that the variables x i are binary. The other is that the interaction potential depends only on x i x j (where x i ∈ {±1}), and not on their individual values (i.e., the zero external field case). Here we show how the above method can be used to obtain upper bounds on the partition function for non-planar graphs. As in TRW, we decompose the potential of a non-planar graph into a sum</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

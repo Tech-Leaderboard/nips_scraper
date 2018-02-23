@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mapping distinct timescales of functional interactions among brain networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mali</forename><surname>Sundaresan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Neuroscience</orgName>
+								<orgName type="institution">Indian Institute of Science</orgName>
+								<address>
+									<settlement>Bangalore</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arshed</forename><surname>Nabeel</surname></persName>
+							<email>arshed@iisc.ac.in</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science and Automation</orgName>
+								<orgName type="institution">Indian Institute of Science</orgName>
+								<address>
+									<settlement>Bangalore</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devarajan</forename><surname>Sridharan</surname></persName>
+							<email>sridhar@iisc.ac.in</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Neuroscience</orgName>
+								<orgName type="institution">Indian Institute of Science</orgName>
+								<address>
+									<settlement>Bangalore</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science and Automation</orgName>
+								<orgName type="institution">Indian Institute of Science</orgName>
+								<address>
+									<settlement>Bangalore</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mapping distinct timescales of functional interactions among brain networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Brain processes occur at various timescales, ranging from milliseconds (neurons) to minutes and hours (behavior). Characterizing functional coupling among brain regions at these diverse timescales is key to understanding how the brain produces behavior. Here, we apply instantaneous and lag-based measures of conditional linear dependence, based on Granger-Geweke causality (GC), to infer network connections at distinct timescales from functional magnetic resonance imaging (fMRI) data. Due to the slow sampling rate of fMRI, it is widely held that GC produces spurious and unreliable estimates of functional connectivity when applied to fMRI data. We challenge this claim with simulations and a novel machine learning approach. First, we show, with simulated fMRI data, that instantaneous and lag-based GC identify distinct timescales and complementary patterns of functional connectivity. Next, we analyze fMRI scans from 500 subjects and show that a linear classifier trained on either instantaneous or lag-based GC connectivity reliably distinguishes task versus rest brain states, with ∼80-85% cross-validation accuracy. Importantly, instantaneous and lag-based GC exploit markedly different spatial and temporal patterns of connectivity to achieve robust classification. Our approach enables identifying functionally connected networks that operate at distinct timescales in the brain.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Identifying Structure across Pre-partitioned Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zvika</forename><surname>Marx</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Neural Computation Center</orgName>
+								<orgName type="department" key="dep2">Department of CS Bar</orgName>
+								<orgName type="institution">The Hebrew University Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ido</forename><surname>Dagan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School for CS</orgName>
+								<orgName type="institution">Ilan University Ramat-Gan</orgName>
+								<address>
+									<postCode>52900</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eli</forename><surname>Shamir</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">The Hebrew University Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Identifying Structure across Pre-partitioned Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose an information-theoretic clustering approach that incorporates a pre-known partition of the data, aiming to identify common clusters that cut across the given partition. In the standard clustering setting the formation of clusters is guided by a single source of feature information. The newly utilized pre-partition factor introduces an additional bias that counterbalances the impact of the features whenever they become correlated with this known partition. The resulting algorithmic framework was applied successfully to synthetic data, as well as to identifying text-based cross-religion correspondences. 1 Introduction The standard task of feature-based data clustering deals with a single set of elements that are characterized by a unified set of features. The goal of the clustering task is to identify implicit constructs, or themes, within the clustered set, grouping together elements that are characterized similarly by the features. In recent years there has been growing interest in more complex clustering settings, in which additional information is incorporated [1], [2]. Several such extensions ([3]-[5]) are based on the information bottleneck (IB) framework [6], which facilitates coherent information-theoretic representation of different information types. In a recent line of research we have investigated the cross-dataset clustering task [7], [8]. In this setting, some inherent a-priori partition of the clustered data to distinct subsets is given. The clustering goal it to identify corresponding (analogous) structures that cut across the different subsets, while ignoring internal structures that characterize individual subsets. To accomplish this task, those features that commonly characterize elements across the different subsets guide the clustering process, while within-subset regularities are neutralized. In [7], we presented a distance-based hard clustering algorithm for the coupled-clustering problem, in which the clustered data is pre-partitioned to two subsets. In [8], our setting, generalized to pre-partitions of any number of subsets, was addressed by a heuristic extension of the probabilistic IB algorithm, yielding improved empirical results. Specifically, the algorithm in [8] was based on a</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

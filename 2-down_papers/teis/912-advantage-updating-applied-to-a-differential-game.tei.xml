@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Advantage Updating Applied to a Differential Game</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mance</forename><forename type="middle">E</forename><surname>Harmon</surname></persName>
+							<email>harmonme@aa.wpafb.mil</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Harry</forename><surname>Klopr</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leemon</forename><forename type="middle">C</forename><surname>Baird</surname></persName>
+							<email>baird@cs.usafa.af.mil</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iii·</forename></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">WL/AAAT Bldg</orgName>
+								<orgName type="laboratory">Wright Laboratory</orgName>
+								<address>
+									<addrLine>635 2185 Avionics Circle Wright-Patterson Air Force Base</addrLine>
+									<postCode>45433-7301</postCode>
+									<region>OH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Wright Laboratory</orgName>
+								<orgName type="laboratory" key="lab2">Wright Laboratory U.S .A.F. Academy</orgName>
+								<orgName type="institution">USAFA</orgName>
+								<address>
+									<addrLine>2354 Fairchild Dr. Suite 6K4l</addrLine>
+									<postCode>80840-6234</postCode>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Advantage Updating Applied to a Differential Game</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Category: Control</term>
+					<term>Navigation</term>
+					<term>and Planning Keywords: Reinforcement Learning</term>
+					<term>Advantage Updating</term>
+					<term>Dynamic Programming</term>
+					<term>Differential Games</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>An application of reinforcement learning to a linear-quadratic, differential game is presented. The reinforcement learning system uses a recently developed algorithm, the residual gradient form of advantage updating. The game is a Markov Decision Process (MDP) with continuous time, states, and actions, linear dynamics, and a quadratic cost function. The game consists of two players, a missile and a plane; the missile pursues the plane and the plane evades the missile. The reinforcement learning algorithm for optimal control is modified for differential games in order to find the minimax point, rather than the maximum. Simulation results are compared to the optimal solution, demonstrating that the simulated reinforcement learning system converges to the optimal answer. The performance of both the residual gradient and non-residual gradient forms of advantage updating and Q-learning are compared. The results show that advantage updating converges faster than Q-learning in all simulations. The results also show advantage updating converges regardless of the time step duration; Q-learning is unable to converge as the time step duration ~rows small.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

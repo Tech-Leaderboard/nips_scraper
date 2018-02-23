@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">MCMC for Variationally Sparse Gaussian Processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Hensman</surname></persName>
+							<email>james.hensman@lancaster.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">CHICAS</orgName>
+								<orgName type="institution" key="instit2">Lancaster University</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><forename type="middle">G</forename><surname>De</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">CHICAS</orgName>
+								<orgName type="institution" key="instit2">Lancaster University</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Matthews</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">CHICAS</orgName>
+								<orgName type="institution" key="instit2">Lancaster University</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maurizio</forename><surname>Filippone</surname></persName>
+							<email>EURECOM maurizio.filippone@eurecom.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">CHICAS</orgName>
+								<orgName type="institution" key="instit2">Lancaster University</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zoubin</forename><surname>Ghahramani</surname></persName>
+							<email>zoubin@cam.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">CHICAS</orgName>
+								<orgName type="institution" key="instit2">Lancaster University</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<orgName type="institution" key="instit4">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">MCMC for Variationally Sparse Gaussian Processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Gaussian process (GP) models form a core part of probabilistic machine learning. Considerable research effort has been made into attacking three issues with GP models: how to compute efficiently when the number of data is large; how to approximate the posterior when the likelihood is not Gaussian and how to estimate covariance function parameter posteriors. This paper simultaneously addresses these, using a variational approximation to the posterior which is sparse in support of the function but otherwise free-form. The result is a Hybrid Monte-Carlo sampling scheme which allows for a non-Gaussian approximation over the function values and covariance parameters simultaneously, with efficient computations based on inducing-point sparse GPs. Code to replicate each experiment in this paper is available at github.com/sparseMCMC.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

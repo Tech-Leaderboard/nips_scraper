@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:51+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Boosting the Performance of RBF Networks with Dynamic Decay Adjustment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jay</forename><surname>Diamond</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Forschungszentrum Informatik Gruppe ACID (Prof. D</orgName>
+								<orgName type="institution">Intel Corporation 2200 Mission College Blvd. Santa Clara</orgName>
+								<address>
+									<addrLine>Schmid) Haid-und-Neu-Strasse 10-14</addrLine>
+									<postCode>76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<region>CA</region>
+									<country>USA, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">R</forename><surname>Berthold</surname></persName>
+							<email>eMail: berthold@fzLde eMail: jdiamond@mipos3.intel.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Forschungszentrum Informatik Gruppe ACID (Prof. D</orgName>
+								<orgName type="institution">Intel Corporation 2200 Mission College Blvd. Santa Clara</orgName>
+								<address>
+									<addrLine>Schmid) Haid-und-Neu-Strasse 10-14</addrLine>
+									<postCode>76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<region>CA</region>
+									<country>USA, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Boosting the Performance of RBF Networks with Dynamic Decay Adjustment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>95052 MS:SC9-15</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Radial Basis Function (RBF) Networks, also known as networks of locally-tuned processing units (see [6]) are well known for their ease of use. Most algorithms used to train these types of networks , however, require a fixed architecture, in which the number of units in the hidden layer must be determined before training starts. The RCE training algorithm, introduced by Reilly, Cooper and Elbaum (see [8]), and its probabilistic extension, the P-RCE algorithm, take advantage of a growing structure in which hidden units are only introduced when necessary. The nature of these algorithms allows training to reach stability much faster than is the case for gradient-descent based methods. Unfortunately P-RCE networks do not adjust the standard deviation of their prototypes individually, using only one global value for this parameter. This paper introduces the Dynamic Decay Adjustment (DDA) algorithm which utilizes the constructive nature of the P-RCE algorithm together with independent adaptation of each prototype&apos;s decay factor. In addition, this radial adjustment is class dependent and distinguishes between different neighbours. It is shown that networks trained with the presented algorithm perform substantially better than common RBF networks. 522 Michael R. Berthold, Jay Diamond</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

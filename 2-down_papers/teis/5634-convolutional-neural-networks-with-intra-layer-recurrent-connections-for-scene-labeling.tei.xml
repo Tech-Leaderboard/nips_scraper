@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Convolutional Neural Networks with Intra-layer Recurrent Connections for Scene Labeling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ming</forename><surname>Liang</surname></persName>
+							<email>liangm07@mails.tsinghua.edu.cn, {xlhu,dcszb}@tsinghua.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Tsinghua National Laboratory for Information Science and Technology (TNList)</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Technology Center for Brain-Inspired Computing Research (CBICR)</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaolin</forename><surname>Hu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Tsinghua National Laboratory for Information Science and Technology (TNList)</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Technology Center for Brain-Inspired Computing Research (CBICR)</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bo</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Tsinghua National Laboratory for Information Science and Technology (TNList)</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science and Technology Center for Brain-Inspired Computing Research (CBICR)</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Convolutional Neural Networks with Intra-layer Recurrent Connections for Scene Labeling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Scene labeling is a challenging computer vision task. It requires the use of both local discriminative features and global context information. We adopt a deep recurrent convolutional neural network (RCNN) for this task, which is originally proposed for object recognition. Different from traditional convolutional neural networks (CNN), this model has intra-layer recurrent connections in the convo-lutional layers. Therefore each convolutional layer becomes a two-dimensional recurrent neural network. The units receive constant feed-forward inputs from the previous layer and recurrent inputs from their neighborhoods. While recurrent iterations proceed, the region of context captured by each unit expands. In this way, feature extraction and context modulation are seamlessly integrated, which is different from typical methods that entail separate modules for the two steps. To further utilize the context, a multi-scale RCNN is proposed. Over two benchmark datasets, Standford Background and Sift Flow, the model outperforms many state-of-the-art models in accuracy and efficiency.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

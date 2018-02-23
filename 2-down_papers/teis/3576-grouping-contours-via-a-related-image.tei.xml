@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Grouping Contours Via a Related Image</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Praveen</forename><surname>Srinivasan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">GRASP Laboratory University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit1">GRASP Laboratory University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit2">Fudan University Shanghai</orgName>
+								<address>
+									<postCode>19104, 200433, 19104</postCode>
+									<region>PA, PRC, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liming</forename><surname>Wang</surname></persName>
+							<email>wanglm@fudan.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">GRASP Laboratory University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit1">GRASP Laboratory University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit2">Fudan University Shanghai</orgName>
+								<address>
+									<postCode>19104, 200433, 19104</postCode>
+									<region>PA, PRC, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jianbo</forename><surname>Shi</surname></persName>
+							<email>jshi@cis.upenn.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">GRASP Laboratory University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit1">GRASP Laboratory University of Pennsylvania Philadelphia</orgName>
+								<orgName type="institution" key="instit2">Fudan University Shanghai</orgName>
+								<address>
+									<postCode>19104, 200433, 19104</postCode>
+									<region>PA, PRC, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Grouping Contours Via a Related Image</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Contours have been established in the biological and computer vision literature as a compact yet descriptive representation of object shape. While individual contours provide structure, they lack the large spatial support of region segments (which lack internal structure). We present a method for further grouping of contours in an image using their relationship to the contours of a second, related image. Stereo, motion, and similarity all provide cues that can aid this task; contours that have similar transformations relating them to their matching contours in the second image likely belong to a single group. To find matches for contours , we rely only on shape, which applies directly to all three modalities without modification, in contrast to the specialized approaches developed for each independently. Visually salient contours are extracted in each image, along with a set of candidate transformations for aligning subsets of them. For each transformation , groups of contours with matching shape across the two images are identified to provide a context for evaluating matches of individual contour points across the images. The resulting contexts of contours are used to perform a final grouping on contours in the original image while simultaneously finding matches in the related image, again by shape matching. We demonstrate grouping results on image pairs consisting of stereo, motion, and similar images. Our method also produces qualitatively better results against a baseline method that does not use the inferred contexts.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Computation of Graph Kernels</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">V N</forename><surname>Vishwanathan</surname></persName>
+							<email>svn.vishwanathan@nicta.com.au</email>
+							<affiliation key="aff0">
+								<orgName type="department">Statistical Machine Learning</orgName>
+								<orgName type="institution">National ICT Australia</orgName>
+								<address>
+									<addrLine>Locked Bag 8001</addrLine>
+									<postCode>2601</postCode>
+									<country>Canberra ACT, Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karsten</forename><forename type="middle">M</forename><surname>Borgwardt</surname></persName>
+							<email>borgwardt@dbs.ifi.lmu.de</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute for Computer Science</orgName>
+								<orgName type="department" key="dep2">Research School of Information Sciences &amp; Engineering</orgName>
+								<orgName type="laboratory">Statistical Machine Learning, National ICT Australia Locked Bag 8001, Canberra ACT 2601</orgName>
+								<orgName type="institution">Research School of Information Sciences &amp; Engineering Australian National University</orgName>
+								<address>
+									<addrLine>Ludwig-Maximilians-University Munich Oettingenstr. 67</addrLine>
+									<postCode>0200, 80538</postCode>
+									<settlement>Canberra, Munich</settlement>
+									<region>ACT</region>
+									<country>Australia, Germany, Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicol</forename><forename type="middle">N</forename><surname>Schraudolph</surname></persName>
+							<email>nic.schraudolph@nicta.com.au</email>
+							<affiliation key="aff2">
+								<orgName type="institution">Australian National University</orgName>
+								<address>
+									<postCode>0200</postCode>
+									<settlement>Canberra</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Computation of Graph Kernels</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Using extensions of linear algebra concepts to Reproducing Kernel Hilbert Spaces (RKHS), we define a unifying framework for random walk kernels on graphs. Reduction to a Sylvester equation allows us to compute many of these kernels in O(n 3) worst-case time. This includes kernels whose previous worst-case time complexity was O(n 6), such as the geometric kernels of Gärtner et al. [1] and the marginal graph kernels of Kashima et al. [2]. Our algebra in RKHS allow us to exploit sparsity in directed and undirected graphs more effectively than previous methods, yielding sub-cubic computational complexity when combined with conjugate gradient solvers or fixed-point iterations. Experiments on graphs from bioinformatics and other application domains show that our algorithms are often more than 1000 times faster than existing approaches.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

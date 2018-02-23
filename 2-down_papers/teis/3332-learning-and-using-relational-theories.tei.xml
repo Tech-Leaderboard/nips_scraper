@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning and using relational theories</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Kemp</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences</orgName>
+								<orgName type="institution">MIT</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noah</forename><forename type="middle">D</forename><surname>Goodman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences</orgName>
+								<orgName type="institution">MIT</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences</orgName>
+								<orgName type="institution">MIT</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning and using relational theories</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Much of human knowledge is organized into sophisticated systems that are often called intuitive theories. We propose that intuitive theories are mentally represented in a logical language, and that the subjective complexity of a theory is determined by the length of its representation in this language. This complexity measure helps to explain how theories are learned from relational data, and how they support inductive inferences about unobserved relations. We describe two experiments that test our approach, and show that it provides a better account of human learning and reasoning than an approach developed by Goodman [1]. What is a theory, and what makes one theory better than another? Questions like these are of obvious interest to philosophers of science but are also discussed by psychologists, who have argued that everyday knowledge is organized into rich and complex systems that are similar in many respects to scientific theories. Even young children, for instance, have systematic beliefs about domains including folk physics, folk biology, and folk psychology [2]. Intuitive theories like these play many of the same roles as scientific theories: in particular, both kinds of theories are used to explain and encode observations of the world, and to predict future observations. This paper explores the nature, use and acquisition of simple theories. Consider, for instance, an anthropologist who has just begun to study the social structure of a remote tribe, and observes that certain words are used to indicate relationships between selected pairs of individuals. Suppose that term T1(·, ·) can be glossed as ancestor(·, ·), and that T2(·, ·) can be glossed as friend(·, ·). The anthropologist might discover that the first term is transitive, and that the second term is symmetric with a few exceptions. Suppose that term T3(·, ·) can be glossed as defers to(·, ·), and that the tribe divides into two castes such that members of the second caste defer to members of the first caste. In this case the anthropologist might discover two latent concepts (caste 1(·) and caste 2(·)) along with the relationship between these concepts. As these examples suggest, a theory can be defined as a system of laws and concepts that specify the relationships between the elements in some domain [2]. We will consider how these theories are learned, how they are used to encode relational data, and how they support predictions about unob-served relations. Our approach to all three problems relies on the notion of subjective complexity. We propose that theory learners prefer simple theories, that people remember relational data in terms of the simplest underlying theory, and that people extend a partially observed data set according to the simplest theory that is consistent with their observations. There is no guarantee that a single measure of subjective complexity can do all of the work that we require [3]. This paper, however, explores the strong hypothesis that a single measure will suffice. Our formal treatment of subjective complexity begins with the question of how theories are mentally represented. We suggest that theories are represented in some logical language, and propose a specific first-order language that serves as a hypothesis about the &quot;language of thought.&quot; We then pursue the idea that the subjective complexity of a theory corresponds to the length of its representation in this language. Our approach therefore builds on the work of Feldman [4], and is related to other psychological applications of the notion of Kolmogorov complexity [5]. The complexity measure we describe can be used to define a probability distribution over a space of theories, and we develop a model of theory acquisition by using this distribution as the prior for a Bayesian learner. We also 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

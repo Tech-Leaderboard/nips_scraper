@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">K-Medoids for K-Means Seeding</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Newling</surname></persName>
+							<email>james.newling@idiap.ch</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Idiap Research Institue andÉcole and´andÉcole polytechnique fédérale de Lausanne</orgName>
+								<orgName type="laboratory" key="lab2">Idiap Research Institue andÉcole and´andÉcole polytechnique fédérale de Lausanne</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">François</forename><surname>Fleuret</surname></persName>
+							<email>francois.fleuret@idiap.ch</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Idiap Research Institue andÉcole and´andÉcole polytechnique fédérale de Lausanne</orgName>
+								<orgName type="laboratory" key="lab2">Idiap Research Institue andÉcole and´andÉcole polytechnique fédérale de Lausanne</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">K-Medoids for K-Means Seeding</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We show experimentally that the algorithm clarans of Ng and Han (1994) finds better K-medoids solutions than the Voronoi iteration algorithm of Hastie et al. (2001). This finding, along with the similarity between the Voronoi iteration algorithm and Lloyd&apos;s K-means algorithm, motivates us to use clarans as a K-means initializer. We show that clarans outperforms other algorithms on 23/23 datasets with a mean decrease over k-means-++ (Arthur and Vassilvitskii, 2007) of 30% for initialization mean squared error (MSE) and 3% for final MSE. We introduce algorithmic improvements to clarans which improve its complexity and runtime, making it a viable initialization scheme for large datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

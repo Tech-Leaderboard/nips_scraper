@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Importance of Communities for Learning to Influence</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Balkanski</surname></persName>
+							<email>ericbalkanski@g.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Harvard University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicole</forename><surname>Immorlica</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Harvard University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yaron</forename><surname>Singer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Harvard University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research</orgName>
+								<orgName type="institution" key="instit3">Harvard University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Importance of Communities for Learning to Influence</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the canonical problem of influence maximization in social networks. Since the seminal work of Kempe, Kleinberg, and Tardos [KKT03] there have been two, largely disjoint efforts on this problem. The first studies the problem associated with learning the generative model that produces cascades, and the second focuses on the algorithmic challenge of identifying a set of influencers, assuming the generative model is known. Recent results on learning and optimization imply that in general, if the generative model is not known but rather learned from training data, no algorithm for influence maximization can yield a constant factor approximation guarantee using polynomially-many samples, drawn from any distribution. In this paper we describe a simple algorithm for maximizing influence from training data. The main idea behind the algorithm is to leverage the strong community structure of social networks and identify a set of individuals who are influentials but whose communities have little overlap. Although in general, the approximation guarantee of such an algorithm is unbounded, we show that this algorithm performs well experimentally. To analyze its performance, we prove this algorithm obtains a constant factor approximation guarantee on graphs generated through the stochastic block model, traditionally used to model networks with community structure.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

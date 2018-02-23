@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Generative Models with the Up-Propagation Algorithm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jong-Hoon</forename><surname>Oh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Bell Labs</orgName>
+								<address>
+									<postCode>07974</postCode>
+									<settlement>Lucent T echnologies Murray Hill</settlement>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">Sebastian</forename><surname>Seung</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Bell Labs</orgName>
+								<address>
+									<postCode>07974</postCode>
+									<settlement>Lucent T echnologies Murray Hill</settlement>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Generative Models with the Up-Propagation Algorithm</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Up-propagation is an algorithm for inverting and learning neural network generative models. Sensory input is processed by i n verting a model that generates patterns from hidden variables using top-down connections. The inversion process is iterative, utilizing a negative feedback l o o p t h a t depends on an error signal propagated by bottom-up connections. The error signal is also used to learn the generative model from examples. The algorithm is benchmarked against principal component analysis in experiments on images of handwritten digits. In his doctrine of unconscious inference, Helmholtz argued that perceptions are formed by t h e i n teraction of bottom-up sensory data with top-down expectations. According to one interpretation of this doctrine, perception is a procedure of sequential hypothesis testing. We propose a new algorithm, called up-propagation, that realizes this interpretation in layered neural networks. It uses top-down connections to generate hypotheses, and bottom-up connections to revise them. It is important to understand the diierence between up-propagation and its ancestor , the backpropagation algorithmm1]. Backpropagation is a learning algorithm for recognition models. As shown in Figure 1a, bottom-up connections recognize patterns, while top-down connections propagate an error signal that is used to learn the recognition model. In contrast, up-propagation is an algorithm for inverting and learning generative models, as shown in Figure 1b. Top-down connections generate patterns from a set of hidden variables. Sensory input is processed by inverting the generative model, recovering hidden variables that could have generated the sensory data. This operation is called either pattern recognition or pattern analysis, depending on the meaning of the hidden variables. Inversion of the generative model is done iteratively, through a negative feedback loop driven by an error signal from the bottom-up connections. The error signal is also used for learning the connections</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Practice Strategy for Robot Learning Control</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terence</forename><forename type="middle">D</forename><surname>Sanger</surname></persName>
+							<email>tds@ai.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<postCode>E25-534, 02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Practice Strategy for Robot Learning Control</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>&quot;Trajectory Extension Learning&quot; is a new technique for Learning Control in Robots which assumes that there exists some parameter of the desired trajectory that can be smoothly varied from a region of easy solvability of the dynamics to a region of desired behavior which may have more difficult dynamics. By gradually varying the parameter, practice movements remain near the desired path while a Neural Network learns to approximate the inverse dynamics. For example, the average speed of motion might be varied, and the inverse dynamics can be &quot;bootstrapped&quot; from slow movements with simpler dynamics to fast movements. This provides an example of the more general concept of a &quot;Practice Strategy&quot; in which a sequence of intermediate tasks is used to simplify learning a complex task. I show an example of the application of this idea to a real 2-joint direct drive robot arm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

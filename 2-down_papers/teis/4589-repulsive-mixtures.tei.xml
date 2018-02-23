@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Repulsive Mixtures</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francesca</forename><surname>Petralia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistical Science Duke University</orgName>
+								<orgName type="department" key="dep2">Department of Statistical Science Duke University</orgName>
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit University College London</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vinayak</forename><surname>Rao</surname></persName>
+							<email>vrao@gatsby.ucl.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistical Science Duke University</orgName>
+								<orgName type="department" key="dep2">Department of Statistical Science Duke University</orgName>
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit University College London</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">B</forename><surname>Dunson</surname></persName>
+							<email>dunson@stat.duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistical Science Duke University</orgName>
+								<orgName type="department" key="dep2">Department of Statistical Science Duke University</orgName>
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit University College London</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Repulsive Mixtures</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Bayesian nonparametrics</term>
+					<term>Dirichlet process</term>
+					<term>Gaussian mixture model</term>
+					<term>Model-based clustering</term>
+					<term>Repulsive point process</term>
+					<term>Well separated mixture</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Discrete mixtures are used routinely in broad sweeping applications ranging from unsupervised settings to fully supervised multi-task learning. Indeed, finite mixtures and infinite mixtures, relying on Dirichlet processes and modifications, have become a standard tool. One important issue that arises in using discrete mixtures is low separation in the components; in particular, different components can be introduced that are very similar and hence redundant. Such redundancy leads to too many clusters that are too similar, degrading performance in unsupervised learning and leading to computational problems and an unnecessarily complex model in supervised settings. Redundancy can arise in the absence of a penalty on components placed close together even when a Bayesian approach is used to learn the number of components. To solve this problem, we propose a novel prior that generates components from a repulsive process, automatically penalizing redundant components. We characterize this repulsive prior theoretically and propose a Markov chain Monte Carlo sampling algorithm for posterior computation. The methods are illustrated using synthetic examples and an iris data set.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

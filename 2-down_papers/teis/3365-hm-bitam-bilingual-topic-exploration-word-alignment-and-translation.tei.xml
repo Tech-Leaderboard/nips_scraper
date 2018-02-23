@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">HM-BiTAM: Bilingual Topic Exploration, Word Alignment, and Translation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bing</forename><surname>Zhao</surname></persName>
+							<email>zhaob@us.ibm.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IBM T. J. Watson Research</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">P</forename><surname>Xing</surname></persName>
+							<email>epxing@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IBM T. J. Watson Research</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">HM-BiTAM: Bilingual Topic Exploration, Word Alignment, and Translation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a novel paradigm for statistical machine translation (SMT), based on a joint modeling of word alignment and the topical aspects underlying bilingual document-pairs, via a hidden Markov Bilingual Topic AdMixture (HM-BiTAM). In this paradigm, parallel sentence-pairs from a parallel document-pair are coupled via a certain semantic-flow, to ensure coherence of topical context in the alignment of mapping words between languages, likelihood-based training of topic-dependent translational lexicons, as well as in the inference of topic representations in each language. The learned HM-BiTAM can not only display topic patterns like methods such as LDA [1], but now for bilingual corpora; it also offers a principled way of inferring optimal translation using document context. Our method integrates the conventional model of HMM-a key component for most of the state-of-the-art SMT systems, with the recently proposed BiTAM model [10]; we report an extensive empirical analysis (in many ways complementary to the description-oriented [10]) of our method in three aspects: bilingual topic representation, word alignment, and translation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

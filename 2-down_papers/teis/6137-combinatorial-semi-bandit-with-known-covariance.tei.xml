@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Combinatorial semi-bandit with known covariance</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rémy</forename><surname>Degenne</surname></persName>
+							<email>degenne@cmla.ens-cachan.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">LMPA</orgName>
+								<orgName type="institution" key="instit2">Université Paris Diderot CMLA</orgName>
+								<orgName type="institution" key="instit3">ENS Paris-Saclay</orgName>
+								<orgName type="institution" key="instit4">CRITEO Research</orgName>
+								<address>
+									<settlement>Paris</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>ENS</roleName><forename type="first">Vianney</forename><forename type="middle">Perchet</forename><surname>Cmla</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">LMPA</orgName>
+								<orgName type="institution" key="instit2">Université Paris Diderot CMLA</orgName>
+								<orgName type="institution" key="instit3">ENS Paris-Saclay</orgName>
+								<orgName type="institution" key="instit4">CRITEO Research</orgName>
+								<address>
+									<settlement>Paris</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paris-Saclay</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">LMPA</orgName>
+								<orgName type="institution" key="instit2">Université Paris Diderot CMLA</orgName>
+								<orgName type="institution" key="instit3">ENS Paris-Saclay</orgName>
+								<orgName type="institution" key="instit4">CRITEO Research</orgName>
+								<address>
+									<settlement>Paris</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Combinatorial semi-bandit with known covariance</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The combinatorial stochastic semi-bandit problem is an extension of the classical multi-armed bandit problem in which an algorithm pulls more than one arm at each stage and the rewards of all pulled arms are revealed. One difference with the single arm variant is that the dependency structure of the arms is crucial. Previous works on this setting either used a worst-case approach or imposed independence of the arms. We introduce a way to quantify the dependency structure of the problem and design an algorithm that adapts to it. The algorithm is based on linear regression and the analysis develops techniques from the linear bandit literature. By comparing its performance to a new lower bound, we prove that it is optimal, up to a poly-logarithmic factor in the number of pulled arms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

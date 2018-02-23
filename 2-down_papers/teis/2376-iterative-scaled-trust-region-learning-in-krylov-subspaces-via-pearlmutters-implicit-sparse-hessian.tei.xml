@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Iterative scaled trust-region learning in Krylov subspaces via Pearlmutter&apos;s implicit sparse Hessian-vector multiply</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eiji</forename><surname>Mizutani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Mathematics and Computer Science</orgName>
+								<orgName type="institution">Tsing Hua University Hsinchu</orgName>
+								<address>
+									<postCode>300</postCode>
+									<country>TAIWAN R.O.C</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">W</forename><surname>Demmel</surname></persName>
+							<email>demmel@cs.berkeley.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California at Berkeley</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Iterative scaled trust-region learning in Krylov subspaces via Pearlmutter&apos;s implicit sparse Hessian-vector multiply</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The online incremental gradient (or backpropagation) algorithm is widely considered to be the fastest method for solving large-scale neural-network (NN) learning problems. In contrast, we show that an appropriately implemented iterative batch-mode (or block-mode) learning method can be much faster. For example, it is three times faster in the UCI letter classification problem (26 outputs, 16,000 data items, 6,066 parameters with a two-hidden-layer multilayer perceptron) and 353 times faster in a nonlinear regression problem arising in color recipe prediction (10 outputs, 1,000 data items, 2,210 parameters with a neuro-fuzzy modular network). The three principal innovative ingredients in our algorithm are the following: First, we use scaled trust-region regularization with inner-outer iteration to solve the associated &quot;overdetermined&quot; nonlinear least squares problem, where the inner iteration performs a truncated (or inexact) Newton method. Second, we employ Pearlmutter&apos;s implicit sparse Hessian matrix-vector multiply algorithm to construct the Krylov subspaces used to solve for the truncated New-ton update. Third, we exploit sparsity (for preconditioning) in the matrices resulting from the NNs having many outputs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

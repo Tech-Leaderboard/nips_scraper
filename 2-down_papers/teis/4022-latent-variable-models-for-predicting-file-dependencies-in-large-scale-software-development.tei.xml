@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Latent Variable Models for Predicting File Dependencies in Large-Scale Software Development</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Diane</forename><forename type="middle">J</forename><surname>Hu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science &amp; Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laurens</forename><surname>Van Der Maaten</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science &amp; Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Pattern Recognition &amp; Bioinformatics Lab</orgName>
+								<orgName type="institution">Delft University of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Youngmin</forename><surname>Cho</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science &amp; Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">K</forename><surname>Saul</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science &amp; Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sorin</forename><surname>Lerner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science &amp; Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Latent Variable Models for Predicting File Dependencies in Large-Scale Software Development</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>When software developers modify one or more files in a large code base, they must also identify and update other related files. Many file dependencies can be detected by mining the development history of the code base: in essence, groups of related files are revealed by the logs of previous workflows. From data of this form, we show how to detect dependent files by solving a problem in binary matrix completion. We explore different latent variable models (LVMs) for this problem, including Bernoulli mixture models, exponential family PCA, restricted Boltz-mann machines, and fully Bayesian approaches. We evaluate these models on the development histories of three large, open-source software systems: Mozilla Fire-fox, Eclipse Subversive, and Gimp. In all of these applications, we find that LVMs improve the performance of related file prediction over current leading methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

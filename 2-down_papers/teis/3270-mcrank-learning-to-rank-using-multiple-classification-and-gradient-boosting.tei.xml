@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">McRank: Learning to Rank Using Multiple Classification and Gradient Boosting</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ping</forename><surname>Li</surname></persName>
+							<email>pingli@cornell.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Statistical Science</orgName>
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research Microsoft Corporation</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Microsoft Corporation</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">J C</forename><surname>Burges</surname></persName>
+							<email>cburges@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Statistical Science</orgName>
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research Microsoft Corporation</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Microsoft Corporation</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qiang</forename><surname>Wu</surname></persName>
+							<email>qiangwu@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Statistical Science</orgName>
+								<orgName type="institution" key="instit1">Cornell University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research Microsoft Corporation</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Microsoft Corporation</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">McRank: Learning to Rank Using Multiple Classification and Gradient Boosting</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We cast the ranking problem as (1) multiple classification (&quot;Mc&quot;) (2) multiple ordinal classification, which lead to computationally tractable learning algorithms for relevance ranking in Web search. We consider the DCG criterion (discounted cumulative gain), a standard quality measure in information retrieval. Our approach is motivated by the fact that perfect classifications result in perfect DCG scores and the DCG errors are bounded by classification errors. We propose using the Expected Relevance to convert class probabilities into ranking scores. The class probabilities are learned using a gradient boosting tree algorithm. Evaluations on large-scale datasets show that our approach can improve LambdaRank [5] and the regressions-based ranker [6], in terms of the (normalized) DCG scores. An efficient implementation of the boosting tree algorithm is also presented.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">VIME: Variational Information Maximizing Exploration</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rein</forename><surname>Houthooft</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Information Technology ‡ OpenAI</orgName>
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Ghent University -imec</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xi</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Information Technology ‡ OpenAI</orgName>
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Ghent University -imec</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yan</forename><surname>Duan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Information Technology ‡ OpenAI</orgName>
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Ghent University -imec</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Schulman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Information Technology ‡ OpenAI</orgName>
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Ghent University -imec</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Filip</forename><surname>De Turck</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Information Technology ‡ OpenAI</orgName>
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Ghent University -imec</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pieter</forename><surname>Abbeel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical Engineering and Computer Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Information Technology ‡ OpenAI</orgName>
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Ghent University -imec</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">VIME: Variational Information Maximizing Exploration</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Scalable and effective exploration remains a key challenge in reinforcement learning (RL). While there are methods with optimality guarantees in the setting of discrete state and action spaces, these methods cannot be applied in high-dimensional deep RL scenarios. As such, most contemporary RL relies on simple heuristics such as-greedy exploration or adding Gaussian noise to the controls. This paper introduces Variational Information Maximizing Exploration (VIME), an exploration strategy based on maximization of information gain about the agent&apos;s belief of environment dynamics. We propose a practical implementation, using varia-tional inference in Bayesian neural networks which efficiently handles continuous state and action spaces. VIME modifies the MDP reward function, and can be applied with several different underlying RL algorithms. We demonstrate that VIME achieves significantly better performance compared to heuristic exploration methods across a variety of continuous control tasks and algorithms, including tasks with very sparse rewards.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

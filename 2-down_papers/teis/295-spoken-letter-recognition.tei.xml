@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spoken Letter Recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Fanty</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science and Engineering</orgName>
+								<orgName type="institution">Oregon Graduate Institute Beaverton</orgName>
+								<address>
+									<postCode>97006</postCode>
+									<region>OR</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><surname>Cole</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science and Engineering</orgName>
+								<orgName type="institution">Oregon Graduate Institute Beaverton</orgName>
+								<address>
+									<postCode>97006</postCode>
+									<region>OR</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spoken Letter Recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Through the use of neural network classifiers and careful feature selection, we have achieved high-accuracy speaker-independent spoken letter recognition. For isolated letters, a broad-category segmentation is performed Location of segment boundaries allows us to measure features at specific locations in the signal such as vowel onset, where important information resides. Letter classification is performed with a feed-forward neural network. Recognition accuracy on a test set of 30 speakers was 96%. Neu-ral network classifiers are also used for pitch tracking and broad-category segmentation of letter strings. Our research has been extended to recognition of names spelled with pauses between the letters. When searching a database of 50,000 names, we achieved 95% first choice name retrieval. Work has begun on a continuous letter classifier which does frame-by-frame phonetic classification of spoken letters.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

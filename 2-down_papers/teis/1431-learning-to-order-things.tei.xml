@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning to Order Things</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs</orgName>
+								<address>
+									<addrLine>180 Park Ave</addrLine>
+									<postCode>07932</postCode>
+									<settlement>Florham Park</settlement>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs</orgName>
+								<address>
+									<addrLine>180 Park Ave</addrLine>
+									<postCode>07932</postCode>
+									<settlement>Florham Park</settlement>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoram</forename><surname>Singer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs</orgName>
+								<address>
+									<addrLine>180 Park Ave</addrLine>
+									<postCode>07932</postCode>
+									<settlement>Florham Park</settlement>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning to Order Things</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>There are many applications in which it is desirable to order rather than classify instances. Here we consider the problem of learning how to order, given feedback in the form of preference judgments, i.e., statements to the effect that one instance should be ranked ahead of another. We outline a two-stage approach in which one first learns by conventional means a preference Junction, of the form PREF(u, v), which indicates whether it is advisable to rank u before v. New instances are then ordered so as to maximize agreements with the learned preference function. We show that the problem of finding the ordering that agrees best with a preference function is NP-complete, even under very restrictive assumptions. Nevertheless, we describe a simple greedy algorithm that is guaranteed to find a good approximation. We then discuss an on-line learning algorithm, based on the &quot;Hedge&quot; algorithm, for finding a good linear combination of ranking &quot;experts.&quot; We use the ordering algorithm combined with the on-line learning algorithm to find a combination of &quot;search experts,&quot; each of which is a domain-specific query expansion strategy for a WWW search engine, and present experimental results that demonstrate the merits of our approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

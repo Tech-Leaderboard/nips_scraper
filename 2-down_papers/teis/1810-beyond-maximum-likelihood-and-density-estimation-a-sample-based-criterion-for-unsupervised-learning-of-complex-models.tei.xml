@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Beyond maximum likelihood and density estimation: A sample-based criterion for unsupervised learning of complex models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sepp</forename><surname>Hochreiter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Colorado Boulder</orgName>
+								<address>
+									<postCode>80309-0430</postCode>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">C</forename><surname>Mozer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Colorado Boulder</orgName>
+								<address>
+									<postCode>80309-0430</postCode>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Beyond maximum likelihood and density estimation: A sample-based criterion for unsupervised learning of complex models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The goal of many unsupervised learning procedures is to bring two probability distributions into alignment. Generative models such as Gaussian mixtures and Boltzmann machines can be cast in this light, as can recoding models such as ICA and projection pursuit. We propose a novel sample-based error measure for these classes of models, which applies even in situations where maximum likelihood (ML) and probability density estimation-based formulations cannot be applied, e.g., models that are nonlinear or have intractable posteriors. Furthermore, our sample-based error measure avoids the difficulties of approximating a density function. We prove that with an unconstrained model, (1) our approach converges on the correct solution as the number of samples goes to infinity, and (2) the expected solution of our approach in the generative framework is the ML solution. Finally, we evaluate our approach via simulations of linear and nonlinear models on mixture of Gaussians and ICA problems. The experiments show the broad applicability and generality of our approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

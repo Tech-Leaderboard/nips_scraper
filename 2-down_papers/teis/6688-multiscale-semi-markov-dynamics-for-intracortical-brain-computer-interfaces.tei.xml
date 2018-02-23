@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multiscale Semi-Markov Dynamics for Intracortical Brain-Computer Interfaces</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">J</forename><surname>Milstein</surname></persName>
+							<email>daniel_milstein@alumni.brown.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jason</forename><forename type="middle">L</forename><surname>Pacheco</surname></persName>
+							<email>pachecoj@mit.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leigh</forename><forename type="middle">R</forename><surname>Hochberg</surname></persName>
+							<email>leigh_hochberg@brown.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">D</forename><surname>Simeral</surname></persName>
+							<email>john_simeral@brown.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beata</forename><surname>Jarosiewicz</surname></persName>
+							<email>beataj@stanford.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erik</forename><forename type="middle">B</forename><surname>Sudderth</surname></persName>
+							<email>sudderth@uci.edu</email>
+						</author>
+						<title level="a" type="main">Multiscale Semi-Markov Dynamics for Intracortical Brain-Computer Interfaces</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Intracortical brain-computer interfaces (iBCIs) have allowed people with tetraplegia to control a computer cursor by imagining the movement of their paralyzed arm or hand. State-of-the-art decoders deployed in human iBCIs are derived from a Kalman filter that assumes Markov dynamics on the angle of intended movement, and a unimodal dependence on intended angle for each channel of neural activity. Due to errors made in the decoding of noisy neural data, as a user attempts to move the cursor to a goal, the angle between cursor and goal positions may change rapidly. We propose a dynamic Bayesian network that includes the on-screen goal position as part of its latent state, and thus allows the person&apos;s intended angle of movement to be aggregated over a much longer history of neural activity. This multiscale model explicitly captures the relationship between instantaneous angles of motion and long-term goals, and incorporates semi-Markov dynamics for motion trajectories. We also introduce a multimodal likelihood model for recordings of neural populations which can be rapidly calibrated for clinical applications. In offline experiments with recorded neural data, we demonstrate significantly improved prediction of motion directions compared to the Kalman filter. We derive an efficient online inference algorithm, enabling a clinical trial participant with tetraplegia to control a computer cursor with neural activity in real time. The observed kinematics of cursor movement are objectively straighter and smoother than prior iBCI decoding models without loss of responsiveness.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Semi-Crowdsourced Clustering: Generalizing Crowd Labeling by Robust Distance Metric Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jinfeng</forename><surname>Yi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Michigan State University</orgName>
+								<address>
+									<postCode>48824</postCode>
+									<settlement>East Lansing</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Yale University</orgName>
+								<address>
+									<postCode>06520</postCode>
+									<settlement>New Haven</settlement>
+									<region>CT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rong</forename><surname>Jin</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anil</forename><forename type="middle">K</forename><surname>Jain</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Michigan State University</orgName>
+								<address>
+									<postCode>48824</postCode>
+									<settlement>East Lansing</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Yale University</orgName>
+								<address>
+									<postCode>06520</postCode>
+									<settlement>New Haven</settlement>
+									<region>CT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shaili</forename><surname>Jain</surname></persName>
+							<email>shaili.jain@yale.edu, tyang@ge.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Michigan State University</orgName>
+								<address>
+									<postCode>48824</postCode>
+									<settlement>East Lansing</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Yale University</orgName>
+								<address>
+									<postCode>06520</postCode>
+									<settlement>New Haven</settlement>
+									<region>CT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tianbao</forename><surname>Yang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Machine Learning Lab</orgName>
+								<orgName type="department" key="dep2">GE Global Research</orgName>
+								<address>
+									<postCode>94583</postCode>
+									<settlement>San Ramon</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Semi-Crowdsourced Clustering: Generalizing Crowd Labeling by Robust Distance Metric Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>One of the main challenges in data clustering is to define an appropriate similarity measure between two objects. Crowdclustering addresses this challenge by defining the pairwise similarity based on the manual annotations obtained through crowdsourcing. Despite its encouraging results, a key limitation of crowdclus-tering is that it can only cluster objects when their manual annotations are available. To address this limitation, we propose a new approach for clustering, called semi-crowdsourced clustering that effectively combines the low-level features of objects with the manual annotations of a subset of the objects obtained via crowd-sourcing. The key idea is to learn an appropriate similarity measure, based on the low-level features of objects and from the manual annotations of only a small portion of the data to be clustered. One difficulty in learning the pairwise similarity measure is that there is a significant amount of noise and inter-worker variations in the manual annotations obtained via crowdsourcing. We address this difficulty by developing a metric learning algorithm based on the matrix completion method. Our empirical study with two real-world image data sets shows that the proposed algorithm outperforms state-of-the-art distance metric learning algorithms in both clustering accuracy and computational efficiency.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

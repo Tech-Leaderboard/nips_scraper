@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Unifying Perspective of Parametric Policy Search Methods for Markov Decision Processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Furmston</surname></persName>
+							<email>T.Furmston@cs.ucl.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="laboratory">University College London D.Barber@cs</orgName>
+								<orgName type="institution">University College London</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Barber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="laboratory">University College London D.Barber@cs</orgName>
+								<orgName type="institution">University College London</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Unifying Perspective of Parametric Policy Search Methods for Markov Decision Processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Parametric policy search algorithms are one of the methods of choice for the opti-misation of Markov Decision Processes, with Expectation Maximisation and natural gradient ascent being popular methods in this field. In this article we provide a unifying perspective of these two algorithms by showing that their search-directions in the parameter space are closely related to the search-direction of an approximate Newton method. This analysis leads naturally to the consideration of this approximate Newton method as an alternative optimisation method for Markov Decision Processes. We are able to show that the algorithm has numerous desirable properties, absent in the naive application of Newton&apos;s method, that make it a viable alternative to either Expectation Maximisation or natural gradient ascent. Empirical results suggest that the algorithm has excellent convergence and robustness properties, performing strongly in comparison to both Expectation Maximisation and natural gradient ascent. 1 Markov Decision Processes Markov Decision Processes (MDPs) are the most commonly used model for the description of sequential decision making processes in a fully observable environment, see e.g. [5]. A MDP is described by the tuple {S, A, H, p 1 , p, π, R}, where S and A are sets known respectively as the state and action space, H ∈ N is the planning horizon, which can be either finite or infinite, and {p 1 , p, π, R} are functions that are referred as the initial state distribution, transition dynamics, policy (or controller) and the reward function. In general the state and action spaces can be arbitrary sets, but we restrict our attention to either discrete sets or subsets of R n , where n ∈ N. We use boldface notation to represent a vector and also use the notation z = (s, a) to denote a state-action pair. Given a MDP the trajectory of the agent is determined by the following recursive procedure: Given the agent&apos;s state, s t , at a given time-point, t ∈ N H , an action is selected according to the policy , a t ∼ π(·|s t); The agent will then transition to a new state according to the transition dynamics, s t+1 ∼ p(·|a t , s t); this process is iterated sequentially through all of the time-points in the planning horizon, where the state of the initial time-point is determined by the initial state distribution s 1 ∼ p 1 (·). At each time-point the agent receives a (scalar) reward that is determined by the reward function, where this function depends on the current action and state of the environment. Typically the reward function is assumed to be bounded, but as the objective is linear in the reward function we assume w.l.o.g that it is non-negative. The most widely used objective in the MDP framework is to maximise the total expected reward of the agent over the course of the planning horizon. This objective can take various forms, including an infinite planning horizon, with either discounted or average rewards, or a finite planning horizon. The theoretical contributions of this paper are applicable to all three frameworks, but for notational ease and for reasons of space we concern ourselves with the infinite horizon framework with discounted rewards. In this framework the boundedness of the objective function is ensured by the</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

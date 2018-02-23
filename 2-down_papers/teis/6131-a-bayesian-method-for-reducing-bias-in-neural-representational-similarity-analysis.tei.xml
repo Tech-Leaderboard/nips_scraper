@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Bayesian method for reducing bias in neural representational similarity analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ming</forename><forename type="middle">Bo</forename><surname>Cai</surname></persName>
+							<email>mcai@princeton.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><forename type="middle">W</forename><surname>Schuck</surname></persName>
+							<email>nschuck@princeton.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">W</forename><surname>Pillow</surname></persName>
+							<email>pillow@princeton.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yael</forename><surname>Niv</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Princeton Neuroscience Institute</orgName>
+								<orgName type="department" key="dep2">Princeton Neuroscience Institute</orgName>
+								<orgName type="laboratory">Princeton Neuroscience Institute Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit1">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<address>
+									<postCode>08544, 08544, 08544</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ, NJ, NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Princeton Neuroscience Institute Princeton University Princeton</orgName>
+								<address>
+									<postCode>08544</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Bayesian method for reducing bias in neural representational similarity analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In neuroscience, the similarity matrix of neural activity patterns in response to different sensory stimuli or under different cognitive states reflects the structure of neural representational space. Existing methods derive point estimations of neural activity patterns from noisy neural imaging data, and the similarity is calculated from these point estimations. We show that this approach translates structured noise from estimated patterns into spurious bias structure in the resulting similarity matrix, which is especially severe when signal-to-noise ratio is low and experimental conditions cannot be fully randomized in a cognitive task. We propose an alternative Bayesian framework for computing representational similarity in which we treat the covariance structure of neural activity patterns as a hyper-parameter in a generative model of the neural data, and directly estimate this covariance structure from imaging data while marginalizing over the unknown activity patterns. Converting the estimated covariance structure into a correlation matrix offers a much less biased estimate of neural representational similarity. Our method can also simultaneously estimate a signal-to-noise map that informs where the learned representational structure is supported more strongly, and the learned covariance matrix can be used as a structured prior to constrain Bayesian estimation of neural activity patterns. Our code is freely available in Brain Imaging Analysis Kit (Brainiak) (https://github.com/IntelPNI/brainiak). 1 Neural pattern similarity as a way to understand neural representations Understanding how patterns of neural activity relate to internal representations of the environment is one of the central themes of both system neuroscience and human neural imaging [20, 5, 7, 15]. One can record neural responses (e.g. by functional magnetic resonance imaging; fMRI) while participants observe sensory stimuli, and in parallel, build different computational models to mimic the brain&apos;s encoding of these stimuli. Neural activity pattern corresponding to each feature of an encoding model can then be estimated from the imaging data. Such activity patterns can be used to decode the perceived content with respect to the encoding features from new imaging data. The degree to which stimuli can be decoded from one brain area based on different encoding models informs us of the type of information represented in that area. For example, an encoding model based on motion energy in visual stimuli captured activity fluctuations from visual cortical areas V1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Lovász ϑ function, SVMs and finding large dense subgraphs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vinay</forename><surname>Jethava</surname></persName>
+							<email>jethava@chalmers.se</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anders</forename><surname>Martinsson</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chiranjib</forename><surname>Bhattacharyya</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devdatt</forename><surname>Dubhashi</surname></persName>
+							<email>dubhashi@chalmers.se</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science &amp; Engineering Department</orgName>
+								<orgName type="department" key="dep2">Department of Mathematics</orgName>
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<addrLine>412 96</addrLine>
+									<settlement>Goteborg</settlement>
+									<country key="SE">SWEDEN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of CSA, Indian Institute of Science Bangalore</orgName>
+								<orgName type="department" key="dep2">Computer Science &amp; Engineering Department</orgName>
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<addrLine>412 96</addrLine>
+									<postCode>560012</postCode>
+									<settlement>Goteborg</settlement>
+									<country>SWEDEN, INDIA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<addrLine>412 96</addrLine>
+									<settlement>Goteborg</settlement>
+									<country key="SE">SWEDEN</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Lovász ϑ function, SVMs and finding large dense subgraphs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The Lovász ϑ function of a graph, a fundamental tool in combinatorial optimization and approximation algorithms, is computed by solving a SDP. In this paper we establish that the Lovász ϑ function is equivalent to a kernel learning problem related to one class SVM. This interesting connection opens up many opportunities bridging graph theoretic algorithms and machine learning. We show that there exist graphs, which we call SVM − ϑ graphs, on which the Lovász ϑ function can be approximated well by a one-class SVM. This leads to novel use of SVM techniques for solving algorithmic problems in large graphs e.g. identifying a planted clique of size Θ(√ n) in a random graph G(n, 1 2). A classic approach for this problem involves computing the ϑ function, however it is not scalable due to SDP computation. We show that the random graph with a planted clique is an example of SVM − ϑ graph. As a consequence a SVM based approach easily identifies the clique in large graphs and is competitive with the state-of-the-art. We introduce the notion of common orthogonal labelling and show that it can be computed by solving a Multiple Kernel learning problem. It is further shown that such a labelling is extremely useful in identifying a large common dense subgraph in multiple graphs, which is known to be a computationally difficult problem. The proposed algorithm achieves an order of magnitude scalability compared to state of the art methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

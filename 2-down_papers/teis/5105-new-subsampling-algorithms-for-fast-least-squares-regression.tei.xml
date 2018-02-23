@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">New Subsampling Algorithms for Fast Least Squares Regression</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paramveer</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer &amp; Information Science</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yichao</forename><surname>Lu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Statistics (Wharton School</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dean</forename><surname>Foster</surname></persName>
+							<email>foster@wharton.upenn.edu, yichaolu@sas.upenn.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Statistics (Wharton School</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lyle</forename><surname>Ungar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer &amp; Information Science</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">New Subsampling Algorithms for Fast Least Squares Regression</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We address the problem of fast estimation of ordinary least squares (OLS) from large amounts of data (n p). We propose three methods which solve the big data problem by subsampling the covariance matrix using either a single or two stage estimation. All three run in the order of size of input i.e. O(np) and our best method, Uluru, gives an error bound of O(p/n) which is independent of the amount of subsampling as long as it is above a threshold. We provide theoretical bounds for our algorithms in the fixed design (with Randomized Hadamard pre-conditioning) as well as sub-Gaussian random design setting. We also compare the performance of our methods on synthetic and real-world datasets and show that if observations are i.i.d., sub-Gaussian then one can directly subsample without the expensive Randomized Hadamard preconditioning without loss of accuracy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

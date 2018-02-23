@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Sparse Interactive Model for Matrix Completion with Side Information</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jin</forename><surname>Lu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Connecticut Storrs</orgName>
+								<address>
+									<postCode>06269</postCode>
+									<region>CT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guannan</forename><surname>Liang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Connecticut Storrs</orgName>
+								<address>
+									<postCode>06269</postCode>
+									<region>CT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiangwen</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Connecticut Storrs</orgName>
+								<address>
+									<postCode>06269</postCode>
+									<region>CT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jinbo</forename><surname>Bi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Connecticut Storrs</orgName>
+								<address>
+									<postCode>06269</postCode>
+									<region>CT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Sparse Interactive Model for Matrix Completion with Side Information</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Matrix completion methods can benefit from side information besides the partially observed matrix. The use of side features that describe the row and column entities of a matrix has been shown to reduce the sample complexity for completing the matrix. We propose a novel sparse formulation that explicitly models the interaction between the row and column side features to approximate the matrix entries. Unlike early methods, this model does not require the low rank condition on the model parameter matrix. We prove that when the side features span the latent feature space of the matrix to be recovered, the number of observed entries needed for an exact recovery is O(log N) where N is the size of the matrix. If the side features are corrupted latent features of the matrix with a small perturbation, our method can achieve an-recovery with O(log N) sample complexity. If side information is useless, our method maintains a O(N 3/2) sampling rate similar to classic methods. An efficient linearized Lagrangian algorithm is developed with a convergence guarantee. Empirical results show that our approach outperforms three state-of-the-art methods both in simulations and on real world datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

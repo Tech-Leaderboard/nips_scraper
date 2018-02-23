@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Use of Bad Training Data For Better Predictions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><surname>Grossman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Complex Systems Group (T13)</orgName>
+								<orgName type="laboratory" key="lab2">Complex Systems Group (T13) LANL, MS B213 Los Alamos N.M. 87545 and The Santa Fe Institute</orgName>
+								<orgName type="institution">CNLS LANL</orgName>
+								<address>
+									<addrLine>Santa Fe</addrLine>
+									<postCode>MS B213</postCode>
+									<country>New Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Los</forename><surname>Alamos</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Complex Systems Group (T13)</orgName>
+								<orgName type="laboratory" key="lab2">Complex Systems Group (T13) LANL, MS B213 Los Alamos N.M. 87545 and The Santa Fe Institute</orgName>
+								<orgName type="institution">CNLS LANL</orgName>
+								<address>
+									<addrLine>Santa Fe</addrLine>
+									<postCode>MS B213</postCode>
+									<country>New Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>87545</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Complex Systems Group (T13)</orgName>
+								<orgName type="laboratory" key="lab2">Complex Systems Group (T13) LANL, MS B213 Los Alamos N.M. 87545 and The Santa Fe Institute</orgName>
+								<orgName type="institution">CNLS LANL</orgName>
+								<address>
+									<addrLine>Santa Fe</addrLine>
+									<postCode>MS B213</postCode>
+									<country>New Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><surname>Lapedes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Complex Systems Group (T13)</orgName>
+								<orgName type="laboratory" key="lab2">Complex Systems Group (T13) LANL, MS B213 Los Alamos N.M. 87545 and The Santa Fe Institute</orgName>
+								<orgName type="institution">CNLS LANL</orgName>
+								<address>
+									<addrLine>Santa Fe</addrLine>
+									<postCode>MS B213</postCode>
+									<country>New Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Use of Bad Training Data For Better Predictions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We show how randomly scrambling the output classes of various fractions of the training data may be used to improve predictive accuracy of a classification algorithm. We present a method for calculating the &quot;noise sensitivity signature&quot; of a learning algorithm which is based on scrambling the output classes. This signature can be used to indicate a good match between the complexity of the classifier and the complexity of the data. Use of noise sensitivity signatures is distinctly different from other schemes to avoid over-training, such as cross-validation, which uses only part of the training data, or various penalty functions, which are not data-adaptive. Noise sensitivity signature methods use all of the training data and are manifestly data-adaptive and non-parametric. They are well suited for situations with limited training data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

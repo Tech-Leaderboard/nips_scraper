@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Postal Address Block Location Using A Convolutional Locator Network</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralph</forename><surname>Wolf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Synaptics</orgName>
+								<address>
+									<addrLine>Inc. 2698 Orchard Parkway San Jose</addrLine>
+									<postCode>95134</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">C</forename><surname>Platt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Synaptics</orgName>
+								<address>
+									<addrLine>Inc. 2698 Orchard Parkway San Jose</addrLine>
+									<postCode>95134</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Postal Address Block Location Using A Convolutional Locator Network</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper describes the use of a convolutional neural network to perform address block location on machine-printed mail pieces. Locating the address block is a difficult object recognition problem because there is often a large amount of extraneous printing on a mail piece and because address blocks vary dramatically in size and shape. We used a convolutional locator network with four outputs, each trained to find a different corner of the address block. A simple set of rules was used to generate ABL candidates from the network output. The system performs very well: when allowed five guesses, the network will tightly bound the address delivery information in 98.2% of the cases.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

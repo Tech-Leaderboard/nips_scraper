@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning with a Wasserstein Loss</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charlie</forename><surname>Frogner</surname></persName>
+							<email>frogner@mit.edu, chiyuan@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Shell International E &amp; P, Inc</orgName>
+								<orgName type="department" key="dep3">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">CSAIL Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chiyuan</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Shell International E &amp; P, Inc</orgName>
+								<orgName type="department" key="dep3">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">CSAIL Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hossein</forename><surname>Mobahi</surname></persName>
+							<email>hmobahi@csail.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Shell International E &amp; P, Inc</orgName>
+								<orgName type="department" key="dep3">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">CSAIL Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mauricio</forename><surname>Araya-Polo</surname></persName>
+							<email>Mauricio.Araya@shell.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Shell International E &amp; P, Inc</orgName>
+								<orgName type="department" key="dep3">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">CSAIL Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tomaso</forename><surname>Poggio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Shell International E &amp; P, Inc</orgName>
+								<orgName type="department" key="dep3">Center for Brains, Minds and Machines Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">CSAIL Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning with a Wasserstein Loss</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning to predict multi-label outputs is challenging, but in many problems there is a natural metric on the outputs that can be used to improve predictions. In this paper we develop a loss function for multi-label learning, based on the Wasserstein distance. The Wasserstein distance provides a natural notion of dissimilarity for probability measures. Although optimizing with respect to the exact Wasserstein distance is costly, recent work has described a regularized approximation that is efficiently computed. We describe an efficient learning algorithm based on this regularization, as well as a novel extension of the Wasserstein distance from probability measures to unnormalized measures. We also describe a statistical learning bound for the loss. The Wasserstein loss can encourage smoothness of the predictions with respect to a chosen metric on the output space. We demonstrate this property on a real-data tag prediction problem, using the Yahoo Flickr Creative Commons dataset, outperforming a baseline that doesn&apos;t use the metric.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

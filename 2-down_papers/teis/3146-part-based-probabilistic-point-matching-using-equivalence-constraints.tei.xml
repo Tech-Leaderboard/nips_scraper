@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Part-based Probabilistic Point Matching using Equivalence Constraints</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Graham</forename><surname>Mcneill</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Perception, Action and Behavior School of Informatics</orgName>
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<postCode>EH9 3JZ</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sethu</forename><surname>Vijayakumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Perception, Action and Behavior School of Informatics</orgName>
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<postCode>EH9 3JZ</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Part-based Probabilistic Point Matching using Equivalence Constraints</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Correspondence algorithms typically struggle with shapes that display part-based variation. We present a probabilistic approach that matches shapes using independent part transformations, where the parts themselves are learnt during matching. Ideas from semi-supervised learning are used to bias the algorithm towards finding &apos;perceptually valid&apos; part structures. Shapes are represented by unlabeled point sets of arbitrary size and a background component is used to handle occlusion, local dissimilarity and clutter. Thus, unlike many shape matching techniques, our approach can be applied to shapes extracted from real images. Model parameters are estimated using an EM algorithm that alternates between finding a soft correspondence and computing the optimal part transformations using Procrustes analysis.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

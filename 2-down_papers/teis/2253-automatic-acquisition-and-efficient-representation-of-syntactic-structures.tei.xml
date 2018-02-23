@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Automatic Acquisition and Efficient Representation of Syntactic Structures</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zach</forename><surname>Solan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Exact Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Psychology</orgName>
+								<orgName type="institution">Tel Aviv University Tel Aviv</orgName>
+								<address>
+									<postCode>69978</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eytan</forename><surname>Ruppin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Exact Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Psychology</orgName>
+								<orgName type="institution">Tel Aviv University Tel Aviv</orgName>
+								<address>
+									<postCode>69978</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Horn</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Faculty of Exact Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Psychology</orgName>
+								<orgName type="institution">Tel Aviv University Tel Aviv</orgName>
+								<address>
+									<postCode>69978</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shimon</forename><surname>Edelman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Cornell University Ithaca</orgName>
+								<address>
+									<postCode>14853</postCode>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Automatic Acquisition and Efficient Representation of Syntactic Structures</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The distributional principle according to which morphemes that occur in identical contexts belong, in some sense, to the same category [1] has been advanced as a means for extracting syntactic structures from corpus data. We extend this principle by applying it recursively, and by using mutual information for estimating category coherence. The resulting model learns, in an unsupervised fashion, highly structured, distributed representations of syntactic knowledge from corpora. It also exhibits promising behavior in tasks usually thought to require representations anchored in a grammar, such as systematicity. 1 Motivation Models dealing with the acquisition of syntactic knowledge are sharply divided into two classes, depending on whether they subscribe to some variant of the classical generative theory of syntax, or operate within the framework of &quot;general-purpose&quot; statistical or dis-tributional learning. An example of the former is the model of [2], which attempts to learn syntactic structures such as Functional Category, as stipulated by the Government and Binding theory. An example of the latter model is Elman&apos;s widely used Simple Recur-sive Network (SRN) [3]. We believe that polarization between statistical and classical (generative, rule-based) approaches to syntax is counterproductive, because it hampers the integration of the stronger aspects of each method into a common powerful framework. Indeed, on the one hand, the statistical approach is geared to take advantage of the considerable progress made to date in the areas of distributed representation, probabilistic learning, and &quot;connectionist&quot; model-ing. Yet, generic connectionist architectures are ill-suited to the abstraction and processing of symbolic information. On the other hand, classical rule-based systems excel in just those tasks, yet are brittle and difficult to train. We present a scheme that acquires &quot;raw&quot; syntactic information construed in a distributional sense, yet also supports the distillation of rule-like regularities out of the accrued statistical knowledge. Our research is motivated by linguistic theories that postulate syntactic structures (and transformations) rooted in distributional data, as exemplified by the work of Zellig Harris [1].</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

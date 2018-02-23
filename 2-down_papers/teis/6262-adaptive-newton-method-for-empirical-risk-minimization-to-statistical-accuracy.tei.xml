@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Adaptive Newton Method for Empirical Risk Minimization to Statistical Accuracy</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aryan</forename><surname>Mokhtari</surname></persName>
+							<email>aryanm@seas.upenn.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hadi</forename><surname>Daneshmand</surname></persName>
+							<email>hadi.daneshmand@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eth</forename><surname>Zurich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Switzerland</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aurelien</forename><surname>Lucchi</surname></persName>
+							<email>aurelien.lucchi@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eth</forename><surname>Zurich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Switzerland</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Hofmann</surname></persName>
+							<email>thomas.hofmann@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eth</forename><surname>Zurich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Switzerland</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alejandro</forename><surname>Ribeiro</surname></persName>
+							<email>aribeiro@seas.upenn.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Adaptive Newton Method for Empirical Risk Minimization to Statistical Accuracy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider empirical risk minimization for large-scale datasets. We introduce Ada Newton as an adaptive algorithm that uses Newton&apos;s method with adaptive sample sizes. The main idea of Ada Newton is to increase the size of the training set by a factor larger than one in a way that the minimization variable for the current training set is in the local neighborhood of the optimal argument of the next training set. This allows to exploit the quadratic convergence property of Newton&apos;s method and reach the statistical accuracy of each training set with only one iteration of Newton&apos;s method. We show theoretically that we can iteratively increase the sample size while applying single Newton iterations without line search and staying within the statistical accuracy of the regularized empirical risk. In particular, we can double the size of the training set in each iteration when the number of samples is sufficiently large. Numerical experiments on various datasets confirm the possibility of increasing the sample size by factor 2 at each iteration which implies that Ada Newton achieves the statistical accuracy of the full training set with about two passes over the dataset. 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

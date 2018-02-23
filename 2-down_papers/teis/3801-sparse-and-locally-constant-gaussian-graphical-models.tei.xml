@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Sparse and Locally Constant Gaussian Graphical Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean</forename><surname>Honorio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Laboratoire MAS Ecole Centrale Paris Chatenay-Malabry Medical Department Brookhaven National Laboratory Upton</orgName>
+								<orgName type="institution">Stony Brook University Stony Brook</orgName>
+								<address>
+									<postCode>11794, 11973</postCode>
+									<settlement>NY</settlement>
+									<region>NY</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luis</forename><surname>Ortiz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Laboratoire MAS Ecole Centrale Paris Chatenay-Malabry Medical Department Brookhaven National Laboratory Upton</orgName>
+								<orgName type="institution">Stony Brook University Stony Brook</orgName>
+								<address>
+									<postCode>11794, 11973</postCode>
+									<settlement>NY</settlement>
+									<region>NY</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dimitris</forename><surname>Samaras</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Laboratoire MAS Ecole Centrale Paris Chatenay-Malabry Medical Department Brookhaven National Laboratory Upton</orgName>
+								<orgName type="institution">Stony Brook University Stony Brook</orgName>
+								<address>
+									<postCode>11794, 11973</postCode>
+									<settlement>NY</settlement>
+									<region>NY</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nikos</forename><surname>Paragios</surname></persName>
+							<email>nikos.paragios@ecp.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Laboratoire MAS Ecole Centrale Paris Chatenay-Malabry Medical Department Brookhaven National Laboratory Upton</orgName>
+								<orgName type="institution">Stony Brook University Stony Brook</orgName>
+								<address>
+									<postCode>11794, 11973</postCode>
+									<settlement>NY</settlement>
+									<region>NY</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rita</forename><surname>Goldstein</surname></persName>
+							<email>rgoldstein@bnl.gov</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Laboratoire MAS Ecole Centrale Paris Chatenay-Malabry Medical Department Brookhaven National Laboratory Upton</orgName>
+								<orgName type="institution">Stony Brook University Stony Brook</orgName>
+								<address>
+									<postCode>11794, 11973</postCode>
+									<settlement>NY</settlement>
+									<region>NY</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Sparse and Locally Constant Gaussian Graphical Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Locality information is crucial in datasets where each variable corresponds to a measurement in a manifold (silhouettes, motion trajectories, 2D and 3D images). Although these datasets are typically under-sampled and high-dimensional, they often need to be represented with low-complexity statistical models, which are comprised of only the important probabilistic dependencies in the datasets. Most methods attempt to reduce model complexity by enforcing structure sparseness. However, sparseness cannot describe inherent regularities in the structure. Hence, in this paper we first propose a new class of Gaussian graphical models which, together with sparseness, imposes local constancy through 񮽙 1-norm penalization. Second, we propose an efficient algorithm which decomposes the strictly convex maximum likelihood estimation into a sequence of problems with closed form solutions. Through synthetic experiments, we evaluate the closeness of the recovered models to the ground truth. We also test the generalization performance of our method in a wide range of complex real-world datasets and demonstrate that it captures useful structures such as the rotation and shrinking of a beating heart, motion correlations between body parts during walking and functional interactions of brain regions. Our method outperforms the state-of-the-art structure learning techniques for Gaussian graphical models both for small and large datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

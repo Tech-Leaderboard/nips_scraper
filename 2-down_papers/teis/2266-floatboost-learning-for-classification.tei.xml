@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">FloatBoost Learning for Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stan</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhenqiu</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Heung-Yeung</forename><surname>Shum</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hongjiang</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Automation CAS</orgName>
+								<orgName type="institution">Microsoft Research Asia Beijing</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country>China, China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Microsoft Research Asia Beijing</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Microsoft Research Asia Beijing</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">FloatBoost Learning for Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>AdaBoost [3] minimizes an upper error bound which is an exponential function of the margin on the training set [14]. However, the ultimate goal in applications of pattern classification is always minimum error rate. On the other hand, AdaBoost needs an effective procedure for learning weak classifiers, which by itself is difficult especially for high dimensional data. In this paper, we present a novel procedure, called FloatBoost, for learning a better boosted classifier. FloatBoost uses a backtrack mechanism after each iteration of AdaBoost to remove weak classifiers which cause higher error rates. The resulting float-boosted classifier consists of fewer weak classifiers yet achieves lower error rates than AdaBoost in both training and test. We also propose a statistical model for learning weak classifiers, based on a stagewise approximation of the posterior using an overcomplete set of scalar features. Experimental comparisons of FloatBoost and AdaBoost are provided through a difficult classification problem, face detection, where the goal is to learn from training examples a highly nonlinear classifier to differentiate between face and nonface patterns in a high dimensional space. The results clearly demonstrate the promises made by FloatBoost over AdaBoost.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

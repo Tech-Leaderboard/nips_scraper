@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Machine Learning for Video-Based Rendering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arno</forename><surname>Schadl</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Georgia Institute of Technology GVU Center / College of Computing Atlanta</orgName>
+								<address>
+									<postCode>30332-0280</postCode>
+									<region>GA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Irfan</forename><surname>Essa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Georgia Institute of Technology GVU Center / College of Computing Atlanta</orgName>
+								<address>
+									<postCode>30332-0280</postCode>
+									<region>GA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Machine Learning for Video-Based Rendering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present techniques for rendering and animation of realistic scenes by analyzing and training on short video sequences. This work extends the new paradigm for computer animation, video textures , which uses recorded video to generate novel animations by replaying the video samples in a new order. Here we concentrate on video sprites, which are a special type of video texture. In video sprites, instead of storing whole images, the object of interest is separated from the background and the video samples are stored as a sequence of alpha-matted sprites with associated velocity information. They can be rendered anywhere on the screen to create a novel animation of the object. We present methods to create such animations by finding a sequence of sprite samples that is both visually smooth and follows a desired path. To estimate visual smoothness, we train a linear classifier to estimate visual similarity between video samples. If the motion path is known in advance, we use beam search to find a good sample sequence. We can specify the motion interactively by precomputing the sequence cost function using Q-Iearning.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

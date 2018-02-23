@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Approximate Linear Programming for Average-Cost Dynamic Programming</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniela</forename><surname>Pucci De Farias</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management Science and Engineering</orgName>
+								<orgName type="institution">IBM Almaden Research Center</orgName>
+								<address>
+									<addrLine>650 Harry Road</addrLine>
+									<postCode>95120</postCode>
+									<settlement>San Jose</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><forename type="middle">Van</forename><surname>Roy</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Approximate Linear Programming for Average-Cost Dynamic Programming</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper extends our earlier analysis on approximate linear programming as an approach to approximating the cost-to-go function in a discounted-cost dynamic program [6]. In this paper, we consider the average-cost criterion and a version of approximate linear programming that generates approximations to the optimal average cost and differential cost function. We demonstrate that a naive version of approximate linear programming prioritizes approximation of the optimal average cost and that this may not be well-aligned with the objective of deriving a policy with low average cost. For that, the algorithm should aim at producing a good approximation of the differential cost function. We propose a two-phase variant of approximate linear programming that allows for external control of the relative accuracy of the approximation of the differential cost function over different portions of the state space via state-relevance weights. Performance bounds suggest that the new algorithm is compatible with the objective of optimizing performance and provide guidance on appropriate choices for state-relevance weights.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

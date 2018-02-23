@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Bayes Rule for Density Matrices</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manfred</forename><forename type="middle">K</forename><surname>Warmuth</surname></persName>
+							<email>manfred@cse.ucsc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Department</orgName>
+								<orgName type="institution">University of California at Santa Cruz</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Bayes Rule for Density Matrices</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The classical Bayes rule computes the posterior model probability from the prior probability and the data likelihood. We generalize this rule to the case when the prior is a density matrix (symmetric positive definite and trace one) and the data likelihood a covariance matrix. The classical Bayes rule is retained as the special case when the matrices are diagonal. In the classical setting, the calculation of the probability of the data is an expected likelihood, where the expectation is over the prior distribution. In the generalized setting, this is replaced by an expected variance calculation where the variance is computed along the eigenvectors of the prior density matrix and the expectation is over the eigenvalues of the density matrix (which form a probability vector). The variances along any direction is determined by the covariance matrix. Curiously enough this expected variance calculation is a quantum measurement where the co-variance matrix specifies the instrument and the prior density matrix the mixture state of the particle. We motivate both the classical and the generalized Bayes rule with a minimum relative entropy principle , where the Kullbach-Leibler version gives the classical Bayes rule and Umegaki&apos;s quantum relative entropy the new Bayes rule for density matrices.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

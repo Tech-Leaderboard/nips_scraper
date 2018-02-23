@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Locally Uniform Comparison Image Descriptor</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Ziegler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">San Diego</orgName>
+								<orgName type="institution">University of California</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Christiansen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">San Diego</orgName>
+								<orgName type="institution">University of California</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Kriegman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">San Diego</orgName>
+								<orgName type="institution">University of California</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Serge</forename><surname>Belongie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">San Diego</orgName>
+								<orgName type="institution">University of California</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Locally Uniform Comparison Image Descriptor</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Keypoint matching between pairs of images using popular descriptors like SIFT or a faster variant called SURF is at the heart of many computer vision algorithms including recognition, mosaicing, and structure from motion. However, SIFT and SURF do not perform well for real-time or mobile applications. As an alternative very fast binary descriptors like BRIEF and related methods use pairwise comparisons of pixel intensities in an image patch. We present an analysis of BRIEF and related approaches revealing that they are hashing schemes on the ordinal correlation metric Kendall&apos;s tau. Here, we introduce Locally Uniform Comparison Image Descriptor (LUCID), a simple description method based on linear time permutation distances between the ordering of RGB values of two image patches. LUCID is computable in linear time with respect to the number of pixels and does not require floating point computation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

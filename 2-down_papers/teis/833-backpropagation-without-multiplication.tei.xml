@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Backpropagation without Multiplication</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrice</forename><forename type="middle">Y</forename><surname>Simard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">AT &amp;T</orgName>
+								<orgName type="institution">Bell Laboratories Holmdel</orgName>
+								<address>
+									<postCode>07733</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Backpropagation without Multiplication</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Hans Peter Graf AT&amp;T Bell Laboratories Holmdel, NJ 07733 The back propagation algorithm has been modified to work without any multiplications and to tolerate comput.ations with a low resolution, which makes it. more attractive for a hardware imple-mentatioll. Numbers are represented in float.ing point format with 1 bit mantissa and 3 bits in the exponent for the states, and 1 bit mantissa and 5 bit exponent. for the gradients, while the weights are 16 bit fixed-point numbers. In this way, all the computations can be executed with shift and add operations. Large nehvorks with over 100,000 weights were t.rained and demonstrat.ed the same performance as networks comput.ed with full precision. An estimate of a circuit implementatioll shows that a large network can be placed on a single chip , reaching more t.han 1 billion weight updat.es pel&apos; second. A speedup is also obtained on any machine where a multiplication is slower than a shift operat.ioJl.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

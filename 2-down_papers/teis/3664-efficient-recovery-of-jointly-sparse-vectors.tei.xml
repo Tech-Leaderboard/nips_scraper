@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Recovery of Jointly Sparse Vectors</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liang</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computing, Informatics</orgName>
+								<orgName type="department" key="dep2">Decision Systems Engineering</orgName>
+								<orgName type="institution">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287</postCode>
+									<region>AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jun</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computing, Informatics</orgName>
+								<orgName type="department" key="dep2">Decision Systems Engineering</orgName>
+								<orgName type="institution">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287</postCode>
+									<region>AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jianhui</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computing, Informatics</orgName>
+								<orgName type="department" key="dep2">Decision Systems Engineering</orgName>
+								<orgName type="institution">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287</postCode>
+									<region>AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jieping</forename><surname>Ye</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Computing, Informatics</orgName>
+								<orgName type="department" key="dep2">Decision Systems Engineering</orgName>
+								<orgName type="institution">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287</postCode>
+									<region>AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Recovery of Jointly Sparse Vectors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the reconstruction of sparse signals in the multiple measurement vector (MMV) model, in which the signal, represented as a matrix, consists of a set of jointly sparse vectors. MMV is an extension of the single measurement vector (SMV) model employed in standard compressive sensing (CS). Recent theoretical studies focus on the convex relaxation of the MMV problem based on the (2, 1)-norm minimization, which is an extension of the well-known 1-norm minimization employed in SMV. However, the resulting convex optimization problem in MMV is significantly much more difficult to solve than the one in SMV. Existing algorithms reformulate it as a second-order cone programming (SOCP) or semidefinite programming (SDP) problem, which is computationally expensive to solve for problems of moderate size. In this paper, we propose a new (dual) reformulation of the convex optimization problem in MMV and develop an efficient algorithm based on the prox-method. Interestingly, our theoretical analysis reveals the close connection between the proposed reformulation and multiple kernel learning. Our simulation studies demonstrate the scalability of the proposed algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Half-Lives of EigenFlows for Spectral Clustering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chakra</forename><surname>Chennubhotla</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<postCode>M5S 3H5</postCode>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Allan</forename><forename type="middle">D</forename><surname>Jepson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<postCode>M5S 3H5</postCode>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Half-Lives of EigenFlows for Spectral Clustering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Using a Markov chain perspective of spectral clustering we present an algorithm to automatically find the number of stable clusters in a dataset. The Markov chain&apos;s behaviour is characterized by the spectral properties of the matrix of transition probabilities, from which we derive eigenflows along with their halflives. An eigenflow describes the flow of probability mass due to the Markov chain, and it is characterized by its eigen-value, or equivalently, by the halflife of its decay as the Markov chain is iterated. A ideal stable cluster is one with zero eigenflow and infinite half-life. The key insight in this paper is that bottlenecks between weakly coupled clusters can be identified by computing the sensitivity of the eigenflow&apos;s halflife to variations in the edge weights. We propose a novel EIGENCUTS algorithm to perform clustering that removes these identified bottlenecks in an iterative fashion.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

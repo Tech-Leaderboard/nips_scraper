@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cost efficient gradient boosting</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sven</forename><surname>Peter</surname></persName>
+							<email>sven.peter@iwr.uni-heidelberg.de</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ferran</forename><surname>Diego</surname></persName>
+							<email>ferran.diegoandilla@de.bosch.com</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fred</forename><forename type="middle">A</forename><surname>Hamprecht</surname></persName>
+							<email>fred.hamprecht@iwr.uni-heidelberg.de</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Boaz</forename><surname>Nadler</surname></persName>
+							<email>boaz.nadler@weizmann.ac.il</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Heidelberg Collaboratory for Image Processing Interdisciplinary Center for Scientific Computing</orgName>
+								<orgName type="institution">University of Heidelberg</orgName>
+								<address>
+									<postCode>69115</postCode>
+									<settlement>Heidelberg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science Weizmann Institute of Science Rehovot</orgName>
+								<orgName type="laboratory">Heidelberg Collaboratory for Image Processing Interdisciplinary Center for Scientific Computing University of Heidelberg</orgName>
+								<orgName type="institution">Robert Bosch GmbH</orgName>
+								<address>
+									<addrLine>Robert-Bosch-Straße 200</addrLine>
+									<postCode>31139, 69115, 76100</postCode>
+									<settlement>Hildesheim, Heidelberg</settlement>
+									<country>Germany, Germany, Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cost efficient gradient boosting</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many applications require learning classifiers or regressors that are both accurate and cheap to evaluate. Prediction cost can be drastically reduced if the learned predictor is constructed such that on the majority of the inputs, it uses cheap features and fast evaluations. The main challenge is to do so with little loss in accuracy. In this work we propose a budget-aware strategy based on deep boosted regression trees. In contrast to previous approaches to learning with cost penalties, our method can grow very deep trees that on average are nonetheless cheap to compute. We evaluate our method on a number of datasets and find that it outperforms the current state of the art by a large margin. Our algorithm is easy to implement and its learning time is comparable to that of the original gradient boosting. Source code is made available at http://github.com/svenpeter42/LightGBM-CEGB.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

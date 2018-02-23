@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Coded Distributed Computing for Inverse Problems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Pulkit Grover</roleName><forename type="first">Yaoqing</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Soummya</forename><surname>Kar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Coded Distributed Computing for Inverse Problems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Computationally intensive distributed and parallel computing is often bottlenecked by a small set of slow workers known as stragglers. In this paper, we utilize the emerging idea of &quot;coded computation&quot; to design a novel error-correcting-code inspired technique for solving linear inverse problems under specific iterative methods in a parallelized implementation affected by stragglers. Example machine-learning applications include inverse problems such as personalized PageRank and sampling on graphs. We provably show that our coded-computation technique can reduce the mean-squared error under a computational deadline constraint. In fact, the ratio of mean-squared error of replication-based and coded techniques diverges to infinity as the deadline increases. Our experiments for personalized PageRank performed on real systems and real social networks show that this ratio can be as large as 10 4. Further, unlike coded-computation techniques proposed thus far, our strategy combines outputs of all workers, including the stragglers, to produce more accurate estimates at the computational deadline. This also ensures that the accuracy degrades &quot;gracefully&quot; in the event that the number of stragglers is large.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

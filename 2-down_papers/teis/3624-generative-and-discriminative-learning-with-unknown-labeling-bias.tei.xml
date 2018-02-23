@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Generative and Discriminative Learning with Unknown Labeling Bias</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Miroslav</forename><surname>Dudík</surname></persName>
+							<email>mdudik@cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs − Research</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<addrLine>5000 Forbes Ave, 180 Park Ave, Florham Park</addrLine>
+									<postCode>15213, 07932</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA, NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+							<email>phillips@research.att.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs − Research</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<addrLine>5000 Forbes Ave, 180 Park Ave, Florham Park</addrLine>
+									<postCode>15213, 07932</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA, NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Generative and Discriminative Learning with Unknown Labeling Bias</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We apply robust Bayesian decision theory to improve both generative and discrim-inative learners under bias in class proportions in labeled training data, when the true class proportions are unknown. For the generative case, we derive an entropy-based weighting that maximizes expected log likelihood under the worst-case true class proportions. For the discriminative case, we derive a multinomial logistic model that minimizes worst-case conditional log loss. We apply our theory to the modeling of species geographic distributions from presence data, an extreme case of labeling bias since there is no absence data. On a benchmark dataset, we find that entropy-based weighting offers an improvement over constant estimates of class proportions, consistently reducing log loss on unbiased test data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

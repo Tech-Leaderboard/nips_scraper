@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Probabilistic low-rank matrix completion on finite alphabets</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean</forename><surname>Lafond</surname></persName>
+							<email>jean.lafond@telecom-paristech.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">CREST et MODAL&apos;X</orgName>
+								<orgName type="laboratory">fr´frÉric Moulines Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit1">Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit2">Université Paris Ouest</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olga</forename><surname>Klopp</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">CREST et MODAL&apos;X</orgName>
+								<orgName type="laboratory">fr´frÉric Moulines Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit1">Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit2">Université Paris Ouest</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olga</forename><forename type="middle">Cnrs</forename><surname>Klopp@math</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">CREST et MODAL&apos;X</orgName>
+								<orgName type="laboratory">fr´frÉric Moulines Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit1">Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit2">Université Paris Ouest</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fréric</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">CREST et MODAL&apos;X</orgName>
+								<orgName type="laboratory">fr´frÉric Moulines Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit1">Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit2">Université Paris Ouest</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Salmon</surname></persName>
+							<email>joseph.salmon@telecom-paristech.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">CREST et MODAL&apos;X</orgName>
+								<orgName type="laboratory">fr´frÉric Moulines Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit1">Institut Mines-Télécom Télécom ParisTech CNRS LTCI</orgName>
+								<orgName type="institution" key="instit2">Université Paris Ouest</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Probabilistic low-rank matrix completion on finite alphabets</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The task of reconstructing a matrix given a sample of observed entries is known as the matrix completion problem. It arises in a wide range of problems, including recommender systems, collaborative filtering, dimensionality reduction, image processing, quantum physics or multi-class classification to name a few. Most works have focused on recovering an unknown real-valued low-rank matrix from randomly sub-sampling its entries. Here, we investigate the case where the observations take a finite number of values, corresponding for examples to ratings in recommender systems or labels in multi-class classification. We also consider a general sampling scheme (not necessarily uniform) over the matrix entries. The performance of a nuclear-norm penalized estimator is analyzed theoretically. More precisely, we derive bounds for the Kullback-Leibler divergence between the true and estimated distributions. In practice, we have also proposed an efficient algorithm based on lifted coordinate gradient descent in order to tackle potentially high dimensional settings.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

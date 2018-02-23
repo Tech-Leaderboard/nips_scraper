@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning convolution filters for inverse covariance estimation of neural network connectivity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><forename type="middle">O</forename><surname>Mohler</surname></persName>
+							<email>gmohler@scu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mathematics and Computer Science</orgName>
+								<orgName type="institution">Santa Clara University University Santa Clara</orgName>
+								<address>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning convolution filters for inverse covariance estimation of neural network connectivity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of inferring direct neural network connections from Calcium imaging time series. Inverse covariance estimation has proven to be a fast and accurate method for learning macro-and micro-scale network connectivity in the brain and in a recent Kaggle Connectomics competition inverse covariance was the main component of several top ten solutions, including our own and the winning team&apos;s algorithm. However, the accuracy of inverse covariance estimation is highly sensitive to signal preprocessing of the Calcium fluorescence time series. Furthermore, brute force optimization methods such as grid search and coordinate ascent over signal processing parameters is a time intensive process, where learning may take several days and parameters that optimize one network may not generalize to networks with different size and parameters. In this paper we show how inverse covariance estimation can be dramatically improved using a simple convolution filter prior to applying sample covariance. Furthermore, these signal processing parameters can be learned quickly using a supervised optimization algorithm. In particular, we maximize a binomial log-likelihood loss function with respect to a convolution filter of the time series and the inverse covariance regularization parameter. Our proposed algorithm is relatively fast on networks the size of those in the competition (1000 neurons), producing AUC scores with similar accuracy to the winning solution in training time under 2 hours on a cpu. Prediction on new networks of the same size is carried out in less than 15 minutes, the time it takes to read in the data and write out the solution.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

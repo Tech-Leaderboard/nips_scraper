@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multiple Kernel Learning and the SMO Algorithm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">V N</forename><surname>Vishwanathan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Purdue University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research</orgName>
+								<address>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhaonan</forename><surname>Sun</surname></persName>
+							<email>sunz@stat.purdue.edu,</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Purdue University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research</orgName>
+								<address>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nawanol</forename><surname>Theera-Ampornpunt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Purdue University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research</orgName>
+								<address>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manik</forename><surname>Varma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Purdue University</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research</orgName>
+								<address>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multiple Kernel Learning and the SMO Algorithm</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Our objective is to train p-norm Multiple Kernel Learning (MKL) and, more generally , linear MKL regularised by the Bregman divergence, using the Sequential Minimal Optimization (SMO) algorithm. The SMO algorithm is simple, easy to implement and adapt, and efficiently scales to large problems. As a result, it has gained widespread acceptance and SVMs are routinely trained using SMO in diverse real world applications. Training using SMO has been a long standing goal in MKL for the very same reasons. Unfortunately, the standard MKL dual is not differentiable, and therefore can not be optimised using SMO style coordinate ascent. In this paper, we demonstrate that linear MKL regularised with the p-norm squared, or with certain Bregman divergences, can indeed be trained using SMO. The resulting algorithm retains both simplicity and efficiency and is significantly faster than state-of-the-art specialised p-norm MKL solvers. We show that we can train on a hundred thousand kernels in approximately seven minutes and on fifty thousand points in less than half an hour on a single core.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

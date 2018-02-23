@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Optimization for Average Precision SVM</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pritish</forename><surname>Mohapatra</surname></persName>
+							<email>pritish.mohapatra@research.iiit.ac.in</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IIIT Hyderabad</orgName>
+								<orgName type="institution" key="instit2">IIIT Hyderabad</orgName>
+								<orgName type="institution" key="instit3">Ecole Centrale Paris &amp; INRIA</orgName>
+								<address>
+									<settlement>Saclay</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">V</forename><surname>Jawahar</surname></persName>
+							<email>jawahar@iiit.ac.in</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IIIT Hyderabad</orgName>
+								<orgName type="institution" key="instit2">IIIT Hyderabad</orgName>
+								<orgName type="institution" key="instit3">Ecole Centrale Paris &amp; INRIA</orgName>
+								<address>
+									<settlement>Saclay</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pawan Kumar</surname></persName>
+							<email>pawan.kumar@ecp.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IIIT Hyderabad</orgName>
+								<orgName type="institution" key="instit2">IIIT Hyderabad</orgName>
+								<orgName type="institution" key="instit3">Ecole Centrale Paris &amp; INRIA</orgName>
+								<address>
+									<settlement>Saclay</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Optimization for Average Precision SVM</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The accuracy of information retrieval systems is often measured using average precision (AP). Given a set of positive (relevant) and negative (non-relevant) samples , the parameters of a retrieval system can be estimated using the AP-SVM framework, which minimizes a regularized convex upper bound on the empirical AP loss. However, the high computational complexity of loss-augmented inference , which is required for learning an AP-SVM, prohibits its use with large training datasets. To alleviate this deficiency, we propose three complementary approaches. The first approach guarantees an asymptotic decrease in the computational complexity of loss-augmented inference by exploiting the problem structure. The second approach takes advantage of the fact that we do not require a full ranking during loss-augmented inference. This helps us to avoid the expensive step of sorting the negative samples according to their individual scores. The third approach approximates the AP loss over all samples by the AP loss over difficult samples (for example, those that are incorrectly classified by a binary SVM), while ensuring the correct classification of the remaining samples. Using the PAS-CAL VOC action classification and object detection datasets, we show that our approaches provide significant speed-ups during training without degrading the test accuracy of AP-SVM.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

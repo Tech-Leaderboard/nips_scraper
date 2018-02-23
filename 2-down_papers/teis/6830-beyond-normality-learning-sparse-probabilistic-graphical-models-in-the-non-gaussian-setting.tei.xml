@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Beyond normality: Learning sparse probabilistic graphical models in the non-Gaussian setting</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rebecca</forename><forename type="middle">E</forename><surname>Morrison</surname></persName>
+							<email>rmorriso@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">MIT</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Baptista</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">MIT</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Youssef</forename><surname>Marzouk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MIT</orgName>
+								<orgName type="institution" key="instit2">MIT</orgName>
+								<orgName type="institution" key="instit3">MIT</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Beyond normality: Learning sparse probabilistic graphical models in the non-Gaussian setting</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present an algorithm to identify sparse dependence structure in continuous and non-Gaussian probability distributions, given a corresponding set of data. The conditional independence structure of an arbitrary distribution can be represented as an undirected graph (or Markov random field), but most algorithms for learning this structure are restricted to the discrete or Gaussian cases. Our new approach allows for more realistic and accurate descriptions of the distribution in question, and in turn better estimates of its sparse Markov structure. Sparsity in the graph is of interest as it can accelerate inference, improve sampling methods, and reveal important dependencies between variables. The algorithm relies on exploiting the connection between the sparsity of the graph and the sparsity of transport maps, which deterministically couple one probability measure to another. 1 Undirected probabilistic graphical models Given n samples from the joint probability distribution of some random variables X 1 ,. .. , X p , a common goal is to discover the underlying Markov random field. This field is specified by an undirected graph G, comprising the set of vertices V = {1,. .. , p} and the set of edges E. The edge set E encodes the conditional independence structure of the distribution, i.e., e jk / ∈ E ⇐⇒ X j ⊥ ⊥ X k | X V \{jk}. Finding the edges of the graph is useful for several reasons: knowledge of conditional independence relations can accelerate inference and improve sampling methods, as well as illuminate structure underlying the process that generated the data samples. This problem-identifying an undirected graph given samples-is quite well studied for Gaussian or discrete distributions. In the Gaussian setting, the inverse covariance, or precision, matrix precisely encodes the sparsity of the graph. That is, a zero appears in the jk-th entry of the precision if and only if variables X j and X k are conditionally independent given the rest. Estimation of the support of the precision matrix is often achieved using a maximum likelihood estimate with 1 penalties. Coordinate descent (glasso) [4] and neighborhood selection [14] algorithms can be consistent for sparse recovery with few samples, i.e., p &gt; n. In the discrete setting, [12] showed that for some particular graph structure, the support of a generalized covariance matrix encodes the conditional independence structure of the graph, while [21] employed sparse 1-penalized logistic regression to identify Ising Markov random fields.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

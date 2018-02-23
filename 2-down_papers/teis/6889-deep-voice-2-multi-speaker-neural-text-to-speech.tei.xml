@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Deep Voice 2: Multi-Speaker Neural Text-to-Speech</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sercan</forename><forename type="middle">Ö</forename><surname>Arık</surname></persName>
+							<email>sercanarik@baidu.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Baidu Silicon Valley Artificial Intelligence Lab</orgName>
+								<address>
+									<addrLine>1195 Bordeaux Dr. Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><surname>Diamos</surname></persName>
+							<email>gregdiamos@baidu.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Baidu Silicon Valley Artificial Intelligence Lab</orgName>
+								<address>
+									<addrLine>1195 Bordeaux Dr. Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Gibiansky</surname></persName>
+							<email>gibianskyandrew@baidu.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Baidu Silicon Valley Artificial Intelligence Lab</orgName>
+								<address>
+									<addrLine>1195 Bordeaux Dr. Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Miller</surname></persName>
+							<email>millerjohn@baidu.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Baidu Silicon Valley Artificial Intelligence Lab</orgName>
+								<address>
+									<addrLine>1195 Bordeaux Dr. Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kainan</forename><surname>Peng</surname></persName>
+							<email>pengkainan@baidu.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Baidu Silicon Valley Artificial Intelligence Lab</orgName>
+								<address>
+									<addrLine>1195 Bordeaux Dr. Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Ping</surname></persName>
+							<email>pingwei01@baidu.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Baidu Silicon Valley Artificial Intelligence Lab</orgName>
+								<address>
+									<addrLine>1195 Bordeaux Dr. Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Raiman</surname></persName>
+							<email>jonathanraiman@baidu.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Baidu Silicon Valley Artificial Intelligence Lab</orgName>
+								<address>
+									<addrLine>1195 Bordeaux Dr. Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yanqi</forename><surname>Zhou</surname></persName>
+							<email>zhouyanqi@baidu.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Baidu Silicon Valley Artificial Intelligence Lab</orgName>
+								<address>
+									<addrLine>1195 Bordeaux Dr. Sunnyvale</addrLine>
+									<postCode>94089</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Deep Voice 2: Multi-Speaker Neural Text-to-Speech</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a technique for augmenting neural text-to-speech (TTS) with low-dimensional trainable speaker embeddings to generate different voices from a single model. As a starting point, we show improvements over the two state-of-the-art approaches for single-speaker neural TTS: Deep Voice 1 and Tacotron. We introduce Deep Voice 2, which is based on a similar pipeline with Deep Voice 1, but constructed with higher performance building blocks and demonstrates a significant audio quality improvement over Deep Voice 1. We improve Tacotron by introducing a post-processing neural vocoder, and demonstrate a significant audio quality improvement. We then demonstrate our technique for multi-speaker speech synthesis for both Deep Voice 2 and Tacotron on two multi-speaker TTS datasets. We show that a single neural TTS system can learn hundreds of unique voices from less than half an hour of data per speaker, while achieving high audio quality synthesis and preserving the speaker identities almost perfectly.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

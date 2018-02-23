@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mapping Estimation for Discrete Optimal Transport</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michaël</forename><surname>Perrot</surname></persName>
+							<email>michael.perrot@univ-st-etienne.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><surname>Courty</surname></persName>
+							<email>courty@univ-ubs.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rémi</forename><surname>Flamary</surname></persName>
+							<email>remi.flamary@unice.fr</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amaury</forename><surname>Habrard</surname></persName>
+							<email>amaury.habrard@univ-st-etienne.fr</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Lab. Hubert Curien</orgName>
+								<orgName type="laboratory" key="lab2">UMR 5516</orgName>
+								<orgName type="laboratory" key="lab3">UMR 6074</orgName>
+								<orgName type="institution" key="instit1">Univ Lyon</orgName>
+								<orgName type="institution" key="instit2">UJM-Saint-Etienne</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">Université de Bretagne Sud</orgName>
+								<orgName type="institution" key="instit5">CNRS</orgName>
+								<orgName type="institution" key="instit6">Université Côte d&apos;Azur</orgName>
+								<address>
+									<postCode>F-42023, 7293</postCode>
+									<settlement>Lagrange</settlement>
+									<region>UMR</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Univ Lyon</orgName>
+								<address>
+									<addrLine>UJM-Saint-Etienne</addrLine>
+									<region>OCA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Lab. Hubert Curien UMR 5516</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<postCode>F-42023</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mapping Estimation for Discrete Optimal Transport</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We are interested in the computation of the transport map of an Optimal Transport problem. Most of the computational approaches of Optimal Transport use the Kantorovich relaxation of the problem to learn a probabilistic coupling γ but do not address the problem of learning the underlying transport map T linked to the original Monge problem. Consequently, it lowers the potential usage of such methods in contexts where out-of-samples computations are mandatory. In this paper we propose a new way to jointly learn the coupling and an approximation of the transport map. We use a jointly convex formulation which can be efficiently optimized. Additionally, jointly learning the coupling and the transport map allows to smooth the result of the Optimal Transport and generalize it to out-of-samples examples. Empirically, we show the interest and the relevance of our method in two tasks: domain adaptation and image editing.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

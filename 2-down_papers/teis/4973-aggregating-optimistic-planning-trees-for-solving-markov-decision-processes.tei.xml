@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Aggregating Optimistic Planning Trees for Solving Markov Decision Processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gunnar</forename><surname>Kedenburg</surname></persName>
+							<email>gunnar.kedenburg@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">INRIA Lille -Nord Europe / Microsoft Research New</orgName>
+								<orgName type="institution">INRIA Lille -Nord Europe / idalab GmbH</orgName>
+								<address>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raphaël</forename><surname>Fonteneau</surname></persName>
+							<email>raphael.fonteneau@ulg.ac.be</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">INRIA Lille -Nord Europe / Microsoft Research New</orgName>
+								<orgName type="institution">INRIA Lille -Nord Europe / idalab GmbH</orgName>
+								<address>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rémi</forename><surname>Munos</surname></persName>
+							<email>remi.munos@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">INRIA Lille -Nord Europe / Microsoft Research New</orgName>
+								<orgName type="institution">INRIA Lille -Nord Europe / idalab GmbH</orgName>
+								<address>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Aggregating Optimistic Planning Trees for Solving Markov Decision Processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper addresses the problem of online planning in Markov decision processes using a randomized simulator, under a budget constraint. We propose a new algorithm which is based on the construction of a forest of planning trees, where each tree corresponds to a random realization of the stochastic environment. The trees are constructed using a &quot;safe&quot; optimistic planning strategy combining the optimistic principle (in order to explore the most promising part of the search space first) with a safety principle (which guarantees a certain amount of uniform exploration). In the decision-making step of the algorithm, the individual trees are aggregated and an immediate action is recommended. We provide a finite-sample analysis and discuss the trade-off between the principles of optimism and safety. We also report numerical results on a benchmark problem. Our algorithm performs as well as state-of-the-art optimistic planning algorithms, and better than a related algorithm which additionally assumes the knowledge of all transition distributions.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multiple Choice Learning: Learning to Produce Multiple Structured Outputs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abner</forename><surname>Guzman-Rivera</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Illinois</orgName>
+								<orgName type="institution" key="instit2">Virginia Tech</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dhruv</forename><surname>Batra</surname></persName>
+							<email>dbatra@vt.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Illinois</orgName>
+								<orgName type="institution" key="instit2">Virginia Tech</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pushmeet</forename><surname>Kohli</surname></persName>
+							<email>pkohli@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Illinois</orgName>
+								<orgName type="institution" key="instit2">Virginia Tech</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Cambridge</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multiple Choice Learning: Learning to Produce Multiple Structured Outputs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We address the problem of generating multiple hypotheses for structured prediction tasks that involve interaction with users or successive components in a cascaded architecture. Given a set of multiple hypotheses, such components/users typically have the ability to retrieve the best (or approximately the best) solution in this set. The standard approach for handling such a scenario is to first learn a single-output model and then produce M-Best Maximum a Posteriori (MAP) hypotheses from this model. In contrast, we learn to produce multiple outputs by formulating this task as a multiple-output structured-output prediction problem with a loss-function that effectively captures the setup of the problem. We present a max-margin formulation that minimizes an upper-bound on this loss-function. Experimental results on image segmentation and protein side-chain prediction show that our method outperforms conventional approaches used for this type of scenario and leads to substantial improvements in prediction accuracy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning nonlinear overcomplete representations for efficient coding</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">S</forename><surname>Lewicki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Howard Hughes Medical Institute Computational Neurobiology Lab The Salk Institute</orgName>
+								<address>
+									<addrLine>10010 N. Torrey Pines Rd. La Jolla</addrLine>
+									<postCode>92037</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terrence</forename><forename type="middle">J</forename><surname>Sejnowski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Howard Hughes Medical Institute Computational Neurobiology Lab The Salk Institute</orgName>
+								<address>
+									<addrLine>10010 N. Torrey Pines Rd. La Jolla</addrLine>
+									<postCode>92037</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning nonlinear overcomplete representations for efficient coding</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We derive a learning algorithm for inferring an overcomplete basis by viewing it as probabilistic model of the observed data. Over-complete bases allow for better approximation of the underlying statistical density. Using a Laplacian prior on the basis coefficients removes redundancy and leads to representations that are sparse and are a nonlinear function of the data. This can be viewed as a generalization of the technique of independent component analysis and provides a method for blind source separation of fewer mixtures than sources. We demonstrate the utility of overcom-plete representations on natural speech and show that compared to the traditional Fourier basis the inferred representations potentially have much greater coding efficiency. A traditional way to represent real-values signals is with Fourier or wavelet bases. A disadvantage of these bases, however, is that they are not specialized for any particular dataset. Principal component analysis (PCA) provides one means for finding an basis that is adapted for a dataset, but the basis vectors are restricted to be orthogonal. An extension of PCA called independent component analysis (Jutten and Herault, 1991; Comon et al., 1991; Bell and Sejnowski, 1995) allows the learning of non-orthogonal bases. All of these bases are complete in the sense that they span the input space, but they are limited in terms of how well they can approximate the dataset&apos;s statistical density. Representations that are overcomplete, i. e. more basis vectors than input variables, can provide a better representation, because the basis vectors can be specialized for</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian Inference and Learning in Gaussian Process State-Space Models with Particle MCMC</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roger</forename><surname>Frigola</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Engineering</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fredrik</forename><surname>Lindsten</surname></persName>
+							<email>lindsten@isy.liu.se</email>
+							<affiliation key="aff1">
+								<orgName type="department">Div. of Automatic Control</orgName>
+								<orgName type="institution">Linköping University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">B</forename><surname>Schön</surname></persName>
+							<email>thomas.schon@it.uu.se</email>
+							<affiliation key="aff1">
+								<orgName type="department">Div. of Automatic Control</orgName>
+								<orgName type="institution">Linköping University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Dept. of Information Technology</orgName>
+								<orgName type="institution">Uppsala University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carl</forename><forename type="middle">E</forename><surname>Rasmussen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Engineering</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian Inference and Learning in Gaussian Process State-Space Models with Particle MCMC</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>State-space models are successfully used in many areas of science, engineering and economics to model time series and dynamical systems. We present a fully Bayesian approach to inference and learning (i.e. state estimation and system identification) in nonlinear nonparametric state-space models. We place a Gaus-sian process prior over the state transition dynamics, resulting in a flexible model able to capture complex dynamical phenomena. To enable efficient inference, we marginalize over the transition dynamics function and, instead, infer directly the joint smoothing distribution using specially tailored Particle Markov Chain Monte Carlo samplers. Once a sample from the smoothing distribution is computed, the state transition predictive distribution can be formulated analytically. Our approach preserves the full nonparametric expressivity of the model and can make use of sparse Gaussian processes to greatly reduce computational complexity.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Memory-Based Methods for Regression and Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">G</forename><surname>Dietterich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">MIT AI Lab 545 Technology Square Cambridge</orgName>
+								<orgName type="department" key="dep3">School of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Oregon State University Corvallis</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>97331-3202, 02139, 15213</postCode>
+									<region>OR, MA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dietrich</forename><surname>Wettschereck</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">MIT AI Lab 545 Technology Square Cambridge</orgName>
+								<orgName type="department" key="dep3">School of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Oregon State University Corvallis</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>97331-3202, 02139, 15213</postCode>
+									<region>OR, MA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><forename type="middle">G</forename><surname>Atkeson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">MIT AI Lab 545 Technology Square Cambridge</orgName>
+								<orgName type="department" key="dep3">School of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Oregon State University Corvallis</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>97331-3202, 02139, 15213</postCode>
+									<region>OR, MA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">W</forename><surname>Moore</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">MIT AI Lab 545 Technology Square Cambridge</orgName>
+								<orgName type="department" key="dep3">School of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Oregon State University Corvallis</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>97331-3202, 02139, 15213</postCode>
+									<region>OR, MA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Memory-Based Methods for Regression and Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Memory-based learning methods operate by storing all (or most) of the training data and deferring analysis of that data until &quot;run time&quot; (i.e., when a query is presented and a decision or prediction must be made). When a query is received, these methods generally answer the query by retrieving and analyzing a small subset of the training data-namely, data in the immediate neighborhood of the query point. In short, memory-based methods are &quot;lazy&quot; (they wait until the query) and &quot;local&quot; (they use only a local neighborhood). The purpose of this workshop was to review the state-of-the-art in memory-based methods and to understand their relationship to &quot;eager&quot; and &quot;global&quot; learning algorithms such as batch backpropagation. There are two essential components to any memory-based algorithm: the method for defining the &quot;local neighborhood&quot; and the learning method that is applied to the training examples in the local neighborhood. We heard several talks on issues related to defining the &quot;local neighborhood&quot;. Fed-erico Girosi and Trevor Hastie reviewed &quot;kernel&quot; methods in classification and regression. A kernel function K(d) maps the distance d from the query point to a training example into a real value. In the well-known Parzen window approach, the kernel is a fixed-width gaussian, and a new example is classified by taking a weighted vote of the classes of all training examples, where the weights are determined by the gaussian kernel. Because of the &quot;local&quot; shape of the gaussian, distant training examples have essentially no influence on the classification decision. In regression problems, a common approach is to construct a linear regression fit to the data, where the squared error from each data point is weighted by the kernel. Hastie described the kernel used in the LOESS method: K(d) = (1_d 3)3 (0::; d::; 1 and K(d) = 0 otherwise). To adapt to the local density of training examples, this kernel is scaled to cover the kth nearest neighbor. Many other kernels have been explored, with particular attention to bias and variance at the extremes of the 1165</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

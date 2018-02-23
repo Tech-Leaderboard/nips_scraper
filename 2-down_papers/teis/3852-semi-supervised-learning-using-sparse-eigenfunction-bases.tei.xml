@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Semi-supervised Learning using Sparse Eigenfunction Bases</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kaushik</forename><surname>Sinha</surname></persName>
+							<email>sinhak@cse.ohio-state.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Ohio State University Columbus</orgName>
+								<orgName type="institution" key="instit2">Ohio State University Columbus</orgName>
+								<address>
+									<postCode>43210, 43210</postCode>
+									<region>OH, OH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mikhail</forename><surname>Belkin</surname></persName>
+							<email>mbelkin@cse.ohio-state.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Ohio State University Columbus</orgName>
+								<orgName type="institution" key="instit2">Ohio State University Columbus</orgName>
+								<address>
+									<postCode>43210, 43210</postCode>
+									<region>OH, OH</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Semi-supervised Learning using Sparse Eigenfunction Bases</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new framework for semi-supervised learning with sparse eigenfunc-tion bases of kernel matrices. It turns out that when the data has clustered, that is, when the high density regions are sufficiently separated by low density valleys, each high density area corresponds to a unique representative eigenvector. Linear combination of such eigenvectors (or, more precisely, of their Nystrom extensions) provide good candidates for good classification functions when the cluster assumption holds. By first choosing an appropriate basis of these eigen-vectors from unlabeled data and then using labeled data with Lasso to select a classifier in the span of these eigenvectors, we obtain a classifier, which has a very sparse representation in this basis. Importantly, the sparsity corresponds naturally to the cluster assumption. Experimental results on a number of real-world data-sets show that our method is competitive with the state of the art semi-supervised learning algorithms and outperforms the natural base-line algorithm (Lasso in the Kernel PCA basis).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

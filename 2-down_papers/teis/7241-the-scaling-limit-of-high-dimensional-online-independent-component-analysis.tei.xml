@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Scaling Limit of High-Dimensional Online Independent Component Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chuang</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Engineering and Applied Sciences</orgName>
+								<orgName type="institution">Harvard University</orgName>
+								<address>
+									<addrLine>33 Oxford Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yue</forename><forename type="middle">M</forename><surname>Lu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Engineering and Applied Sciences</orgName>
+								<orgName type="institution">Harvard University</orgName>
+								<address>
+									<addrLine>33 Oxford Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">A</forename><surname>Paulson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Engineering and Applied Sciences</orgName>
+								<orgName type="institution">Harvard University</orgName>
+								<address>
+									<addrLine>33 Oxford Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Scaling Limit of High-Dimensional Online Independent Component Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We analyze the dynamics of an online algorithm for independent component analysis in the high-dimensional scaling limit. As the ambient dimension tends to infinity, and with proper time scaling, we show that the time-varying joint empirical measure of the target feature vector and the estimates provided by the algorithm will converge weakly to a deterministic measured-valued process that can be characterized as the unique solution of a nonlinear PDE. Numerical solutions of this PDE, which involves two spatial variables and one time variable, can be efficiently obtained. These solutions provide detailed information about the performance of the ICA algorithm, as many practical performance metrics are functionals of the joint empirical measures. Numerical simulations show that our asymptotic analysis is accurate even for moderate dimensions. In addition to providing a tool for understanding the performance of the algorithm, our PDE analysis also provides useful insight. In particular, in the high-dimensional limit, the original coupled dynamics associated with the algorithm will be asymptotically &quot;decoupled&quot;, with each coordinate independently solving a 1-D effective minimization problem via stochastic gradient descent. Exploiting this insight to design new algorithms for achieving optimal trade-offs between computational and statistical efficiency may prove an interesting line of future research.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

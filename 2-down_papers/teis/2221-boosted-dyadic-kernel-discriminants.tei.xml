@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Boosted Dyadic Kernel Discriminants</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Baback</forename><surname>Moghaddam</surname></persName>
+							<email>baback@merl.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">MIT AI Laboratory 200 Technology Square</orgName>
+								<orgName type="laboratory">Mitsubishi Electric Research Laboratory</orgName>
+								<address>
+									<postCode>201, 02139, 02139</postCode>
+									<settlement>Broadway Cambridge, Cambridge</settlement>
+									<region>MA, MA</region>
+									<country>USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><surname>Shakhnarovich</surname></persName>
+							<email>gregory@ai.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">MIT AI Laboratory 200 Technology Square</orgName>
+								<orgName type="laboratory">Mitsubishi Electric Research Laboratory</orgName>
+								<address>
+									<postCode>201, 02139, 02139</postCode>
+									<settlement>Broadway Cambridge, Cambridge</settlement>
+									<region>MA, MA</region>
+									<country>USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Boosted Dyadic Kernel Discriminants</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a novel learning algorithm for binary classification with hyperplane discriminants based on pairs of training points from opposite classes (dyadic hypercuts). This algorithm is further extended to nonlinear discriminants using kernel functions satisfying Mercer&apos;s conditions. An ensemble of simple dyadic hypercuts is learned incrementally by means of a confidence-rated version of Ad-aBoost, which provides a sound strategy for searching through the finite set of hypercut hypotheses. In experiments with real-world datasets from the UCI repository, the generalization performance of the hypercut classifiers was found to be comparable to that of SVMs and k-NN classifiers. Furthermore, the computational cost of classification (at run time) was found to be similar to, or better than, that of SVM. Similarly to SVMs, boosted dyadic kernel discriminants tend to maximize the margin (via AdaBoost). In contrast to SVMs, however, we offer an on-line and incremental learning machine for building kernel discriminants whose complexity (number of kernel evaluations) can be directly controlled (traded off for accuracy).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

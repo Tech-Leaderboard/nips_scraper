@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Recovery of Sparse Probability Measures via Convex Programming</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mert</forename><surname>Pilanci</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computing and Mathematical Sciences California Institute of Technology Pasadena</orgName>
+								<orgName type="institution">University of California Berkeley Berkeley</orgName>
+								<address>
+									<postCode>94720, 91125</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laurent</forename><forename type="middle">El</forename><surname>Ghaoui</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computing and Mathematical Sciences California Institute of Technology Pasadena</orgName>
+								<orgName type="institution">University of California Berkeley Berkeley</orgName>
+								<address>
+									<postCode>94720, 91125</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Venkat</forename><surname>Chandrasekaran</surname></persName>
+							<email>venkatc@caltech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical Engineering and Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computing and Mathematical Sciences California Institute of Technology Pasadena</orgName>
+								<orgName type="institution">University of California Berkeley Berkeley</orgName>
+								<address>
+									<postCode>94720, 91125</postCode>
+									<region>CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Recovery of Sparse Probability Measures via Convex Programming</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of cardinality penalized optimization of a convex function over the probability simplex with additional convex constraints. The classical 1 regularizer fails to promote sparsity on the probability simplex since 1 norm on the probability simplex is trivially constant. We propose a direct relaxation of the minimum cardinality problem and show that it can be efficiently solved using convex programming. As a first application we consider recovering a sparse probability measure given moment constraints, in which our formulation becomes linear programming, hence can be solved very efficiently. A sufficient condition for exact recovery of the minimum cardinality solution is derived for arbitrary affine constraints. We then develop a penalized version for the noisy setting which can be solved using second order cone programs. The proposed method outperforms known rescaling heuristics based on 1 norm. As a second application we consider convex clustering using a sparse Gaussian mixture and compare our results with the well known soft k-means algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

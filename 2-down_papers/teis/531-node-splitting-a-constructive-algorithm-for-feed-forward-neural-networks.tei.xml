@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Node Splitting: A Constructive Algorithm for Feed-Forward Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mike</forename><surname>Wynne-Jones</surname></persName>
+							<email>mikewj@hermes.mod.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Research Initiative in Pattern Recognition St. Andrews Road</orgName>
+								<address>
+									<addrLine>Great Malvern</addrLine>
+									<postCode>WR14 3PS</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Node Splitting: A Constructive Algorithm for Feed-Forward Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>1072 Node Splitting: A Contructive Algorithm for Feed-Forward Neural Networks 1073</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A constructive algorithm is proposed for feed-forward neural networks, which uses node-splitting in the hidden layers to build large networks from smaller ones. The small network forms an approximate model of a set of training data, and the split creates a larger more powerful network which is initialised with the approximate solution already found. The insufficiency of the smaller network in modelling the system which generated the data leads to oscillation in those hidden nodes whose weight vectors cover regions in the input space where more detail is required in the model. These nodes are identified and split in two using principal component analysis, allowing the new nodes t.o cover the two main modes of each oscillating vector. Nodes are selected for splitting using principal component analysis on the oscillating weight vectors, or by examining the Hessian matrix of second derivatives of the network error with respect to the weight.s. The second derivat.ive method can also be applied to the input layer, where it provides a useful indication of t.he relative import.ances of parameters for the classification t.ask. Node splitting in a standard Multi Layer Percep-t.ron is equivalent to introducing a hinge in the decision boundary to allow more detail to be learned. Initial results were promising, but further evaluation indicates that the long range effects of decision boundaries cause the new nodes to slip back to the old node position, and nothing is gained. This problem does not occur in networks of localised receptive fields such as radial basis functions or gaussian mixtures, where the t.echnique appears to work well.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

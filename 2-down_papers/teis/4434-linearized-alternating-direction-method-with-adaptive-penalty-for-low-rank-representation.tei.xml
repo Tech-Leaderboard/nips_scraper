@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Linearized Alternating Direction Method with Adaptive Penalty for Low-Rank Representation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhouchen</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Mathematical Sciences Dalian</orgName>
+								<orgName type="laboratory">Visual Computing Group Microsoft Research Asia</orgName>
+								<orgName type="institution">University of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Risheng</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Mathematical Sciences Dalian</orgName>
+								<orgName type="laboratory">Visual Computing Group Microsoft Research Asia</orgName>
+								<orgName type="institution">University of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhixun</forename><surname>Su</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Mathematical Sciences Dalian</orgName>
+								<orgName type="laboratory">Visual Computing Group Microsoft Research Asia</orgName>
+								<orgName type="institution">University of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Linearized Alternating Direction Method with Adaptive Penalty for Low-Rank Representation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many machine learning and signal processing problems can be formulated as linearly constrained convex programs, which could be efficiently solved by the alternating direction method (ADM). However, usually the subproblems in ADM are easily solvable only when the linear mappings in the constraints are identities. To address this issue, we propose a linearized ADM (LADM) method by linearizing the quadratic penalty term and adding a proximal term when solving the sub-problems. For fast convergence, we also allow the penalty to change adaptively according a novel update rule. We prove the global convergence of LADM with adaptive penalty (LADMAP). As an example, we apply LADMAP to solve low-rank representation (LRR), which is an important subspace clustering technique yet suffers from high computation cost. By combining LADMAP with a skinny SVD representation technique, we are able to reduce the complexity O(n 3) of the original ADM based method to O(rn 2), where r and n are the rank and size of the representation matrix, respectively, hence making LRR possible for large scale applications. Numerical experiments verify that for LRR our LADMAP based methods are much faster than state-of-the-art algorithms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Observational-Interventional Priors for Dose-Response Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Silva</surname></persName>
+							<email>ricardo@stats.ucl.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Statistical Science and Centre for Computational Statistics and Machine</orgName>
+								<orgName type="institution">Learning University College London</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Observational-Interventional Priors for Dose-Response Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Controlled interventions provide the most direct source of information for learning causal effects. In particular, a dose-response curve can be learned by varying the treatment level and observing the corresponding outcomes. However, interventions can be expensive and time-consuming. Observational data, where the treatment is not controlled by a known mechanism, is sometimes available. Under some strong assumptions, observational data allows for the estimation of dose-response curves. Estimating such curves nonparametrically is hard: sample sizes for controlled interventions may be small, while in the observational case a large number of measured confounders may need to be marginalized. In this paper, we introduce a hierarchical Gaussian process prior that constructs a distribution over the dose-response curve by learning from observational data, and reshapes the distribution with a nonparametric affine transform learned from controlled interventions. This function composition from different sources is shown to speed-up learning, which we demonstrate with a thorough sensitivity analysis and an application to modeling the effect of therapy on cognitive skills of premature infants. 1 Contribution We introduce a new solution to the problem of learning how an outcome variable Y varies under different levels of a control variable X that is manipulated. This is done by coupling different Gaussian process priors that combine observational and interventional data. The method outperforms estimates given by using only observational or only interventional data in a variety of scenarios and provides an alternative way of interpreting related methods in the design of computer experiments. Many problems in causal inference [14] consist of having a treatment variable X and and outcome Y , and estimating how Y varies as we control X at different levels. If we have data from a randomized controlled trial, where X and Y are not confounded, many standard modeling approaches can be used to learn the relationship between X and Y. If X and Y are measured in an observational study, the corresponding data can be used to estimate the association between X and Y , but this may not be the same as the causal relationship of these two variables because of possible confounders. To distinguish between the observational regime (where X is not controlled) and the interventional regime (where X is controlled), we adopt the causal graphical framework of [16] and [19]. In Figure 1 we illustrate the different regimes using causal graphical models. We will use p(· | ·) to denote (conditional) density or probability mass functions. In Figure 1(a) we have the observational, or &quot;natural,&quot; regime where common causes Z generate both treatment variable X and outcome variable Y. While the conditional distribution p(Y = x | X = x) can be learned from this data, this quantity is not the same as p(Y = y | do(X = x)): the latter notation, due to Pearl [16], denotes a regime where X is not random, but a quantity set by an intervention performed by an external agent. The relation between these regimes comes from fundamental invariance assumptions: when X is intervened upon, 30th Conference on Neural Information Processing Systems (NIPS 2016), Barcelona, Spain.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

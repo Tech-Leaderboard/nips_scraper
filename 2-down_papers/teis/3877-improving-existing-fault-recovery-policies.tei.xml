@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Improving Existing Fault Recovery Policies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guy</forename><surname>Shani</surname></persName>
+							<email>shanigu@bgu.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Information Systems Engineering</orgName>
+								<orgName type="institution">Ben Gurion University</orgName>
+								<address>
+									<settlement>Beer-Sheva</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Meek</surname></persName>
+							<email>meek@microsoft.com</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Microsoft Research</orgName>
+								<address>
+									<addrLine>One Microsoft Way</addrLine>
+									<settlement>Redmond</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Improving Existing Fault Recovery Policies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>An automated recovery system is a key component in a large data center. Such a system typically employs a handmade controller created by an expert. While such controllers capture many important aspects of the recovery process, they are often not systematically optimized to reduce costs such as server downtime. In this paper we describe a passive policy learning approach for improving existing recovery policies without exploration. We explain how to use data gathered from the interactions of the handmade controller with the system, to create an improved controller. We suggest learning an indefinite horizon Partially Observable Markov Decision Process, a model for decision making under uncertainty, and solve it using a point-based algorithm. We describe the complete process, starting with data gathering, model learning, model checking procedures, and computing a policy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Trans-dimensional MCMC for Bayesian Policy Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matt</forename><surname>Hoffman</surname></persName>
+							<email>hoffmanm@cs.ubc.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics and Computer Science</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep4">Dept. of Mathematics Imperial College London</orgName>
+								<orgName type="institution" key="instit1">University of British Columbia</orgName>
+								<orgName type="institution" key="instit2">University of British Columbia</orgName>
+								<orgName type="institution" key="instit3">University of British Columbia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arnaud</forename><surname>Doucet</surname></persName>
+							<email>arnaud@cs.ubc.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics and Computer Science</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep4">Dept. of Mathematics Imperial College London</orgName>
+								<orgName type="institution" key="instit1">University of British Columbia</orgName>
+								<orgName type="institution" key="instit2">University of British Columbia</orgName>
+								<orgName type="institution" key="instit3">University of British Columbia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nando</forename><surname>De Freitas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics and Computer Science</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep4">Dept. of Mathematics Imperial College London</orgName>
+								<orgName type="institution" key="instit1">University of British Columbia</orgName>
+								<orgName type="institution" key="instit2">University of British Columbia</orgName>
+								<orgName type="institution" key="instit3">University of British Columbia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ajay</forename><surname>Jasra</surname></persName>
+							<email>ajay.jasra@imperial.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics and Computer Science</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep4">Dept. of Mathematics Imperial College London</orgName>
+								<orgName type="institution" key="instit1">University of British Columbia</orgName>
+								<orgName type="institution" key="instit2">University of British Columbia</orgName>
+								<orgName type="institution" key="instit3">University of British Columbia</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Trans-dimensional MCMC for Bayesian Policy Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A recently proposed formulation of the stochastic planning and control problem as one of parameter estimation for suitable artificial statistical models has led to the adoption of inference algorithms for this notoriously hard problem. At the algorithmic level, the focus has been on developing Expectation-Maximization (EM) algorithms. In this paper, we begin by making the crucial observation that the stochastic control problem can be reinterpreted as one of trans-dimensional inference. With this new interpretation, we are able to propose a novel reversible jump Markov chain Monte Carlo (MCMC) algorithm that is more efficient than its EM counterparts. Moreover, it enables us to implement full Bayesian policy search, without the need for gradients and with one single Markov chain. The new approach involves sampling directly from a distribution that is proportional to the reward and, consequently, performs better than classic simulations methods in situations where the reward is a rare event.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Curse of Highly Variable Functions for Local Kernel Machines</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoshua</forename><surname>Bengio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. IRO</orgName>
+								<orgName type="department" key="dep2">Downtown Branch</orgName>
+								<orgName type="institution">Université de Montréal</orgName>
+								<address>
+									<postBox>P.O. Box 6128</postBox>
+									<postCode>H3C 3J7</postCode>
+									<settlement>Montreal</settlement>
+									<region>Qc</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olivier</forename><surname>Delalleau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. IRO</orgName>
+								<orgName type="department" key="dep2">Downtown Branch</orgName>
+								<orgName type="institution">Université de Montréal</orgName>
+								<address>
+									<postBox>P.O. Box 6128</postBox>
+									<postCode>H3C 3J7</postCode>
+									<settlement>Montreal</settlement>
+									<region>Qc</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><surname>Le Roux</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. IRO</orgName>
+								<orgName type="department" key="dep2">Downtown Branch</orgName>
+								<orgName type="institution">Université de Montréal</orgName>
+								<address>
+									<postBox>P.O. Box 6128</postBox>
+									<postCode>H3C 3J7</postCode>
+									<settlement>Montreal</settlement>
+									<region>Qc</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Curse of Highly Variable Functions for Local Kernel Machines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a series of theoretical arguments supporting the claim that a large class of modern learning algorithms that rely solely on the smoothness prior-with similarity between examples expressed with a local kernel-are sensitive to the curse of dimensionality, or more precisely to the variability of the target. Our discussion covers supervised, semi-supervised and unsupervised learning algorithms. These algorithms are found to be local in the sense that crucial properties of the learned function at x depend mostly on the neighbors of x in the training set. This makes them sensitive to the curse of dimensionality, well studied for classical non-parametric statistical learning. We show in the case of the Gaussian kernel that when the function to be learned has many variations, these algorithms require a number of training examples proportional to the number of variations, which could be large even though there may exist short descriptions of the target function, i.e. their Kolmogorov complexity may be low. This suggests that there exist non-local learning algorithms that at least have the potential to learn about such structured but apparently complex functions (because locally they have many variations), while not using very specific prior domain knowledge.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

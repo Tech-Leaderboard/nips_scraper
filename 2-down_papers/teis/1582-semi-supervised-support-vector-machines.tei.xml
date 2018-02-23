@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Semi-Supervised Support Vector Machines</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kristin</forename><forename type="middle">P</forename><surname>Bennett</surname></persName>
+							<email>bennek@rpi.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematical Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Decision Sciences and Engineering Systems</orgName>
+								<orgName type="institution" key="instit1">Rensselaer Polytechnic Institute Troy</orgName>
+								<orgName type="institution" key="instit2">Rensselaer Polytechnic Institute Troy</orgName>
+								<address>
+									<postCode>12180, 12180</postCode>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ayhan</forename><surname>Demiriz</surname></persName>
+							<email>demira@rpi.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematical Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Decision Sciences and Engineering Systems</orgName>
+								<orgName type="institution" key="instit1">Rensselaer Polytechnic Institute Troy</orgName>
+								<orgName type="institution" key="instit2">Rensselaer Polytechnic Institute Troy</orgName>
+								<address>
+									<postCode>12180, 12180</postCode>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Semi-Supervised Support Vector Machines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a semi-supervised support vector machine (S3yM) method. Given a training set of labeled data and a working set of unlabeled data, S3YM constructs a support vector machine using both the training and working sets. We use S3 YM to solve the transduction problem using overall risk minimization (ORM) posed by Yapnik. The transduction problem is to estimate the value of a classification function at the given points in the working set. This contrasts with the standard inductive learning problem of estimating the classification function at all possible values and then using the fixed function to deduce the classes of the working set data. We propose a general S3YM model that minimizes both the misclassification error and the function capacity based on all the available data. We show how the S3YM model for I-norm linear support vector machines can be converted to a mixed-integer program and then solved exactly using integer programming. Results of S3YM and the standard I-norm support vector machine approach are compared on ten data sets. Our computational results support the statistical learning theory results showing that incorporating working data improves generalization when insufficient training information is available. In every case, S3YM either improved or showed no significant difference in generalization compared to the traditional approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

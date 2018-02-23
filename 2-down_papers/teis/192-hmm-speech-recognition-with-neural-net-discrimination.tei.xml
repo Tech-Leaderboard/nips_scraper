@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">HMM Speech Recognition with Neural Net Discrimination*</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lippmann</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Lincoln Laboratory</orgName>
+								<orgName type="institution">MIT Room</orgName>
+								<address>
+									<postCode>B-349, 02173-9108</postCode>
+									<settlement>Lexington</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Lincoln Laboratory</orgName>
+								<orgName type="institution">MIT Room</orgName>
+								<address>
+									<postCode>B-349, 02173-9108</postCode>
+									<settlement>Lexington</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">P</forename><surname>Lippmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Lincoln Laboratory</orgName>
+								<orgName type="institution">MIT Room</orgName>
+								<address>
+									<postCode>B-349, 02173-9108</postCode>
+									<settlement>Lexington</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">HMM Speech Recognition with Neural Net Discrimination*</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>194</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Two approaches were explored which integrate neural net classifiers with Hidden Markov Model (HMM) speech recognizers. Both attempt to improve speech pattern discrimination while retaining the temporal processing advantages of HMMs. One approach used neu-ral nets to provide second-stage discrimination following an HMM recognizer. On a small vocabulary task, Radial Basis Function (RBF) and back-propagation neural nets reduced the error rate substantially (from 7.9% to 4.2% for the RBF classifier). In a larger vocabulary task, neural net classifiers did not reduce the error rate. They, however, outperformed Gaussian, Gaussian mixture, and k-nearest neighbor (KNN) classifiers. In another approach, neural nets functioned as low-level acoustic-phonetic feature extractors. When classifying phonemes based on single 10 msec. frames, dis-criminant RBF neural net classifiers outperformed Gaussian mixture classifiers. Performance, however, differed little when classifying phones by accumulating scores across all frames in phonetic segments using a single node HMM recognizer.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

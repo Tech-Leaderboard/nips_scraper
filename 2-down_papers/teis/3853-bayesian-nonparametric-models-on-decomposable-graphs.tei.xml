@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian Nonparametric Models on Decomposable Graphs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">François</forename><surname>Caron</surname></persName>
+							<email>francois.caron@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">INRIA Bordeaux Sud-Ouest Institut de Mathématiques</orgName>
+								<orgName type="department" key="dep2">Departments of Computer Science &amp; Statistics</orgName>
+								<orgName type="institution">Bordeaux University of Bordeaux</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arnaud</forename><surname>Doucet</surname></persName>
+							<email>arnaud@cs.ubc.ca</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<settlement>Vancouver</settlement>
+									<country>Canada, Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian Nonparametric Models on Decomposable Graphs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Over recent years Dirichlet processes and the associated Chinese restaurant process (CRP) have found many applications in clustering while the Indian buffet process (IBP) is increasingly used to describe latent feature models. These models are attractive because they ensure exchangeability (over samples). We propose here extensions of these models where the dependency between samples is given by a known decomposable graph. These models have appealing properties and can be easily learned using Monte Carlo techniques. 1 Motivation The CRP and IBP have found numerous applications in machine learning over recent years [5, 10]. We consider here the case where the data we are interested in are &apos;locally&apos; dependent; these dependencies being represented by a known graph G where each data point/object is associated to a vertex. These local dependencies can correspond to any conceptual or real (e.g. space, time) metric. For example, in the context of clustering, we might want to propose a prior distribution on partitions enforcing that data which are &apos;close&apos; in the graph are more likely to be in the same cluster. Similarly, in the context of latent feature models, we might be interested in a prior distribution on features enforcing that data which are &apos;close&apos; in the graph are more likely to possess similar features. The &apos;standard&apos; CRP and IBP correspond to the case where the graph G is complete; that is it is fully connected. In this paper, we generalize the CRP and IBP to decomposable graphs. The resulting generalized versions of the CRP and IBP enjoy attractive properties. Each clique of the graph follows marginally a CRP or an IBP process and explicit expressions for the joint prior distribution on the graph is available. It makes it easy to learn those models using straightforward generalizations of Markov chain Monte Carlo (MCMC) or Sequential Monte Carlo (SMC) algorithms proposed to perform inference for the CRP and IBP [5, 10, 14]. The rest of the paper is organized as follows. In Section 2, we review the popular Dirichlet multi-nomial allocation model and the Dirichlet Process (DP) partition distribution. We propose an extension of these two models to decomposable graphical models. In Section 3 we discuss nonparametric latent feature models, reviewing briefly the construction in [5] and extending it to decomposable graphs. We demonstrate these models in Section 4 on two applications: an alternative to the hierarchical DP model [12] and a time-varying matrix factorization problem. 2 Prior distributions for partitions on decomposable graphs Assume we have n observations. When performing clustering, we associate to each of this observation an allocation variable z i ∈ [K] = {1,. .. , K}. Let Π n be the partition of [n] = {1,. .. , n} defined by the equivalence relation i ↔ j ⇔ z i = z j. The resulting partition Π n = {A 1 ,. .. , A n(Πn) } 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

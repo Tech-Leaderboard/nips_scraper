@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast and Memory Optimal Low-Rank Matrix Approximation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Se-Young</forename><forename type="middle">Yun</forename><surname>Msr</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Inria &amp; ENS</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cambridge</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Inria &amp; ENS</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Lelarge</surname></persName>
+							<email>marc.lelarge@ens.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Inria &amp; ENS</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast and Memory Optimal Low-Rank Matrix Approximation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Alexandre Proutiere † KTH, EE School / ACL alepro@kth.se</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we revisit the problem of constructing a near-optimal rank k approximation of a matrix M ∈ [0, 1] m×n under the streaming data model where the columns of M are revealed sequentially. We present SLA (Streaming Low-rank Approximation), an algorithm that is asymptotically accurate, when ks k+1 (M) = o(√ mn) where s k+1 (M) is the (k + 1)-th largest singular value of M. This means that its average mean-square error converges to 0 as m and n grow large (i.e., ˆ M (k) −M (k) 2 F = o(mn) with high probability, wherê M (k) and M (k) denote the output of SLA and the optimal rank k approximation of M , respectively). Our algorithm makes one pass on the data if the columns of M are revealed in a random order, and two passes if the columns of M arrive in an arbitrary order. To reduce its memory footprint and complexity, SLA uses random sparsification, and samples each entry of M with a small probability δ. In turn, SLA is memory optimal as its required memory space scales as k(m+n), the dimension of its output. Furthermore, SLA is computationally efficient as it runs in O(δkmn) time (a constant number of operations is made for each observed entry of M), which can be as small as O(k log(m) 4 n) for an appropriate choice of δ and if n ≥ m.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

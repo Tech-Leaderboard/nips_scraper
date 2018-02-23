@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On-line Policy Improvement using Monte-Carlo Search</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerald</forename><surname>Tesauro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">MIT AI Lab 545 Technology Square Cambridge</orgName>
+								<orgName type="institution">IBM T. J. Watson Research Center</orgName>
+								<address>
+									<postBox>P. O. Box 704</postBox>
+									<postCode>10598, 02139</postCode>
+									<settlement>Yorktown Heights</settlement>
+									<region>NY, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On-line Policy Improvement using Monte-Carlo Search</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Gregory R. Galperin We present a Monte-Carlo simulation algorithm for real-time policy improvement of an adaptive controller. In the Monte-Carlo simulation , the long-term expected reward of each possible action is statistically measured, using the initial policy to make decisions in each step of the simulation. The action maximizing the measured expected reward is then taken, resulting in an improved policy. Our algorithm is easily parallelizable and has been implemented on the IBM SP! and SP2 parallel-RISC supercomputers. We have obtained promising initial results in applying this algorithm to the domain of backgammon. Results are reported for a wide variety of initial policies, ranging from a random policy to TD-Gammon, an extremely strong multi-layer neural network. In each case, the Monte-Carlo algorithm gives a substantial reduction, by as much as a factor of 5 or more, in the error rate of the base players. The algorithm is also potentially useful in many other adaptive control applications in which it is possible to simulate the environment.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

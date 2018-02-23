@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Population Matching Discrepancy and Applications in Deep Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jianfei</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Comp. Sci. &amp; Tech</orgName>
+								<orgName type="laboratory">TNList Lab, State Key Lab for Intell</orgName>
+								<orgName type="institution">Tech. &amp; Sys. Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chongxuan</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Comp. Sci. &amp; Tech</orgName>
+								<orgName type="laboratory">TNList Lab, State Key Lab for Intell</orgName>
+								<orgName type="institution">Tech. &amp; Sys. Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yizhong</forename><surname>Ru</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Comp. Sci. &amp; Tech</orgName>
+								<orgName type="laboratory">TNList Lab, State Key Lab for Intell</orgName>
+								<orgName type="institution">Tech. &amp; Sys. Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jun</forename><surname>Zhu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Comp. Sci. &amp; Tech</orgName>
+								<orgName type="laboratory">TNList Lab, State Key Lab for Intell</orgName>
+								<orgName type="institution">Tech. &amp; Sys. Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Population Matching Discrepancy and Applications in Deep Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A differentiable estimation of the distance between two distributions based on samples is important for many deep learning tasks. One such estimation is maximum mean discrepancy (MMD). However, MMD suffers from its sensitive kernel bandwidth hyper-parameter, weak gradients, and large mini-batch size when used as a training objective. In this paper, we propose population matching discrepancy (PMD) for estimating the distribution distance based on samples, as well as an algorithm to learn the parameters of the distributions using PMD as an objective. PMD is defined as the minimum weight matching of sample populations from each distribution, and we prove that PMD is a strongly consistent estimator of the first Wasserstein metric. We apply PMD to two deep learning tasks, domain adaptation and generative modeling. Empirical results demonstrate that PMD overcomes the aforementioned drawbacks of MMD, and outperforms MMD on both tasks in terms of the performance as well as the convergence speed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

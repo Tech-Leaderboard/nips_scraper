@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cone-constrained Principal Component Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yash</forename><surname>Deshpande</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical Engineering and Statistics</orgName>
+								<orgName type="department" key="dep2">Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">Electrical Engineering Stanford University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrea</forename><surname>Montanari</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical Engineering and Statistics</orgName>
+								<orgName type="department" key="dep2">Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">Electrical Engineering Stanford University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emile</forename><surname>Richard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical Engineering and Statistics</orgName>
+								<orgName type="department" key="dep2">Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">Electrical Engineering Stanford University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+								<orgName type="institution" key="instit3">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cone-constrained Principal Component Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Estimating a vector from noisy quadratic observations is a task that arises naturally in many contexts, from dimensionality reduction, to synchronization and phase retrieval problems. It is often the case that additional information is available about the unknown vector (for instance, sparsity, sign or magnitude of its entries). Many authors propose non-convex quadratic optimization problems that aim at exploiting optimally this information. However, solving these problems is typically NP-hard. We consider a simple model for noisy quadratic observation of an unknown vector v 0. The unknown vector is constrained to belong to a cone C v 0. While optimal estimation appears to be intractable for the general problems in this class, we provide evidence that it is tractable when C is a convex cone with an efficient projection. This is surprising, since the corresponding optimization problem is non-convex and-from a worst case perspective-often NP hard. We characterize the resulting minimax risk in terms of the statistical dimension of the cone δ(C). This quantity is already known to control the risk of estimation from gaussian observations and random linear measurements. It is rather surprising that the same quantity plays a role in the estimation risk from quadratic measurements.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

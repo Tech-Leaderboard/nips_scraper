@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Large-Scale Bayesian Multi-Label Learning via Topic-Based Label Embeddings</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Piyush</forename><surname>Rai</surname></persName>
+							<email>piyush@cse.iitk.ac.in, {ch237,r.henao,lcarin}@duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">CSE Dept</orgName>
+								<orgName type="institution">IIT Kanpur</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">ECE Dept</orgName>
+								<orgName type="institution">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Changwei</forename><surname>Hu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">ECE Dept</orgName>
+								<orgName type="institution">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Henao</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">ECE Dept</orgName>
+								<orgName type="institution">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><surname>Carin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">ECE Dept</orgName>
+								<orgName type="institution">Duke University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Large-Scale Bayesian Multi-Label Learning via Topic-Based Label Embeddings</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a scalable Bayesian multi-label learning model based on learning low-dimensional label embeddings. Our model assumes that each label vector is generated as a weighted combination of a set of topics (each topic being a distribution over labels), where the combination weights (i.e., the embeddings) for each label vector are conditioned on the observed feature vector. This construction, coupled with a Bernoulli-Poisson link function for each label of the binary label vector, leads to a model with a computational cost that scales in the number of positive labels in the label matrix. This makes the model particularly appealing for real-world multi-label learning problems where the label matrix is usually very massive but highly sparse. Using a data-augmentation strategy leads to full local conjugacy in our model, facilitating simple and very efficient Gibbs sampling, as well as an Expectation Maximization algorithm for inference. Also, predicting the label vector at test time does not require doing an inference for the label em-beddings and can be done in closed form. We report results on several benchmark data sets, comparing our model with various state-of-the art methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

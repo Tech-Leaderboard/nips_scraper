@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Universal Primal-Dual Convex Optimization Framework</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alp</forename><surname>Yurtsever</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Statistics and Operations Research</orgName>
+								<orgName type="laboratory">Laboratory for Information and Inference Systems</orgName>
+								<orgName type="institution">EPFL</orgName>
+								<address>
+									<country>Switzerland, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Quoc</forename><surname>Tran-Dinh</surname></persName>
+							<email>quoctd@email.unc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Statistics and Operations Research</orgName>
+								<orgName type="laboratory">Laboratory for Information and Inference Systems</orgName>
+								<orgName type="institution">EPFL</orgName>
+								<address>
+									<country>Switzerland, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Volkan</forename><surname>Cevher</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Statistics and Operations Research</orgName>
+								<orgName type="laboratory">Laboratory for Information and Inference Systems</orgName>
+								<orgName type="institution">EPFL</orgName>
+								<address>
+									<country>Switzerland, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Universal Primal-Dual Convex Optimization Framework</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a new primal-dual algorithmic framework for a prototypical constrained convex optimization template. The algorithmic instances of our framework are universal since they can automatically adapt to the unknown Hölder continuity degree and constant within the dual formulation. They are also guaranteed to have optimal convergence rates in the objective residual and the feasibility gap for each Hölder smoothness degree. In contrast to existing primal-dual algorithms , our framework avoids the proximity operator of the objective function. We instead leverage computationally cheaper, Fenchel-type operators, which are the main workhorses of the generalized conditional gradient (GCG)-type methods. In contrast to the GCG-type methods, our framework does not require the objective function to be differentiable, and can also process additional general linear inclusion constraints, while guarantees the convergence rate on the primal problem.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

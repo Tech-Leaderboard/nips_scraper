@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">GenDeR: A Generic Diversified Ranking Algorithm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jingrui</forename><surname>He</surname></persName>
+							<email>jingruhe@us.ibm.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">IBM T.J. Watson Research Yorktown Heights</orgName>
+								<orgName type="institution" key="instit1">IBM T.J. Watson Research Yorktown Heights</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Rensselaer Polytechnic Institute Troy</orgName>
+								<address>
+									<postCode>10598, 10598, 48109, 12180</postCode>
+									<region>NY, NY, MI, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hanghang</forename><surname>Tong</surname></persName>
+							<email>htong@us.ibm.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">IBM T.J. Watson Research Yorktown Heights</orgName>
+								<orgName type="institution" key="instit1">IBM T.J. Watson Research Yorktown Heights</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Rensselaer Polytechnic Institute Troy</orgName>
+								<address>
+									<postCode>10598, 10598, 48109, 12180</postCode>
+									<region>NY, NY, MI, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qiaozhu</forename><surname>Mei</surname></persName>
+							<email>qmei@umich.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">IBM T.J. Watson Research Yorktown Heights</orgName>
+								<orgName type="institution" key="instit1">IBM T.J. Watson Research Yorktown Heights</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Rensselaer Polytechnic Institute Troy</orgName>
+								<address>
+									<postCode>10598, 10598, 48109, 12180</postCode>
+									<region>NY, NY, MI, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Boleslaw</forename><forename type="middle">K</forename><surname>Szymanski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">IBM T.J. Watson Research Yorktown Heights</orgName>
+								<orgName type="institution" key="instit1">IBM T.J. Watson Research Yorktown Heights</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">Rensselaer Polytechnic Institute Troy</orgName>
+								<address>
+									<postCode>10598, 10598, 48109, 12180</postCode>
+									<region>NY, NY, MI, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">GenDeR: A Generic Diversified Ranking Algorithm</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Diversified ranking is a fundamental task in machine learning. It is broadly applicable in many real world problems, e.g., information retrieval, team assembling, product search, etc. In this paper, we consider a generic setting where we aim to diversify the top-k ranking list based on an arbitrary relevance function and an arbitrary similarity function among all the examples. We formulate it as an optimization problem and show that in general it is NP-hard. Then, we show that for a large volume of the parameter space, the proposed objective function enjoys the diminishing returns property, which enables us to design a scalable, greedy algorithm to find the (1 − 1/e) near-optimal solution. Experimental results on real data sets demonstrate the effectiveness of the proposed algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

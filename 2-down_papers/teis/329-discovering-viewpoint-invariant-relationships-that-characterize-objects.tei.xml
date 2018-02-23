@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Discovering Viewpoint-Invariant Relationships That Characterize Objects</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Zemel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>ONT M5S lA4</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>ONT M5S lA4</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Discovering Viewpoint-Invariant Relationships That Characterize Objects</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Using an unsupervised learning procedure, a network is trained on an ensemble of images of the same two-dimensional object at different positions, orientations and sizes. Each half of the network &quot;sees&quot; one fragment of the object, and tries to produce as output a set of 4 parameters that have high mutual information with the 4 parameters output by the other half of the network. Given the ensemble of training patterns, the 4 parameters on which the two halves of the network can agree are the position, orientation, and size of the whole object, or some recoding of them. After training, the network can reject instances of other shapes by using the fact that the predictions made by its two halves disagree. If two competing networks are trained on an unlabelled mixture of images of two objects, they cluster the training cases on the basis of the objects&apos; shapes, independently of the position, orientation, and size.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

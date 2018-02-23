@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Two-Dimensional Linear Discriminant Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jieping</forename><surname>Ye</surname></persName>
+							<email>jieping@cs.umn.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department</orgName>
+								<orgName type="department" key="dep2">Department of CSE</orgName>
+								<orgName type="department" key="dep3">Department of CIS</orgName>
+								<orgName type="institution" key="instit1">CSE University of Minnesota</orgName>
+								<orgName type="institution" key="instit2">University of Minnesota</orgName>
+								<orgName type="institution" key="instit3">University of Delaware</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ravi</forename><surname>Janardan</surname></persName>
+							<email>janardan@cs.umn.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department</orgName>
+								<orgName type="department" key="dep2">Department of CSE</orgName>
+								<orgName type="department" key="dep3">Department of CIS</orgName>
+								<orgName type="institution" key="instit1">CSE University of Minnesota</orgName>
+								<orgName type="institution" key="instit2">University of Minnesota</orgName>
+								<orgName type="institution" key="instit3">University of Delaware</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qi</forename><surname>Li</surname></persName>
+							<email>qili@cis.udel.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department</orgName>
+								<orgName type="department" key="dep2">Department of CSE</orgName>
+								<orgName type="department" key="dep3">Department of CIS</orgName>
+								<orgName type="institution" key="instit1">CSE University of Minnesota</orgName>
+								<orgName type="institution" key="instit2">University of Minnesota</orgName>
+								<orgName type="institution" key="instit3">University of Delaware</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Two-Dimensional Linear Discriminant Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Linear Discriminant Analysis (LDA) is a well-known scheme for feature extraction and dimension reduction. It has been used widely in many applications involving high-dimensional data, such as face recognition and image retrieval. An intrinsic limitation of classical LDA is the so-called singularity problem, that is, it fails when all scatter matrices are singular. A well-known approach to deal with the singularity problem is to apply an intermediate dimension reduction stage using Principal Component Analysis (PCA) before LDA. The algorithm, called PCA+LDA, is used widely in face recognition. However, PCA+LDA has high costs in time and space, due to the need for an eigen-decomposition involving the scatter matrices. In this paper, we propose a novel LDA algorithm, namely 2DLDA, which stands for 2-Dimensional Linear Discriminant Analysis. 2DLDA overcomes the singularity problem implicitly, while achieving efficiency. The key difference between 2DLDA and classical LDA lies in the model for data representation. Classical LDA works with vectorized representations of data, while the 2DLDA algorithm works with data in matrix representation. To further reduce the dimension by 2DLDA, the combination of 2DLDA and classical LDA, namely 2DLDA+LDA, is studied, where LDA is preceded by 2DLDA. The proposed algorithms are applied on face recognition and compared with PCA+LDA. Experiments show that 2DLDA and 2DLDA+LDA achieve competitive recognition accuracy, while being much more efficient.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

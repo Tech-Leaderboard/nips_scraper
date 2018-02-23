@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reward Design via Online Gradient Ascent</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Sorg</surname></persName>
+							<email>jdsorg@umich.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science and Eng</orgName>
+								<orgName type="department" key="dep2">Computer Science and Eng</orgName>
+								<orgName type="department" key="dep3">Department of Psychology</orgName>
+								<orgName type="institution" key="instit1">University of Michigan</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satinder</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science and Eng</orgName>
+								<orgName type="department" key="dep2">Computer Science and Eng</orgName>
+								<orgName type="department" key="dep3">Department of Psychology</orgName>
+								<orgName type="institution" key="instit1">University of Michigan</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">L</forename><surname>Lewis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science and Eng</orgName>
+								<orgName type="department" key="dep2">Computer Science and Eng</orgName>
+								<orgName type="department" key="dep3">Department of Psychology</orgName>
+								<orgName type="institution" key="instit1">University of Michigan</orgName>
+								<orgName type="institution" key="instit2">University of Michigan</orgName>
+								<orgName type="institution" key="instit3">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reward Design via Online Gradient Ascent</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recent work has demonstrated that when artificial agents are limited in their ability to achieve their goals, the agent designer can benefit by making the agent&apos;s goals different from the designer&apos;s. This gives rise to the optimization problem of designing the artificial agent&apos;s goals-in the RL framework, designing the agent&apos;s reward function. Existing attempts at solving this optimal reward problem do not leverage experience gained online during the agent&apos;s lifetime nor do they take advantage of knowledge about the agent&apos;s structure. In this work, we develop a gradient ascent approach with formal convergence guarantees for approximately solving the optimal reward problem online during an agent&apos;s lifetime. We show that our method generalizes a standard policy gradient approach, and we demonstrate its ability to improve reward functions in agents with various forms of limitations. 1 The Optimal Reward Problem In this work, we consider the scenario of an agent designer building an autonomous agent. The designer has his or her own goals which must be translated into goals for the autonomous agent. We represent goals using the Reinforcement Learning (RL) formalism of the reward function. This leads to the optimal reward problem of designing the agent&apos;s reward function so as to maximize the objective reward received by the agent designer. Typically, the designer assigns his or her own reward to the agent. However, there is ample work which demonstrates the benefit of assigning reward which does not match the designer&apos;s. For example, work on reward shaping [11] has shown how to modify rewards to accelerate learning without altering the optimal policy, and PAC-MDP methods [5, 20] including approximate Bayesian methods [7, 19] add bonuses to the objective reward to achieve optimism under uncertainty. These approaches explicitly or implicitly assume that the asymptotic behavior of the agent should be the same as that which would occur using the objective reward function. These methods do not explicitly consider the optimal reward problem; however, they do show improved performance through reward modification. In our recent work that does explicitly consider the optimal reward problem [18], we analyzed an explicit hypothesis about the benefit of reward design-that it helps mitigate the performance loss caused by computational constraints (bounds) on agent architectures. We considered various types of agent limitations-limits on planning depth, failure to account for partial observability, and other erroneous modeling assumptions-and demonstrated the benefits of good reward functions in each case empirically. Crucially, in bounded agents, the optimal reward function often leads to behavior that is different from the asymptotic behavior achieved with the objective reward function. In this work, we develop an algorithm, Policy Gradient for Reward Design (PGRD), for improving reward functions for a family of bounded agents that behave according to repeated local (from the current state) model-based planning. We show that this algorithm is capable of improving the reward functions in agents with computational limitations necessitating small bounds on the depth of planning, and also from the use of an inaccurate model (which may be inaccurate due to computationally-motivated approximations). PGRD has few parameters, improves the reward 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

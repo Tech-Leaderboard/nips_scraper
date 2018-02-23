@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scalable Lévy Process Priors for Spectral Kernel Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Phillip</forename><forename type="middle">A</forename><surname>Jang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">E</forename><surname>Loeb</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">B</forename><surname>Davidow</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">Gordon</forename><surname>Wilson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scalable Lévy Process Priors for Spectral Kernel Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Gaussian processes are rich distributions over functions, with generalization properties determined by a kernel function. When used for long-range extrapolation, predictions are particularly sensitive to the choice of kernel parameters. It is therefore critical to account for kernel uncertainty in our predictive distributions. We propose a distribution over kernels formed by modelling a spectral mixture density with a Lévy process. The resulting distribution has support for all stationary covariances-including the popular RBF, periodic, and Matérn kernels-combined with inductive biases which enable automatic and data efficient learning , long-range extrapolation, and state of the art predictive performance. The proposed model also presents an approach to spectral regularization, as the Lévy process introduces a sparsity-inducing prior over mixture components, allowing automatic selection over model order and pruning of extraneous components. We exploit the algebraic structure of the proposed process for O(n) training and O(1) predictions. We perform extrapolations having reasonable uncertainty estimates on several benchmarks, show that the proposed model can recover flexible ground truth covariances and that it is robust to errors in initialization.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

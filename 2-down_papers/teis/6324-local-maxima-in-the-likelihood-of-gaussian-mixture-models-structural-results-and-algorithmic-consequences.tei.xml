@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local Maxima in the Likelihood of Gaussian Mixture Models: Structural Results and Algorithmic Consequences</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chi</forename><surname>Jin</surname></persName>
+							<email>chijin@cs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+								<orgName type="institution" key="instit5">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuchen</forename><surname>Zhang</surname></persName>
+							<email>yuczhang@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+								<orgName type="institution" key="instit5">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sivaraman</forename><surname>Balakrishnan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+								<orgName type="institution" key="instit5">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><forename type="middle">J</forename><surname>Wainwright</surname></persName>
+							<email>wainwrig@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+								<orgName type="institution" key="instit5">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+							<email>jordan@cs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">UC Berkeley</orgName>
+								<orgName type="institution" key="instit5">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Local Maxima in the Likelihood of Gaussian Mixture Models: Structural Results and Algorithmic Consequences</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We provide two fundamental results on the population (infinite-sample) likelihood function of Gaussian mixture models with M ≥ 3 components. Our first main result shows that the population likelihood function has bad local maxima even in the special case of equally-weighted mixtures of well-separated and spherical Gaussians. We prove that the log-likelihood value of these bad local maxima can be arbitrarily worse than that of any global optimum, thereby resolving an open question of Srebro [2007]. Our second main result shows that the EM algorithm (or a first-order variant of it) with random initialization will converge to bad critical points with probability at least 1 − e −Ω(M). We further establish that a first-order variant of EM will not converge to strict saddle points almost surely, indicating that the poor performance of the first-order method can be attributed to the existence of bad local maxima rather than bad saddle points. Overall, our results highlight the necessity of careful initialization when using the EM algorithm in practice, even when applied in highly favorable settings.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Analysis of Contour Motions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ce</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology Cambridge</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">T</forename><surname>Freeman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology Cambridge</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><forename type="middle">H</forename><surname>Adelson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology Cambridge</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Analysis of Contour Motions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A reliable motion estimation algorithm must function under a wide range of conditions. One regime, which we consider here, is the case of moving objects with contours but no visible texture. Tracking distinctive features such as corners can disambiguate the motion of contours, but spurious features such as T-junctions can be badly misleading. It is difficult to determine the reliability of motion from local measurements, since a full rank covariance matrix can result from both real and spurious features. We propose a novel approach that avoids these points altogether , and derives global motion estimates by utilizing information from three levels of contour analysis: edgelets, boundary fragments and contours. Boundary fragment are chains of orientated edgelets, for which we derive motion estimates from local evidence. The uncertainties of the local estimates are disambiguated after the boundary fragments are properly grouped into contours. The grouping is done by constructing a graphical model and marginalizing it using importance sampling. We propose two equivalent representations in this graphical model, reversible switch variables attached to the ends of fragments and fragment chains, to capture both local and global statistics of boundaries. Our system is successfully applied to both synthetic and real video sequences containing high-contrast boundaries and textureless regions. The system produces good motion estimates along with properly grouped and completed contours.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

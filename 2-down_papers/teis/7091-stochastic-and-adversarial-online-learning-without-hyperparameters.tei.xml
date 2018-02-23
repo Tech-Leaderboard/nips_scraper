@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stochastic and Adversarial Online Learning without Hyperparameters</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ashok</forename><surname>Cutkosky</surname></persName>
+							<email>ashokc@cs.stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Bioengineering</orgName>
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kwabena</forename><surname>Boahen</surname></persName>
+							<email>boahen@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Bioengineering</orgName>
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stochastic and Adversarial Online Learning without Hyperparameters</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Most online optimization algorithms focus on one of two things: performing well in adversarial settings by adapting to unknown data parameters (such as Lipschitz constants), typically achieving O(√ T) regret, or performing well in stochastic settings where they can leverage some structure in the losses (such as strong convexity), typically achieving O(log(T)) regret. Algorithms that focus on the former problem hitherto achieved O(√ T) in the stochastic setting rather than O(log(T)). Here we introduce an online optimization algorithm that achieves O(log 4 (T)) regret in a wide class of stochastic settings while gracefully degrading to the optimal O(√ T) regret in adversarial settings (up to logarithmic factors). Our algorithm does not require any prior knowledge about the data or tuning of parameters to achieve superior performance. 1 Extending Adversarial Algorithms to Stochastic Settings The online convex optimization (OCO) paradigm [1, 2] can be used to model a large number of scenarios of interest, such as streaming problems, adversarial environments, or stochastic optimization. In brief, an OCO algorithm plays T rounds of a game in which on each round the algorithm outputs a vector w t in some convex space W , and then receives a loss function t : W → R that is convex. The algorithm&apos;s objective is to minimize regret, which is the total loss of all rounds relative to w , the minimizer of T t=1 t in W : R T (w) = T t=1 t (w t) − t (w) OCO algorithms typically either make as few as possible assumptions about the t while attempting to perform well (adversarial settings), or assume that the t have some particular structure that can be leveraged to perform much better (stochastic settings). For the adversarial setting, the minimax optimal regret is O(BL max √ T), where B is the diameter of W and L max is the maximum Lipschitz constant of the losses [3]. A wide variety of algorithms achieve this bound without prior knowledge of one or both of B and L max [4, 5, 6, 7], resulting in hyperparameter-free algorithms. In the stochastic setting, it was recently shown that for a class of problems (those satisfying the so-called Bernstein condition), one can achieve regret O(dBL max log(T)) where W ⊂ R d using the METAGRAD algorithm [8, 9]. This approach requires knowledge of the parameter L max. In this paper, we extend an algorithm for the parameter-free adversarial setting [7] to the stochastic setting, achieving both optimal regret in adversarial settings as well as logarithmic regret in a wide class of stochastic settings, without needing to tune parameters. Our class of stochastic settings is those for which E[t(wt)] is aligned with w t − w , quantified by a value α that increases with 31st</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

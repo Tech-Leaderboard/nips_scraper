@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Predicting Scene Parsing and Motion Dynamics in the Future</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaojie</forename><surname>Jin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NUS Graduate School for Integrative Science and Engineering (NGS)</orgName>
+								<address>
+									<country>NUS</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huaxin</forename><surname>Xiao</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of ECE</orgName>
+								<address>
+									<settlement>NUS</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaohui</forename><surname>Shen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Adobe Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jimei</forename><surname>Yang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Adobe Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhe</forename><surname>Lin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Adobe Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yunpeng</forename><surname>Chen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of ECE</orgName>
+								<address>
+									<settlement>NUS</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zequn</forename><surname>Jie</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Tencent AI Lab</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiashi</forename><surname>Feng</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of ECE</orgName>
+								<address>
+									<settlement>NUS</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shuicheng</forename><surname>Yan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of ECE</orgName>
+								<address>
+									<settlement>NUS</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Qihoo 360 AI Institute</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Predicting Scene Parsing and Motion Dynamics in the Future</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The ability of predicting the future is important for intelligent systems, e.g. autonomous vehicles and robots to plan early and make decisions accordingly. Future scene parsing and optical flow estimation are two key tasks that help agents better understand their environments as the former provides dense semantic information, i.e. what objects will be present and where they will appear, while the latter provides dense motion information, i.e. how the objects will move. In this paper, we propose a novel model to simultaneously predict scene parsing and optical flow in unobserved future video frames. To our best knowledge, this is the first attempt in jointly predicting scene parsing and motion dynamics. In particular, scene parsing enables structured motion prediction by decomposing optical flow into different groups while optical flow estimation brings reliable pixel-wise correspondence to scene parsing. By exploiting this mutually beneficial relationship, our model shows significantly better parsing and motion prediction results when compared to well-established baselines and individual prediction models on the large-scale Cityscapes dataset. In addition, we also demonstrate that our model can be used to predict the steering angle of the vehicles, which further verifies the ability of our model to learn latent representations of scene dynamics.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

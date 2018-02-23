@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Charting a Manifold</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Brand</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Mitsubishi Electric Research Labs</orgName>
+								<address>
+									<postCode>201, 02139</postCode>
+									<settlement>Broadway, Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Charting a Manifold</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We construct a nonlinear mapping from a high-dimensional sample space to a low-dimensional vector space, effectively recovering a Cartesian coordinate system for the manifold from which the data is sampled. The mapping preserves local geometric relations in the manifold and is pseudo-invertible. We show how to estimate the intrinsic dimensionality of the manifold from samples, decompose the sample data into locally linear low-dimensional patches, merge these patches into a single low-dimensional coordinate system, and compute forward and reverse map-pings between the sample and coordinate spaces. The objective functions are convex and their solutions are given in closed form. 1 Nonlinear dimensionality reduction (NLDR) by charting Charting is the problem of assigning a low-dimensional coordinate system to data points in a high-dimensional sample space. It is presumed that the data lies on or near a low-dimensional manifold embedded in the sample space, and that there exists a 1-to-1 smooth nonlinear transform between the manifold and a low-dimensional vector space. The data-modeler&apos;s goal is to estimate smooth continuous mappings between the sample and coordinate spaces. Often this analysis will shed light on the intrinsic variables of the data-generating phenomenon, for example, revealing perceptual or configuration spaces. Our goal is to find a mapping-expressed as a kernel-based mixture of linear projections-that minimizes information loss about the density and relative locations of sample points. This constraint is expressed in a posterior that combines a standard gaussian mixture model (GMM) likelihood function with a prior that penalizes uncertainty due to inconsistent projections in the mixture. Section 3 develops a special case where this posterior is unimodal and maximizable in closed form, yielding a GMM whose covariances reveal a patchwork of overlapping locally linear subspaces that cover the manifold. Section 4 shows that for this (or any) GMM and a choice of reduced dimension d, there is a unique, closed-form solution for a minimally distorting merger of the subspaces into a d-dimensional coordinate space, as well as an reverse mapping defining the surface of the manifold in the sample space. The intrinsic dimensionality d of the data manifold can be estimated from the growth process of point-to-point distances. In analogy to differential geometry, we call the subspaces &quot;charts&quot; and their merger the &quot;connection.&quot; Section 5 considers example problems where these methods are used to untie knots, unroll and untwist sheets, and visualize video data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

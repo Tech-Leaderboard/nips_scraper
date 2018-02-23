@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian Partitioning of Large-Scale Distance Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Adametz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science &amp; Mathematics</orgName>
+								<orgName type="institution">University of Basel Basel</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Volker</forename><surname>Roth</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science &amp; Mathematics</orgName>
+								<orgName type="institution">University of Basel Basel</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian Partitioning of Large-Scale Distance Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A Bayesian approach to partitioning distance matrices is presented. It is inspired by the Translation-invariant Wishart-Dirichlet process (TIWD) in [1] and shares a number of advantageous properties like the fully probabilistic nature of the inference model, automatic selection of the number of clusters and applicability in semi-supervised settings. In addition, our method (which we call fastTIWD) overcomes the main shortcoming of the original TIWD, namely its high computational costs. The fastTIWD reduces the workload in each iteration of a Gibbs sampler from O(n 3) in the TIWD to O(n 2). Our experiments show that the cost reduction does not compromise the quality of the inferred partitions. With this new method it is now possible to &apos;mine&apos; large relational datasets with a probabilistic model, thereby automatically detecting new and potentially interesting clusters.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

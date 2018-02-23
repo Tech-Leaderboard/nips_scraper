@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Convergent Temporal-Difference Learning with Arbitrary Smooth Function Approximation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hamid</forename><forename type="middle">R</forename><surname>Maei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<region>AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Csaba</forename><surname>Szepesvári</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Indian Institute of Science Bangalore</orgName>
+								<orgName type="institution">University of Alberta Edmonton</orgName>
+								<address>
+									<region>AB</region>
+									<country>Canada, India Doina Precup</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shalabh</forename><surname>Bhatnagar</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">McGill University Montreal</orgName>
+								<address>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Silver</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">University of Alberta</orgName>
+								<address>
+									<addrLine>Edmonton</addrLine>
+									<region>AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Sutton</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Alberta</orgName>
+								<address>
+									<addrLine>Edmonton</addrLine>
+									<region>AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Convergent Temporal-Difference Learning with Arbitrary Smooth Function Approximation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce the first temporal-difference learning algorithms that converge with smooth value function approximators, such as neural networks. Conventional temporal-difference (TD) methods, such as TD(λ), Q-learning and Sarsa have been used successfully with function approximation in many applications. However , it is well known that off-policy sampling, as well as nonlinear function approximation , can cause these algorithms to become unstable (i.e., the parameters of the approximator may diverge). Sutton et al. (2009a, 2009b) solved the problem of off-policy learning with linear TD algorithms by introducing a new objective function, related to the Bellman error, and algorithms that perform stochastic gradient-descent on this function. These methods can be viewed as natural generalizations to previous TD methods, as they converge to the same limit points when used with linear function approximation methods. We generalize this work to non-linear function approximation. We present a Bellman error objective function and two gradient-descent TD algorithms that optimize it. We prove the asymptotic almost-sure convergence of both algorithms, for any finite Markov decision process and any smooth value function approximator, to a locally optimal solution. The algorithms are incremental and the computational complexity per time step scales linearly with the number of parameters of the approximator. Empirical results obtained in the game of Go demonstrate the algorithms&apos; effectiveness.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

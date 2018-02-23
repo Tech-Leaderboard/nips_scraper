@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Clustering Sparse Graphs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yudong</forename><surname>Chen</surname></persName>
+							<email>ydchen@utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep3">Mechanical Engineering Department</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Austin Austin</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+								<address>
+									<postCode>78712, 78712, 117575</postCode>
+									<region>TX, TX</region>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sujay</forename><surname>Sanghavi</surname></persName>
+							<email>sanghavi@mail.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep3">Mechanical Engineering Department</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Austin Austin</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+								<address>
+									<postCode>78712, 78712, 117575</postCode>
+									<region>TX, TX</region>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huan</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep3">Mechanical Engineering Department</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Austin Austin</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+								<address>
+									<postCode>78712, 78712, 117575</postCode>
+									<region>TX, TX</region>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Clustering Sparse Graphs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We develop a new algorithm to cluster sparse unweighted graphs-i.e. partition the nodes into disjoint clusters so that there is higher density within clusters, and low across clusters. By sparsity we mean the setting where both the in-cluster and across cluster edge densities are very small, possibly vanishing in the size of the graph. Sparsity makes the problem noisier, and hence more difficult to solve. Any clustering involves a tradeoff between minimizing two kinds of errors: missing edges within clusters and present edges across clusters. Our insight is that in the sparse case, these must be penalized differently. We analyze our algorithm&apos;s performance on the natural, classical and widely studied &quot;planted partition&quot; model (also called the stochastic block model); we show that our algorithm can cluster sparser graphs, and with smaller clusters, than all previous methods. This is seen empirically as well.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inferring Motor Programs from Images of Handwritten Digits</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><surname>Hinton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<addrLine>10 King&apos;s College Road</addrLine>
+									<postCode>M5S 3G5</postCode>
+									<settlement>Toronto</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vinod</forename><surname>Nair</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<addrLine>10 King&apos;s College Road</addrLine>
+									<postCode>M5S 3G5</postCode>
+									<settlement>Toronto</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inferring Motor Programs from Images of Handwritten Digits</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a generative model for handwritten digits that uses two pairs of opposing springs whose stiffnesses are controlled by a motor program. We show how neural networks can be trained to infer the motor programs required to accurately reconstruct the MNIST digits. The inferred motor programs can be used directly for digit classification, but they can also be used in other ways. By adding noise to the motor program inferred from an MNIST image we can generate a large set of very different images of the same class, thus enlarging the training set available to other methods. We can also use the motor programs as additional, highly informative outputs which reduce overfitting when training a feed-forward classifier. 1 Overview The idea that patterns can be recognized by figuring out how they were generated has been around for at least half a century [1, 2] and one of the first proposed applications was the recognition of handwriting using a generative model that involved pairs of opposing springs [3, 4]. The &quot;analysis-by-synthesis&quot; approach is attractive because the true generative model should provide the most natural way to characterize a class of patterns. The handwritten 2&apos;s in figure 1, for example, are very variable when viewed as pixels but they have very similar motor programs. Despite its obvious merits, analysis-by-synthesis has had few successes, partly because it is computationally expensive to invert non-linear generative models and partly because the underlying parameters of the generative model are unknown for most large data sets. For example, the only source of information about how the MNIST digits were drawn is the images themselves. We describe a simple generative model in which a pen is controlled by two pairs of opposing springs whose stiffnesses are specified by a motor program. If the sequence of stiffnesses is specified correctly, the model can produce images which look very like the MNIST digits. Using a separate network for each digit class, we show that backpropaga-tion can be used to learn a &quot;recognition&quot; network that maps images to the motor programs required to produce them. An interesting aspect of this learning is that the network creates its own training data, so it does not require the training images to be labelled with motor programs. Each recognition network starts with a single example of a motor program and grows an &quot;island of competence&quot; around this example, progressively extending the region over which it can map small changes in the image to the corresponding small changes in the motor program (see figure 2).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

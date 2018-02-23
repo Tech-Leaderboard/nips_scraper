@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Distributed Bayesian Posterior Sampling via Moment Sharing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Minjie</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">State Key Lab of Intelligent Technology and Systems</orgName>
+								<orgName type="institution">Tsinghua National TNList Lab</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science and Technology</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Balaji</forename><surname>Lakshminarayanan</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Gatsby Unit</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<addrLine>17 Queen Square</addrLine>
+									<postCode>WC1N 3AR</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yee</forename><forename type="middle">Whye</forename><surname>Teh</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Statistics</orgName>
+								<orgName type="institution">University of Oxford</orgName>
+								<address>
+									<addrLine>1 South Parks Road</addrLine>
+									<postCode>OX1 3TG</postCode>
+									<settlement>Oxford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jun</forename><surname>Zhu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">State Key Lab of Intelligent Technology and Systems</orgName>
+								<orgName type="institution">Tsinghua National TNList Lab</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science and Technology</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bo</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">State Key Lab of Intelligent Technology and Systems</orgName>
+								<orgName type="institution">Tsinghua National TNList Lab</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science and Technology</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Distributed Bayesian Posterior Sampling via Moment Sharing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a distributed Markov chain Monte Carlo (MCMC) inference algorithm for large scale Bayesian posterior simulation. We assume that the dataset is partitioned and stored across nodes of a cluster. Our procedure involves an independent MCMC posterior sampler at each node based on its local partition of the data. Moment statistics of the local posteriors are collected from each sampler and propagated across the cluster using expectation propagation message passing with low communication costs. The moment sharing scheme improves posterior estimation quality by enforcing agreement among the samplers. We demonstrate the speed and inference quality of our method with empirical studies on Bayesian logistic regression and sparse linear regression with a spike-and-slab prior.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

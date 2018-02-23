@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning HMMs with Nonparametric Emissions via Spectral Decompositions of Continuous Matrices</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kirthevasan</forename><surname>Kandasamy</surname></persName>
+							<email>kandasamy@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213</postCode>
+									<region>PA, PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maruan</forename><surname>Al-Shedivat</surname></persName>
+							<email>alshedivat@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213</postCode>
+									<region>PA, PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">P</forename><surname>Xing</surname></persName>
+							<email>epxing@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213</postCode>
+									<region>PA, PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning HMMs with Nonparametric Emissions via Spectral Decompositions of Continuous Matrices</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recently, there has been a surge of interest in using spectral methods for estimating latent variable models. However, it is usually assumed that the distribution of the observations conditioned on the latent variables is either discrete or belongs to a parametric family. In this paper, we study the estimation of an m-state hidden Markov model (HMM) with only smoothness assumptions, such as Hölderian conditions, on the emission densities. By leveraging some recent advances in continuous linear algebra and numerical analysis, we develop a computationally efficient spectral algorithm for learning nonparametric HMMs. Our technique is based on computing an SVD on nonparametric estimates of density functions by viewing them as continuous matrices. We derive sample complexity bounds via concentration results for nonparametric density estimation and novel perturbation theory results for continuous matrices. We implement our method using Chebyshev polynomial approximations. Our method is competitive with other baselines on synthetic and real problems and is also very computationally efficient.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

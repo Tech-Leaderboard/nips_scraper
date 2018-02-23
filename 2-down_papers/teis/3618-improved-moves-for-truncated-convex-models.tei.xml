@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Improved Moves for Truncated Convex Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pawan Kumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Engineering Science Dept. of Computing</orgName>
+								<orgName type="institution">University of Oxford Oxford Brookes University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H S</forename><surname>Torr</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Engineering Science Dept. of Computing</orgName>
+								<orgName type="institution">University of Oxford Oxford Brookes University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Improved Moves for Truncated Convex Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of obtaining the approximate maximum a posteriori estimate of a discrete random field characterized by pairwise potentials that form a truncated convex model. For this problem, we propose an improved st-MINCUT based move making algorithm. Unlike previous move making approaches, which either provide a loose bound or no bound on the quality of the solution (in terms of the corresponding Gibbs energy), our algorithm achieves the same guarantees as the standard linear programming (LP) relaxation. Compared to previous approaches based on the LP relaxation, e.g. interior-point algorithms or tree-reweighted message passing (TRW), our method is faster as it uses only the efficient st-MINCUT algorithm in its design. Furthermore, it directly provides us with a primal solution (unlike TRW and other related methods which solve the dual of the LP). We demonstrate the effectiveness of the proposed approach on both synthetic and standard real data problems. Our analysis also opens up an interesting question regarding the relationship between move making algorithms (such as α-expansion and the algorithms presented in this paper) and the randomized rounding schemes used with convex re-laxations. We believe that further explorations in this direction would help design efficient algorithms for more complex relaxations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

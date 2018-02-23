@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Z-Forcing: Training Stochastic Recurrent Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anirudh</forename><surname>Goyal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alessandro</forename><surname>Sordoni</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Microsoft</forename><surname>Maluuba</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc-Alexandre</forename><surname>Côté</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Microsoft</forename><surname>Maluuba</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nan</forename><surname>Rosemary</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ke</forename><surname>Mila</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Polytechnique</forename><surname>Montréal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoshua</forename><surname>Bengio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">MILA</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+								<orgName type="institution" key="instit3">MILA</orgName>
+								<orgName type="institution" key="instit4">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Z-Forcing: Training Stochastic Recurrent Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many efforts have been devoted to training generative latent variable models with autoregressive decoders, such as recurrent neural networks (RNN). Stochastic recurrent models have been successful in capturing the variability observed in natural sequential data such as speech. We unify successful ideas from recently proposed architectures into a stochastic recurrent model: each step in the sequence is associated with a latent variable that is used to condition the recurrent dynamics for future steps. Training is performed with amortised variational inference where the approximate posterior is augmented with a RNN that runs backward through the sequence. In addition to maximizing the variational lower bound, we ease training of the latent variables by adding an auxiliary cost which forces them to reconstruct the state of the backward recurrent network. This provides the latent variables with a task-independent objective that enhances the performance of the overall model. We found this strategy to perform better than alternative approaches such as KL annealing. Although being conceptually simple, our model achieves state-of-the-art results on standard speech benchmarks such as TIMIT and Blizzard and competitive performance on sequential MNIST. Finally, we apply our model to language modeling on the IMDB dataset where the auxiliary cost helps in learning interpretable latent variables.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

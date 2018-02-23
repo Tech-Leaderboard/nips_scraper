@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Convergence of Monte Carlo Tree Search in Simultaneous Move Games</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Viliam</forename><forename type="middle">Lis´y</forename><surname>Lis´y</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Agent Technology Center Dept. of Computer Science and Engineering FEE</orgName>
+								<orgName type="institution">Czech Technical University</orgName>
+								<address>
+									<settlement>Prague</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vojtěch</forename><surname>Kovařík</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Agent Technology Center Dept. of Computer Science and Engineering FEE</orgName>
+								<orgName type="institution">Czech Technical University</orgName>
+								<address>
+									<settlement>Prague</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Lanctot</surname></persName>
+							<email>marc.lanctot @maastrichtuniversity.nl</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Knowledge Engineering</orgName>
+								<orgName type="institution">Maastricht University</orgName>
+								<address>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Branislav</forename><forename type="middle">Bošansk´</forename><surname>Bošansk´y</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Agent Technology Center Dept. of Computer Science and Engineering FEE</orgName>
+								<orgName type="institution">Czech Technical University</orgName>
+								<address>
+									<settlement>Prague</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Convergence of Monte Carlo Tree Search in Simultaneous Move Games</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study Monte Carlo tree search (MCTS) in zero-sum extensive-form games with perfect information and simultaneous moves. We present a general template of MCTS algorithms for these games, which can be instantiated by various selection methods. We formally prove that if a selection method is-Hannan consistent in a matrix game and satisfies additional requirements on exploration, then the MCTS algorithm eventually converges to an approximate Nash equilibrium (NE) of the extensive-form game. We empirically evaluate this claim using regret matching and Exp3 as the selection methods on randomly generated games and empirically selected worst case games. We confirm the formal result and show that additional MCTS variants also converge to approximate NE on the evaluated games.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

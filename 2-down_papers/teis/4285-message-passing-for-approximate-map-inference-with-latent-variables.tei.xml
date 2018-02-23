@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Message-Passing for Approximate MAP Inference with Latent Variables</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiarong</forename><surname>Jiang</surname></persName>
+							<email>jiarong@umiacs.umd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computing</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Utah</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+								<address>
+									<region>CP, CP</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Piyush</forename><surname>Rai</surname></persName>
+							<email>piyush@cs.utah.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computing</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Utah</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+								<address>
+									<region>CP, CP</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hal</forename><surname>Daumé</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computing</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Utah</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+								<address>
+									<region>CP, CP</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iii</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">School of Computing</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Utah</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+								<address>
+									<region>CP, CP</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Message-Passing for Approximate MAP Inference with Latent Variables</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider a general inference setting for discrete probabilistic graphical models where we seek maximum a posteriori (MAP) estimates for a subset of the random variables (max nodes), marginalizing over the rest (sum nodes). We present a hybrid message-passing algorithm to accomplish this. The hybrid algorithm passes a mix of sum and max messages depending on the type of source node (sum or max). We derive our algorithm by showing that it falls out as the solution of a particular relaxation of a variational framework. We further show that the Expectation Maximization algorithm can be seen as an approximation to our algorithm. Experimental results on synthetic and real-world datasets, against several baselines, demonstrate the efficacy of our proposed algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

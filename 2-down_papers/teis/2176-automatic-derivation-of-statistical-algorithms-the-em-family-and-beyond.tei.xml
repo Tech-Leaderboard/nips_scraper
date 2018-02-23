@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Automatic Derivation of Statistical Algorithms: The EM Family and Beyond</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><forename type="middle">G</forename><surname>Gray</surname></persName>
+							<email>agray@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Helsinki Institute for IT</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernd</forename><surname>Fischer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Helsinki Institute for IT</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johann</forename><surname>Schumann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Helsinki Institute for IT</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Riacs</forename><forename type="middle">/</forename><surname>Nasa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Helsinki Institute for IT</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ames</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Helsinki Institute for IT</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wray</forename><surname>Buntine</surname></persName>
+							<email>buntine@hiit.fi</email>
+							<affiliation key="aff0">
+								<orgName type="department">Helsinki Institute for IT</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Automatic Derivation of Statistical Algorithms: The EM Family and Beyond</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Machine learning has reached a point where many probabilistic methods can be understood as variations, extensions and combinations of a much smaller set of abstract themes, e.g., as different instances of the EM algorithm. This enables the systematic derivation of algorithms cus-tomized for different models. Here, we describe the AUTOBAYES system which takes a high-level statistical model specification, uses powerful symbolic techniques based on schema-based program synthesis and computer algebra to derive an efficient specialized algorithm for learning that model, and generates executable code implementing that algorithm. This capability is far beyond that of code collections such as Matlab toolboxes or even tools for model-independent optimization such as BUGS for Gibbs sampling: complex new algorithms can be generated without new programming, algorithms can be highly specialized and tightly crafted for the exact structure of the model and data, and efficient and commented code can be generated for different languages or systems. We present automatically-derived algorithms ranging from closed-form solutions of Bayesian textbook problems to recently-proposed EM algorithms for clustering, regression, and a multinomial form of PCA. 1 Automatic Derivation of Statistical Algorithms Overview. We describe a symbolic program synthesis system which works as a &quot;statistical algorithm compiler:&quot; it compiles a statistical model specification into a custom algorithm design and from that further down into a working program implementing the algorithm design. This system, AUTOBAYES, can be loosely thought of as &quot;part theorem prover, part Mathematica, part learning textbook, and part Numerical Recipes.&quot; It provides much more flexibility than a fixed code repository such as a Matlab toolbox, and allows the creation of efficient algorithms which have never before been implemented, or even written down. AUTOBAYES is intended to automate the more routine application of complex methods in novel contexts. For example, recent multinomial extensions to PCA [2, 4] can be derived in this way.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

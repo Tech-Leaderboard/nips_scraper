@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning syntactic patterns for automatic hypernym discovery</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rion</forename><surname>Snow</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Linguistics Department</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit3">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305, 94305, 94305</postCode>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Jurafsky</surname></persName>
+							<email>jurafsky@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Linguistics Department</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit3">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305, 94305, 94305</postCode>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">Y</forename><surname>Ng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Linguistics Department</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit3">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305, 94305, 94305</postCode>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning syntactic patterns for automatic hypernym discovery</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Semantic taxonomies such as WordNet provide a rich source of knowledge for natural language processing applications, but are expensive to build, maintain, and extend. Motivated by the problem of automatically constructing and extending such taxonomies, in this paper we present a new algorithm for automatically learning hypernym (is-a) relations from text. Our method generalizes earlier work that had relied on using small numbers of hand-crafted regular expression patterns to identify hyper-nym pairs. Using &quot;dependency path&quot; features extracted from parse trees, we introduce a general-purpose formalization and generalization of these patterns. Given a training set of text containing known hypernym pairs, our algorithm automatically extracts useful dependency paths and applies them to new corpora to identify novel pairs. On our evaluation task (de-termining whether two nouns in a news article participate in a hypernym relationship), our automatically extracted database of hypernyms attains both higher precision and higher recall than WordNet.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

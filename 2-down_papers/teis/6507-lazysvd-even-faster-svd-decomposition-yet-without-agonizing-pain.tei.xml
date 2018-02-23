@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">LazySVD: Even Faster SVD Decomposition Yet Without Agonizing Pain *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zeyuan</forename><surname>Allen-Zhu</surname></persName>
+							<email>zeyuan@csail.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Advanced Study</orgName>
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuanzhi</forename><surname>Li</surname></persName>
+							<email>yuanzhil@cs.princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Advanced Study</orgName>
+								<orgName type="institution" key="instit1">Princeton University</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">LazySVD: Even Faster SVD Decomposition Yet Without Agonizing Pain *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study k-SVD that is to obtain the first k singular vectors of a matrix A. Recently, a few breakthroughs have been discovered on k-SVD: Musco and Musco [19] proved the first gap-free convergence result using the block Krylov method, Shamir [21] discovered the first variance-reduction stochastic method, and Bhojanapalli et al. [7] provided the fastest O(nnz(A) + poly(1/ε))-time algorithm using alternating minimization. In this paper, we put forward a new and simple LazySVD framework to improve the above breakthroughs. This framework leads to a faster gap-free method outper-forming [19], and the first accelerated and stochastic method outperforming [21]. In the O(nnz(A) + poly(1/ε)) running-time regime, LazySVD outperforms [7] in certain parameter regimes without even using alternating minimization.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

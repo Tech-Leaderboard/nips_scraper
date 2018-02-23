@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Analog VLSI Splining Network</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">B</forename><surname>Schwartz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">GTE Laboratories</orgName>
+								<address>
+									<addrLine>Inc. 40 Sylvan Rd. Waltham</addrLine>
+									<postCode>02254</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vijay</forename><forename type="middle">K</forename><surname>Samalam</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">GTE Laboratories</orgName>
+								<address>
+									<addrLine>Inc. 40 Sylvan Rd. Waltham</addrLine>
+									<postCode>02254</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An Analog VLSI Splining Network</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We have produced a VLSI circuit capable of learning to approximate arbitrary smooth of a single variable using a technique closely related to splines. The circuit effectively has 512 knots space on a uniform grid and has full support for learning. The circuit also can be used to approximate multi-variable functions as sum of splines. An interesting, and as of yet, nearly untapped set of applications for VLSI implementation of neural network learning systems can be found in adaptive control and non-linear signal processing. In most such applications, the learning task consists of approximating a real function of a small number of continuous variables from discrete data points. Special purpose hardware is especially interesting for applications of this type since they generally require real time on-line learning and there can be stiff constraints on the power budget and size of the hardware. Frequently, the already difficult learning problem is made more complex by the non-stationary nature of the underlying process. Conventional feed-forward networks with sigmoidal units are clearly inappropriate for applications of this type. Although they have exhibited remarkable performance in some types of time series prediction problems (for example, Wiegend, 1990 and Atlas, 1990), their learning rates in general are too slow for on-line learning. On-line performance can be improved most easily by using networks with more constrained architecture, effectively making the learning problem easier by giving the network a hint about the learning task. Networks that build local representations of the data, such as radial basis functions, are excellent candidates for these type of problems. One great advantage of such networks is that they require only a single layer of units. If the position and width of the units are fixed, the learning problem is linear 1008</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Computing Gaussian Mixture Models with EM using Equivalence Constraints</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noam</forename><surname>Shental</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science &amp; Eng. Center for Neural Computation</orgName>
+								<orgName type="department" key="dep2">Computer Science &amp; Eng. Center for Neural Computation</orgName>
+								<orgName type="institution">Hebrew University of Jerusalem Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aharon</forename><surname>Bar-Hillel</surname></persName>
+							<email>aharonbh@cs.huji.ac.il</email>
+							<affiliation key="aff1">
+								<orgName type="department">Computer Science &amp; Eng. Center for Neural Computation</orgName>
+								<orgName type="institution">Hebrew University of Jerusalem Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tomer</forename><surname>Hertz</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Computer Science &amp; Eng. Center for Neural Computation</orgName>
+								<orgName type="institution">Hebrew University of Jerusalem Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daphna</forename><surname>Weinshall</surname></persName>
+							<email>daphna@cs.huji.ac.il</email>
+							<affiliation key="aff3">
+								<orgName type="institution">Hebrew University of Jerusalem Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Computing Gaussian Mixture Models with EM using Equivalence Constraints</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Density estimation with Gaussian Mixture Models is a popular gener-ative technique used also for clustering. We develop a framework to incorporate side information in the form of equivalence constraints into the model estimation procedure. Equivalence constraints are defined on pairs of data points, indicating whether the points arise from the same source (positive constraints) or from different sources (negative constraints). Such constraints can be gathered automatically in some learning problems, and are a natural form of supervision in others. For the estimation of model parameters we present a closed form EM procedure which handles positive constraints, and a Generalized EM procedure using a Markov net which handles negative constraints. Using publicly available data sets we demonstrate that such side information can lead to considerable improvement in clustering tasks, and that our algorithm is preferable to two other suggested methods using the same type of side information.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

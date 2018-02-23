@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Hierarchical Attentive Recurrent Tracking</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><forename type="middle">R</forename><surname>Kosiorek</surname></persName>
+							<email>adamk@robots.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering Science</orgName>
+								<orgName type="department" key="dep2">Department of Engineering Science</orgName>
+								<orgName type="department" key="dep3">Department of Engineering Science</orgName>
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of Oxford</orgName>
+								<orgName type="institution" key="instit3">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><surname>Bewley</surname></persName>
+							<email>bewley@robots.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering Science</orgName>
+								<orgName type="department" key="dep2">Department of Engineering Science</orgName>
+								<orgName type="department" key="dep3">Department of Engineering Science</orgName>
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of Oxford</orgName>
+								<orgName type="institution" key="instit3">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ingmar</forename><surname>Posner</surname></persName>
+							<email>ingmar@robots.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering Science</orgName>
+								<orgName type="department" key="dep2">Department of Engineering Science</orgName>
+								<orgName type="department" key="dep3">Department of Engineering Science</orgName>
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of Oxford</orgName>
+								<orgName type="institution" key="instit3">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Hierarchical Attentive Recurrent Tracking</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Class-agnostic object tracking is particularly difficult in cluttered environments as target specific discriminative models cannot be learned a priori. Inspired by how the human visual cortex employs spatial attention and separate &quot;where&quot; and &quot;what&quot; processing pathways to actively suppress irrelevant visual features, this work develops a hierarchical attentive recurrent model for single object tracking in videos. The first layer of attention discards the majority of background by selecting a region containing the object of interest, while the subsequent layers tune in on visual features particular to the tracked object. This framework is fully differentiable and can be trained in a purely data driven fashion by gradient methods. To improve training convergence, we augment the loss function with terms for auxiliary tasks relevant for tracking. Evaluation of the proposed model is performed on two datasets: pedestrian tracking on the KTH activity recognition dataset and the more difficult KITTI object tracking dataset.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

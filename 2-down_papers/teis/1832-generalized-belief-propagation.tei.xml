@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Generalized Belief Propagation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">S</forename><surname>Yedidia</surname></persName>
+							<email>yedidia@merl.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Division UC Berkeley</orgName>
+								<address>
+									<addrLine>485 Soda Hall Berkeley</addrLine>
+									<postCode>02139, 02139, 94720-1776</postCode>
+									<settlement>Cambridge, Cambridge</settlement>
+									<region>MA, MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Merl</forename><surname>201 Broadway</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Division UC Berkeley</orgName>
+								<address>
+									<addrLine>485 Soda Hall Berkeley</addrLine>
+									<postCode>02139, 02139, 94720-1776</postCode>
+									<settlement>Cambridge, Cambridge</settlement>
+									<region>MA, MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">T</forename><surname>Freeman</surname></persName>
+							<email>freema n@merl.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Division UC Berkeley</orgName>
+								<address>
+									<addrLine>485 Soda Hall Berkeley</addrLine>
+									<postCode>02139, 02139, 94720-1776</postCode>
+									<settlement>Cambridge, Cambridge</settlement>
+									<region>MA, MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Merl</forename><surname>201 Broadway</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Division UC Berkeley</orgName>
+								<address>
+									<addrLine>485 Soda Hall Berkeley</addrLine>
+									<postCode>02139, 02139, 94720-1776</postCode>
+									<settlement>Cambridge, Cambridge</settlement>
+									<region>MA, MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abstract</forename><forename type="middle">Yair</forename><surname>Weiss</surname></persName>
+							<email>yweiss@cs .berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Division UC Berkeley</orgName>
+								<address>
+									<addrLine>485 Soda Hall Berkeley</addrLine>
+									<postCode>02139, 02139, 94720-1776</postCode>
+									<settlement>Cambridge, Cambridge</settlement>
+									<region>MA, MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Generalized Belief Propagation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Belief propagation (BP) was only supposed to work for tree-like networks but works surprisingly well in many applications involving networks with loops, including turbo codes. However, there has been little understanding of the algorithm or the nature of the solutions it finds for general graphs. We show that BP can only converge to a stationary point of an approximate free energy, known as the Bethe free energy in statistical physics. This result characterizes BP fixed-points and makes connections with variational approaches to approximate inference. More importantly, our analysis lets us build on the progress made in statistical physics since Bethe&apos;s approximation was introduced in 1935. Kikuchi and others have shown how to construct more accurate free energy approximations, of which Bethe&apos;s approximation is the simplest. Exploiting the insights from our analysis, we derive generalized belief propagation (GBP) versions ofthese Kikuchi approximations. These new message passing algorithms can be significantly more accurate than ordinary BP, at an adjustable increase in complexity. We illustrate such a new GBP algorithm on a grid Markov network and show that it gives much more accurate marginal probabilities than those found using ordinary BP.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

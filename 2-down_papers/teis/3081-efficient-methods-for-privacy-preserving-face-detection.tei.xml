@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Methods for Privacy Preserving Face Detection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shai</forename><surname>Avidan</surname></persName>
+							<email>avidan@merl.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Mitsubishi Electric Research Labs</orgName>
+								<orgName type="institution">Bar Ilan University Ramat-Gan</orgName>
+								<address>
+									<addrLine>201 Broadway Cambridge</addrLine>
+									<postCode>02139</postCode>
+									<region>MA</region>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moshe</forename><surname>Butman</surname></persName>
+							<email>butmanm@cs.biu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Mitsubishi Electric Research Labs</orgName>
+								<orgName type="institution">Bar Ilan University Ramat-Gan</orgName>
+								<address>
+									<addrLine>201 Broadway Cambridge</addrLine>
+									<postCode>02139</postCode>
+									<region>MA</region>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Methods for Privacy Preserving Face Detection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Bob offers a face-detection web service where clients can submit their images for analysis. Alice would very much like to use the service, but is reluctant to reveal the content of her images to Bob. Bob, for his part, is reluctant to release his face detector, as he spent a lot of time, energy and money constructing it. Secure Multi-Party computations use cryptographic tools to solve this problem without leaking any information. Unfortunately, these methods are slow to compute and we introduce a couple of machine learning techniques that allow the parties to solve the problem while leaking a controlled amount of information. The first method is an information-bottleneck variant of AdaBoost that lets Bob find a subset of features that are enough for classifying an image patch, but not enough to actually reconstruct it. The second machine learning technique is active learning that allows Alice to construct an online classifier, based on a small number of calls to Bob&apos;s face detector. She can then use her online classifier as a fast rejector before using a cryptographically secure classifier on the remaining image patches.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DUOL: A Double Updating Approach for Online Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peilin</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Comp. Eng</orgName>
+								<orgName type="department" key="dep2">School of Comp. Eng. Nanyang</orgName>
+								<orgName type="institution">Nanyang Tech. University</orgName>
+								<address>
+									<postCode>639798</postCode>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">C H</forename><surname>Hoi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Comp. Sci. &amp; Eng</orgName>
+								<orgName type="institution">Tech. University</orgName>
+								<address>
+									<postCode>639798</postCode>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rong</forename><surname>Jin</surname></persName>
+							<email>rongjin@cse.msu.edu</email>
+							<affiliation key="aff2">
+								<orgName type="institution">Michigan State University East Lansing</orgName>
+								<address>
+									<postCode>48824</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DUOL: A Double Updating Approach for Online Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In most online learning algorithms, the weights assigned to the misclassified examples (or support vectors) remain unchanged during the entire learning process. This is clearly insufficient since when a new misclassified example is added to the pool of support vectors, we generally expect it to affect the weights for the existing support vectors. In this paper, we propose a new online learning method, termed Double Updating Online Learning, or DUOL for short. Instead of only assigning a fixed weight to the misclassified example received in current trial, the proposed online learning algorithm also tries to update the weight for one of the existing support vectors. We show that the mistake bound can be significantly improved by the proposed online learning method. Encouraging experimental results show that the proposed technique is in general considerably more effective than the state-of-the-art online learning algorithms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local Algorithms for Approximate Inference in Minor-Excluded Graphs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kyomin</forename><surname>Jung</surname></persName>
+							<email>kmjung@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Mathematics</orgName>
+								<orgName type="department" key="dep2">Dept. of EECS, MIT</orgName>
+								<address>
+									<region>MIT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devavrat</forename><surname>Shah</surname></persName>
+							<email>devavrat@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Mathematics</orgName>
+								<orgName type="department" key="dep2">Dept. of EECS, MIT</orgName>
+								<address>
+									<region>MIT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Local Algorithms for Approximate Inference in Minor-Excluded Graphs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new local approximation algorithm for computing MAP and log-partition function for arbitrary exponential family distribution represented by a finite-valued pair-wise Markov random field (MRF), say G. Our algorithm is based on decomposing G into appropriately chosen small components; computing estimates locally in each of these components and then producing a good global solution. We prove that the algorithm can provide approximate solution within arbitrary accuracy when G excludes some finite sized graph as its minor and G has bounded degree: all Planar graphs with bounded degree are examples of such graphs. The running time of the algorithm is Θ(n) (n is the number of nodes in G), with constant dependent on accuracy, degree of graph and size of the graph that is excluded as a minor (constant for Planar graphs). Our algorithm for minor-excluded graphs uses the decomposition scheme of Klein, Plotkin and Rao (1993). In general, our algorithm works with any decomposition scheme and provides quantifiable approximation guarantee that depends on the decomposition scheme.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

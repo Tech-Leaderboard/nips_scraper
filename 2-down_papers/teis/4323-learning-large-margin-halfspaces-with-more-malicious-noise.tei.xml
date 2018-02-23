@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning large-margin halfspaces with more malicious noise</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">M</forename><surname>Long Google</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rocco</forename><forename type="middle">A</forename><surname>Servedio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Columbia University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning large-margin halfspaces with more malicious noise</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a simple algorithm that runs in time poly(n, 1/γ, 1/ε) and learns an unknown n-dimensional γ-margin halfspace to accuracy 1 − ε in the presence of malicious noise, when the noise rate is allowed to be as high as Θ(εγ log(1/γ)). Previous efficient algorithms could only learn to accuracy ε in the presence of malicious noise of rate at most Θ(εγ). Our algorithm does not work by optimizing a convex loss function. We show that no algorithm for learning γ-margin halfspaces that minimizes a convex proxy for misclassification error can tolerate malicious noise at a rate greater than Θ(εγ); this may partially explain why previous algorithms could not achieve the higher noise tolerance of our new algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

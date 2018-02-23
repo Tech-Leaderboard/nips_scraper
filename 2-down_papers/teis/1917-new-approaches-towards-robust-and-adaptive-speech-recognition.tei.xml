@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">New Approaches Towards Robust and Adaptive Speech Recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Herve</forename><surname>Bourlard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IDIAP</orgName>
+								<address>
+									<addrLine>rue du Simplon 4 1920</addrLine>
+									<postBox>P.O. Box 592</postBox>
+									<settlement>Martigny</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samy</forename><surname>Bengio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IDIAP</orgName>
+								<address>
+									<addrLine>rue du Simplon 4 1920</addrLine>
+									<postBox>P.O. Box 592</postBox>
+									<settlement>Martigny</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katrin</forename><surname>Weber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IDIAP</orgName>
+								<address>
+									<addrLine>rue du Simplon 4 1920</addrLine>
+									<postBox>P.O. Box 592</postBox>
+									<settlement>Martigny</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">New Approaches Towards Robust and Adaptive Speech Recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we discuss some new research directions in automatic speech recognition (ASR), and which somewhat deviate from the usual approaches. More specifically, we will motivate and briefly describe new approaches based on multi-stream and multi/band ASR. These approaches extend the standard hidden Markov model (HMM) based approach by assuming that the different (frequency) channels representing the speech signal are processed by different (independent) &quot;experts&quot;, each expert focusing on a different characteristic of the signal, and that the different stream likelihoods (or posteriors) are combined at some (temporal) stage to yield a global recognition output. As a further extension to multi-stream ASR, we will finally introduce a new approach, referred to as HMM2, where the HMM emission probabilities are estimated via state specific feature based HMMs responsible for merging the stream information and modeling their possible correlation. 1 Multi-Channel Processing in ASR Current automatic speech recognition systems are based on (context-dependent or context-independent) phone models described in terms of a sequence of hidden Markov model (HMM) states, where each HMM state is assumed to be characterized by a stationary probability density function. Furthermore, time correlation, and consequently the dynamic of the signal, inside each HMM state is also usually disregarded (although the use of temporal delta and delta-delta features can capture some of this correlation). Consequently, only medium-term dependencies are captured via the topology of the HMM model, while short-term and long-term dependencies are usually very poorly modeled. Ideally, we want to design a particular HMM able to accommodate multiple timescale characteristics so that we can capture phonetic properties, as well as syllable structures and {long term) invariants that are more robust to noise. It is, however, clear that those different timescale features will also exhibit different levels of stationarity and will require different HMM topologies to capture their dynamics. There are many potential advantages to such a multi-stream approach, including:</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

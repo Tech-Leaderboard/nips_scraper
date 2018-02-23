@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">AdaGAN: Boosting Generative Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ilya</forename><surname>Tolstikhin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="institution">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sylvain</forename><surname>Gelly Google</surname></persName>
+							<email>sylvaingelly@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="institution">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brain</forename><surname>Zürich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="institution">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Switzerland</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="institution">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olivier</forename><forename type="middle">Bousquet</forename><surname>Google</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="institution">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brain</forename><surname>Zürich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="institution">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Switzerland</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="institution">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carl-Johann</forename><surname>Simon-Gabriel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="institution">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernhard</forename><surname>Schölkopf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">MPI for Intelligent Systems</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="institution">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">AdaGAN: Boosting Generative Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Generative Adversarial Networks (GAN) are an effective method for training generative models of complex data such as natural images. However, they are notoriously hard to train and can suffer from the problem of missing modes where the model is not able to produce examples in certain regions of the space. We propose an iterative procedure, called AdaGAN, where at every step we add a new component into a mixture model by running a GAN algorithm on a re-weighted sample. This is inspired by boosting algorithms, where many potentially weak individual predictors are greedily aggregated to form a strong composite predictor. We prove analytically that such an incremental procedure leads to convergence to the true distribution in a finite number of steps if each step is optimal, and convergence at an exponential rate otherwise. We also illustrate experimentally that this procedure addresses the problem of missing modes.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

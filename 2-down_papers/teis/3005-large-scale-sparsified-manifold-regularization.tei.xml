@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Large-Scale Sparsified Manifold Regularization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ivor</forename><forename type="middle">W</forename><surname>Tsang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology Clear Water Bay</orgName>
+								<address>
+									<settlement>Kowloon, Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">T</forename><surname>Kwok</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology Clear Water Bay</orgName>
+								<address>
+									<settlement>Kowloon, Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Large-Scale Sparsified Manifold Regularization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Semi-supervised learning is more powerful than supervised learning by using both labeled and unlabeled data. In particular, the manifold regularization framework, together with kernel methods, leads to the Laplacian SVM (LapSVM) that has demonstrated state-of-the-art performance. However, the LapSVM solution typically involves kernel expansions of all the labeled and unlabeled examples, and is slow on testing. Moreover, existing semi-supervised learning methods, including the LapSVM, can only handle a small number of unlabeled examples. In this paper, we integrate manifold regularization with the core vector machine, which has been used for large-scale supervised and unsupervised learning. By using a sparsified manifold regularizer and formulating as a center-constrained minimum enclosing ball problem, the proposed method produces sparse solutions with low time and space complexities. Experimental results show that it is much faster than the LapSVM, and can handle a million unlabeled examples on a standard PC; while the LapSVM can only handle several thousand patterns.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

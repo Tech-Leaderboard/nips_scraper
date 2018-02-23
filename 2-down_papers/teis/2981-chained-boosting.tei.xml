@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chained Boosting</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><forename type="middle">R</forename><surname>Shelton</surname></persName>
+							<email>cshelton@cs.ucr.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wesley</forename><surname>Huie</surname></persName>
+							<email>whuie@cs.ucr.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kin</forename><forename type="middle">Fai</forename><surname>Kan</surname></persName>
+							<email>kkan@cs.ucr.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Riverside CA</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>92521, 92521</postCode>
+									<settlement>Riverside</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California Riverside CA</orgName>
+								<address>
+									<postCode>92521</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chained Boosting</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a method to learn to make sequential stopping decisions, such as those made along a processing pipeline. We envision a scenario in which a series of decisions must be made as to whether to continue to process. Further processing costs time and resources, but may add value. Our goal is to create, based on historic data, a series of decision rules (one at each stage in the pipeline) that decide, based on information gathered up to that point, whether to continue processing the part. We demonstrate how our framework encompasses problems from manufacturing to vision processing. We derive a quadratic (in the number of decisions) bound on testing performance and provide empirical results on object detection. 1 Pipelined Decisions In many decision problems, all of the data do not arrive at the same time. Often further data collection can be expensive and we would like to make a decision without accruing the added cost. Consider silicon wafer manufacturing. The wafer is processed in a series of stages. After each stage some tests are performed to judge the quality of the wafer. If the wafer fails (due to flaws), then the processing time, energy, and materials are wasted. So, we would like to detect such a failure as early as possible in the production pipeline. A similar problem can occur in vision processing. Consider the case of object detection in images. Often low-level pixel operations (such as downsampling an image) can be performed in parallel by dedicated hardware (on a video capture board, for example). However, searching each subimage patch of the whole image to test whether it is the object in question takes time that is proportional to the number of pixels. Therefore, we can imagine a image pipeline in which low resolution versions of the whole image are scanned first. Subimages which are extremely unlikely to contain the desired object are rejected and only those which pass are processed at higher resolution. In this way, we save on many pixel operations and can reduce the cost in time to process an image. Even if downsampling is not possible through dedicated hardware, for most object detection schemes, the image must be downsampled to form an image pyramid in order to search for the object at different scales. Therefore, we can run the early stages of such a pipelined detector at the low resolution versions of the image and throw out large regions of the high resolution versions. Most of the processing is spent searching for small faces (at the high resolutions), so this method can save a lot of processing. Such chained decisions also occur if there is a human in the decision process (to ask further clarifying questions in database search, for instance). We propose a framework that can model all of these scenarios and allow such decision rules to be learned from historic data. We give a learning algorithm based on the minimization of the exponential loss and conclude with some experimental results.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Noise-Tolerant Life-Long Matrix Completion via Adaptive Sampling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maria-Florina</forename><surname>Balcan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Machine Learning Department</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hongyang</forename><surname>Zhang</surname></persName>
+							<email>hongyanz@cs.cmu.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Noise-Tolerant Life-Long Matrix Completion via Adaptive Sampling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the problem of recovering an incomplete m × n matrix of rank r with columns arriving online over time. This is known as the problem of lifelong matrix completion, and is widely applied to recommendation system, computer vision, system identification, etc. The challenge is to design provable algorithms tolerant to a large amount of noises, with small sample complexity. In this work, we give algorithms achieving strong guarantee under two realistic noise models. In bounded deterministic noise, an adversary can add any bounded yet unstructured noise to each column. For this problem, we present an algorithm that returns a matrix of a small error, with sample complexity almost as small as the best prior results in the noiseless case. For sparse random noise, where the corrupted columns are sparse and drawn randomly, we give an algorithm that exactly recovers an µ 0-incoherent matrix by probability at least 1 − δ with sample complexity as small as O (µ 0 rn log(r/δ)). This result advances the state-of-the-art work and matches the lower bound in a worst case. We also study the scenario where the hidden matrix lies on a mixture of subspaces and show that the sample complexity can be even smaller. Our proposed algorithms perform well experimentally in both synthetic and real-world datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

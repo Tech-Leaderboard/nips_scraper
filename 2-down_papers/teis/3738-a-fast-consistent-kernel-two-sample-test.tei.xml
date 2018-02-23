@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Fast, Consistent Kernel Two-Sample Test</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><surname>Gretton</surname></persName>
+							<email>arthur.gretton@gmail.com</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenji</forename><surname>Fukumizu</surname></persName>
+							<email>fukumizu@ism.ac.jp</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zaid</forename><surname>Harchaoui</surname></persName>
+							<email>zaid.harchaoui@gmail.com</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bharath</forename><forename type="middle">K</forename><surname>Sriperumbudur</surname></persName>
+							<email>bharathsv@ucsd.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Inst. of Statistical Mathematics Tokyo</orgName>
+								<orgName type="institution">Carnegie Mellon University MPI for Biological Cybernetics</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of ECE</orgName>
+								<orgName type="institution">Carnegie Mellon University Pittsburgh</orgName>
+								<address>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">UCSD</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<postCode>92037</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Fast, Consistent Kernel Two-Sample Test</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A kernel embedding of probability distributions into reproducing kernel Hilbert spaces (RKHS) has recently been proposed, which allows the comparison of two probability measures P and Q based on the distance between their respective em-beddings: for a sufficiently rich RKHS, this distance is zero if and only if P and Q coincide. In using this distance as a statistic for a test of whether two samples are from different distributions, a major difficulty arises in computing the significance threshold, since the empirical statistic has as its null distribution (where P = Q) an infinite weighted sum of χ 2 random variables. Prior finite sample approximations to the null distribution include using bootstrap resampling, which yields a consistent estimate but is computationally costly; and fitting a parametric model with the low order moments of the test statistic, which can work well in practice but has no consistency or accuracy guarantees. The main result of the present work is a novel estimate of the null distribution, computed from the eigen-spectrum of the Gram matrix on the aggregate sample from P and Q, and having lower computational cost than the bootstrap. A proof of consistency of this estimate is provided. The performance of the null distribution estimate is compared with the bootstrap and parametric approaches on an artificial example, high dimensional multivariate data, and text.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

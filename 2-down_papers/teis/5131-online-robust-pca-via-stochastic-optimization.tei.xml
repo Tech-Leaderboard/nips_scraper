@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online Robust PCA via Stochastic Optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiashi</forename><surname>Feng</surname></persName>
+							<email>jiashi@nus.edu.sg</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department</orgName>
+								<orgName type="department" key="dep2">ME Department</orgName>
+								<orgName type="department" key="dep3">ECE Department</orgName>
+								<orgName type="institution" key="instit1">National University of Singapore</orgName>
+								<orgName type="institution" key="instit2">National University of Singapore</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huan</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department</orgName>
+								<orgName type="department" key="dep2">ME Department</orgName>
+								<orgName type="department" key="dep3">ECE Department</orgName>
+								<orgName type="institution" key="instit1">National University of Singapore</orgName>
+								<orgName type="institution" key="instit2">National University of Singapore</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shuicheng</forename><surname>Yan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department</orgName>
+								<orgName type="department" key="dep2">ME Department</orgName>
+								<orgName type="department" key="dep3">ECE Department</orgName>
+								<orgName type="institution" key="instit1">National University of Singapore</orgName>
+								<orgName type="institution" key="instit2">National University of Singapore</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online Robust PCA via Stochastic Optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Robust PCA methods are typically based on batch optimization and have to load all the samples into memory during optimization. This prevents them from efficiently processing big data. In this paper, we develop an Online Robust PCA (OR-PCA) that processes one sample per time instance and hence its memory cost is independent of the number of samples, significantly enhancing the computation and storage efficiency. The proposed OR-PCA is based on stochastic optimization of an equivalent reformulation of the batch RPCA. Indeed, we show that OR-PCA provides a sequence of subspace estimations converging to the optimum of its batch counterpart and hence is provably robust to sparse corruption. Moreover, OR-PCA can naturally be applied for tracking dynamic subspace. Comprehensive simulations on subspace recovering and tracking demonstrate the robustness and efficiency advantages of the OR-PCA over online PCA and batch RPCA methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

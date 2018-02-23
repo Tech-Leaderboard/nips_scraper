@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Towards a general independent subspace analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fabian</forename><forename type="middle">J</forename><surname>Theis</surname></persName>
+							<email>fabian@theis.name</email>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Dynamics and Self-Organisation &amp; Bernstein Center for Computational Neuroscience Bunsenstr. 10</orgName>
+								<address>
+									<postCode>37073</postCode>
+									<settlement>Göttingen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Towards a general independent subspace analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The increasingly popular independent component analysis (ICA) may only be applied to data following the generative ICA model in order to guarantee algorithm-independent and theoretically valid results. Subspace ICA models generalize the assumption of component independence to independence between groups of components. They are attractive candidates for dimensionality reduction methods, however are currently limited by the assumption of equal group sizes or less general semi-parametric models. By introducing the concept of irreducible independent subspaces or components, we present a generalization to a parameter-free mixture model. Moreover, we relieve the condition of at-most-one-Gaussian by including previous results on non-Gaussian component analysis. After introducing this general model, we discuss joint block diagonalization with unknown block sizes, on which we base a simple extension of JADE to algorithmically perform the subspace analysis. Simulations confirm the feasibility of the algorithm. 1 Independent subspace analysis A random vector Y is called an independent component of the random vector X, if there exists an invertible matrix A and a decomposition X = A(Y, Z) such that Y and Z are stochastically independent. The goal of a general independent subspace analysis (ISA) or multidimensional independent component analysis is the decomposition of an arbitrary random vector X into independent components. If X is to be decomposed into one-dimensional components, this coincides with ordinary independent component analysis (ICA). Similarly, if the independent components are required to be of the same dimension k, then this is denoted by multidimensional ICA of fixed group size k or simply k-ISA. So 1-ISA is equivalent to ICA. 1.1 Why extend ICA? An important structural aspect in the search for decompositions is the knowledge of the number of solutions i.e. the indeterminacies of the problem. Without it, the result of any ICA or ISA algorithm cannot be compared with other solutions, so for instance blind source separation (BSS) would be impossible. Clearly, given an ISA solution, invertible transforms in each component (scaling matrices L) as well as permutations of components of the same dimension (permutation matrices P) give again an ISA of X. And indeed, in the special case of ICA, scaling and permutation are already all indeterminacies given that at most one Gaussian is contained in X [6]. This is one of the key theoretical results in ICA, allowing the usage of ICA for solving BSS problems and hence stimulating many applications. It has been shown that also for k-ISA, scalings and permutations as above are the only indeterminacies [11], given some additional rather weak restrictions to the model. However, a serious drawback of k-ISA (and hence of ICA) lies in the fact that the requirement fixed group-size k does not allow us to apply this analysis to an arbitrary random vector. Indeed,</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

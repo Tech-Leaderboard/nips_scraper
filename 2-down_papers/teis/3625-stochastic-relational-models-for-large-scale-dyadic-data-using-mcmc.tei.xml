@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stochastic Relational Models for Large-scale Dyadic Data using MCMC</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shenghuo</forename><surname>Zhu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories America</orgName>
+								<address>
+									<postCode>95014</postCode>
+									<settlement>Cupertino</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kai</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories America</orgName>
+								<address>
+									<postCode>95014</postCode>
+									<settlement>Cupertino</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yihong</forename><surname>Gong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories America</orgName>
+								<address>
+									<postCode>95014</postCode>
+									<settlement>Cupertino</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stochastic Relational Models for Large-scale Dyadic Data using MCMC</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Stochastic relational models (SRMs) [15] provide a rich family of choices for learning and predicting dyadic data between two sets of entities. The models generalize matrix factorization to a supervised learning problem that utilizes attributes of entities in a hierarchical Bayesian framework. Previously variational Bayes inference was applied for SRMs, which is, however, not scalable when the size of either entity set grows to tens of thousands. In this paper, we introduce a Markov chain Monte Carlo (MCMC) algorithm for equivalent models of SRMs in order to scale the computation to very large dyadic data sets. Both superior scalability and predictive accuracy are demonstrated on a collaborative filtering problem, which involves tens of thousands users and half million items. 1 Stochastic Relational Models Stochastic relational models (SRMs) [15] are generalizations of Gaussian process (GP) models [11] to the relational domain, where each observation is a dyadic datum, indexed by a pair of entities. They model dyadic data by a multiplicative interaction of two Gaussian process priors. Let U be the feature representation (or index) space of a set of entities. A pair-wise similarity in U is given by a kernel (covariance) function Σ : U × U → R. A Gaussian process (GP) defines a random function f : U → R, whose distribution is characterized by a mean function and the covariance function Σ, denoted by f ∼ N ∞ (0, Σ) 1 , where, for simplicity, we assume the mean to be the constant zero. GP complies with the intuition regarding the smoothness-if two entities u i and u j are similar according to Σ, then f (u i) and f (u j) are similar with a high probability. A domain of dyadic data must involve another set of entities, let it be represented (or indexed) by V. In a similar way, this entity set is associated with another kernel function Ω. For example, in a typical collaborative filtering domain, U represents users while V represents items, then, Σ measures the similarity between users and Ω measures the similarity between items. Being the relation between a pair of entities from different sets, a dyadic variable y is indexed by the product space U × V. Then an SRM aims to model y(u, v) by the following generative process, Model 1. The generative model of an SRM:</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

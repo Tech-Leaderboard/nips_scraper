@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Provable Submodular Minimization using Wolfe&apos;s Algorithm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Deeparnab</forename><surname>Chakrabarty</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prateek</forename><surname>Jain</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pravesh</forename><surname>Kothari</surname></persName>
+						</author>
+						<title level="a" type="main">Provable Submodular Minimization using Wolfe&apos;s Algorithm</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Owing to several applications in large scale learning and vision problems, fast submodular function minimization (SFM) has become a critical problem. Theoretically , unconstrained SFM can be performed in polynomial time [10, 11]. However, these algorithms are typically not practical. In 1976, Wolfe [21] proposed an algorithm to find the minimum Euclidean norm point in a polytope, and in 1980, Fujishige [3] showed how Wolfe&apos;s algorithm can be used for SFM. For general submodular functions, this Fujishige-Wolfe minimum norm algorithm seems to have the best empirical performance. Despite its good practical performance, very little is known about Wolfe&apos;s minimum norm algorithm theoretically. To our knowledge, the only result is an exponential time analysis due to Wolfe [21] himself. In this paper we give a maiden convergence analysis of Wolfe&apos;s algorithm. We prove that in t iterations, Wolfe&apos;s algorithm returns an O(1/t)-approximate solution to the min-norm point on any polytope. We also prove a robust version of Fujishige&apos;s theorem which shows that an O(1/n 2)-approximate solution to the min-norm point on the base polytope implies exact submodular minimization. As a corollary, we get the first pseudo-polynomial time guarantee for the Fujishige-Wolfe minimum norm algorithm for unconstrained submodular function minimization.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

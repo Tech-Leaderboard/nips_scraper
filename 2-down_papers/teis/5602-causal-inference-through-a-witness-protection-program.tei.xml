@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Causal Inference through a Witness Protection Program</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Silva</surname></persName>
+							<email>ricardo@stats.ucl.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistical Science</orgName>
+								<orgName type="department" key="dep2">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">CSML University College London</orgName>
+								<orgName type="institution" key="instit2">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robin</forename><surname>Evans</surname></persName>
+							<email>evans@stats.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistical Science</orgName>
+								<orgName type="department" key="dep2">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">CSML University College London</orgName>
+								<orgName type="institution" key="instit2">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Causal Inference through a Witness Protection Program</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>One of the most fundamental problems in causal inference is the estimation of a causal effect when variables are confounded. This is difficult in an observational study because one has no direct evidence that all confounders have been adjusted for. We introduce a novel approach for estimating causal effects that exploits observational conditional independencies to suggest &quot;weak&quot; paths in a unknown causal graph. The widely used faithfulness condition of Spirtes et al. is relaxed to allow for varying degrees of &quot;path cancellations&quot; that will imply conditional independencies but do not rule out the existence of confounding causal paths. The outcome is a posterior distribution over bounds on the average causal effect via a linear programming approach and Bayesian inference. We claim this approach should be used in regular practice to complement other default tools in observational studies. 1 Contribution We provide a new methodology to bound the average causal effect (ACE) of a variable X on a variable Y. For binary variables, the ACE is defined as E[Y | do(X = 1)] − E[Y | do(X = 0)] = P (Y = 1 | do(X = 1)) − P (Y = 1 | do(X = 0)), (1) where do(·) is the operator of Pearl [14], denoting distributions where a set of variables has been intervened upon by an external agent. In the interest of space, we assume the reader is familiar with the concept of causal graphs, the basics of the do operator, and the basics of causal discovery algorithms such as the PC algorithm of Spirtes et al. [22]. We provide a short summary for context in Section 2 The ACE is in general not identifiable from observational data. We obtain upper and lower bounds on the ACE by exploiting a set of (binary) covariates, which we also assume are not effects of X or Y (justified by temporal ordering or other background assumptions). Such covariate sets are often found in real-world problems, and form the basis of most observational studies done in practice [21]. However, it is not obvious how to obtain the ACE as a function of the covariates. Our contribution modifies the results of Entner et al. [6], who exploit conditional independence constraints to obtain point estimates of the ACE, but give point estimates relying on assumptions that might be unstable in practice. Our modification provides a different interpretation of their search procedure, which we use to generate candidate instrumental variables [11]. The linear programming approach of Dawid [5] and Ramsahai [16] is then modified to generate bounds on the ACE by introducing constraints on some causal paths, motivated as relaxations of [6]. The new setup can be computationally expensive, so we introduce further relaxations to the linear program to generate novel symbolic bounds, and a fast algorithm that sidesteps the full linear programming optimization with some simple, message passing-like, steps.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

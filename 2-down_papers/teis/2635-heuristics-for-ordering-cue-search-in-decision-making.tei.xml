@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Heuristics for Ordering Cue Search in Decision Making</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">M</forename><surname>Todd</surname></persName>
+							<email>ptodd@mpib-berlin.mpg.de dieckmann@mpib-berlin.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Center for Adaptive Behavior and Cognition MPI for Human Development Lentzeallee 94</orgName>
+								<address>
+									<postCode>14195</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anja</forename><surname>Dieckmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Center for Adaptive Behavior and Cognition MPI for Human Development Lentzeallee 94</orgName>
+								<address>
+									<postCode>14195</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Heuristics for Ordering Cue Search in Decision Making</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Simple lexicographic decision heuristics that consider cues one at a time in a particular order and stop searching for cues as soon as a decision can be made have been shown to be both accurate and frugal in their use of information. But much of the simplicity and success of these heuristics comes from using an appropriate cue order. For instance, the Take The Best heuristic uses validity order for cues, which requires considerable computation, potentially undermining the computational advantages of the simple decision mechanism. But many cue orders can achieve good decision performance, and studies of sequential search for data records have proposed a number of simple ordering rules that may be of use in constructing appropriate decision cue orders as well. Here we consider a range of simple cue ordering mechanisms, including tallying, swapping, and move-to-front rules, and show that they can find cue orders that lead to reasonable accuracy and considerable frugality when used with lexicographic decision heuristics. 1 O ne-Re ason De c i si on M aki ng and O r de r e d Se ar c h How do we know what information to consider when making a decision? Imagine the problem of deciding which of two objects or options is greater along some criterion, such as which of two cities is larger. We may know various facts about each city, such as whether they have a major sports team or a university or airport. To decide between them, we could weight and sum all the cues we know, or we could use a simpler lexicographic rule to look at one cue at a time in a particular order until we find a cue that discriminates between the options and indicates a choice [1]. Such lexicographic rules are used by people in a variety of decision tasks [2]-[4], and have been shown to be both accurate in their inferences and frugal in the amount of information they consider before making a decision. For instance, Gigerenzer and colleagues [5] demonstrated the surprising performance of several decision heuristics that stop information search as soon as one discriminating cue is found; because only that cue is used to make the decision, and no integration of information is involved, they called these heuristics &quot;one-reason&quot; decision mechanisms. Given some set of cues that can be looked up to make the decision, these heuristics differ mainly in the search rule that determines the order in which</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

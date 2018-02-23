@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Improved Decomposition Algorithm for Regression Support Vector Machines</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pavel</forename><surname>Laskov</surname></persName>
+							<email>laskov@asel. udel. edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information Sciences</orgName>
+								<orgName type="institution">University of Delaware Newark</orgName>
+								<address>
+									<postCode>19718</postCode>
+									<region>DE</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An Improved Decomposition Algorithm for Regression Support Vector Machines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A new decomposition algorithm for training regression Support Vector Machines (SVM) is presented. The algorithm builds on the basic principles of decomposition proposed by Osuna et. al ., and addresses the issue of optimal working set selection. The new criteria for testing optimality of a working set are derived. Based on these criteria, the principle of &quot;maximal inconsistency&quot; is proposed to form (approximately) optimal working sets. Experimental results show superior performance of the new algorithm in comparison with traditional training of regression SVM without decomposition. Similar results have been previously reported on decomposition algorithms for pattern recognition SVM. The new algorithm is also applicable to advanced SVM formulations based on regression, such as density estimation and integral equation SVM. 1 Introd uction The increasing interest in applications of Support Vector Machines (SVM) to large-scale problems ushers in new requirements for computational complexity of their training algorithms. Requests have been recently made for algorithms capable of handling problems containing 10 5-10 6 examples [1]. Training an SVM constitutes a quadratic programming problem, and a typical SVM package uses an off-the-shelf optimization software to obtain a solution to it. The number of variables in the optimization problem is equal to the number of training data points (for the pattern recognition SVM) or twice that number (for the regression SVM). The speed of general-purpose optimization methods is insufficient for problems containing more than a few thousand examples. This has motivated a quest for special-purpose training algorithms to take advantage of the particular structure of SVM training problems. The main avenue of research in SVM training algorithms is decomposition. The key idea of decomposition, due to Osuna et. al. [2], is to freeze all but a small number of optimization variables, and to solve a sequence of small fixed-size problems. The set of variables whose values are optimized at a current iteration is called the working set. Complexity of re-optimizing the working set is assumed to be constant-time.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

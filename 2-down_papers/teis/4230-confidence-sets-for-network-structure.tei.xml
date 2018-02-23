@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Confidence Sets for Network Structure</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">S</forename><surname>Choi</surname></persName>
+							<email>dchoi@seas.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Engineering and Applied Sciences</orgName>
+								<orgName type="department" key="dep2">School of Engineering and Applied Sciences</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Harvard University Cambridge</orgName>
+								<orgName type="institution" key="instit2">Harvard University Cambridge</orgName>
+								<orgName type="institution" key="instit3">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02138, 02138, 02138</postCode>
+									<region>MA, MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><surname>Wolfe</surname></persName>
+							<email>patrick@seas.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Engineering and Applied Sciences</orgName>
+								<orgName type="department" key="dep2">School of Engineering and Applied Sciences</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Harvard University Cambridge</orgName>
+								<orgName type="institution" key="instit2">Harvard University Cambridge</orgName>
+								<orgName type="institution" key="instit3">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02138, 02138, 02138</postCode>
+									<region>MA, MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edoardo</forename><forename type="middle">M</forename><surname>Airoldi</surname></persName>
+							<email>airoldi@fas.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Engineering and Applied Sciences</orgName>
+								<orgName type="department" key="dep2">School of Engineering and Applied Sciences</orgName>
+								<orgName type="department" key="dep3">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">Harvard University Cambridge</orgName>
+								<orgName type="institution" key="instit2">Harvard University Cambridge</orgName>
+								<orgName type="institution" key="instit3">Harvard University Cambridge</orgName>
+								<address>
+									<postCode>02138, 02138, 02138</postCode>
+									<region>MA, MA, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Confidence Sets for Network Structure</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Latent variable models are frequently used to identify structure in dichotomous network data, in part because they give rise to a Bernoulli product likelihood that is both well understood and consistent with the notion of exchangeable random graphs. In this article we propose conservative confidence sets that hold with respect to these underlying Bernoulli parameters as a function of any given partition of network nodes, enabling us to assess estimates of residual network structure, that is, structure that cannot be explained by known covariates and thus cannot be easily verified by manual inspection. We demonstrate the proposed methodology by analyzing student friendship networks from the National Longitudinal Survey of Adolescent Health that include race, gender, and school year as covariates. We employ a stochastic expectation-maximization algorithm to fit a logistic regression model that includes these explanatory variables as well as a latent stochastic blockmodel component and additional node-specific effects. Although maximum-likelihood estimates do not appear consistent in this context, we are able to evaluate confidence sets as a function of different blockmodel partitions, which enables us to qualitatively assess the significance of estimated residual network structure relative to a baseline, which models covariates but lacks block structure.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

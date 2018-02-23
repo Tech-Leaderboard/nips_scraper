@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multiresolution Gaussian Processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emily</forename><forename type="middle">B</forename><surname>Fox</surname></persName>
+							<email>ebfox@stat.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept of Statistics</orgName>
+								<orgName type="department" key="dep2">Dept of Statistical Science</orgName>
+								<orgName type="institution" key="instit1">University of Washington</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">B</forename><surname>Dunson</surname></persName>
+							<email>dunson@stat.duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept of Statistics</orgName>
+								<orgName type="department" key="dep2">Dept of Statistical Science</orgName>
+								<orgName type="institution" key="instit1">University of Washington</orgName>
+								<orgName type="institution" key="instit2">Duke University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multiresolution Gaussian Processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a multiresolution Gaussian process to capture long-range, non-Markovian dependencies while allowing for abrupt changes and non-stationarity. The multiresolution GP hierarchically couples a collection of smooth GPs, each defined over an element of a random nested partition. Long-range dependencies are captured by the top-level GP while the partition points define the abrupt changes. Due to the inherent conjugacy of the GPs, one can analytically marginal-ize the GPs and compute the marginal likelihood of the observations given the partition tree. This property allows for efficient inference of the partition itself, for which we employ graph-theoretic techniques. We apply the multiresolution GP to the analysis of magnetoencephalography (MEG) recordings of brain activity.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

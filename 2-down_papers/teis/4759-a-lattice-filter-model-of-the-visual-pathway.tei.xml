@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A lattice filter model of the visual pathway</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karol</forename><surname>Gregor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Janelia Farm Research Campus</orgName>
+								<orgName type="institution">HHMI</orgName>
+								<address>
+									<addrLine>19700 Helix Drive</addrLine>
+									<settlement>Ashburn</settlement>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dmitri</forename><forename type="middle">B</forename><surname>Chklovskii</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Janelia Farm Research Campus</orgName>
+								<orgName type="institution">HHMI</orgName>
+								<address>
+									<addrLine>19700 Helix Drive</addrLine>
+									<settlement>Ashburn</settlement>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A lattice filter model of the visual pathway</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Early stages of visual processing are thought to decorrelate, or whiten, the incoming temporally varying signals. Motivated by the cascade structure of the visual pathway (retina → lateral geniculate nucelus (LGN) → primary visual cortex, V1) we propose to model its function using lattice filters-signal processing devices for stage-wise decorrelation of temporal signals. Lattice filter models predict neu-ronal responses consistent with physiological recordings in cats and primates. In particular, they predict temporal receptive fields of two different types resembling so-called lagged and non-lagged cells in the LGN. Moreover, connection weights in the lattice filter can be learned using Hebbian rules in a stage-wise sequential manner reminiscent of the neuro-developmental sequence in mammals. In addition , lattice filters can model visual processing in insects. Therefore, lattice filter is a useful abstraction that captures temporal aspects of visual processing. Our sensory organs face an ongoing barrage of stimuli from the world and must transmit as much information about them as possible to the rest of the brain [1]. This is a formidable task because, in sensory modalities such as vision, the dynamic range of natural stimuli (more than three orders of magnitude) greatly exceeds the dynamic range of relay neurons (less than two orders of magnitude) [2]. The reason why high fidelity transmission is possible at all is that the continuity of objects in the physical world leads to correlations in natural stimuli, which imply redundancy. In turn, such redundancy can be eliminated by compression performed by the front end of the visual system leading to the reduction of the dynamic range [3, 4]. A compression strategy appropriate for redundant natural stimuli is called predictive coding [5, 6, 7]. In predictive coding, a prediction of the incoming signal value is computed from past values delayed in the circuit. This prediction is subtracted from the actual signal value and only the prediction error is transmitted. In the absence of transmission noise such compression is lossless as the original signal could be decoded on the receiving end by inverting the encoder. If predictions are accurate, the dynamic range of the error is much smaller than that of the natural stimuli. Therefore, minimizing dynamic range using predictive coding reduces to optimizing prediction. Experimental support for viewing the front end of the visual system as a predictive encoder comes from the measurements of receptive fields [6, 7]. In particular, predictive coding suggests that, for natural stimuli, the temporal receptive fields should be biphasic and the spatial receptive fields-center-surround. These predictions are born out by experimental measurements in retinal ganglion cells, [8], lateral geniculate nucleus (LGN) neurons [9] and fly second order visual neurons called large monopolar cells (LMCs) [2]. In addition, the experimentally measured receptive fields vary with signal-to-noise ratio as would be expected from optimal prediction theory [6]. Furthermore, experimentally observed whitening of the transmitted signal [10] is consistent with removing correlated components from the incoming signals [11]. As natural stimuli contain correlations on time scales greater than hundred milliseconds, experimentally measured receptive fields of LGN neurons are equally long [12]. Decorrelation over such long time scales requires equally long delays. How can such extended receptive field be produced by 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

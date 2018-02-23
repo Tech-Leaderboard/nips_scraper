@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Network of Localized Linear Discriminants</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><forename type="middle">S</forename><surname>Glassman</surname></persName>
+							<email>msg@siemens.siemens.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Siemens Corporate Research</orgName>
+								<address>
+									<addrLine>755 College Road East Princeton</addrLine>
+									<postCode>08540</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Network of Localized Linear Discriminants</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The localized linear discriminant network (LLDN) has been designed to address classification problems containing relatively closely spaced data from different classes (encounter zones [1], the accuracy problem [2]). Locally trained hyper-plane segments are an effective way to define the decision boundaries for these regions [3]. The LLD uses a modified perceptron training algorithm for effective discovery of separating hyperplane/sigmoid units within narrow boundaries. The basic unit of the network is the discriminant receptive field (DRF) which combines the LLD function with Gaussians representing the dispersion of the local training data with respect to the hyperplane. The DRF implements a local distance measure [4], and obtains the benefits of networks oflocalized units [5]. A constructive algorithm for the two-class case is described which incorporates DRF&apos;s into the hidden layer to solve local discrimination problems. The output unit produces a smoothed, piecewise linear decision boundary. Preliminary results indicate the ability of the LLDN to efficiently achieve separation when boundaries are narrow and complex, in cases where both the &quot;standard&quot; multilayer perceptron (MLP) and k-nearest neighbor (KNN) yield high error rates on training data. 1 The LLD Training Algorithm and DRF Generation The LLD is defined by the hyperplane normal vector V and its &quot;midpoint&quot; M (a translated origin [1] near the center of gravity of the training data in feature space). Incremental corrections to V and M accrue for each training token feature vector Y j in the training set, as iIlustrated in figure 1 (exaggerated magnitudes). The surface of the hyperplane is appropriately moved either towards or away from Yj by rotating V, and shifting M along 1102</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

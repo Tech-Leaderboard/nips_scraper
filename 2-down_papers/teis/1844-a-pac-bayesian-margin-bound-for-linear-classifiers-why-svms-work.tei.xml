@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A PAC-Bayesian Margin Bound for Linear Classifiers: Why SVMs work</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralf</forename><surname>Herbrich</surname></persName>
+							<email>ralfh@cs.tu-berlin.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Statistics Research Group Computer Science Department</orgName>
+								<orgName type="laboratory">Statistics Research Group Computer Science Department Technical University of Berlin</orgName>
+								<orgName type="institution">Technical University of Berlin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thore</forename><surname>Graepel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Statistics Research Group Computer Science Department</orgName>
+								<orgName type="laboratory">Statistics Research Group Computer Science Department Technical University of Berlin</orgName>
+								<orgName type="institution">Technical University of Berlin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A PAC-Bayesian Margin Bound for Linear Classifiers: Why SVMs work</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a bound on the generalisation error of linear classifiers in terms of a refined margin quantity on the training set. The result is obtained in a PAC-Bayesian framework and is based on geometrical arguments in the space of linear classifiers. The new bound constitutes an exponential improvement of the so far tightest margin bound by Shawe-Taylor et al. [8] and scales logarithmically in the inverse margin. Even in the case of less training examples than input dimensions sufficiently large margins lead to non-trivial bound values and-for maximum margins-to a vanishing complexity term. Furthermore, the classical margin is too coarse a measure for the essential quantity that controls the generalisation error: the volume ratio between the whole hypothesis space and the subset of consistent hypotheses. The practical relevance of the result lies in the fact that the well-known support vector machine is optimal w.r.t. the new bound only if the feature vectors are all of the same length. As a consequence we recommend to use SVMs on normalised feature vectors only-a recommendation that is well supported by our numerical experiments on two benchmark data sets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">In-Network PCA and Anomaly Detection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ling</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit2">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit3">Intel Research Berkeley</orgName>
+								<orgName type="institution" key="instit4">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit5">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit6">Intel Research Berkeley</orgName>
+								<address>
+									<postCode>94720, 94720, 94704, 94720, 94720, 94704</postCode>
+									<region>CA, CA, CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xuanlong</forename><surname>Nguyen</surname></persName>
+							<email>xuanlong@cs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit2">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit3">Intel Research Berkeley</orgName>
+								<orgName type="institution" key="instit4">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit5">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit6">Intel Research Berkeley</orgName>
+								<address>
+									<postCode>94720, 94720, 94704, 94720, 94720, 94704</postCode>
+									<region>CA, CA, CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Minos</forename><surname>Garofalakis</surname></persName>
+							<email>minos.garofalakis@intel.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit2">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit3">Intel Research Berkeley</orgName>
+								<orgName type="institution" key="instit4">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit5">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit6">Intel Research Berkeley</orgName>
+								<address>
+									<postCode>94720, 94720, 94704, 94720, 94720, 94704</postCode>
+									<region>CA, CA, CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+							<email>jordan@cs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit2">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit3">Intel Research Berkeley</orgName>
+								<orgName type="institution" key="instit4">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit5">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit6">Intel Research Berkeley</orgName>
+								<address>
+									<postCode>94720, 94720, 94704, 94720, 94720, 94704</postCode>
+									<region>CA, CA, CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><surname>Joseph</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit2">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit3">Intel Research Berkeley</orgName>
+								<orgName type="institution" key="instit4">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit5">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit6">Intel Research Berkeley</orgName>
+								<address>
+									<postCode>94720, 94720, 94704, 94720, 94720, 94704</postCode>
+									<region>CA, CA, CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nina</forename><surname>Taft</surname></persName>
+							<email>nina.taft@intel.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit2">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit3">Intel Research Berkeley</orgName>
+								<orgName type="institution" key="instit4">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit5">University of California Berkeley</orgName>
+								<orgName type="institution" key="instit6">Intel Research Berkeley</orgName>
+								<address>
+									<postCode>94720, 94720, 94704, 94720, 94720, 94704</postCode>
+									<region>CA, CA, CA, CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">In-Network PCA and Anomaly Detection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of network anomaly detection in large distributed systems. In this setting, Principal Component Analysis (PCA) has been proposed as a method for discovering anomalies by continuously tracking the projection of the data onto a residual subspace. This method was shown to work well empirically in highly aggregated networks, that is, those with a limited number of large nodes and at coarse time scales. This approach, however , has scalability limitations. To overcome these limitations, we develop a PCA-based anomaly detector in which adaptive local data filters send to a coordinator just enough data to enable accurate global detection. Our method is based on a stochastic matrix perturbation analysis that characterizes the tradeoff between the accuracy of anomaly detection and the amount of data communicated over the network.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Direct Importance Estimation with Model Selection and Its Application to Covariate Shift Adaptation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Masashi</forename><surname>Sugiyama</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Fraunhofer FIRST</orgName>
+								<orgName type="institution" key="instit1">Tokyo Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Nikon Corporation</orgName>
+								<orgName type="institution" key="instit3">IBM Research</orgName>
+								<orgName type="institution" key="instit4">Technical University Berlin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shinichi</forename><surname>Nakajima</surname></persName>
+							<email>nakajima.s@nikon.co.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department">Fraunhofer FIRST</orgName>
+								<orgName type="institution" key="instit1">Tokyo Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Nikon Corporation</orgName>
+								<orgName type="institution" key="instit3">IBM Research</orgName>
+								<orgName type="institution" key="instit4">Technical University Berlin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hisashi</forename><surname>Kashima</surname></persName>
+							<email>hkashima@jp.ibm.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Fraunhofer FIRST</orgName>
+								<orgName type="institution" key="instit1">Tokyo Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Nikon Corporation</orgName>
+								<orgName type="institution" key="instit3">IBM Research</orgName>
+								<orgName type="institution" key="instit4">Technical University Berlin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Von B</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Fraunhofer FIRST</orgName>
+								<orgName type="institution" key="instit1">Tokyo Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Nikon Corporation</orgName>
+								<orgName type="institution" key="instit3">IBM Research</orgName>
+								<orgName type="institution" key="instit4">Technical University Berlin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Motoaki</forename><surname>Kawanabe</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Fraunhofer FIRST</orgName>
+								<orgName type="institution" key="instit1">Tokyo Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Nikon Corporation</orgName>
+								<orgName type="institution" key="instit3">IBM Research</orgName>
+								<orgName type="institution" key="instit4">Technical University Berlin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Direct Importance Estimation with Model Selection and Its Application to Covariate Shift Adaptation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A situation where training and test samples follow different input distributions is called covariate shift. Under covariate shift, standard learning methods such as maximum likelihood estimation are no longer consistent-weighted variants according to the ratio of test and training input densities are consistent. Therefore, accurately estimating the density ratio, called the importance, is one of the key issues in covariate shift adaptation. A naive approach to this task is to first estimate training and test input densities separately and then estimate the importance by taking the ratio of the estimated densities. However, this naive approach tends to perform poorly since density estimation is a hard task particularly in high dimensional cases. In this paper, we propose a direct importance estimation method that does not involve density estimation. Our method is equipped with a natural cross validation procedure and hence tuning parameters such as the kernel width can be objectively optimized. Simulations illustrate the usefulness of our approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

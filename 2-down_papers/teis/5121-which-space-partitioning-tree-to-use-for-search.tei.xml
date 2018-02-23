@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Which Space Partitioning Tree to Use for Search?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ram</surname></persName>
+							<email>p.ram@gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Georgia Tech. / Skytree, Inc. Atlanta</orgName>
+								<orgName type="institution" key="instit2">Georgia Tech. Atlanta</orgName>
+								<address>
+									<postCode>30308, 30308</postCode>
+									<region>GA, GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Gray</surname></persName>
+							<email>agray@cc.gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Georgia Tech. / Skytree, Inc. Atlanta</orgName>
+								<orgName type="institution" key="instit2">Georgia Tech. Atlanta</orgName>
+								<address>
+									<postCode>30308, 30308</postCode>
+									<region>GA, GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Which Space Partitioning Tree to Use for Search?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the task of nearest-neighbor search with the class of binary-space-partitioning trees, which includes kd-trees, principal axis trees and random projection trees, and try to rigorously answer the question &quot;which tree to use for nearest-neighbor search?&quot; To this end, we present the theoretical results which imply that trees with better vector quantization performance have better search performance guarantees. We also explore another factor affecting the search performance-margins of the partitions in these trees. We demonstrate, both theoretically and empirically, that large margin partitions can improve tree search performance. 1 Nearest-neighbor search Nearest-neighbor search is ubiquitous in computer science. Several techniques exist for nearest-neighbor search, but most algorithms can be categorized into two following groups based on the indexing scheme used-(1) search with hierarchical tree indices, or (2) search with hash-based indices. Although multidimensional binary space-partitioning trees (or BSP-trees), such as kd-trees [1], are widely used for nearest-neighbor search, it is believed that their performances degrade with increasing dimensions. Standard worst-case analyses of search with BSP-trees in high dimensions usually lead to trivial guarantees (such as, an Ω(n) search time guarantee for a single nearest-neighbor query in a set of n points). This is generally attributed to the &quot;curse of dimensionality&quot;-in the worst case, the high dimensionality can force the search algorithm to visit every node in the BSP-tree. However, these BSP-trees are very simple and intuitive, and still used in practice with success. The occasional favorable performances of BSP-trees in high dimensions are attributed to the low &quot;intrinsic&quot; dimensionality of real data. However, no clear relationship between the BSP-tree search performance and the intrinsic data properties is known. We present theoretical results which link the search performance of BSP-trees to properties of the data and the tree. This allows us to identify implicit factors influencing BSP-tree search performance-knowing these driving factors allows us to develop successful heuristics for BSP-trees with improved search performance. Algorithm 1 BSP-tree search Input: BSP-tree T on set S, Query q, Desired depth l Output: Candidate neighbor p current tree depth lc ← 0 current tree node Tc ← T while lc &lt; l do if Tc.w, q + Tc.b ≤ 0 then Tc ← Tc.left child else Tc ← Tc.right child end if Increment depth lc ← lc + 1 end while p ← arg minr∈T c ∩S q − r. Each node in a BSP-tree represents a region of the space and each non-leaf node has a left and right child representing a dis-joint partition of this region with some separating hyperplane and threshold (w, b). A search query on this tree is usually answered with a depth-first branch-and-bound algorithm. Algorithm 1 presents a simplified version where a search query is answered with a small set of neighbor candidates of any desired size by performing a greedy depth-first tree traversal to a specified depth. This is known as defeatist tree search. We are not aware of any data-dependent analysis of the quality of the results from defeatist BSP-tree search. However, Verma et al. (2009) [2] presented adaptive data-dependent analyses of some BSP-trees for the task of vector quantization. These results show precise connections between the quantization performance of the BSP-trees and certain properties of the data (we will present these data properties in Section 2).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

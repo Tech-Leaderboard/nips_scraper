@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DFacTo: Distributed Factorization of Tensors</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joon</forename><forename type="middle">Hee</forename><surname>Choi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Statistics and Computer Science</orgName>
+								<orgName type="institution" key="instit1">Purdue University West Lafayette</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<address>
+									<postCode>47907, 47907</postCode>
+									<settlement>West Lafayette</settlement>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">V N</forename><surname>Vishwanathan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Statistics and Computer Science</orgName>
+								<orgName type="institution" key="instit1">Purdue University West Lafayette</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<address>
+									<postCode>47907, 47907</postCode>
+									<settlement>West Lafayette</settlement>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DFacTo: Distributed Factorization of Tensors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a technique for significantly speeding up Alternating Least Squares (ALS) and Gradient Descent (GD), two widely used algorithms for tensor fac-torization. By exploiting properties of the Khatri-Rao product, we show how to efficiently address a computationally challenging sub-step of both algorithms. Our algorithm, DFacTo, only requires two sparse matrix-vector products and is easy to parallelize. DFacTo is not only scalable but also on average 4 to 10 times faster than competing algorithms on a variety of datasets. For instance, DFacTo only takes 480 seconds on 4 machines to perform one iteration of the ALS algorithm and 1,143 seconds to perform one iteration of the GD algorithm on a 6.5 million × 2.5 million × 1.5 million dimensional tensor with 1.2 billion non-zero entries.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

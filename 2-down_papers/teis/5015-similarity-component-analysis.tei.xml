@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Similarity Component Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Soravit</forename><surname>Changpinyo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science U. of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science U. of Southern California</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science U. of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>90089, 90089, 90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kuan</forename><surname>Liu</surname></persName>
+							<email>kuanl@usc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science U. of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science U. of Southern California</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science U. of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>90089, 90089, 90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sha</forename><surname>Fei</surname></persName>
+							<email>feisha@usc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science U. of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science U. of Southern California</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science U. of Southern California Los Angeles</orgName>
+								<address>
+									<postCode>90089, 90089, 90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Similarity Component Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Measuring similarity is crucial to many learning tasks. To this end, metric learning has been the dominant paradigm. However, similarity is a richer and broader notion than what metrics entail. For example, similarity can arise from the process of aggregating the decisions of multiple latent components, where each latent component compares data in its own way by focusing on a different subset of features. In this paper, we propose Similarity Component Analysis (SCA), a probabilistic graphical model that discovers those latent components from data. In SCA, a latent component generates a local similarity value, computed with its own metric, independently of other components. The final similarity measure is then obtained by combining the local similarity values with a (noisy-)OR gate. We derive an EM-based algorithm for fitting the model parameters with similarity-annotated data from pairwise comparisons. We validate the SCA model on synthetic datasets where SCA discovers the ground-truth about the latent components. We also apply SCA to a multiway classification task and a link prediction task. For both tasks, SCA attains significantly better prediction accuracies than competing methods. Moreover, we show how SCA can be instrumental in exploratory analysis of data, where we gain insights about the data by examining patterns hidden in its latent components&apos; local similarity values.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

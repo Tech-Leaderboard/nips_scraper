@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Minimax embeddings</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Brand</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Mitsubishi Electric Research Labs Cambridge</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Minimax embeddings</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Spectral methods for nonlinear dimensionality reduction (NLDR) impose a neighborhood graph on point data and compute eigenfunctions of a quadratic form generated from the graph. We introduce a more general and more robust formulation of NLDR based on the singular value decomposition (SVD). In this framework, most spectral NLDR principles can be recovered by taking a subset of the constraints in a quadratic form built from local nullspaces on the manifold. The minimax formulation also opens up an interesting class of methods in which the graph is &quot;dec-orated&quot; with information at the vertices, offering discrete or continuous maps, reduced computational complexity, and immunity to some solution instabilities of eigenfunction approaches. Apropos, we show almost all NLDR methods based on eigenvalue decompositions (EVD) have a solution instability that increases faster than problem size. This pathology can be observed (and corrected via the minimax formulation) in problems as small as N &lt; 100 points. 1 Nonlinear dimensionality reduction (NLDR) Spectral NLDR methods are graph embedding problems where a set of N points X. = [x 1 , · · · , x N ] ∈ R D×N sampled from a low-dimensional manifold in a ambient space R D is reparameterized by imposing a neighborhood graph G on X and embedding the graph with minimal distortion in a &quot;parameterization&quot; space R d , d &lt; D. Typically the graph is sparse and local, with edges connecting points to their immediate neighbors. The embedding must keep these edges short or preserve their length (for isometry) or angles (for conformality). The graph-embedding problem was first introduced as a least-squares problem by Tutte [1], and as an eigenvalue problem by Fiedler [2]. The use of sparse graphs to generate metrics for least-squares problems has been studied intensely in the following three decades (see [3]). Modern NLDR methods use graph constraints to generate a metric in a space of embed-dings R N. Eigenvalue decomposition (EVD) gives the directions of least or greatest variance under this metric. Typically a subset of d extremal eigenvectors gives the embedding of N points in R d parameterization space. This includes the IsoMap family [4], the locally linear embedding (LLE) family [5,6], and Laplacian methods [7,8]. Using similar methods, the Automatic Alignment [6] and Charting [9] algorithms embed local subspaces instead of points, and by combining subspace projections thus obtain continuous maps between R D and R d. This paper introduces a general algebraic framework for computing optimal embeddings directly from graph constraints. The aforementioned methods can can be recovered as special cases. The framework also suggests some new methods with very attractive properties, including continuous maps, reduced computational complexity, and control over the degree</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

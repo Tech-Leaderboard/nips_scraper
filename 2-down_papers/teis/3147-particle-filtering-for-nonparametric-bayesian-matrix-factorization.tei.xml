@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Particle Filtering for Nonparametric Bayesian Matrix Factorization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><surname>Wood</surname></persName>
+							<email>fwood@cs.brown.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Psychology</orgName>
+								<orgName type="institution" key="instit1">Brown University Providence</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>02912, 94720</postCode>
+									<settlement>Berkeley Berkeley</settlement>
+									<region>RI, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+							<email>tom griffiths@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Psychology</orgName>
+								<orgName type="institution" key="instit1">Brown University Providence</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>02912, 94720</postCode>
+									<settlement>Berkeley Berkeley</settlement>
+									<region>RI, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Particle Filtering for Nonparametric Bayesian Matrix Factorization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many unsupervised learning problems can be expressed as a form of matrix fac-torization, reconstructing an observed data matrix as the product of two matrices of latent variables. A standard challenge in solving these problems is determining the dimensionality of the latent matrices. Nonparametric Bayesian matrix factor-ization is one way of dealing with this challenge, yielding a posterior distribution over possible factorizations of unbounded dimensionality. A drawback to this approach is that posterior estimation is typically done using Gibbs sampling, which can be slow for large problems and when conjugate priors cannot be used. As an alternative, we present a particle filter for posterior estimation in nonparametric Bayesian matrix factorization models. We illustrate this approach with two matrix factorization models and show favorable performance relative to Gibbs sampling.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

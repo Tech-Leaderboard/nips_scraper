@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Unified representation of tractography and diffusion-weighted MRI data using sparse multidimensional arrays</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cesar</forename><forename type="middle">F</forename><surname>Caiafa</surname></persName>
+							<email>ccaiafa@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Psychological and Brain Sciences</orgName>
+								<orgName type="institution">Indiana University</orgName>
+								<address>
+									<addrLine>47405) Bloomington</addrLine>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olaf</forename><surname>Sporns</surname></persName>
+							<email>osporns@indiana.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychological and Brain Sciences</orgName>
+								<orgName type="institution" key="instit1">IAR -CCT La Plata</orgName>
+								<orgName type="institution" key="instit2">CONICET / CIC-PBA (</orgName>
+								<address>
+									<addrLine>1894) V. Elisa</addrLine>
+									<country key="AR">ARGENTINA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">J</forename><surname>Saykin</surname></persName>
+							<email>asaykin@iupui.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Radiology -Indiana University School of Medicine</orgName>
+								<orgName type="department" key="dep2">Department of Psychological and Brain Sciences</orgName>
+								<orgName type="institution">Indiana University</orgName>
+								<address>
+									<country>USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Franco</forename><surname>Pestilli</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Indiana University (</orgName>
+								<address>
+									<addrLine>47405) Bloomington</addrLine>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Unified representation of tractography and diffusion-weighted MRI data using sparse multidimensional arrays</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recently, linear formulations and convex optimization methods have been proposed to predict diffusion-weighted Magnetic Resonance Imaging (dMRI) data given estimates of brain connections generated using tractography algorithms. The size of the linear models comprising such methods grows with both dMRI data and connectome resolution, and can become very large when applied to modern data. In this paper, we introduce a method to encode dMRI signals and large connectomes, i.e., those that range from hundreds of thousands to millions of fascicles (bundles of neuronal axons), by using a sparse tensor decomposition. We show that this tensor decomposition accurately approximates the Linear Fascicle Evaluation (LiFE) model, one of the recently developed linear models. We provide a theoretical analysis of the accuracy of the sparse decomposed model, LiFE SD , and demonstrate that it can reduce the size of the model significantly. Also, we develop algorithms to implement the optimization solver using the tensor representation in an efficient way. *</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

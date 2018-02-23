@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Natural Language Grammar Induction using a Constituent-Context Model</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Klein</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Department</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305-9040</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">D</forename><surname>Manning</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Department</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305-9040</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Natural Language Grammar Induction using a Constituent-Context Model</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper presents a novel approach to the unsupervised learning of syntactic analyses of natural language text. Most previous work has focused on maximizing likelihood according to generative PCFG models. In contrast , we employ a simpler probabilistic model over trees based directly on constituent identity and linear context, and use an EM-like iterative procedure to induce structure. This method produces much higher quality analyses, giving the best published results on the ATIS dataset. 1 Overview To enable a wide range of subsequent tasks, human language sentences are standardly given tree-structure analyses, wherein the nodes in a tree dominate contiguous spans of words called constituents, as in figure 1(a). Constituents are the linguistically coherent units in the sentence, and are usually labeled with a constituent category, such as noun phrase (NP) or verb phrase (VP). An aim of grammar induction systems is to figure out, given just the sentences in a corpus S, what tree structures correspond to them. In this sense, the grammar induction problem is an incomplete data problem, where the complete data is the corpus of trees T , but we only observe their yields S. This paper presents a new approach to this problem, which gains leverage by directly making use of constituent contexts. It is an open problem whether entirely unsupervised methods can produce linguistically accurate parses of sentences. Due to the difficulty of this task, the vast majority of statistical parsing work has focused on supervised learning approaches to parsing, where one uses a treebank of fully parsed sentences to induce a model which parses unseen sentences [7, 3]. But there are compelling motivations for unsupervised grammar induction. Building supervised training data requires considerable resources, including time and linguistic expertise. Investigating unsupervised methods can shed light on linguistic phenomena which are implicit within a supervised parser&apos;s supervisory information (e.g., unsupervised systems often have difficulty correctly attaching subjects to verbs above objects, whereas for a supervised parser, this ordering is implicit in the supervisory information). Finally, while the presented system makes no claims to modeling human language acquisition, results on whether there is enough information in sentences to recover their structure are important data for linguistic theory, where it has standardly been assumed that the information in the data is deficient, and strong innate knowledge is required for language acquisition [4].</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

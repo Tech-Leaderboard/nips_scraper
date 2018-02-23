@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Trimmed Density Ratio Estimation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Song</forename><surname>Liu</surname></persName>
+							<email>song.liu@bristol.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Institute of Statistical Mathematics</orgName>
+								<orgName type="department" key="dep2">The Institute of Statistical Mathematics</orgName>
+								<orgName type="institution" key="instit1">University of Bristol</orgName>
+								<orgName type="institution" key="instit2">University of Tokyo</orgName>
+								<address>
+									<settlement>Sakigake</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Akiko</forename><surname>Takeda</surname></persName>
+							<email>atakeda@ism.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Institute of Statistical Mathematics</orgName>
+								<orgName type="department" key="dep2">The Institute of Statistical Mathematics</orgName>
+								<orgName type="institution" key="instit1">University of Bristol</orgName>
+								<orgName type="institution" key="instit2">University of Tokyo</orgName>
+								<address>
+									<settlement>Sakigake</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Taiji</forename><surname>Suzuki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Institute of Statistical Mathematics</orgName>
+								<orgName type="department" key="dep2">The Institute of Statistical Mathematics</orgName>
+								<orgName type="institution" key="instit1">University of Bristol</orgName>
+								<orgName type="institution" key="instit2">University of Tokyo</orgName>
+								<address>
+									<settlement>Sakigake</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenji</forename><surname>Fukumizu</surname></persName>
+							<email>fukumizu@ism.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Institute of Statistical Mathematics</orgName>
+								<orgName type="department" key="dep2">The Institute of Statistical Mathematics</orgName>
+								<orgName type="institution" key="instit1">University of Bristol</orgName>
+								<orgName type="institution" key="instit2">University of Tokyo</orgName>
+								<address>
+									<settlement>Sakigake</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Trimmed Density Ratio Estimation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Density ratio estimation is a vital tool in both machine learning and statistical community. However, due to the unbounded nature of density ratio, the estimation procedure can be vulnerable to corrupted data points, which often pushes the estimated ratio toward infinity. In this paper, we present a robust estimator which automatically identifies and trims outliers. The proposed estimator has a convex formulation, and the global optimum can be obtained via subgradient descent. We analyze the parameter estimation error of this estimator under high-dimensional settings. Experiments are conducted to verify the effectiveness of the estimator.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

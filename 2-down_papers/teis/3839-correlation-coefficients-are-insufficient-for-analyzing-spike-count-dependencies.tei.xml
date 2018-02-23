@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Correlation Coefficients Are Insufficient for Analyzing Spike Count Dependencies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arno</forename><surname>Onken</surname></persName>
+							<email>aonken@cs.tu-berlin.de</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Technische Universität Berlin</orgName>
+								<orgName type="institution" key="instit2">BCCN Berlin</orgName>
+								<address>
+									<addrLine>Franklinstr. 28/29</addrLine>
+									<postCode>10587</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steffen</forename><surname>Grünewälder</surname></persName>
+							<email>steffen@cs.ucl.ac.uk</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<addrLine>Gower Street</addrLine>
+									<postCode>WC1E 6BT</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gr¨</forename><surname>Grünewälder</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<addrLine>Gower Street</addrLine>
+									<postCode>WC1E 6BT</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Klaus</forename><surname>Obermayer</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Technische Universität</orgName>
+								<address>
+									<settlement>Berlin / BCCN Berlin oby@cs.tu-berlin.de</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Correlation Coefficients Are Insufficient for Analyzing Spike Count Dependencies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The linear correlation coefficient is typically used to characterize and analyze dependencies of neural spike counts. Here, we show that the correlation coefficient is in general insufficient to characterize these dependencies. We construct two neu-ron spike count models with Poisson-like marginals and vary their dependence structure using copulas. To this end, we construct a copula that allows to keep the spike counts uncorrelated while varying their dependence strength. Moreover, we employ a network of leaky integrate-and-fire neurons to investigate whether weakly correlated spike counts with strong dependencies are likely to occur in real networks. We find that the entropy of uncorrelated but dependent spike count distributions can deviate from the corresponding distribution with independent components by more than 25 % and that weakly correlated but strongly dependent spike counts are very likely to occur in biological networks. Finally, we introduce a test for deciding whether the dependence structure of distributions with Poisson-like marginals is well characterized by the linear correlation coefficient and verify it for different copula-based models.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

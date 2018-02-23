@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Computing with Action Potentials</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">J</forename><surname>Hopfield</surname></persName>
+							<email>jhopfield@watson.princeton. edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Molecular Biology</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carlos</forename><forename type="middle">D</forename><surname>Brody</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Computation &amp; Neural Systems</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><surname>Roweis</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Computation &amp; Neural Systems</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Computing with Action Potentials</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Most computational engineering based loosely on biology uses continuous variables to represent neural activity. Yet most neurons communicate with action potentials. The engineering view is equivalent to using a rate-code for representing information and for computing. An increasing number of examples are being discovered in which biology may not be using rate codes. Information can be represented using the timing of action potentials, and efficiently computed with in this representation. The &quot;analog match&quot; problem of odour identification is a simple problem which can be efficiently solved using action potential timing and an underlying rhythm. By using adapting units to effect a fundamental change of representation of a problem, we map the recognition of words (hav-ing uniform time-warp) in connected speech into the same analog match problem. We describe the architecture and preliminary results of such a recognition system. Using the fast events of biology in conjunction with an underlying rhythm is one way to overcome the limits of an event-driven view of computation. When the intrinsic hardware is much faster than the time scale of change of inputs, this approach can greatly increase the effective computation per unit time on a given quantity of hardware. 1 Spike timing Most neurons communicate using action potentials-stereotyped pulses of activity that are propagated along axons without change of shape over long distances by active regenerative processes. They provide a pulse-coded way of sending information. Individual action potentials last about 2 ros. Typical active nerve cells generate 5-100 action potentials/sec. Most biologically inspired engineering of neural networks represent the activity of a nerve cell by a continuous variable which can be interpreted as the short-time average rate of generating action potentials. Most traditional discussions by neurobiologists concerning how information is represented and processed in the brain have similarly relied on using &quot;short term mean firing rate&quot; as the carrier of information and the basis for computation. But this is often an ineffective way to compute and represent information in neurobiology.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

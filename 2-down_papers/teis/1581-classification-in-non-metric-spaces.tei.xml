@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Classification in Non-Metric Spaces</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daphna</forename><surname>Weinshall</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">W</forename><surname>Jacobs</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoram</forename><surname>Gdalyahu</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">2Inst. of Computer Science</orgName>
+								<orgName type="institution">NEC Research Institute</orgName>
+								<address>
+									<addrLine>4 Independence Way</addrLine>
+									<postCode>08540</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Hebrew University of Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Classification in Non-Metric Spaces</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A key question in vision is how to represent our knowledge of previously encountered objects to classify new ones. The answer depends on how we determine the similarity of two objects. Similarity tells us how relevant each previously seen object is in determining the category to which a new object belongs. Here a dichotomy emerges. Complex notions of similarity appear necessary for cognitive models and applications, while simple notions of similarity form a tractable basis for current computational approaches to classification. We explore the nature of this dichotomy and why it calls for new approaches to well-studied problems in learning. We begin this process by demonstrating new computational methods for supervised learning that can handle complex notions of similarity. (1) We discuss how to implement parametric met.hods that represent a class by its mean when using non-metric similarity functions; and (2) We review non-parametric methods that we have developed using nearest neighbor classification in non-metric spaces. Point (2) , and some of the background of our work have been described in more detail in [8]. 1 Supervised Learning and Non-Metric Distances How can one represent one &apos;s knowledge of previously encountered objects in order to classify new objects? We study this question within the framework of supel vised learning: it is assumed that one is given a number of training objects, each labeled as belonging to a category; one wishes to use this experience to label new test instances of objects. This problem emerges both in the modeling of cognitive processes and in many practical applications. For example, one might want to identify risky applicants for credit based on past experience with clients who have proven to be good or bad credit risks. Our work is motivated by computer vision applications. Most current computational approaches to supervised learning suppose that objects can be thought of as vectors of numbers , or equivalently as points lying in an n-dimensional space. They further suppose that the similarity between objects can be determined from the Euclidean distance between these vectors, or from some other simple metric. This classic notion of similarity as Euclidean or metric distance leads</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

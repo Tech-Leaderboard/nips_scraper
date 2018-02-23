@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multiplicative Updates for Nonnegative Quadratic Programming in Support Vector Machines</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sha</forename><surname>Fei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information Science</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">K</forename><surname>Saul</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer and Information Science</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+							<email>ddlee@ee.upenn.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical and System Engineering</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<addrLine>200 South 33rd Street</addrLine>
+									<postCode>19104</postCode>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multiplicative Updates for Nonnegative Quadratic Programming in Support Vector Machines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We derive multiplicative updates for solving the nonnegative quadratic programming problem in support vector machines (SVMs). The updates have a simple closed form, and we prove that they converge monotoni-cally to the solution of the maximum margin hyperplane. The updates optimize the traditionally proposed objective function for SVMs. They do not involve any heuristics such as choosing a learning rate or deciding which variables to update at each iteration. They can be used to adjust all the quadratic programming variables in parallel with a guarantee of improvement at each iteration. We analyze the asymptotic convergence of the updates and show that the coefficients of non-support vectors decay geometrically to zero at a rate that depends on their margins. In practice, the updates converge very rapidly to good classifiers.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

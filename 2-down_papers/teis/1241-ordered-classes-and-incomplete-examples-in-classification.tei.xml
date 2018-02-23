@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ordered Classes and Incomplete Examples in Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Mathieson</surname></persName>
+							<email>E-mail: mathies@stats.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Statistics</orgName>
+								<orgName type="institution">University of Oxford</orgName>
+								<address>
+									<addrLine>1 South Parks Road</addrLine>
+									<postCode>OXI 3TG</postCode>
+									<settlement>Oxford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ordered Classes and Incomplete Examples in Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The classes in classification tasks often have a natural ordering, and the training and testing examples are often incomplete. We propose a non-linear ordinal model for classification into ordered classes. Predictive, simulation-based approaches are used to learn from past and classify future incomplete examples. These techniques are illustrated by making prognoses for patients who have suffered severe head injuries. 1 Motivation Jennett et al. (1979) reported data on patients with severe head injuries. For each patient some of the information in Table 1 was available shortly after injury. The objective is to predict the degree of recovery attained within six months as measured by outcome. This problem exhibits two characteristics that are common in classification tasks: allocation qf examples into classes which have a natural ordering, and learning from past and classifying future incomplete examples. 2 A Flexible Model for Ordered Classes The Bayes decision rule (see, for example, Ripley, 1996) depends on the loss L(j, k) incurred in assigning to class k an object belonging to class j. When better information is unavailable, for unordered or nominal classes we treat every mis-classification as equally serious: LU, k) is 0 when j = k and 1 otherwise. For ordered classes, when the K classes are numbered from 1 to K in their natural order, a better default choice is LU, k) =1 j-k I. A class is then given support by its position in the ordering, and the Bayes rule will sometimes assign patterns to classes that do not have maximum posterior probability to avoid making a serious error.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

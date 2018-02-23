@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Quartz: Randomized Dual Coordinate Ascent with Arbitrary Sampling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zheng</forename><surname>Qu</surname></persName>
+							<email>zhengqu@maths.hku.hk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">School of Mathematics</orgName>
+								<orgName type="department" key="dep3">Department of Statistics Rutgers University Piscataway</orgName>
+								<orgName type="institution" key="instit1">The University of Hong Kong Hong Kong</orgName>
+								<orgName type="institution" key="instit2">The University of Edinburgh</orgName>
+								<address>
+									<postCode>EH9 3FD, 08854</postCode>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Richtárik</surname></persName>
+							<email>peter.richtarik@ed.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">School of Mathematics</orgName>
+								<orgName type="department" key="dep3">Department of Statistics Rutgers University Piscataway</orgName>
+								<orgName type="institution" key="instit1">The University of Hong Kong Hong Kong</orgName>
+								<orgName type="institution" key="instit2">The University of Edinburgh</orgName>
+								<address>
+									<postCode>EH9 3FD, 08854</postCode>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tong</forename><surname>Zhang</surname></persName>
+							<email>tzhang@stat.rutgers.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mathematics</orgName>
+								<orgName type="department" key="dep2">School of Mathematics</orgName>
+								<orgName type="department" key="dep3">Department of Statistics Rutgers University Piscataway</orgName>
+								<orgName type="institution" key="instit1">The University of Hong Kong Hong Kong</orgName>
+								<orgName type="institution" key="instit2">The University of Edinburgh</orgName>
+								<address>
+									<postCode>EH9 3FD, 08854</postCode>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Quartz: Randomized Dual Coordinate Ascent with Arbitrary Sampling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>empirical risk minimization</term>
+					<term>dual coordinate ascent</term>
+					<term>arbitrary sampling</term>
+					<term>data-driven speedup</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>We study the problem of minimizing the average of a large number of smooth convex functions penalized with a strongly convex regularizer. We propose and analyze a novel primal-dual method (Quartz) which at every iteration samples and updates a random subset of the dual variables, chosen according to an arbitrary distribution. In contrast to typical analysis, we directly bound the decrease of the primal-dual error (in expectation), without the need to first analyze the dual error. Depending on the choice of the sampling, we obtain efficient serial and mini-batch variants of the method. In the serial case, our bounds match the best known bounds for SDCA (both with uniform and importance sampling). With standard mini-batching, our bounds predict initial data-independent speedup as well as additional data-driven speedup which depends on spectral and sparsity properties of the data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

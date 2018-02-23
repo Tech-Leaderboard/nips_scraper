@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ALGONQUIN-Learning dynamic noise models from noisy speech for robust speech recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brendan</forename><forename type="middle">J</forename><surname>Freyl</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Trausti</forename><forename type="middle">T</forename><surname>Kristjansson</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Li</forename><surname>Deng</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Speech Technology Group</orgName>
+								<orgName type="institution">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><surname>Acero</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Speech Technology Group</orgName>
+								<orgName type="institution">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Probabilistic and Statistical Inference Group</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ALGONQUIN-Learning dynamic noise models from noisy speech for robust speech recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A challenging, unsolved problem in the speech recognition community is recognizing speech signals that are corrupted by loud, highly nonstationary noise. One approach to noisy speech recognition is to automatically remove the noise from the cepstrum sequence before feeding it in to a clean speech recognizer. In previous work published in Eurospeech, we showed how a probability model trained on clean speech and a separate probability model trained on noise could be combined for the purpose of estimating the noise-free speech from the noisy speech. We showed how an iterative 2nd order vector Taylor series approximation could be used for prob-abilistic inference in this model. In many circumstances, it is not possible to obtain examples of noise without speech. Noise statistics may change significantly during an utterance, so that speech-free frames are not sufficient for estimating the noise model. In this paper, we show how the noise model can be learned even when the data contains speech. In particular, the noise model can be learned from the test utterance and then used to de noise the test utterance. The approximate inference technique is used as an approximate E step in a generalized EM algorithm that learns the parameters of the noise model from a test utterance. For both Wall Street J our-nal data with added noise samples and the Aurora benchmark, we show that the new noise adaptive technique performs as well as or significantly better than the non-adaptive algorithm, without the need for a separate training set of noise examples.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

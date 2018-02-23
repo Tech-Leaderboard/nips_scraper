@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Detecting Humans via Their Pose</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alessandro</forename><surname>Bissacco</surname></persName>
+							<email>bissacco@cs.ucla.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Science Department</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles Los Angeles</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ming-Hsuan</forename><surname>Yang</surname></persName>
+							<email>mhyang@ieee.org</email>
+							<affiliation key="aff1">
+								<orgName type="department">Computer Science Department</orgName>
+								<orgName type="institution">Honda Research Institute</orgName>
+								<address>
+									<addrLine>800 California Street Mountain View</addrLine>
+									<postCode>94041</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stefano</forename><surname>Soatto</surname></persName>
+							<email>soatto@cs.ucla.edu</email>
+							<affiliation key="aff2">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>Los Angeles Los Angeles</addrLine>
+									<postCode>90095</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Detecting Humans via Their Pose</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of detecting humans and classifying their pose from a single image. Specifically, our goal is to devise a statistical model that simultaneously answers two questions: 1) is there a human in the image? and, if so, 2) what is a low-dimensional representation of her pose? We investigate models that can be learned in an unsupervised manner on unlabeled images of human poses, and provide information that can be used to match the pose of a new image to the ones present in the training set. Starting from a set of descriptors recently proposed for human detection, we apply the Latent Dirichlet Allocation framework to model the statistics of these features, and use the resulting model to answer the above questions. We show how our model can efficiently describe the space of images of humans with their pose, by providing an effective representation of poses for tasks such as classification and matching, while performing remarkably well in human/non human decision problems, thus enabling its use for human detection. We validate the model with extensive quantitative experiments and comparisons with other approaches on human detection and pose matching.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

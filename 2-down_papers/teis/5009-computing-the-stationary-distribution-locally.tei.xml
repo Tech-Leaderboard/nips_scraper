@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Computing the Stationary Distribution, Locally</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christina</forename><forename type="middle">E</forename><surname>Lee</surname></persName>
+							<email>celee@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of EECS Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Department of EECS Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep3">Department of EECS Massachusetts Institute of Technology</orgName>
+								<orgName type="laboratory">LIDS</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asuman</forename><surname>Ozdaglar</surname></persName>
+							<email>asuman@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of EECS Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Department of EECS Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep3">Department of EECS Massachusetts Institute of Technology</orgName>
+								<orgName type="laboratory">LIDS</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devavrat</forename><surname>Shah</surname></persName>
+							<email>devavrat@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of EECS Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep2">Department of EECS Massachusetts Institute of Technology</orgName>
+								<orgName type="department" key="dep3">Department of EECS Massachusetts Institute of Technology</orgName>
+								<orgName type="laboratory">LIDS</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Computing the Stationary Distribution, Locally</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Computing the stationary distribution of a large finite or countably infinite state space Markov Chain (MC) has become central in many problems such as statistical inference and network analysis. Standard methods involve large matrix multiplications as in power iteration, or simulations of long random walks, as in Markov Chain Monte Carlo (MCMC). Power iteration is costly, as it involves computation at every state. For MCMC, it is difficult to determine whether the random walks are long enough to guarantee convergence. In this paper, we provide a novel algorithm that answers whether a chosen state in a MC has stationary probability larger than some ∆ ∈ (0, 1), and outputs an estimate of the stationary probability. Our algorithm is constant time, using information from a local neighborhood of the state on the graph induced by the MC, which has constant size relative to the state space. The multiplicative error of the estimate is upper bounded by a function of the mixing properties of the MC. Simulation results show MCs for which this method gives tight estimates.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A PAC-Bayes Risk Bound for General Loss Functions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pascal</forename><surname>Germain</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Département IFT-GLO</orgName>
+								<orgName type="department" key="dep2">Département IFT-GLO</orgName>
+								<orgName type="institution">Université Laval Québec</orgName>
+								<address>
+									<country>Canada Pascal.Germain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexandre</forename><surname>Lacasse</surname></persName>
+							<email>Alexandre.Lacasse@ift.ulaval.ca</email>
+							<affiliation key="aff1">
+								<orgName type="department">Département IFT-GLO</orgName>
+								<orgName type="institution">Université Laval Québec</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">François</forename><surname>Laviolette</surname></persName>
+							<email>Francois.Laviolette@ift.ulaval.ca</email>
+							<affiliation key="aff2">
+								<orgName type="department">Département IFT-GLO</orgName>
+								<orgName type="institution">Université Laval Québec</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mario</forename><surname>Marchand</surname></persName>
+							<email>Mario.Marchand@ift.ulaval.ca</email>
+							<affiliation key="aff3">
+								<orgName type="institution">Université Laval Québec</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A PAC-Bayes Risk Bound for General Loss Functions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We provide a PAC-Bayesian bound for the expected loss of convex combinations of classifiers under a wide class of loss functions (which includes the exponential loss and the logistic loss). Our numerical experiments with Adaboost indicate that the proposed upper bound, computed on the training set, behaves very similarly as the true loss estimated on the testing set. 1 Intoduction The PAC-Bayes approach [1, 2, 3, 4, 5] has been very effective at providing tight risk bounds for large-margin classifiers such as the SVM [4, 6]. Within this approach, we consider a prior distribution P over a space of classifiers that characterizes our prior belief about good classifiers (before the observation of the data) and a posterior distribution Q (over the same space of classifiers) that takes into account the additional information provided by the training data. A remarkable result that came out from this line of research, known as the &quot;PAC-Bayes theorem&quot;, provides a tight upper bound on the risk of a stochastic classifier (defined on the posterior Q) called the Gibbs classifier. In the context of binary classification, the Q-weighted majority vote classifier (related to this stochastic classifier) labels any input instance with the label output by the stochastic classifier with probability more than half. Since at least half of the Q measure of the classifiers err on an example incorrectly classified by the majority vote, it follows that the error rate of the majority vote is at most twice the error rate of the Gibbs classifier. Therefore, given enough training data, the PAC-Bayes theorem will give a small risk bound on the majority vote classifier only when the risk of the Gibbs classifier is small. While the Gibbs classifiers related to the large-margin SVM classifiers have indeed a low risk [6, 4], this is clearly not the case for the majority vote classifiers produced by bagging [7] and boosting [8] where the risk of the associated Gibbs classifier is normally close to 1/2. Consequently, the PAC-Bayes theorem is currently not able to recognize the predictive power of the majority vote in these circumstances. In an attempt to progress towards a theory giving small risk bounds for low-risk majority votes having a large risk for the associated Gibbs classifier, we provide here a risk bound for convex combinations of classifiers under quite arbitrary loss functions, including those normally used for boosting (like the exponential loss) and those that can give a tighter upper bound to the zero-one loss of weighted majority vote classifiers (like the sigmoid loss). Our numerical experiments with Adaboost [8] indicate that the proposed upper bound for the exponential loss and the sigmoid loss, computed on the training set, behaves very similarly as the true loss estimated on the testing set.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

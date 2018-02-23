@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stochastic Learning Networks and their Electronic Implementation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><surname>Alspector</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Bell Communications Research. Morristown</orgName>
+								<address>
+									<postCode>01960</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">Allen</forename><surname>Robert</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Bell Communications Research. Morristown</orgName>
+								<address>
+									<postCode>01960</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hut</forename><surname>Victor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Bell Communications Research. Morristown</orgName>
+								<address>
+									<postCode>01960</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Srinagesh</forename><surname>Satyanarayanat</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Bell Communications Research. Morristown</orgName>
+								<address>
+									<postCode>01960</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stochastic Learning Networks and their Electronic Implementation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a family of learning algorithms that operate on a recurrent, symmetrically connected. neuromorphic network that. like the Boltzmann machine, settles in the presence of noise. These networks learn by modifying synaptic connection strengths on the basis of correlations seen locally by each synapse. We describe a version of the supervised learning algorithm for a network with analog activation functions. We also demonstrate unsupervised competitive learning with this approach. where weight saturation and decay play an important role. and describe preliminary experiments in reinforcement learning. where noise is used in the search procedure. We identify the above described phenomena as elements that can unify learning techniques at a physical microscopic level. These algorithms were chosen for ease of implementation in vlsi. We have designed a CMOS test chip in 2 micron rules that can speed up the learning about a millionfold over an equivalent simulation on a VAX lln80. The speedup is due to parallel analog computation for snmming and multiplying weights and activations. and the use of physical processes for generating random noise. The components of the test chip are a noise amplifier. a neuron amplifier. and a 300 transistor adaptive synapse. each of which is separately testable. These components are also integrated into a 6 neuron and 15 synapse network. Finally. we point out techniques for reducing the area of the electronic correlational synapse both in technology and design and show how the algorithms we study can be implemented naturally in electronic systems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

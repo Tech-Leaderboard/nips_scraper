@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Lower bounds on the robustness to adversarial perturbations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Peck</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Applied Mathematics, Computer Science and Statistics</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<postCode>9000</postCode>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Data Mining and Modeling for Biomedicine</orgName>
+								<orgName type="institution">VIB Inflammation Research Center</orgName>
+								<address>
+									<postCode>9052</postCode>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joris</forename><surname>Roels</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Data Mining and Modeling for Biomedicine</orgName>
+								<orgName type="institution">VIB Inflammation Research Center</orgName>
+								<address>
+									<postCode>9052</postCode>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Telecommunications and Information Processing</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<postCode>9000</postCode>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bart</forename><surname>Goossens</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Telecommunications and Information Processing</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<postCode>9000</postCode>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yvan</forename><surname>Saeys</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Applied Mathematics, Computer Science and Statistics</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<postCode>9000</postCode>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Data Mining and Modeling for Biomedicine</orgName>
+								<orgName type="institution">VIB Inflammation Research Center</orgName>
+								<address>
+									<postCode>9052</postCode>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Lower bounds on the robustness to adversarial perturbations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The input-output mappings learned by state-of-the-art neural networks are significantly discontinuous. It is possible to cause a neural network used for image recognition to misclassify its input by applying very specific, hardly perceptible perturbations to the input, called adversarial perturbations. Many hypotheses have been proposed to explain the existence of these peculiar samples as well as several methods to mitigate them, but a proven explanation remains elusive. In this work, we take steps towards a formal characterization of adversarial perturbations by deriving lower bounds on the magnitudes of perturbations necessary to change the classification of neural networks. The proposed bounds can be computed efficiently, requiring time at most linear in the number of parameters and hyperparameters of the model for any given sample. This makes them suitable for use in model selection, when one wishes to find out which of several proposed classifiers is most robust to adversarial perturbations. They may also be used as a basis for developing techniques to increase the robustness of classifiers, since they enjoy the theoretical guarantee that no adversarial perturbation could possibly be any smaller than the quantities provided by the bounds. We experimentally verify the bounds on the MNIST and CIFAR-10 data sets and find no violations. Additionally, the experimental results suggest that very small adversarial perturbations may occur with non-zero probability on natural samples.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

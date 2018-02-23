@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning hierarchical structures with Linear Relational Embedding</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename><surname>Paccanaro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit UCL</orgName>
+								<address>
+									<addrLine>17 Queen Square</addrLine>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit UCL</orgName>
+								<address>
+									<addrLine>17 Queen Square</addrLine>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning hierarchical structures with Linear Relational Embedding</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Let us consider the case in which all the relations are binary, i.e. involve two concepts. In this case our data consists of triplets ¢ ¤ £ ¦ ¥ ¨ § © £ ¦ ¨ ¨ ! # &quot; $ &amp; % &amp; ¥ ¨ § &apos; ( £ ) ¥ ¨ § © £ ¦ 1 0 ) 2</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present Linear Relational Embedding (LRE), a new method of learning a distributed representation of concepts from data consisting of instances of relations between given concepts. Its final goal is to be able to generalize, i.e. infer new instances of these relations among the concepts. On a task involving family relationships we show that LRE can generalize better than any previously published method. We then show how LRE can be used effectively to find compact distributed representations for variable-sized recursive data structures, such as trees and lists. 1 Linear Relational Embedding Our aim is to take a large set of facts about a domain expressed as tuples of arbitrary symbols in a simple and rigid syntactic format and to be able to infer other &quot;common-sense&quot; facts without having any prior knowledge about the domain. Let us imagine a situation in which we have a set of concepts and a set of relations among these concepts, and that our data consists of few instances of these relations that hold among the concepts. We want to be able to infer other instances of these relations. For example, if the concepts are the people in a certain family, the relations are kinship relations, and we are given the facts &quot;Alberto has-father Pietro&quot; and &quot;Pietro has-brother Giovanni&quot;, we would like to be able to infer &quot;Alberto has-uncle Giovanni&quot;. Our approach is to learn appropriate distributed representations of the entities in the data, and then exploit the generalization properties of the distributed representations [2] to make the inferences. In this paper we present a method, which we have called Linear Relational Embedding (LRE), which learns a distributed representation for the concepts by embedding them in a space where the relations between concepts are linear transformations of their distributed representations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

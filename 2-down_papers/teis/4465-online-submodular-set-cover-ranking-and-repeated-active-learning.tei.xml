@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online Submodular Set Cover, Ranking, and Repeated Active Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Guillory</surname></persName>
+							<email>guillory@cs.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Washington</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeff</forename><surname>Bilmes</surname></persName>
+							<email>bilmes@ee.washington.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Washington</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online Submodular Set Cover, Ranking, and Repeated Active Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose an online prediction version of submodular set cover with connections to ranking and repeated active learning. In each round, the learning algorithm chooses a sequence of items. The algorithm then receives a monotone submodu-lar function and suffers loss equal to the cover time of the function: the number of items needed, when items are selected in order of the chosen sequence, to achieve a coverage constraint. We develop an online learning algorithm whose loss converges to approximately that of the best sequence in hindsight. Our proposed algorithm is readily extended to a setting where multiple functions are revealed at each round and to bandit and contextual bandit settings. 1 Problem In an online ranking problem, at each round we choose an ordered list of items and then incur some loss. Problems with this structure include search result ranking, ranking news articles, and ranking advertisements. In search result ranking, each round corresponds to a search query and the items correspond to search results. We consider online ranking problems in which the loss incurred at each round is the number of items in the list needed to achieve some goal. For example, in search result ranking a reasonable loss is the number of results the user needs to view before they find the complete information they need. We are specifically interested in problems where the list of items is a sequence of questions to ask or tests to perform in order to learn. In this case the ranking problem becomes a repeated active learning problem. For example, consider a medical diagnosis problem where at each round we choose a sequence of medical tests to perform on a patient with an unknown illness. The loss is the number of tests we need to perform in order to make a confident diagnosis. We propose an approach to these problems using a new online version of submodular set cover. A set function F (S) defined over a ground set V is called submodular if it satisfies the following diminishing returns property: for every A ⊆ B ⊆ V \ {v}, F (A + v) − F (A) ≥ F (B + v) − F (B). Many natural objectives measuring information, influence, and coverage turn out to be submodular [1, 2, 3]. A set function is called monotone if for every A ⊆ B, F (A) ≤ F (B) and normalized if F (∅) = 0. Submodular set cover is the problem of selecting an S ⊆ V minimizing |S| under the constraint that F (S) ≥ 1 where F is submodular, monotone, and normalized (note we can always rescale F). This problem is NP-hard, but a greedy algorithm gives a solution with cost less than 1 + ln 1// that of the optimal solution where is the smallest non-zero gain of F [4]. We propose the following online prediction version of submodular set cover, which we simply call online submodular set cover. At each time step t = 1. .. T we choose a sequence of elements S t = (v t 1 , v t 2 ,. .. v t n) where each v t i is chosen from a ground set V of size n (we use a superscript for rounds of the online problem and a subscript for other indices). After choosing S t , an adversary reveals a submodular, monotone, normalized function F t , and we suffer loss (F t , S t) where (F t , S t) min {n} ∪ {i : F t (S t i) ≥ 1} i (1) 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

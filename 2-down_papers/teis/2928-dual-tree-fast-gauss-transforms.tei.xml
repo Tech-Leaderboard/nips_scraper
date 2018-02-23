@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dual-Tree Fast Gauss Transforms</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dongryeol</forename><surname>Lee</surname></persName>
+							<email>dongryel@cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science</orgName>
+								<orgName type="department" key="dep2">Computer Science</orgName>
+								<orgName type="department" key="dep3">Computer Science</orgName>
+								<orgName type="institution">Carnegie Mellon Univ</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><surname>Gray</surname></persName>
+							<email>agray@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science</orgName>
+								<orgName type="department" key="dep2">Computer Science</orgName>
+								<orgName type="department" key="dep3">Computer Science</orgName>
+								<orgName type="institution">Carnegie Mellon Univ</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Moore</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science</orgName>
+								<orgName type="department" key="dep2">Computer Science</orgName>
+								<orgName type="department" key="dep3">Computer Science</orgName>
+								<orgName type="institution">Carnegie Mellon Univ</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dual-Tree Fast Gauss Transforms</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In previous work we presented an efficient approach to computing kernel summations which arise in many machine learning methods such as kernel density estimation. This approach, dual-tree recursion with finite-difference approximation, generalized existing methods for similar problems arising in computational physics in two ways appropriate for statistical problems: toward distribution sensitivity and general dimension, partly by avoiding series expansions. While this proved to be the fastest practical method for multivariate kernel density estimation at the optimal bandwidth, it is much less efficient at larger-than-optimal bandwidths. In this work, we explore the extent to which the dual-tree approach can be integrated with multipole-like Hermite expansions in order to achieve reasonable efficiency across all bandwidth scales, though only for low di-mensionalities. In the process, we derive and demonstrate the first truly hierarchical fast Gauss transforms, effectively combining the best tools from discrete algorithms and continuous approximation theory. 1 Fast Gaussian Summation Kernel summations are fundamental in both statistics/learning and computational physics. This paper will focus on the common form G(x q) = NR 񮽙 r=1 e −||xq −xr || 2 2h 2 i.e. where the kernel is the Gaussian kernel with scaling parameter, or bandwidth h, there are N R reference points x r , and we desire the sum for N Q different query points x q. Such kernel summations appear in a wide array of statistical/learning methods [5], perhaps most obviously in kernel density estimation [11], the most widely used distribution-free method for the fundamental task of density estimation, which will be our main example. Understanding kernel summa-tion algorithms from a recently developed unified perspective [5] begins with the picture of Figure 1, then separately considers the discrete and continuous aspects. Discrete/geometric aspect. In terms of discrete algorithmic structure, the dual-tree framework of [5], in the context of kernel summation, generalizes all of the well-known algorithms. 1 It was applied to the problem of kernel density estimation in [7] using a simple 1 These include the Barnes-Hut algorithm [2], the Fast Multipole Method [8], Appel&apos;s algorithm [1], and the WSPD [4]: the dual-tree method is a node-node algorithm (considers query regions rather than points), is fully recursive, can use distribution-sensitive data structures such as kd-trees, and is bichromatic (can specialize for differing query and reference sets).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

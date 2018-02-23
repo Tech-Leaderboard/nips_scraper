@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Practical confidence and prediction intervals</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tom</forename><surname>Heskes</surname></persName>
+							<email>tom@mbfys.kun.nl</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">RWCP Novel Functions SNN Laboratory</orgName>
+								<orgName type="institution">University of Nijmegen Geert Grooteplein 21</orgName>
+								<address>
+									<postCode>6525 EZ</postCode>
+									<settlement>Nijmegen</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Practical confidence and prediction intervals</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a new method to compute prediction intervals. Especially for small data sets the width of a prediction interval does not only depend on the variance of the target distribution, but also on the accuracy of our estimator of the mean of the target, i.e., on the width of the confidence interval. The confidence interval follows from the variation in an ensemble of neural networks, each of them trained and stopped on bootstrap replicates of the original data set. A second improvement is the use of the residuals on validation patterns instead of on training patterns for estimation of the variance of the target distribution. As illustrated on a synthetic example, our method is better than existing methods with regard to extrap-olation and interpolation in data regimes with a limited amount of data, and yields prediction intervals which actual confidence levels are closer to the desired confidence levels. 1 STATISTICAL INTERVALS In this paper we will consider feedforward neural networks for regression tasks: estimating an underlying mathematical function between input and output variables based on a finite number of data points possibly corrupted by noise. We are given a set of Pdata pairs {ifJ, t fJ } which are assumed to be generated according to t(i) = f(i) + e(i) , (1) where e(i) denotes noise with zero mean. Straightforwardly trained on such a regression task, the output of a network o(i) given a new input vector i can be RWCP: Real World Computing Partnership; SNN: Foundation for Neural Networks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

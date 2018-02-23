@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Non-Stochastic Bandit Slate Problems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satyen</forename><surname>Kale</surname></persName>
+							<email>skale@yahoo-inc.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Georgia Inst. of Technology Atlanta</orgName>
+								<orgName type="institution" key="instit1">Yahoo! Research Santa Clara</orgName>
+								<orgName type="institution" key="instit2">Princeton University Princeton</orgName>
+								<address>
+									<region>CA, GA, NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lev</forename><surname>Reyzin</surname></persName>
+							<email>lreyzin@cc.gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Georgia Inst. of Technology Atlanta</orgName>
+								<orgName type="institution" key="instit1">Yahoo! Research Santa Clara</orgName>
+								<orgName type="institution" key="instit2">Princeton University Princeton</orgName>
+								<address>
+									<region>CA, GA, NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+							<email>schapire@cs.princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Georgia Inst. of Technology Atlanta</orgName>
+								<orgName type="institution" key="instit1">Yahoo! Research Santa Clara</orgName>
+								<orgName type="institution" key="instit2">Princeton University Princeton</orgName>
+								<address>
+									<region>CA, GA, NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Non-Stochastic Bandit Slate Problems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider bandit problems, motivated by applications in online advertising and news story selection, in which the learner must repeatedly select a slate, that is, a subset of size s from K possible actions, and then receives rewards for just the selected actions. The goal is to minimize the regret with respect to total reward of the best slate computed in hindsight. We consider unordered and ordered versions of the problem, and give efficient algorithms which have regret O(√ T), where the constant depends on the specific nature of the problem. We also consider versions of the problem where we have access to a number of policies which make recommendations for slates in every round, and give algorithms with O(√ T) regret for competing with the best such policy as well. We make use of the technique of relative entropy projections combined with the usual multiplicative weight update algorithm to obtain our algorithms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

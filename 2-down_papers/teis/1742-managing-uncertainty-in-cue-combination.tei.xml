@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Managing Uncertainty in Cue Combination</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhiyong</forename><surname>Yang</surname></persName>
+							<email>zhyyang@duke.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Deparbnent of Neurobiology</orgName>
+								<orgName type="department" key="dep2">Duke University Medical Center Durham</orgName>
+								<orgName type="department" key="dep3">Deparbnent of Psychology</orgName>
+								<orgName type="institution">University of Arizona Tucson</orgName>
+								<address>
+									<postBox>Box 3209</postBox>
+									<postCode>27710, 85721</postCode>
+									<region>NC, AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Managing Uncertainty in Cue Combination</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Richard S. Zemel We develop a hierarchical generative model to study cue combination. The model maps a global shape parameter to local cue-specific parameters, which in tum generate an intensity image. Inferring shape from images is achieved by inverting this model. Inference produces a probability distribution at each level; using distributions rather than a single value of underlying variables at each stage preserves information about the validity of each local cue for the given image. This allows the model, unlike standard combination models, to adaptively weight each cue based on general cue reliability and specific image context. We describe the results of a cue combination psychophysics experiment we conducted that allows a direct comparison with the model. The model provides a good fit to our data and a natural account for some interesting aspects of cue combination. Understanding cue combination is a fundamental step in developing computational models of visual perception, because many aspects of perception naturally involve multiple cues, such as binocular stereo, motion, texture, and shading. It is often formulated as a problem of inferring or estimating some relevant parameter, e.g., depth, shape, position, by combining estimates from individual cues. An important finding of psychophysical studies of cue combination is that cues vary in the degree to which they are used in different visual environments. Weights assigned to estimates derived from a particular cue seem to reflect its estimated reliability in the current scene and viewing conditions. For example, motion and stereo are weighted approximately equally at near distances, but motion is weighted more at far distances, presumably due to distance limits on binocular disparity.3 Experiments have also found these weightings sensitive to image manipulations ; if a cue is weakened, such as by adding noise, then the uncontami-nated cue is utilized more in making depth judgments. 9 A recent study2 has shown that observers can adjust the weighting they assign to a cue based on its relative utility for a particular task. From these and other experiments, we can identify two types of information that determine relative cue weightings: (1) cue reliability: its relative utility in the context of the task and general viewing conditions; and (2) region informativeness: cue information available locally in a given image. A central question in computational models of cue combination then concerns how these forms of uncertainty can be combined. We propose a hierarchical generative</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

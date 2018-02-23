@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Random Projections for Manifold Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chinmay</forename><surname>Hegde</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department Rice University</orgName>
+								<orgName type="department" key="dep2">EECS Department</orgName>
+								<orgName type="department" key="dep3">ECE Department Rice University</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">B</forename><surname>Wakin</surname></persName>
+							<email>wakin@eecs.umich.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department Rice University</orgName>
+								<orgName type="department" key="dep2">EECS Department</orgName>
+								<orgName type="department" key="dep3">ECE Department Rice University</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">G</forename><surname>Baraniuk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department Rice University</orgName>
+								<orgName type="department" key="dep2">EECS Department</orgName>
+								<orgName type="department" key="dep3">ECE Department Rice University</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Random Projections for Manifold Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a novel method for linear dimensionality reduction of manifold mod-eled data. First, we show that with a small number M of random projections of sample points in R N belonging to an unknown K-dimensional Euclidean mani-fold, the intrinsic dimension (ID) of the sample set can be estimated to high accuracy. Second, we rigorously prove that using only this set of random projections, we can estimate the structure of the underlying manifold. In both cases, the number of random projections required is linear in K and logarithmic in N , meaning that K &lt; M ≪ N. To handle practical situations, we develop a greedy algorithm to estimate the smallest size of the projection space required to perform manifold learning. Our method is particularly relevant in distributed sensing systems and leads to significant potential savings in data acquisition, storage and transmission costs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

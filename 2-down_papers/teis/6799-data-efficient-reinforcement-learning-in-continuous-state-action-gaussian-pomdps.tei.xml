@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Data-Efficient Reinforcement Learning in Continuous State-Action Gaussian-POMDPs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Rowan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Engineering</orgName>
+								<orgName type="institution" key="instit1">Cambridge University Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge Cambridge</orgName>
+								<address>
+									<postCode>CB2 1PZ, CB2 1PZ</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mcallister</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Engineering</orgName>
+								<orgName type="institution" key="instit1">Cambridge University Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge Cambridge</orgName>
+								<address>
+									<postCode>CB2 1PZ, CB2 1PZ</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carl</forename><forename type="middle">Edward</forename><surname>Rasmussen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Engineering</orgName>
+								<orgName type="institution" key="instit1">Cambridge University Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge Cambridge</orgName>
+								<address>
+									<postCode>CB2 1PZ, CB2 1PZ</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Data-Efficient Reinforcement Learning in Continuous State-Action Gaussian-POMDPs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a data-efficient reinforcement learning method for continuous state-action systems under significant observation noise. Data-efficient solutions under small noise exist, such as PILCO which learns the cartpole swing-up task in 30s. PILCO evaluates policies by planning state-trajectories using a dynamics model. However, PILCO applies policies to the observed state, therefore planning in observation space. We extend PILCO with filtering to instead plan in belief space, consistent with partially observable Markov decisions process (POMDP) planning. This enables data-efficient learning under significant observation noise, outperforming more naive methods such as post-hoc application of a filter to policies optimised by the original (unfiltered) PILCO algorithm. We test our method on the cartpole swing-up task, which involves nonlinear dynamics and requires nonlinear control.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

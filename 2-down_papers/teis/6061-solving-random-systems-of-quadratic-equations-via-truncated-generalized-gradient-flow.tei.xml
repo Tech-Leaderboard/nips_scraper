@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Solving Random Systems of Quadratic Equations via Truncated Generalized Gradient Flow</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gang</forename><surname>Wang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Automation</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Georgios</forename><forename type="middle">B</forename><surname>Giannakis</surname></persName>
+							<email>{gangwang, georgios}@umn.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">School of Automation</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. and Digital Tech. Center</orgName>
+								<orgName type="institution">Univ. of Minnesota</orgName>
+								<address>
+									<postCode>55455</postCode>
+									<settlement>Mpls</settlement>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Solving Random Systems of Quadratic Equations via Truncated Generalized Gradient Flow</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper puts forth a novel algorithm, termed truncated generalized gradient flow (TGGF), to solve for x ∈ R n /C n a system of m quadratic equations y i = ||a i , x| 2 , i = 1, 2,. .. , m, which even for {a i ∈ R n /C n } m i=1 random is known to be NP-hard in general. We prove that as soon as the number of equations m is on the order of the number of unknowns n, TGGF recovers the solution exactly (up to a global unimodular constant) with high probability and complexity growing linearly with the time required to read the data {(a i ; y i)} m i=1. Specifically, TGGF proceeds in two stages: s1) A novel orthogonality-promoting initialization that is obtained with simple power iterations; and, s2) a refinement of the initial estimate by successive updates of scalable truncated generalized gradient iterations. The former is in sharp contrast to the existing spectral initializations, while the latter handles the rather challenging nonconvex and nonsmooth amplitude-based cost function. Empirical results demonstrate that: i) The novel orthogonality-promoting initialization method returns more accurate and robust estimates relative to its spectral counterparts; and, ii) even with the same initialization, our refine-ment/truncation outperforms Wirtinger-based alternatives, all corroborating the superior performance of TGGF over state-of-the-art algorithms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

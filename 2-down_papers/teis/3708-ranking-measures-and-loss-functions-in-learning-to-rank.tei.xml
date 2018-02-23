@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ranking Measures and Loss Functions in Learning to Rank</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Chen</surname></persName>
+							<email>chenwei@amss.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Chinese Academy of sciences</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research Asia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Asia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yan</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Chinese Academy of sciences</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research Asia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Asia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yanyan</forename><surname>Lan</surname></persName>
+							<email>lanyanyan@amss.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Chinese Academy of sciences</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research Asia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Asia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhiming</forename><surname>Ma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Chinese Academy of sciences</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research Asia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Asia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hang</forename><surname>Li</surname></persName>
+							<email>hangli@micorsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Chinese Academy of sciences</orgName>
+								<orgName type="institution" key="instit2">Microsoft Research Asia</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research Asia</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ranking Measures and Loss Functions in Learning to Rank</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning to rank has become an important research topic in machine learning. While most learning-to-rank methods learn the ranking functions by minimizing loss functions, it is the ranking measures (such as NDCG and MAP) that are used to evaluate the performance of the learned ranking functions. In this work, we reveal the relationship between ranking measures and loss functions in learning-to-rank methods, such as Ranking SVM, RankBoost, RankNet, and ListMLE. We show that the loss functions of these methods are upper bounds of the measure-based ranking errors. As a result, the minimization of these loss functions will lead to the maximization of the ranking measures. The key to obtaining this result is to model ranking as a sequence of classification tasks, and define a so-called essential loss for ranking as the weighted sum of the classification errors of individual tasks in the sequence. We have proved that the essential loss is both an upper bound of the measure-based ranking errors, and a lower bound of the loss functions in the aforementioned methods. Our proof technique also suggests a way to modify existing loss functions to make them tighter bounds of the measure-based ranking errors. Experimental results on benchmark datasets show that the modifications can lead to better ranking performances, demonstrating the correctness of our theoretical analysis.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

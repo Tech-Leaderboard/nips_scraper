@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reshaped Wirtinger Flow for Solving Quadratic System of Equations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huishuai</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of EECS</orgName>
+								<orgName type="department" key="dep2">Department of EECS Syracuse University Syracuse</orgName>
+								<orgName type="institution">Syracuse University Syracuse</orgName>
+								<address>
+									<postCode>13244, 13244</postCode>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yingbin</forename><surname>Liang</surname></persName>
+							<email>yliang06@syr.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of EECS</orgName>
+								<orgName type="department" key="dep2">Department of EECS Syracuse University Syracuse</orgName>
+								<orgName type="institution">Syracuse University Syracuse</orgName>
+								<address>
+									<postCode>13244, 13244</postCode>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reshaped Wirtinger Flow for Solving Quadratic System of Equations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the problem of recovering a vector x ∈ R n from its magnitude measurements y i = ||a i , x|, i = 1, ..., m. Our work is along the line of the Wirtinger flow (WF) approach Candès et al. [2015], which solves the problem by minimizing a nonconvex loss function via a gradient algorithm and can be shown to converge to a global optimal point under good initialization. In contrast to the smooth loss function used in WF, we adopt a nonsmooth but lower-order loss function, and design a gradient-like algorithm (referred to as reshaped-WF). We show that for random Gaussian measurements, reshaped-WF enjoys geometric convergence to a global optimal point as long as the number m of measurements is at the order of O(n), where n is the dimension of the unknown x. This improves the sample complexity of WF, and achieves the same sample complexity as truncated-WF Chen and Candes [2015] but without truncation at gradient step. Furthermore, reshaped-WF costs less computationally than WF, and runs faster numerically than both WF and truncated-WF. Bypassing higher-order variables in the loss function and truncations in the gradient loop, analysis of reshaped-WF is simplified.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

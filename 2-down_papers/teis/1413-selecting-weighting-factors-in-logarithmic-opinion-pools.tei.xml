@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Selecting weighting factors in logarithmic opinion pools</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tom</forename><surname>Heskes</surname></persName>
+							<email>tom@mbfys.kun.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Foundation for Neural Networks</orgName>
+								<orgName type="institution">University of Nijmegen Geert Grooteplein 21</orgName>
+								<address>
+									<postCode>6525 EZ</postCode>
+									<settlement>Nijmegen</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Selecting weighting factors in logarithmic opinion pools</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A simple linear averaging of the outputs of several networks as e.g. in bagging [3], seems to follow naturally from a bias/variance decomposition of the sum-squared error. The sum-squared error of the average model is a quadratic function of the weighting factors assigned to the networks in the ensemble [7], suggesting a quadratic programming algorithm for finding the &quot;optimal&quot; weighting factors. If we interpret the output of a network as a probability statement, the sum-squared error corresponds to minus the loglikelihood or the Kullback-Leibler divergence, and linear averaging of the outputs to logarithmic averaging of the probability statements: the logarithmic opinion pool. The crux of this paper is that this whole story about model averaging , bias/variance decompositions, and quadratic programming to find the optimal weighting factors, is not specific for the sum-squared error, but applies to the combination of probability statements of any kind in a logarithmic opinion pool, as long as the Kullback-Leibler divergence plays the role of the error measure. As examples we treat model averaging for classification models under a cross-entropy error measure and models for estimating variances.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

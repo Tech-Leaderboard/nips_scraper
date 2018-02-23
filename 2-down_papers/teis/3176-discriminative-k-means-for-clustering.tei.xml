@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Discriminative K-means for Clustering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jieping</forename><surname>Ye</surname></persName>
+							<email>jieping.ye@asu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">MPI for Biological Cybernetics Tübingen</orgName>
+								<orgName type="institution" key="instit1">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit2">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287, 85287</postCode>
+									<region>AZ, AZ</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zheng</forename><surname>Zhao</surname></persName>
+							<email>zhaozheng@asu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">MPI for Biological Cybernetics Tübingen</orgName>
+								<orgName type="institution" key="instit1">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit2">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287, 85287</postCode>
+									<region>AZ, AZ</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mingrui</forename><surname>Wu</surname></persName>
+							<email>mingrui.wu@tuebingen.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">MPI for Biological Cybernetics Tübingen</orgName>
+								<orgName type="institution" key="instit1">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit2">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287, 85287</postCode>
+									<region>AZ, AZ</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Discriminative K-means for Clustering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a theoretical study on the discriminative clustering framework, recently proposed for simultaneous subspace selection via linear discriminant analysis (LDA) and clustering. Empirical results have shown its favorable performance in comparison with several other popular clustering algorithms. However, the inherent relationship between subspace selection and clustering in this framework is not well understood, due to the iterative nature of the algorithm. We show in this paper that this iterative subspace selection and clustering is equivalent to kernel K-means with a specific kernel Gram matrix. This provides significant and new insights into the nature of this subspace selection procedure. Based on this equivalence relationship, we propose the Discriminative K-means (DisKmeans) algorithm for simultaneous LDA subspace selection and clustering, as well as an automatic parameter estimation procedure. We also present the nonlinear extension of DisKmeans using kernels. We show that the learning of the kernel matrix over a convex set of pre-specified kernel matrices can be incorporated into the clustering formulation. The connection between DisKmeans and several other clustering algorithms is also analyzed. The presented theories and algorithms are evaluated through experiments on a collection of benchmark data sets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

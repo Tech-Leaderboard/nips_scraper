@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Semi-supervised Learning with GANs: Manifold Invariance with Improved Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abhishek</forename><surname>Kumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IBM Research AI Yorktown Heights</orgName>
+								<orgName type="institution" key="instit2">IBM Research AI Yorktown Heights</orgName>
+								<orgName type="institution" key="instit3">University of Utah Salt Lake City</orgName>
+								<address>
+									<region>NY, NY, UT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prasanna</forename><surname>Sattigeri</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IBM Research AI Yorktown Heights</orgName>
+								<orgName type="institution" key="instit2">IBM Research AI Yorktown Heights</orgName>
+								<orgName type="institution" key="instit3">University of Utah Salt Lake City</orgName>
+								<address>
+									<region>NY, NY, UT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">Thomas</forename><surname>Fletcher</surname></persName>
+							<email>fletcher@sci.utah.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IBM Research AI Yorktown Heights</orgName>
+								<orgName type="institution" key="instit2">IBM Research AI Yorktown Heights</orgName>
+								<orgName type="institution" key="instit3">University of Utah Salt Lake City</orgName>
+								<address>
+									<region>NY, NY, UT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Semi-supervised Learning with GANs: Manifold Invariance with Improved Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Semi-supervised learning methods using Generative adversarial networks (GANs) have shown promising empirical success recently. Most of these methods use a shared discriminator/classifier which discriminates real examples from fake while also predicting the class label. Motivated by the ability of the GANs generator to capture the data manifold well, we propose to estimate the tangent space to the data manifold using GANs and employ it to inject invariances into the classifier. In the process, we propose enhancements over existing methods for learning the inverse mapping (i.e., the encoder) which greatly improves in terms of semantic similarity of the reconstructed sample with the input sample. We observe considerable empirical gains in semi-supervised learning over baselines, particularly in the cases when the number of labeled examples is low. We also provide insights into how fake examples influence the semi-supervised learning procedure.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

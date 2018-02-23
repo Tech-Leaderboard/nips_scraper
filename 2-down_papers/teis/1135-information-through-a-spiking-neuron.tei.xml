@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Information through a Spiking Neuron</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Stevens</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Salk Institute MNL/S</orgName>
+								<address>
+									<addrLine>La J olIa</addrLine>
+									<postCode>92037</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><surname>Zador</surname></persName>
+							<email>zador@salk.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Salk Institute MNL/S</orgName>
+								<address>
+									<addrLine>La J olIa</addrLine>
+									<postCode>92037</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Information through a Spiking Neuron</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>While it is generally agreed that neurons transmit information about their synaptic inputs through spike trains, the code by which this information is transmitted is not well understood. An upper bound on the information encoded is obtained by hypothesizing that the precise timing of each spike conveys information. Here we develop a general approach to quantifying the information carried by spike trains under this hypothesis, and apply it to the leaky integrate-and-fire (IF) model of neuronal dynamics. We formulate the problem in terms of the probability distribution peT) of interspike intervals (ISIs), assuming that spikes are detected with arbitrary but finite temporal resolution. In the absence of added noise, all the variability in the ISIs could encode information, and the information rate is simply the entropy of the lSI distribution, H (T) = (-p(T) log2 p(T)}, times the spike rate. H (T) thus provides an exact expression for the information rate. The methods developed here can be used to determine experimentally the information carried by spike trains, even when the lower bound of the information rate provided by the stimulus reconstruction method is not tight. In a preliminary series of experiments, we have used these methods to estimate information rates of hippocampal neu-rons in slice in response to somatic current injection. These pilot experiments suggest information rates as high as 6.3 bits/spike. 1 Information rate of spike trains Cortical neurons use spike trains to communicate with other neurons. The output of each neuron is a stochastic function of its input from the other neurons. It is of interest to know how much each neuron is telling other neurons about its inputs. How much information does the spike train provide about a signal? Consider noise net) added to a signal set) to produce some total input yet) = set) + net). This is then passed through a (possibly stochastic) functional F to produce the output spike train F[y(t)]-+ z(t). We assume that all the information contained in the spike train can be represented by the list of spike times; that is, there is no extra information contained in properties such as spike height or width. Note, however, that many characteristics of the spike train such as the mean or instantaneous rate</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

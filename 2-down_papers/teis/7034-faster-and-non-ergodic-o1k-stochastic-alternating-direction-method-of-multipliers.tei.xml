@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Faster and Non-ergodic O(1/K) Stochastic Alternating Direction Method of Multipliers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cong</forename><surname>Fang</surname></persName>
+							<email>fangcong@pku.edu.cn fengcheng@pku.edu.cn zlin@pku.edu.cn</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Feng</forename><surname>Cheng</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhouchen</forename><surname>Lin</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of EECS</orgName>
+								<orgName type="department" key="dep2">Cooperative Medianet Innovation Center</orgName>
+								<orgName type="laboratory">Key Laboratory of Machine Perception (MOE)</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Faster and Non-ergodic O(1/K) Stochastic Alternating Direction Method of Multipliers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study stochastic convex optimization subjected to linear equality constraints. Traditional Stochastic Alternating Direction Method of Multipliers [1] and its Nes-terov&apos;s acceleration scheme [2] can only achieve ergodic O(1/ √ K) convergence rates, where K is the number of iteration. By introducing Variance Reduction (VR) techniques, the convergence rates improve to ergodic O(1/K) [3, 4]. In this paper, we propose a new stochastic ADMM which elaborately integrates Nesterov&apos;s ex-trapolation and VR techniques. With Nesterov&apos;s extrapolation, our algorithm can achieve a non-ergodic O(1/K) convergence rate which is optimal for separable linearly constrained non-smooth convex problems, while the convergence rates of VR based ADMM methods are actually tight O(1/ √ K) in non-ergodic sense. To the best of our knowledge, this is the first work that achieves a truly accelerated, stochastic convergence rate for constrained convex problems. The experimental results demonstrate that our algorithm is faster than the existing state-of-the-art stochastic ADMM methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

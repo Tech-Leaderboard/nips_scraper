@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian inference in spiking neurons</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sophie</forename><surname>Deneve</surname></persName>
+							<email>sdeneve@gatsby.ucl.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Gatsby Computational</orgName>
+								<orgName type="institution">Neuroscience Unit University College London London</orgName>
+								<address>
+									<postCode>WC1N 3AR</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Cognitive Science</orgName>
+								<address>
+									<postCode>69645</postCode>
+									<settlement>Bron</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian inference in spiking neurons</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a new interpretation of spiking neurons as Bayesian integra-tors accumulating evidence over time about events in the external world or the body, and communicating to other neurons their certainties about these events. In this model, spikes signal the occurrence of new information , i.e. what cannot be predicted from the past activity. As a result, firing statistics are close to Poisson, albeit providing a deterministic representation of probabilities. We proceed to develop a theory of Bayesian inference in spiking neural networks, recurrent interactions implementing a variant of belief propagation. Many perceptual and motor tasks performed by the central nervous system are probabilis-tic, and can be described in a Bayesian framework [4, 3]. A few important but hidden properties, such as direction of motion, or appropriate motor commands, are inferred from many noisy, local and ambiguous sensory cues. These evidences are combined with priors about the sensory world and body. Importantly, because most of these inferences should lead to quick and irreversible decisions in a perpetually changing world, noisy cues have to be integrated on-line, but in a way that takes into account unpredictable events, such as a sudden change in motion direction or the appearance of a new stimulus. This raises the question of how this temporal integration can be performed at the neural level. It has been proposed that single neurons in sensory cortices represent and compute the log probability that a sensory variable takes on a certain value (eg Is visual motion in the neuron&apos;s preferred direction?) [9, 7]. Alternatively, to avoid normalization issues and provide an appropriate signal for decision making, neurons could represent the log probability ratio of a particular hypothesis (eg is motion more likely to be towards the right than towards the left) [7, 6]. Log probabilities are convenient here, since under some assumptions , independent noisy cues simply combine linearly. Moreover, there are physiological evidence for the neural representation of log probabilities and log probability ratios [9, 6, 7]. However, these models assume that neurons represent probabilities in their firing rates. We argue that it is important to study how probabilistic information are encoded in spikes. Indeed, it seems spurious to marry the idea of an exquisite on-line integration of noisy cues with an underlying rate code that requires averaging on large populations of noisy neurons and long periods of time. In particular, most natural tasks require this integration to take place on the time scale of inter-spike intervals. Spikes are more efficiently signaling events</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

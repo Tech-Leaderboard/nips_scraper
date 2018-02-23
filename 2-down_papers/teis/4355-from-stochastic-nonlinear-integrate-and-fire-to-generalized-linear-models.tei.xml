@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">From Stochastic Nonlinear Integrate-and-Fire to Generalized Linear Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Skander</forename><surname>Mensi</surname></persName>
+							<email>skander.mensi@epfl.ch</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Naud</surname></persName>
+							<email>richard.naud@epfl.ch</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wulfram</forename><surname>Gersnter</surname></persName>
+							<email>wulfram.gerstner@epfl.ch</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer and Communication Sciences and Brain-Mind Institute</orgName>
+								<orgName type="laboratory">School of Computer and Communication Sciences and Brain-Mind Institute Ecole Polytechnique Federale de Lausanne 1015 Lausanne EPFL</orgName>
+								<orgName type="institution">Ecole Polytechnique Federale de Lausanne</orgName>
+								<address>
+									<addrLine>1015 Lausanne EPFL</addrLine>
+									<country>SWITZERLAND, SWITZERLAND</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">School of Computer and Communication Sciences and Brain-Mind Institute Ecole Polytechnique Federale de Lausanne 1015 Lausanne EPFL</orgName>
+								<address>
+									<country key="CH">SWITZERLAND</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">From Stochastic Nonlinear Integrate-and-Fire to Generalized Linear Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Variability in single neuron models is typically implemented either by a stochastic Leaky-Integrate-and-Fire model or by a model of the Generalized Linear Model (GLM) family. We use analytical and numerical methods to relate state-of-the-art models from both schools of thought. First we find the analytical expressions relating the subthreshold voltage from the Adaptive Exponential Integrate-and-Fire model (AdEx) to the Spike-Response Model with escape noise (SRM as an example of a GLM). Then we calculate numerically the link-function that provides the firing probability given a deterministic membrane potential. We find a mathematical expression for this link-function and test the ability of the GLM to predict the firing probability of a neuron receiving complex stimulation. Comparing the prediction performance of various link-functions, we find that a GLM with an exponential link-function provides an excellent approximation to the Adaptive Exponential Integrate-and-Fire with colored-noise input. These results help to understand the relationship between the different approaches to stochastic neuron models. 1 Motivation When it comes to modeling the intrinsic variability in simple neuron models, we can distinguish two traditional approaches. One approach is inspired by the stochastic Leaky Integrate-and-Fire (LIF) hypothesis of Stein (1967) [1], where a noise term is added to the system of differential equations implementing the leaky integration to a threshold. There are multiple versions of such a stochastic LIF [2]. How the noise affects the firing probability is also a function of the parameters of the neuron model. Therefore, it is important to take into account the refinements of simple neuron models in terms of subthreshold resonance [3, 4], spike-triggered adaptation [5, 6] and non-linear spike 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

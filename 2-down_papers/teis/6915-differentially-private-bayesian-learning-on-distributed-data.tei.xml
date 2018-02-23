@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Differentially private Bayesian learning on distributed data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mikko</forename><surname>Heikkilä</surname></persName>
+							<email>mikko.a.heikkila@helsinki.fi</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mathematics and Statistics</orgName>
+								<orgName type="institution" key="instit1">Helsinki Institute for Information Technology HIIT</orgName>
+								<orgName type="institution" key="instit2">University of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eemil</forename><surname>Lagerspetz</surname></persName>
+							<email>eemil.lagerspetz@helsinki.fi</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Helsinki Institute for Information Technology HIIT</orgName>
+								<orgName type="institution" key="instit2">University of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><surname>Kaski</surname></persName>
+							<email>samuel.kaski@aalto.fi</email>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Helsinki Institute for Information Technology HIIT</orgName>
+								<orgName type="institution" key="instit2">Aalto University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kana</forename><surname>Shimizu</surname></persName>
+							<email>shimizu.kana.g@gmail.com</email>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">Waseda University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sasu</forename><surname>Tarkoma</surname></persName>
+							<email>sasu.tarkoma@helsinki.fi</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Helsinki Institute for Information Technology HIIT</orgName>
+								<orgName type="institution" key="instit2">University of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antti</forename><surname>Honkela</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mathematics and Statistics</orgName>
+								<orgName type="institution" key="instit1">Helsinki Institute for Information Technology HIIT</orgName>
+								<orgName type="institution" key="instit2">University of Helsinki</orgName>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Public Health</orgName>
+								<orgName type="institution">University of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antti</forename><forename type="middle">Honkela@helsinki</forename><surname>Fi</surname></persName>
+						</author>
+						<title level="a" type="main">Differentially private Bayesian learning on distributed data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many applications of machine learning, for example in health care, would benefit from methods that can guarantee privacy of data subjects. Differential privacy (DP) has become established as a standard for protecting learning results. The standard DP algorithms require a single trusted party to have access to the entire data, which is a clear weakness, or add prohibitive amounts of noise. We consider DP Bayesian learning in a distributed setting, where each party only holds a single sample or a few samples of the data. We propose a learning strategy based on a secure multi-party sum function for aggregating summaries from data holders and the Gaussian mechanism for DP. Our method builds on an asymptotically optimal and practically efficient DP Bayesian inference with rapidly diminishing extra cost.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

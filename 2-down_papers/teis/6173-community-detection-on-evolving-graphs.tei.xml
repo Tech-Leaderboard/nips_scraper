@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Community Detection on Evolving Graphs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aris</forename><surname>Anagnostopoulos</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit2">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit3">Sapienza University of Rome</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jakub</forename><forename type="middle">Ł ˛</forename><surname>Acki</surname></persName>
+							<email>j.lacki@mimuw.edu.pl</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit2">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit3">Sapienza University of Rome</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Silvio</forename><forename type="middle">Lattanzi</forename><surname>Google</surname></persName>
+							<email>silviol@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit2">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit3">Sapienza University of Rome</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stefano</forename><surname>Leonardi</surname></persName>
+							<email>leonardi@dis.uniroma1.it</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit2">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit3">Sapienza University of Rome</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammad</forename><forename type="middle">Mahdian</forename><surname>Google</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit2">Sapienza University of Rome</orgName>
+								<orgName type="institution" key="instit3">Sapienza University of Rome</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Community Detection on Evolving Graphs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Clustering is a fundamental step in many information-retrieval and data-mining applications. Detecting clusters in graphs is also a key tool for finding the community structure in social and behavioral networks. In many of these applications, the input graph evolves over time in a continual and decentralized manner, and, to maintain a good clustering, the clustering algorithm needs to repeatedly probe the graph. Furthermore, there are often limitations on the frequency of such probes, either imposed explicitly by the online platform (e.g., in the case of crawling proprietary social networks like twitter) or implicitly because of resource limitations (e.g., in the case of crawling the web). In this paper, we study a model of clustering on evolving graphs that captures this aspect of the problem. Our model is based on the classical stochastic block model, which has been used to assess rigorously the quality of various static clustering methods. In our model, the algorithm is supposed to reconstruct the planted clustering, given the ability to query for small pieces of local information about the graph, at a limited rate. We design and analyze clustering algorithms that work in this model, and show asymptotically tight upper and lower bounds on their accuracy. Finally, we perform simulations, which demonstrate that our main asymptotic results hold true also in practice.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

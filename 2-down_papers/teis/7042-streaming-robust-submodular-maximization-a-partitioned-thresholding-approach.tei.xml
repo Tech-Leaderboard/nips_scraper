@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Streaming Robust Submodular Maximization: A Partitioned Thresholding Approach</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Slobodan</forename><forename type="middle">Mitrovi´c</forename><surname>Mitrovi´c</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EPFL</orgName>
+								<orgName type="institution" key="instit2">EPFL</orgName>
+								<orgName type="institution" key="instit3">EPFL</orgName>
+								<orgName type="institution" key="instit4">EPFL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ilija</forename><surname>Bogunovic</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EPFL</orgName>
+								<orgName type="institution" key="instit2">EPFL</orgName>
+								<orgName type="institution" key="instit3">EPFL</orgName>
+								<orgName type="institution" key="instit4">EPFL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ashkan</forename><surname>Norouzi-Fard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EPFL</orgName>
+								<orgName type="institution" key="instit2">EPFL</orgName>
+								<orgName type="institution" key="instit3">EPFL</orgName>
+								<orgName type="institution" key="instit4">EPFL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jakub</forename><surname>Tarnawski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EPFL</orgName>
+								<orgName type="institution" key="instit2">EPFL</orgName>
+								<orgName type="institution" key="instit3">EPFL</orgName>
+								<orgName type="institution" key="instit4">EPFL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Volkan</forename><surname>Cevher</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EPFL</orgName>
+								<orgName type="institution" key="instit2">EPFL</orgName>
+								<orgName type="institution" key="instit3">EPFL</orgName>
+								<orgName type="institution" key="instit4">EPFL</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">¶</forename><surname>Epfl</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EPFL</orgName>
+								<orgName type="institution" key="instit2">EPFL</orgName>
+								<orgName type="institution" key="instit3">EPFL</orgName>
+								<orgName type="institution" key="instit4">EPFL</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Streaming Robust Submodular Maximization: A Partitioned Thresholding Approach</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the classical problem of maximizing a monotone submodular function subject to a cardinality constraint k, with two additional twists: (i) elements arrive in a streaming fashion, and (ii) m items from the algorithm&apos;s memory are removed after the stream is finished. We develop a robust submodular algorithm START. It is based on a novel partitioning structure and an exponentially decreasing thresh-olding rule. START makes one pass over the data and retains a short but robust summary. We show that after the removal of any m elements from the obtained summary, a simple greedy algorithm START GREEDY that runs on the remaining elements achieves a constant-factor approximation guarantee. In two different data summarization tasks, we demonstrate that it matches or outperforms existing greedy and streaming methods, even if they are allowed the benefit of knowing the removed subset in advance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

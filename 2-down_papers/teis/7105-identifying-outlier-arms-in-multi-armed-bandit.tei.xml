@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Identifying Outlier Arms in Multi-Armed Bandit *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Honglei</forename><surname>Zhuang</surname></persName>
+							<email>hzhuang3@illinois.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Illinois at Urbana-Champaign</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chi</forename><surname>Wang</surname></persName>
+							<email>wang.chi@microsoft.com</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yifan</forename><surname>Wang</surname></persName>
+							<email>yifan-wa16@mails.tsinghua.edu.cn</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Identifying Outlier Arms in Multi-Armed Bandit *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>2 Microsoft Research, Redmond</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study a novel problem lying at the intersection of two areas: multi-armed bandit and outlier detection. Multi-armed bandit is a useful tool to model the process of incrementally collecting data for multiple objects in a decision space. Outlier detection is a powerful method to narrow down the attention to a few objects after the data for them are collected. However, no one has studied how to detect outlier objects while incrementally collecting data for them, which is necessary when data collection is expensive. We formalize this problem as identifying outlier arms in a multi-armed bandit. We propose two sampling strategies with theoretical guarantee, and analyze their sampling efficiency. Our experimental results on both synthetic and real data show that our solution saves 70-99% of data collection cost from baseline while having nearly perfect accuracy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficie nt M om e nts-base d Per m utation Tests</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chunxiao</forename><forename type="middle">Zhou</forename><surname>Huixia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Electrical and Computer Eng. Dept. of Statistics</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics, Psychology, and Bioengineering University of Illinois at Urbana-Champaign Champaign</orgName>
+								<orgName type="institution">University of Illinois at Urbana-Champaign North Carolina State University Champaign</orgName>
+								<address>
+									<postCode>61820, 27695, 61820</postCode>
+									<settlement>Raleigh</settlement>
+									<region>IL, NC, IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Judy</forename><surname>Wang</surname></persName>
+							<email>wang@stat.ncsu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Electrical and Computer Eng. Dept. of Statistics</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics, Psychology, and Bioengineering University of Illinois at Urbana-Champaign Champaign</orgName>
+								<orgName type="institution">University of Illinois at Urbana-Champaign North Carolina State University Champaign</orgName>
+								<address>
+									<postCode>61820, 27695, 61820</postCode>
+									<settlement>Raleigh</settlement>
+									<region>IL, NC, IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yongmei</forename><forename type="middle">Michelle</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Electrical and Computer Eng. Dept. of Statistics</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics, Psychology, and Bioengineering University of Illinois at Urbana-Champaign Champaign</orgName>
+								<orgName type="institution">University of Illinois at Urbana-Champaign North Carolina State University Champaign</orgName>
+								<address>
+									<postCode>61820, 27695, 61820</postCode>
+									<settlement>Raleigh</settlement>
+									<region>IL, NC, IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficie nt M om e nts-base d Per m utation Tests</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we develop an efficient moments-based permutation test approach to improve the test񮽙s computational efficiency by approximating the permutation distribution of the test statistic with Pearson distribution series. This approach involves the calculation of the first four moments of the permutation distribution. We propose a novel recursive method to derive these moments theoretically and analytically without any permutation. Experimental results using different test statistics are demonstrated using simulated data and real data. The proposed strategy takes advantage of nonparametric permutation tests and parametric Pearson distribution approximation to achieve both accuracy and efficiency. 1 In t ro d u c t i o n Permutation tests are flexible nonparametric alternatives to parametric tests in small samples, or when the distribution of a test statistic is unknown or mathematically intractable. In permutation tests, except exchangeability, no other statistical assumptions are required. The p-values can be obtained by using the permutation distribution. Permutation tests are appealing in many biomedical studies, which often have limited observations with unknown distribution. They have been used successfully in structural MR image analysis [1, 2, 3], in functional MR image analysis [4], and in 3D face analysis [5]. There are three common approaches to construct the permutation distribution [6, 7, 8]: (1) exact permutation enumerating all possible arrangements; (2) approximate permutation based on random sampling from all possible permutations; (3) approximate permutation using the analytical moments of the exact permutation distribution under the null hypothesis. The main disadvantage of the exact permutation is the computational cost, due to the factorial increase in the number of permutations with the increasing number of subjects. The second technique often gives inflated type I errors caused by random sampling. When a large number of repeated tests are needed, the random permutation strategy is also computationally expensive to achieve satisfactory accuracy. Regarding the third approach, the exact permutation distribution may not have moments or moments with tractability. In most applications, it is not the existence but the derivation of moments that limits the third approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

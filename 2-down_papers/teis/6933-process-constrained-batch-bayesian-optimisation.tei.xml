@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Process-constrained batch Bayesian Optimisation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pratibha</forename><surname>Vellanki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Pattern Recognition and Data Analytics</orgName>
+								<orgName type="institution">Deakin University</orgName>
+								<address>
+									<settlement>Geelong</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Santu</forename><surname>Rana</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Pattern Recognition and Data Analytics</orgName>
+								<orgName type="institution">Deakin University</orgName>
+								<address>
+									<settlement>Geelong</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sunil</forename><surname>Gupta</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Pattern Recognition and Data Analytics</orgName>
+								<orgName type="institution">Deakin University</orgName>
+								<address>
+									<settlement>Geelong</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Rubin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Frontier Materials</orgName>
+								<orgName type="institution">GTP Research Deakin University</orgName>
+								<address>
+									<settlement>Geelong</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alessandra</forename><surname>Sutti</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Frontier Materials</orgName>
+								<orgName type="institution">GTP Research Deakin University</orgName>
+								<address>
+									<settlement>Geelong</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Dorin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Frontier Materials</orgName>
+								<orgName type="institution">GTP Research Deakin University</orgName>
+								<address>
+									<settlement>Geelong</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Murray</forename><surname>Height</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Frontier Materials</orgName>
+								<orgName type="institution">GTP Research Deakin University</orgName>
+								<address>
+									<settlement>Geelong</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Sandars</surname></persName>
+							<email>[sanders@mtu.edu]</email>
+							<affiliation key="aff2">
+								<orgName type="department">Materials Science and Engineering</orgName>
+								<orgName type="institution">Michigan Technological University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Svetha</forename><surname>Venkatesh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Pattern Recognition and Data Analytics</orgName>
+								<orgName type="institution">Deakin University</orgName>
+								<address>
+									<settlement>Geelong</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Process-constrained batch Bayesian Optimisation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Prevailing batch Bayesian optimisation methods allow all control variables to be freely altered at each iteration. Real-world experiments, however, often have physical limitations making it time-consuming to alter all settings for each recommendation in a batch. This gives rise to a unique problem in BO: in a recommended batch, a set of variables that are expensive to experimentally change need to be fixed, while the remaining control variables can be varied. We formulate this as a process-constrained batch Bayesian optimisation problem. We propose two algorithms, pc-BO(basic) and pc-BO(nested). pc-BO(basic) is simpler but lacks convergence guarantee. In contrast pc-BO(nested) is slightly more complex, but admits convergence analysis. We show that the regret of pc-BO(nested) is sublin-ear. We demonstrate the performance of both pc-BO(basic) and pc-BO(nested) by optimising benchmark test functions, tuning hyper-parameters of the SVM clas-sifier, optimising the heat-treatment process for an Al-Sc alloy to achieve target hardness, and optimising the short polymer fibre production process.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

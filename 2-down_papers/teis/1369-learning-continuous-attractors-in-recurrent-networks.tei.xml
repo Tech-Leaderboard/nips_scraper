@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Continuous Attractors in Recurrent Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">Sebastian</forename><surname>Seung</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Bell Labs</orgName>
+								<orgName type="institution" key="instit2">Lucent Technologies Murray Hill</orgName>
+								<address>
+									<postCode>07974</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Continuous Attractors in Recurrent Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>One approach to invariant object recognition employs a recurrent neu-ral network as an associative memory. In the standard depiction of the network&apos;s state space, memories of objects are stored as attractive fixed points of the dynamics. I argue for a modification of this picture: if an object has a continuous family of instantiations, it should be represented by a continuous attractor. This idea is illustrated with a network that learns to complete patterns. To perform the task of filling in missing information , the network develops a continuous attractor that models the manifold from which the patterns are drawn. From a statistical viewpoint , the pattern completion task allows a formulation of unsupervised learning in terms of regression rather than density estimation. A classic approach to invariant object recognition is to use a recurrent neural network as an associative memory[l]. In spite of the intuitive appeal and biological plausibility of this approach, it has largely been abandoned in practical applications. This paper introduces two new concepts that could help resurrect it: object representation by continuous attractors, and learning attractors by pattern completion. In most models of associative memory, memories are stored as attractive fixed points at discrete locations in state space[l]. Discrete attractors may not be appropriate for patterns with continuous variability, like the images of a three-dimensional object from different viewpoints. When the instantiations of an object lie on a continuous pattern manifold, it is more appropriate to represent objects by attractive manifolds of fixed points, or continuous attractors. To make this idea practical, it is important to find methods for learning attractors from examples. A naive method is to train the network to retain examples in short-term memory. This method is deficient because it does not prevent the network from storing spurious fixed points that are unrelated to the examples. A superior method is to train the network to restore examples that have been corrupted, so that it learns to complete patterns by filling in missing information.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

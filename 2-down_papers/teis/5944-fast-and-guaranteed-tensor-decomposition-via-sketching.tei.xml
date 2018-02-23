@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast and Guaranteed Tensor Decomposition via Sketching</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yining</forename><surname>Wang</surname></persName>
+							<email>{yiningwa,htung}@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Department of EECS University of California Irvine Irvine</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<postCode>15213, 92697</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hsiao-Yu</forename><surname>Tung</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Department of EECS University of California Irvine Irvine</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<postCode>15213, 92697</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><surname>Smola</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Department of EECS University of California Irvine Irvine</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<postCode>15213, 92697</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anima</forename><surname>Anandkumar</surname></persName>
+							<email>a.anandkumar@uci.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Machine Learning Department</orgName>
+								<orgName type="department" key="dep2">Department of EECS University of California Irvine Irvine</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<postCode>15213, 92697</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast and Guaranteed Tensor Decomposition via Sketching</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Tensor CP decomposition</term>
+					<term>count sketch</term>
+					<term>randomized methods</term>
+					<term>spec-tral methods</term>
+					<term>topic modeling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Tensor CANDECOMP/PARAFAC (CP) decomposition has wide applications in statistical learning of latent variable models and in data mining. In this paper, we propose fast and randomized tensor CP decomposition algorithms based on sketching. We build on the idea of count sketches, but introduce many novel ideas which are unique to tensors. We develop novel methods for randomized computation of tensor contractions via FFTs, without explicitly forming the tensors. Such tensor contractions are encountered in decomposition methods such as ten-sor power iterations and alternating least squares. We also design novel colliding hashes for symmetric tensors to further save time in computing the sketches. We then combine these sketching ideas with existing whitening and tensor power iterative techniques to obtain the fastest algorithm on both sparse and dense tensors. The quality of approximation under our method does not depend on properties such as sparsity, uniformity of elements, etc. We apply the method for topic mod-eling and obtain competitive results.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

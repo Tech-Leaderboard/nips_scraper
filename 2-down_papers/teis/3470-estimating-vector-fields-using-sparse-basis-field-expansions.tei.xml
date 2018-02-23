@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Estimating vector fields using sparse basis field expansions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stefan</forename><surname>Haufe</surname></persName>
+							<email>* haufe@cs.tu-berlin.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">TU Berlin</orgName>
+								<orgName type="institution" key="instit2">Machine Learning Laboratory</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Fraunhofer Institute FIRST (IDA)</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vadim</forename><forename type="middle">V</forename><surname>Nikulin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Dept. of Neurology</orgName>
+								<orgName type="institution">Charité University Medicine</orgName>
+								<address>
+									<addrLine>Campus Benjamin Franklin</addrLine>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Bernstein Center for Computational Neuroscience</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andreas</forename><surname>Ziehe</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">TU Berlin</orgName>
+								<orgName type="institution" key="instit2">Machine Learning Laboratory</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Fraunhofer Institute FIRST (IDA)</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Klaus</forename><forename type="middle">-</forename><surname>Robert</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">¨</forename><surname>Uller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">TU Berlin</orgName>
+								<orgName type="institution" key="instit2">Machine Learning Laboratory</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Fraunhofer Institute FIRST (IDA)</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Bernstein Center for Computational Neuroscience</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guido</forename><surname>Nolte</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Fraunhofer Institute FIRST (IDA)</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Estimating vector fields using sparse basis field expansions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a novel framework for estimating vector fields using sparse basis field expansions (S-FLEX). The notion of basis fields, which are an extension of scalar basis functions, arises naturally in our framework from a rotational in-variance requirement. We consider a regression setting as well as inverse problems. All variants discussed lead to second-order cone programming formulations. While our framework is generally applicable to any type of vector field, we focus in this paper on applying it to solving the EEG/MEG inverse problem. It is shown that significantly more precise and neurophysiologically more plausible location and shape estimates of cerebral current sources from EEG/MEG measurements become possible with our method when comparing to the state-of-the-art.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

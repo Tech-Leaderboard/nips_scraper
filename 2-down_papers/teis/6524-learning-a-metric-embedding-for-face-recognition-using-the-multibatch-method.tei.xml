@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Appendix: Proof of Theorem 1</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">A Appendix: Proof of Theorem 1</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We first show that the estimate is unbiased. Indeed, for every i 6 = j we can rewrite L(z) as E ⇡ ` ⇡(i),⇡(j) (z). Therefore, L(z) = 1 k 2 񮽙 k X i6 =j2[k] L(z) = 1 k 2 񮽙 k X i6 =j2[k] E ⇡ ` ⇡(i),⇡(j) (z) = E ⇡ L ⇡ (z) , which proves that the multibatch estimate is unbiased. Next, we turn to analyze the variance of the multibatch estimate. let I ⇢ [k] 4 be all the indices i, j, s, t s.t. i 6 = j, s 6 = t, and we partition I to I 1 [ I 2 [ I 3 , where I 1 is the set where i = s and j = t, I 2 is when all indices are different, and I 3 is when i = s and j 6 = t or i 6 = s and j = t. Then: E ⇡ krL ⇡ (z) 񮽙 rL(z)k 2 = 1 (k 2 񮽙 k) 2 E ⇡ X (i,j,s,t)2I (r` ⇡(i),⇡(j) (z) 񮽙 rL(z)) · (r` ⇡(s),⇡(t) (z) 񮽙 rL(z)) = d X r=1 1 (k 2 񮽙 k) 2 3 X q=1 X (i,j,s,t)2Iq E ⇡ (r r ` ⇡(i),⇡(j) (z) 񮽙 r r L(z)) (r r ` ⇡(s),⇡(t) (z) 񮽙 r r L(z)) For every r, denote by A (r) the matrix with A (r) i,j = r r ` i,j (z) 񮽙 r r L(z). Observe that for every r, E i6 =j A (r) i,j = 0, and that X r E i6 =j (A (r) i,j) 2 = E i6 =j krì,j (z) 񮽙 rL(z)k 2. Therefore, E ⇡ krL ⇡ (z) 񮽙 rL(z)k 2 = d X r=1 1 (k 2 񮽙 k) 2 3 X q=1 X (i,j,s,t)2Iq E ⇡ A (r) ⇡(i),⇡(j) A (r) ⇡(s),⇡(t) Let us momentarily fix r and omit the superscript from A (r). We consider the value of E ⇡ A ⇡(i),⇡(j) A ⇡(s),⇡(t) according to the value of q. • For q = 1: we obtain E ⇡ A 2 ⇡(i),⇡(j) which is the variance of the random variable r r ` i,j (z)񮽙 r r L(z). • For q = 2: When we fix i, j, s, t which are all different, and take expectation over ⇡, then all products of off-diagonal elements of A appear the same number of times in E ⇡ A ⇡(i),⇡(j) A ⇡(s),⇡(t). Therefore, this quantity is proportional to P p6 =r v p v r , where v is the vector of all non-diagonal entries of A. Since P p v p = 0, we obtain (using Lemma 1) that P p6 =r v p v r  0, which means that the entire sum for this case is non-positive. • For q = 3: Let us consider the case when i = s and j 6 = t, and the derivation for the case when i 6 = s and j = t is analogous. The expression we obtain is E ⇡ A ⇡(i),⇡(j) A ⇡(i),⇡(t). This is like first sampling a row and then sampling, without replacement, two indices from the row (while not allowing to take the diagonal element). So, we can rewrite the expression as: E ⇡ A ⇡(i),⇡(j) A ⇡(s),⇡(t) = E i⇠[m] E j,t2[m]\{i}:j6 =t A i,j A i,t  E i⇠[m] ✓ E j6 =i A i,j ◆ 2 = E i⇠[m] (¯ A i) 2 , (5) where we denote ¯ A i = E j6 =i A i,j and in the inequality we used again Lemma 1. Finally, the bound on the variance follows by observing that the number of summands in I 1 is k 2 񮽙 k and the number of summands in I 3 is O(k 3). This concludes our proof. 10</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

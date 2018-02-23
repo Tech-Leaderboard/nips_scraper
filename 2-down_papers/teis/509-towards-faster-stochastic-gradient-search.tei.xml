@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Towards Faster Stochastic Gradient Search</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><surname>Darken</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yale Computer Science</orgName>
+								<address>
+									<postBox>P.O. Box 2158</postBox>
+									<postCode>06520</postCode>
+									<settlement>New Haven</settlement>
+									<region>CT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Moody</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Yale Computer Science</orgName>
+								<address>
+									<postBox>P.O. Box 2158</postBox>
+									<postCode>06520</postCode>
+									<settlement>New Haven</settlement>
+									<region>CT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Towards Faster Stochastic Gradient Search</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Stochastic gradient descent is a general algorithm which includes LMS, on-line backpropagation, and adaptive k-means clustering as special cases. The standard choices of the learning rate 1] (both adaptive and fixed functions of time) often perform quite poorly. In contrast, our recently proposed class of &quot;search then converge&quot; learning rate schedules (Darken and Moody, 1990) display the theoretically optimal asymptotic convergence rate and a superior ability to escape from poor local minima. However, the user is responsible for setting a key parameter. We propose here a new methodology for creating the first completely automatic adaptive learning rates which achieve the optimal rate of convergence. Intro d uction The stochastic gradient descent algorithm is 6. Wet) =-1]\7w E(W(t), X(t)). where 1] is the learning rate, t is the &quot;time&quot;, and X(t) is the independent random exemplar chosen at time t. The purpose of the algorithm is to find a parameter vector W which minimizes a function G(W) which for learning algorithms has the form £x E(W, X), i.e. G is the average of an objective function over the exemplars, labeled E and X respectively. We can rewrite 6.W(t) in terms of G as 6. Wet) =-1][\7wG(W(t)) + e(t, Wet))], where the e are independent zero-mean noises. Stochastic gradient descent may be preferable to deterministic gradient descent when the exemplar set is increasing in size over time or large, making the average over exemplars expensive to compute. 1009</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

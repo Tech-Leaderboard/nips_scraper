@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inferring Network Structure from Co-Occurrences</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">G</forename><surname>Rabbat</surname></persName>
+							<email>rabbat@cae.wisc.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mário</forename><forename type="middle">A T</forename><surname>Figueiredo</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">D</forename><surname>Nowak</surname></persName>
+							<email>nowak@ece.wisc.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical and Computer Eng</orgName>
+								<orgName type="department" key="dep2">Electrical and Computer Eng</orgName>
+								<orgName type="laboratory">Instituto de TelecomunicaçTelecomunicaç˜Telecomunicações Instituto Superior Técnico Lisboa</orgName>
+								<orgName type="institution">University of Wisconsin Madison</orgName>
+								<address>
+									<postCode>53706</postCode>
+									<region>WI</region>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Wisconsin Madison</orgName>
+								<address>
+									<postCode>53706</postCode>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inferring Network Structure from Co-Occurrences</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of inferring the structure of a network from co-occurrence data: observations that indicate which nodes occur in a signaling pathway but do not directly reveal node order within the pathway. This problem is motivated by network inference problems arising in computational biology and communication systems, in which it is difficult or impossible to obtain precise time ordering information. Without order information, every permutation of the activated nodes leads to a different feasible solution, resulting in combinatorial explosion of the feasible set. However, physical principles underlying most net-worked systems suggest that not all feasible solutions are equally likely. Intuitively , nodes that co-occur more frequently are probably more closely connected. Building on this intuition, we model path co-occurrences as randomly shuffled samples of a random walk on the network. We derive a computationally efficient network inference algorithm and, via novel concentration inequalities for importance sampling estimators, prove that a polynomial complexity Monte Carlo version of the algorithm converges with high probability.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

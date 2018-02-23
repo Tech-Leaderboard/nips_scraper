@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Statistical Cost Sharing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Balkanski</surname></persName>
+							<email>ericbalkanski@g.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Harvard University</orgName>
+								<orgName type="institution" key="instit2">Google NYC</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Umar</forename><surname>Syed</surname></persName>
+							<email>usyed@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Harvard University</orgName>
+								<orgName type="institution" key="instit2">Google NYC</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sergei</forename><forename type="middle">Vassilvitskii</forename><surname>Google</surname></persName>
+							<email>sergeiv@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Harvard University</orgName>
+								<orgName type="institution" key="instit2">Google NYC</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nyc</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Harvard University</orgName>
+								<orgName type="institution" key="instit2">Google NYC</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Statistical Cost Sharing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the cost sharing problem for cooperative games in situations where the cost function C is not available via oracle queries, but must instead be learned from samples drawn from a distribution, represented as tuples (S, C(S)), for different subsets S of players. We formalize this approach, which we call STATISTICAL COST SHARING, and consider the computation of the core and the Shapley value. Expanding on the work by Balcan et al. [2015], we give precise sample complexity bounds for computing cost shares that satisfy the core property with high probability for any function with a non-empty core. For the Shapley value, which has never been studied in this setting, we show that for submodular cost functions with bounded curvature  it can be approximated from samples from the uniform distribution to a p 1 񮽙  factor, and that the bound is tight. We then define statistical analogues of the Shapley axioms, and derive a notion of statistical Shapley value and that these can be approximated arbitrarily well from samples from any distribution and for any function.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

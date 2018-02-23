@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Adaptive Spatial Filters with predefined Region of Interest for EEG based Brain-Computer-Interfaces</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moritz</forename><surname>Grosse-Wentrup</surname></persName>
+							<email>moritz@tum.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department Psychology Ludwig-Maximilians</orgName>
+								<orgName type="institution">Institute of Automatic Control Engineering Technische Universität München</orgName>
+								<address>
+									<postCode>80333</postCode>
+									<settlement>München</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Klaus</forename><surname>Gramann</surname></persName>
+							<email>gramann@psy.uni-muenchen.de</email>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Automatic Control Engineering Technische</orgName>
+								<orgName type="institution">Universität München</orgName>
+								<address>
+									<postCode>80802</postCode>
+									<settlement>München</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Buss</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Universität München</orgName>
+								<address>
+									<postCode>80333</postCode>
+									<settlement>München</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Adaptive Spatial Filters with predefined Region of Interest for EEG based Brain-Computer-Interfaces</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The performance of EEG-based Brain-Computer-Interfaces (BCIs) critically depends on the extraction of features from the EEG carrying information relevant for the classification of different mental states. For BCIs employing imaginary movements of different limbs, the method of Common Spatial Patterns (CSP) has been shown to achieve excellent classification results. The CSP-algorithm however suffers from a lack of robustness, requiring training data without artifacts for good performance. To overcome this lack of robustness, we propose an adaptive spatial filter that replaces the training data in the CSP approach by a-priori information. More specifically, we design an adaptive spatial filter that maximizes the ratio of the variance of the electric field originating in a predefined region of interest (ROI) and the overall variance of the measured EEG. Since it is known that the component of the EEG used for discriminating imaginary movements originates in the motor cortex, we design two adaptive spatial filters with the ROIs centered in the hand areas of the left and right motor cortex. We then use these to classify EEG data recorded during imaginary movements of the right and left hand of three subjects, and show that the adaptive spatial filters outperform the CSP-algorithm, enabling classification rates of up to 94.7 % without artifact rejection.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

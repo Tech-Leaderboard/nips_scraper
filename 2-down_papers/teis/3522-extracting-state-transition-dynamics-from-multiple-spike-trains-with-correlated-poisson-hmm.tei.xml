@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Extracting State Transition Dynamics from Multiple Spike Trains with Correlated Poisson HMM</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kentaro</forename><surname>Katahira</surname></persName>
+							<email>katahira@mns.k.u-tokyo.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department">Graduate School of Frontier Sciences</orgName>
+								<orgName type="institution">The University of Tokyo Kashiwa</orgName>
+								<address>
+									<postCode>277-8561</postCode>
+									<settlement>Chiba</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">RIKEN Brain Science Institute Wako</orgName>
+								<address>
+									<postCode>351-0198</postCode>
+									<region>Saitama</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jun</forename><surname>Nishikawa</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">RIKEN Brain Science Institute Wako</orgName>
+								<address>
+									<postCode>351-0198</postCode>
+									<region>Saitama</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kazuo</forename><surname>Okanoya</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">RIKEN Brain Science Institute Wako</orgName>
+								<address>
+									<postCode>351-0198</postCode>
+									<region>Saitama</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Masato</forename><surname>Okada</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Graduate School of Frontier Sciences</orgName>
+								<orgName type="institution">The University of Tokyo Kashiwa</orgName>
+								<address>
+									<postCode>277-8561</postCode>
+									<settlement>Chiba</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">RIKEN Brain Science Institute Wako</orgName>
+								<address>
+									<postCode>351-0198</postCode>
+									<region>Saitama</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Extracting State Transition Dynamics from Multiple Spike Trains with Correlated Poisson HMM</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Neural activity is non-stationary and varies across time. Hidden Markov Models (HMMs) have been used to track the state transition among quasi-stationary discrete neural states. Within this context, independent Poisson models have been used for the output distribution of HMMs; hence, the model is incapable of tracking the change in correlation without modulating the firing rate. To achieve this, we applied a multivariate Poisson distribution with correlation terms for the output distribution of HMMs. We formulated a Variational Bayes (VB) inference for the model. The VB could automatically determine the appropriate number of hidden states and correlation types while avoiding the overlearning problem. We developed an efficient algorithm for computing posteriors using the recursive relationship of a multivariate Poisson distribution. We demonstrated the performance of our method on synthetic data and a real spike train recorded from a songbird.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

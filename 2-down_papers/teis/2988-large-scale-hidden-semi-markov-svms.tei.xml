@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Large Scale Hidden Semi-Markov SVMs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gunnar</forename><surname>Rätsch</surname></persName>
+							<email>Gunnar.Raetsch@tuebingen.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Fraunhofer FIRST.IDA Kekuléstr. 7</orgName>
+								<orgName type="institution">Friedrich Miescher Laboratoy</orgName>
+								<address>
+									<addrLine>Max Planck Society Spemannstr. 39</addrLine>
+									<postCode>72070, 12489</postCode>
+									<settlement>Tübingen, Berlin</settlement>
+									<country>Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sören</forename><surname>Sonnenburg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Fraunhofer FIRST.IDA Kekuléstr. 7</orgName>
+								<orgName type="institution">Friedrich Miescher Laboratoy</orgName>
+								<address>
+									<addrLine>Max Planck Society Spemannstr. 39</addrLine>
+									<postCode>72070, 12489</postCode>
+									<settlement>Tübingen, Berlin</settlement>
+									<country>Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Large Scale Hidden Semi-Markov SVMs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe Hidden Semi-Markov Support Vector Machines (SHM SVMs), an extension of HM SVMs to semi-Markov chains. This allows us to predict seg-mentations of sequences based on segment-based features measuring properties such as the length of the segment. We propose a novel technique to partition the problem into sub-problems. The independently obtained partial solutions can then be recombined in an efficient way, which allows us to solve label sequence learning problems with several thousands of labeled sequences. We have tested our algorithm for predicting gene structures, an important problem in computational biology. Results on a well-known model organism illustrate the great potential of SHM SVMs in computational biology.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

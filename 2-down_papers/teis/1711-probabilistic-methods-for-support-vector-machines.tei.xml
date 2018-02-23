@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Probabilistic methods for Support Vector Machines</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Sollich</surname></persName>
+							<email>Email: peter.sollich@kcl.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mathematics</orgName>
+								<orgName type="institution">King&apos;s College London Strand</orgName>
+								<address>
+									<postCode>WC2R 2LS</postCode>
+									<settlement>London</settlement>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Probabilistic methods for Support Vector Machines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>I describe a framework for interpreting Support Vector Machines (SVMs) as maximum a posteriori (MAP) solutions to inference problems with Gaussian Process priors. This can provide intuitive guidelines for choosing a &apos;good&apos; SVM kernel. It can also assign (by evidence maximization) optimal values to parameters such as the noise level C which cannot be determined unambiguously from properties of the MAP solution alone (such as cross-validation error). I illustrate this using a simple approximate expression for the SVM evidence. Once C has been determined, error bars on SVM predictions can also be obtained. 1 Support Vector Machines: A probabilistic framework Support Vector Machines (SVMs) have recently been the subject of intense research activity within the neural networks community; for tutorial introductions and overviews of recent developments see [1, 2, 3]. One of the open questions that remains is how to set the &apos;tunable&apos; parameters of an SVM algorithm: While methods for choosing the width of the kernel function and the noise parameter C (which controls how closely the training data are fitted) have been proposed [4, 5] (see also, very recently, [6]), the effect of the overall shape of the kernel function remains imperfectly understood [1]. Error bars (class probabilities) for SVM predictions-important for safety-critical applications, for example-are also difficult to obtain. In this paper I suggest that a probabilistic interpretation of SVMs could be used to tackle these problems. It shows that the SVM kernel defines a prior over functions on the input space, avoiding the need to think in terms of high-dimensional feature spaces. It also allows one to define quantities such as the evidence (likelihood) for a set of hyperparameters (C, kernel amplitude Ko etc). I give a simple approximation to the evidence which can then be maximized to set such hyperparameters. The evidence is sensitive to the values of C and Ko individually, in contrast to properties (such as cross-validation error) of the deterministic solution, which only depends on the product CKo. It can thfrefore be used to assign an unambiguous value to C, from which error bars can be derived.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

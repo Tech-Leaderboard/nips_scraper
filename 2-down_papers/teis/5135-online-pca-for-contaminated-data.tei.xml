@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online PCA for Contaminated Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiashi</forename><surname>Feng</surname></persName>
+							<email>jiashi@nus.edu.sg</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department</orgName>
+								<orgName type="department" key="dep2">ME Department</orgName>
+								<orgName type="department" key="dep3">EE Department Technion</orgName>
+								<orgName type="department" key="dep4">ECE Department</orgName>
+								<orgName type="institution" key="instit1">National University of Singapore</orgName>
+								<orgName type="institution" key="instit2">National University of Singapore</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huan</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department</orgName>
+								<orgName type="department" key="dep2">ME Department</orgName>
+								<orgName type="department" key="dep3">EE Department Technion</orgName>
+								<orgName type="department" key="dep4">ECE Department</orgName>
+								<orgName type="institution" key="instit1">National University of Singapore</orgName>
+								<orgName type="institution" key="instit2">National University of Singapore</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shie</forename><surname>Mannor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department</orgName>
+								<orgName type="department" key="dep2">ME Department</orgName>
+								<orgName type="department" key="dep3">EE Department Technion</orgName>
+								<orgName type="department" key="dep4">ECE Department</orgName>
+								<orgName type="institution" key="instit1">National University of Singapore</orgName>
+								<orgName type="institution" key="instit2">National University of Singapore</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shuicheng</forename><surname>Yan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department</orgName>
+								<orgName type="department" key="dep2">ME Department</orgName>
+								<orgName type="department" key="dep3">EE Department Technion</orgName>
+								<orgName type="department" key="dep4">ECE Department</orgName>
+								<orgName type="institution" key="instit1">National University of Singapore</orgName>
+								<orgName type="institution" key="instit2">National University of Singapore</orgName>
+								<orgName type="institution" key="instit3">National University of Singapore</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online PCA for Contaminated Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the online Principal Component Analysis (PCA) where contaminated samples (containing outliers) are revealed sequentially to the Principal Components (PCs) estimator. Due to their sensitiveness to outliers, previous online PCA algorithms fail in this case and their results can be arbitrarily skewed by the out-liers. Here we propose the online robust PCA algorithm, which is able to improve the PCs estimation upon an initial one steadily, even when faced with a constant fraction of outliers. We show that the final result of the proposed online RPCA has an acceptable degradation from the optimum. Actually, under mild conditions, online RPCA achieves the maximal robustness with a 50% breakdown point. Moreover, online RPCA is shown to be efficient for both storage and computation , since it need not re-explore the previous samples as in traditional robust PCA algorithms. This endows online RPCA with scalability for large scale data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

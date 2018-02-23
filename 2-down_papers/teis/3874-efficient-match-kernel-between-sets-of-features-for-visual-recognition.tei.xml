@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient Match Kernels between Sets of Features for Visual Recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liefeng</forename><surname>Bo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Toyota Technological Institute at Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Bonn</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cristian</forename><surname>Sminchisescu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Toyota Technological Institute at Chicago</orgName>
+								<orgName type="institution" key="instit2">University of Bonn</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient Match Kernels between Sets of Features for Visual Recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In visual recognition, the images are frequently modeled as unordered collections of local features (bags). We show that bag-of-words representations commonly used in conjunction with linear classifiers can be viewed as special match kernels, which count 1 if two local features fall into the same regions partitioned by visual words and 0 otherwise. Despite its simplicity, this quantization is too coarse, motivating research into the design of match kernels that more accurately measure the similarity between local features. However, it is impractical to use such kernels for large datasets due to their significant computational cost. To address this problem, we propose efficient match kernels (EMK) that map local features to a low dimensional feature space and average the resulting vectors to form a set-level feature. The local feature maps are learned so their inner products preserve, to the best possible, the values of the specified kernel function. Classifiers based on EMK are linear both in the number of images and in the number of local features. We demonstrate that EMK are extremely efficient and achieve the current state of the art in three difficult computer vision datasets: Scene-15, Caltech-101 and Caltech-256.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

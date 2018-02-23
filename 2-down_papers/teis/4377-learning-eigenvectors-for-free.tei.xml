@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Eigenvectors for Free</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wouter</forename><forename type="middle">M</forename><surname>Koolen</surname></persName>
+							<email>wouter@cs.rhul.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centrum Wiskunde &amp; Informatica</orgName>
+								<orgName type="institution">UC Santa Cruz</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Royal</forename><surname>Holloway</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centrum Wiskunde &amp; Informatica</orgName>
+								<orgName type="institution">UC Santa Cruz</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cwi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centrum Wiskunde &amp; Informatica</orgName>
+								<orgName type="institution">UC Santa Cruz</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wojtek</forename><surname>Kotłowski</surname></persName>
+							<email>kotlowsk@cwi.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centrum Wiskunde &amp; Informatica</orgName>
+								<orgName type="institution">UC Santa Cruz</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manfred</forename><forename type="middle">K</forename><surname>Warmuth</surname></persName>
+							<email>manfred@cse.ucsc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centrum Wiskunde &amp; Informatica</orgName>
+								<orgName type="institution">UC Santa Cruz</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Eigenvectors for Free</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We extend the classical problem of predicting a sequence of outcomes from a finite alphabet to the matrix domain. In this extension, the alphabet of n outcomes is replaced by the set of all dyads, i.e. outer products uu where u is a vector in R n of unit length. Whereas in the classical case the goal is to learn (i.e. sequentially predict as well as) the best multinomial distribution, in the matrix case we desire to learn the density matrix that best explains the observed sequence of dyads. We show how popular online algorithms for learning a multinomial distribution can be extended to learn density matrices. Intuitively, learning the n 2 parameters of a density matrix is much harder than learning the n parameters of a multinomial distribution. Completely surprisingly, we prove that the worst-case regrets of certain classical algorithms and their matrix generalizations are identical. The reason is that the worst-case sequence of dyads share a common eigensystem, i.e. the worst case regret is achieved in the classical case. So these matrix algorithms learn the eigenvectors without any regret.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

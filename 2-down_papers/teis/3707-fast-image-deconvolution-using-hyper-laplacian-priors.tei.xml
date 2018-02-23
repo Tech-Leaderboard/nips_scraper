@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Image Deconvolution using Hyper-Laplacian Priors</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dilip</forename><surname>Krishnan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Courant Institute</orgName>
+								<orgName type="institution" key="instit2">New York University</orgName>
+								<orgName type="institution" key="instit3">Courant Institute</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rob</forename><surname>Fergus</surname></persName>
+							<email>fergus@cs.nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Courant Institute</orgName>
+								<orgName type="institution" key="instit2">New York University</orgName>
+								<orgName type="institution" key="instit3">Courant Institute</orgName>
+								<orgName type="institution" key="instit4">New York University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Image Deconvolution using Hyper-Laplacian Priors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The heavy-tailed distribution of gradients in natural scenes have proven effective priors for a range of problems such as denoising, deblurring and super-resolution. These distributions are well modeled by a hyper-Laplacian 񮽙 p(x) ∝ e −k|x| α 񮽙 , typically with 0.5 ≤ α ≤ 0.8. However, the use of sparse distributions makes the problem non-convex and impractically slow to solve for multi-megapixel images. In this paper we describe a deconvolution approach that is several orders of magnitude faster than existing techniques that use hyper-Laplacian priors. We adopt an alternating minimization scheme where one of the two phases is a non-convex problem that is separable over pixels. This per-pixel sub-problem may be solved with a lookup table (LUT). Alternatively, for two specific values of α, 1/2 and 2/3 an analytic solution can be found, by finding the roots of a cubic and quartic polynomial , respectively. Our approach (using either LUTs or analytic formulae) is able to deconvolve a 1 megapixel image in less than ∼3 seconds, achieving comparable quality to existing methods such as iteratively reweighted least squares (IRLS) that take ∼20 minutes. Furthermore, our method is quite general and can easily be extended to related image processing problems, beyond the deconvolu-tion application demonstrated.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

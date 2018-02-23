@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On Explore-Then-Commit Strategies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aurélien</forename><surname>Garivier</surname></persName>
+							<email>aurelien.garivier@math.univ-toulouse.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Mathématiques de Toulouse</orgName>
+								<orgName type="laboratory">UMR5219</orgName>
+								<orgName type="institution" key="instit1">Université de Toulouse</orgName>
+								<orgName type="institution" key="instit2">CNRS UPS IMT</orgName>
+								<address>
+									<postCode>F-31062</postCode>
+									<settlement>Toulouse Cedex 9</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emilie</forename><surname>Kaufmann</surname></persName>
+							<email>emilie.kaufmann@univ-lille1.fr</email>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Centrale Lille, Inria SequeL UMR 9189, CRIStAL -Centre de Recherche en Informatique Signal et Automatique de Lille</orgName>
+								<orgName type="institution" key="instit1">Univ. Lille</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F-59000</postCode>
+									<settlement>Lille</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tor</forename><surname>Lattimore</surname></persName>
+							<email>tor.lattimore@gmail.com</email>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Alberta</orgName>
+								<address>
+									<addrLine>116 St &amp; 85 Ave</addrLine>
+									<postCode>T6G 2R3</postCode>
+									<settlement>Edmonton</settlement>
+									<region>AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On Explore-Then-Commit Strategies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the problem of minimising regret in two-armed bandit problems with Gaussian rewards. Our objective is to use this simple setting to illustrate that strategies based on an exploration phase (up to a stopping time) followed by exploitation are necessarily suboptimal. The results hold regardless of whether or not the difference in means between the two arms is known. Besides the main message, we also refine existing deviation inequalities, which allow us to design fully sequential strategies with finite-time regret guarantees that are (a) asymptotically optimal as the horizon grows and (b) order-optimal in the minimax sense. Furthermore we provide empirical evidence that the theory also holds in practice and discuss extensions to non-gaussian and multiple-armed case.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

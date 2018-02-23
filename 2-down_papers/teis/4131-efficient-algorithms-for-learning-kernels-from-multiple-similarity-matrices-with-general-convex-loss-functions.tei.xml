@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient algorithms for learning kernels from multiple similarity matrices with general convex loss functions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Achintya</forename><surname>Kundu</surname></persName>
+							<email>achintya@csa.iisc.ernet.in</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vikram</forename><surname>Tankasali</surname></persName>
+							<email>vikram@csa.iisc.ernet.in</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chiranjib</forename><surname>Bhattacharyya</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aharon</forename><surname>Ben-Tal</surname></persName>
+							<email>abental@ie.technion.ac.il</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science &amp; Automation</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science &amp; Automation</orgName>
+								<orgName type="department" key="dep3">Dept. of Computer Science &amp; Automation</orgName>
+								<orgName type="department" key="dep4">Faculty of Industrial Engg. &amp; Management</orgName>
+								<orgName type="institution">Indian Institute of Science</orgName>
+								<address>
+									<settlement>Bangalore</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Technion -Israel Institute of Technology</orgName>
+								<address>
+									<region>Haifa</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Efficient algorithms for learning kernels from multiple similarity matrices with general convex loss functions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Visiting Professor, CWI, Amsterdam</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper we consider the problem of learning an n × n kernel matrix from m(≥ 1) similarity matrices under general convex loss. Past research have extensively studied the m = 1 case and have derived several algorithms which require sophisticated techniques like ACCP, SOCP, etc. The existing algorithms do not apply if one uses arbitrary losses and often can not handle m &gt; 1 case. We present several provably convergent iterative algorithms, where each iteration requires either an SVM or a Multiple Kernel Learning (MKL) solver for m &gt; 1 case. One of the major contributions of the paper is to extend the well known Mirror Descent(MD) framework to handle Cartesian product of psd matrices. This novel extension leads to an algorithm, called EMKL, which solves the problem in O(m 2 log n 2) iterations; in each iteration one solves an MKL involving m kernels and m eigen-decomposition of n × n matrices. By suitably defining a restriction on the objective function, a faster version of EMKL is proposed, called REKL, which avoids the eigen-decomposition. An alternative to both EMKL and REKL is also suggested which requires only an SVM solver. Experimental results on real world protein data set involving several similarity matrices illustrate the efficacy of the proposed algorithms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

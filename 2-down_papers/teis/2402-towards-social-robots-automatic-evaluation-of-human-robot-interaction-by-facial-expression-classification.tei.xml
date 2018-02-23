@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Towards social robots: Automatic evaluation of human-robot interaction by face detection and expression classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Bartlett</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Littlewort</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Fasel</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">¢</forename><surname>¡£</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Intelligent Robotics and Communication Laboratory</orgName>
+								<orgName type="laboratory" key="lab2">ATR</orgName>
+								<address>
+									<region>Kyoto Japan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chenu</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">¤</forename><surname>¡£</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Intelligent Robotics and Communication Laboratory</orgName>
+								<orgName type="laboratory" key="lab2">ATR</orgName>
+								<address>
+									<region>Kyoto Japan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kanda</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">¢</forename><surname>¡£</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Intelligent Robotics and Communication Laboratory</orgName>
+								<orgName type="laboratory" key="lab2">ATR</orgName>
+								<address>
+									<region>Kyoto Japan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ishiguro</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">¤</forename><surname>¡£</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Intelligent Robotics and Communication Laboratory</orgName>
+								<orgName type="laboratory" key="lab2">ATR</orgName>
+								<address>
+									<region>Kyoto Japan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Movellan</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">¢</forename><surname>¡£</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Intelligent Robotics and Communication Laboratory</orgName>
+								<orgName type="laboratory" key="lab2">ATR</orgName>
+								<address>
+									<region>Kyoto Japan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Neural Computation</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Towards social robots: Automatic evaluation of human-robot interaction by face detection and expression classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Computer animated agents and robots bring a social dimension to human computer interaction and force us to think in new ways about how computers could be used in daily life. Face to face communication is a real-time process operating at a time scale of less than a second. In this paper we present progress on a perceptual primitive to automatically detect frontal faces in the video stream and code them with respect to 7 dimensions in real time: neutral, anger, disgust, fear, joy, sadness, surprise. The face finder employs a cascade of feature detectors trained with boosting techniques [13, 2]. The expression recognizer employs a novel combination of Adaboost and SVM&apos;s. The generalization performance to new subjects for a 7-way forced choice was 93.3% and 97% correct on two publicly available datasets. The outputs of the classifier change smoothly as a function of time, providing a potentially valuable representation to code facial expression dynamics in a fully automatic and unobtrusive manner. The system was deployed and evaluated for measuring spontaneous facial expressions in the field in an application for automatic assessment of human-robot interaction.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

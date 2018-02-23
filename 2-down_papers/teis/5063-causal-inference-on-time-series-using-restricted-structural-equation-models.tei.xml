@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Causal Inference on Time Series using Restricted Structural Equation Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonas</forename><surname>Peters</surname></persName>
+							<email>peters@math.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Seminar for Statistics ETH Zürich</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="department" key="dep3">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<country>Switzerland, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dominik</forename><surname>Janzing</surname></persName>
+							<email>janzing@tuebingen.mpg.de</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Seminar for Statistics ETH Zürich</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="department" key="dep3">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<country>Switzerland, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernhard</forename><surname>Schölkopf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Seminar for Statistics ETH Zürich</orgName>
+								<orgName type="department" key="dep2">MPI for Intelligent Systems Tübingen</orgName>
+								<orgName type="department" key="dep3">MPI for Intelligent Systems Tübingen</orgName>
+								<address>
+									<country>Switzerland, Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Causal Inference on Time Series using Restricted Structural Equation Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Causal inference uses observational data to infer the causal structure of the data generating system. We study a class of restricted Structural Equation Models for time series that we call Time Series Models with Independent Noise (TiMINo). These models require independent residual time series, whereas traditional methods like Granger causality exploit the variance of residuals. This work contains two main contributions: (1) Theoretical: By restricting the model class (e.g. to additive noise) we provide general identifiability results. They cover lagged and instantaneous effects that can be nonlinear and unfaithful, and non-instantaneous feedbacks between the time series. (2) Practical: If there are no feedback loops between time series, we propose an algorithm based on non-linear independence tests of time series. We show empirically that when the data are causally insufficient or the model is misspecified, the method avoids incorrect answers. We extend the theoretical and the algorithmic part to situations in which the time series have been measured with different time delays. TiMINo is applied to artificial and real data and code is provided.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

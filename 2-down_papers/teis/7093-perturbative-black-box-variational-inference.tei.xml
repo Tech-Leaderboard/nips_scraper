@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Perturbative Black Box Variational Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Bamler</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cheng</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manfred</forename><surname>Opper</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephan</forename><surname>Mandt</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Disney Research Pittsburgh</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Disney Research Pittsburgh</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">TU</orgName>
+								<address>
+									<settlement>Berlin Berlin</settlement>
+									<country>Germany, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Perturbative Black Box Variational Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Black box variational inference (BBVI) with reparameterization gradients triggered the exploration of divergence measures other than the Kullback-Leibler (KL) divergence , such as alpha divergences. In this paper, we view BBVI with generalized divergences as a form of estimating the marginal likelihood via biased importance sampling. The choice of divergence determines a bias-variance trade-off between the tightness of a bound on the marginal likelihood (low bias) and the variance of its gradient estimators. Drawing on variational perturbation theory of statistical physics, we use these insights to construct a family of new variational bounds. Enumerated by an odd integer order K, this family captures the standard KL bound for K = 1, and converges to the exact marginal likelihood as K → ∞. Compared to alpha-divergences, our reparameterization gradients have a lower variance. We show in experiments on Gaussian Processes and Variational Autoencoders that the new bounds are more mass covering, and that the resulting posterior covariances are closer to the true posterior and lead to higher likelihoods on held-out data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

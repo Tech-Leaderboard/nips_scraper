@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning the Dependency Structure of Latent Factors</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yunlong</forename><surname>He</surname></persName>
+							<email>heyunlong@gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">NEC Labs America</orgName>
+								<orgName type="institution" key="instit3">NEC Labs America</orgName>
+								<orgName type="institution" key="instit4">Georgia Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yanjun</forename><surname>Qi</surname></persName>
+							<email>yanjun@nec-labs.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">NEC Labs America</orgName>
+								<orgName type="institution" key="instit3">NEC Labs America</orgName>
+								<orgName type="institution" key="instit4">Georgia Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koray</forename><surname>Kavukcuoglu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">NEC Labs America</orgName>
+								<orgName type="institution" key="instit3">NEC Labs America</orgName>
+								<orgName type="institution" key="instit4">Georgia Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Haesun</forename><surname>Park</surname></persName>
+							<email>hpark@cc.gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">NEC Labs America</orgName>
+								<orgName type="institution" key="instit3">NEC Labs America</orgName>
+								<orgName type="institution" key="instit4">Georgia Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning the Dependency Structure of Latent Factors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we study latent factor models with dependency structure in the latent space. We propose a general learning framework which induces sparsity on the undirected graphical model imposed on the vector of latent factors. A novel latent factor model SLFA is then proposed as a matrix factorization problem with a special regularization term that encourages collaborative reconstruction. The main benefit (novelty) of the model is that we can simultaneously learn the lower-dimensional representation for data and model the pairwise relationships between latent factors explicitly. An on-line learning algorithm is devised to make the model feasible for large-scale learning problems. Experimental results on two synthetic data and two real-world data sets demonstrate that pairwise relationships and latent factors learned by our model provide a more structured way of exploring high-dimensional data, and the learned representations achieve the state-of-the-art classification performance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

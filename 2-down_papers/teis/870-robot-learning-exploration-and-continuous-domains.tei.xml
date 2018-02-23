@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Robot Learning: Exploration and Continuous Domains</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A</forename><surname>Cohn</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">MIT Dept. of Brain and Cognitive Sciences Cambridge</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Robot Learning: Exploration and Continuous Domains</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The goal of this workshop was to discuss two major issues: efficient exploration of a learner&apos;s state space, and learning in continuous domains. The common themes that emerged in presentations and in discussion were the importance of choosing one&apos;s domain assumptions carefully, mixing controllers/strategies, avoidance of catastrophic failure, new approaches with difficulties with reinforcement learning, and the importance of task transfer. 1 Domain assumptions Andrew Moore (CMU) discussed the problem of standardizing and making explicit the set of assumptions that researcher makes about his/her domain. He suggested that neither &quot;fewer assumptions are better&quot; nor &quot;more assumptions are better&quot; is a tenable position, and that we should strive to find and use standard sets of assumptions. With no such commonality, comparison of techniques and results is meaningless. Under Moore&apos;s guidance, the group discussed the possibility of designing an algorithm which used a number of well-chosen assumption sets and switched between them according to their empirical validity. Suggestions were made to draw on the AI approach of truth maintenance systems. This theme of detecting failure of an assumption set/strategy was echoed in the discussion on mixing controllers and avoiding failure (described below). 2 Mixing controllers and strategies Consensus appeared to be against using single monolithic approaches, and in favor of mixing controllers. Spatial mixing resulted in local models, as advocated by Stefan Schaal (MIT) using locally weighted regression. Controllers could also be mixed over the entire domain. Jeff Schneider (Rochester) discussed mixing a na&apos;ive feedback controller with a &quot;coaching signal.&quot; Combining the coached controller with an un coached one further improved performance. During the main conference, Satinder Singh (MIT) described a controller that learned by reinforcement to mix the strategies of two &quot;safe&quot; but suboptimal controllers, thus avoiding unpleasant surprises and catastrophic failure. 1169</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

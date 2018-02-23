@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Faster Ridge Regression via the Subsampled Randomized Hadamard Transform</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yichao</forename><surname>Lu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Statistics (Wharton School)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paramveer</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Computer &amp; Information Science</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dean</forename><surname>Foster</surname></persName>
+							<email>foster@wharton.upenn.edu, yichaolu@sas.upenn.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Statistics (Wharton School)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lyle</forename><surname>Ungar</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Computer &amp; Information Science</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Faster Ridge Regression via the Subsampled Randomized Hadamard Transform</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a fast algorithm for ridge regression when the number of features is much larger than the number of observations (p n). The standard way to solve ridge regression in this setting works in the dual space and gives a running time of O(n 2 p). Our algorithm Subsampled Randomized Hadamard Transform-Dual Ridge Regression (SRHT-DRR) runs in time O(np log(n)) and works by precon-ditioning the design matrix by a Randomized Walsh-Hadamard Transform with a subsequent subsampling of features. We provide risk bounds for our SRHT-DRR algorithm in the fixed design setting and show experimental results on synthetic and real datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

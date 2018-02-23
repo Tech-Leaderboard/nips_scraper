@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stability Bounds for Non-i.i.d. Processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mehryar</forename><surname>Mohri</surname></persName>
+							<email>mohri@cims.nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science Courant Institute of Mathematical Sciences</orgName>
+								<orgName type="institution">Courant Institute of Mathematical Sciences and Google Research</orgName>
+								<address>
+									<addrLine>251 Mercer Street New York, 251 Mercer Street</addrLine>
+									<postCode>10012, 10012</postCode>
+									<settlement>New York</settlement>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Afshin</forename><surname>Rostamizadeh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science Courant Institute of Mathematical Sciences</orgName>
+								<orgName type="institution">Courant Institute of Mathematical Sciences and Google Research</orgName>
+								<address>
+									<addrLine>251 Mercer Street New York, 251 Mercer Street</addrLine>
+									<postCode>10012, 10012</postCode>
+									<settlement>New York</settlement>
+									<region>NY, NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stability Bounds for Non-i.i.d. Processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The notion of algorithmic stability has been used effectively in the past to derive tight generalization bounds. A key advantage of these bounds is that they are designed for specific learning algorithms, exploiting their particular properties. But, as in much of learning theory, existing stability analyses and bounds apply only in the scenario where the samples are independently and identically distributed (i.i.d.). In many machine learning applications, however, this assumption does not hold. The observations received by the learning algorithm often have some inherent temporal dependence, which is clear in system diagnosis or time series prediction problems. This paper studies the scenario where the observations are drawn from a stationary mixing sequence, which implies a dependence between observations that weaken over time. It proves novel stability-based generalization bounds that hold even with this more general setting. These bounds strictly generalize the bounds given in the i.i.d. case. It also illustrates their application in the case of several general classes of learning algorithms, including Support Vector Regression and Kernel Ridge Regression.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

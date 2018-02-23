@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scaling Factorial Hidden Markov Models: Stochastic Variational Inference without Messages</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yin</forename><forename type="middle">Cheng</forename><surname>Ng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Statistical Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computing Science</orgName>
+								<orgName type="department" key="dep3">Dept. of Statistical Science</orgName>
+								<orgName type="institution" key="instit1">University College London</orgName>
+								<orgName type="institution" key="instit2">University College London</orgName>
+								<orgName type="institution" key="instit3">University College London</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pawel</forename><surname>Chilinski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Statistical Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computing Science</orgName>
+								<orgName type="department" key="dep3">Dept. of Statistical Science</orgName>
+								<orgName type="institution" key="instit1">University College London</orgName>
+								<orgName type="institution" key="instit2">University College London</orgName>
+								<orgName type="institution" key="instit3">University College London</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Silva</surname></persName>
+							<email>r.silva@ucl.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Statistical Science</orgName>
+								<orgName type="department" key="dep2">Dept. of Computing Science</orgName>
+								<orgName type="department" key="dep3">Dept. of Statistical Science</orgName>
+								<orgName type="institution" key="instit1">University College London</orgName>
+								<orgName type="institution" key="instit2">University College London</orgName>
+								<orgName type="institution" key="instit3">University College London</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scaling Factorial Hidden Markov Models: Stochastic Variational Inference without Messages</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Factorial Hidden Markov Models (FHMMs) are powerful models for sequential data but they do not scale well with long sequences. We propose a scalable inference and learning algorithm for FHMMs that draws on ideas from the stochastic variational inference, neural network and copula literatures. Unlike existing approaches , the proposed algorithm requires no message passing procedure among latent variables and can be distributed to a network of computers to speed up learning. Our experiments corroborate that the proposed algorithm does not introduce further approximation bias compared to the proven structured mean-field algorithm, and achieves better performance with long sequences and large FHMMs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Matrix Manifold Optimization for Gaussian Mixtures</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Reshad</forename><surname>Hosseini</surname></persName>
+							<email>reshad.hosseini@ut.ac.ir</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of ECE College of Engineering</orgName>
+								<orgName type="laboratory">Suvrit Sra Laboratory for Information and Decision Systems Massachusetts Institute of Technology Cambridge</orgName>
+								<orgName type="institution">University of Tehran</orgName>
+								<address>
+									<settlement>Tehran</settlement>
+									<region>MA</region>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Matrix Manifold Optimization for Gaussian Mixtures</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We take a new look at parameter estimation for Gaussian Mixture Model (GMMs). Specifically, we advance Riemannian manifold optimization (on the manifold of positive definite matrices) as a potential replacement for Expectation Maximiza-tion (EM), which has been the de facto standard for decades. An out-of-the-box invocation of Riemannian optimization, however, fails spectacularly: it obtains the same solution as EM, but vastly slower. Building on intuition from geometric convexity, we propose a simple reformulation that has remarkable consequences: it makes Riemannian optimization not only match EM (a nontrivial result on its own, given the poor record nonlinear programming has had against EM), but also outperform it in many settings. To bring our ideas to fruition, we develop a well-tuned Riemannian LBFGS method that proves superior to known competing methods (e.g., Riemannian conjugate gradient). We hope that our results encourage a wider consideration of manifold optimization in machine learning and statistics.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

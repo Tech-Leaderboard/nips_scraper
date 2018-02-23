@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning sparse codes with a mixture-of-Gaussians prior</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruno</forename><forename type="middle">A</forename><surname>Olshausen</surname></persName>
+							<email>baolshausen@ucdavis.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Psychology and Center for Neuroscience</orgName>
+								<orgName type="department" key="dep2">Center for Neuroscience</orgName>
+								<orgName type="institution">UC Davis</orgName>
+								<address>
+									<postCode>1544, 95616</postCode>
+									<settlement>Newton Ct. Davis</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">Jarrod</forename><surname>Millman</surname></persName>
+							<email>kjmillman@ucdavis. edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">UC Davis</orgName>
+								<address>
+									<postCode>1544, 95616</postCode>
+									<settlement>Newton Ct. Davis</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning sparse codes with a mixture-of-Gaussians prior</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe a method for learning an overcomplete set of basis functions for the purpose of modeling sparse structure in images. The sparsity of the basis function coefficients is modeled with a mixture-of-Gaussians distribution. One Gaussian captures non-active coefficients with a small-variance distribution centered at zero, while one or more other Gaussians capture active coefficients with a large-variance distribution. We show that when the prior is in such a form, there exist efficient methods for learning the basis functions as well as the parameters of the prior. The performance of the algorithm is demonstrated on a number of test cases and also on natural images. The basis functions learned on natural images are similar to those obtained with other methods, but the sparse form of the coefficient distribution is much better described. Also, since the parameters of the prior are adapted to the data, no assumption about sparse structure in the images need be made a priori, rather it is learned from the data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

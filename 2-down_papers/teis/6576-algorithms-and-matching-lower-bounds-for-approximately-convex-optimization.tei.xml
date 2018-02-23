@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Algorithms and matching lower bounds for approximately-convex optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuanzhi</forename><surname>Li</surname></persName>
+							<email>yuanzhil@cs.princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit2">Princeton University Princeton</orgName>
+								<address>
+									<postCode>08450, 08450</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrej</forename><surname>Risteski</surname></persName>
+							<email>risteski@cs.princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Princeton University Princeton</orgName>
+								<orgName type="institution" key="instit2">Princeton University Princeton</orgName>
+								<address>
+									<postCode>08450, 08450</postCode>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Algorithms and matching lower bounds for approximately-convex optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In recent years, a rapidly increasing number of applications in practice requires optimizing non-convex objectives, like training neural networks, learning graphical models, maximum likelihood estimation. Though simple heuristics such as gradient descent with very few modifications tend to work well, theoretical understanding is very weak. We consider possibly the most natural class of non-convex functions where one could hope to obtain provable guarantees: functions that are &quot;approximately con-vex&quot;, i.e. functions˜ffunctions˜ functions˜f : R d → R for which there exists a convex function f such that for all x, | ˜ f (x) − f (x)| ≤ ∆ for a fixed value ∆. We then want to minimize˜f minimize˜ minimize˜f , i.e. output a point˜xpoint˜ point˜x such that˜fthat˜ that˜f (˜ x) ≤ min x ˜ f (x) +. It is quite natural to conjecture that for fixed , the problem gets harder for larger ∆, however, the exact dependency of and ∆ is not known. In this paper, we significantly improve the known lower bound on ∆ as a function of and an algorithm matching this lower bound for a natural class of convex bodies. More precisely, we identify a function T : R + → R + such that when ∆ = O(T ()), we can give an algorithm that outputs a point˜xpoint˜ point˜x such that˜fthat˜ that˜f (˜ x) ≤ min x ˜ f (x) + within time poly d, 1. On the other hand, when ∆ = Ω(T ()), we also prove an information theoretic lower bound that any algorithm that outputs such a ˜ x must use super polynomial number of evaluations of˜fof˜ of˜f .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

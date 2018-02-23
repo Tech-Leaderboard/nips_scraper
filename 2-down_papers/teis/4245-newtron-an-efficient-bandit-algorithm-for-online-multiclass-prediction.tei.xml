@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">NEWTRON: an Efficient Bandit algorithm for Online Multiclass Prediction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elad</forename><surname>Hazan</surname></persName>
+							<email>ehazan@ie.technion.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="laboratory">Yahoo! Research 4301 Great America Parkway Santa Clara</orgName>
+								<orgName type="institution">Technion -Israel Institute of Technology</orgName>
+								<address>
+									<postCode>32000, 95054</postCode>
+									<settlement>Haifa</settlement>
+									<region>CA</region>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satyen</forename><surname>Kale</surname></persName>
+							<email>skale@yahoo-inc.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="laboratory">Yahoo! Research 4301 Great America Parkway Santa Clara</orgName>
+								<orgName type="institution">Technion -Israel Institute of Technology</orgName>
+								<address>
+									<postCode>32000, 95054</postCode>
+									<settlement>Haifa</settlement>
+									<region>CA</region>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">NEWTRON: an Efficient Bandit algorithm for Online Multiclass Prediction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present an efficient algorithm for the problem of online multiclass prediction with bandit feedback in the fully adversarial setting. We measure its regret with respect to the log-loss defined in [AR09], which is parameterized by a scalar α. We prove that the regret of NEWTRON is O(log T) when α is a constant that does not vary with horizon T , and at most O(T 2/3) if α is allowed to increase to infinity with T. For α = O(log T), the regret is bounded by O(√ T), thus solving the open problem of [KSST08, AR09]. Our algorithm is based on a novel application of the online Newton method [HAK07]. We test our algorithm and show it to perform well in experiments, even when α is a small constant.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

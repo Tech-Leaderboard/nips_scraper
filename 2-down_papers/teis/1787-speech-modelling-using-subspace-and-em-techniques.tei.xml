@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Speech Modelling Using Subspace and EM Techniques</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gavin</forename><surname>Smith</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joao</forename><surname>Fg De Freitas</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mahesan</forename><surname>Niranjan</surname></persName>
+							<email>m.niranjan@dcs.shef.ac.uk</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Engineering Department</orgName>
+								<orgName type="department" key="dep2">Computer Science Division</orgName>
+								<orgName type="department" key="dep3">Computer Science</orgName>
+								<orgName type="institution">Cambridge University</orgName>
+								<address>
+									<addrLine>487 Soda Hall UC Berkeley</addrLine>
+									<postCode>CB2 1PZ, 94720-1776</postCode>
+									<settlement>Cambridge</settlement>
+									<region>CA</region>
+									<country>England, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Sheffield University</orgName>
+								<address>
+									<addrLine>Sheffield. S 1 4DP</addrLine>
+									<country key="GB">England</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Speech Modelling Using Subspace and EM Techniques</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>1 Work done while in Cambridge Engineering Dept., UK. Speech Modelling Using Subspace and EM Techniques 797</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Tony Robinson Cambridge University Engineering Department Cambridge CB2 IPZ England ajr@eng.cam.ac.uk The speech waveform can be modelled as a piecewise-stationary linear stochastic state space system, and its parameters can be estimated using an expectation-maximisation (EM) algorithm. One problem is the ini-tialisation of the EM algorithm. Standard initialisation schemes can lead to poor formant trajectories. But these trajectories however are important for vowel intelligibility. The aim of this paper is to investigate the suitability of subspace identification methods to initialise EM. The paper compares the subspace state space system identification (4SID) method with the EM algorithm. The 4SID and EM methods are similar in that they both estimate a state sequence (but using Kalman filters and Kalman smoothers respectively), and then estimate parameters (but using least-squares and maximum likelihood respectively). The similarity of 4SID and EM motivates the use of 4SID to initialise EM. Also, 4SID is non-iterative and requires no initialisation, whereas EM is iterative and requires initialisation. However 4SID is sub-optimal compared to EM in a probabilistic sense. During experiments on real speech, 4SID methods compare favourably with conventional initialisation techniques. They produce smoother formant trajectories, have greater frequency resolution , and produce higher likelihoods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

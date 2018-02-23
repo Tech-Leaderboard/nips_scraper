@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Feng</forename><surname>Niu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Sciences Department</orgName>
+								<orgName type="institution">University of Wisconsin-Madison Madison</orgName>
+								<address>
+									<postCode>53706</postCode>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><surname>Recht</surname></persName>
+							<email>brecht@cs.wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Sciences Department</orgName>
+								<orgName type="institution">University of Wisconsin-Madison Madison</orgName>
+								<address>
+									<postCode>53706</postCode>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Ré</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Sciences Department</orgName>
+								<orgName type="institution">University of Wisconsin-Madison Madison</orgName>
+								<address>
+									<postCode>53706</postCode>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+							<email>swright@cs.wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Sciences Department</orgName>
+								<orgName type="institution">University of Wisconsin-Madison Madison</orgName>
+								<address>
+									<postCode>53706</postCode>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Stochastic Gradient Descent (SGD) is a popular algorithm that can achieve state-of-the-art performance on a variety of machine learning tasks. Several researchers have recently proposed schemes to parallelize SGD, but all require performance-destroying memory locking and synchronization. This work aims to show using novel theoretical analysis, algorithms, and implementation that SGD can be implemented without any locking. We present an update scheme called HOGWILD! which allows processors access to shared memory with the possibility of overwrit-ing each other&apos;s work. We show that when the associated optimization problem is sparse, meaning most gradient updates only modify small parts of the decision variable, then HOGWILD! achieves a nearly optimal rate of convergence. We demonstrate experimentally that HOGWILD! outperforms alternative schemes that use locking by an order of magnitude.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

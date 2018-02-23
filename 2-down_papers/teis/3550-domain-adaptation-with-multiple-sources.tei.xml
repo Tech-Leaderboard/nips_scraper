@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Domain Adaptation with Multiple Sources</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yishay</forename><surname>Mansour</surname></persName>
+							<email>mansour@tau.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Research and Tel Aviv Univ</orgName>
+								<orgName type="institution" key="instit2">Courant Institute and Google Research</orgName>
+								<orgName type="institution" key="instit3">Courant Institute New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mehryar</forename><surname>Mohri</surname></persName>
+							<email>mohri@cims.nyu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Research and Tel Aviv Univ</orgName>
+								<orgName type="institution" key="instit2">Courant Institute and Google Research</orgName>
+								<orgName type="institution" key="instit3">Courant Institute New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Afshin</forename><surname>Rostamizadeh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Google Research and Tel Aviv Univ</orgName>
+								<orgName type="institution" key="instit2">Courant Institute and Google Research</orgName>
+								<orgName type="institution" key="instit3">Courant Institute New York University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Domain Adaptation with Multiple Sources</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper presents a theoretical analysis of the problem of domain adaptation with multiple sources. For each source domain, the distribution over the input points as well as a hypothesis with error at most ǫ are given. The problem consists of combining these hypotheses to derive a hypothesis with small error with respect to the target domain. We present several theoretical results relating to this problem. In particular, we prove that standard convex combinations of the source hypotheses may in fact perform very poorly and that, instead, combinations weighted by the source distributions benefit from favorable theoretical guarantees. Our main result shows that, remarkably, for any fixed target function, there exists a distribution weighted combining rule that has a loss of at most ǫ with respect to any target mixture of the source distributions. We further generalize the setting from a single target function to multiple consistent target functions and show the existence of a combining rule with error at most 3ǫ. Finally, we report empirical results for a multiple source adaptation problem with a real-world dataset.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ensemble and Modular Approaches for Face Detection: a Comparison</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raphael</forename><surname>Feraud</surname></persName>
+							<email>·email: feraud@lannion.cnet.fr t email: bernier@lannion.cnet.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">France-Telecom</orgName>
+								<orgName type="institution" key="instit2">CNET DTLjDLI Technopole Anticipa</orgName>
+								<address>
+									<addrLine>2 avenue Pierre Marzin</addrLine>
+									<postCode>22307</postCode>
+									<settlement>Lannion cedex</settlement>
+									<country key="FR">FRANCE</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olivier</forename><surname>Bernier</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">France-Telecom</orgName>
+								<orgName type="institution" key="instit2">CNET DTLjDLI Technopole Anticipa</orgName>
+								<address>
+									<addrLine>2 avenue Pierre Marzin</addrLine>
+									<postCode>22307</postCode>
+									<settlement>Lannion cedex</settlement>
+									<country key="FR">FRANCE</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ensemble and Modular Approaches for Face Detection: a Comparison</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A new learning model based on autoassociative neural networks is developped and applied to face detection. To extend the detection ability in orientation and to decrease the number of false alarms, different combinations of networks are tested: ensemble, conditional ensemble and conditional mixture of networks. The use of a conditional mixture of networks allows to obtain state of the art results on different benchmark face databases. 1 A constrained generative model Our purpose is to classify an extracted window x from an image as a face (x E V) or non-face (x EN). The set of all possible windows is E = V uN, with V n N = 0. Since collecting a representative set of non-face examples is impossible, face detection by a statistical model is a difficult task. An autoassociative network, using five layers of neurons, is able to perform a non-linear dimensionnality reduction [Kramer, 1991]. However, its use as an estimator, to classify an extracted window as face or non-face, raises two problems: 1. V&apos;, the obtained sub-manifold can contain non-face examples (V C V&apos;), 2. owing to local minima, the obtained solution can be close to the linear solution: the principal components analysis. Our approach is to use counterexamples in order to find a sub-manifold as close as possible to V and to constrain the algorithm to converge to a non-linear solution [Feraud, R. et al., 1997]. Each non-face example is constrained to be reconstructed as its projection on V. The projection P of a point x of the input space E on V, is defined by:</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

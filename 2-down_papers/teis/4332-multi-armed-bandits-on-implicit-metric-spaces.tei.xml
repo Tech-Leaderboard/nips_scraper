@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multi-armed bandits on implicit metric spaces</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aleksandrs</forename><surname>Slivkins</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Microsoft Research Silicon Valley Mountain View</orgName>
+								<address>
+									<postCode>94043</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multi-armed bandits on implicit metric spaces</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The multi-armed bandit (MAB) setting is a useful abstraction of many online learning tasks which focuses on the trade-off between exploration and exploitation. In this setting, an online algorithm has a fixed set of alternatives (&quot;arms&quot;), and in each round it selects one arm and then observes the corresponding reward. While the case of small number of arms is by now well-understood, a lot of recent work has focused on multi-armed bandits with (infinitely) many arms, where one needs to assume extra structure in order to make the problem tractable. In particular, in the Lipschitz MAB problem there is an underlying similarity metric space, known to the algorithm, such that any two arms that are close in this metric space have similar payoffs. In this paper we consider the more realistic scenario in which the metric space is implicit-it is defined by the available structure but not revealed to the algorithm directly. Specifically, we assume that an algorithm is given a tree-based classification of arms. For any given problem instance such a classification implicitly defines a similarity metric space, but the numerical similarity information is not available to the algorithm. We provide an algorithm for this setting, whose performance guarantees (almost) match the best known guarantees for the corresponding instance of the Lipschitz MAB problem.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

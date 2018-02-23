@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Incremental Learning for Visual Tracking</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jongwoo</forename><surname>Lim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Illinois</orgName>
+								<orgName type="institution" key="instit2">University of Toronto * Honda Research Institute</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Ross</surname></persName>
+							<email>dross@cs.toronto.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Illinois</orgName>
+								<orgName type="institution" key="instit2">University of Toronto * Honda Research Institute</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruei-Sung</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Illinois</orgName>
+								<orgName type="institution" key="instit2">University of Toronto * Honda Research Institute</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ming-Hsuan</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Illinois</orgName>
+								<orgName type="institution" key="instit2">University of Toronto * Honda Research Institute</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Incremental Learning for Visual Tracking</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Most existing tracking algorithms construct a representation of a target object prior to the tracking task starts, and utilize invariant features to handle appearance variation of the target caused by lighting, pose, and view angle change. In this paper, we present an efficient and effective online algorithm that incrementally learns and adapts a low dimensional eigenspace representation to reflect appearance changes of the target , thereby facilitating the tracking task. Furthermore, our incremental method correctly updates the sample mean and the eigenbasis, whereas existing incremental subspace update methods ignore the fact the sample mean varies over time. The tracking problem is formulated as a state inference problem within a Markov Chain Monte Carlo framework and a particle filter is incorporated for propagating sample distributions over time. Numerous experiments demonstrate the effectiveness of the proposed tracking algorithm in indoor and outdoor environments where the target objects undergo large pose and lighting changes.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

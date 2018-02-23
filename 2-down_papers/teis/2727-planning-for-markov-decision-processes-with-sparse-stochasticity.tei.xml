@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Planning for Markov Decision Processes with Sparse Stochasticity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maxim</forename><surname>Likhachev</surname></persName>
+							<email>maxim+@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science School of Computer Science Dept. of Computer Science</orgName>
+								<orgName type="institution">Carnegie Mellon University Carnegie Mellon University Stanford University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 94305</postCode>
+									<settlement>Pittsburgh, Stanford</settlement>
+									<region>PA, PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoff</forename><surname>Gordon</surname></persName>
+							<email>ggordon@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science School of Computer Science Dept. of Computer Science</orgName>
+								<orgName type="institution">Carnegie Mellon University Carnegie Mellon University Stanford University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 94305</postCode>
+									<settlement>Pittsburgh, Stanford</settlement>
+									<region>PA, PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sebastian</forename><surname>Thrun</surname></persName>
+							<email>thrun@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science School of Computer Science Dept. of Computer Science</orgName>
+								<orgName type="institution">Carnegie Mellon University Carnegie Mellon University Stanford University Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 94305</postCode>
+									<settlement>Pittsburgh, Stanford</settlement>
+									<region>PA, PA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Planning for Markov Decision Processes with Sparse Stochasticity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Planning algorithms designed for deterministic worlds, such as A* search, usually run much faster than algorithms designed for worlds with uncertain action outcomes, such as value iteration. Real-world planning problems often exhibit uncertainty, which forces us to use the slower algorithms to solve them. Many real-world planning problems exhibit sparse uncertainty: there are long sequences of deterministic actions which accomplish tasks like moving sensor platforms into place, interspersed with a small number of sensing actions which have uncertain outcomes. In this paper we describe a new planning algorithm, called MCP (short for MDP Compression Planning), which combines A* search with value iteration for solving Stochastic Shortest Path problem in MDPs with sparse stochasticity. We present experiments which show that MCP can run substantially faster than competing planners in domains with sparse uncertainty; these experiments are based on a simulation of a ground robot cooperating with a helicopter to fill in a partial map and move to a goal location. In deterministic planning problems, optimal paths are acyclic: no state is visited more than once. Because of this property, algorithms like A* search can guarantee that they visit each state in the state space no more than once. By visiting the states in an appropriate order, it is possible to ensure that we know the exact value of all of a state&apos;s possible successors before we visit that state; so, the first time we visit a state we can compute its correct value. By contrast, if actions have uncertain outcomes, optimal paths may contain cycles: some states will be visited two or more times with positive probability. Because of these cycles, there is no way to order states so that we determine the values of a state&apos;s successors before we visit the state itself. Instead, the only way to compute state values is to solve a set of simultaneous equations. In problems with sparse stochasticity, only a small fraction of all states have uncertain outcomes. It is these few states that cause all of the cycles: while a deterministic state s may participate in a cycle, the only way it can do so is if one of its successors has an action with a stochastic outcome (and only if this stochastic action can lead to a predecessor of s). In such problems, we would like to build a smaller MDP which contains only states which are related to stochastic actions. We will call such an MDP a compressed MDP, and we will call its states distinguished states. We could then run fast algorithms like A* search to plan paths between distinguished states, and reserve slower algorithms like value iteration for deciding how to deal with stochastic outcomes.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

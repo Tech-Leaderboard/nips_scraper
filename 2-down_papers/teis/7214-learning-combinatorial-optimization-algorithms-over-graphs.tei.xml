@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Combinatorial Optimization Algorithms over Graphs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hanjun</forename><surname>Dai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">College of Computing</orgName>
+								<orgName type="department" key="dep2">Institute of Technology § Ant Financial</orgName>
+								<address>
+									<country key="GE">Georgia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elias</forename><forename type="middle">B</forename><surname>Khalil †⇤</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">College of Computing</orgName>
+								<orgName type="department" key="dep2">Institute of Technology § Ant Financial</orgName>
+								<address>
+									<country key="GE">Georgia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuyu</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">College of Computing</orgName>
+								<orgName type="department" key="dep2">Institute of Technology § Ant Financial</orgName>
+								<address>
+									<country key="GE">Georgia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bistra</forename><surname>Dilkina</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">College of Computing</orgName>
+								<orgName type="department" key="dep2">Institute of Technology § Ant Financial</orgName>
+								<address>
+									<country key="GE">Georgia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Le</forename><surname>Song</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">College of Computing</orgName>
+								<orgName type="department" key="dep2">Institute of Technology § Ant Financial</orgName>
+								<address>
+									<country key="GE">Georgia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Combinatorial Optimization Algorithms over Graphs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The design of good heuristics or approximation algorithms for NP-hard combi-natorial optimization problems often requires significant specialized knowledge and trial-and-error. Can we automate this challenging, tedious process, and learn the algorithms instead? In many real-world applications, it is typically the case that the same optimization problem is solved again and again on a regular basis, maintaining the same problem structure but differing in the data. This provides an opportunity for learning heuristic algorithms that exploit the structure of such recurring problems. In this paper, we propose a unique combination of reinforcement learning and graph embedding to address this challenge. The learned greedy policy behaves like a meta-algorithm that incrementally constructs a solution, and the action is determined by the output of a graph embedding network capturing the current state of the solution. We show that our framework can be applied to a diverse range of optimization problems over graphs, and learns effective algorithms for the Minimum Vertex Cover, Maximum Cut and Traveling Salesman problems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

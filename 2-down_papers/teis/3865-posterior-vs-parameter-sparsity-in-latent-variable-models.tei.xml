@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Posterior vs. Parameter Sparsity in Latent Variable Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">João</forename><forename type="middle">V</forename><surname>Graça</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kuzman</forename><surname>Ganchev</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ben</forename><surname>Taskar</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fernando</forename><surname>Pereira</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">F INESC-ID Lisboa</orgName>
+								<orgName type="institution">University of Pennsylvania Philadelphia</orgName>
+								<address>
+									<region>PA</region>
+									<country>Portugal, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Google Research Mountain View</orgName>
+								<address>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Posterior vs. Parameter Sparsity in Latent Variable Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We address the problem of learning structured unsupervised models with moment sparsity typical in many natural language induction tasks. For example, in unsu-pervised part-of-speech (POS) induction using hidden Markov models, we introduce a bias for words to be labeled by a small number of tags. In order to express this bias of posterior sparsity as opposed to parametric sparsity, we extend the posterior regularization framework [7]. We evaluate our methods on three languages-English, Bulgarian and Portuguese-showing consistent and significant accuracy improvement over EM-trained HMMs, and HMMs with sparsity-inducing Dirichlet priors trained by variational EM. We increase accuracy with respect to EM by 2.3%-6.5% in a purely unsupervised setting as well as in a weakly-supervised setting where the closed-class words are provided. Finally, we show improvements using our method when using the induced clusters as features of a discriminative model in a semi-supervised setting.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

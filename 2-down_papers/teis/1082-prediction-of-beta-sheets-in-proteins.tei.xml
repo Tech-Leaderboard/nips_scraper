@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Prediction of Beta Sheets in Proteins</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anders</forename><surname>Krogh</surname></persName>
+							<email>Email: krogh@sanger.ac. uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Electronics Institute</orgName>
+								<orgName type="institution" key="instit1">The Sanger Centre Hinxton</orgName>
+								<orgName type="institution" key="instit2">Carobs CBIO IRQ</orgName>
+								<address>
+									<addrLine>Building 349 Technical</addrLine>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S~ren</forename><surname>Kamaric</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Denmark</orgName>
+								<address>
+									<postCode>2800</postCode>
+									<settlement>Lyngby</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Riis</forename></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Denmark</orgName>
+								<address>
+									<postCode>2800</postCode>
+									<settlement>Lyngby</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Prediction of Beta Sheets in Proteins</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Most current methods for prediction of protein secondary structure use a small window of the protein sequence to predict the structure of the central amino acid. We describe a new method for prediction of the non-local structure called ,8-sheet, which consists of two or more ,8-strands that are connected by hydrogen bonds. Since,8-strands are often widely separated in the protein chain , a network with two windows is introduced. After training on a set of proteins the network predicts the sheets well, but there are many false pos-itives. By using a global energy function the ,8-sheet prediction is combined with a local prediction of the three secondary structures a-helix, ,8-strand and coil. The energy function is minimized using simulated annealing to give a final prediction.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

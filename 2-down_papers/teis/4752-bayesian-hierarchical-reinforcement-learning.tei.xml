@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bayesian Hierarchical Reinforcement Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Feng</forename><surname>Cao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of EECS Case</orgName>
+								<orgName type="department" key="dep2">Department of EECS Case Western Reserve University Cleveland</orgName>
+								<orgName type="institution">Western Reserve University Cleveland</orgName>
+								<address>
+									<postCode>44106, 44106</postCode>
+									<region>OH, OH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Soumya</forename><surname>Ray</surname></persName>
+							<email>sray@case.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of EECS Case</orgName>
+								<orgName type="department" key="dep2">Department of EECS Case Western Reserve University Cleveland</orgName>
+								<orgName type="institution">Western Reserve University Cleveland</orgName>
+								<address>
+									<postCode>44106, 44106</postCode>
+									<region>OH, OH</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bayesian Hierarchical Reinforcement Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe an approach to incorporating Bayesian priors in the MAXQ framework for hierarchical reinforcement learning (HRL). We define priors on the primitive environment model and on task pseudo-rewards. Since models for composite tasks can be complex, we use a mixed model-based/model-free learning approach to find an optimal hierarchical policy. We show empirically that (i) our approach results in improved convergence over non-Bayesian baselines, (ii) using both task hierarchies and Bayesian priors is better than either alone, (iii) taking advantage of the task hierarchy reduces the computational cost of Bayesian reinforcement learning and (iv) in this framework, task pseudo-rewards can be learned instead of being manually specified, leading to hierarchically optimal rather than recursively optimal policies.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

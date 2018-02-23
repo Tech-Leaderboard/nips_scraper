@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kernels for Structured Natural Language Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jun</forename><surname>Suzuki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">NTT Communication Science Laboratories</orgName>
+								<orgName type="institution" key="instit2">NTT Corp</orgName>
+								<address>
+									<addrLine>2-4 Hikaridai, Seika-cho, Soraku-gun</addrLine>
+									<postCode>619-0237</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yutaka</forename><surname>Sasaki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">NTT Communication Science Laboratories</orgName>
+								<orgName type="institution" key="instit2">NTT Corp</orgName>
+								<address>
+									<addrLine>2-4 Hikaridai, Seika-cho, Soraku-gun</addrLine>
+									<postCode>619-0237</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eisaku</forename><surname>Maeda</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">NTT Communication Science Laboratories</orgName>
+								<orgName type="institution" key="instit2">NTT Corp</orgName>
+								<address>
+									<addrLine>2-4 Hikaridai, Seika-cho, Soraku-gun</addrLine>
+									<postCode>619-0237</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kernels for Structured Natural Language Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper devises a novel kernel function for structured natural language data. In the field of Natural Language Processing, feature extraction consists of the following two steps: (1) syntactically and semantically analyzing raw data, i.e., character strings, then representing the results as discrete structures, such as parse trees and dependency graphs with part-of-speech tags; (2) creating (possibly high-dimensional) numerical feature vectors from the discrete structures. The new kernels, called Hierarchical Directed Acyclic Graph (HDAG) kernels, directly accept DAGs whose nodes can contain DAGs. HDAG data structures are needed to fully reflect the syntactic and semantic structures that natural language data inherently have. In this paper, we define the kernel function and show how it permits efficient calculation. Experiments demonstrate that the proposed kernels are superior to existing kernel functions, e.g., sequence kernels, tree kernels, and bag-of-words kernels.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

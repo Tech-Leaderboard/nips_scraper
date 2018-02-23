@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">How to Dynamically Merge Markov Decision Processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satinder</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="laboratory">Adaptive Systems Group Harlequin, Inc. Menlo Park</orgName>
+								<orgName type="institution">University of Colorado Boulder</orgName>
+								<address>
+									<postCode>80309-0430, 94025</postCode>
+									<region>CO, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">How to Dynamically Merge Markov Decision Processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>David Cohn We are frequently called upon to perform multiple tasks that compete for our attention and resource. Often we know the optimal solution to each task in isolation; in this paper, we describe how this knowledge can be exploited to efficiently find good solutions for doing the tasks in parallel. We formulate this problem as that of dynamically merging multiple Markov decision processes (MDPs) into a composite MDP, and present a new theoretically-sound dynamic programming algorithm for finding an optimal policy for the composite MDP. We analyze various aspects of our algorithm and illustrate its use on a simple merging problem. Every day, we are faced with the problem of doing mUltiple tasks in parallel, each of which competes for our attention and resource. If we are running a job shop, we must decide which machines to allocate to which jobs, and in what order, so that no jobs miss their deadlines. If we are a mail delivery robot, we must find the intended recipients of the mail while simultaneously avoiding fixed obstacles (such as walls) and mobile obstacles (such as people), and still manage to keep ourselves sufficiently charged up. Frequently we know how to perform each task in isolation; this paper considers how we can take the information we have about the individual tasks and combine it to efficiently find an optimal solution for doing the entire set of tasks in parallel. More importantly, we describe a theoretically-sound algorithm for doing this merging dynamically; new tasks (such as a new job arrival at a job shop) can be assimilated online into the solution being found for the ongoing set of simultaneous tasks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

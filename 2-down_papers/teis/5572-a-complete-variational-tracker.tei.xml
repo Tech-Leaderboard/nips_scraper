@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Complete Variational Tracker</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryan</forename><surname>Turner</surname></persName>
+							<email>ryan.turner@ngc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Northrop Grumman Corp</orgName>
+								<orgName type="laboratory" key="lab2">Northrop Grumman Corp</orgName>
+								<orgName type="institution">Northrop Grumman Corp</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Bottone</surname></persName>
+							<email>steven.bottone@ngc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Northrop Grumman Corp</orgName>
+								<orgName type="laboratory" key="lab2">Northrop Grumman Corp</orgName>
+								<orgName type="institution">Northrop Grumman Corp</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bhargav</forename><surname>Avasarala</surname></persName>
+							<email>bhargav.avasarala@ngc.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Northrop Grumman Corp</orgName>
+								<orgName type="laboratory" key="lab2">Northrop Grumman Corp</orgName>
+								<orgName type="institution">Northrop Grumman Corp</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cesna</forename><forename type="middle">)</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Northrop Grumman Corp</orgName>
+								<orgName type="laboratory" key="lab2">Northrop Grumman Corp</orgName>
+								<orgName type="institution">Northrop Grumman Corp</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Complete Variational Tracker</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a novel probabilistic tracking algorithm that incorporates combi-natorial data association constraints and model-based track management using variational Bayes. We use a Bethe entropy approximation to incorporate data association constraints that are often ignored in previous probabilistic tracking algorithms. Noteworthy aspects of our method include a model-based mechanism to replace heuristic logic typically used to initiate and destroy tracks, and an assignment posterior with linear computation cost in window length as opposed to the exponential scaling of previous MAP-based approaches. We demonstrate the applicability of our method on radar tracking and computer vision problems. The field of tracking is broad and possesses many applications, particularly in radar/sonar [1], robotics [14], and computer vision [3]. Consider the following problem: A radar is tracking a flying object, referred to as a target, using measurements of range, bearing, and elevation; it may also have Doppler measurements of radial velocity. We would like to construct a track which estimates the tra-jectory of the object over time. The Kalman filter [16], or a more general state space model, is used to filter out measurement errors. The key difference between tracking and filtering is the presence of clutter (noise measurements) and missed detections of true objects. We must determine which measurement to &quot;plug in&quot; to the filter before applying it; this is known as data association. Additionally complicating the situation is that we may be in a multi-target tracking scenario in which there are multiple objects to track and we do not know which measurement originated from which object. There is a large body of work on tracking algorithms given its standing as a long-posed and important problem. Algorithms vary primarily on their approach to data association. The dominant approach uses a sliding window MAP estimate of the measurement-to-track assignment, in particular the multiple hypothesis tracker (MHT) [1]. In the standard MHT, at every frame the algorithm finds the most likely matching of measurements to tracks, in the form of an assignment matrix, under a one-to-one constraint (see Figure 1). One track can only result in one measurement, and vice versa, which we refer to as framing constraints. As is typical in MAP estimation, once an assignment is determined, the filters are updated and the tracker proceeds as if these assignments were known to be correct. The one-to-one constraint makes MAP estimation a bipartite matching task where algorithms exist to solve it exactly in polynomial time in the number of tracks N T [15]. However, the multi-frame MHT finds the joint MAP assignment over multiple frames, in which case the assignment problem is known to be NP-hard, although good approximate solvers exist [20]. Track Swap clutter (birds) track 1 (747) track 2 (777) track 3 (</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

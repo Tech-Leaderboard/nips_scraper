@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kernels and learning curves for Gaussian process regression on random graphs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Sollich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mathematics London</orgName>
+								<orgName type="institution">King&apos;s College London</orgName>
+								<address>
+									<postCode>WC2R 2LS</postCode>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">J</forename><surname>Urry</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mathematics London</orgName>
+								<orgName type="institution">King&apos;s College London</orgName>
+								<address>
+									<postCode>WC2R 2LS</postCode>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Camille</forename><surname>Coti</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">INRIA SaclayˆIle</orgName>
+								<address>
+									<addrLine>SaclayˆSaclayˆIle de France</addrLine>
+									<postCode>F-91893</postCode>
+									<settlement>Orsay</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kernels and learning curves for Gaussian process regression on random graphs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We investigate how well Gaussian process regression can learn functions defined on graphs, using large regular random graphs as a paradigmatic example. Random-walk based kernels are shown to have some non-trivial properties: within the standard approximation of a locally tree-like graph structure, the kernel does not become constant, i.e. neighbouring function values do not become fully correlated , when the lengthscale σ of the kernel is made large. Instead the kernel attains a non-trivial limiting form, which we calculate. The fully correlated limit is reached only once loops become relevant, and we estimate where the crossover to this regime occurs. Our main subject are learning curves of Bayes error versus training set size. We show that these are qualitatively well predicted by a simple approximation using only the spectrum of a large tree as input, and generically scale with n/V , the number of training examples per vertex. We also explore how this behaviour changes for kernel lengthscales that are large enough for loops to become important.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

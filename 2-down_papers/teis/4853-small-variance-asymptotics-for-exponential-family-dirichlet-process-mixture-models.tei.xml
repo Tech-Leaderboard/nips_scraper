@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Small-Variance Asymptotics for Exponential Family Dirichlet Process Mixture Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ke</forename><surname>Jiang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of CSE</orgName>
+								<orgName type="department" key="dep2">Departments of EECS and Statistics University of California at Berkeley</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><surname>Kulis</surname></persName>
+							<email>{jiangk,kulis}@cse.ohio-state.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of CSE</orgName>
+								<orgName type="department" key="dep2">Departments of EECS and Statistics University of California at Berkeley</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+							<email>jordan@cs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of CSE</orgName>
+								<orgName type="department" key="dep2">Departments of EECS and Statistics University of California at Berkeley</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Small-Variance Asymptotics for Exponential Family Dirichlet Process Mixture Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Sampling and variational inference techniques are two standard methods for inference in probabilistic models, but for many problems, neither approach scales effectively to large-scale data. An alternative is to relax the probabilistic model into a non-probabilistic formulation which has a scalable associated algorithm. This can often be fulfilled by performing small-variance asymptotics, i.e., letting the variance of particular distributions in the model go to zero. For instance, in the context of clustering, such an approach yields connections between the k-means and EM algorithms. In this paper, we explore small-variance asymptotics for exponential family Dirichlet process (DP) and hierarchical Dirichlet process (HDP) mixture models. Utilizing connections between exponential family distributions and Bregman divergences, we derive novel clustering algorithms from the asymptotic limit of the DP and HDP mixtures that features the scalability of existing hard clustering methods as well as the flexibility of Bayesian nonparametric models. We focus on special cases of our analysis for discrete-data problems, including topic modeling, and we demonstrate the utility of our results by applying variants of our algorithms to problems arising in vision and document analysis.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

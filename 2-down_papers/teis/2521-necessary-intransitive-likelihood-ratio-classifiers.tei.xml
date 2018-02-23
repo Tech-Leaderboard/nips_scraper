@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Necessary Intransitive Likelihood-Ratio Classifiers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ji</forename><surname>Gang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+								<orgName type="laboratory">SSLI-Lab</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98195-2500</postCode>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeff</forename><surname>Bilmes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical Engineering</orgName>
+								<orgName type="laboratory">SSLI-Lab</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98195-2500</postCode>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Necessary Intransitive Likelihood-Ratio Classifiers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In pattern classification tasks, errors are introduced because of differences between the true model and the one obtained via model estimation. Using likelihood-ratio based classification, it is possible to correct for this discrepancy by finding class-pair specific terms to adjust the likelihood ratio directly, and that can make class-pair preference relationships intransitive. In this work, we introduce new methodology that makes necessary corrections to the likelihood ratio, specifically those that are necessary to achieve perfect classification (but not perfect likelihood-ratio correction which can be overkill). The new corrections, while weaker than previously reported such adjustments, are analytically challenging since they involve discontinuous functions, therefore requiring several approximations. We test a number of these new schemes on an isolated-word speech recognition task as well as on the UCI machine learning data sets. Results show that by using the bias terms calculated in this new way, classification accuracy can substantially improve over both the baseline and over our previous results.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

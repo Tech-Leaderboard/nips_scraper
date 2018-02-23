@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Provable Tensor Factorization with Missing Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prateek</forename><surname>Jain</surname></persName>
+							<email>prajain@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Dept. of Industrial and Enterprise Systems Engineering University of Illinois at Urbana-Champaign Urbana</orgName>
+								<orgName type="institution">Microsoft Research Bangalore</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<region>IL</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sewoong</forename><surname>Oh</surname></persName>
+							<email>swoh@illinois.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Dept. of Industrial and Enterprise Systems Engineering University of Illinois at Urbana-Champaign Urbana</orgName>
+								<orgName type="institution">Microsoft Research Bangalore</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<region>IL</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Provable Tensor Factorization with Missing Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study the problem of low-rank tensor factorization in the presence of missing data. We ask the following question: how many sampled entries do we need, to efficiently and exactly reconstruct a tensor with a low-rank orthogonal decomposi-tion? We propose a novel alternating minimization based method which iteratively refines estimates of the singular vectors. We show that under certain standard assumptions , our method can recover a three-mode n × n × n dimensional rank-r tensor exactly from O(n 3/2 r 5 log 4 n) randomly sampled entries. In the process of proving this result, we solve two challenging sub-problems for tensors with missing data. First, in analyzing the initialization step, we prove a generalization of a celebrated result by Szemerédie et al. on the spectrum of random graphs. We show that this initialization step alone is sufficient to achieve the root mean squared error on the parameters bounded by C(r 2 n 3/2 (log n) 4 /|Ω|) from |Ω| observed entries for some constant C independent of n and r. Next, we prove global convergence of alternating minimization with this good initialization. Simulations suggest that the dependence of the sample size on the dimensionality n is indeed tight.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

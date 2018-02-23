@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Machine Learning Approach to Predict Chemical Reactions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">A</forename><surname>Kayala</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Genomics and Bioinformatics School of Information and Computer Sciences</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697</postCode>
+									<settlement>Irvine Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pierre</forename><surname>Baldi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Genomics and Bioinformatics School of Information and Computer Sciences</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697</postCode>
+									<settlement>Irvine Irvine</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Machine Learning Approach to Predict Chemical Reactions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Being able to predict the course of arbitrary chemical reactions is essential to the theory and applications of organic chemistry. Previous approaches are not high-throughput, are not generalizable or scalable, or lack sufficient data to be effective. We describe single mechanistic reactions as concerted electron movements from an electron orbital source to an electron orbital sink. We use an existing rule-based expert system to derive a dataset consisting of 2,989 productive mechanistic steps and 6.14 million non-productive mechanistic steps. We then pose identifying productive mechanistic steps as a ranking problem: rank potential orbital interactions such that the top ranked interactions yield the major products. The machine learning implementation follows a two-stage approach, in which we first train atom level reactivity filters to prune 94.0% of non-productive reactions with less than a 0.1% false negative rate. Then, we train an ensemble of ranking models on pairs of interacting orbitals to learn a relative productivity function over single mechanis-tic reactions in a given system. Without the use of explicit transformation patterns, the ensemble perfectly ranks the productive mechanisms at the top 89.1% of the time, rising to 99.9% of the time when top ranked lists with at most four non-productive reactions are considered. The final system allows multi-step reaction prediction. Furthermore, it is generalizable, making reasonable predictions over reactants and conditions which the rule-based expert system does not handle.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Minimax Time Series Prediction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wouter</forename><forename type="middle">M</forename><surname>Koolen</surname></persName>
+							<email>wmkoolen@cwi.nl</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><surname>Malek</surname></persName>
+							<email>malek@berkeley.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">L</forename><surname>Bartlett</surname></persName>
+							<email>bartlett@cs.berkeley.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yasin</forename><surname>Abbasi-Yadkori</surname></persName>
+							<email>yasin.abbasiyadkori@qut.edu.au</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Centrum Wiskunde &amp; Informatica</orgName>
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<address>
+									<country>&amp; QUT</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Queensland University of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Minimax Time Series Prediction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider an adversarial formulation of the problem of predicting a time series with square loss. The aim is to predict an arbitrary sequence of vectors almost as well as the best smooth comparator sequence in retrospect. Our approach allows natural measures of smoothness such as the squared norm of increments. More generally, we consider a linear time series model and penalize the compara-tor sequence through the energy of the implied driving noise terms. We derive the minimax strategy for all problems of this type and show that it can be implemented efficiently. The optimal predictions are linear in the previous observations. We obtain an explicit expression for the regret in terms of the parameters defining the problem. For typical, simple definitions of smoothness, the computation of the optimal predictions involves only sparse matrices. In the case of norm-constrained data, where the smoothness is defined in terms of the squared norm of the com-parator&apos;s increments, we show that the regret grows as T / √ λ T , where T is the length of the game and λ T is an increasing limit on comparator smoothness.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

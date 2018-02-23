@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SPALS: Fast Alternating Least Squares via Implicit Leverage Scores Sampling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dehua</forename><surname>Cheng</surname></persName>
+							<email>dehua.cheng@usc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Southern California</orgName>
+								<orgName type="institution" key="instit2">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit3">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit4">University of Southern</orgName>
+								<address>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Peng</surname></persName>
+							<email>rpeng@cc.gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Southern California</orgName>
+								<orgName type="institution" key="instit2">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit3">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit4">University of Southern</orgName>
+								<address>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ioakeim</forename><surname>Perros</surname></persName>
+							<email>perros@gatech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Southern California</orgName>
+								<orgName type="institution" key="instit2">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit3">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit4">University of Southern</orgName>
+								<address>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yan</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Southern California</orgName>
+								<orgName type="institution" key="instit2">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit3">Georgia Institute of Technology</orgName>
+								<orgName type="institution" key="instit4">University of Southern</orgName>
+								<address>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SPALS: Fast Alternating Least Squares via Implicit Leverage Scores Sampling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Tensor CANDECOMP/PARAFAC (CP) decomposition is a powerful but computa-tionally challenging tool in modern data analytics. In this paper, we show ways of sampling intermediate steps of alternating minimization algorithms for computing low rank tensor CP decompositions, leading to the sparse alternating least squares (SPALS) method. Specifically, we sample the Khatri-Rao product, which arises as an intermediate object during the iterations of alternating least squares. This product captures the interactions between different tensor modes, and form the main computational bottleneck for solving many tensor related tasks. By exploiting the spectral structures of the matrix Khatri-Rao product, we provide efficient access to its statistical leverage scores. When applied to the tensor CP decomposition, our method leads to the first algorithm that runs in sublinear time per-iteration and approximates the output of deterministic alternating least squares algorithms. Empirical evaluations of this approach show significant speedups over existing randomized and deterministic routines for performing CP decomposition. On a tensor of the size 2.4m ⇥ 6.6m ⇥ 92k with over 2 billion nonzeros formed by Amazon product reviews, our routine converges in two minutes to the same error as deterministic ALS.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

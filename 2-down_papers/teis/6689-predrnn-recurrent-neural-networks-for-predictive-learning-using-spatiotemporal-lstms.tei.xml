@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">PredRNN: Recurrent Neural Networks for Predictive Learning using Spatiotemporal LSTMs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yunbo</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Software</orgName>
+								<orgName type="department" key="dep2">School of Software</orgName>
+								<orgName type="department" key="dep3">School of Software</orgName>
+								<orgName type="department" key="dep4">School of Software</orgName>
+								<orgName type="department" key="dep5">School of Software</orgName>
+								<orgName type="institution" key="instit1">Tsinghua University</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<orgName type="institution" key="instit4">Tsinghua University</orgName>
+								<orgName type="institution" key="instit5">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mingsheng</forename><surname>Long</surname></persName>
+							<email>mingsheng@tsinghua.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Software</orgName>
+								<orgName type="department" key="dep2">School of Software</orgName>
+								<orgName type="department" key="dep3">School of Software</orgName>
+								<orgName type="department" key="dep4">School of Software</orgName>
+								<orgName type="department" key="dep5">School of Software</orgName>
+								<orgName type="institution" key="instit1">Tsinghua University</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<orgName type="institution" key="instit4">Tsinghua University</orgName>
+								<orgName type="institution" key="instit5">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jianmin</forename><surname>Wang</surname></persName>
+							<email>jimwang@tsinghua.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Software</orgName>
+								<orgName type="department" key="dep2">School of Software</orgName>
+								<orgName type="department" key="dep3">School of Software</orgName>
+								<orgName type="department" key="dep4">School of Software</orgName>
+								<orgName type="department" key="dep5">School of Software</orgName>
+								<orgName type="institution" key="instit1">Tsinghua University</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<orgName type="institution" key="instit4">Tsinghua University</orgName>
+								<orgName type="institution" key="instit5">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhifeng</forename><surname>Gao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Software</orgName>
+								<orgName type="department" key="dep2">School of Software</orgName>
+								<orgName type="department" key="dep3">School of Software</orgName>
+								<orgName type="department" key="dep4">School of Software</orgName>
+								<orgName type="department" key="dep5">School of Software</orgName>
+								<orgName type="institution" key="instit1">Tsinghua University</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<orgName type="institution" key="instit4">Tsinghua University</orgName>
+								<orgName type="institution" key="instit5">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">S</forename><surname>Yu</surname></persName>
+							<email>psyu@uic.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Software</orgName>
+								<orgName type="department" key="dep2">School of Software</orgName>
+								<orgName type="department" key="dep3">School of Software</orgName>
+								<orgName type="department" key="dep4">School of Software</orgName>
+								<orgName type="department" key="dep5">School of Software</orgName>
+								<orgName type="institution" key="instit1">Tsinghua University</orgName>
+								<orgName type="institution" key="instit2">Tsinghua University</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<orgName type="institution" key="instit4">Tsinghua University</orgName>
+								<orgName type="institution" key="instit5">Tsinghua University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">PredRNN: Recurrent Neural Networks for Predictive Learning using Spatiotemporal LSTMs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The predictive learning of spatiotemporal sequences aims to generate future images by learning from the historical frames, where spatial appearances and temporal variations are two crucial structures. This paper models these structures by presenting a predictive recurrent neural network (PredRNN). This architecture is enlightened by the idea that spatiotemporal predictive learning should memorize both spatial appearances and temporal variations in a unified memory pool. Concretely, memory states are no longer constrained inside each LSTM unit. Instead, they are allowed to zigzag in two directions: across stacked RNN layers vertically and through all RNN states horizontally. The core of this network is a new Spatiotemporal LSTM (ST-LSTM) unit that extracts and memorizes spatial and temporal representations simultaneously. PredRNN achieves the state-of-the-art prediction performance on three video prediction datasets and is a more general framework, that can be easily extended to other predictive learning tasks by integrating with other architectures.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

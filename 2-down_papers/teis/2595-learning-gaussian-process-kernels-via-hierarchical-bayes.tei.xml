@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Gaussian Process Kernels via Hierarchical Bayes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anton</forename><surname>Schwaighofer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Fraunhofer FIRST Intelligent Data Analysis (IDA)</orgName>
+								<orgName type="institution">Siemens Corporate Technology Information and Communications</orgName>
+								<address>
+									<addrLine>Kekuléstrasse 7</addrLine>
+									<postCode>12489, 81730</postCode>
+									<settlement>Berlin, Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Volker</forename><surname>Tresp</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Fraunhofer FIRST Intelligent Data Analysis (IDA)</orgName>
+								<orgName type="institution">Siemens Corporate Technology Information and Communications</orgName>
+								<address>
+									<addrLine>Kekuléstrasse 7</addrLine>
+									<postCode>12489, 81730</postCode>
+									<settlement>Berlin, Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kai</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Fraunhofer FIRST Intelligent Data Analysis (IDA)</orgName>
+								<orgName type="institution">Siemens Corporate Technology Information and Communications</orgName>
+								<address>
+									<addrLine>Kekuléstrasse 7</addrLine>
+									<postCode>12489, 81730</postCode>
+									<settlement>Berlin, Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Gaussian Process Kernels via Hierarchical Bayes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a novel method for learning with Gaussian process regression in a hierarchical Bayesian framework. In a first step, kernel matrices on a fixed set of input points are learned from data using a simple and efficient EM algorithm. This step is nonparametric, in that it does not require a parametric form of covariance function. In a second step, kernel functions are fitted to approximate the learned covariance matrix using a generalized Nyström method, which results in a complex, data driven kernel. We evaluate our approach as a recommendation engine for art images, where the proposed hierarchical Bayesian method leads to excellent prediction performance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

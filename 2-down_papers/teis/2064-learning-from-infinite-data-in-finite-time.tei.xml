@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning from Infinite Data in Finite Time</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Domingos</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98185-2350</postCode>
+									<region>WA</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoff</forename><forename type="middle">H</forename><surname>Ulten</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98185-2350</postCode>
+									<region>WA</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning from Infinite Data in Finite Time</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose the following general method for scaling learning algorithms to arbitrarily large data sets. Consider the model Mii learned by the algorithm using ni examples in step i (ii = (nl , ... ,nm)) , and the model Moo that would be learned using infinite examples. Upper-bound the loss L(Mii&apos; M oo) between them as a function of ii, and then minimize the algorithm&apos;s time complexity f(ii) subject to the constraint that L(Moo , Mii) be at most f with probability at most 8. We apply this method to the EM algorithm for mixtures of Gaussians. Preliminary experiments on a series of large data sets provide evidence of the potential of this approach. 1 An Approach to Large-Scale Learning Large data sets make it possible to reliably learn complex models. On the other hand, they require large computational resources to learn from. While in the past the factor limit ing the quality of learnable models was typically the quantity of data available, in many domains today data is super-abundant, and the bottleneck is t he t ime required to process it. Many algorithms for learning on large data sets have been proposed, but in order to achieve scalability they generally compromise the quality of the results to an unspecified degree. We believe this unsatisfactory state of affairs is avoidable, and in this paper we propose a general method for scaling learning algorithms to arbitrarily large databases without compromising the quality of the results. Our method makes it possible to learn in finite time a model that is essentially indistinguishable from the one that would be obtained using infinite data. Consider the simplest possible learning problem: estimating the mean of a random variable x. If we have a very large number of samples, most of them are probably superfluous. If we are willing to accept an error of at most f with probability at most 8, Hoeffding bounds [4] (for example) tell us that, irrespective of the distribution of x, only n = ~(R/f)2 1n (2/8) samples are needed, where R is x&apos;s range. We propose to extend this type of reasoning beyond learning single parameters, to learning complex models. The approach we propose consists of three steps:</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

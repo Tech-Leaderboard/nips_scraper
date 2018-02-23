@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Generalized Maximum Margin Clustering and Unsupervised Kernel Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hamed</forename><surname>Valizadegan</surname></persName>
+							<email>valizade@msu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Michigan State University East Lansing</orgName>
+								<orgName type="institution" key="instit2">Michigan State University</orgName>
+								<address>
+									<postCode>48824, 48824</postCode>
+									<settlement>East Lansing</settlement>
+									<region>MI, MI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rong</forename><surname>Jin</surname></persName>
+							<email>rongjin@cse.msu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Computer Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">Michigan State University East Lansing</orgName>
+								<orgName type="institution" key="instit2">Michigan State University</orgName>
+								<address>
+									<postCode>48824, 48824</postCode>
+									<settlement>East Lansing</settlement>
+									<region>MI, MI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Generalized Maximum Margin Clustering and Unsupervised Kernel Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Maximum margin clustering was proposed lately and has shown promising performance in recent studies [1, 2]. It extends the theory of support vector machine to unsupervised learning. Despite its good performance, there are three major problems with maximum margin clustering that question its efficiency for real-world applications. First, it is computationally expensive and difficult to scale to large-scale datasets because the number of parameters in maximum margin clustering is quadratic in the number of examples. Second, it requires data preprocessing to ensure that any clustering boundary will pass through the origins, which makes it unsuitable for clustering unbalanced dataset. Third, it is sensitive to the choice of kernel functions, and requires external procedure to determine the appropriate values for the parameters of kernel functions. In this paper, we propose &quot;generalized maximum margin clustering&quot; framework that addresses the above three problems simultaneously. The new framework generalizes the maximum margin clustering algorithm by allowing any clustering boundaries including those not passing through the origins. It significantly improves the computational efficiency by reducing the number of parameters. Furthermore, the new framework is able to automatically determine the appropriate kernel matrix without any labeled data. Finally, we show a formal connection between maximum margin clustering and spectral clustering. We demonstrate the efficiency of the generalized maximum margin clustering algorithm using both synthetic datasets and real datasets from the UCI repository.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Decontaminating Human Judgments by Removing Sequential Dependencies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">C</forename><surname>Mozer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">UCSD • Dept. of Psychology</orgName>
+								<orgName type="department" key="dep3">Dept. of Psychological and Brain Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Colorado † Dept. of Psychology</orgName>
+								<orgName type="institution" key="instit2">University of Colorado</orgName>
+								<orgName type="institution" key="instit3">Indiana University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harold</forename><surname>Pashler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">UCSD • Dept. of Psychology</orgName>
+								<orgName type="department" key="dep3">Dept. of Psychological and Brain Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Colorado † Dept. of Psychology</orgName>
+								<orgName type="institution" key="instit2">University of Colorado</orgName>
+								<orgName type="institution" key="instit3">Indiana University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Wilder</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">UCSD • Dept. of Psychology</orgName>
+								<orgName type="department" key="dep3">Dept. of Psychological and Brain Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Colorado † Dept. of Psychology</orgName>
+								<orgName type="institution" key="instit2">University of Colorado</orgName>
+								<orgName type="institution" key="instit3">Indiana University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">V</forename><surname>Lindsey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">UCSD • Dept. of Psychology</orgName>
+								<orgName type="department" key="dep3">Dept. of Psychological and Brain Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Colorado † Dept. of Psychology</orgName>
+								<orgName type="institution" key="instit2">University of Colorado</orgName>
+								<orgName type="institution" key="instit3">Indiana University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matt</forename><forename type="middle">C</forename><surname>Jones</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">UCSD • Dept. of Psychology</orgName>
+								<orgName type="department" key="dep3">Dept. of Psychological and Brain Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Colorado † Dept. of Psychology</orgName>
+								<orgName type="institution" key="instit2">University of Colorado</orgName>
+								<orgName type="institution" key="instit3">Indiana University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">•</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">UCSD • Dept. of Psychology</orgName>
+								<orgName type="department" key="dep3">Dept. of Psychological and Brain Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Colorado † Dept. of Psychology</orgName>
+								<orgName type="institution" key="instit2">University of Colorado</orgName>
+								<orgName type="institution" key="instit3">Indiana University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">N</forename><surname>Jones</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">UCSD • Dept. of Psychology</orgName>
+								<orgName type="department" key="dep3">Dept. of Psychological and Brain Sciences</orgName>
+								<orgName type="institution" key="instit1">University of Colorado † Dept. of Psychology</orgName>
+								<orgName type="institution" key="instit2">University of Colorado</orgName>
+								<orgName type="institution" key="instit3">Indiana University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Decontaminating Human Judgments by Removing Sequential Dependencies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>For over half a century, psychologists have been struck by how poor people are at expressing their internal sensations, impressions, and evaluations via rating scales. When individuals make judgments, they are incapable of using an absolute rating scale, and instead rely on reference points from recent experience. This relativity of judgment limits the usefulness of responses provided by individuals to surveys, questionnaires, and evaluation forms. Fortunately, the cognitive processes that transform internal states to responses are not simply noisy, but rather are influenced by recent experience in a lawful manner. We explore techniques to remove sequential dependencies, and thereby decontaminate a series of ratings to obtain more meaningful human judgments. In our formulation, decontamination is fundamentally a problem of inferring latent states (internal sensations) which, because of the relativity of judgment, have temporal dependencies. We propose a decontamination solution using a conditional random field with constraints motivated by psychological theories of relative judgment. Our exploration of de-contamination models is supported by two experiments we conducted to obtain ground-truth rating data on a simple length estimation task. Our decontamination techniques yield an over 20% reduction in the error of human judgments.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

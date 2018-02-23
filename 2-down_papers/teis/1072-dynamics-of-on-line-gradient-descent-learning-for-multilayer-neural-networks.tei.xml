@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dynamics of On-Line Gradient Descent Learning for Multilayer Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Saad</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Comp o Sci. &amp; App. Math. Sara A. Solla t CONNECT</orgName>
+								<orgName type="institution">Aston University</orgName>
+								<address>
+									<addrLine>The Niels Bohr Institute Blegdamsdvej 17</addrLine>
+									<postCode>2100, B4 7ET</postCode>
+									<settlement>Copenhagen, Birmingham</settlement>
+									<country>Denmark, UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dynamics of On-Line Gradient Descent Learning for Multilayer Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>*D.Saad@aston.ac.uk tOn leave from AT&amp;T Bell Laboratories, Holmdel, NJ 07733, USA</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the problem of on-line gradient descent learning for general two-layer neural networks. An analytic solution is presented and used to investigate the role of the learning rate in controlling the evolution and convergence of the learning process. Learning in layered neural networks refers to the modification of internal parameters {J} which specify the strength of the interneuron couplings, so as to bring the map fJ implemented by the network as close as possible to a desired map 1. The degree of success is monitored through the generalization error, a measure of the dissimilarity between fJ and 1. Consider maps from an N-dimensional input space e onto a scalar (, as arise in the formulation of classification and regression tasks. Two-layer networks with an arbitrary number of hidden units have been shown to be universal approximators [1] for such N-to-one dimensional maps. Information about the desired map i is provided through independent examples (e, (1&apos;), with (I&apos; = i(e) for all p. The examples are used to train a student network with N input units, K hidden units, and a single linear output unit; the target map i is defined through a teacher network of similar architecture except for the number M of hidden units. We investigate the emergence of generalization ability in an on-line learning scenario [2], in which the couplings are modified after the presentation of each example so as to minimize the corresponding error. The resulting changes in {J} are described as a dynamical evolution; the number of examples plays the role of time. In this paper we limit our discussion to the case of the soft-committee machine [2], in which all the hidden units are connected to the output unit with positive couplings of unit strength, and only the input-to-hidden couplings are adaptive.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

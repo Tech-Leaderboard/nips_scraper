@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Linear Classification and Selective Sampling Under Low Noise Conditions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Giovanni</forename><surname>Cavallanti</surname></persName>
+							<email>cavallanti@dsi.unimi.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">DICOM, Università dell&apos;Insubria</orgName>
+								<orgName type="laboratory">Nicoì o Cesa-Bianchi DSI, Università degli Studi di Milano</orgName>
+								<orgName type="institution" key="instit1">DSI</orgName>
+								<orgName type="institution" key="instit2">Università degli Studi di Milano</orgName>
+								<address>
+									<country>Italy, Italy, Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claudio</forename><surname>Gentile</surname></persName>
+							<email>claudio.gentile@uninsubria.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">DICOM, Università dell&apos;Insubria</orgName>
+								<orgName type="laboratory">Nicoì o Cesa-Bianchi DSI, Università degli Studi di Milano</orgName>
+								<orgName type="institution" key="instit1">DSI</orgName>
+								<orgName type="institution" key="instit2">Università degli Studi di Milano</orgName>
+								<address>
+									<country>Italy, Italy, Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Linear Classification and Selective Sampling Under Low Noise Conditions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We provide a new analysis of an efficient margin-based algorithm for selective sampling in classification problems. Using the so-called Tsybakov low noise condition to parametrize the instance distribution, we show bounds on the convergence rate to the Bayes risk of both the fully supervised and the selective sampling versions of the basic algorithm. Our analysis reveals that, excluding logarithmic factors, the average risk of the selective sampler converges to the Bayes risk at rate N −(1+α)(2+α)/2(3+α) where N denotes the number of queried labels, and α &gt; 0 is the exponent in the low noise condition. For all α &gt; √ 3 − 1 ≈ 0.73 this convergence rate is asymptotically faster than the rate N −(1+α)/(2+α) achieved by the fully supervised version of the same classifier, which queries all labels, and for α → ∞ the two rates exhibit an exponential gap. Experiments on textual data reveal that simple variants of the proposed selective sampler perform much better than popular and similarly efficient competitors.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

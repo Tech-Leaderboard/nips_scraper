@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Sparse Perceptrons</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">C</forename><surname>Jackson</surname></persName>
+							<email>jackson@mathcs.duq.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Mathematics &amp; Computer Science Dept</orgName>
+								<orgName type="department" key="dep2">Computer Sciences Dept</orgName>
+								<orgName type="laboratory">Abstract</orgName>
+								<orgName type="institution">Duquesne University</orgName>
+								<address>
+									<addrLine>600 Forbes Ave Pittsburgh</addrLine>
+									<postCode>15282</postCode>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">W</forename><surname>Craven</surname></persName>
+							<email>craven@cs.wisc.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Wisconsin-Madison</orgName>
+								<address>
+									<addrLine>1210 West Dayton St. Madison</addrLine>
+									<postCode>53706</postCode>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Sparse Perceptrons</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a new algorithm designed to learn sparse percep-trons over input representations which include high-order features. Our algorithm, which is based on a hypothesis-boosting method, is able to PAC-learn a relatively natural class of target concepts. Moreover, the algorithm appears to work well in practice: on a set of three problem domains, the algorithm produces classifiers that utilize small numbers of features yet exhibit good generalization performance. Perhaps most importantly, our algorithm generates concept descriptions that are easy for humans to understand. 1 Introd uction Multi-layer perceptron (MLP) learning is a powerful method for tasks such as concept classification. However, in many applications, such as those that may involve scientific discovery, it is crucial to be able to explain predictions. Multi-layer percep-trons are limited in this regard, since their representations are notoriously difficult for humans to understand. We present an approach to learning understandable, yet accurate, classifiers. Specifically, our algorithm constructs sparse perceptrons, i.e., single-layer perceptrons that have relatively few non-zero weights. Our algorithm for learning sparse perceptrons is based on a new hypothesis boosting algorithm (Freund &amp; Schapire, 1995). Although our algorithm was initially developed from a learning-theoretic point of view and retains certain theoretical guarantees (it PAC-learns the class of sparse perceptrons), it also works well in practice. Our experiments in a number of real-world domains indicate that our algorithm produces perceptrons that are relatively comprehensible, and that exhibit generalization performance comparable to that of backprop-trained MLP&apos;s (Rumelhart et al., 1986) and better than decision trees learned using C4.5 (Quinlan, 1993).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

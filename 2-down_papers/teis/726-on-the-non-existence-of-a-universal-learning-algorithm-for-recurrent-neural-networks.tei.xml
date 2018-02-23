@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On the Non-Existence of a Universal Learning Algorithm for Recurrent Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Herbert</forename><surname>Wiklicky</surname></persName>
+							<email>e-mail: herbert@cwi.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centrum voor Wiskunde en Informatica</orgName>
+								<address>
+									<postBox>P.O.Box 4079</postBox>
+									<postCode>NL-1009 AB</postCode>
+									<settlement>Amsterdam</settlement>
+									<country>The Netherlands·</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On the Non-Existence of a Universal Learning Algorithm for Recurrent Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We prove that the so called &quot;loading problem&quot; for (recurrent) neural networks is unsolvable. This extends several results which already demonstrated that training and related design problems for neural networks are (at least) NP-complete. Our result also implies that it is impossible to find or to formulate a universal training algorithm, which for any neu-ral network architecture could determine a correct set of weights. For the simple proof of this, we will just show that the loading problem is equivalent to &quot;Hilbert&apos;s tenth problem&quot; which is known to be unsolvable. 1 THE NEURAL NETWORK MODEL It seems that there are relatively few commonly accepted general formal definitions of the notion of a &quot;neural network&quot;. Although our results also hold if based on other formal definitions we will try to stay here very close to the original setting in which Judd&apos;s NP completeness result was given [Judd, 1990]. But in contrast to [Judd, 1990] we will deal here with simple recurrent networks instead of feed forward architectures. Our networks are constructed from three different types of units: .E-units compute just the sum of all incoming signals; for II-units the activation (node) function is given by the product of the incoming signals; and with E)-units-depending if the input signal is smaller or larger than a certain threshold parameter fl-the output is zero or one. Our units are connected or linked by real weighted connections and operate synchronously. Note that we could base our construction also just on one general type of units, namely what usually is called .E II-units. Furthermore, one could replace the II-units in the below 431</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

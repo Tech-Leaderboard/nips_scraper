@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Semi-supervised Regression via Parallel Field Regularization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Binbin</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Computer Science</orgName>
+								<orgName type="laboratory">State Key Lab of CAD&amp;CG</orgName>
+								<orgName type="institution">Zhejiang University Hangzhou 310058</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chiyuan</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Computer Science</orgName>
+								<orgName type="laboratory">State Key Lab of CAD&amp;CG</orgName>
+								<orgName type="institution">Zhejiang University Hangzhou 310058</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaofei</forename><surname>He</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Computer Science</orgName>
+								<orgName type="laboratory">State Key Lab of CAD&amp;CG</orgName>
+								<orgName type="institution">Zhejiang University Hangzhou 310058</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Semi-supervised Regression via Parallel Field Regularization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper studies the problem of semi-supervised learning from the vector field perspective. Many of the existing work use the graph Laplacian to ensure the smoothness of the prediction function on the data manifold. However, beyond smoothness, it is suggested by recent theoretical work that we should ensure second order smoothness for achieving faster rates of convergence for semi-supervised regression problems. To achieve this goal, we show that the second order smoothness measures the linearity of the function, and the gradient field of a linear function has to be a parallel vector field. Consequently, we propose to find a function which minimizes the empirical error, and simultaneously requires its gradient field to be as parallel as possible. We give a continuous objective function on the manifold and discuss how to discretize it by using random points. The discretized optimization problem turns out to be a sparse linear system which can be solved very efficiently. The experimental results have demonstrated the effectiveness of our proposed approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

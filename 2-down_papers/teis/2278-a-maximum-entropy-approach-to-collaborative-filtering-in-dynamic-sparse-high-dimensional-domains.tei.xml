@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Maximum Entropy Approach To Collaborative Filtering in Dynamic, Sparse, High-Dimensional Domains</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dmitry</forename><forename type="middle">Y</forename><surname>Pavlov</surname></persName>
+							<email>dpavlov@nec-labs.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories</orgName>
+								<address>
+									<addrLine>America 4 Independence Way Princeton, Inc. 74 N. Pasadena Ave., 3rd floor Pasadena</addrLine>
+									<postCode>08540, 91103</postCode>
+									<region>NJ, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">M</forename><surname>Pennock</surname></persName>
+							<email>david.pennock@overture.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories</orgName>
+								<address>
+									<addrLine>America 4 Independence Way Princeton, Inc. 74 N. Pasadena Ave., 3rd floor Pasadena</addrLine>
+									<postCode>08540, 91103</postCode>
+									<region>NJ, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Maximum Entropy Approach To Collaborative Filtering in Dynamic, Sparse, High-Dimensional Domains</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We develop a maximum entropy (maxent) approach to generating recommendations in the context of a user&apos;s current navigation stream, suitable for environments where data is sparse, high-dimensional, and dynamic-conditions typical of many recommendation applications. We address sparsity and dimensionality reduction by first clustering items based on user access patterns so as to attempt to minimize the apriori probability that recommendations will cross cluster boundaries and then recommending only within clusters. We address the inherent dynamic nature of the problem by explicitly modeling the data as a time series; we show how this representational expressivity fits naturally into a maxent framework. We conduct experiments on data from ResearchIndex, a popular online repository of over 470,000 computer science documents. We show that our maxent formulation outperforms several competing algorithms in offline tests simulating the recommendation of documents to ResearchIndex users.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Directed Graph Embedding: an Algorithm based on Continuous Limits of Laplacian-type Operators</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dominique</forename><forename type="middle">C</forename><surname>Perrault-Joncas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistics</orgName>
+								<orgName type="department" key="dep2">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">University of Washington Seattle</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<address>
+									<postCode>98195, 98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marina</forename><surname>Meil˘</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Statistics</orgName>
+								<orgName type="department" key="dep2">Department of Statistics</orgName>
+								<orgName type="institution" key="instit1">University of Washington Seattle</orgName>
+								<orgName type="institution" key="instit2">University of Washington</orgName>
+								<address>
+									<postCode>98195, 98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA, WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Directed Graph Embedding: an Algorithm based on Continuous Limits of Laplacian-type Operators</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper considers the problem of embedding directed graphs in Euclidean space while retaining directional information. We model the observed graph as a sample from a manifold endowed with a vector field, and we design an algorithm that separates and recovers the features of this process: the geometry of the manifold, the data density and the vector field. The algorithm is motivated by our analysis of Laplacian-type operators and their continuous limit as generators of diffusions on a manifold. We illustrate the recovery algorithm on both artificially constructed and real data. 1 Motivation Recent advances in graph embedding and visualization have focused on undirected graphs, for which the graph Laplacian properties make the analysis particularly elegant [1, 2]. However, there is an important number of graph data, such as social networks, alignment scores between biological sequences, and citation data, which are naturally asymmetric. A commonly used approach for this type of data is to disregard the asymmetry by studying the spectral properties of W +W T or W T W , where W is the affinity matrix of the graph. Some approaches have been offered to preserve the asymmetry information contained in data: [3], [4], [5] or to define directed Laplacian operators [6]. Although quite successful, these works adopt a purely graph-theoretical point of view. Thus, they are not concerned with the generative process that produces the graph, nor with the interpretability and statistical properties of their algorithms. In contrast, we view the nodes of a directed graph as a finite sample from a manifold in Euclidean space, and the edges as macroscopic observations of a diffusion kernel between neighboring points on the manifold. We explore how this diffusion kernel determines the overall connectivity and asymmetry of the resulting graph and demonstrate how Laplacian-type operators of this graph can offer insights into the underlying generative process. Based on the analysis of the Laplacian-type operators, we derive an algorithm that, in the limit of infinite sample and vanishing bandwidth, recovers the key features of the sampling process: manifold geometry, sampling distribution, and local directionality, up to their intrinsic indeterminacies. 2 Model The first premise here is that we observe a directed graph G, with n nodes, having weights W = [W ij ] for the edge from node i to node j. In following with common Laplacian-based embedding approaches, we assume that G is a geometric random graph constructed from n points sampled according to distribution p = e −U on an unobserved compact smooth manifold M ⊆ R l of known intrinsic dimension d ≤ l. The edge weight W ij is then determined by a directed similarity kernel k (x i , x j) with bandwidth. The directional component of k (x i , x j) will be taken to be derived 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

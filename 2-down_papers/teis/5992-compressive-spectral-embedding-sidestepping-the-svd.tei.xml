@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Compressive spectral embedding: sidestepping the SVD</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dinesh</forename><surname>Ramasamy</surname></persName>
+							<email>dineshr@ece.ucsb.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department</orgName>
+								<orgName type="department" key="dep2">ECE Department</orgName>
+								<orgName type="institution">UC Santa Barbara</orgName>
+								<address>
+									<settlement>Santa Barbara</settlement>
+									<region>UC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Upamanyu</forename><surname>Madhow</surname></persName>
+							<email>madhow@ece.ucsb.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ECE Department</orgName>
+								<orgName type="department" key="dep2">ECE Department</orgName>
+								<orgName type="institution">UC Santa Barbara</orgName>
+								<address>
+									<settlement>Santa Barbara</settlement>
+									<region>UC</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Compressive spectral embedding: sidestepping the SVD</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Spectral embedding based on the Singular Value Decomposition (SVD) is a widely used &quot;preprocessing&quot; step in many learning tasks, typically leading to di-mensionality reduction by projecting onto a number of dominant singular vectors and rescaling the coordinate axes (by a predefined function of the singular value). However, the number of such vectors required to capture problem structure grows with problem size, and even partial SVD computation becomes a bottleneck. In this paper, we propose a low-complexity compressive spectral embedding algorithm , which employs random projections and finite order polynomial expansions to compute approximations to SVD-based embedding. For an m×n matrix with T non-zeros, its time complexity is O ((T + m + n) log(m + n)), and the embedding dimension is O(log(m + n)), both of which are independent of the number of singular vectors whose effect we wish to capture. To the best of our knowledge, this is the first work to circumvent this dependence on the number of singular vectors for general SVD-based embeddings. The key to sidestepping the SVD is the observation that, for downstream inference tasks such as clustering and classification , we are only interested in using the resulting embedding to evaluate pairwise similarity metrics derived from the ℓ 2-norm, rather than capturing the effect of the underlying matrix on arbitrary vectors as a partial SVD tries to do. Our numerical results on network datasets demonstrate the efficacy of the proposed method, and motivate further exploration of its application to large-scale inference tasks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

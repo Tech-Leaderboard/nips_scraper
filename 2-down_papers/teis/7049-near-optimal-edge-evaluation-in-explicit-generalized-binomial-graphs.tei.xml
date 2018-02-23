@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Near-Optimal Edge Evaluation in Explicit Generalized Binomial Graphs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sanjiban</forename><surname>Choudhury</surname></persName>
+							<email>sanjiban@cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Robotics Institute</orgName>
+								<orgName type="department" key="dep2">The Robotics Institute</orgName>
+								<orgName type="department" key="dep3">The Robotics Institute</orgName>
+								<orgName type="department" key="dep4">The Robotics Institute</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shervin</forename><surname>Javdani</surname></persName>
+							<email>sjavdani@cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Robotics Institute</orgName>
+								<orgName type="department" key="dep2">The Robotics Institute</orgName>
+								<orgName type="department" key="dep3">The Robotics Institute</orgName>
+								<orgName type="department" key="dep4">The Robotics Institute</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Siddhartha</forename><surname>Srinivasa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Robotics Institute</orgName>
+								<orgName type="department" key="dep2">The Robotics Institute</orgName>
+								<orgName type="department" key="dep3">The Robotics Institute</orgName>
+								<orgName type="department" key="dep4">The Robotics Institute</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sebastian</forename><surname>Scherer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">The Robotics Institute</orgName>
+								<orgName type="department" key="dep2">The Robotics Institute</orgName>
+								<orgName type="department" key="dep3">The Robotics Institute</orgName>
+								<orgName type="department" key="dep4">The Robotics Institute</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Carnegie Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Near-Optimal Edge Evaluation in Explicit Generalized Binomial Graphs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Robotic motion-planning problems, such as a UAV flying fast in a partially-known environment or a robot arm moving around cluttered objects, require finding collision-free paths quickly. Typically, this is solved by constructing a graph, where vertices represent robot configurations and edges represent potentially valid movements of the robot between these configurations. The main computational bottlenecks are expensive edge evaluations to check for collisions. State of the art planning methods do not reason about the optimal sequence of edges to evaluate in order to find a collision free path quickly. In this paper, we do so by drawing a novel equivalence between motion planning and the Bayesian active learning paradigm of decision region determination (DRD). Unfortunately, a straight application of existing methods requires computation exponential in the number of edges in a graph. We present BISECT, an efficient and near-optimal algorithm to solve the DRD problem when edges are independent Bernoulli random variables. By leveraging this property, we are able to significantly reduce computational complexity from exponential to linear in the number of edges. We show that BISECT outperforms several state of the art algorithms on a spectrum of planning problems for mobile robots, manipulators, and real flight data collected from a full scale helicopter. Open-source code and details can be found here: https://github.com/sanjibac/matlab_learning_collision_checking</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

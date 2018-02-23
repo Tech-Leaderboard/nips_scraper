@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Lower bounds on minimax rates for nonparametric regression with additive sparsity and smoothness</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Garvesh</forename><surname>Raskutti</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Statistics</orgName>
+								<orgName type="institution">UC Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><forename type="middle">J</forename><surname>Wainwright</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Statistics</orgName>
+								<orgName type="institution">UC Berkeley</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical Engineering and Computer Science</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bin</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Statistics</orgName>
+								<orgName type="institution">UC Berkeley</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical Engineering and Computer Science</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Lower bounds on minimax rates for nonparametric regression with additive sparsity and smoothness</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study minimax rates for estimating high-dimensional nonparametric regression models with sparse additive structure and smoothness constraints. More precisely, our goal is to estimate a function f * : R p → R that has an additive decomposition of the form f * (X 1 ,. .. , X p) = j∈S h * j (X j), where each component function h * j lies in some class H of &quot;smooth&quot; functions, and S ⊂ {1,. .. , p} is an unknown subset with cardinality s = |S|. Given n i.i.d. observations of f * (X) corrupted with additive white Gaussian noise where the covariate vectors (X 1 , X 2 , X 3 , ..., X p) are drawn with i.i.d. components from some distribution P, we determine lower bounds on the minimax rate for estimating the regression function with respect to squared-L 2 (P) error. Our main result is a lower bound on the minimax rate that scales as max s log(p/s) n , s ǫ 2 n (H). The first term reflects the sample size required for performing subset selection, and is independent of the function class H. The second term s ǫ 2 n (H) is an s-dimensional estimation term corresponding to the sample size required for estimating a sum of s univariate functions, each chosen from the function class H. It depends linearly on the sparsity index s but is independent of the global dimension p. As a special case, if H corresponds to functions that are m-times differentiable (an m th-order Sobolev space), then the s-dimensional estimation term takes the form sǫ 2 n (H) ≍ s n −2m/(2m+1). Either of the two terms may be dominant in different regimes, depending on the relation between the sparsity and smoothness of the additive decomposition.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

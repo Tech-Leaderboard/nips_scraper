@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Greedy Approach for Budgeted Maximum Inner Product Search</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hsiang-Fu</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Davis</orgName>
+								<orgName type="institution" key="instit1">Amazon Inc</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit4">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cho-Jui</forename><surname>Hsieh</surname></persName>
+							<email>chohsieh@ucdavis.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Davis</orgName>
+								<orgName type="institution" key="instit1">Amazon Inc</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit4">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qi</forename><surname>Lei</surname></persName>
+							<email>leiqi@ices.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Davis</orgName>
+								<orgName type="institution" key="instit1">Amazon Inc</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit4">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Inderjit</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+							<email>inderjit@cs.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Davis</orgName>
+								<orgName type="institution" key="instit1">Amazon Inc</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit4">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Greedy Approach for Budgeted Maximum Inner Product Search</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Maximum Inner Product Search (MIPS) is an important task in many machine learning applications such as the prediction phase of low-rank matrix factorization models and deep learning models. Recently, there has been substantial research on how to perform MIPS in sub-linear time, but most of the existing work does not have the flexibility to control the trade-off between search efficiency and search quality. In this paper, we study the important problem of MIPS with a computational budget. By carefully studying the problem structure of MIPS, we develop a novel Greedy-MIPS algorithm, which can handle budgeted MIPS by design. While simple and intuitive, Greedy-MIPS yields surprisingly superior performance compared to state-of-the-art approaches. As a specific example, on a candidate set containing half a million vectors of dimension 200, Greedy-MIPS runs 200x faster than the naive approach while yielding search results with the top-5 precision greater than 75%.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

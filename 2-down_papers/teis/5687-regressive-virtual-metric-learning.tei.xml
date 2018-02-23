@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Regressive Virtual Metric Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michaël</forename><surname>Perrot</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR5516</orgName>
+								<orgName type="institution" key="instit1">Université de Lyon</orgName>
+								<orgName type="institution" key="instit2">Université Jean Monnet de Saint-Etienne</orgName>
+								<orgName type="institution" key="instit3">Laboratoire Hubert Curien</orgName>
+								<orgName type="institution" key="instit4">CNRS</orgName>
+								<address>
+									<postCode>F-42000</postCode>
+									<settlement>Saint-Etienne</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amaury</forename><surname>Habrard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR5516</orgName>
+								<orgName type="institution" key="instit1">Université de Lyon</orgName>
+								<orgName type="institution" key="instit2">Université Jean Monnet de Saint-Etienne</orgName>
+								<orgName type="institution" key="instit3">Laboratoire Hubert Curien</orgName>
+								<orgName type="institution" key="instit4">CNRS</orgName>
+								<address>
+									<postCode>F-42000</postCode>
+									<settlement>Saint-Etienne</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Regressive Virtual Metric Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We are interested in supervised metric learning of Mahalanobis like distances. Existing approaches mainly focus on learning a new distance using similarity and dissimilarity constraints between examples. In this paper, instead of bringing closer examples of the same class and pushing far away examples of different classes we propose to move the examples with respect to virtual points. Hence, each example is brought closer to a a priori defined virtual point reducing the number of constraints to satisfy. We show that our approach admits a closed form solution which can be kernelized. We provide a theoretical analysis showing the consistency of the approach and establishing some links with other classical metric learning methods. Furthermore we propose an efficient solution to the difficult problem of selecting virtual points based in part on recent works in optimal transport. Lastly, we evaluate our approach on several state of the art datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

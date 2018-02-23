@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Subset Selection under Noise</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chao</forename><surname>Qian</surname></persName>
+							<email>chaoqian@ustc.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Anhui Province Key Lab of Big Data Analysis and Application</orgName>
+								<orgName type="institution">USTC</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jing-Cheng</forename><surname>Shi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">National Key Lab for Novel Software Technology</orgName>
+								<orgName type="institution">Nanjing University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yang</forename><surname>Yu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">National Key Lab for Novel Software Technology</orgName>
+								<orgName type="institution">Nanjing University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ke</forename><surname>Tang</surname></persName>
+							<email>tangk3@sustc.edu.cn {shijc,yuy,zhouzh}@lamda.nju.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Anhui Province Key Lab of Big Data Analysis and Application</orgName>
+								<orgName type="institution">USTC</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Shenzhen Key Lab of Computational Intelligence</orgName>
+								<address>
+									<settlement>SUSTech</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhi-Hua</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">National Key Lab for Novel Software Technology</orgName>
+								<orgName type="institution">Nanjing University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Subset Selection under Noise</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The problem of selecting the best k-element subset from a universe is involved in many applications. While previous studies assumed a noise-free environment or a noisy monotone submodular objective function, this paper considers a more realistic and general situation where the evaluation of a subset is a noisy monotone function (not necessarily submodular), with both multiplicative and additive noises. To understand the impact of the noise, we firstly show the approximation ratio of the greedy algorithm and POSS, two powerful algorithms for noise-free subset selection, in the noisy environments. We then propose to incorporate a noise-aware strategy into POSS, resulting in the new PONSS algorithm. We prove that PONSS can achieve a better approximation ratio under some assumption such as i.i.d. noise distribution. The empirical results on influence maximization and sparse regression problems show the superior performance of PONSS.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

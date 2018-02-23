@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Positive Semidefinite Metric Learning with Boosting</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chunhua</forename><surname>Shen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NICTA Canberra Research Lab</orgName>
+								<address>
+									<postCode>2601</postCode>
+									<settlement>Canberra</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Junae</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">NICTA Canberra Research Lab</orgName>
+								<address>
+									<postCode>2601</postCode>
+									<settlement>Canberra</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lei</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anton</forename><surname>Van Den Hengel</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">The University of Adelaide</orgName>
+								<address>
+									<postCode>5005</postCode>
+									<settlement>Adelaide</settlement>
+									<region>SA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">‡ Australian National University</orgName>
+								<address>
+									<postCode>ACT 0200</postCode>
+									<settlement>Canberra</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Positive Semidefinite Metric Learning with Boosting</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The learning of appropriate distance metrics is a critical problem in image classification and retrieval. In this work, we propose a boosting-based technique, termed BOOSTMETRIC, for learning a Mahalanobis distance metric. One of the primary difficulties in learning such a metric is to ensure that the Mahalanobis matrix remains positive semidefinite. Semidefinite programming is sometimes used to enforce this constraint, but does not scale well. BOOSTMETRIC is instead based on a key observation that any positive semidefinite matrix can be decomposed into a linear positive combination of trace-one rank-one matrices. BOOSTMET-RIC thus uses rank-one positive semidefinite matrices as weak learners within an efficient and scalable boosting-based learning process. The resulting method is easy to implement, does not require tuning, and can accommodate various types of constraints. Experiments on various datasets show that the proposed algorithm compares favorably to those state-of-the-art methods in terms of classification accuracy and running time.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

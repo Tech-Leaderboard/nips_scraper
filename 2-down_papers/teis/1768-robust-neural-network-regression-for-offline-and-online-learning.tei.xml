@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Robust Neural Network Regression for Offline and Online Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Briegel</surname></persName>
+							<email>thomas.briegel@mchp.siemens.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Corporate Technology</orgName>
+								<orgName type="institution">Siemens AG</orgName>
+								<address>
+									<postCode>D-81730</postCode>
+									<settlement>Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Volker</forename><surname>Tresp</surname></persName>
+							<email>volker.tresp@mchp.siemens.de</email>
+							<affiliation key="aff1">
+								<orgName type="department">Corporate Technology</orgName>
+								<orgName type="institution">Siemens AG</orgName>
+								<address>
+									<postCode>D-81730</postCode>
+									<settlement>Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Robust Neural Network Regression for Offline and Online Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We replace the commonly used Gaussian noise model in nonlinear regression by a more flexible noise model based on the Student-t-distribution. The degrees of freedom of the t-distribution can be chosen such that as special cases either the Gaussian distribution or the Cauchy distribution are realized. The latter is commonly used in robust regression. Since the t-distribution can be interpreted as being an infinite mixture of Gaussians, parameters and hyperparameters such as the degrees of freedom of the t-distribution can be learned from the data based on an EM-learning algorithm. We show that modeling using the t-distribution leads to improved predictors on real world data sets. In particular, if outliers are present, the t-distribution is superior to the Gaussian noise model. In effect, by adapting the degrees of freedom, the system can &quot;learn&quot; to distinguish between outliers and non-outliers. Especially for online learning tasks, one is interested in avoiding inappropriate weight changes due to measurement outliers to maintain stable online learning capability. We show experimentally that using the t-distribution as a noise model leads to stable online learning algorithms and outperforms state-of-the art online learning methods like the extended Kalman filter algorithm.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

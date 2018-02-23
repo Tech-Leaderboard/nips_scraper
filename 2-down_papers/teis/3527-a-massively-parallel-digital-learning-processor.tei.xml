@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Massively Parallel Digital Learning Processor</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hans</forename><forename type="middle">Peter</forename><surname>Graf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories</orgName>
+								<address>
+									<addrLine>America 4 Independence Way, Suite 200</addrLine>
+									<postCode>07738</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Srihari</forename><surname>Cadambi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories</orgName>
+								<address>
+									<addrLine>America 4 Independence Way, Suite 200</addrLine>
+									<postCode>07738</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Igor</forename><surname>Durdanovic</surname></persName>
+							<email>igord@nec-labs.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories</orgName>
+								<address>
+									<addrLine>America 4 Independence Way, Suite 200</addrLine>
+									<postCode>07738</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Venkata</forename><surname>Jakkula</surname></persName>
+							<email>Jakkula@nec-labs.com murugs@nec-labs.com cosatto@nec-labs.com chak@nec-labs.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories</orgName>
+								<address>
+									<addrLine>America 4 Independence Way, Suite 200</addrLine>
+									<postCode>07738</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Murugan</forename><surname>Sankardadass</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories</orgName>
+								<address>
+									<addrLine>America 4 Independence Way, Suite 200</addrLine>
+									<postCode>07738</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Cosatto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories</orgName>
+								<address>
+									<addrLine>America 4 Independence Way, Suite 200</addrLine>
+									<postCode>07738</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Srimat</forename><surname>Chakradhar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">NEC Laboratories</orgName>
+								<address>
+									<addrLine>America 4 Independence Way, Suite 200</addrLine>
+									<postCode>07738</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Massively Parallel Digital Learning Processor</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new, massively parallel architecture for accelerating machine learning algorithms, based on arrays of vector processing elements (VPEs) with variable-resolution arithmetic. Groups of VPEs operate in SIMD (single instruction multiple data) mode, and each group is connected to an independent memory bank. The memory bandwidth thus scales with the number of VPEs, while the main data flows are local, keeping power dissipation low. With 256 VPEs, implemented on two FPGAs (field programmable gate array) chips, we obtain a sustained speed of 19 GMACS (billion multiply-accumulate per sec.) for SVM training, and 86 GMACS for SVM classification. This performance is more than an order of magnitude higher than that of any FPGA implementation reported so far. The speed on one FPGA is similar to the fastest speeds published on a Graphics Processor for the MNIST problem, despite a clock rate that is an order of magnitude lower. Tests with Convolutional Neural Networks show similar compute performances. This massively parallel architecture is particularly attractive for embedded applications, where low power dissipation is critical. 1 Introduction Machine learning demands higher and higher compute-performance, but serial processors are not improving that much anymore-at least not as quickly as they used to. Mainstream processor development is moving to multi-core systems, using shared memory technology to hide the parallel nature of the processors. But shared memory technology does not scale to hundreds or thousands of cores. In order to reach such levels of parallelization alternative approaches have to be developed. Massively parallel general-purpose computers had limited success so far, because of difficulties programming these machines, and they remain a niche market, mostly in high-performance computing. Yet processors specialized for certain application domains, such as graphics processors or routing processors 1 1 e.g. Nvidia, Quadro FX 5600 graphics processor; Cisco, CRS-1 routing processor , have been parallelized to several hundred cores and are successful mass products. They improve performance over general-purpose processors by focusing on a few key algorithmic elements, yet still maintain enough flexibility that they can be programmed for a variety of applications. We explore in this paper if a similar approach can lead to efficient machine learning processors.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

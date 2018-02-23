@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kaelbling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>McGovern, Sutton &amp; Fagg</publisher>
+				<availability status="unknown"><p>Copyright McGovern, Sutton &amp; Fagg</p>
+				</availability>
+				<date type="published" when="1992">1992. 1993. 1993. 1995. 1995. 1998. 1998. 1997</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Sutton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs Florham Park</orgName>
+								<orgName type="institution">University of Massachusetts Amherst</orgName>
+								<address>
+									<postCode>07932, 01003-4610</postCode>
+									<region>NJ, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satinder</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs Florham Park</orgName>
+								<orgName type="institution">University of Massachusetts Amherst</orgName>
+								<address>
+									<postCode>07932, 01003-4610</postCode>
+									<region>NJ, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Doina</forename><surname>Precup</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs Florham Park</orgName>
+								<orgName type="institution">University of Massachusetts Amherst</orgName>
+								<address>
+									<postCode>07932, 01003-4610</postCode>
+									<region>NJ, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Balaraman</forename><surname>Ravindran</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">AT&amp;T Labs Florham Park</orgName>
+								<orgName type="institution">University of Massachusetts Amherst</orgName>
+								<address>
+									<postCode>07932, 01003-4610</postCode>
+									<region>NJ, MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kaelbling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>McGovern, Sutton &amp; Fagg</publisher>
+							<date type="published" when="1992">1992. 1993. 1993. 1995. 1995. 1998. 1998. 1997</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In robotics and other control applications it is commonplace to have a pre-existing set of controllers for solving subtasks, perhaps hand-crafted or previously learned or planned, and still face a difficult problem of how to choose and switch among the controllers to solve an overall task as well as possible. In this paper we present a framework based on Markov decision processes and semi-Markov decision processes for phrasing this problem, a basic theorem regarding the improvement in performance that can be obtained by switching flexibly between given controllers, and example applications of the theorem. In particular, we show how an agent can plan with these high-level controllers and then use the results of such planning to find an even better plan, by modifying the existing controllers, with negligible additional cost and no re-planning. In one of our examples, the complexity of the problem is reduced from 24 billion state-action pairs to less than a million state-controller pairs. In many applications, solutions to parts of a task are known, either because they were hand-crafted by people or because they were previously learned or planned. For example, in robotics applications, there may exist controllers for moving joints to positions, picking up objects, controlling eye movements, or navigating along hallways. More generally, an intelligent system may have available to it several temporally extended courses of action to choose from. In such cases, a key challenge is to take full advantage of the existing temporally extended actions, to choose or switch among them effectively, and to plan at their level rather than at the level of individual actions. Recently, several researchers have begun to address these challenges within the framework of reinforcement learning and Markov decision processes (e.g.. Common to much of this recent work is the modeling of a temporally extended action as a policy (controller) and a condition for terminating, which we together refer to as an option (Sutton, Precup &amp; Singh, 1998). In this paper we consider the problem of effectively combining given options into one overall policy, generalizing prior work by Kaelbling (1993). Sections 1-3 introduce the framework; our new results are in Sections 4 and 5.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

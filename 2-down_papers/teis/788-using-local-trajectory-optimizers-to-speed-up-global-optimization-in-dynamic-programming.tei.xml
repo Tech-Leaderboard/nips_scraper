@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">U sing Local Trajectory Optimizers To Speed Up Global Optimization In Dynamic Programming</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">G</forename><surname>Atkeson</surname></persName>
+							<email>617-253-0788, cga@ai.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Brain and Cognitive Sciences</orgName>
+								<orgName type="laboratory">Artificial Intelligence Laboratory</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<postCode>NE43-771 545, 02139</postCode>
+									<settlement>Technology Square, Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">U sing Local Trajectory Optimizers To Speed Up Global Optimization In Dynamic Programming</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Dynamic programming provides a methodology to develop planners and controllers for nonlinear systems. However, general dynamic programming is computationally intractable. We have developed procedures that allow more complex planning and control problems to be solved. We use second order local trajectory optimization to generate locally optimal plans and local models of the value function and its derivatives. We maintain global consistency of the local models of the value function, guaranteeing that our locally optimal plans are actually globally optimal, up to the resolution of our search procedures. Learning to do the right thing at each instant in situations that evolve over time is difficult, as the future cost of actions chosen now may not be obvious immediately, and may only become clear with time. Value functions are a representational tool that makes the consequences of actions explicit. Value functions are difficult to learn directly, but they can be built up from learned models of the dynamics of the world and the cost function. This paper focuses on how fast optimizers that only produce locally optimal answers can playa useful role in speeding up the process of computing or learning a globally optimal value function. Consider a system with dynamics Xk+l = f(xk, Uk) and a cost function L(Xk, Uk), 663</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

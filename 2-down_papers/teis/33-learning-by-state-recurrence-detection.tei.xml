@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">LEARNING BY ST ATE RECURRENCE DETECfION</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruce</forename><forename type="middle">E</forename><surname>Rosen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>90024</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>Ca</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">M</forename><surname>Goodwint</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>90024</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>Ca</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacques</forename><forename type="middle">J</forename><surname>Vidal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>90024</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>Ca</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">LEARNING BY ST ATE RECURRENCE DETECfION</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>642</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This research investigates a new technique for unsupervised learning of nonlinear control problems. The approach is applied both to Michie and Chambers BOXES algorithm and to Barto, Sutton and Anderson&apos;s extension, the ASE/ACE system, and has significantly improved the convergence rate of stochastically based learning automata. Recurrence learning is a new nonlinear reward-penalty algorithm. It exploits information found during learning trials to reinforce decisions resulting in the recurrence of nonfailing states. Recurrence learning applies positive reinforcement during the exploration of the search space, whereas in the BOXES or ASE algorithms, only negative weight reinforcement is applied, and then only on failure. Simulation results show that the added information from recurrence learning increases the learning rate. Our empirical results show that recurrence learning is faster than both basic failure driven learning and failure prediction methods. Although recurrence learning has only been tested in failure driven experiments, there are goal directed learning applications where detection of recurring oscillations may provide useful information that reduces the learning time by applying negative, instead of positive reinforcement. Detection of cycles provides a heuristic to improve the balance between evidence gathering and goal directed search. INTRODUCflON This research investigates a new technique for unsupervised learning of nonlinear con trol problems with delayed feedback. Our approach is compared to both Michie and Chambers BOXES algorithml, to the extension by Barto, et aI., the ASE (Adaptive Search Element) and to their ASE/ACE (Adaptive Critic Element) system 2 , and shows an improved learning time for stochastically based learning automata in failure driven tasks. We consider adaptively controlling the behavior of a system which passes through a sequence of states due to its internal dynamics (which are not assumed to be known a priori) and due to choices of actions made in visited states. Such an adaptive controller is often referred to as a learning automaton. The decisions can be deterministic or can be made according to a stochastic rule. A learning automaton has to discover which action is best in each circumstance by producing actions and observing the resulting information. This paper was motivated by the previous work of Barto, et al. to investigate neuronlike adaptive elements that affect and learn from their environment. We were inspired by their current work and the recent attention to neural networks and connectionist systems, and have chosen to use the cart-pole control problem 2 , to enable a comparison of our results with theirs .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

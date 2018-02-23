@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Pruning Using Principal Components</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asriel</forename><forename type="middle">U</forename><surname>Levin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">Oregon Graduate Institute</orgName>
+								<address>
+									<postBox>P.O. Box 91000</postBox>
+									<postCode>97291-1000</postCode>
+									<settlement>Portland</settlement>
+									<region>OR</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Todd</forename><forename type="middle">K</forename><surname>Leen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">Oregon Graduate Institute</orgName>
+								<address>
+									<postBox>P.O. Box 91000</postBox>
+									<postCode>97291-1000</postCode>
+									<settlement>Portland</settlement>
+									<region>OR</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">E</forename><surname>Moody</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">Oregon Graduate Institute</orgName>
+								<address>
+									<postBox>P.O. Box 91000</postBox>
+									<postCode>97291-1000</postCode>
+									<settlement>Portland</settlement>
+									<region>OR</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Pruning Using Principal Components</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present a new algorithm for eliminating excess parameters and improving network generalization after supervised training. The method, &quot;Principal Components Pruning (PCP)&quot;, is based on principal component analysis of the node activations of successive layers of the network. It is simple, cheap to implement, and effective. It requires no network retraining, and does not involve calculating the full Hessian of the cost function. Only the weight and the node activity correlation matrices for each layer of nodes are required. We demonstrate the efficacy of the method on a regression problem using polynomial basis functions, and on an economic time series prediction problem using a two-layer, feedforward network.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

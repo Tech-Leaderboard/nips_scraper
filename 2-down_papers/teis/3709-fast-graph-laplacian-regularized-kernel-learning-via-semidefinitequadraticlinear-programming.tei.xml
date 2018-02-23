@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast Graph Laplacian Regularized Kernel Learning via Semidefinite-Quadratic-Linear Programming</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiao-Ming</forename><surname>Wu</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Man-Cho</forename><surname>Anthony</surname></persName>
+							<email>manchoso@se.cuhk.edu.hk</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>So</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhenguo</forename><surname>Li</surname></persName>
+							<email>zgli@ie.cuhk.edu.hk</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shuo-Yen</forename><forename type="middle">Robert</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of IE</orgName>
+								<orgName type="department" key="dep2">Dept. of SE&amp;EM</orgName>
+								<orgName type="department" key="dep3">Dept. of IE</orgName>
+								<orgName type="institution" key="instit1">The Chinese University of Hong Kong</orgName>
+								<orgName type="institution" key="instit2">The Chinese University of Hong</orgName>
+								<address>
+									<settlement>Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of IE</orgName>
+								<orgName type="institution" key="instit1">The Chinese University of Hong Kong</orgName>
+								<orgName type="institution" key="instit2">The Chinese University of Hong</orgName>
+								<address>
+									<settlement>Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fast Graph Laplacian Regularized Kernel Learning via Semidefinite-Quadratic-Linear Programming</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Kernel learning is a powerful framework for nonlinear data modeling. Using the kernel trick, a number of problems have been formulated as semidefinite programs (SDPs). These include Maximum Variance Unfolding (MVU) (Weinberger et al., 2004) in nonlinear dimensionality reduction, and Pairwise Constraint Propagation (PCP) (Li et al., 2008) in constrained clustering. Although in theory SDPs can be efficiently solved, the high computational complexity incurred in numerically processing the huge linear matrix inequality constraints has rendered the SDP approach unscalable. In this paper, we show that a large class of kernel learning problems can be reformulated as semidefinite-quadratic-linear programs (SQLPs), which only contain a simple positive semidefinite constraint, a second-order cone constraint and a number of linear constraints. These constraints are much easier to process numerically, and the gain in speedup over previous approaches is at least of the order m 2.5 , where m is the matrix dimension. Experimental results are also presented to show the superb computational efficiency of our approach.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Affinity Clustering: Hierarchical Clustering at Scale</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammadhossein</forename><surname>Bateni</surname></persName>
+							<email>bateni@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Google</forename><surname>Research</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Soheil</forename><surname>Behnezhad</surname></persName>
+							<email>soheil@cs.umd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mahsa</forename><surname>Derakhshan</surname></persName>
+							<email>mahsaa@cs.umd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammadtaghi</forename><surname>Hajiaghayi</surname></persName>
+							<email>hajiagha@cs.umd.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raimondas</forename><surname>Kiveris</surname></persName>
+							<email>rkiveris@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Google</forename><surname>Research</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Silvio</forename><surname>Lattanzi</surname></persName>
+							<email>silviol@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Google</forename><surname>Research</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vahab</forename><surname>Mirrokni</surname></persName>
+							<email>mirrokni@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Google</forename><surname>Research</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">University of Maryland</orgName>
+								<orgName type="institution" key="instit3">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Affinity Clustering: Hierarchical Clustering at Scale</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Graph clustering is a fundamental task in many data-mining and machine-learning pipelines. In particular, identifying a good hierarchical structure is at the same time a fundamental and challenging problem for several applications. The amount of data to analyze is increasing at an astonishing rate each day. Hence there is a need for new solutions to efficiently compute effective hierarchical clusterings on such huge data. The main focus of this paper is on minimum spanning tree (MST) based clusterings. In particular, we propose affinity, a novel hierarchical clustering based on Borůvka&apos;s MST algorithm. We prove certain theoretical guarantees for affinity (as well as some other classic algorithms) and show that in practice it is superior to several other state-of-the-art clustering algorithms. Furthermore, we present two MapReduce implementations for affinity. The first one works for the case where the input graph is dense and takes constant rounds. It is based on a Massively Parallel MST algorithm for dense graphs that improves upon the state-of-the-art algorithm of Lattanzi et al. [34]. Our second algorithm has no assumption on the density of the input graph and finds the affinity clustering in O(log n) rounds using Distributed Hash Tables (DHTs). We show experimentally that our algorithms are scalable for huge data sets, e.g., for graphs with trillions of edges.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

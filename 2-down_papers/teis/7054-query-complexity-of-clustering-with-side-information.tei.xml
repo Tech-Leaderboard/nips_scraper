@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Query Complexity of Clustering with Side Information</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arya</forename><surname>Mazumdar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Information and Computer Sciences</orgName>
+								<orgName type="institution">University of Massachusetts Amherst Amherst</orgName>
+								<address>
+									<postCode>01003</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barna</forename><surname>Saha</surname></persName>
+							<email>{arya,barna}@cs.umass.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Information and Computer Sciences</orgName>
+								<orgName type="institution">University of Massachusetts Amherst Amherst</orgName>
+								<address>
+									<postCode>01003</postCode>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Query Complexity of Clustering with Side Information</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Suppose, we are given a set of n elements to be clustered into k (unknown) clusters, and an oracle/expert labeler that can interactively answer pair-wise queries of the form, &quot;do two elements u and v belong to the same cluster?&quot;. The goal is to recover the optimum clustering by asking the minimum number of queries. In this paper, we provide a rigorous theoretical study of this basic problem of query complexity of interactive clustering, and give strong information theoretic lower bounds, as well as nearly matching upper bounds. Most clustering problems come with a similarity matrix, which is used by an automated process to cluster similar points together. However, obtaining an ideal similarity function is extremely challenging due to ambiguity in data representation, poor data quality etc., and this is one of the primary reasons that makes clustering hard. To improve accuracy of clustering, a fruitful approach in recent years has been to ask a domain expert or crowd to obtain labeled data interactively. Many heuristics have been proposed, and all of these use a similarity function to come up with a querying strategy. Even so, there is a lack systematic theoretical study. Our main contribution in this paper is to show the dramatic power of side information aka similarity matrix on reducing the query complexity of clustering. A similarity matrix represents noisy pair-wise relationships such as one computed by some function on attributes of the elements. A natural noisy model is where similarity values are drawn independently from some arbitrary probability distribution f + when the underlying pair of elements belong to the same cluster, and from some f − otherwise. We show that given such a similarity matrix, the query complexity reduces drastically from Θ(nk) (no similarity matrix) to O(k 2 log n H 2 (f+f−)) where H 2 denotes the squared Hellinger divergence. Moreover, this is also information-theoretic optimal within an O(log n) factor. Our algorithms are all efficient, and parameter free, i.e., they work without any knowledge of k, f + and f − , and only depend logarithmically with n. Our lower bounds could be of independent interest, and provide a general framework for proving lower bounds for classification problems in the interactive setting. Along the way, our work also reveals intriguing connection to popular community detection models such as the stochastic block model and opens up many avenues for interesting future research.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

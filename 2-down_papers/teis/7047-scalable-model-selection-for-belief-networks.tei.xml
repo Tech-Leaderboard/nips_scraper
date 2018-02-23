@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scalable Model Selection for Belief Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhao</forename><surname>Song</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of ECE</orgName>
+								<orgName type="laboratory">* NEC Data Science Research Laboratories Cupertino</orgName>
+								<orgName type="institution">Duke University Durham</orgName>
+								<address>
+									<postCode>27708, 95014</postCode>
+									<region>NC, CA</region>
+									<country>USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yusuke</forename><surname>Muraoka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of ECE</orgName>
+								<orgName type="laboratory">* NEC Data Science Research Laboratories Cupertino</orgName>
+								<orgName type="institution">Duke University Durham</orgName>
+								<address>
+									<postCode>27708, 95014</postCode>
+									<region>NC, CA</region>
+									<country>USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryohei</forename><surname>Fujimaki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of ECE</orgName>
+								<orgName type="laboratory">* NEC Data Science Research Laboratories Cupertino</orgName>
+								<orgName type="institution">Duke University Durham</orgName>
+								<address>
+									<postCode>27708, 95014</postCode>
+									<region>NC, CA</region>
+									<country>USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><surname>Carin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of ECE</orgName>
+								<orgName type="laboratory">* NEC Data Science Research Laboratories Cupertino</orgName>
+								<orgName type="institution">Duke University Durham</orgName>
+								<address>
+									<postCode>27708, 95014</postCode>
+									<region>NC, CA</region>
+									<country>USA, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scalable Model Selection for Belief Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a scalable algorithm for model selection in sigmoid belief networks (SBNs), based on the factorized asymptotic Bayesian (FAB) framework. We derive the corresponding generalized factorized information criterion (gFIC) for the SBN, which is proven to be statistically consistent with the marginal log-likelihood. To capture the dependencies within hidden variables in SBNs, a recognition network is employed to model the variational distribution. The resulting algorithm, which we call FABIA, can simultaneously execute both model selection and inference by maximizing the lower bound of gFIC. On both synthetic and real data, our experiments suggest that FABIA, when compared to state-of-the-art algorithms for learning SBNs, (i) produces a more concise model, thus enabling faster testing; (ii) improves predictive performance; (iii) accelerates convergence; and (iv) prevents overfitting.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

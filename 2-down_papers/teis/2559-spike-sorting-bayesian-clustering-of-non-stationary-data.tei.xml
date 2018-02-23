@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spike Sorting: Bayesian Clustering of Non-Stationary Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aharon</forename><surname>Bar-Hillel</surname></persName>
+							<email>aharonbh@cs.huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Neural Computation Center</orgName>
+								<orgName type="department" key="dep2">School of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Physiology</orgName>
+								<orgName type="institution" key="instit1">The Hebrew University of Jerusalem</orgName>
+								<orgName type="institution" key="instit2">The Hebrew University of Jerusalem</orgName>
+								<orgName type="institution" key="instit3">The Hebrew University of Jerusalem</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><surname>Spiro</surname></persName>
+							<email>adams@cs.huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Neural Computation Center</orgName>
+								<orgName type="department" key="dep2">School of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Physiology</orgName>
+								<orgName type="institution" key="instit1">The Hebrew University of Jerusalem</orgName>
+								<orgName type="institution" key="instit2">The Hebrew University of Jerusalem</orgName>
+								<orgName type="institution" key="instit3">The Hebrew University of Jerusalem</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eran</forename><surname>Stark</surname></persName>
+							<email>eranstark@md.huji.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Neural Computation Center</orgName>
+								<orgName type="department" key="dep2">School of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep3">Department of Physiology</orgName>
+								<orgName type="institution" key="instit1">The Hebrew University of Jerusalem</orgName>
+								<orgName type="institution" key="instit2">The Hebrew University of Jerusalem</orgName>
+								<orgName type="institution" key="instit3">The Hebrew University of Jerusalem</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spike Sorting: Bayesian Clustering of Non-Stationary Data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Spike sorting involves clustering spike trains recorded by a micro-electrode according to the source neuron. It is a complicated problem, which requires a lot of human labor, partly due to the non-stationary nature of the data. We propose an automated technique for the clustering of non-stationary Gaussian sources in a Bayesian framework. At a first search stage, data is divided into short time frames and candidate descriptions of the data as a mixture of Gaussians are computed for each frame. At a second stage transition probabilities between candidate mixtures are computed, and a globally optimal clustering is found as the MAP solution of the resulting probabilistic model. Transition probabilities are computed using local stationarity assumptions and are based on a Gaus-sian version of the Jensen-Shannon divergence. The method was applied to several recordings. The performance appeared almost indistinguishable from humans in a wide range of scenarios, including movement, merges, and splits of clusters.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

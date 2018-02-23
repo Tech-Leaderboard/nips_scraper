@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Modeling Conversational Dynamics as a Mixed-Memory Markov Process</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tanzeem</forename><surname>Choudhury</surname></persName>
+							<email>tanzeem.choudhury@intel.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Intel Research</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Modeling Conversational Dynamics as a Mixed-Memory Markov Process</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Sumit Basu Microsoft Research sumitb@microsoft.com In this work, we quantitatively investigate the ways in which a given person influences the joint turn-taking behavior in a conversation. After collecting an auditory database of social interactions among a group of twenty-three people via wearable sensors (66 hours of data each over two weeks), we apply speech and conversation detection methods to the auditory streams. These methods automatically locate the conversations, determine their participants, and mark which participant was speaking when. We then model the joint turn-taking behavior as a Mixed-Memory Markov Model [1] that combines the statistics of the individual subjects&apos; self-transitions and the partners &apos; cross-transitions. The mixture parameters in this model describe how much each person&apos;s individual behavior contributes to the joint turn-taking behavior of the pair. By estimating these parameters, we thus estimate how much influence each participant has in determining the joint turn-taking behavior. We show how this measure correlates significantly with betweenness centrality [2], an independent measure of an individual&apos;s importance in a social network. This result suggests that our estimate of conversational influence is predictive of social influence.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

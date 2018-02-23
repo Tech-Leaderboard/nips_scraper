@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Estimating Equivalent Kernels For Neural Networks: A Data Perturbation Approach</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Neil</forename><surname>Burgess</surname></persName>
+							<email>(N.Burgess@lbs.lon.ac.uk)</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Decision Science London Business School London</orgName>
+								<address>
+									<postCode>NW1 4SA</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Estimating Equivalent Kernels For Neural Networks: A Data Perturbation Approach</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We describe the notion of &quot;equivalent kernels&quot; and suggest that this provides a framework for comparing different classes of regression models, including neural networks and both parametric and non-parametric statistical techniques. Unfortunately, standard techniques break down when faced with models, such as neural networks, in which there is more than one &quot;layer&quot; of adjustable parameters. We propose an algorithm which overcomes this limitation, estimating the equivalent kernels for neural network models using a data perturbation approach. Experimental results indicate that the networks do not use the maximum possible number of degrees of freedom, that these can be controlled using regularisation techniques and that the equivalent kernels learnt by the network vary both in &quot;size&quot; and in &quot;shape&quot; in different regions of the input space. 1 INTRODUCTION The dominant approaches within the statistical community, such as multiple linear regression but even extending to advanced techniques such as generalised additive models (Hastie and Tibshirani, 1990), projection pursuit regression (Friedman and Stuetzle, 1981), and classification and regreSSion trees (Breiman et al., 1984), tend to err, when they do, on the high-bias side due to restrictive assumptions regarding either the functional form of the response to individual variables and/or the limited nature of the interaction effects which can be accommodated. Other classes of models, such as multi-variate adaptive regression spline models of high-order (Friedman, 1991), interaction splines (Wahba, 1990) and especially non-parametric regression techniques (HardIe, 1990) are capable of relaxing some or all of these restrictive assumptions, but run the converse risk of suffering high-variance, or &quot;over fitting&quot;. A large literature of experimental results suggests that, under the right conditions, the flexibility of neural networks allows them to out-perform other techniques. Where the current understanding is limited, however, is in analysing trained neural networks to understand how the degrees of freedom have been allocated, in a way which allows meaningful comparisons with other classes of models. We propose that the notion of</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

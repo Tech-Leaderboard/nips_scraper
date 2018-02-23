@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Active learning of neural response functions with Gaussian processes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mijung</forename><surname>Park</surname></persName>
+							<email>mjpark@mail.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Departments of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep3">Departments of Psychology and Neurobiology</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Washington</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Greg</forename><surname>Horwitz</surname></persName>
+							<email>ghorwitz@uw.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Departments of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep3">Departments of Psychology and Neurobiology</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Washington</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">W</forename><surname>Pillow</surname></persName>
+							<email>pillow@mail.utexas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">Departments of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep3">Departments of Psychology and Neurobiology</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Austin</orgName>
+								<orgName type="institution" key="instit2">The University of Washington</orgName>
+								<orgName type="institution" key="instit3">The University of Texas at Austin</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Active learning of neural response functions with Gaussian processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A sizeable literature has focused on the problem of estimating a low-dimensional feature space for a neuron&apos;s stimulus sensitivity. However, comparatively little work has addressed the problem of estimating the nonlinear function from feature space to spike rate. Here, we use a Gaussian process (GP) prior over the infinite-dimensional space of nonlinear functions to obtain Bayesian estimates of the &quot;non-linearity&quot; in the linear-nonlinear-Poisson (LNP) encoding model. This approach offers increased flexibility, robustness, and computational tractability compared to traditional methods (e.g., parametric forms, histograms, cubic splines). We then develop a framework for optimal experimental design under the GP-Poisson model using uncertainty sampling. This involves adaptively selecting stimuli according to an information-theoretic criterion, with the goal of characterizing the nonlinearity with as little experimental data as possible. Our framework relies on a method for rapidly updating hyperparameters under a Gaussian approximation to the posterior. We apply these methods to neural data from a color-tuned simple cell in macaque V1, characterizing its nonlinear response function in the 3D space of cone contrasts. We find that it combines cone inputs in a highly nonlinear manner. With simulated experiments, we show that optimal design substantially reduces the amount of data required to estimate these nonlinear combination rules.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

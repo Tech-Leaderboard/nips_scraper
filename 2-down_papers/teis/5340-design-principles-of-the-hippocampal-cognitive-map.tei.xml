@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Design Principles of the Hippocampal Cognitive Map</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kimberly</forename><forename type="middle">L</forename><surname>Stachenfeld</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Princeton Neuroscience Institute and Department of Psychology</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">M</forename><surname>Botvinick</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Princeton Neuroscience Institute and Department of Psychology</orgName>
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><forename type="middle">J</forename><surname>Gershman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Brain and Cognitive Sciences</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Design Principles of the Hippocampal Cognitive Map</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Hippocampal place fields have been shown to reflect behaviorally relevant aspects of space. For instance, place fields tend to be skewed along commonly traveled directions, they cluster around rewarded locations, and they are constrained by the geometric structure of the environment. We hypothesize a set of design principles for the hippocampal cognitive map that explain how place fields represent space in a way that facilitates navigation and reinforcement learning. In particular, we suggest that place fields encode not just information about the current location, but also predictions about future locations under the current transition distribution. Under this model, a variety of place field phenomena arise naturally from the structure of rewards, barriers, and directional biases as reflected in the transition policy. Furthermore, we demonstrate that this representation of space can support efficient reinforcement learning. We also propose that grid cells compute the eigendecomposition of place fields in part because is useful for segmenting an enclosure along natural boundaries. When applied recursively, this segmentation can be used to discover a hierarchical decomposition of space. Thus, grid cells might be involved in computing subgoals for hierarchical reinforcement learning.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Confidence Intervals for the Area under the ROC Curve</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Corinna</forename><surname>Cortes</surname></persName>
+							<email>corinna@google.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Google Research</orgName>
+								<address>
+									<addrLine>1440 Broadway New York</addrLine>
+									<postCode>10018</postCode>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Confidence Intervals for the Area under the ROC Curve</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Mehryar Mohri Courant Institute, NYU 719 Broadway New York, NY 10003</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In many applications, good ranking is a highly desirable performance for a classifier. The criterion commonly used to measure the ranking quality of a classification algorithm is the area under the ROC curve (AUC). To report it properly, it is crucial to determine an interval of confidence for its value. This paper provides confidence intervals for the AUC based on a statistical and combinatorial analysis using only simple parameters such as the error rate and the number of positive and negative examples. The analysis is distribution-independent, it makes no assumption about the distribution of the scores of negative or positive examples. The results are of practical use and can be viewed as the equivalent for AUC of the standard confidence intervals given in the case of the error rate. They are compared with previous approaches in several standard classification tasks demonstrating the benefits of our analysis. 1 Motivation In many machine learning applications, the ranking quality of a classifier is critical. For example, the ordering of the list of relevant documents returned by a search engine or a document classification system is essential. The criterion widely used to measure the ranking quality of a classification algorithm is the area under an ROC curve (AUC). But, to measure and report the AUC properly, it is crucial to determine an interval of confidence for its value as it is customary for the error rate and other measures. It is also important to make the computation of the confidence interval practical by relying only on a small and simple number of parameters. In the case of the error rate, such intervals are often derived from just the sample size N. We present an extensive theoretical analysis of the AUC and show that a similar confidence interval can be derived for its value using only simple parameters such as the error rate k/N , the number of positive examples m, and the number of negative examples n = N − m. Thus, our results extend to AUC the computation of confidence intervals from a small number of readily available parameters. Our analysis is distribution-independent in the sense that it makes no assumption about the distribution of the scores of negative or positive examples. The use of the error rate helps determine tight confidence intervals. This contrasts with existing approaches presented in the statistical literature [11, 5, 2] which are based either on weak distribution-independent assumptions resulting in too loose confidence intervals, or strong distribution-dependent assumptions leading to tight but unsafe confidence intervals.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

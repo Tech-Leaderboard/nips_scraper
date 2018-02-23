@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Integer Projected Fixed Point Method for Graph Matching and MAP Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marius</forename><surname>Leordeanu</surname></persName>
+							<email>leordeanu@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Intel Labs Pittsburgh Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213</postCode>
+									<region>PA, PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martial</forename><surname>Hebert</surname></persName>
+							<email>hebert@ri.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Intel Labs Pittsburgh Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213</postCode>
+									<region>PA, PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rahul</forename><surname>Sukthankar</surname></persName>
+							<email>rahuls@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">Robotics Institute Carnegie Mellon University Pittsburgh</orgName>
+								<orgName type="institution" key="instit3">Intel Labs Pittsburgh Pittsburgh</orgName>
+								<address>
+									<postCode>15213, 15213, 15213</postCode>
+									<region>PA, PA, PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An Integer Projected Fixed Point Method for Graph Matching and MAP Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Graph matching and MAP inference are essential problems in computer vision and machine learning. We introduce a novel algorithm that can accommodate both problems and solve them efficiently. Recent graph matching algorithms are based on a general quadratic programming formulation, which takes in consideration both unary and second-order terms reflecting the similarities in local appearance as well as in the pairwise geometric relationships between the matched features. This problem is NP-hard, therefore most algorithms find approximate solutions by relaxing the original problem. They find the optimal continuous solution of the modified problem, ignoring during optimization the original discrete constraints. Then the continuous solution is quickly binarized at the end, but very little attention is put into this final discretization step. In this paper we argue that the stage in which a discrete solution is found is crucial for good performance. We propose an efficient algorithm, with climbing and convergence properties, that optimizes in the discrete domain the quadratic score, and it gives excellent results either by itself or by starting from the solution returned by any graph matching algorithm. In practice it outperforms state-or-the art graph matching algorithms and it also significantly improves their performance if used in combination. When applied to MAP inference, the algorithm is a parallel extension of Iterated Conditional Modes (ICM) with climbing and convergence properties that make it a compelling alternative to the sequential ICM. In our experiments on MAP inference our algorithm proved its effectiveness by significantly outperforming [13], ICM and Max-Product Belief Propagation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

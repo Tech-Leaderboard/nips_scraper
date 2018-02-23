@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DPSCREEN: Dynamic Personalized Screening</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kartik</forename><surname>Ahuja</surname></persName>
+							<email>ahujak@ucla.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Electrical and Computer Engineering Department</orgName>
+								<orgName type="department" key="dep2">Economics Department</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">R</forename><surname>Zame</surname></persName>
+							<email>zame@econ.ucla.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Science Department</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mihaela</forename><surname>Van Der Schaar</surname></persName>
+							<email>mihaela.vanderschaar@oxford-man.ox.ac.uk</email>
+							<affiliation key="aff2">
+								<orgName type="department">Electrical and Computer Engineering Department</orgName>
+								<orgName type="institution" key="instit1">University of Oxford</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DPSCREEN: Dynamic Personalized Screening</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Screening is important for the diagnosis and treatment of a wide variety of diseases. A good screening policy should be personalized to the features of the patient and to the dynamic history of the patient (including the history of screening). The growth of electronic health records data has led to the development of many models to predict the onset and progression of different diseases. However, there has been limited work to address the personalized screening for these different diseases. In this work, we develop the first framework to construct screening policies for a large class of disease models. The disease is modeled as a finite state stochastic process with an absorbing disease state. The patient observes an external information process (for instance, self-examinations, discovering comorbidities, etc.) which can trigger the patient to arrive at the clinician earlier than scheduled screenings. The clinician carries out the tests; based on the test results and the external information it schedules the next arrival. Computing the exactly optimal screening policy that balances the delay in the detection against the frequency of screenings is computationally intractable; this paper provides a computationally tractable construction of an approximately optimal policy. As an illustration, we make use of a large breast cancer data set. The constructed policy screens patients more or less often according to their initial risk-it is personalized to the features of the patient-and according to the results of previous screens-it is personalized to the history of the patient. In comparison with existing clinical policies, the constructed policy leads to large reductions (28-68%) in the number of screens performed while achieving the same expected delays in disease detection.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scalable Methods for Nonnegative Matrix Factorizations of Near-separable Tall-and-skinny Matrices</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Austin</forename><forename type="middle">R</forename><surname>Benson</surname></persName>
+							<email>arbenson@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Bindley Biosciences Center</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">ICME Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">ICME Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit3">Purdue University West Lafeyette</orgName>
+								<orgName type="institution" key="instit4">Purdue University West Lafeyette</orgName>
+								<address>
+									<region>CA, CA, IN, IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jason</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Bindley Biosciences Center</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">ICME Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">ICME Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit3">Purdue University West Lafeyette</orgName>
+								<orgName type="institution" key="instit4">Purdue University West Lafeyette</orgName>
+								<address>
+									<region>CA, CA, IN, IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bartek</forename><surname>Rajwa</surname></persName>
+							<email>brajwa@purdue.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Bindley Biosciences Center</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">ICME Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">ICME Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit3">Purdue University West Lafeyette</orgName>
+								<orgName type="institution" key="instit4">Purdue University West Lafeyette</orgName>
+								<address>
+									<region>CA, CA, IN, IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">F</forename><surname>Gleich</surname></persName>
+							<email>dgleich@purdue.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Bindley Biosciences Center</orgName>
+								<orgName type="department" key="dep2">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">ICME Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit2">ICME Stanford University Stanford</orgName>
+								<orgName type="institution" key="instit3">Purdue University West Lafeyette</orgName>
+								<orgName type="institution" key="instit4">Purdue University West Lafeyette</orgName>
+								<address>
+									<region>CA, CA, IN, IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scalable Methods for Nonnegative Matrix Factorizations of Near-separable Tall-and-skinny Matrices</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Numerous algorithms are used for nonnegative matrix factorization under the assumption that the matrix is nearly separable. In this paper, we show how to make these algorithms scalable for data matrices that have many more rows than columns, so-called &quot;tall-and-skinny matrices.&quot; One key component to these improved methods is an orthogonal matrix transformation that preserves the separa-bility of the NMF problem. Our final methods need to read the data matrix only once and are suitable for streaming, multi-core, and MapReduce architectures. We demonstrate the efficacy of these algorithms on terabyte-sized matrices from scientific computing and bioinformatics. 1 Nonnegative matrix factorizations at scale A nonnegative matrix factorization (NMF) for an m × n matrix X with real-valued, nonnegative entries is X = WH (1) where W is m × r, H is r × n, r &lt; min(m, n), and both factors have nonnegative entries. While there are already standard dimension reduction techniques for general matrices such as the singular value decomposition, the advantage of NMF is in interpretability of the data. A common example is facial image decomposition [17]. If the columns of X are pixels of a facial image, the columns of W may be facial features such as eyes or ears, and the coefficients in H represent the intensity of these features. For this reason, among a host of other reasons, NMF is used in a broad range of applications including graph clustering [21], protein sequence motif discovery [20], and hyperspectral unmixing [18]. An important property of matrices in these applications and other massive scientific data sets is that they have many more rows than columns (m n). For example, this matrix structure is common in big data applications with hundreds of millions of samples and a small set of features-see, e.g., Section 4.2 for a bioinformatics application where the data matrix has 1.6 billion rows and 25 columns. We call matrices with many more rows than columns tall-and-skinny. The number of columns of these matrices is small, so there is no problem storing or manipulating them. Our use 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

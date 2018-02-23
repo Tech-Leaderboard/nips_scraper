@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An entropic estimator for structure discovery</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Brand</surname></persName>
+							<email>brand@merl.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Mitsubishi Electric Research Laboratories</orgName>
+								<address>
+									<postCode>201, 02139</postCode>
+									<settlement>Broadway, Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An entropic estimator for structure discovery</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We introduce a novel framework for simultaneous structure and parameter learning in hidden-variable conditional probability models, based on an en tropic prior and a solution for its maximum a posteriori (MAP) estimator. The MAP estimate minimizes uncertainty in all respects: cross-entropy between model and data; entropy of the model ; entropy of the data&apos;s descriptive statistics. Iterative estimation extinguishes weakly supported parameters, compressing and sparsifying the model. Trimming operators accelerate this process by removing excess parameters and, unlike most pruning schemes, guarantee an increase in posterior probability. Entropic estimation takes a overcomplete random model and simplifies it, inducing the structure of relations between hidden and observed variables. Applied to hidden Markov models (HMMs), it finds a concise finite-state machine representing the hidden structure of a signal. We entropically model music, handwriting, and video time-series, and show that the resulting models are highly concise, structured, predictive, and interpretable: Surviving states tend to be highly correlated with meaningful partitions of the data, while surviving transitions provide a low-perplexity model of the signal dynamics. 1. An entropic prior In entropic estimation we seek to maximize the information content of parameters. For conditional probabilities , parameters values near chance add virtually no information to the model, and are therefore wasted degrees of freedom. In contrast, parameters near the extrema {O, I} are informative because they impose strong constr·aints on the class of signals accepted by the model. In Bayesian terms, our prior should assert that parameters that do not reduce uncertainty are improbable. We can capture this intuition in a surprisingly simple form: For a model of N conditional probabilities 9 = {(h ,. .. , () N } we write (1) whence we can see that the prior measures a model&apos;s freedom from ambiguity (H(9) is an entropy measure). Applying Pe (.) to a multinomial yields the posterior p (LlI) P(wI9)Pe (9) [II ()W;] Pe(9) II (){;/;+w; e U W &lt;X P(w) &lt;X .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

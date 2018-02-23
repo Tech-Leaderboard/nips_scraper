@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mixture Modeling by Affinity Propagation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brendan</forename><forename type="middle">J</forename><surname>Frey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Delbert</forename><surname>Dueck</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Toronto</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mixture Modeling by Affinity Propagation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Software and demonstrations available at www.psi.toronto.edu</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Clustering is a fundamental problem in machine learning and has been approached in many ways. Two general and quite different approaches include iteratively fitting a mixture model (e.g., using EM) and linking together pairs of training cases that have high affinity (e.g., using spectral methods). Pair-wise clustering algorithms need not compute sufficient statistics and avoid poor solutions by directly placing similar examples in the same cluster. However, many applications require that each cluster of data be accurately described by a prototype or model, so affinity-based clustering-and its benefits-cannot be directly realized. We describe a technique called &quot;affinity propagation&quot;, which combines the advantages of both approaches. The method learns a mixture model of the data by recursively propagating affinity messages. We demonstrate affinity propagation on the problems of clustering image patches for image segmen-tation and learning mixtures of gene expression models from microar-ray data. We find that affinity propagation obtains better solutions than mixtures of Gaussians, the K-medoids algorithm, spectral clustering and hierarchical clustering, and is both able to find a pre-specified number of clusters and is able to automatically determine the number of clusters. Interestingly, affinity propagation can be viewed as belief propagation in a graphical model that accounts for pairwise training case likelihood functions and the identification of cluster centers.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Switching state space model for simultaneously estimating state transitions and nonstationary firing rates</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anonymous</forename><surname>Author</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Affiliation Address email</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Switching state space model for simultaneously estimating state transitions and nonstationary firing rates</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>000 001</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose an algorithm for simultaneously estimating state transitions among neural states, the number of neural states, and nonstationary firing rates using a switching state space model (SSSM). This algorithm enables us to detect state transitions on the basis of not only the discontinuous changes of mean firing rates but also discontinuous changes in temporal profiles of firing rates, e.g., temporal correlation. We construct a variational Bayes algorithm for a non-Gaussian SSSM whose non-Gaussian property is caused by binary spike events. Synthetic data analysis reveals that our algorithm has the high performance for estimating state transitions, the number of neural states, and nonstationary firing rates compared to previous methods. We also analyze neural data that were recorded from the medial temporal area. The statistically detected neural states probably coincide with transient and sustained states that have been detected heuristically. Estimated parameters suggest that our algorithm detects the state transition on the basis of discontinuous changes in the temporal correlation of firing rates, which transitions previous methods cannot detect. This result suggests that our algorithm is advantageous in real-data analysis.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+				<date type="submission" when="-1" />
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

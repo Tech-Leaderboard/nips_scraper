@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Extending Q-Learning to General Adaptive Multi-Agent Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerald</forename><surname>Tesauro</surname></persName>
+							<email>tesauro@watson.ibm.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Thomas J. Watson Research Center</orgName>
+								<address>
+									<addrLine>19 Skyline Drive</addrLine>
+									<postCode>10532</postCode>
+									<settlement>Hawthorne</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Extending Q-Learning to General Adaptive Multi-Agent Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recent multi-agent extensions of Q-Learning require knowledge of other agents&apos; payoffs and Q-functions, and assume game-theoretic play at all times by all other agents. This paper proposes a fundamentally different approach, dubbed &quot;Hyper-Q&quot; Learning, in which values of mixed strategies rather than base actions are learned, and in which other agents&apos; strategies are estimated from observed actions via Bayesian inference. Hyper-Q may be effective against many different types of adap-tive agents, even if they are persistently dynamic. Against certain broad categories of adaptation, it is argued that Hyper-Q may converge to exact optimal time-varying policies. In tests using Rock-Paper-Scissors, Hyper-Q learns to significantly exploit an Infinitesimal Gradient Ascent (IGA) player, as well as a Policy Hill Climber (PHC) player. Preliminary analysis of Hyper-Q against itself is also presented.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Online Convex Optimization with Unconstrained Domains and Losses</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ashok</forename><surname>Cutkosky</surname></persName>
+							<email>ashokc@cs.stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Bioengineering</orgName>
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kwabena</forename><surname>Boahen</surname></persName>
+							<email>boahen@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Department of Bioengineering</orgName>
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Online Convex Optimization with Unconstrained Domains and Losses</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose an online convex optimization algorithm (RESCALEDEXP) that achieves optimal regret in the unconstrained setting without prior knowledge of any bounds on the loss functions. We prove a lower bound showing an exponential separation between the regret of existing algorithms that require a known bound on the loss functions and any algorithm that does not require such knowledge. RESCALEDEXP matches this lower bound asymptotically in the number of iterations. RESCALEDEXP is naturally hyperparameter-free and we demonstrate empirically that it matches prior optimization algorithms that require hyperparameter optimization. 1 Online Convex Optimization Online Convex Optimization (OCO) [1, 2] provides an elegant framework for modeling noisy, antagonistic or changing environments. The problem can be stated formally with the help of the following definitions: Convex Set: A set W is convex if W is contained in some real vector space and tw + (1 − t)w ∈ W for all w, w ∈ W and t ∈ [0, 1]. Convex Function: f : W → R is a convex function if f (tw + (1 − t)w) ≤ tf (w) + (1 − t)f (w) for all w, w ∈ W and t ∈ [0, 1]. An OCO problem is a game of repeated rounds in which on round t a learner first chooses an element w t in some convex space W , then receives a convex loss function t , and suffers loss t (w t). The regret of the learner with respect to some other u ∈ W is defined by R T (u) = T t=1 t (w t) − t (u) The objective is to design an algorithm that can achieve low regret with respect to any u, even in the face of adversarially chosen t. Many practical problems can be formulated as OCO problems. For example, the stochastic optimization problems found widely throughout machine learning have exactly the same form, but with i.i.d. loss functions, a subset of the OCO problems. In this setting the goal is to identify a vector w with low generalization error (E[(w) − (u)]). We can solve this by running an OCO algorithm for T rounds and setting w to be the average value of w t. By online-to-batch conversion results [3, 4], the generalization error is bounded by the expectation of the regret over the t divided by T. Thus, OCO algorithms can be used to solve stochastic optimization problems while also performing well in non-i.i.d. settings. 30th Conference on Neural Information Processing Systems (NIPS 2016), Barcelona, Spain.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

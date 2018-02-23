@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scalable Generalized Linear Bandits: Online Computation and Hashing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kwang-Sung</forename><surname>Jun</surname></persName>
+							<email>kjun@discovery.wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UW-Madison</orgName>
+								<orgName type="institution" key="instit2">UW-Madison</orgName>
+								<orgName type="institution" key="instit3">UW-Madison</orgName>
+								<orgName type="institution" key="instit4">UW-Madison</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aniruddha</forename><surname>Bhargava</surname></persName>
+							<email>aniruddha@wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UW-Madison</orgName>
+								<orgName type="institution" key="instit2">UW-Madison</orgName>
+								<orgName type="institution" key="instit3">UW-Madison</orgName>
+								<orgName type="institution" key="instit4">UW-Madison</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Nowak</surname></persName>
+							<email>rdnowak@wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UW-Madison</orgName>
+								<orgName type="institution" key="instit2">UW-Madison</orgName>
+								<orgName type="institution" key="instit3">UW-Madison</orgName>
+								<orgName type="institution" key="instit4">UW-Madison</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rebecca</forename><surname>Willett</surname></persName>
+							<email>willett@discovery.wisc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UW-Madison</orgName>
+								<orgName type="institution" key="instit2">UW-Madison</orgName>
+								<orgName type="institution" key="instit3">UW-Madison</orgName>
+								<orgName type="institution" key="instit4">UW-Madison</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scalable Generalized Linear Bandits: Online Computation and Hashing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Generalized Linear Bandits (GLBs), a natural extension of the stochastic linear bandits, has been popular and successful in recent years. However, existing GLBs scale poorly with the number of rounds and the number of arms, limiting their utility in practice. This paper proposes new, scalable solutions to the GLB problem in two respects. First, unlike existing GLBs, whose per-time-step space and time complexity grow at least linearly with time t, we propose a new algorithm that performs online computations to enjoy a constant space and time complexity. At its heart is a novel Generalized Linear extension of the Online-to-confidence-set Conversion (GLOC method) that takes any online learning algorithm and turns it into a GLB algorithm. As a special case, we apply GLOC to the online Newton step algorithm, which results in a low-regret GLB algorithm with much lower time and memory complexity than prior work. Second, for the case where the number N of arms is very large, we propose new algorithms in which each next arm is selected via an inner product search. Such methods can be implemented via hashing algorithms (i.e., &quot;hash-amenable&quot;) and result in a time complexity sublinear in N. While a Thompson sampling extension of GLOC is hash-amenable, its regret bound for d-dimensional arm sets scales with d 3/2 , whereas GLOC&apos;s regret bound scales with d. Towards closing this gap, we propose a new hash-amenable algorithm whose regret bound scales with d 5/4. Finally, we propose a fast approximate hash-key computation (inner product) with a better accuracy than the state-of-the-art, which can be of independent interest. We conclude the paper with preliminary experimental results confirming the merits of our methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

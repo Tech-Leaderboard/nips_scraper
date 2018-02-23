@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning with Average Top-k Loss</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yanbo</forename><surname>Fan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University at Albany</orgName>
+								<address>
+									<country>SUNY</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">National Laboratory of Pattern Recognition</orgName>
+								<orgName type="institution">CASIA</orgName>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">University of Chinese Academy of Sciences (UCAS)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Siwei</forename><surname>Lyu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University at Albany</orgName>
+								<address>
+									<country>SUNY</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yiming</forename><surname>Ying</surname></persName>
+							<email>yying@albany.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Mathematics and Statistics</orgName>
+								<orgName type="institution">University at Albany</orgName>
+								<address>
+									<settlement>SUNY</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bao-Gang</forename><surname>Hu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory">National Laboratory of Pattern Recognition</orgName>
+								<orgName type="institution">CASIA</orgName>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">University of Chinese Academy of Sciences (UCAS)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning with Average Top-k Loss</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this work, we introduce the average top-k (AT k) loss as a new aggregate loss for supervised learning, which is the average over the k largest individual losses over a training dataset. We show that the AT k loss is a natural generalization of the two widely used aggregate losses, namely the average loss and the maximum loss, but can combine their advantages and mitigate their drawbacks to better adapt to different data distributions. Furthermore, it remains a convex function over all individual losses, which can lead to convex optimization problems that can be solved effectively with conventional gradient-based methods. We provide an intuitive interpretation of the AT k loss based on its equivalent effect on the continuous individual loss functions, suggesting that it can reduce the penalty on correctly classified data. We further give a learning theory analysis of MAT k learning on the classification calibration of the AT k loss and the error bounds of AT k-SVM. We demonstrate the applicability of minimum average top-k learning for binary classification and regression using synthetic and real datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

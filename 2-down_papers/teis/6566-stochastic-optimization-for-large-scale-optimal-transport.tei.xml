@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stochastic Optimization for Large-scale Optimal Transport</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aude</forename><surname>Genevay</surname></persName>
+							<email>genevay@ceremade.dauphine.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">INRIA -Sierra project-team DI, ENS</orgName>
+								<orgName type="institution" key="instit1">CEREMADE</orgName>
+								<orgName type="institution" key="instit2">Université Paris-Dauphine</orgName>
+								<orgName type="institution" key="instit3">CREST</orgName>
+								<orgName type="institution" key="instit4">ENSAE Université Paris-Saclay</orgName>
+								<orgName type="institution" key="instit5">CNRS</orgName>
+								<orgName type="institution" key="instit6">École Normale Supérieure</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marco</forename><surname>Cuturi</surname></persName>
+							<email>marco.cuturi@ensae.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">INRIA -Sierra project-team DI, ENS</orgName>
+								<orgName type="institution" key="instit1">CEREMADE</orgName>
+								<orgName type="institution" key="instit2">Université Paris-Dauphine</orgName>
+								<orgName type="institution" key="instit3">CREST</orgName>
+								<orgName type="institution" key="instit4">ENSAE Université Paris-Saclay</orgName>
+								<orgName type="institution" key="instit5">CNRS</orgName>
+								<orgName type="institution" key="instit6">École Normale Supérieure</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gabriel</forename><surname>Peyré</surname></persName>
+							<email>gabriel.peyre@ens.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">INRIA -Sierra project-team DI, ENS</orgName>
+								<orgName type="institution" key="instit1">CEREMADE</orgName>
+								<orgName type="institution" key="instit2">Université Paris-Dauphine</orgName>
+								<orgName type="institution" key="instit3">CREST</orgName>
+								<orgName type="institution" key="instit4">ENSAE Université Paris-Saclay</orgName>
+								<orgName type="institution" key="instit5">CNRS</orgName>
+								<orgName type="institution" key="instit6">École Normale Supérieure</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francis</forename><surname>Bach</surname></persName>
+							<email>francis.bach@inria.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">INRIA -Sierra project-team DI, ENS</orgName>
+								<orgName type="institution" key="instit1">CEREMADE</orgName>
+								<orgName type="institution" key="instit2">Université Paris-Dauphine</orgName>
+								<orgName type="institution" key="instit3">CREST</orgName>
+								<orgName type="institution" key="instit4">ENSAE Université Paris-Saclay</orgName>
+								<orgName type="institution" key="instit5">CNRS</orgName>
+								<orgName type="institution" key="instit6">École Normale Supérieure</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stochastic Optimization for Large-scale Optimal Transport</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Optimal transport (OT) defines a powerful framework to compare probability distributions in a geometrically faithful way. However, the practical impact of OT is still limited because of its computational burden. We propose a new class of stochastic optimization algorithms to cope with large-scale OT problems. These methods can handle arbitrary distributions (either discrete or continuous) as long as one is able to draw samples from them, which is the typical setup in high-dimensional learning problems. This alleviates the need to discretize these densities, while giving access to provably convergent methods that output the correct distance without discretization error. These algorithms rely on two main ideas: (a) the dual OT problem can be re-cast as the maximization of an expectation; (b) the entropic regularization of the primal OT problem yields a smooth dual optimization which can be addressed with algorithms that have a provably faster convergence. We instantiate these ideas in three different setups: (i) when comparing a discrete distribution to another, we show that incremental stochastic optimization schemes can beat Sinkhorn&apos;s algorithm, the current state-of-the-art finite dimensional OT solver; (ii) when comparing a discrete distribution to a continuous density, a semi-discrete reformulation of the dual program is amenable to averaged stochastic gradient descent, leading to better performance than approximately solving the problem by discretization ; (iii) when dealing with two continuous densities, we propose a stochastic gradient descent over a reproducing kernel Hilbert space (RKHS). This is currently the only known method to solve this problem, apart from computing OT on finite samples. We backup these claims on a set of discrete, semi-discrete and continuous benchmark problems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:49+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On Tensor Train Rank Minimization: Statistical Efficiency and Scalable Algorithm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Masaaki</forename><surname>Imaizumi</surname></persName>
+							<email>imaizumi@ism.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Statistical Mathematics RIKEN Center for Advanced Intelligence Project</orgName>
+								<orgName type="department" key="dep2">RIKEN Center for Advanced Intelligence Project</orgName>
+								<orgName type="department" key="dep3">National Institute of Advanced Industrial Science and Technology RIKEN Center for Advanced Intelligence Project</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Takanori</forename><surname>Maehara</surname></persName>
+							<email>takanori.maehara@riken.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Statistical Mathematics RIKEN Center for Advanced Intelligence Project</orgName>
+								<orgName type="department" key="dep2">RIKEN Center for Advanced Intelligence Project</orgName>
+								<orgName type="department" key="dep3">National Institute of Advanced Industrial Science and Technology RIKEN Center for Advanced Intelligence Project</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kohei</forename><surname>Hayashi</surname></persName>
+							<email>hayashi.kohei@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Statistical Mathematics RIKEN Center for Advanced Intelligence Project</orgName>
+								<orgName type="department" key="dep2">RIKEN Center for Advanced Intelligence Project</orgName>
+								<orgName type="department" key="dep3">National Institute of Advanced Industrial Science and Technology RIKEN Center for Advanced Intelligence Project</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On Tensor Train Rank Minimization: Statistical Efficiency and Scalable Algorithm</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Tensor train (TT) decomposition provides a space-efficient representation for higher-order tensors. Despite its advantage, we face two crucial limitations when we apply the TT decomposition to machine learning problems: the lack of statistical theory and of scalable algorithms. In this paper, we address the limitations. First, we introduce a convex relaxation of the TT decomposition problem and derive its error bound for the tensor completion task. Next, we develop a randomized optimization method, in which the time complexity is as efficient as the space complexity is. In experiments, we numerically confirm the derived bounds and empirically demonstrate the performance of our method with a real higher-order tensor.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

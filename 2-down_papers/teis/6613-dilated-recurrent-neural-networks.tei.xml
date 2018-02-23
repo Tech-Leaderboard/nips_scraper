@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dilated Recurrent Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shiyu</forename><surname>Chang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Thomas J. Watson Research Center</orgName>
+								<address>
+									<postCode>10598</postCode>
+									<settlement>Yorktown</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yang</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Thomas J. Watson Research Center</orgName>
+								<address>
+									<postCode>10598</postCode>
+									<settlement>Yorktown</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Han</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mo</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Thomas J. Watson Research Center</orgName>
+								<address>
+									<postCode>10598</postCode>
+									<settlement>Yorktown</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Illinois at Urbana-Champaign</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<settlement>Urbana</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaoxiao</forename><surname>Guo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Thomas J. Watson Research Center</orgName>
+								<address>
+									<postCode>10598</postCode>
+									<settlement>Yorktown</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Tan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Thomas J. Watson Research Center</orgName>
+								<address>
+									<postCode>10598</postCode>
+									<settlement>Yorktown</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaodong</forename><surname>Cui</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Thomas J. Watson Research Center</orgName>
+								<address>
+									<postCode>10598</postCode>
+									<settlement>Yorktown</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Witbrock</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Thomas J. Watson Research Center</orgName>
+								<address>
+									<postCode>10598</postCode>
+									<settlement>Yorktown</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Hasegawa-Johnson</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Illinois at Urbana-Champaign</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<settlement>Urbana</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">S</forename><surname>Huang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Illinois at Urbana-Champaign</orgName>
+								<address>
+									<postCode>61801</postCode>
+									<settlement>Urbana</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dilated Recurrent Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning with recurrent neural networks (RNNs) on long sequences is a notoriously difficult task. There are three major challenges: 1) complex dependencies, 2) vanishing and exploding gradients, and 3) efficient parallelization. In this paper, we introduce a simple yet effective RNN connection structure, the DILATEDRNN, which simultaneously tackles all of these challenges. The proposed architecture is characterized by multi-resolution dilated recurrent skip connections, and can be combined flexibly with diverse RNN cells. Moreover, the DILATEDRNN reduces the number of parameters needed and enhances training efficiency significantly, while matching state-of-the-art performance (even with standard RNN cells) in tasks involving very long-term dependencies. To provide a theory-based quantifi-cation of the architecture&apos;s advantages, we introduce a memory capacity measure, the mean recurrent length, which is more suitable for RNNs with long skip connections than existing measures. We rigorously prove the advantages of the DILATEDRNN over other recurrent neural architectures. The code for our method is publicly available 1 .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

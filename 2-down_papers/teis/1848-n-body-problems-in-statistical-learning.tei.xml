@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:14+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">.N-Body. Problems in Statistical Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><forename type="middle">G</forename><surname>Gray</surname></persName>
+							<email>agray@cs.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Robotics Inst. and Dept. Compo Sci. Carnegie</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Mellon University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">W</forename><surname>Moore</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Computer Science</orgName>
+								<orgName type="department" key="dep2">Robotics Inst. and Dept. Compo Sci. Carnegie</orgName>
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Mellon University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">.N-Body. Problems in Statistical Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We present efficient algorithms for all-point-pairs problems , or &apos;N-body &apos;-like problems , which are ubiquitous in statistical learning. We focus on six examples, including nearest-neighbor classification, kernel density estimation, outlier detection , and the two-point correlation. These include any problem which abstractly requires a comparison of each of the N points in a dataset with each other point and would naively be solved using N 2 distance computations. In practice N is often large enough to make this infeasible. We present a suite of new geometric t echniques which are applicable in principle to any &apos;N-body&apos; computation including large-scale mixtures of Gaussians, RBF neural networks, and HMM &apos;s. Our algorithms exhibit favorable asymptotic scaling and are empirically several orders of magnitude faster than the naive computation, even for small datasets. We are aware of no exact algorithms for these problems which are more efficient either empirically or theoretically. In addition, our framework yields simple and elegant algorithms. It also permits two important generalizations beyond the standard all-point-pairs problems, which are more difficult. These are represented by our final examples, the multiple two-point correlation and the notorious n-point correlation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

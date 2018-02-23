@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:17+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Evaluating Search Engines by Modeling the Relationship Between Relevance and Clicks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ben</forename><surname>Carterette</surname></persName>
+							<email>carteret@cs.umass.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Intelligent Information</orgName>
+								<orgName type="department" key="dep2">Yahoo! Research</orgName>
+								<orgName type="institution">Retrieval University of Massachusetts Amherst Amherst</orgName>
+								<address>
+									<addrLine>3333 Empire Ave Burbank</addrLine>
+									<postCode>01003, 91504</postCode>
+									<region>MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rosie</forename><surname>Jones</surname></persName>
+							<email>jonesr@yahoo-inc.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Intelligent Information</orgName>
+								<orgName type="department" key="dep2">Yahoo! Research</orgName>
+								<orgName type="institution">Retrieval University of Massachusetts Amherst Amherst</orgName>
+								<address>
+									<addrLine>3333 Empire Ave Burbank</addrLine>
+									<postCode>01003, 91504</postCode>
+									<region>MA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Evaluating Search Engines by Modeling the Relationship Between Relevance and Clicks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We propose a model that leverages the millions of clicks received by web search engines to predict document relevance. This allows the comparison of ranking functions when clicks are available but complete relevance judgments are not. After an initial training phase using a set of relevance judgments paired with click data, we show that our model can predict the relevance score of documents that have not been judged. These predictions can be used to evaluate the performance of a search engine, using our novel formalization of the confidence of the standard evaluation metric discounted cumulative gain (DCG), so comparisons can be made across time and datasets. This contrasts with previous methods which can provide only pair-wise relevance judgments between results shown for the same query. When no relevance judgments are available, we can identify the better of two ranked lists up to 82% of the time, and with only two relevance judgments for each query, we can identify the better ranking up to 94% of the time. While our experiments are on sponsored search results, which is the financial backbone of web search, our method is general enough to be applicable to algorithmic web search results as well. Furthermore, we give an algorithm to guide the selection of additional documents to judge to improve confidence.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Probabilistic Variational Bounds for Graphical Models</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qiang</forename><surname>Liu</surname></persName>
+							<email>qliu@cs.dartmouth.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSAIL MIT</orgName>
+								<orgName type="department" key="dep2">Computer Science Univ. of California, Irvine</orgName>
+								<orgName type="institution">Computer Science Dartmouth College</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Fisher</surname></persName>
+							<email>fisher@csail.mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSAIL MIT</orgName>
+								<orgName type="department" key="dep2">Computer Science Univ. of California, Irvine</orgName>
+								<orgName type="institution">Computer Science Dartmouth College</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><surname>Ihler</surname></persName>
+							<email>ihler@ics.uci.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CSAIL MIT</orgName>
+								<orgName type="department" key="dep2">Computer Science Univ. of California, Irvine</orgName>
+								<orgName type="institution">Computer Science Dartmouth College</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Probabilistic Variational Bounds for Graphical Models</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Variational algorithms such as tree-reweighted belief propagation can provide de-terministic bounds on the partition function, but are often loose and difficult to use in an &quot;any-time&quot; fashion, expending more computation for tighter bounds. On the other hand, Monte Carlo estimators such as importance sampling have excellent anytime behavior, but depend critically on the proposal distribution. We propose a simple Monte Carlo based inference method that augments convex variational bounds by adding importance sampling (IS). We argue that convex variational methods naturally provide good IS proposals that &quot;cover&quot; the target probability, and reinterpret the variational optimization as designing a proposal to minimize an upper bound on the variance of our IS estimator. This both provides an accurate estimator and enables construction of anytime probabilistic bounds that improve quickly and directly on state-of-the-art variational bounds, and provide certificates of accuracy given enough samples relative to the error in the initial bound.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:45+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Backpropagation for Energy-Efficient Neuromorphic Computing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steve</forename><forename type="middle">K</forename><surname>Esser</surname></persName>
+							<email>sesser@us.ibm.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Research-Almaden</orgName>
+								<address>
+									<addrLine>650 Harry Road</addrLine>
+									<postCode>95120</postCode>
+									<settlement>San Jose</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rathinakumar</forename><surname>Appuswamy</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">IBM Research-Almaden</orgName>
+								<address>
+									<addrLine>650 Harry Road</addrLine>
+									<postCode>95120</postCode>
+									<settlement>San Jose</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><forename type="middle">A</forename><surname>Merolla</surname></persName>
+							<email>pameroll@us.ibm.com</email>
+							<affiliation key="aff2">
+								<orgName type="institution">IBM Research-Almaden</orgName>
+								<address>
+									<addrLine>650 Harry Road</addrLine>
+									<postCode>95120</postCode>
+									<settlement>San Jose</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">V</forename><surname>Arthur</surname></persName>
+							<email>arthurjo@us.ibm.com</email>
+							<affiliation key="aff3">
+								<orgName type="institution">IBM Research-Almaden</orgName>
+								<address>
+									<addrLine>650 Harry Road</addrLine>
+									<postCode>95120</postCode>
+									<settlement>San Jose</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dharmendra</forename><forename type="middle">S</forename><surname>Modha</surname></persName>
+							<email>dmodha@us.ibm.com</email>
+							<affiliation key="aff4">
+								<orgName type="institution">IBM Research-Almaden</orgName>
+								<address>
+									<addrLine>650 Harry Road</addrLine>
+									<postCode>95120</postCode>
+									<settlement>San Jose</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Backpropagation for Energy-Efficient Neuromorphic Computing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Solving real world problems with embedded neural networks requires both training algorithms that achieve high performance and compatible hardware that runs in real time while remaining energy efficient. For the former, deep learning using backpropagation has recently achieved a string of successes across many domains and datasets. For the latter, neuromorphic chips that run spiking neural networks have recently achieved unprecedented energy efficiency. To bring these two advances together, we must first resolve the incompatibility between backpropaga-tion, which uses continuous-output neurons and synaptic weights, and neuromor-phic designs, which employ spiking neurons and discrete synapses. Our approach is to treat spikes and discrete synapses as continuous probabilities, which allows training the network using standard backpropagation. The trained network naturally maps to neuromorphic hardware by sampling the probabilities to create one or more networks, which are merged using ensemble averaging. To demonstrate, we trained a sparsely connected network that runs on the TrueNorth chip using the MNIST dataset. With a high performance network (ensemble of 64), we achieve 99.42% accuracy at 108 µJ per image, and with a high efficiency network (ensem-ble of 1) we achieve 92.7% accuracy at 0.268 µJ per image.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

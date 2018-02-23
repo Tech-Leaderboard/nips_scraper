@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:47+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Finite Sample Prediction and Recovery Bounds for Ordinal Embedding</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lalit</forename><surname>Jain</surname></persName>
+							<email>lalitj@umich.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><surname>Jamieson</surname></persName>
+							<email>kjamieson@berkeley.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Nowak</surname></persName>
+							<email>rdnowak@wisc.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Michigan Ann Arbor</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>48109, 94720</postCode>
+									<settlement>Berkeley Berkeley</settlement>
+									<region>MI, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Wisconsin Madison</orgName>
+								<address>
+									<postCode>53706</postCode>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Finite Sample Prediction and Recovery Bounds for Ordinal Embedding</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The goal of ordinal embedding is to represent items as points in a low-dimensional Euclidean space given a set of constraints like &quot;item i is closer to item j than item k&quot;. Ordinal constraints like this often come from human judgments. The classic approach to solving this problem is known as non-metric multidimensional scaling. To account for errors and variation in judgments, we consider the noisy situation in which the given constraints are independently corrupted by reversing the correct constraint with some probability. The ordinal embedding problem has been studied for decades, but most past work pays little attention to the question of whether accurate embedding is possible, apart from empirical studies. This paper shows that under a generative data model it is possible to learn the correct embedding from noisy distance comparisons. In establishing this fundamental result, the paper makes several new contributions. First, we derive prediction error bounds for embedding from noisy distance comparisons by exploiting the fact that the rank of a distance matrix of points in R d is at most d + 2. These bounds characterize how well a learned embedding predicts new comparative judgments. Second, we show that the underlying embedding can be recovered by solving a simple convex optimization. This result is highly non-trivial since we show that the linear map corresponding to distance comparisons is non-invertible, but there exists a nonlinear map that is invertible. Third, two new algorithms for ordinal embedding are proposed and evaluated in experiments. 1 Ordinal Embedding Ordinal embedding aims to represent items as points in R d so that the distances between items agree as well as possible with a given set of ordinal comparisons such as item i is closer to item j than to item k. In other words, the goal is to find a geometric representation of data that is faithful to comparative similarity judgments. This problem has been studied and applied for more than 50 years, dating back to the classic non-metric multidimensional scaling (NMDS) [1, 2] approach, and it is widely used to gauge and visualize how people perceive similarities. Despite the widespread application of NMDS and recent algorithmic developments [3, 4, 5, 6, 7], the fundamental question of whether an embedding can be learned from noisy distance/similarity comparisons had not been answered. This paper shows that if the data are generated according to a known probabilistic model, then accurate recovery of the underlying embedding is possible by solving a simple convex optimization, settling this long-standing open question. In the process of answering this question, the paper also characterizes how well a learned embedding predicts new distance comparisons and presents two new computationally efficient algorithms for solving the optimization problem.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

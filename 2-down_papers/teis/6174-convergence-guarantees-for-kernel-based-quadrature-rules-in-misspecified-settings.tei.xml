@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Convergence guarantees for kernel-based quadrature rules in misspecified settings</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Motonobu</forename><surname>Kanagawa</surname></persName>
+							<email>kanagawa@ism.ac.jp, bks18@psu.edu, fukumizu@ism.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department">The Institute of Statistical Mathematics</orgName>
+								<address>
+									<postCode>190-8562</postCode>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bharath</forename><forename type="middle">K</forename><surname>Sriperumbudur</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Statistics</orgName>
+								<orgName type="institution">Pennsylvania State University</orgName>
+								<address>
+									<addrLine>University Park</addrLine>
+									<postCode>16802</postCode>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenji</forename><surname>Fukumizu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Institute of Statistical Mathematics</orgName>
+								<address>
+									<postCode>190-8562</postCode>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Convergence guarantees for kernel-based quadrature rules in misspecified settings</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Kernel-based quadrature rules are becoming important in machine learning and statistics, as they achieve super-√ n convergence rates in numerical integration, and thus provide alternatives to Monte Carlo integration in challenging settings where integrands are expensive to evaluate or where integrands are high dimensional. These rules are based on the assumption that the integrand has a certain degree of smoothness, which is expressed as that the integrand belongs to a certain reproducing kernel Hilbert space (RKHS). However, this assumption can be violated in practice (e.g., when the integrand is a black box function), and no general theory has been established for the convergence of kernel quadratures in such misspecified settings. Our contribution is in proving that kernel quadratures can be consistent even when the integrand does not belong to the assumed RKHS, i.e., when the integrand is less smooth than assumed. Specifically, we derive convergence rates that depend on the (unknown) lesser smoothness of the integrand, where the degree of smoothness is expressed via powers of RKHSs or via Sobolev spaces.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

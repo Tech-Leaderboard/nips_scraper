@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">GEMINI: GRADIENT ESTIMATION THROUGH MATRIX INVERSION AFTER NOISE INJECTION</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yann</forename><surname>Le Cun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<addrLine>10 King&apos;s College Rd Toronto</addrLine>
+									<postCode>M5S 1A4</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Conrad</forename><forename type="middle">C</forename><surname>Galland</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<addrLine>10 King&apos;s College Rd Toronto</addrLine>
+									<postCode>M5S 1A4</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<addrLine>10 King&apos;s College Rd Toronto</addrLine>
+									<postCode>M5S 1A4</postCode>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">GEMINI: GRADIENT ESTIMATION THROUGH MATRIX INVERSION AFTER NOISE INJECTION</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning procedures that measure how random perturbations of unit activities correlate with changes in reinforcement are inefficient but simple to implement in hardware. Procedures like back-propagation (Rumelhart, Hinton and Williams, 1986) which compute how changes in activities affect the output error are much more efficient, but require more complex hardware. GEMINI is a hybrid procedure for multilayer networks, which shares many of the implementation advantages of correlational reinforcement procedures but is more efficient. GEMINI injects noise only at the first hidden layer and measures the resultant effect on the output error. A linear network associated with each hidden layer iteratively inverts the matrix which relates the noise to the error change, thereby obtaining the error-derivatives. No back-propagation is involved, thus allowing unknown non-linearities in the system. Two simulations demonstrate the effectiveness of GEMINI.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

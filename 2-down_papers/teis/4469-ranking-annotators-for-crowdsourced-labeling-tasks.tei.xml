@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ranking annotators for crowdsourced labeling tasks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vikas</forename><forename type="middle">C</forename><surname>Raykar</surname></persName>
+							<email>vikas.raykar@siemens.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Siemens Healthcare</orgName>
+								<address>
+									<settlement>Malvern</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shipeng</forename><surname>Yu</surname></persName>
+							<email>shipeng.yu@siemens.com</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Siemens Healthcare</orgName>
+								<address>
+									<settlement>Malvern</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ranking annotators for crowdsourced labeling tasks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>With the advent of crowdsourcing services it has become quite cheap and reasonably effective to get a dataset labeled by multiple annotators in a short amount of time. Various methods have been proposed to estimate the consensus labels by correcting for the bias of annotators with different kinds of expertise. Often we have low quality annotators or spammers-annotators who assign labels randomly (e.g., without actually looking at the instance). Spammers can make the cost of acquiring labels very expensive and can potentially degrade the quality of the consensus labels. In this paper we formalize the notion of a spammer and define a score which can be used to rank the annotators-with the spammers having a score close to zero and the good annotators having a high score close to one. 1 Spammers in crowdsourced labeling tasks Annotating an unlabeled dataset is one of the bottlenecks in using supervised learning to build good predictive models. Getting a dataset labeled by experts can be expensive and time consuming. With the advent of crowdsourcing services (Amazon&apos;s Mechanical Turk being a prime example) it has become quite easy and inexpensive to acquire labels from a large number of annotators in a short amount of time (see [8], [10], and [11] for some computer vision and natural language processing case studies). One drawback of most crowdsourcing services is that we do not have tight control over the quality of the annotators. The annotators can come from a diverse pool including genuine experts, novices, biased annotators, malicious annotators, and spammers. Hence in order to get good quality labels requestors typically get each instance labeled by multiple annotators and these multiple annotations are then consolidated either using a simple majority voting or more sophisticated methods that model and correct for the annotator biases [3, 9, 6, 7, 14] and/or task complexity [2, 13, 12]. In this paper we are interested in ranking annotators based on how spammer like each annotator is. In our context a spammer is a low quality annotator who assigns random labels (maybe because the annotator does not understand the labeling criteria, does not look at the instances when labeling, or maybe a bot pretending to be a human annotator). Spammers can significantly increase the cost of acquiring annotations (since they need to be paid) and at the same time decrease the accuracy of the final consensus labels. A mechanism to detect and eliminate spammers is a desirable feature for any crowdsourcing market place. For example one can give monetary bonuses to good annotators and deny payments to spammers. The main contribution of this paper is to formalize the notion of a spammer for binary, categorical, and ordinal labeling tasks. More specifically we define a scalar metric which can be used to rank the annotators-with the spammers having a score close to zero and the good annotators having a score close to one (see Figure 4). We summarize the multiple parameters corresponding to each annotator into a single score indicative of how spammer like the annotator is. While this spammer score was implicit for binary labels in earlier works [3, 9, 2, 6] the extension to categorical and ordinal labels is novel and is quite different from the accuracy computed from the confusion rate matrix. An attempt to quantify the quality of the workers based on the confusion matrix was recently made by [4] where they transformed the observed labels into posterior soft labels based on the estimated confusion 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

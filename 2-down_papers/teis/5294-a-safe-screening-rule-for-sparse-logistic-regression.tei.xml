@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:23+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Safe Screening Rule for Sparse Logistic Regression</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jie</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit2">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit3">SAS Institute Inc. Cary</orgName>
+								<orgName type="institution" key="instit4">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit5">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287, 85287, 27513, 85287, 85287</postCode>
+									<region>AZ, AZ, NC, AZ, AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiayu</forename><surname>Zhou</surname></persName>
+							<email>jiayu.zhou@asu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit2">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit3">SAS Institute Inc. Cary</orgName>
+								<orgName type="institution" key="instit4">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit5">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287, 85287, 27513, 85287, 85287</postCode>
+									<region>AZ, AZ, NC, AZ, AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jun</forename><surname>Liu</surname></persName>
+							<email>jun.liu@sas.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit2">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit3">SAS Institute Inc. Cary</orgName>
+								<orgName type="institution" key="instit4">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit5">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287, 85287, 27513, 85287, 85287</postCode>
+									<region>AZ, AZ, NC, AZ, AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Wonka</surname></persName>
+							<email>peter.wonka@asu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit2">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit3">SAS Institute Inc. Cary</orgName>
+								<orgName type="institution" key="instit4">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit5">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287, 85287, 27513, 85287, 85287</postCode>
+									<region>AZ, AZ, NC, AZ, AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jieping</forename><surname>Ye</surname></persName>
+							<email>jieping.ye@asu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit2">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit3">SAS Institute Inc. Cary</orgName>
+								<orgName type="institution" key="instit4">Arizona State University Tempe</orgName>
+								<orgName type="institution" key="instit5">Arizona State University Tempe</orgName>
+								<address>
+									<postCode>85287, 85287, 27513, 85287, 85287</postCode>
+									<region>AZ, AZ, NC, AZ, AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Safe Screening Rule for Sparse Logistic Regression</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The 1-regularized logistic regression (or sparse logistic regression) is a widely used method for simultaneous classification and feature selection. Although many recent efforts have been devoted to its efficient implementation, its application to high dimensional data still poses significant challenges. In this paper, we present a fast and effective sparse logistic regression screening rule (Slores) to identify the &quot;0&quot; components in the solution vector, which may lead to a substantial reduction in the number of features to be entered to the optimization. An appealing feature of Slores is that the data set needs to be scanned only once to run the screening and its computational cost is negligible compared to that of solving the sparse logistic regression problem. Moreover, Slores is independent of solvers for sparse logistic regression, thus Slores can be integrated with any existing solver to improve the efficiency. We have evaluated Slores using high-dimensional data sets from different applications. Experiments demonstrate that Slores outperforms the existing state-of-the-art screening rules and the efficiency of solving sparse logistic regression can be improved by one magnitude.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

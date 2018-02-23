@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:22+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Annealing Between Distributions by Averaging Moments</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roger</forename><surname>Grosse</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics and Comp. Sci</orgName>
+								<orgName type="institution" key="instit1">MIT Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Toronto Toronto</orgName>
+								<orgName type="institution" key="instit3">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>02139, M5S 3G4, M5S 3G4</postCode>
+									<region>MA, ON, ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Comp</forename><surname>Sci</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics and Comp. Sci</orgName>
+								<orgName type="institution" key="instit1">MIT Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Toronto Toronto</orgName>
+								<orgName type="institution" key="instit3">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>02139, M5S 3G4, M5S 3G4</postCode>
+									<region>MA, ON, ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">I</forename><surname>Lab</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics and Comp. Sci</orgName>
+								<orgName type="institution" key="instit1">MIT Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Toronto Toronto</orgName>
+								<orgName type="institution" key="instit3">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>02139, M5S 3G4, M5S 3G4</postCode>
+									<region>MA, ON, ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><forename type="middle">J</forename><surname>Maddison</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics and Comp. Sci</orgName>
+								<orgName type="institution" key="instit1">MIT Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Toronto Toronto</orgName>
+								<orgName type="institution" key="instit3">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>02139, M5S 3G4, M5S 3G4</postCode>
+									<region>MA, ON, ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruslan</forename><surname>Salakhutdinov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Dept. of Computer Science</orgName>
+								<orgName type="department" key="dep2">Depts. of Statistics and Comp. Sci</orgName>
+								<orgName type="institution" key="instit1">MIT Cambridge</orgName>
+								<orgName type="institution" key="instit2">University of Toronto Toronto</orgName>
+								<orgName type="institution" key="instit3">University of Toronto Toronto</orgName>
+								<address>
+									<postCode>02139, M5S 3G4, M5S 3G4</postCode>
+									<region>MA, ON, ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Annealing Between Distributions by Averaging Moments</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many powerful Monte Carlo techniques for estimating partition functions, such as annealed importance sampling (AIS), are based on sampling from a sequence of intermediate distributions which interpolate between a tractable initial distribution and the intractable target distribution. The near-universal practice is to use geometric averages of the initial and target distributions, but alternative paths can perform substantially better. We present a novel sequence of intermediate distributions for exponential families defined by averaging the moments of the initial and target distributions. We analyze the asymptotic performance of both the geometric and moment averages paths and derive an asymptotically optimal piecewise linear schedule. AIS with moment averaging performs well empirically at estimating partition functions of restricted Boltzmann machines (RBMs), which form the building blocks of many deep learning models.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Measuring model complexity with the prior predictive</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wolf</forename><surname>Vanpaemel</surname></persName>
+							<email>wolf.vanpaemel@psy.kuleuven.be</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">University of Leuven Belgium</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Measuring model complexity with the prior predictive</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In the last few decades, model complexity has received a lot of press. While many methods have been proposed that jointly measure a model&apos;s descriptive adequacy and its complexity, few measures exist that measure complexity in itself. Moreover , existing measures ignore the parameter prior, which is an inherent part of the model and affects the complexity. This paper presents a stand alone measure for model complexity, that takes the number of parameters, the functional form, the range of the parameters and the parameter prior into account. This Prior Predictive Complexity (PPC) is an intuitive and easy to compute measure. It starts from the observation that model complexity is the property of the model that enables it to fit a wide range of outcomes. The PPC then measures how wide this range exactly is. keywords: Model Selection &amp; Structure Learning; Model Comparison Methods; Perception The recent revolution in model selection methods in the cognitive sciences was driven to a large extent by the observation that computational models can differ in their complexity. Differences in complexity put models on unequal footing when their ability to approximate empirical data is assessed. Therefore, models should be penalized for their complexity when their adequacy is measured. The balance between descriptive adequacy and complexity has been termed generalizability [1, 2]. Much attention has been devoted to developing, advocating, and comparing different measures of generalizability (for a recent overview, see [3]). In contrast, measures of complexity have received relatively little attention. The aim of the current paper is to propose and illustrate a stand alone measure of model complexity, called the Prior Predictive Complexity (PPC). The PPC is based on the intuitive idea that a complex model can predict many outcomes and a simple model can predict a few outcomes only. First, I discuss existing approaches to measuring model complexity and note some of their limitations. In particular, I argue that currently existing measures ignore one important aspect of a model: the prior distribution it assumes over the parameters. I then introduce the PPC, which, unlike the existing measures, is sensitive to the parameter prior. Next, the PPC is illustrated by calculating the complexities of two popular models of information integration. 1 Previous approaches to measuring model complexity A first approach to assess the (relative) complexity of models relies on simulated data. Simulation-based methods differ in how these artificial data are generated. A first, atheoretical approach uses random data [4, 5]. In the semi-theoretical approach, the data are generated from some theoretically * I am grateful to Michael Lee and Liz Bonawitz.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

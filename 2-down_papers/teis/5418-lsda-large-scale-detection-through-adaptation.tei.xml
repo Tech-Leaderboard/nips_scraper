@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">LSDA: Large Scale Detection through Adaptation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Judy</forename><surname>Hoffman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sergio</forename><surname>Guadarrama</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Tzeng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronghang</forename><surname>Hu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeff</forename><surname>Donahue</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Girshick</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Trevor</forename><surname>Darrell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>EECS</roleName><forename type="first">Kate</forename><surname>Saenko</surname></persName>
+							<email>saenko@cs.uml.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>CS</roleName><forename type="first">U</forename><forename type="middle">C</forename><surname>Berkeley</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Umass</forename><surname>Lowell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">EECS</orgName>
+								<orgName type="institution" key="instit2">UC Berkeley</orgName>
+								<orgName type="institution" key="instit3">Tsinghua University</orgName>
+								<address>
+									<region>EE</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">LSDA: Large Scale Detection through Adaptation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>A major challenge in scaling object detection is the difficulty of obtaining labeled images for large numbers of categories. Recently, deep convolutional neural networks (CNNs) have emerged as clear winners on object classification benchmarks, in part due to training with 1.2M+ labeled classification images. Unfortunately, only a small fraction of those labels are available for the detection task. It is much cheaper and easier to collect large quantities of image-level labels from search engines than it is to collect detection data and label it with precise bounding boxes. In this paper, we propose Large Scale Detection through Adaptation (LSDA), an algorithm which learns the difference between the two tasks and transfers this knowledge to classifiers for categories without bounding box annotated data, turning them into detectors. Our method has the potential to enable detection for the tens of thousands of categories that lack bounding box annotations, yet have plenty of classification data. Evaluation on the ImageNet LSVRC-2013 detection challenge demonstrates the efficacy of our approach. This algorithm enables us to produce a &gt;7.6K detector by using available classification data from leaf nodes in the ImageNet tree. We additionally demonstrate how to modify our architecture to produce a fast detector (running at 2fps for the 7.6K detector). Models and software are available at lsda.berkeleyvision.org.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

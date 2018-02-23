@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structured output regression for detection with partial truncation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrea</forename><surname>Vedaldi</surname></persName>
+							<email>{vedaldi,az}@robots.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Engineering</orgName>
+								<orgName type="institution">University of Oxford Oxford</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Zisserman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Engineering</orgName>
+								<orgName type="institution">University of Oxford Oxford</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structured output regression for detection with partial truncation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We develop a structured output model for object category detection that explicitly accounts for alignment, multiple aspects and partial truncation in both training and inference. The model is formulated as large margin learning with latent variables and slack rescaling, and both training and inference are computationally efficient. We make the following contributions: (i) we note that extending the Structured Output Regression formulation of Blaschko and Lampert [1] to include a bias term significantly improves performance; (ii) that alignment (to account for small rotations and anisotropic scalings) can be included as a latent variable and efficiently determined and implemented; (iii) that the latent variable extends to multiple aspects (e.g. left facing, right facing, front) with the same formulation; and (iv), most significantly for performance, that truncated and truncated instances can be included in both training and inference with an explicit truncation mask. We demonstrate the method by training and testing on the PASCAL VOC 2007 data set-training includes the truncated examples, and in testing object instances are detected at multiple scales, alignments, and with significant truncations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Distributed Non-Stochastic Experts</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Varun</forename><surname>Kanade</surname></persName>
+							<email>vkanade@eecs.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhenming</forename><surname>Liu</surname></persName>
+							<email>zhenming@cs.princeton.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Radunovi´c</forename><surname>Božidar</surname></persName>
+							<email>bozidar@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Radunovi´c</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">UC Berkeley</orgName>
+								<orgName type="institution" key="instit2">Princeton University</orgName>
+								<orgName type="institution" key="instit3">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Distributed Non-Stochastic Experts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the online distributed non-stochastic experts problem, where the distributed system consists of one coordinator node that is connected to k sites, and the sites are required to communicate with each other via the coordinator. At each time-step t, one of the k site nodes has to pick an expert from the set {1,. .. , n}, and the same site receives information about payoffs of all experts for that round. The goal of the distributed system is to minimize regret at time horizon T , while simultaneously keeping communication to a minimum. The two extreme solutions to this problem are: (i) Full communication: This essentially simulates the non-distributed setting to obtain the optimal O(log(n)T) regret bound at the cost of T communication. (ii) No communication: Each site runs an independent copy-the regret is O(log(n)kT) and the communication is 0. This paper shows the difficulty of simultaneously achieving regret asymptotically better than √ kT and communication better than T. We give a novel algorithm that for an oblivious adversary achieves a non-trivial trade-off: regret O(√ k 5(1+)/6 T) and communication O(T /k), for any value of ∈ (0, 1/5). We also consider a variant of the model, where the coordinator picks the expert. In this model, we show that the label-efficient forecaster of Cesa-Bianchi et al. (2005) already gives us strategy that is near optimal in regret vs communication trade-off.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

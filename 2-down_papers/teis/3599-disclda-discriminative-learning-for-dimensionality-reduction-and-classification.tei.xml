@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DiscLDA: Discriminative Learning for Dimensionality Reduction and Classification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Simon</forename><surname>Lacoste-Julien</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Division</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science University of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep3">Dept. of EECS and Statistics UC Berkeley Berkeley</orgName>
+								<address>
+									<postCode>94720, 90089, 94720</postCode>
+									<settlement>Berkeley Berkeley</settlement>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fei</forename><surname>Sha</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Division</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science University of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep3">Dept. of EECS and Statistics UC Berkeley Berkeley</orgName>
+								<address>
+									<postCode>94720, 90089, 94720</postCode>
+									<settlement>Berkeley Berkeley</settlement>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Division</orgName>
+								<orgName type="department" key="dep2">Dept. of Computer Science University of Southern California Los Angeles</orgName>
+								<orgName type="department" key="dep3">Dept. of EECS and Statistics UC Berkeley Berkeley</orgName>
+								<address>
+									<postCode>94720, 90089, 94720</postCode>
+									<settlement>Berkeley Berkeley</settlement>
+									<region>CA, CA, CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DiscLDA: Discriminative Learning for Dimensionality Reduction and Classification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Probabilistic topic models have become popular as methods for dimensionality reduction in collections of text documents or images. These models are usually treated as generative models and trained using maximum likelihood or Bayesian methods. In this paper, we discuss an alternative: a discriminative framework in which we assume that supervised side information is present, and in which we wish to take that side information into account in finding a reduced dimensional-ity representation. Specifically, we present DiscLDA, a discriminative variation on Latent Dirichlet Allocation (LDA) in which a class-dependent linear transformation is introduced on the topic mixture proportions. This parameter is estimated by maximizing the conditional likelihood. By using the transformed topic mixture proportions as a new representation of documents, we obtain a supervised dimensionality reduction algorithm that uncovers the latent structure in a document collection while preserving predictive power for the task of classification. We compare the predictive power of the latent structure of DiscLDA with unsu-pervised LDA on the 20 Newsgroups document classification task and show how our model can identify shared topics across classes as well as class-dependent topics.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

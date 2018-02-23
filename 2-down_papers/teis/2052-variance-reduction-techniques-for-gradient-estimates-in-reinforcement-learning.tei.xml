@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:15+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Variance Reduction Techniques for Gradient Estimates in Reinforcement Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Evan</forename><surname>Greensmith</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">WhizBang! Labs</orgName>
+								<orgName type="institution" key="instit1">Australian National University</orgName>
+								<orgName type="institution" key="instit2">BIOwulf Technologies</orgName>
+								<address>
+									<settlement>East</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">L</forename><surname>Bartlett</surname></persName>
+							<email>Peter.Bartlett@anu.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">WhizBang! Labs</orgName>
+								<orgName type="institution" key="instit1">Australian National University</orgName>
+								<orgName type="institution" key="instit2">BIOwulf Technologies</orgName>
+								<address>
+									<settlement>East</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Baxter</surname></persName>
+							<email>jbaxter@whizbang.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">WhizBang! Labs</orgName>
+								<orgName type="institution" key="instit1">Australian National University</orgName>
+								<orgName type="institution" key="instit2">BIOwulf Technologies</orgName>
+								<address>
+									<settlement>East</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Variance Reduction Techniques for Gradient Estimates in Reinforcement Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider the use of two additive control variate methods to reduce the variance of performance gradient estimates in reinforcement learning problems. The first approach we consider is the baseline method, in which a function of the current state is added to the discounted value estimate. We relate the performance of these methods, which use sample paths, to the variance of estimates based on iid data. We derive the baseline function that minimizes this variance, and we show that the variance for any baseline is the sum of the optimal variance and a weighted squared distance to the optimal baseline. We show that the widely used average discounted value baseline (where the reward is replaced by the difference between the reward and its expectation) is suboptimal. The second approach we consider is the actor-critic method, which uses an approximate value function. We give bounds on the expected squared error of its estimates. We show that minimizing distance to the true value function is suboptimal in general; we provide an example for which the true value function gives an estimate with positive variance, but the optimal value function gives an unbiased estimate with zero variance. Our bounds suggest algorithms to estimate the gradient of the performance of parameterized baseline or value functions. We present preliminary experiments that illustrate the performance improvements on a simple control problem.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

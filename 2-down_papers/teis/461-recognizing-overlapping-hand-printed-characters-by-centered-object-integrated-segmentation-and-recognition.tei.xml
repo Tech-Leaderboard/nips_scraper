@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:21+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Recognizing Overlapping Hand-Printed Characters by Centered-Object Integrated Segmentation and Recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gale</forename><forename type="middle">L</forename><surname>Martin-&amp;amp;</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">MCC Austin</orgName>
+								<address>
+									<postCode>78759</postCode>
+									<settlement>Thxas</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mosfeq</forename><surname>Rashid</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">MCC Austin</orgName>
+								<address>
+									<postCode>78759</postCode>
+									<settlement>Thxas</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Recognizing Overlapping Hand-Printed Characters by Centered-Object Integrated Segmentation and Recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>504</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper describes an approach, called centered object integrated seg-mentation and recognition (COISR). for integrating object segmenta-tion and recognition within a single neural network. The application is hand-printed character recognition. 1\vo versions of the system are described. One uses a backpropagation network that scans exhaustively over a field of characters and is trained to recognize whether it is centered over a single character or between characters. When it is centered over a character, the net classifies the cnaracter. The approach is tested on a dataset of hand-printed digits. Vel)&apos; low errOr rates are reported. The second version, COISR-SACCADE, avoids the need for exhaustive scans. The net is trained as before. but also is trained to compute ballistic &apos;eye&apos; movements that enable the input window to jump from one character to the next. The common model of visual processing includes multiple, independent stages. First, flltering operations act on the raw image to segment or isolate and enhance to-be-recognized clumps. These clumps are normalized for factors such as size, and sometimes simplified further through feature extraction. The results are then fed to one or more classifiers. The operations prior to classification simplify the recognition task. Object segmentation restricts the number of features considered for classification to those associated with a single object, and enables normalization to be applied at the individual object level. Without such pre-processing. recognition may be an intractable problem. However, a weak point of this sequential stage model is that recognition and segmenta-tion decisions are often interdependent. Not only does a correct recognition decision depend on first making a correct segmentation decision, but a correct segmentation decision often depends on first making a correct recognition decision. This is a particularly serious problem in character recognition applications. OCR systems use intervening white space and related features to segment a field of characters into individual characters, so that classification can be accomplished one character at a time. This approach fails when characters touch each other or when an individual character is broken up by intervening white space. Some means of integrating the seg-mentation and recognition stages is needed. This paper descnbes an approach, called centered object integrated segmentation and recognition (COISR), for integrating character segmentation and recognition within one • Also with Eastman Kodak Company</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

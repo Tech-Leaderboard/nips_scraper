@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Integer Polynomial Programming Based Framework for Lifted MAP Inference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Somdeb</forename><surname>Sarkhel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Department of CSE I.I.T. Delhi</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Dallas</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Deepak</forename><surname>Venugopal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Department of CSE I.I.T. Delhi</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Dallas</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Parag</forename><surname>Singla</surname></persName>
+							<email>parags@cse.iitd.ac.in</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Department of CSE I.I.T. Delhi</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Dallas</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vibhav</forename><surname>Gogate</surname></persName>
+							<email>vgogate@hlt.utdallas.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Computer Science Department</orgName>
+								<orgName type="department" key="dep2">Department of CSE I.I.T. Delhi</orgName>
+								<orgName type="department" key="dep3">Computer Science Department</orgName>
+								<orgName type="institution" key="instit1">The University of Texas at Dallas</orgName>
+								<orgName type="institution" key="instit2">The University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An Integer Polynomial Programming Based Framework for Lifted MAP Inference</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, we present a new approach for lifted MAP inference in Markov logic networks (MLNs). The key idea in our approach is to compactly encode the MAP inference problem as an Integer Polynomial Program (IPP) by schematically applying three lifted inference steps to the MLN: lifted decomposition, lifted conditioning, and partial grounding. Our IPP encoding is lifted in the sense that an integer assignment to a variable in the IPP may represent a truth-assignment to multiple indistinguishable ground atoms in the MLN. We show how to solve the IPP by first converting it to an Integer Linear Program (ILP) and then solving the latter using state-of-the-art ILP techniques. Experiments on several benchmark MLNs show that our new algorithm is substantially superior to ground inference and existing methods in terms of computational efficiency and solution quality.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

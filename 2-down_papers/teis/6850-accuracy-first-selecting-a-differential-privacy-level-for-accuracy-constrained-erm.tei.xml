@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Accuracy First: Selecting a Differential Privacy Level for Accuracy-Constrained ERM</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katrina</forename><surname>Ligett</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Caltech and Hebrew University</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit3">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Seth</forename><surname>Neel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Caltech and Hebrew University</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit3">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aaron</forename><surname>Roth</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Caltech and Hebrew University</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit3">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bo</forename><surname>Waggoner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Caltech and Hebrew University</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit3">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhiwei</forename><forename type="middle">Steven</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Caltech and Hebrew University</orgName>
+								<orgName type="institution" key="instit2">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit3">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit4">University of Pennsylvania</orgName>
+								<orgName type="institution" key="instit5">Microsoft Research</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Accuracy First: Selecting a Differential Privacy Level for Accuracy-Constrained ERM</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Traditional approaches to differential privacy assume a fixed privacy requirement ε for a computation, and attempt to maximize the accuracy of the computation subject to the privacy constraint. As differential privacy is increasingly deployed in practical settings, it may often be that there is instead a fixed accuracy requirement for a given computation and the data analyst would like to maximize the privacy of the computation subject to the accuracy constraint. This raises the question of how to find and run a maximally private empirical risk minimizer subject to a given accuracy requirement. We propose a general &quot;noise reduction&quot; framework that can apply to a variety of private empirical risk minimization (ERM) algorithms, using them to &quot;search&quot; the space of privacy levels to find the empirically strongest one that meets the accuracy constraint, and incurring only logarithmic overhead in the number of privacy levels searched. The privacy analysis of our algorithm leads naturally to a version of differential privacy where the privacy parameters are dependent on the data, which we term ex-post privacy, and which is related to the recently introduced notion of privacy odometers. We also give an ex-post privacy analysis of the classical AboveThreshold privacy tool, modifying it to allow for queries chosen depending on the database. Finally, we apply our approach to two common objective functions, regularized linear and logistic regression, and empirically compare our noise reduction methods to (i) inverting the theoretical utility guarantees of standard private ERM algorithms and (ii) a stronger, empirical baseline based on binary search. 1</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

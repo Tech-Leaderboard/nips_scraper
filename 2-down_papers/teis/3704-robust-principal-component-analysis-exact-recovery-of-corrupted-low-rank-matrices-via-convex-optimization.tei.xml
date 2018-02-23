@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Robust Principal Component Analysis: Exact Recovery of Corrupted Low-Rank Matrices by Convex Optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Wright</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Visual Computing Group Microsoft Research Asia</orgName>
+								<orgName type="laboratory" key="lab2">Coordinated Science Laboratory University of Illinois at Urbana-Champaign</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yigang</forename><surname>Peng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Visual Computing Group Microsoft Research Asia</orgName>
+								<orgName type="laboratory" key="lab2">Coordinated Science Laboratory University of Illinois at Urbana-Champaign</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yi</forename><surname>Ma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Visual Computing Group Microsoft Research Asia</orgName>
+								<orgName type="laboratory" key="lab2">Coordinated Science Laboratory University of Illinois at Urbana-Champaign</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arvind</forename><surname>Ganesh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Visual Computing Group Microsoft Research Asia</orgName>
+								<orgName type="laboratory" key="lab2">Coordinated Science Laboratory University of Illinois at Urbana-Champaign</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shankar</forename><surname>Rao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Visual Computing Group Microsoft Research Asia</orgName>
+								<orgName type="laboratory" key="lab2">Coordinated Science Laboratory University of Illinois at Urbana-Champaign</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Robust Principal Component Analysis: Exact Recovery of Corrupted Low-Rank Matrices by Convex Optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Principal component analysis is a fundamental operation in computational data analysis, with myriad applications ranging from web search to bioinformatics to computer vision and image analysis. However, its performance and applicability in real scenarios are limited by a lack of robustness to outlying or corrupted observations. This paper considers the idealized &quot;robust principal component anal-ysis&quot; problem of recovering a low rank matrix A from corrupted observations D = A + E. Here, the corrupted entries E are unknown and the errors can be arbitrarily large (modeling grossly corrupted observations common in visual and bioinformatic data), but are assumed to be sparse. We prove that most matrices A can be efficiently and exactly recovered from most error sign-and-support patterns by solving a simple convex program, for which we give a fast and provably convergent algorithm. Our result holds even when the rank of A grows nearly proportionally (up to a logarithmic factor) to the dimensionality of the observation space and the number of errors E grows in proportion to the total number of entries in the matrix. A by-product of our analysis is the first proportional growth results for the related problem of completing a low-rank matrix from a small fraction of its entries. Simulations and real-data examples corroborate the theoretical results, and suggest potential applications in computer vision.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

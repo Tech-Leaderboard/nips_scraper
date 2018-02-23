@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Managing Power Consumption and Performance of Computing Systems Using Reinforcement Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerald</forename><surname>Tesauro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Watson and Austin * Research Laboratories</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajarshi</forename><surname>Das</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Watson and Austin * Research Laboratories</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hoi</forename><surname>Chan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Watson and Austin * Research Laboratories</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">O</forename><surname>Kephart</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Watson and Austin * Research Laboratories</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Lefurgy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Watson and Austin * Research Laboratories</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">W</forename><surname>Levine</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Watson and Austin * Research Laboratories</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Freeman</forename><surname>Rawson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">IBM Watson and Austin * Research Laboratories</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Managing Power Consumption and Performance of Computing Systems Using Reinforcement Learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Electrical power management in large-scale IT systems such as commercial data-centers is an application area of rapidly growing interest from both an economic and ecological perspective, with billions of dollars and millions of metric tons of CO 2 emissions at stake annually. Businesses want to save power without sacrificing performance. This paper presents a reinforcement learning approach to simultaneous online management of both performance and power consumption. We apply RL in a realistic laboratory testbed using a Blade cluster and dynamically varying HTTP workload running on a commercial web applications mid-dleware platform. We embed a CPU frequency controller in the Blade servers&apos; firmware, and we train policies for this controller using a multi-criteria reward signal depending on both application performance and CPU power consumption. Our testbed scenario posed a number of challenges to successful use of RL, including multiple disparate reward functions, limited decision sampling rates, and pathologies arising when using multiple sensor readings as state variables. We describe innovative practical solutions to these challenges, and demonstrate clear performance improvements over both hand-designed policies as well as obvious &quot;cookbook&quot; RL implementations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

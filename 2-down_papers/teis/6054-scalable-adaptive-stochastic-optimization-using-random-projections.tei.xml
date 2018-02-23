@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scalable Adaptive Stochastic Optimization Using Random Projections</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gabriel</forename><surname>Krummenacher</surname></persName>
+							<email>gabriel.krummenacher@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute for Machine Learning</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution">ETH Zürich</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><surname>Mcwilliams</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Disney Research</orgName>
+								<address>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yannic</forename><surname>Kilcher</surname></persName>
+							<email>yannic.kilcher@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute for Machine Learning</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution">ETH Zürich</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joachim</forename><forename type="middle">M</forename><surname>Buhmann</surname></persName>
+							<email>jbuhmann@inf.ethz.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute for Machine Learning</orgName>
+								<orgName type="department" key="dep2">Department of Computer Science</orgName>
+								<orgName type="institution">ETH Zürich</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolai</forename><surname>Meinshausen</surname></persName>
+							<email>meinshausen@stat.math.ethz.ch</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Seminar for Statistics</orgName>
+								<orgName type="department" key="dep2">Department of Mathematics</orgName>
+								<orgName type="institution">ETH Zürich</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scalable Adaptive Stochastic Optimization Using Random Projections</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Adaptive stochastic gradient methods such as ADAGRAD have gained popularity in particular for training deep neural networks. The most commonly used and studied variant maintains a diagonal matrix approximation to second order information by accumulating past gradients which are used to tune the step size adaptively. In certain situations the full-matrix variant of ADAGRAD is expected to attain better performance, however in high dimensions it is computationally impractical. We present ADA-LR and RADAGRAD two computationally efficient approximations to full-matrix ADAGRAD based on randomized dimensionality reduction. They are able to capture dependencies between features and achieve similar performance to full-matrix ADAGRAD but at a much smaller computational cost. We show that the regret of ADA-LR is close to the regret of full-matrix ADAGRAD which can have an up-to exponentially smaller dependence on the dimension than the diagonal variant. Empirically, we show that ADA-LR and RADAGRAD perform similarly to full-matrix ADAGRAD. On the task of training convolutional neural networks as well as recurrent neural networks, RADAGRAD achieves faster convergence than diagonal ADAGRAD.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Instance-Ba sed Relevan ce Feedback fo r Ima ge Retriev al</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Giorgio</forename><surname>Giacinto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical and Electronic Engineering</orgName>
+								<orgName type="institution">University of Cagliari Piazza D&apos;Armi</orgName>
+								<address>
+									<postCode>09121</postCode>
+									<settlement>Cagliari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fabio</forename><surname>Roli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical and Electronic Engineering</orgName>
+								<orgName type="institution">University of Cagliari Piazza D&apos;Armi</orgName>
+								<address>
+									<postCode>09121</postCode>
+									<settlement>Cagliari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Instance-Ba sed Relevan ce Feedback fo r Ima ge Retriev al</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>High retrieval precision in content-based image retrieval can be attained by adopting relevance feedback mechanisms. These mechanisms require that the user judges the quality of the results of the query by marking all the retrieved images as being either relevant or not. Then, the search engine exploits this information to adapt the search to better meet user&apos;s needs. At present, the vast majority of proposed relevance feedback mechanisms are formulated in terms of search model that has to be optimized. Such an optimization involves the modification of some search parameters so that the nearest neighbor of the query vector contains the largest number of relevant images. In this paper, a different approach to relevance feedback is proposed. After the user provides the first feedback, following retrievals are not based on k-nn search, but on the computation of a relevance score for each image of the database. This score is computed as a function of two distances, namely the distance from the nearest non-relevant image and the distance from the nearest relevant one. Images are then ranked according to this score and the top k images are displayed. Reported results on three image data sets show that the proposed mechanism outperforms other state-of-the-art relevance feedback mechanisms.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:18+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inferring rankings under constrained sensing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Srikanth</forename><surname>Jagabathula</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Information and Decision Systems</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devavrat</forename><surname>Shah</surname></persName>
+							<email>{jskanth, devavrat}@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Information and Decision Systems</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inferring rankings under constrained sensing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Motivated by applications like elections, web-page ranking, revenue maximiza-tion etc., we consider the question of inferring popular rankings using constrained data. More specifically, we consider the problem of inferring a probability distribution over the group of permutations using its first order marginals. We first prove that it is not possible to recover more than O(n) permutations over n elements with the given information. We then provide a simple and novel algorithm that can recover up to O(n) permutations under a natural stochastic model; in this sense, the algorithm is optimal. In certain applications, the interest is in recovering only the most popular (or mode) ranking. As a second result, we provide an algorithm based on the Fourier Transform over the symmetric group to recover the mode under a natural majority condition; the algorithm turns out to be a maximum weight matching on an appropriately defined weighted bipartite graph. The questions considered are also thematically related to Fourier Transforms over the symmetric group and the currently popular topic of compressed sensing.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

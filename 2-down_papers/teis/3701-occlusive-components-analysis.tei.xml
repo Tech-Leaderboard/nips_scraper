@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Occlusive Components Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jörg</forename><forename type="middle">L ¨</forename><surname>Ucke</surname></persName>
+							<email>luecke@fias.uni-frankfurt.de</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Turner</surname></persName>
+							<email>turner@gatsby.ucl.ac.uk</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maneesh</forename><surname>Sahani</surname></persName>
+							<email>maneesh@gatsby.ucl.ac.uk</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Henniges</surname></persName>
+							<email>henniges@fias.uni-frankfurt.de</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit</orgName>
+								<orgName type="institution">Frankfurt Institute for Advanced Studies Goethe-University</orgName>
+								<address>
+									<addrLine>UCL 17 Queen Square</addrLine>
+									<postCode>WC1N 3AR</postCode>
+									<settlement>Frankfurt, London</settlement>
+									<country>Germany, UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Frankfurt Institute for Advanced Studies</orgName>
+								<orgName type="laboratory">Gatsby Computational Neuroscience Unit</orgName>
+								<orgName type="institution">Goethe-University</orgName>
+								<address>
+									<addrLine>UCL 17 Queen Square</addrLine>
+									<postCode>WC1N 3AR</postCode>
+									<settlement>London, Frankfurt</settlement>
+									<country>UK, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Occlusive Components Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>We study unsupervised learning in a probabilistic generative model for occlusion. The model uses two types of latent variables: one indicates which objects are present in the image, and the other how they are ordered in depth. This depth order then determines how the positions and appearances of the objects present, specified in the model parameters, combine to form the image. We show that the object parameters can be learnt from an unlabelled set of images in which objects occlude one another. Exact maximum-likelihood learning is intractable. However, we show that tractable approximations to Expectation Maximization (EM) can be found if the training images each contain only a small number of objects on average. In numerical experiments it is shown that these approximations recover the correct set of object parameters. Experiments on a novel version of the bars test using colored bars, and experiments on more realistic data, show that the algorithm performs well in extracting the generating causes. Experiments based on the standard bars benchmark test for object learning show that the algorithm performs well in comparison to other recent component extraction approaches. The model and the learning algorithm thus connect research on occlusion with the research field of multiple-causes component extraction methods.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/melina/Documents/js/scrape/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.1-SNAPSHOT" ident="GROBID" when="2018-02-21T06:13+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Neural Learning in Structured Parameter Spaces Natural Riemannian Gradient</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shun-Ichi</forename><surname>Amari</surname></persName>
+							<email>amari@zoo.riken.go.jp</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">RIKEN Frontier Research Program</orgName>
+								<orgName type="institution" key="instit2">RIKEN</orgName>
+								<address>
+									<addrLine>Hirosawa 2-1, Wako-shi 351-01</addrLine>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Neural Learning in Structured Parameter Spaces Natural Riemannian Gradient</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>The parameter space of neural networks has a Riemannian metric structure. The natural Riemannian gradient should be used instead of the conventional gradient, since the former denotes the true steepest descent direction of a loss function in the Riemannian space. The behavior of the stochastic gradient learning algorithm is much more effective if the natural gradient is used. The present paper studies the information-geometrical structure of perceptrons and other networks, and prove that the on-line learning method based on the natural gradient is asymptotically as efficient as the optimal batch algorithm. Adaptive modification of the learning constant is proposed and analyzed in terms of the Riemannian measure and is shown to be efficient. The natural gradient is finally applied to blind separation of mixtured independent signal sources. 1 Introd uction Neural learning takes place in the parameter space of modifiable synaptic weights of a neural network. The role of each parameter is different in the neural network so that the parameter space is structured in this sense. The Riemannian structure which represents a local distance measure is introduced in the parameter space by information geometry (Amari, 1985). On-line learning is mostly based on the stochastic gradient descent method, where the current weight vector is modified in the gradient direction of a loss function. However, the ordinary gradient does not represent the steepest direction of a loss function in the Riemannian space. A geometrical modification is necessary, and it is called the natural Riemannian gradient. The present paper studies the remarkable effects of using the natural Riemannian gradient in neural learning.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>
